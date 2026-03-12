@@ -59,23 +59,23 @@ const articleSchema = {
 
     <header class="article-header">
       <span class="article-category-badge">
-        {catInfo.icono} {catInfo.nombre}
+        <span aria-hidden="true">{catInfo.icono}</span> {catInfo.nombre}
       </span>
 
       <h1 class="article-title">{titulo}</h1>
       <p class="article-description">{descripcion}</p>
 
       <div class="article-meta">
-        <span>📅 Publicado: {fechaFormateada}</span>
+        <time datetime={fecha.toISOString().split('T')[0]}>Publicado: {fechaFormateada}</time>
         {actualizadoFormateado && (
-          <span>🔄 Actualizado: {actualizadoFormateado}</span>
+          <time datetime={(actualizadoEn as Date).toISOString().split('T')[0]}>Actualizado: {actualizadoFormateado}</time>
         )}
-        <span>⏱️ ~5 min lectura</span>
+        <span>~5 min lectura</span>
       </div>
     </header>
 
-    <div class="affiliate-disclaimer">
-      <span>ℹ️</span>
+    <div class="affiliate-disclaimer" role="note">
+      <span aria-hidden="true">ℹ️</span>
       <span>
         Este artículo contiene enlaces de afiliados. Si compras a través de
         ellos podemos recibir una pequeña comisión <strong>sin coste adicional

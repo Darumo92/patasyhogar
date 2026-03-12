@@ -81,7 +81,7 @@ const categorias = [
       <div class="categories-grid">
         {categorias.map(cat => (
           <a href={`/${cat.slug}`} class="category-card">
-            <span class="category-icon">{cat.icono}</span>
+            <span class="category-icon" aria-hidden="true">{cat.icono}</span>
             <div class="category-info">
               <h3>{cat.nombre}</h3>
               <p>{cat.descripcion}</p>

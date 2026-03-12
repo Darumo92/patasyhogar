@@ -6,7 +6,7 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const { titulo, descripcion, categoria, fecha, imagen, imagenAlt } = articulo.data;
+const { titulo, descripcion, categoria, fecha, imagen } = articulo.data;
 
 const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
   alimentacion: { nombre: 'Alimentación', icono: '🍖' },
@@ -26,11 +26,11 @@ const fechaFormateada = fecha.toLocaleDateString('es-ES', {
 ---
 
 <article class="article-card">
-  <a href={url} class="article-card-image">
+  <a href={url} class="article-card-image" aria-hidden="true" tabindex="-1">
     {imagen ? (
-      <img src={imagen} alt={imagenAlt || titulo} loading="lazy" />
+      <img src={imagen} alt="" loading="lazy" />
     ) : (
-      <div class="article-card-image-placeholder">
+      <div class="article-card-image-placeholder" aria-hidden="true">
         {info.icono}
       </div>
     )}
@@ -48,8 +48,8 @@ const fechaFormateada = fecha.toLocaleDateString('es-ES', {
     <p class="article-card-excerpt">{descripcion}</p>
 
     <div class="article-card-meta">
-      <span>{fechaFormateada}</span>
-      <a href={url} class="article-card-link">Leer más →</a>
+      <time datetime={fecha.toISOString().split('T')[0]}>{fechaFormateada}</time>
+      <a href={url} class="article-card-link" aria-label={`Leer más sobre ${titulo}`}>Leer más →</a>
     </div>
   </div>
 </article>
