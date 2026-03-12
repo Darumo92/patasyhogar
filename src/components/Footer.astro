@@ -1,0 +1,57 @@
+---
+const categorias = [
+  { href: '/alimentacion', label: 'Alimentación' },
+  { href: '/higiene', label: 'Higiene' },
+  { href: '/descanso', label: 'Descanso y Transporte' },
+  { href: '/comportamiento', label: 'Enriquecimiento' },
+];
+
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo" style="color: #fff;">
+          <span class="logo-icon">🐾</span>
+          Patas y <span style="color: var(--color-primary)">Hogar</span>
+        </a>
+        <p>
+          Guías de compra y comparativas de productos para perros y gatos.
+          Análisis honestos para ayudarte a elegir lo mejor para tu mascota.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Categorías</h4>
+        <ul class="footer-links">
+          {categorias.map(c => (
+            <li><a href={c.href}>{c.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="/sobre-nosotros">Sobre nosotros</a></li>
+          <li><a href="/politica-privacidad">Privacidad</a></li>
+          <li><a href="/aviso-legal">Aviso legal</a></li>
+          <li><a href="/cookies">Política de cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-affiliate-notice">
+      ⚠️ <strong>Aviso de afiliados:</strong> Patasyhogar.com participa en el
+      Programa de Afiliados de Amazon EU y otros programas de afiliación. Cuando
+      compras a través de nuestros enlaces podemos recibir una comisión sin coste
+      adicional para ti. Esto nos ayuda a mantener el sitio gratuito.
+    </div>
+
+    <div class="footer-bottom">
+      <p>© {year} Patasyhogar.com · Todos los derechos reservados</p>
+    </div>
+  </div>
+</footer>

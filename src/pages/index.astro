@@ -1,0 +1,130 @@
+---
+import Base from '@/layouts/Base.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const articulos = await getCollection('articulos');
+
+const recientes = articulos
+  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
+  .slice(0, 6);
+
+const categorias = [
+  {
+    slug: 'alimentacion',
+    nombre: 'Alimentación',
+    descripcion: 'Pienso, húmeda, snacks, fuentes y comederos para perros y gatos',
+    icono: '🍖',
+    count: articulos.filter(a => a.data.categoria === 'alimentacion').length,
+  },
+  {
+    slug: 'higiene',
+    nombre: 'Higiene',
+    descripcion: 'Arena, areneros, cepillos, champús y cuidado diario',
+    icono: '🛁',
+    count: articulos.filter(a => a.data.categoria === 'higiene').length,
+  },
+  {
+    slug: 'descanso',
+    nombre: 'Descanso y Transporte',
+    descripcion: 'Camas, transportines, mochilas y jaulas',
+    icono: '🛏️',
+    count: articulos.filter(a => a.data.categoria === 'descanso').length,
+  },
+  {
+    slug: 'comportamiento',
+    nombre: 'Enriquecimiento',
+    descripcion: 'Juguetes, rascadores, mordedores y estimulación mental',
+    icono: '🎾',
+    count: articulos.filter(a => a.data.categoria === 'comportamiento').length,
+  },
+];
+---
+
+<Base
+  title="Patas y Hogar · Guías y comparativas para perros y gatos"
+  description="Análisis honestos y comparativas de productos para perros y gatos. Pienso, accesorios, higiene, camas y transportines. Todo lo que tu mascota necesita."
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">
+        Lo mejor para tu <span>perro y tu gato</span>,<br />
+        sin perder tiempo buscando
+      </h1>
+      <p class="hero-subtitle">
+        Comparativas honestas y guías de compra. Solo recomendamos lo que
+        realmente vale la pena.
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>{articulos.length}</strong>
+          <span>artículos analizados</span>
+        </div>
+        <div class="hero-stat">
+          <strong>100%</strong>
+          <span>opinión independiente</span>
+        </div>
+        <div class="hero-stat">
+          <strong>3</strong>
+          <span>tiendas comparadas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categorías -->
+  <section class="section" style="background: var(--color-bg-muted); border-bottom: 1px solid var(--color-border);">
+    <div class="container">
+      <h2 class="section-title">Explora por categoría</h2>
+      <p class="section-subtitle">Encuentra exactamente lo que buscas para tu mascota</p>
+      <div class="categories-grid">
+        {categorias.map(cat => (
+          <a href={`/${cat.slug}`} class="category-card">
+            <span class="category-icon">{cat.icono}</span>
+            <div class="category-info">
+              <h3>{cat.nombre}</h3>
+              <p>{cat.descripcion}</p>
+              {cat.count > 0 && (
+                <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--color-primary); font-weight: 600;">
+                  {cat.count} {cat.count === 1 ? 'artículo' : 'artículos'}
+                </p>
+              )}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Artículos recientes -->
+  {recientes.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Últimos análisis</h2>
+        <p class="section-subtitle">Los artículos más recientes del blog</p>
+        <div class="articles-grid">
+          {recientes.map(articulo => (
+            <ArticleCard articulo={articulo} />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="section" style="background: linear-gradient(135deg, #fff8f4, #fef3e8); border-top: 1px solid var(--color-border);">
+    <div class="container text-center">
+      <h2 style="font-size: 1.75rem; font-weight: 800; margin-bottom: 0.75rem;">
+        ¿No sabes por dónde empezar?
+      </h2>
+      <p style="color: var(--color-text-muted); margin-bottom: 1.5rem; font-size: 1.05rem; max-width: 500px; margin-left: auto; margin-right: auto;">
+        Empieza por la sección de alimentación: es la decisión más importante
+        para la salud de tu mascota.
+      </p>
+      <a href="/alimentacion" class="affiliate-button" style="font-size: 1rem; padding: 0.875rem 2rem;">
+        🍖 Ver guías de alimentación
+      </a>
+    </div>
+  </section>
+</Base>

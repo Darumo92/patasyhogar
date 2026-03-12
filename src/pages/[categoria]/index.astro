@@ -1,0 +1,83 @@
+---
+import Base from '@/layouts/Base.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  return [
+    { params: { categoria: 'alimentacion' } },
+    { params: { categoria: 'higiene' } },
+    { params: { categoria: 'descanso' } },
+    { params: { categoria: 'comportamiento' } },
+  ];
+}
+
+const { categoria } = Astro.params;
+
+const categoriasInfo: Record<string, { nombre: string; descripcion: string; icono: string }> = {
+  alimentacion: {
+    nombre: 'Alimentación',
+    descripcion: 'Guías y comparativas de pienso, comida húmeda, snacks, fuentes y comederos para perros y gatos.',
+    icono: '🍖',
+  },
+  higiene: {
+    nombre: 'Higiene',
+    descripcion: 'Todo sobre arena, areneros, cepillos, champús y productos de cuidado diario para mascotas.',
+    icono: '🛁',
+  },
+  descanso: {
+    nombre: 'Descanso y Transporte',
+    descripcion: 'Análisis de camas, transportines, mochilas de transporte y jaulas para perros y gatos.',
+    icono: '🛏️',
+  },
+  comportamiento: {
+    nombre: 'Enriquecimiento',
+    descripcion: 'Juguetes interactivos, rascadores, mordedores y accesorios para estimular a tu mascota.',
+    icono: '🎾',
+  },
+};
+
+const info = categoriasInfo[categoria as string];
+
+const articulos = await getCollection('articulos', ({ data }) => data.categoria === categoria);
+const articulosOrdenados = articulos.sort(
+  (a, b) => b.data.fecha.getTime() - a.data.fecha.getTime()
+);
+---
+
+<Base
+  title={`${info.nombre} para perros y gatos | Patas y Hogar`}
+  description={info.descripcion}
+>
+  <div class="category-page-header">
+    <div class="container">
+      <div class="category-icon-large">{info.icono}</div>
+      <h1>{info.nombre}</h1>
+      <p>{info.descripcion}</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    {articulosOrdenados.length > 0 ? (
+      <>
+        <p class="text-muted mb-8">
+          {articulosOrdenados.length} {articulosOrdenados.length === 1 ? 'artículo' : 'artículos'}
+        </p>
+        <div class="articles-grid">
+          {articulosOrdenados.map(articulo => (
+            <ArticleCard articulo={articulo} />
+          ))}
+        </div>
+      </>
+    ) : (
+      <div class="text-center" style="padding: 4rem 0;">
+        <p style="font-size: 3rem; margin-bottom: 1rem;">{info.icono}</p>
+        <h2 style="margin-bottom: 0.5rem;">Próximamente</h2>
+        <p class="text-muted">Estamos preparando los primeros artículos de esta categoría.</p>
+        <a href="/" class="affiliate-button" style="margin-top: 1.5rem; display: inline-flex;">
+          ← Volver al inicio
+        </a>
+      </div>
+    )}
+  </div>
+</Base>

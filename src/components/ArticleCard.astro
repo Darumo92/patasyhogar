@@ -1,0 +1,55 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  articulo: CollectionEntry<'articulos'>;
+}
+
+const { articulo } = Astro.props;
+const { titulo, descripcion, categoria, fecha, imagen, imagenAlt } = articulo.data;
+
+const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
+  alimentacion: { nombre: 'Alimentación', icono: '🍖' },
+  higiene: { nombre: 'Higiene', icono: '🛁' },
+  descanso: { nombre: 'Descanso', icono: '🛏️' },
+  comportamiento: { nombre: 'Enriquecimiento', icono: '🎾' },
+};
+
+const info = categoriasInfo[categoria];
+const url = `/${categoria}/${articulo.slug}`;
+
+const fechaFormateada = fecha.toLocaleDateString('es-ES', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<article class="article-card">
+  <a href={url} class="article-card-image">
+    {imagen ? (
+      <img src={imagen} alt={imagenAlt || titulo} loading="lazy" />
+    ) : (
+      <div class="article-card-image-placeholder">
+        {info.icono}
+      </div>
+    )}
+  </a>
+
+  <div class="article-card-body">
+    <span class={`article-card-category badge badge-${categoria}`}>
+      {info.nombre}
+    </span>
+
+    <a href={url}>
+      <h3 class="article-card-title">{titulo}</h3>
+    </a>
+
+    <p class="article-card-excerpt">{descripcion}</p>
+
+    <div class="article-card-meta">
+      <span>{fechaFormateada}</span>
+      <a href={url} class="article-card-link">Leer más →</a>
+    </div>
+  </div>
+</article>

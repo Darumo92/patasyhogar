@@ -1,0 +1,28 @@
+---
+interface Props {
+  href: string;
+  tienda?: 'amazon' | 'zooplus' | 'tiendanimal' | 'default';
+  texto?: string;
+}
+
+const { href, tienda = 'default', texto } = Astro.props;
+
+const tiendaInfo: Record<string, { label: string; icono: string }> = {
+  amazon: { label: 'Ver en Amazon', icono: '🛒' },
+  zooplus: { label: 'Ver en Zooplus', icono: '🛒' },
+  tiendanimal: { label: 'Ver en Tiendanimal', icono: '🛒' },
+  default: { label: 'Ver oferta', icono: '🛒' },
+};
+
+const info = tiendaInfo[tienda];
+const label = texto || info.label;
+---
+
+<a
+  href={href}
+  class={`affiliate-button ${tienda !== 'default' ? tienda : ''}`}
+  target="_blank"
+  rel="nofollow noopener noreferrer sponsored"
+>
+  {info.icono} {label}
+</a>

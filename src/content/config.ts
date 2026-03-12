@@ -1,0 +1,20 @@
+import { defineCollection, z } from 'astro:content';
+
+const CATEGORIAS = ['alimentacion', 'higiene', 'descanso', 'comportamiento'] as const;
+
+const articulos = defineCollection({
+  type: 'content',
+  schema: z.object({
+    titulo: z.string(),
+    descripcion: z.string(),
+    categoria: z.enum(CATEGORIAS),
+    fecha: z.coerce.date(),
+    imagen: z.string().optional(),
+    imagenAlt: z.string().optional(),
+    destacado: z.boolean().default(false),
+    tags: z.array(z.string()).default([]),
+    actualizadoEn: z.coerce.date().optional(),
+  }),
+});
+
+export const collections = { articulos };
