@@ -15,7 +15,7 @@ const year = new Date().getFullYear();
       <div class="footer-brand">
         <a href="/" class="logo" style="color: #fff;">
           <span class="logo-icon">🐾</span>
-          Patas y <span style="color: var(--color-primary)">Hogar</span>
+          Patas y <span style="color: #f59e0b">Hogar</span>
         </a>
         <p>
           Guías de compra y comparativas de productos para perros y gatos.
@@ -24,7 +24,7 @@ const year = new Date().getFullYear();
       </div>
 
       <div class="footer-col">
-        <h4>Categorías</h4>
+        <p class="footer-heading">Categorías</p>
         <ul class="footer-links" role="list">
           {categorias.map(c => (
             <li><a href={c.href}>{c.label}</a></li>
@@ -33,7 +33,7 @@ const year = new Date().getFullYear();
       </div>
 
       <div class="footer-col">
-        <h4>Legal</h4>
+        <p class="footer-heading">Legal</p>
         <ul class="footer-links" role="list">
           <li><a href="/sobre-nosotros">Sobre nosotros</a></li>
           <li><a href="/politica-privacidad">Privacidad</a></li>
