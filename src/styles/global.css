@@ -3,19 +3,19 @@
    ========================================= */
 
 :root {
-  --color-primary: #e07b39;
-  --color-primary-dark: #c4642a;
-  --color-primary-light: #f5a978;
-  --color-secondary: #4a7c59;
-  --color-accent: #f5a623;
+  --color-primary: #b45309;
+  --color-primary-dark: #92400e;
+  --color-primary-light: #d97706;
+  --color-secondary: #3d6b4e;
+  --color-accent: #b45309;
 
   --color-bg: #fafaf8;
   --color-bg-card: #ffffff;
   --color-bg-muted: #f3f0ea;
 
   --color-text: #2c2c2c;
-  --color-text-muted: #666666;
-  --color-text-light: #999999;
+  --color-text-muted: #555555;
+  --color-text-light: #717171;
 
   --color-border: #e8e4df;
   --color-border-dark: #d0cac2;
@@ -155,7 +155,7 @@ a:hover {
 
 .nav-link.active {
   color: var(--color-primary);
-  background: rgba(224, 123, 57, 0.1);
+  background: rgba(180, 83, 9, 0.12);
 }
 
 .nav-toggle {
@@ -440,7 +440,7 @@ a:hover {
 
 .article-category-badge {
   display: inline-block;
-  background: rgba(224, 123, 57, 0.1);
+  background: rgba(180, 83, 9, 0.12);
   color: var(--color-primary);
   font-size: 0.8rem;
   font-weight: 600;
@@ -594,34 +594,34 @@ a:hover {
   background: var(--color-primary-dark);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(224, 123, 57, 0.4);
+  box-shadow: 0 4px 12px rgba(180, 83, 9, 0.4);
 }
 
 .affiliate-button.amazon {
-  background: #ff9900;
+  background: #a35f00;
 }
 
 .affiliate-button.amazon:hover {
-  background: #e68900;
-  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.4);
+  background: #8a5000;
+  box-shadow: 0 4px 12px rgba(163, 95, 0, 0.4);
 }
 
 .affiliate-button.zooplus {
-  background: #e4001b;
+  background: #b7001a;
 }
 
 .affiliate-button.zooplus:hover {
-  background: #c40017;
-  box-shadow: 0 4px 12px rgba(228, 0, 27, 0.3);
+  background: #960015;
+  box-shadow: 0 4px 12px rgba(183, 0, 26, 0.3);
 }
 
 .affiliate-button.tiendanimal {
-  background: #00a550;
+  background: #007a3d;
 }
 
 .affiliate-button.tiendanimal:hover {
-  background: #008040;
-  box-shadow: 0 4px 12px rgba(0, 165, 80, 0.3);
+  background: #005c2e;
+  box-shadow: 0 4px 12px rgba(0, 122, 61, 0.3);
 }
 
 .affiliate-button-group {
@@ -803,23 +803,23 @@ a:hover {
 }
 
 .badge-alimentacion {
-  background: #fff0e6;
-  color: #e07b39;
+  background: #fef3e8;
+  color: #92400e;
 }
 
 .badge-higiene {
   background: #e8f4ed;
-  color: #4a7c59;
+  color: #2d5a3d;
 }
 
 .badge-descanso {
   background: #eef0f8;
-  color: #5060a0;
+  color: #3b4580;
 }
 
 .badge-comportamiento {
   background: #fef3e8;
-  color: #c4642a;
+  color: #7c3a12;
 }
 
 .text-center {

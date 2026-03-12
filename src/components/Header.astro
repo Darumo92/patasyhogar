@@ -17,11 +17,11 @@ const navLinks = [
         Patas y <span>Hogar</span>
       </a>
 
-      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
         ☰
       </button>
 
-      <nav class="nav" id="nav">
+      <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
         {navLinks.map(link => (
           <a
             href={link.href}
@@ -38,5 +38,9 @@ const navLinks = [
 <script>
   const toggle = document.getElementById('nav-toggle');
   const nav = document.getElementById('nav');
-  toggle?.addEventListener('click', () => nav?.classList.toggle('open'));
+  toggle?.addEventListener('click', () => {
+    nav?.classList.toggle('open');
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+  });
 </script>
