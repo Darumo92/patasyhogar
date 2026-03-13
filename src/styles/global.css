@@ -598,30 +598,36 @@ a:hover {
 }
 
 .affiliate-button.amazon {
-  background: #a35f00;
+  background: #f0a830;
+  color: #1a1a1a;
 }
 
 .affiliate-button.amazon:hover {
-  background: #8a5000;
-  box-shadow: 0 4px 12px rgba(163, 95, 0, 0.4);
+  background: #d99520;
+  color: #1a1a1a;
+  box-shadow: 0 4px 12px rgba(240, 168, 48, 0.4);
 }
 
 .affiliate-button.zooplus {
-  background: #b7001a;
+  background: #e0163c;
+  color: #fff;
 }
 
 .affiliate-button.zooplus:hover {
-  background: #960015;
-  box-shadow: 0 4px 12px rgba(183, 0, 26, 0.3);
+  background: #c01232;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(224, 22, 60, 0.3);
 }
 
 .affiliate-button.tiendanimal {
-  background: #007a3d;
+  background: #00a854;
+  color: #fff;
 }
 
 .affiliate-button.tiendanimal:hover {
-  background: #005c2e;
-  box-shadow: 0 4px 12px rgba(0, 122, 61, 0.3);
+  background: #008c46;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 168, 84, 0.3);
 }
 
 .affiliate-button-group {
