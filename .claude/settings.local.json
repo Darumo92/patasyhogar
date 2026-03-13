@@ -29,7 +29,8 @@
       "Bash(curl -sL -o \"mejor-rascador-gato-grande.jpg\" \"https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&w=800\")",
       "Bash(curl -sL -o \"arbol-rascador-pequeno-pisos.jpg\" \"https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=800\")",
       "Bash(curl -sL -o \"juguetes-interactivos-gatos-solos.jpg\" \"https://images.pexels.com/photos/3777648/pexels-photo-3777648.jpeg?auto=compress&cs=tinysrgb&w=800\")",
-      "Bash(curl -sL --max-time 60 -o \"c:/Users/David/Proyectos/patasyhogar/public/images/articulos/test-gen.jpg\" \"https://image.pollinations.ai/prompt/dog+leash+on+white+background+professional+product+photo\" -w \"%{http_code} size:%{size_download} bytes\\\\n\")"
+      "Bash(curl -sL --max-time 60 -o \"c:/Users/David/Proyectos/patasyhogar/public/images/articulos/test-gen.jpg\" \"https://image.pollinations.ai/prompt/dog+leash+on+white+background+professional+product+photo\" -w \"%{http_code} size:%{size_download} bytes\\\\n\")",
+      "Bash(grep -l \"TopPick\" \"c:/Users/David/Proyectos/patasyhogar/src/content/articulos\"/*.mdx)"
     ]
   }
 }
