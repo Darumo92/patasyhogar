@@ -3,7 +3,32 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(npm run:*)",
-      "Bash(npx wrangler:*)"
+      "Bash(npx wrangler:*)",
+      "Bash(curl -sL -o \"mejor-pienso-perro-senior.jpg\" \"https://images.pexels.com/photos/3777622/pexels-photo-3777622.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-pienso-perro-esterilizado.jpg\" \"https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-pienso-cachorro-raza-grande.jpg\" \"https://images.pexels.com/photos/1587300/pexels-photo-1587300.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"diferencia-pienso-grain-free-normal.jpg\" \"https://images.pexels.com/photos/6131954/pexels-photo-6131954.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejores-snacks-naturales-perros.jpg\" \"https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejores-comederos-antiengulle-perros.jpg\" \"https://images.pexels.com/photos/7210270/pexels-photo-7210270.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-bebedero-perro.jpg\" \"https://images.pexels.com/photos/3908164/pexels-photo-3908164.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-cama-perro-resistente.jpg\" \"https://images.pexels.com/photos/1909802/pexels-photo-1909802.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-collar-antiparasitario-perro.jpg\" \"https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-gps-perro.jpg\" \"https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"transportin-rigido-vs-blando-gatos.jpg\" \"https://images.pexels.com/photos/1521305/pexels-photo-1521305.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-transportin-cabina-avion.jpg\" \"https://images.pexels.com/photos/1276553/pexels-photo-1276553.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mochila-transportar-gatos.jpg\" \"https://images.pexels.com/photos/2061057/pexels-photo-2061057.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-arenero-cerrado-gatos-grandes.jpg\" \"https://images.pexels.com/photos/3777649/pexels-photo-3777649.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-arena-aglomerante-gatos.jpg\" \"https://images.pexels.com/photos/3714453/pexels-photo-3714453.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"arena-sin-polvo-comparativa.jpg\" \"https://images.pexels.com/photos/4587955/pexels-photo-4587955.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"comparativa-fuentes-agua-gatos.jpg\" \"https://images.pexels.com/photos/1643456/pexels-photo-1643456.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"pienso-gato-problemas-urinarios.jpg\" \"https://images.pexels.com/photos/1404819/pexels-photo-1404819.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-pienso-gato-esterilizado.jpg\" \"https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"cuanto-debe-comer-gato-adulto.jpg\" \"https://images.pexels.com/photos/1828875/pexels-photo-1828875.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-comida-humeda-gatos.jpg\" \"https://images.pexels.com/photos/2061057/pexels-photo-2061057.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-cama-gato.jpg\" \"https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"mejor-rascador-gato-grande.jpg\" \"https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"arbol-rascador-pequeno-pisos.jpg\" \"https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=800\")",
+      "Bash(curl -sL -o \"juguetes-interactivos-gatos-solos.jpg\" \"https://images.pexels.com/photos/3777648/pexels-photo-3777648.jpeg?auto=compress&cs=tinysrgb&w=800\")"
     ]
   }
 }
