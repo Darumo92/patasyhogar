@@ -1,0 +1,132 @@
+---
+const AMAZON_TAG = 'patasyhogar-21';
+
+interface Props {
+  nombre: string;
+  descripcion: string;
+  precio: string;
+  enlaceAmazon?: string;
+  enlaceZooplus?: string;
+  imagen?: string;
+  etiqueta?: string;
+}
+
+const {
+  nombre,
+  descripcion,
+  precio,
+  enlaceAmazon,
+  enlaceZooplus,
+  imagen,
+  etiqueta = 'Nuestra elección',
+} = Astro.props;
+
+const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
+  ? `${enlaceAmazon}&tag=${AMAZON_TAG}`
+  : enlaceAmazon;
+---
+
+<div class="top-pick">
+  <div class="top-pick-badge">{etiqueta}</div>
+  <div class="top-pick-body">
+    {imagen && (
+      <img src={imagen} alt={nombre} width="120" height="120" class="top-pick-img" />
+    )}
+    <div class="top-pick-info">
+      <p class="top-pick-nombre">{nombre}</p>
+      <p class="top-pick-desc">{descripcion}</p>
+      <p class="top-pick-precio">Precio aprox.: <strong>{precio}</strong></p>
+      <div class="top-pick-buttons">
+        {amazonFinal && (
+          <a href={amazonFinal} class="affiliate-button amazon" target="_blank" rel="nofollow noopener noreferrer sponsored">
+            🛒 Consultar precio en Amazon
+          </a>
+        )}
+        {enlaceZooplus && (
+          <a href={enlaceZooplus} class="affiliate-button zooplus" target="_blank" rel="nofollow noopener noreferrer sponsored">
+            🛒 Ver en Zooplus
+          </a>
+        )}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.top-pick {
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  background: color-mix(in srgb, var(--color-primary) 6%, var(--color-bg));
+  position: relative;
+}
+
+.top-pick-badge {
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background: var(--color-primary);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.75rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.top-pick-body {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-top: 0.25rem;
+}
+
+.top-pick-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.top-pick-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.top-pick-nombre {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  color: var(--color-text);
+}
+
+.top-pick-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.top-pick-precio {
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+}
+
+.top-pick-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .top-pick-body {
+    flex-direction: column;
+  }
+  .top-pick-img {
+    width: 100%;
+    height: 140px;
+  }
+}
+</style>
