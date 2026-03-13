@@ -16,10 +16,14 @@ const tiendaInfo: Record<string, { label: string; icono: string }> = {
 
 const info = tiendaInfo[tienda];
 const label = texto || info.label;
+
+const finalHref = tienda === 'amazon' && !href.includes('tag=')
+  ? `${href}&tag=patasyhogar-21`
+  : href;
 ---
 
 <a
-  href={href}
+  href={finalHref}
   class={`affiliate-button ${tienda !== 'default' ? tienda : ''}`}
   target="_blank"
   rel="nofollow noopener noreferrer sponsored"
