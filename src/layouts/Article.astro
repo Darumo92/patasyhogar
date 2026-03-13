@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const { titulo, descripcion, categoria, fecha, actualizadoEn, tags } = articulo.data;
+const { titulo, descripcion, categoria, fecha, actualizadoEn, tags, imagen, imagenAlt } = articulo.data;
 
 const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
   alimentacion: { nombre: 'Alimentación', icono: '🍖' },
@@ -86,6 +86,16 @@ const breadcrumbSchema = {
         <span>~5 min lectura</span>
       </div>
     </header>
+
+    {imagen && (
+      <img
+        src={imagen}
+        alt={imagenAlt || titulo}
+        width="800"
+        height="400"
+        style="width: 100%; height: auto; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;"
+      />
+    )}
 
     <div class="affiliate-disclaimer" role="note">
       <span aria-hidden="true">ℹ️</span>

@@ -4,9 +4,16 @@ interface Producto {
   precio: string;
   valoracion: number;
   puntosFuertes: string;
+  imagen?: string;
   enlaceAmazon?: string;
   enlaceZooplus?: string;
   enlaceTiendanimal?: string;
+}
+
+const AMAZON_TAG = 'patasyhogar-21';
+
+function amazonHref(url: string): string {
+  return url.includes('tag=') ? url : `${url}&tag=${AMAZON_TAG}`;
 }
 
 interface Props {
@@ -37,7 +44,13 @@ function estrellas(n: number): string {
     <tbody>
       {productos.map(p => (
         <tr>
-          <td class="product-name">{p.nombre}</td>
+          <td class="product-name">
+            {p.imagen && (
+              <img src={p.imagen} alt={p.nombre} width="80" height="80"
+                style="display:block; margin-bottom: 0.4rem; border-radius: 4px; object-fit: contain;" />
+            )}
+            {p.nombre}
+          </td>
           <td>
             <span class="rating" title={`${p.valoracion}/5`}>
               {estrellas(p.valoracion)}
@@ -52,7 +65,7 @@ function estrellas(n: number): string {
             <div style="display: flex; flex-direction: column; gap: 0.4rem;">
               {p.enlaceAmazon && (
                 <a
-                  href={p.enlaceAmazon}
+                  href={amazonHref(p.enlaceAmazon)}
                   class="affiliate-button amazon"
                   style="font-size: 0.8rem; padding: 0.4rem 0.75rem;"
                   target="_blank"
