@@ -38,6 +38,14 @@ const navLinks = [
         >
           🔍
         </a>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Cambiar tema claro/oscuro"
+          title="Cambiar tema"
+        >
+          <span id="theme-icon">🌙</span>
+        </button>
       </nav>
     </div>
   </div>
@@ -57,5 +65,25 @@ const navLinks = [
     nav?.classList.toggle('open');
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!expanded));
+  });
+
+  // Dark mode toggle
+  const themeBtn = document.getElementById('theme-toggle');
+  const themeIcon = document.getElementById('theme-icon');
+  function updateIcon() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (themeIcon) themeIcon.textContent = isDark ? '☀️' : '🌙';
+  }
+  updateIcon();
+  themeBtn?.addEventListener('click', () => {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    }
+    updateIcon();
   });
 </script>

@@ -129,6 +129,8 @@ const breadcrumbSchema = {
         alt={imagenAlt || titulo}
         width="800"
         height="400"
+        loading="eager"
+        decoding="async"
         style="width: 100%; height: auto; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;"
       />
     )}
@@ -167,14 +169,14 @@ const breadcrumbSchema = {
     {faqs && faqs.length > 0 && (
       <section class="faq-section" aria-labelledby="faq-titulo">
         <h2 id="faq-titulo">Preguntas frecuentes</h2>
-        <dl class="faq-list">
+        <div class="faq-list">
           {faqs.map(f => (
-            <div class="faq-item">
-              <dt class="faq-pregunta">{f.pregunta}</dt>
-              <dd class="faq-respuesta">{f.respuesta}</dd>
-            </div>
+            <details class="faq-item">
+              <summary class="faq-pregunta">{f.pregunta}</summary>
+              <p class="faq-respuesta">{f.respuesta}</p>
+            </details>
           ))}
-        </dl>
+        </div>
       </section>
     )}
 
@@ -286,12 +288,33 @@ const breadcrumbSchema = {
       padding: 0.875rem 1.25rem;
       font-weight: 600;
       font-size: 0.95rem;
-      cursor: default;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      user-select: none;
+    }
+    .faq-pregunta::-webkit-details-marker {
+      display: none;
     }
     .faq-pregunta::before {
       content: 'P: ';
       color: var(--color-primary);
       font-weight: 700;
+      flex-shrink: 0;
+    }
+    .faq-pregunta::after {
+      content: '+';
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+    .faq-item[open] .faq-pregunta::after {
+      content: '−';
     }
     .faq-respuesta {
       padding: 0.875rem 1.25rem;

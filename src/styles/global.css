@@ -35,6 +35,28 @@
   --container-padding: 1.5rem;
 }
 
+/* Dark mode */
+[data-theme="dark"] {
+  --color-bg: #1a1a1a;
+  --color-bg-card: #242424;
+  --color-bg-muted: #2a2a2a;
+
+  --color-text: #e5e5e5;
+  --color-text-muted: #a0a0a0;
+  --color-text-light: #888888;
+
+  --color-border: #3a3a3a;
+  --color-border-dark: #4a4a4a;
+
+  --color-primary: #e09050;
+  --color-primary-dark: #d07830;
+  --color-primary-light: #f0a060;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
 *,
 *::before,
 *::after {
@@ -100,8 +122,28 @@ a:hover {
    HEADER
    ========================================= */
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.9rem;
+  z-index: 200;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+  color: #fff;
+}
+
 .header {
-  background: #fff;
+  background: var(--color-bg-card);
   border-bottom: 1px solid var(--color-border);
   position: sticky;
   top: 0;
@@ -180,7 +222,7 @@ a:hover {
     top: 64px;
     left: 0;
     right: 0;
-    background: #fff;
+    background: var(--color-bg-card);
     border-bottom: 1px solid var(--color-border);
     flex-direction: column;
     padding: 1rem;
@@ -923,4 +965,138 @@ mark {
   color: inherit;
   border-radius: 2px;
   padding: 0 2px;
+}
+
+/* =========================================
+   FOCUS STYLES (Accessibility)
+   ========================================= */
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+button:focus-visible,
+.affiliate-button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(180, 83, 9, 0.2);
+}
+
+/* =========================================
+   DARK MODE OVERRIDES
+   ========================================= */
+
+[data-theme="dark"] .header {
+  background: #242424;
+}
+
+[data-theme="dark"] .nav {
+  background: #242424;
+}
+
+[data-theme="dark"] .hero {
+  background: linear-gradient(135deg, #1e1e1e 0%, #252015 100%);
+}
+
+[data-theme="dark"] .category-page-header {
+  background: linear-gradient(135deg, #1e1e1e, #252015);
+}
+
+[data-theme="dark"] .article-card-image-placeholder {
+  background: linear-gradient(135deg, #252015, #2a2010);
+}
+
+[data-theme="dark"] .footer {
+  background: #111111;
+}
+
+[data-theme="dark"] .affiliate-disclaimer {
+  background: #2a2010;
+  border-color: #4a3520;
+  color: #d0a070;
+}
+
+[data-theme="dark"] .affiliate-button.amazon {
+  background: #c08820;
+  color: #fff;
+}
+
+[data-theme="dark"] .affiliate-button.amazon:hover {
+  background: #a07018;
+  color: #fff;
+}
+
+[data-theme="dark"] mark {
+  background: #78600a;
+}
+
+/* Dark mode toggle button */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.4rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  transition: background var(--transition);
+  line-height: 1;
+}
+
+.theme-toggle:hover {
+  background: var(--color-bg-muted);
+}
+
+/* =========================================
+   PRINT STYLES
+   ========================================= */
+
+@media print {
+  .header,
+  .footer,
+  .skip-link,
+  .breadcrumb,
+  .affiliate-button,
+  .affiliate-disclaimer,
+  .affiliate-button-group,
+  .top-pick-buttons,
+  .comparison-table .affiliate-button,
+  .toc,
+  .theme-toggle,
+  .nav-toggle {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 12pt;
+  }
+
+  .article-page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .prose a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #666;
+  }
+
+  .prose a[href^="#"]::after,
+  .prose a[href^="javascript"]::after {
+    content: "";
+  }
+
+  .articles-grid {
+    display: block;
+  }
+
+  .article-card {
+    break-inside: avoid;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
 }

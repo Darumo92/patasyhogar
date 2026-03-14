@@ -22,8 +22,8 @@ const canonicalUrl = canonical || Astro.url.href;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#b45309" />
-    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#b45309" id="meta-theme-color" />
+    <meta name="color-scheme" content="light dark" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
@@ -72,10 +72,42 @@ const canonicalUrl = canonical || Astro.url.href;
     <slot name="head" />
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
     <Header />
-    <main>
+    <main id="main-content">
       <slot />
     </main>
     <Footer />
+
+    <!-- Dark mode: apply saved preference before paint -->
+    <script is:inline>
+      (function() {
+        var theme = localStorage.getItem('theme');
+        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+
+    <!-- GA4: track affiliate clicks -->
+    <script is:inline>
+      document.addEventListener('click', function(e) {
+        var link = e.target.closest('a[rel*="sponsored"]');
+        if (!link) return;
+        var href = link.href || '';
+        var tienda = 'otro';
+        if (href.includes('amazon.')) tienda = 'amazon';
+        else if (href.includes('zooplus.')) tienda = 'zooplus';
+        else if (href.includes('tiendanimal.')) tienda = 'tiendanimal';
+        if (typeof gtag === 'function') {
+          gtag('event', 'affiliate_click', {
+            event_category: 'afiliados',
+            event_label: tienda,
+            link_url: href,
+            page_path: window.location.pathname
+          });
+        }
+      });
+    </script>
   </body>
 </html>
