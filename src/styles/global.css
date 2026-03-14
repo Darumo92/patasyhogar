@@ -1031,6 +1031,19 @@ button:focus-visible,
   background: #78600a;
 }
 
+[data-theme="dark"] .category-intro {
+  background: var(--color-bg-muted);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .footer a {
+  color: #ccc;
+}
+
+[data-theme="dark"] .footer a:hover {
+  color: #fff;
+}
+
 /* Dark mode toggle button */
 .theme-toggle {
   background: none;

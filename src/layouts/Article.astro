@@ -61,6 +61,11 @@ const articleSchema = {
   ...(imagen && { image: `${siteUrl}${imagen}` }),
   datePublished: fecha.toISOString(),
   dateModified: (actualizadoEn || fecha).toISOString(),
+  author: {
+    '@type': 'Organization',
+    name: 'Patas y Hogar',
+    url: siteUrl,
+  },
   publisher: {
     '@type': 'Organization',
     name: 'Patas y Hogar',

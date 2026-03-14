@@ -77,12 +77,15 @@ const navLinks = [
   updateIcon();
   themeBtn?.addEventListener('click', () => {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const metaTheme = document.getElementById('meta-theme-color');
     if (isDark) {
       document.documentElement.removeAttribute('data-theme');
       localStorage.setItem('theme', 'light');
+      if (metaTheme) metaTheme.setAttribute('content', '#b45309');
     } else {
       document.documentElement.setAttribute('data-theme', 'dark');
       localStorage.setItem('theme', 'dark');
+      if (metaTheme) metaTheme.setAttribute('content', '#1a1a1a');
     }
     updateIcon();
   });

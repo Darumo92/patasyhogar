@@ -42,7 +42,7 @@ import Base from '@/layouts/Base.astro';
         <h2 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Sin resultados</h2>
         <p class="text-muted">Prueba con otras palabras clave</p>
       </div>
-      <div id="results-grid" class="articles-grid" style="display:none;"></div>
+      <div id="results-grid" class="articles-grid" style="display:none;" role="region" aria-live="polite" aria-label="Resultados de búsqueda"></div>
     </div>
   </div>
 </Base>
@@ -137,18 +137,22 @@ import Base from '@/layouts/Base.astro';
       .replace(/[\u0300-\u036f]/g, '');
   }
 
+  function escapeHtml(str: string): string {
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
   function highlight(text: string, query: string): string {
-    if (!query) return text;
+    if (!query) return escapeHtml(text);
     const normText = normalize(text);
     const normQuery = normalize(query);
     const idx = normText.indexOf(normQuery);
-    if (idx === -1) return text;
+    if (idx === -1) return escapeHtml(text);
     return (
-      text.slice(0, idx) +
+      escapeHtml(text.slice(0, idx)) +
       '<mark>' +
-      text.slice(idx, idx + query.length) +
+      escapeHtml(text.slice(idx, idx + query.length)) +
       '</mark>' +
-      text.slice(idx + query.length)
+      escapeHtml(text.slice(idx + query.length))
     );
   }
 
@@ -165,8 +169,8 @@ import Base from '@/layouts/Base.astro';
   }
 
   function renderCard(article: Article, query: string): string {
-    const url = `/${article.categoria}/${article.slug}`;
-    const catNombre = CATEGORIA_NOMBRES[article.categoria] || article.categoria;
+    const url = `/${encodeURI(article.categoria)}/${encodeURI(article.slug)}`;
+    const catNombre = CATEGORIA_NOMBRES[article.categoria] || escapeHtml(article.categoria);
     const normQ = normalize(query);
 
     const inTitle = normalize(article.titulo).includes(normQ);
@@ -181,7 +185,7 @@ import Base from '@/layouts/Base.astro';
 
     const imgHtml = article.imagen
       ? `<a href="${url}" class="article-card-image" aria-hidden="true" tabindex="-1">
-           <img src="${article.imagen}" alt="" loading="lazy" />
+           <img src="${escapeHtml(article.imagen)}" alt="" loading="lazy" />
          </a>`
       : '';
 
