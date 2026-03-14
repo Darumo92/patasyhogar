@@ -30,10 +30,25 @@ const navLinks = [
             {link.label}
           </a>
         ))}
+        <a
+          href="/buscar"
+          class={`nav-link nav-search ${currentPath === '/buscar' ? 'active' : ''}`}
+          aria-label="Buscar artículos"
+          title="Buscar"
+        >
+          🔍
+        </a>
       </nav>
     </div>
   </div>
 </header>
+
+<style>
+  .nav-search {
+    font-size: 1.1rem;
+    padding: 0.25rem 0.5rem;
+  }
+</style>
 
 <script>
   const toggle = document.getElementById('nav-toggle');

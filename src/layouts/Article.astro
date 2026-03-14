@@ -10,10 +10,10 @@ const { articulo } = Astro.props;
 const { titulo, descripcion, categoria, fecha, actualizadoEn, tags, imagen, imagenAlt } = articulo.data;
 
 const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
-  alimentacion: { nombre: 'Alimentación', icono: '🍖' },
-  higiene: { nombre: 'Higiene', icono: '🛁' },
-  descanso: { nombre: 'Descanso y Transporte', icono: '🛏️' },
-  comportamiento: { nombre: 'Enriquecimiento', icono: '🎾' },
+  alimentacion: { nombre: 'Alimentación', icono: '🥣' },
+  higiene: { nombre: 'Higiene', icono: '🪮' },
+  descanso: { nombre: 'Descanso y Transporte', icono: '🏠' },
+  comportamiento: { nombre: 'Enriquecimiento', icono: '🧸' },
 };
 
 const catInfo = categoriasInfo[categoria];

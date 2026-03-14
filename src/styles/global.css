@@ -916,3 +916,11 @@ a:hover {
   color: var(--color-primary);
   text-decoration: underline;
 }
+
+/* ---- Search highlight ---- */
+mark {
+  background: #fde68a;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 2px;
+}
