@@ -1,7 +1,7 @@
 ---
 import Base from './Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
-import NewsletterCTA from '@/components/NewsletterCTA.astro';
+
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 
@@ -139,8 +139,6 @@ const breadcrumbSchema = {
         </div>
       </div>
     )}
-
-    <NewsletterCTA />
 
     {related.length > 0 && (
       <section style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--color-border);">
