@@ -9,6 +9,7 @@ export const GET: APIRoute = async () => {
     descripcion: a.data.descripcion,
     slug: a.slug,
     categoria: a.data.categoria,
+    animal: a.data.animal,
     imagen: a.data.imagen ?? null,
     tags: a.data.tags ?? [],
     // Strip MDX imports, components and markdown syntax for plain-text content
