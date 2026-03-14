@@ -60,12 +60,37 @@ const articulosOrdenados = articulos.sort(
 
 const destacados = articulosOrdenados.filter(a => a.data.destacado).slice(0, 3);
 const resto = articulosOrdenados.filter(a => !a.data.destacado || destacados.length === 0);
+
+const siteUrl = 'https://patasyhogar.com';
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${info.nombre} para perros y gatos`,
+  numberOfItems: articulosOrdenados.length,
+  itemListElement: articulosOrdenados.map((a, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${siteUrl}/${a.data.categoria}/${a.slug}`,
+    name: a.data.titulo,
+  })),
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: info.nombre },
+  ],
+};
 ---
 
 <Base
   title={`${info.nombre} para perros y gatos | Guías y comparativas | Patas y Hogar`}
   description={info.descripcion}
 >
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
   <div class="category-page-header">
     <div class="container">
       <div class="category-icon-large" aria-hidden="true">{info.icono}</div>

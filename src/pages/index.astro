@@ -9,6 +9,20 @@ const recientes = articulos
   .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
   .slice(0, 6);
 
+const siteUrl = 'https://patasyhogar.com';
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Últimos análisis de productos para mascotas',
+  numberOfItems: recientes.length,
+  itemListElement: recientes.map((a, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${siteUrl}/${a.data.categoria}/${a.slug}`,
+    name: a.data.titulo,
+  })),
+};
+
 const categorias = [
   {
     slug: 'alimentacion',
@@ -45,6 +59,7 @@ const categorias = [
   title="Patas y Hogar · Guías y comparativas para perros y gatos"
   description="Análisis honestos y comparativas de productos para perros y gatos. Pienso, accesorios, higiene, camas y transportines. Todo lo que tu mascota necesita."
 >
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
   <!-- Hero -->
   <section class="hero">
     <div class="container">
@@ -113,7 +128,7 @@ const categorias = [
   )}
 
   <!-- CTA -->
-  <section class="section" style="background: linear-gradient(135deg, #fff8f4, #fef3e8); border-top: 1px solid var(--color-border);">
+  <section class="section cta-section" style="border-top: 1px solid var(--color-border);">
     <div class="container text-center">
       <h2 style="font-size: 1.75rem; font-weight: 800; margin-bottom: 0.75rem;">
         ¿No sabes por dónde empezar?

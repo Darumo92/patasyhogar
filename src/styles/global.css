@@ -277,6 +277,10 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.cta-section {
+  background: linear-gradient(135deg, #fff8f4, #fef3e8);
+}
+
 .hero-stat strong {
   display: block;
   font-size: 1.5rem;
@@ -1029,6 +1033,10 @@ button:focus-visible,
 
 [data-theme="dark"] mark {
   background: #78600a;
+}
+
+[data-theme="dark"] .cta-section {
+  background: linear-gradient(135deg, #1e1e1e, #252015) !important;
 }
 
 [data-theme="dark"] .category-intro {
