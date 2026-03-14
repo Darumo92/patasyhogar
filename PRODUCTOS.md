@@ -1560,19 +1560,949 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 ---
 
+## [ALIMENTACION] Mejor pienso hipoalergénico para perros
+*Archivo: mejor-pienso-hipoalergenico-perro*
+
+### TopPick
+**Royal Canin Hypoallergenic**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Royal Canin Hypoallergenic**
+- URL Amazon:
+- Imagen:
+
+**2. Hill's z/d Prescription Diet**
+- URL Amazon:
+- Imagen:
+
+**3. Purina Pro Plan HA Hypoallergenic**
+- URL Amazon:
+- Imagen:
+
+**4. Advance Hypoallergenic**
+- URL Amazon:
+- Imagen:
+
+**5. Acana Singles Lamb & Apple**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor protector de maletero para perros
+*Archivo: mejor-protector-maletero-perros*
+
+### TopPick
+**Trixie Protector Maletero Universal**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Trixie Protector Maletero Universal**
+- URL Amazon:
+- Imagen:
+
+**2. Pecute Protector Maletero Premium**
+- URL Amazon:
+- Imagen:
+
+**3. Focuspet Protector Maletero**
+- URL Amazon:
+- Imagen:
+
+**4. AmazonBasics Cargo Liner**
+- URL Amazon:
+- Imagen:
+
+**5. Kleinmetall Starliner**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [HIGIENE] Mejor cepillo para gatos
+*Archivo: mejor-cepillo-gatos*
+
+### TopPick
+**FURminator Gatos Pelo Corto**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. FURminator Gatos Pelo Corto**
+- URL Amazon:
+- Imagen:
+
+**2. Hertzko Self-Cleaning Slicker Gatos**
+- URL Amazon:
+- Imagen:
+
+**3. Safari De-matting Comb Gatos**
+- URL Amazon:
+- Imagen:
+
+**4. Kong ZoomGroom Gato**
+- URL Amazon:
+- Imagen:
+
+**5. Trixie Soft Brush Gatos**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [ALIMENTACION] Mejor comedero elevado para perros
+*Archivo: mejor-comedero-elevado-perros*
+
+### TopPick
+**Trixie Comedero Elevado Acero Inox**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Trixie Comedero Elevado Acero Inox**
+- URL Amazon:
+- Imagen:
+
+**2. AmazonBasics Elevated Pet Feeder**
+- URL Amazon:
+- Imagen:
+
+**3. Iris Elevated Feeder**
+- URL Amazon:
+- Imagen:
+
+**4. Pecute Comedero Elevado Ajustable**
+- URL Amazon:
+- Imagen:
+
+**5. PetFusion Premium Elevated Feeder**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [HIGIENE] Mejor limpiador enzimático para mascotas
+*Archivo: mejor-limpiador-enzimatico-mascotas*
+
+### TopPick
+**Nature's Miracle Advanced**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Nature's Miracle Advanced**
+- URL Amazon:
+- Imagen:
+
+**2. Simple Solution Extreme**
+- URL Amazon:
+- Imagen:
+
+**3. Urine Off**
+- URL Amazon:
+- Imagen:
+
+**4. Rocco & Roxie**
+- URL Amazon:
+- Imagen:
+
+**5. Bio-Chem Enzymreiniger**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor arnés antitirones para perros
+*Archivo: mejor-arnes-antitirones-perro*
+
+### TopPick
+**PetSafe Easy Walk**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. PetSafe Easy Walk**
+- URL Amazon:
+- Imagen:
+
+**2. Halti Harness**
+- URL Amazon:
+- Imagen:
+
+**3. Julius-K9 IDC Powerharness**
+- URL Amazon:
+- Imagen:
+
+**4. Ruffwear Front Range**
+- URL Amazon:
+- Imagen:
+
+**5. Rabbitgoo No-Pull Harness**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [HIGIENE] Mejor dispensador de bolsas para recoger cacas de perro
+*Archivo: mejor-dispensador-bolsas-caca-perro*
+
+### TopPick
+**Earth Rated Dispensador + Rollos**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Earth Rated Dispensador + Rollos**
+- URL Amazon:
+- Imagen:
+
+**2. Amazon Basics Dispensador**
+- URL Amazon:
+- Imagen:
+
+**3. Pogi's Pet Supplies Dispensador**
+- URL Amazon:
+- Imagen:
+
+**4. TBonz Dispensador con Linterna LED**
+- URL Amazon:
+- Imagen:
+
+**5. BioBag Bolsas Compostables**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [COMPORTAMIENTO] Mejores rascadores de pared para gatos
+*Archivo: mejor-rascador-pared-gatos*
+
+### TopPick
+**Catit Senses 2.0 Scratcher**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Catit Senses 2.0 Scratcher**
+- URL Amazon:
+- Imagen:
+
+**2. Trixie Rascador de Sisal para Pared**
+- URL Amazon:
+- Imagen:
+
+**3. FUKUMARU Rascador Pared Madera**
+- URL Amazon:
+- Imagen:
+
+**4. Navaris Rascador Esquina**
+- URL Amazon:
+- Imagen:
+
+**5. Pecute Rascador Pared XL**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [ALIMENTACION] Mejor pienso para gatitos cachorros (kitten)
+*Archivo: mejor-pienso-gatito-cachorro*
+
+### TopPick
+**Royal Canin Kitten**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Royal Canin Kitten**
+- URL Amazon:
+- Imagen:
+
+**2. Hill's Science Plan Kitten**
+- URL Amazon:
+- Imagen:
+
+**3. Purina Pro Plan Kitten**
+- URL Amazon:
+- Imagen:
+
+**4. Orijen Kitten**
+- URL Amazon:
+- Imagen:
+
+**5. Advance Kitten**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejores camas cueva para gatos
+*Archivo: mejor-cama-cueva-gato*
+
+### TopPick
+**Bedsure Cueva Gato**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Bedsure Cueva Gato**
+- URL Amazon:
+- Imagen:
+
+**2. Kivikis Cat Cave (Fieltro de Lana)**
+- URL Amazon:
+- Imagen:
+
+**3. Trixie Cueva Minou**
+- URL Amazon:
+- Imagen:
+
+**4. Catit Vesper Cubo**
+- URL Amazon:
+- Imagen:
+
+**5. PetPals Cueva Iglú XL**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor abrigo para perros en invierno
+*Archivo: mejor-abrigo-perro-invierno*
+
+### TopPick
+**Ruffwear Powder Hound**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Ruffwear Powder Hound**
+- URL Amazon:
+- Imagen:
+
+**2. Hurtta Extreme Warmer**
+- URL Amazon:
+- Imagen:
+
+**3. Julius-K9 Abrigo Softshell**
+- URL Amazon:
+- Imagen:
+
+**4. Curli Chaleco Térmico**
+- URL Amazon:
+- Imagen:
+
+**5. Gooby Fleece Vest**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [ALIMENTACION] Mejor fuente agua silenciosa gatos
+*Archivo: mejor-fuente-agua-gatos-silenciosa*
+
+### TopPick
+**Petkit Eversweet 3 Pro**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Petkit Eversweet 3 Pro**
+- URL Amazon:
+- Imagen:
+
+**2. Catit Pixi Smart Fountain**
+- URL Amazon:
+- Imagen:
+
+**3. Miaustore Cerámica**
+- URL Amazon:
+- Imagen:
+
+**4. Veken 2.5L Inox**
+- URL Amazon:
+- Imagen:
+
+**5. PetSafe Drinkwell Mini**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [ALIMENTACION] Mejor comedero lento para gatos
+*Archivo: mejor-comedero-lento-gatos*
+
+### TopPick
+**Catit Senses Digger**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Catit Senses Digger**
+- URL Amazon:
+- Imagen:
+
+**2. Trixie Fun Board 5en1**
+- URL Amazon:
+- Imagen:
+
+**3. LickiMat Felix**
+- URL Amazon:
+- Imagen:
+
+**4. Pioneer Pet Tiger Diner**
+- URL Amazon:
+- Imagen:
+
+**5. Northmate Catch**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor collar luminoso LED para perros
+*Archivo: mejor-collar-luminoso-perro*
+
+### TopPick
+**Leuchtie Mini**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Leuchtie Mini**
+- URL Amazon:
+- Imagen:
+
+**2. Illumiseen LED Collar**
+- URL Amazon:
+- Imagen:
+
+**3. Blazin Safety LED Collar**
+- URL Amazon:
+- Imagen:
+
+**4. Nite Ize SpotLit**
+- URL Amazon:
+- Imagen:
+
+**5. Orbiloc Dog Dual**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [COMPORTAMIENTO] Mejores cañas y varitas para gatos
+*Archivo: mejor-juguete-cana-gatos*
+
+### TopPick
+**Da Bird Original**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Da Bird Original**
+- URL Amazon:
+- Imagen:
+
+**2. Catit Senses Super Circuit Wand**
+- URL Amazon:
+- Imagen:
+
+**3. SmartyKat Frisky Flyer**
+- URL Amazon:
+- Imagen:
+
+**4. Jackson Galaxy Air Prey**
+- URL Amazon:
+- Imagen:
+
+**5. Trixie Caña con Ratón y Plumas**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor bozal para perros
+*Archivo: mejor-bozal-perro*
+
+### TopPick
+**Baskerville Ultra**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Baskerville Ultra**
+- URL Amazon:
+- Imagen:
+
+**2. Jafco Muzzle**
+- URL Amazon:
+- Imagen:
+
+**3. Trixie Bozal Plástico**
+- URL Amazon:
+- Imagen:
+
+**4. Dean & Tyler Freedom**
+- URL Amazon:
+- Imagen:
+
+**5. Julius-K9 Bozal de Piel**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor piscina para perros
+*Archivo: mejor-piscina-perros*
+
+### TopPick
+**Pecute Piscina Plegable**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Pecute Piscina Plegable**
+- URL Amazon:
+- Imagen:
+
+**2. Trixie Dog Pool**
+- URL Amazon:
+- Imagen:
+
+**3. Kopeks Piscina XL**
+- URL Amazon:
+- Imagen:
+
+**4. Jasonwell Piscina Plegable**
+- URL Amazon:
+- Imagen:
+
+**5. Yaheetech Piscina Rígida**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [COMPORTAMIENTO] Mejor pelota indestructible para perros
+*Archivo: mejor-pelota-perro-indestructible*
+
+### TopPick
+**Kong Ball Extreme**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Kong Ball Extreme**
+- URL Amazon:
+- Imagen:
+
+**2. Chuckit! Ultra Ball**
+- URL Amazon:
+- Imagen:
+
+**3. West Paw Jive**
+- URL Amazon:
+- Imagen:
+
+**4. Goughnuts Ball**
+- URL Amazon:
+- Imagen:
+
+**5. Planet Dog Orbee-Tuff**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [ALIMENTACION] Mejor comida húmeda para perros
+*Archivo: mejor-comida-humeda-perros*
+
+### TopPick
+**Applaws Lata en Caldo**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Applaws Lata en Caldo**
+- URL Amazon:
+- Imagen:
+
+**2. Lily's Kitchen Comida Natural**
+- URL Amazon:
+- Imagen:
+
+**3. Purina Pro Plan Adult Pouch**
+- URL Amazon:
+- Imagen:
+
+**4. Animonda GranCarno**
+- URL Amazon:
+- Imagen:
+
+**5. Royal Canin Maxi Adult Pouch**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor gatera (puerta para gatos)
+*Archivo: mejor-gatera-puerta-gato*
+
+### TopPick
+**SureFlap Microchip Cat Flap**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. SureFlap Microchip Cat Flap**
+- URL Amazon:
+- Imagen:
+
+**2. SureFlap Microchip Pet Door (XL)**
+- URL Amazon:
+- Imagen:
+
+**3. PetSafe Staywell 4 posiciones**
+- URL Amazon:
+- Imagen:
+
+**4. Cat Mate Electromagnetic**
+- URL Amazon:
+- Imagen:
+
+**5. Trixie Gatera 2 Posiciones**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [HIGIENE] Mejor protector de almohadillas para perros
+*Archivo: mejor-protector-patas-perro*
+
+### TopPick
+**Musher's Secret**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Musher's Secret**
+- URL Amazon:
+- Imagen:
+
+**2. Pawz Dog Boots (caucho natural)**
+- URL Amazon:
+- Imagen:
+
+**3. Ruffwear Grip Trex**
+- URL Amazon:
+- Imagen:
+
+**4. Trixie Walker Care Bálsamo**
+- URL Amazon:
+- Imagen:
+
+**5. QUMY Botas Impermeables**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [HIGIENE] Mejor arenero abierto para gatos
+*Archivo: mejor-arenero-abierto-gatos*
+
+### TopPick
+**Catit Arenero Jumbo**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Catit Arenero Jumbo**
+- URL Amazon:
+- Imagen:
+
+**2. Iris USA Open Top XL**
+- URL Amazon:
+- Imagen:
+
+**3. Trixie Bandeja Vico**
+- URL Amazon:
+- Imagen:
+
+**4. Savic Oval Tray**
+- URL Amazon:
+- Imagen:
+
+**5. NVR Miss Litterbox Giant**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor chaleco salvavidas para perros
+*Archivo: mejor-chaleco-salvavidas-perro*
+
+### TopPick
+**Ruffwear Float Coat**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Ruffwear Float Coat**
+- URL Amazon:
+- Imagen:
+
+**2. EzyDog DFD**
+- URL Amazon:
+- Imagen:
+
+**3. Trixie Chaleco Salvavidas**
+- URL Amazon:
+- Imagen:
+
+**4. Vivaglory Ripstop**
+- URL Amazon:
+- Imagen:
+
+**5. Hurtta Life Savior**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [COMPORTAMIENTO] Mejor repelente para gatos (sofás y muebles)
+*Archivo: mejor-repelente-gatos-muebles*
+
+### TopPick
+**Feliway Classic Spray**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Feliway Classic Spray**
+- URL Amazon:
+- Imagen:
+
+**2. SssCat! Spray Detector Movimiento**
+- URL Amazon:
+- Imagen:
+
+**3. Nature's Miracle Repelente Gatos**
+- URL Amazon:
+- Imagen:
+
+**4. Trixie Keep Off Spray**
+- URL Amazon:
+- Imagen:
+
+**5. Cinta Adhesiva Anti-Arañazos (FOCUSPET)**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [COMPORTAMIENTO] Mejor lanzador de pelotas para perros
+*Archivo: mejor-lanzador-pelotas-perro*
+
+### TopPick
+**Chuckit! Classic Launcher 26M**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Chuckit! Classic Launcher 26M**
+- URL Amazon:
+- Imagen:
+
+**2. Chuckit! Sport Launcher 12S**
+- URL Amazon:
+- Imagen:
+
+**3. iFetch Interactive Ball Launcher**
+- URL Amazon:
+- Imagen:
+
+**4. PetSafe Automatic Ball Launcher**
+- URL Amazon:
+- Imagen:
+
+**5. Nerf Dog Tennis Ball Blaster**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [COMPORTAMIENTO] Mejor difusor de feromonas para gatos
+*Archivo: mejor-difusor-feromonas-gatos*
+
+### TopPick
+**Feliway Classic Difusor**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Feliway Classic Difusor**
+- URL Amazon:
+- Imagen:
+
+**2. Feliway Friends Difusor**
+- URL Amazon:
+- Imagen:
+
+**3. Feliway Optimum Difusor**
+- URL Amazon:
+- Imagen:
+
+**4. Beaphar CatComfort Difusor**
+- URL Amazon:
+- Imagen:
+
+**5. Pet Remedy Difusor Natural**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [ALIMENTACION] Mejor pienso para perros diabéticos
+*Archivo: mejor-pienso-perro-diabetico*
+
+### TopPick
+**Royal Canin Diabetic**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Royal Canin Diabetic**
+- URL Amazon:
+- Imagen:
+
+**2. Hill's Prescription Diet w/d**
+- URL Amazon:
+- Imagen:
+
+**3. Purina Pro Plan DM Diabetes Management**
+- URL Amazon:
+- Imagen:
+
+**4. Advance Diabetes Colitis**
+- URL Amazon:
+- Imagen:
+
+**5. Farmina Vet Life Diabetic**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [HIGIENE] Mejor aspirador para pelo de mascotas
+*Archivo: mejor-aspirador-pelo-mascotas*
+
+### TopPick
+**Dyson V15 Detect**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Dyson V15 Detect**
+- URL Amazon:
+- Imagen:
+
+**2. Dyson V8 Animal**
+- URL Amazon:
+- Imagen:
+
+**3. Dreame T30**
+- URL Amazon:
+- Imagen:
+
+**4. Rowenta X-Force Flex Animal**
+- URL Amazon:
+- Imagen:
+
+**5. Xiaomi G11**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [DESCANSO] Mejor barrera o puerta de seguridad para perros
+*Archivo: mejor-puerta-seguridad-perros*
+
+### TopPick
+**Hauck Open N Stop**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Hauck Open N Stop**
+- URL Amazon:
+- Imagen:
+
+**2. Munchkin Easy Close**
+- URL Amazon:
+- Imagen:
+
+**3. Trixie Barrera Perro**
+- URL Amazon:
+- Imagen:
+
+**4. Carlson Extra Tall Walk-Thru**
+- URL Amazon:
+- Imagen:
+
+**5. Nordlinger Pro Stop Fix**
+- URL Amazon:
+- Imagen:
+
+---
+
+## [ALIMENTACION] Mejor comedero antihormigas para mascotas
+*Archivo: mejor-comedero-antihormigas-mascotas*
+
+### TopPick
+**Trixie Comedero con Foso Anti-Insectos**
+- URL Amazon:
+- Imagen:
+
+### Comparativa
+**1. Trixie Comedero con Foso Anti-Insectos**
+- URL Amazon:
+- Imagen:
+
+**2. Petmate No-Ant Pet Dish**
+- URL Amazon:
+- Imagen:
+
+**3. Van Ness Anti-Ant Bowl**
+- URL Amazon:
+- Imagen:
+
+**4. Elevated Moat Bowl (Yuwoda)**
+- URL Amazon:
+- Imagen:
+
+**5. DIY Bandeja + Cuenco Inox**
+- URL Amazon:
+- Imagen:
+
+---
+
 ## Resumen
 
 | Dato | Total |
 |------|-------|
-| Artículos con productos | 50 |
+| Artículos con productos | 80 |
 | Artículos informativos (sin productos) | 3 |
-| Artículos totales | 53 |
-| Productos totales (TopPick + Comparativa) | ~300 |
+| Artículos totales | 83 |
+| Productos totales (TopPick + Comparativa) | ~480 |
 | Productos con URL directa ✅ (/dp/ASIN) | ~72 |
-| Productos que necesitan URL Amazon | ~220 |
+| Productos que necesitan URL Amazon | ~400 |
 | Productos solo en Zooplus (sin Amazon) | 9 |
 | Productos con imagen ✅ | 0 |
-| Productos que necesitan imagen | ~300 |
+| Productos que necesitan imagen | ~360 |
 
 ### Artículos con todos los productos ya con URL directa ✅
 Estos artículos no necesitan búsqueda de URLs, solo imágenes:
