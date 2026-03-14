@@ -1,7 +1,6 @@
 ---
 import Base from './Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
-
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 
@@ -10,7 +9,8 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const { titulo, descripcion, categoria, fecha, actualizadoEn, tags, imagen, imagenAlt, faqs } = articulo.data;
+const { titulo, descripcion, categoria, animal: artAnimal, fecha, actualizadoEn, tags, imagen, imagenAlt, faqs } = articulo.data;
+const animalLabel = artAnimal === 'perro' ? '🐶 Perros' : artAnimal === 'gato' ? '🐱 Gatos' : '🐾 Perros y gatos';
 
 // Reading time: ~200 words per minute, strip MDX syntax first
 const wordCount = articulo.body
@@ -22,13 +22,27 @@ const wordCount = articulo.body
   .split(/\s+/).length;
 const minutosLectura = Math.max(1, Math.round(wordCount / 200));
 
-// Related articles: same category, excluding current, max 3, most recent first
-const allArticles = await getCollection('articulos', ({ data, slug }) =>
-  data.categoria === categoria && slug !== articulo.slug
-);
-const related = allArticles
-  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
-  .slice(0, 3);
+// Related articles: prioritize same animal + shared tags, then same category
+const allArticles = await getCollection('articulos', ({ slug }) => slug !== articulo.slug);
+const animal = articulo.data.animal;
+const articleTags = new Set(tags || []);
+
+const scored = allArticles.map(a => {
+  let score = 0;
+  // Same category: +3
+  if (a.data.categoria === categoria) score += 3;
+  // Same animal or either is 'ambos': +2
+  if (a.data.animal === animal || a.data.animal === 'ambos' || animal === 'ambos') score += 2;
+  // Shared tags: +1 per tag
+  (a.data.tags || []).forEach(t => { if (articleTags.has(t)) score += 1; });
+  return { article: a, score };
+});
+
+const related = scored
+  .filter(s => s.score > 0)
+  .sort((a, b) => b.score - a.score || b.article.data.fecha.getTime() - a.article.data.fecha.getTime())
+  .slice(0, 3)
+  .map(s => s.article);
 
 const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
   alimentacion: { nombre: 'Alimentación', icono: '🥣' },
@@ -97,7 +111,7 @@ const breadcrumbSchema = {
 };
 ---
 
-<Base title={`${titulo} | Patas y Hogar`} description={descripcion}>
+<Base title={`${titulo} | Patas y Hogar`} description={descripcion} image={imagen}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
   {faqSchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />}
@@ -107,6 +121,8 @@ const breadcrumbSchema = {
       <a href="/">Inicio</a>
       <span class="breadcrumb-sep" aria-hidden="true">›</span>
       <a href={`/${categoria}`}>{catInfo.nombre}</a>
+      <span class="breadcrumb-sep" aria-hidden="true">›</span>
+      <span class="breadcrumb-animal">{animalLabel}</span>
       <span class="breadcrumb-sep" aria-hidden="true">›</span>
       <span>{titulo}</span>
     </nav>
@@ -122,7 +138,9 @@ const breadcrumbSchema = {
       <div class="article-meta">
         <time datetime={fecha.toISOString().split('T')[0]}>Publicado: {fechaFormateada}</time>
         {actualizadoFormateado && (
-          <time datetime={(actualizadoEn as Date).toISOString().split('T')[0]}>Actualizado: {actualizadoFormateado}</time>
+          <time datetime={(actualizadoEn as Date).toISOString().split('T')[0]} class="article-updated">
+            ✅ Actualizado: {actualizadoFormateado}
+          </time>
         )}
         <span>{minutosLectura} min lectura</span>
       </div>
@@ -265,6 +283,16 @@ const breadcrumbSchema = {
     }
     .toc-list {
       counter-reset: toc-counter;
+    }
+
+    .article-updated {
+      color: var(--color-secondary);
+      font-weight: 600;
+    }
+
+    .breadcrumb-animal {
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
     }
 
     /* FAQ */

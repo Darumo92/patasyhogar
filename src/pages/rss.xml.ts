@@ -1,0 +1,24 @@
+import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
+import type { APIContext } from 'astro';
+
+export async function GET(context: APIContext) {
+  const articulos = await getCollection('articulos');
+  const sorted = articulos.sort(
+    (a, b) => b.data.fecha.getTime() - a.data.fecha.getTime()
+  );
+
+  return rss({
+    title: 'Patas y Hogar',
+    description: 'Guías de compra y comparativas de productos para perros y gatos',
+    site: context.site || 'https://patasyhogar.com',
+    items: sorted.map(a => ({
+      title: a.data.titulo,
+      description: a.data.descripcion,
+      pubDate: a.data.fecha,
+      link: `/${a.data.categoria}/${a.slug}/`,
+      categories: [a.data.categoria, a.data.animal],
+    })),
+    customData: '<language>es</language>',
+  });
+}
