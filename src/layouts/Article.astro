@@ -12,6 +12,16 @@ interface Props {
 const { articulo } = Astro.props;
 const { titulo, descripcion, categoria, fecha, actualizadoEn, tags, imagen, imagenAlt, faqs } = articulo.data;
 
+// Reading time: ~200 words per minute, strip MDX syntax first
+const wordCount = articulo.body
+  .replace(/^---[\s\S]*?---/, '')
+  .replace(/^import\s.+$/gm, '')
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/[#*`_~\[\]()]/g, '')
+  .trim()
+  .split(/\s+/).length;
+const minutosLectura = Math.max(1, Math.round(wordCount / 200));
+
 // Related articles: same category, excluding current, max 3, most recent first
 const allArticles = await getCollection('articulos', ({ data, slug }) =>
   data.categoria === categoria && slug !== articulo.slug
@@ -109,7 +119,7 @@ const breadcrumbSchema = {
         {actualizadoFormateado && (
           <time datetime={(actualizadoEn as Date).toISOString().split('T')[0]}>Actualizado: {actualizadoFormateado}</time>
         )}
-        <span>~5 min lectura</span>
+        <span>{minutosLectura} min lectura</span>
       </div>
     </header>
 
