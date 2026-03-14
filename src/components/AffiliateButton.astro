@@ -18,7 +18,7 @@ const info = tiendaInfo[tienda];
 const label = texto || info.label;
 
 const finalHref = tienda === 'amazon' && !href.includes('tag=')
-  ? `${href}&tag=patasyhogar-21`
+  ? `${href}${href.includes('?') ? '&' : '?'}tag=patasyhogar-21`
   : href;
 ---
 

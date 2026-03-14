@@ -13,7 +13,8 @@ interface Producto {
 const AMAZON_TAG = 'patasyhogar-21';
 
 function amazonHref(url: string): string {
-  return url.includes('tag=') ? url : `${url}&tag=${AMAZON_TAG}`;
+  if (url.includes('tag=')) return url;
+  return `${url}${url.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`;
 }
 
 interface Props {

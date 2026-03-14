@@ -22,7 +22,7 @@ const {
 } = Astro.props;
 
 const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
-  ? `${enlaceAmazon}&tag=${AMAZON_TAG}`
+  ? `${enlaceAmazon}${enlaceAmazon.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`
   : enlaceAmazon;
 ---
 
