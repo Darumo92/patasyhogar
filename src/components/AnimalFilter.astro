@@ -1,0 +1,90 @@
+---
+interface Props {
+  perroCount: number;
+  gatoCount: number;
+  totalCount: number;
+}
+
+const { perroCount, gatoCount, totalCount } = Astro.props;
+---
+
+<div class="animal-filter" role="tablist" aria-label="Filtrar por animal">
+  <button class="animal-filter-btn active" data-filter="todos" role="tab" aria-selected="true">
+    Todos <span class="animal-filter-count">{totalCount}</span>
+  </button>
+  <button class="animal-filter-btn" data-filter="perro" role="tab" aria-selected="false">
+    🐶 Perros <span class="animal-filter-count">{perroCount}</span>
+  </button>
+  <button class="animal-filter-btn" data-filter="gato" role="tab" aria-selected="false">
+    🐱 Gatos <span class="animal-filter-count">{gatoCount}</span>
+  </button>
+</div>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const buttons = document.querySelectorAll('.animal-filter-btn');
+    const cards = document.querySelectorAll('.article-card[data-animal]');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = (btn as HTMLElement).dataset.filter;
+
+        buttons.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+
+        cards.forEach(card => {
+          const animal = (card as HTMLElement).dataset.animal;
+          if (filter === 'todos' || animal === filter || animal === 'ambos') {
+            (card as HTMLElement).style.display = '';
+          } else {
+            (card as HTMLElement).style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>
+
+<style>
+  .animal-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .animal-filter-btn {
+    padding: 0.5rem 1rem;
+    border: 1.5px solid var(--color-border);
+    border-radius: 99px;
+    background: var(--color-bg);
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .animal-filter-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .animal-filter-btn.active {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+  }
+
+  .animal-filter-count {
+    font-size: 0.75rem;
+    opacity: 0.8;
+  }
+</style>

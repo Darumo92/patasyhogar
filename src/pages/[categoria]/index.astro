@@ -1,6 +1,7 @@
 ---
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
+import AnimalFilter from '@/components/AnimalFilter.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -61,6 +62,9 @@ const articulosOrdenados = articulos.sort(
 const destacados = articulosOrdenados.filter(a => a.data.destacado).slice(0, 3);
 const resto = articulosOrdenados.filter(a => !a.data.destacado || destacados.length === 0);
 
+const perroCount = articulosOrdenados.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
+const gatoCount = articulosOrdenados.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
+
 const siteUrl = 'https://patasyhogar.com';
 const itemListSchema = {
   '@context': 'https://schema.org',
@@ -113,6 +117,11 @@ const breadcrumbSchema = {
 
     {articulosOrdenados.length > 0 ? (
       <>
+        {/* Filtro por animal */}
+        {perroCount > 0 && gatoCount > 0 && (
+          <AnimalFilter perroCount={perroCount} gatoCount={gatoCount} totalCount={articulosOrdenados.length} />
+        )}
+
         <!-- Destacados -->
         {destacados.length > 0 && (
           <div style="margin-bottom: 3rem;">

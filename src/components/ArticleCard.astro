@@ -6,7 +6,9 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const { titulo, descripcion, categoria, fecha, imagen } = articulo.data;
+const { titulo, descripcion, categoria, animal, fecha, imagen } = articulo.data;
+
+const animalEmoji = animal === 'perro' ? '🐶' : animal === 'gato' ? '🐱' : '🐾';
 
 const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
   alimentacion: { nombre: 'Alimentación', icono: '🥣' },
@@ -25,7 +27,7 @@ const fechaFormateada = fecha.toLocaleDateString('es-ES', {
 });
 ---
 
-<article class="article-card">
+<article class="article-card" data-animal={animal}>
   <a href={url} class="article-card-image" aria-hidden="true" tabindex="-1">
     {imagen ? (
       <img src={imagen} alt="" loading="lazy" />
@@ -37,9 +39,14 @@ const fechaFormateada = fecha.toLocaleDateString('es-ES', {
   </a>
 
   <div class="article-card-body">
-    <span class={`article-card-category badge badge-${categoria}`}>
-      {info.nombre}
-    </span>
+    <div class="article-card-badges">
+      <span class={`article-card-category badge badge-${categoria}`}>
+        {info.nombre}
+      </span>
+      <span class="article-card-animal" aria-label={animal === 'perro' ? 'Para perros' : animal === 'gato' ? 'Para gatos' : 'Para perros y gatos'}>
+        {animalEmoji}
+      </span>
+    </div>
 
     <a href={url}>
       <h3 class="article-card-title">{titulo}</h3>

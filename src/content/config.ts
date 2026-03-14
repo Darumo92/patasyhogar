@@ -1,6 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 
 const CATEGORIAS = ['alimentacion', 'higiene', 'descanso', 'comportamiento'] as const;
+const ANIMALES = ['perro', 'gato', 'ambos'] as const;
 
 const articulos = defineCollection({
   type: 'content',
@@ -8,6 +9,7 @@ const articulos = defineCollection({
     titulo: z.string(),
     descripcion: z.string(),
     categoria: z.enum(CATEGORIAS),
+    animal: z.enum(ANIMALES),
     fecha: z.coerce.date(),
     imagen: z.string().optional(),
     imagenAlt: z.string().optional(),

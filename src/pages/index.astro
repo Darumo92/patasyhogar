@@ -1,6 +1,7 @@
 ---
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
+import AnimalFilter from '@/components/AnimalFilter.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos');
@@ -8,6 +9,9 @@ const articulos = await getCollection('articulos');
 const recientes = articulos
   .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
   .slice(0, 6);
+
+const perroCount = recientes.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
+const gatoCount = recientes.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
 
 const siteUrl = 'https://patasyhogar.com';
 const itemListSchema = {
@@ -118,6 +122,9 @@ const categorias = [
       <div class="container">
         <h2 class="section-title">Últimos análisis</h2>
         <p class="section-subtitle">Los artículos más recientes del blog</p>
+        {perroCount > 0 && gatoCount > 0 && (
+          <AnimalFilter perroCount={perroCount} gatoCount={gatoCount} totalCount={recientes.length} />
+        )}
         <div class="articles-grid">
           {recientes.map(articulo => (
             <ArticleCard articulo={articulo} />

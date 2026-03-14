@@ -401,6 +401,13 @@ a:hover {
   flex-direction: column;
 }
 
+.article-card-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .article-card-category {
   display: inline-block;
   font-size: 0.75rem;
@@ -408,7 +415,11 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--color-primary);
-  margin-bottom: 0.5rem;
+}
+
+.article-card-animal {
+  font-size: 0.9rem;
+  line-height: 1;
 }
 
 .article-card-title {
