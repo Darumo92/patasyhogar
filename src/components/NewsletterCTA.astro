@@ -1,0 +1,188 @@
+---
+interface Props {
+  variant?: 'article' | 'footer';
+}
+
+const { variant = 'article' } = Astro.props;
+const isFooter = variant === 'footer';
+---
+
+<div class={`newsletter-cta ${isFooter ? 'newsletter-footer' : 'newsletter-article'}`}>
+  <div class="newsletter-content">
+    <p class="newsletter-icon" aria-hidden="true">📬</p>
+    <h3 class="newsletter-title">
+      {isFooter ? 'Suscríbete' : 'No te pierdas nada'}
+    </h3>
+    <p class="newsletter-text">
+      Recibe las mejores guías y ofertas para tu mascota directamente en tu correo. Sin spam, solo contenido útil.
+    </p>
+    <form class="newsletter-form" data-newsletter-form>
+      <input
+        type="email"
+        name="email"
+        placeholder="tu@email.com"
+        required
+        autocomplete="email"
+        class="newsletter-input"
+        aria-label="Tu correo electrónico"
+      />
+      <button type="submit" class="newsletter-button">
+        Suscribirme
+      </button>
+    </form>
+    <p class="newsletter-success" data-newsletter-success style="display:none;">
+      ¡Gracias! Te avisaremos cuando lancemos la newsletter.
+    </p>
+    <p class="newsletter-privacy">
+      Sin spam. Puedes darte de baja cuando quieras.
+    </p>
+  </div>
+</div>
+
+<style>
+  .newsletter-article {
+    background: linear-gradient(135deg, #fff8f4, #fef3e8);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  .newsletter-footer {
+    text-align: left;
+  }
+
+  .newsletter-footer .newsletter-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .newsletter-footer .newsletter-title {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .newsletter-footer .newsletter-text {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .newsletter-footer .newsletter-privacy {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .newsletter-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .newsletter-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .newsletter-text {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .newsletter-input {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-family: var(--font-sans);
+    background: #fff;
+    outline: none;
+    transition: border-color var(--transition);
+  }
+
+  .newsletter-input:focus {
+    border-color: var(--color-primary);
+  }
+
+  .newsletter-footer .newsletter-input {
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+
+  .newsletter-footer .newsletter-input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .newsletter-button {
+    padding: 0.7rem 1.25rem;
+    background: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    transition: background var(--transition), transform var(--transition);
+    white-space: nowrap;
+  }
+
+  .newsletter-button:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-1px);
+  }
+
+  .newsletter-privacy {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    margin-top: 0.75rem;
+  }
+
+  .newsletter-success {
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 480px) {
+    .newsletter-form {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<script>
+  document.querySelectorAll('[data-newsletter-form]').forEach(form => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const formEl = e.target as HTMLFormElement;
+      const emailInput = formEl.querySelector('input[name="email"]') as HTMLInputElement;
+      const email = emailInput?.value;
+      if (!email) return;
+
+      // Store email in localStorage as a simple pre-launch collector
+      const stored = JSON.parse(localStorage.getItem('newsletter_emails') || '[]');
+      if (!stored.includes(email)) {
+        stored.push(email);
+        localStorage.setItem('newsletter_emails', JSON.stringify(stored));
+      }
+
+      // Show success message, hide form
+      formEl.style.display = 'none';
+      const success = formEl.parentElement?.querySelector('[data-newsletter-success]') as HTMLElement;
+      if (success) success.style.display = '';
+    });
+  });
+</script>

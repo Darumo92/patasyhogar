@@ -1,6 +1,7 @@
 ---
 import Base from './Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
+import NewsletterCTA from '@/components/NewsletterCTA.astro';
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 
@@ -117,7 +118,12 @@ const breadcrumbSchema = {
       </span>
     </div>
 
-    <div class="prose">
+    <nav class="toc" id="toc" aria-label="Tabla de contenidos" style="display:none;">
+      <p class="toc-title">En este artículo</p>
+      <ol class="toc-list" id="toc-list"></ol>
+    </nav>
+
+    <div class="prose" id="article-content">
       <slot />
     </div>
 
@@ -134,6 +140,8 @@ const breadcrumbSchema = {
       </div>
     )}
 
+    <NewsletterCTA />
+
     {related.length > 0 && (
       <section style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--color-border);">
         <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem;">
@@ -147,4 +155,73 @@ const breadcrumbSchema = {
       </section>
     )}
   </article>
+
+  <script>
+    const content = document.getElementById('article-content');
+    const tocNav = document.getElementById('toc');
+    const tocList = document.getElementById('toc-list');
+    if (content && tocNav && tocList) {
+      const headings = content.querySelectorAll('h2');
+      if (headings.length >= 3) {
+        headings.forEach((h, i) => {
+          if (!h.id) h.id = `section-${i}`;
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `#${h.id}`;
+          a.textContent = h.textContent;
+          li.appendChild(a);
+          tocList.appendChild(li);
+        });
+        tocNav.style.display = '';
+      }
+    }
+  </script>
+
+  <style>
+    .toc {
+      background: var(--color-bg-muted);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .toc-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+      color: var(--color-text);
+    }
+    .toc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .toc-list li {
+      padding-left: 0;
+    }
+    .toc-list a {
+      color: var(--color-primary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      transition: color var(--transition);
+    }
+    .toc-list a:hover {
+      color: var(--color-primary-dark);
+      text-decoration: underline;
+    }
+    .toc-list li::before {
+      content: counter(toc-counter) ". ";
+      counter-increment: toc-counter;
+      font-weight: 600;
+      color: var(--color-text-muted);
+      font-size: 0.85rem;
+    }
+    .toc-list {
+      counter-reset: toc-counter;
+    }
+  </style>
 </Base>

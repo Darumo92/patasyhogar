@@ -1,4 +1,6 @@
 ---
+import NewsletterCTA from '@/components/NewsletterCTA.astro';
+
 const categorias = [
   { href: '/alimentacion', label: 'Alimentación' },
   { href: '/higiene', label: 'Higiene' },
@@ -30,6 +32,10 @@ const year = new Date().getFullYear();
             <li><a href={c.href}>{c.label}</a></li>
           ))}
         </ul>
+      </div>
+
+      <div class="footer-col">
+        <NewsletterCTA variant="footer" />
       </div>
 
       <div class="footer-col">

@@ -1,0 +1,20 @@
+# Imágenes: cache 1 año (inmutables mientras no se cambie el archivo)
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Favicon y OG image
+/favicon.svg
+  Cache-Control: public, max-age=31536000, immutable
+/og-default.jpg
+  Cache-Control: public, max-age=2592000
+
+# Índice de búsqueda: cache 1 día (se regenera en cada build)
+/buscar.json
+  Cache-Control: public, max-age=86400
+
+# Páginas HTML: cache corto + revalidar (Cloudflare siempre sirve la última versión tras deploy)
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
