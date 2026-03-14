@@ -14,6 +14,10 @@ const articulos = defineCollection({
     destacado: z.boolean().default(false),
     tags: z.array(z.string()).default([]),
     actualizadoEn: z.coerce.date().optional(),
+    faqs: z.array(z.object({
+      pregunta: z.string(),
+      respuesta: z.string(),
+    })).optional(),
   }),
 });
 

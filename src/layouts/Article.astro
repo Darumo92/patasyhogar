@@ -10,7 +10,7 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const { titulo, descripcion, categoria, fecha, actualizadoEn, tags, imagen, imagenAlt } = articulo.data;
+const { titulo, descripcion, categoria, fecha, actualizadoEn, tags, imagen, imagenAlt, faqs } = articulo.data;
 
 // Related articles: same category, excluding current, max 3, most recent first
 const allArticles = await getCollection('articulos', ({ data, slug }) =>
@@ -58,6 +58,19 @@ const articleSchema = {
   },
 };
 
+const faqSchema = faqs && faqs.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(f => ({
+    '@type': 'Question',
+    name: f.pregunta,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: f.respuesta,
+    },
+  })),
+} : null;
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -72,6 +85,7 @@ const breadcrumbSchema = {
 <Base title={`${titulo} | Patas y Hogar`} description={descripcion}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  {faqSchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />}
 
   <article class="article-page">
     <nav class="breadcrumb" aria-label="Migas de pan">
@@ -138,6 +152,20 @@ const breadcrumbSchema = {
           ))}
         </div>
       </div>
+    )}
+
+    {faqs && faqs.length > 0 && (
+      <section class="faq-section" aria-labelledby="faq-titulo">
+        <h2 id="faq-titulo">Preguntas frecuentes</h2>
+        <dl class="faq-list">
+          {faqs.map(f => (
+            <div class="faq-item">
+              <dt class="faq-pregunta">{f.pregunta}</dt>
+              <dd class="faq-respuesta">{f.respuesta}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
     )}
 
     {related.length > 0 && (
@@ -220,6 +248,47 @@ const breadcrumbSchema = {
     }
     .toc-list {
       counter-reset: toc-counter;
+    }
+
+    /* FAQ */
+    .faq-section {
+      margin-top: 2.5rem;
+      padding-top: 2rem;
+      border-top: 2px solid var(--color-border);
+    }
+    .faq-section h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .faq-item {
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    .faq-pregunta {
+      background: var(--color-bg-muted);
+      padding: 0.875rem 1.25rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: default;
+    }
+    .faq-pregunta::before {
+      content: 'P: ';
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+    .faq-respuesta {
+      padding: 0.875rem 1.25rem;
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      line-height: 1.6;
+      margin: 0;
     }
   </style>
 </Base>

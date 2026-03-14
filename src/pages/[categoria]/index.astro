@@ -14,26 +14,40 @@ export async function getStaticPaths() {
 
 const { categoria } = Astro.params;
 
-const categoriasInfo: Record<string, { nombre: string; descripcion: string; icono: string }> = {
+const categoriasInfo: Record<string, {
+  nombre: string;
+  descripcion: string;
+  icono: string;
+  intro: string;
+  subtemas: string[];
+}> = {
   alimentacion: {
     nombre: 'Alimentación',
     descripcion: 'Guías y comparativas de pienso, comida húmeda, snacks, fuentes y comederos para perros y gatos.',
     icono: '🥣',
+    intro: 'La alimentación es la decisión más importante para la salud y longevidad de tu mascota. Un buen pienso puede prevenir enfermedades, mantener un peso saludable y mejorar la calidad de vida de tu perro o gato. En esta sección analizamos piensos secos, comida húmeda, snacks naturales y accesorios de alimentación, comparando ingredientes, precios y dónde comprarlos más barato en España.',
+    subtemas: ['Pienso para perros', 'Pienso para gatos', 'Comida húmeda', 'Snacks y premios', 'Fuentes de agua', 'Comederos'],
   },
   higiene: {
-    nombre: 'Higiene',
+    nombre: 'Higiene y Cuidado',
     descripcion: 'Todo sobre arena, areneros, cepillos, champús y productos de cuidado diario para mascotas.',
     icono: '🪮',
+    intro: 'El cuidado diario de tu mascota va mucho más allá del baño ocasional. Una buena rutina de higiene previene infecciones, mantiene el pelo en buen estado y refuerza el vínculo entre vosotros. Analizamos los mejores productos de higiene para perros y gatos: cepillos, champús, arenas para gatos, areneros, cortaúñas y más.',
+    subtemas: ['Arena para gatos', 'Areneros', 'Cepillos y peines', 'Champús', 'Antiparasitarios', 'Cortaúñas'],
   },
   descanso: {
     nombre: 'Descanso y Transporte',
     descripcion: 'Análisis de camas, transportines, mochilas de transporte y jaulas para perros y gatos.',
     icono: '🏠',
+    intro: 'Un perro o gato que descansa bien es un animal más sano y equilibrado. La cama adecuada puede aliviar problemas articulares en perros mayores, reducir la ansiedad y mejorar la calidad del sueño. En transporte, elegir bien el transportín marca la diferencia en viajes al veterinario, vuelos y excursiones. Comparamos camas, transportines, mochilas y jaulas para todas las necesidades.',
+    subtemas: ['Camas para perros', 'Camas para gatos', 'Transportines', 'Mochilas de transporte', 'Jaulas', 'Correas y arneses'],
   },
   comportamiento: {
-    nombre: 'Enriquecimiento',
+    nombre: 'Enriquecimiento y Juego',
     descripcion: 'Juguetes interactivos, rascadores, mordedores y accesorios para estimular a tu mascota.',
     icono: '🧸',
+    intro: 'El enriquecimiento ambiental es fundamental para el bienestar mental de perros y gatos. Un animal aburrido desarrolla conductas destructivas, ansiedad y estrés. Los juguetes adecuados estimulan los instintos naturales, reducen la ansiedad por separación y mantienen a tu mascota activa y feliz. Analizamos juguetes interactivos, puzzles, rascadores, mordedores y accesorios de estimulación.',
+    subtemas: ['Juguetes para perros', 'Juguetes para gatos', 'Rascadores', 'Mordedores', 'Puzzles cognitivos', 'Alfombras olfativas'],
   },
 };
 
@@ -43,10 +57,13 @@ const articulos = await getCollection('articulos', ({ data }) => data.categoria 
 const articulosOrdenados = articulos.sort(
   (a, b) => b.data.fecha.getTime() - a.data.fecha.getTime()
 );
+
+const destacados = articulosOrdenados.filter(a => a.data.destacado).slice(0, 3);
+const resto = articulosOrdenados.filter(a => !a.data.destacado || destacados.length === 0);
 ---
 
 <Base
-  title={`${info.nombre} para perros y gatos | Patas y Hogar`}
+  title={`${info.nombre} para perros y gatos | Guías y comparativas | Patas y Hogar`}
   description={info.descripcion}
 >
   <div class="category-page-header">
@@ -58,13 +75,44 @@ const articulosOrdenados = articulos.sort(
   </div>
 
   <div class="container section">
+
+    <!-- Intro SEO -->
+    <div class="category-intro">
+      <p>{info.intro}</p>
+      <div class="category-subtemas">
+        {info.subtemas.map(s => (
+          <span class="badge" style="background: var(--color-bg-muted); color: var(--color-text-muted);">{s}</span>
+        ))}
+      </div>
+    </div>
+
     {articulosOrdenados.length > 0 ? (
       <>
-        <p class="text-muted mb-8">
-          {articulosOrdenados.length} {articulosOrdenados.length === 1 ? 'artículo' : 'artículos'}
-        </p>
+        <!-- Destacados -->
+        {destacados.length > 0 && (
+          <div style="margin-bottom: 3rem;">
+            <h2 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 1.25rem; color: var(--color-primary);">
+              ⭐ Guías destacadas
+            </h2>
+            <div class="articles-grid">
+              {destacados.map(articulo => (
+                <ArticleCard articulo={articulo} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Todos los artículos -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h2 style="font-size: 1.2rem; font-weight: 700;">
+            {destacados.length > 0 ? 'Todos los artículos' : 'Artículos'}
+          </h2>
+          <p class="text-muted" style="font-size: 0.875rem;">
+            {articulosOrdenados.length} {articulosOrdenados.length === 1 ? 'artículo' : 'artículos'}
+          </p>
+        </div>
         <div class="articles-grid">
-          {articulosOrdenados.map(articulo => (
+          {(destacados.length > 0 ? resto : articulosOrdenados).map(articulo => (
             <ArticleCard articulo={articulo} />
           ))}
         </div>
@@ -81,3 +129,23 @@ const articulosOrdenados = articulos.sort(
     )}
   </div>
 </Base>
+
+<style>
+  .category-intro {
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    margin-bottom: 2.5rem;
+    border-left: 4px solid var(--color-primary);
+  }
+  .category-intro p {
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+  .category-subtemas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>
