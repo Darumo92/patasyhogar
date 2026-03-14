@@ -27,7 +27,49 @@ const { productos, titulo } = Astro.props;
 function estrellas(n: number): string {
   return '★'.repeat(Math.round(n)) + '☆'.repeat(5 - Math.round(n));
 }
+
+function precioNumerico(precio: string): string | null {
+  const match = precio.match(/(\d+[.,]?\d*)/);
+  return match ? match[1].replace(',', '.') : null;
+}
+
+const productSchemas = productos.map(p => {
+  const price = precioNumerico(p.precio);
+  return {
+    '@type': 'Product',
+    name: p.nombre,
+    ...(p.imagen && { image: p.imagen }),
+    description: p.puntosFuertes,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: p.valoracion,
+      bestRating: 5,
+      ratingCount: 1,
+    },
+    ...(price && {
+      offers: {
+        '@type': 'Offer',
+        priceCurrency: 'EUR',
+        price,
+        availability: 'https://schema.org/InStock',
+        ...(p.enlaceAmazon && { url: amazonHref(p.enlaceAmazon) }),
+      },
+    }),
+  };
+});
 ---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: titulo || 'Comparativa de productos',
+  numberOfItems: productSchemas.length,
+  itemListElement: productSchemas.map((s, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: s,
+  })),
+})} />
 
 {titulo && <h3 style="margin-bottom: 0.5rem;">{titulo}</h3>}
 
