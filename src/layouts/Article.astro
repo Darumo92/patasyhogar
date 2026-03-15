@@ -218,6 +218,11 @@ const breadcrumbSchema = {
             <ArticleCard articulo={a} />
           ))}
         </div>
+        <div style="text-align: center; margin-top: 1.5rem;">
+          <a href={`/${categoria}/`} class="affiliate-button" style="display: inline-flex; font-size: 0.9rem; padding: 0.65rem 1.5rem;">
+            {catInfo.icono} Ver más en {catInfo.nombre} →
+          </a>
+        </div>
       </section>
     )}
   </article>
