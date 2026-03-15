@@ -71,78 +71,220 @@ const productSchemas = productos.map(p => {
   })),
 })} />
 
-{titulo && <h3 style="margin-bottom: 0.5rem;">{titulo}</h3>}
+{titulo && <h3 class="comp-titulo">{titulo}</h3>}
 
-<div class="comparison-table-wrapper">
-  <table class="comparison-table">
-    <thead>
-      <tr>
-        <th scope="col">Producto</th>
-        <th scope="col">Valoración</th>
-        <th scope="col">Precio aprox.</th>
-        <th scope="col">Puntos fuertes</th>
-        <th scope="col">Comprar</th>
-      </tr>
-    </thead>
-    <tbody>
-      {productos.map(p => (
-        <tr>
-          <td class="product-name">
-            {p.imagen && (
-              <img src={p.imagen} alt={p.nombre} width="80" height="80"
-                style="display:block; margin-bottom: 0.4rem; border-radius: 4px; object-fit: contain;" />
-            )}
-            {p.nombre}
-          </td>
-          <td>
-            <span class="rating" title={`${p.valoracion}/5`}>
+<div class="comp-grid">
+  {productos.map((p, i) => (
+    <div class="comp-card">
+      {i === 0 && <span class="comp-badge">Top 1</span>}
+      <div class="comp-card-header">
+        {p.imagen && (
+          <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" />
+        )}
+        <div class="comp-card-info">
+          <h4 class="comp-name">{p.nombre}</h4>
+          <div class="comp-rating-price">
+            <span class="comp-rating" title={`${p.valoracion}/5`}>
               {estrellas(p.valoracion)}
+              <span class="comp-rating-num">{p.valoracion}/5</span>
             </span>
-            <span style="font-size: 0.8rem; color: var(--color-text-muted); margin-left: 0.25rem;">
-              {p.valoracion}/5
-            </span>
-          </td>
-          <td class="price">{p.precio}</td>
-          <td>{p.puntosFuertes}</td>
-          <td>
-            <div style="display: flex; flex-direction: column; gap: 0.4rem;">
-              {p.enlaceAmazon && (
-                <a
-                  href={amazonHref(p.enlaceAmazon)}
-                  class="affiliate-button amazon"
-                  style="font-size: 0.8rem; padding: 0.4rem 0.75rem;"
-                  target="_blank"
-                  rel="nofollow noopener noreferrer sponsored"
-                >
-                  🛒 Amazon
-                </a>
-              )}
-              {p.enlaceZooplus && (
-                <a
-                  href={p.enlaceZooplus}
-                  class="affiliate-button zooplus"
-                  style="font-size: 0.8rem; padding: 0.4rem 0.75rem;"
-                  target="_blank"
-                  rel="nofollow noopener noreferrer sponsored"
-                >
-                  🛒 Zooplus
-                </a>
-              )}
-              {p.enlaceTiendanimal && (
-                <a
-                  href={p.enlaceTiendanimal}
-                  class="affiliate-button tiendanimal"
-                  style="font-size: 0.8rem; padding: 0.4rem 0.75rem;"
-                  target="_blank"
-                  rel="nofollow noopener noreferrer sponsored"
-                >
-                  🛒 Tiendanimal
-                </a>
-              )}
-            </div>
-          </td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
+            <span class="comp-price">{p.precio}</span>
+          </div>
+        </div>
+      </div>
+      <p class="comp-pros">{p.puntosFuertes}</p>
+      <div class="comp-buttons">
+        {p.enlaceAmazon && (
+          <a
+            href={amazonHref(p.enlaceAmazon)}
+            class="affiliate-button amazon"
+            target="_blank"
+            rel="nofollow noopener noreferrer sponsored"
+          >
+            🛒 Ver en Amazon
+          </a>
+        )}
+        {p.enlaceZooplus && (
+          <a
+            href={p.enlaceZooplus}
+            class="affiliate-button zooplus"
+            target="_blank"
+            rel="nofollow noopener noreferrer sponsored"
+          >
+            🛒 Ver en Zooplus
+          </a>
+        )}
+        {p.enlaceTiendanimal && (
+          <a
+            href={p.enlaceTiendanimal}
+            class="affiliate-button tiendanimal"
+            target="_blank"
+            rel="nofollow noopener noreferrer sponsored"
+          >
+            🛒 Ver en Tiendanimal
+          </a>
+        )}
+      </div>
+    </div>
+  ))}
 </div>
+
+<style>
+.comp-titulo {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.comp-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.comp-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.comp-card:first-child {
+  border-color: var(--color-primary);
+  border-width: 2px;
+}
+
+.comp-card:hover {
+  border-color: var(--color-border-dark);
+  box-shadow: var(--shadow-md);
+}
+
+.comp-card:first-child:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-lg);
+}
+
+.comp-badge {
+  position: absolute;
+  top: -0.6rem;
+  right: 1rem;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.6rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.comp-card-header {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.comp-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-muted);
+  padding: 0.5rem;
+  flex-shrink: 0;
+}
+
+.comp-card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.comp-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.comp-rating-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.comp-rating {
+  color: #f59e0b;
+  font-size: 1rem;
+  letter-spacing: -1px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.comp-rating-num {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  letter-spacing: normal;
+}
+
+.comp-price {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+}
+
+.comp-pros {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin: 0.875rem 0 0;
+  padding-top: 0.875rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.comp-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.comp-buttons .affiliate-button {
+  font-size: 0.82rem;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 480px) {
+  .comp-card-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .comp-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .comp-rating-price {
+    justify-content: center;
+  }
+
+  .comp-pros {
+    text-align: left;
+  }
+
+  .comp-buttons {
+    justify-content: center;
+  }
+}
+</style>
