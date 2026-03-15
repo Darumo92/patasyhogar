@@ -807,7 +807,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Lickimat Classic**
 - URL Amazon: https://www.amazon.es/dp/B072PTSRZ3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81vSOHfNkTL._SL1500_.jpg
 
 **4. Kong Wobbler**
 - URL Amazon: https://www.amazon.es/dp/B003ALMW0M
@@ -1472,12 +1472,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Frontline Combo Gatos**
 - URL Amazon: https://www.amazon.es/dp/B09V6YT83K
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Ch-OB3NVL._SL1444_.jpg
 
 ### Comparativa
 **1. Frontline Combo Gatos**
 - URL Amazon: https://www.amazon.es/dp/B09V6YT83K
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Ch-OB3NVL._SL1444_.jpg
 
 **2. Advantage Gatos (Bayer/Elanco)**
 - URL Amazon: 
@@ -2888,7 +2888,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Lickimat Classic**
 - URL Amazon: https://www.amazon.es/dp/B072PTSRZ3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81vSOHfNkTL._SL1500_.jpg
 
 ---
 
