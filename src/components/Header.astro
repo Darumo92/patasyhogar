@@ -91,11 +91,11 @@ const navLinks = [
     if (isDark) {
       document.documentElement.removeAttribute('data-theme');
       localStorage.setItem('theme', 'light');
-      if (metaTheme) metaTheme.setAttribute('content', '#b45309');
+      if (metaTheme) metaTheme.setAttribute('content', '#c2410c');
     } else {
       document.documentElement.setAttribute('data-theme', 'dark');
       localStorage.setItem('theme', 'dark');
-      if (metaTheme) metaTheme.setAttribute('content', '#1a1a1a');
+      if (metaTheme) metaTheme.setAttribute('content', '#0c0a09');
     }
     updateIcon();
   });
