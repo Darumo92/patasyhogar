@@ -176,7 +176,7 @@ import Base from '@/layouts/Base.astro';
   }
 
   function renderCard(article: Article, query: string): string {
-    const url = `/${encodeURI(article.categoria)}/${encodeURI(article.slug)}`;
+    const url = `/${encodeURI(article.categoria)}/${encodeURI(article.slug)}/`;
     const catNombre = CATEGORIA_NOMBRES[article.categoria] || escapeHtml(article.categoria);
     const normQ = normalize(query);
 
