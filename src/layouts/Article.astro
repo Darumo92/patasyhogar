@@ -136,6 +136,7 @@ const breadcrumbSchema = {
       <p class="article-description">{descripcion}</p>
 
       <div class="article-meta">
+        <span class="article-author">Por <a href="/sobre-nosotros/" rel="author">Patas y Hogar</a></span>
         <time datetime={fecha.toISOString().split('T')[0]}>Publicado: {fechaFormateada}</time>
         {actualizadoFormateado && (
           <time datetime={(actualizadoEn as Date).toISOString().split('T')[0]} class="article-updated">
@@ -293,6 +294,15 @@ const breadcrumbSchema = {
     }
     .toc-list {
       counter-reset: toc-counter;
+    }
+
+    .article-author a {
+      color: var(--color-primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .article-author a:hover {
+      text-decoration: underline;
     }
 
     .article-updated {
