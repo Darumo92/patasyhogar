@@ -19,28 +19,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Veken 2,5L Inox**
 - URL Amazon: https://www.amazon.es/dp/B08NCDBT7Q
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71e-NwQieJL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Veken 2,5L Inox**
 - URL Amazon: https://www.amazon.es/dp/B08NCDBT7Q
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71e-NwQieJL._AC_SL1500_.jpg
 
 **2. Catit Flower Fountain**
 - URL Amazon: https://www.amazon.es/dp/B0146QXOB0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61BhM8Zl27L._AC_SL1500_.jpg
 
 **3. PetSafe Drinkwell Platinum**
 - URL Amazon: https://www.amazon.es/dp/B00LBY7TSU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61mDwEspBuL._AC_SL1407_.jpg
 
 **4. Miaustore cerámica**
-- URL Amazon: https://www.amazon.es/dp/B07L37WV69
+- URL Amazon: 
 - Imagen: 
 
 **5. Honeyguaridan W18**
 - URL Amazon: https://www.amazon.es/dp/B07989MP8Z
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61-GVbl4sEL._AC_SL1500_.jpg
 
 ---
 
@@ -50,28 +50,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Trixie Bebedero de Viaje 750ml**
 - URL Amazon: https://www.amazon.es/dp/B00YCXWU3G
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71prunGJeWL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Trixie Bebedero de Viaje 750ml**
 - URL Amazon: https://www.amazon.es/dp/B00YCXWU3G
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71prunGJeWL._AC_SL1500_.jpg
 
 **2. AmazonBasics Cuenco Acero Inox**
 - URL Amazon: https://www.amazon.es/dp/B01DOP5S9K
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61RRXjUh3uL._AC_SL1500_.jpg
 
 **3. Petkit Eversweet 2S (fuente)**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B0B4W8FDBV
+- Imagen: https://m.media-amazon.com/images/I/61wmy5X3zsL._AC_SL1500_.jpg
 
 **4. Bebedero de jardín/exterior automático**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B0F5MJCZ9Z
+- Imagen: https://m.media-amazon.com/images/I/71K2Z8HMxJL._AC_SL1500_.jpg
 
 **5. EYENIMAL Bebedero Elevado**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B07TB37KSR
+- Imagen: https://m.media-amazon.com/images/I/71Q6QRLgdlL._AC_SL1500_.jpg
 
 ---
 
@@ -81,24 +81,24 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **PETKIT Eversweet Travel 400ml**
 - URL Amazon: https://www.amazon.es/dp/B072Q1NFC9
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51r12skhO6L._AC_SL1170_.jpg
 
 ### Comparativa
 **1. PETKIT Eversweet Travel 400ml**
 - URL Amazon: https://www.amazon.es/dp/B072Q1NFC9
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51r12skhO6L._AC_SL1170_.jpg
 
 **2. Trixie Bebedero de Viaje 750ml**
 - URL Amazon: https://www.amazon.es/dp/B00YCXWU3G
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71prunGJeWL._AC_SL1500_.jpg
 
 **3. Cuenco plegable de silicona (pack 2)**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B0C26YJNKD
+- Imagen: https://m.media-amazon.com/images/I/716dAqojvAL._AC_SL1500_.jpg
 
 **4. MalsiPree Botella Perro 550ml**
 - URL Amazon: https://www.amazon.es/dp/B07FRV9XSF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71cX0FN-Z3L._AC_SL1500_.jpg
 
 **5. Bonve Pet Botella Acero Inox 600ml**
 - URL Amazon: 
@@ -143,28 +143,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **PetSafe Smart Feed Comedero Automático**
 - URL Amazon: https://www.amazon.es/dp/B07ZJF8MW5
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61b9gpTG2nL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. PetSafe Smart Feed (wifi + app)**
 - URL Amazon: https://www.amazon.es/dp/B07ZJF8MW5
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61b9gpTG2nL._AC_SL1500_.jpg
 
 **2. SureFeed Microchip Pet Feeder**
 - URL Amazon: https://www.amazon.es/dp/B00O0UIPTY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61j3BDpQH4L._AC_SL1500_.jpg
 
 **3. PetSafe 5 Comidas Programable**
 - URL Amazon: https://www.amazon.es/dp/B000GEWHNS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61i+tL3BMNL._AC_SL1500_.jpg
 
 **4. Arf Pets Dispensador Automático**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B07J9QQSS4
+- Imagen: https://m.media-amazon.com/images/I/71b2nfzGWyL._AC_SL1500_.jpg
 
 **5. Xiaomi Petoneer Mio Smart**
 - URL Amazon: https://www.amazon.es/dp/B08C9X28X1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51YngZPsPvL._AC_SL1500_.jpg
 
 ---
 
@@ -174,28 +174,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Trixie Comedero Elevado Acero Inox**
 - URL Amazon: https://www.amazon.es/dp/B000V6DM8A
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61AkfbW6LWL._AC_SX466_.jpg
 
 ### Comparativa
 **1. Trixie Comedero Elevado Acero Inox**
 - URL Amazon: https://www.amazon.es/dp/B000V6DM8A
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61AkfbW6LWL._AC_SX466_.jpg
 
 **2. AmazonBasics Elevated Pet Feeder**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B0DPWF2SJZ
+- Imagen: https://m.media-amazon.com/images/I/61p8CBdmYvL._AC_SL1500_.jpg
 
 **3. Iris Elevated Feeder**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B00L3D20FG
+- Imagen: https://m.media-amazon.com/images/I/7121xGM0xTL._AC_SL1500_.jpg
 
 **4. Pecute Comedero Elevado Ajustable**
 - URL Amazon: https://www.amazon.es/dp/B08Y8CH8Y1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71i11Nmh4BL._AC_SL1500_.jpg
 
 **5. PetFusion Premium Elevated Feeder**
 - URL Amazon: https://www.amazon.es/dp/B01MUG4F5I
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/5156QF1v0JL._AC_SL1500_.jpg
 
 ---
 
@@ -205,28 +205,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Catit Senses Digger**
 - URL Amazon: https://www.amazon.es/dp/B015P13QMM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61tEGM3vdqL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Catit Senses Digger**
 - URL Amazon: https://www.amazon.es/dp/B015P13QMM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61tEGM3vdqL._AC_SL1500_.jpg
 
 **2. Trixie Fun Board 5en1**
 - URL Amazon: https://www.amazon.es/dp/B001O8L2UO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41vB6IKW3bL._AC_SL1080_.jpg
 
 **3. LickiMat Felix**
 - URL Amazon: https://www.amazon.es/dp/B0CKY9WXJR
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71sRyEhDPRL._AC_SL1500_.jpg
 
 **4. Pioneer Pet Tiger Diner**
 - URL Amazon: 
 - Imagen: 
 
 **5. Northmate Catch**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B00EB4IV2A
+- Imagen: https://m.media-amazon.com/images/I/51XKVvGASQL._AC_SL1500_.jpg
 
 ---
 
@@ -236,28 +236,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **AmazonBasics Comedero de Acero Inoxidable**
 - URL Amazon: https://www.amazon.es/dp/B01DOP5S9K
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61RRXjUh3uL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. AmazonBasics Acero Inoxidable Antideslizante**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B01DOP5S9K
+- Imagen: https://m.media-amazon.com/images/I/61RRXjUh3uL._AC_SL1500_.jpg
 
 **2. Pecute Comedero Elevado Ajustable**
 - URL Amazon: https://www.amazon.es/dp/B08Y8CH8Y1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71i11Nmh4BL._AC_SL1500_.jpg
 
 **3. Outward Hound Fun Feeder (antivoracidad)**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B00L3O4JI6
+- Imagen: https://m.media-amazon.com/images/I/811O8lYB5uL._AC_SL1500_.jpg
 
 **4. WellToBe Comedero Automático 4L**
 - URL Amazon: https://www.amazon.es/dp/B08R8MK7S2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51iAXjIZIVL._AC_SL1200_.jpg
 
 **5. RUFFWEAR Quencher Bowl (plegable viaje)**
-- URL Amazon: 
-- Imagen: 
+- URL Amazon: https://www.amazon.es/dp/B0CLB4CV6F
+- Imagen: https://m.media-amazon.com/images/I/7118o2bu8xL._AC_SL1500_.jpg
 
 ---
 
@@ -267,12 +267,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Applaws en caldo natural**
 - URL Amazon: https://www.amazon.es/dp/B004FG87G4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Ti6VJgv7L._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Applaws en caldo natural**
 - URL Amazon: https://www.amazon.es/dp/B004FG87G4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Ti6VJgv7L._AC_SL1500_.jpg
 
 **2. Cosma Nature**
 - URL Amazon: 
@@ -280,15 +280,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Sheba Classics**
 - URL Amazon: https://www.amazon.es/dp/B07CBWJX6T
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61lpALDVBCL._AC_SL1000_.jpg
 
 **4. Lily's Kitchen**
 - URL Amazon: https://www.amazon.es/dp/B071RTL5PK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71mW0HhXWkL._AC_SL1500_.jpg
 
 **5. Gourmet Gold Mousse**
 - URL Amazon: https://www.amazon.es/dp/B07XHC1X9N
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71mbq3wuySL._AC_SL1500_.jpg
 
 ---
 
@@ -298,12 +298,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Applaws Lata en Caldo**
 - URL Amazon: https://www.amazon.es/dp/B09KVCQV71
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81r+89cjOkL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Applaws Lata en Caldo**
 - URL Amazon: https://www.amazon.es/dp/B09KVCQV71
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81r+89cjOkL._AC_SL1500_.jpg
 
 **2. Lily's Kitchen Comida Natural**
 - URL Amazon: 
@@ -329,12 +329,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **PetSafe Drinkwell 3,7L Inox**
 - URL Amazon: https://www.amazon.es/dp/B07Y3XDKY3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61DBaFpVUwL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. PetSafe Drinkwell 3,7L Inox**
 - URL Amazon: https://www.amazon.es/dp/B07Y3XDKY3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61DBaFpVUwL._AC_SL1500_.jpg
 
 **2. Veken 3L Inox para perros**
 - URL Amazon: 
@@ -342,7 +342,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. PetSafe Drinkwell Platinum 5L**
 - URL Amazon: https://www.amazon.es/dp/B00LBY7TSU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81UFTL5XfrL._AC_SL1500_.jpg
 
 **4. Bonve Pet 3,2L con LED**
 - URL Amazon: 
@@ -360,12 +360,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Hypoallergenic**
 - URL Amazon: https://www.amazon.es/dp/B0036F3Y90
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/519EAoli2jL._AC_SL1000_.jpg
 
 ### Comparativa
 **1. Royal Canin Hypoallergenic**
 - URL Amazon: https://www.amazon.es/dp/B0036F3Y90
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/519EAoli2jL._AC_SL1000_.jpg
 
 **2. Hill's z/d Prescription Diet**
 - URL Amazon: 
@@ -377,7 +377,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Advance Hypoallergenic**
 - URL Amazon: https://www.amazon.es/dp/B0041LXR0E
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71y3MVqQiDL._AC_SL1500_.jpg
 
 **5. Acana Singles Lamb & Apple**
 - URL Amazon: 
@@ -422,28 +422,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Kitten**
 - URL Amazon: https://www.amazon.es/dp/B07D4DWRFF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71wAHxOpuxL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Royal Canin Kitten**
 - URL Amazon: https://www.amazon.es/dp/B07D4DWRFF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71wAHxOpuxL._AC_SL1500_.jpg
 
 **2. Hill's Science Plan Kitten**
 - URL Amazon: https://www.amazon.es/dp/B00R19DDFW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41CZm9AtFDL._AC_SX466_.jpg
 
 **3. Purina Pro Plan Kitten**
 - URL Amazon: https://www.amazon.es/dp/B09442GSPH
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61aCQohMQrL._AC_SL1500_.jpg
 
 **4. Orijen Cat & Kitten**
 - URL Amazon: https://www.amazon.es/dp/B00BXHHMAA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/811miJGobZL._AC_SL1500_.jpg
 
 **5. Advance Kitten**
 - URL Amazon: https://www.amazon.es/dp/B00388MUI6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71ye+Ozh8IL._AC_SL1500_.jpg
 
 ---
 
@@ -453,28 +453,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Kitten**
 - URL Amazon: https://www.amazon.es/dp/B07D4DWRFF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71wAHxOpuxL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Royal Canin Kitten**
 - URL Amazon: https://www.amazon.es/dp/B07D4DWRFF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71wAHxOpuxL._AC_SL1500_.jpg
 
 **2. Hill's Science Plan Kitten**
 - URL Amazon: https://www.amazon.es/dp/B00R19DDFW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41CZm9AtFDL._AC_SX466_.jpg
 
 **3. Purina Pro Plan Kitten**
 - URL Amazon: https://www.amazon.es/dp/B09442GSPH
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61aCQohMQrL._AC_SL1500_.jpg
 
 **4. Orijen Kitten**
 - URL Amazon: https://www.amazon.es/dp/B09TB15M1J
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61Z9XatELZL._AC_SY450_.jpg
 
 **5. Advance Kitten**
 - URL Amazon: https://www.amazon.es/dp/B00388MUI6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71ye+Ozh8IL._AC_SL1500_.jpg
 
 ---
 
@@ -484,28 +484,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Sterilised 37**
 - URL Amazon: https://www.amazon.es/dp/B0015U0QIK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61g21YlTNHL._AC_SL1200_.jpg
 
 ### Comparativa
 **1. Royal Canin Sterilised 37**
 - URL Amazon: https://www.amazon.es/dp/B0015U0QIK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61g21YlTNHL._AC_SL1200_.jpg
 
 **2. Hill's Science Plan Sterilised**
 - URL Amazon: https://www.amazon.es/dp/B003ZEJI2E
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91XDfqQOaRL._AC_SL1500_.jpg
 
 **3. Purina Pro Plan Sterilised Optirenal**
 - URL Amazon: https://www.amazon.es/dp/B009FYKL6K
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/813kTFgVvwL._AC_SL1500_.jpg
 
 **4. Acana Pacifica (para gatos)**
 - URL Amazon: https://www.amazon.es/dp/B01M08R21P
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71VmrPLEgJL._AC_SL1500_.jpg
 
 **5. Advance Adult Sterilized**
 - URL Amazon: https://www.amazon.es/dp/B007XPB8D8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71n9pd6ImwL._AC_SL1500_.jpg
 
 ---
 
@@ -515,28 +515,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Urinary S/O**
 - URL Amazon: https://www.amazon.es/dp/B01FH6IID2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51gdTCUNbuL._AC_SL1200_.jpg
 
 ### Comparativa
 **1. Royal Canin Urinary S/O**
 - URL Amazon: https://www.amazon.es/dp/B01FH6IID2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51gdTCUNbuL._AC_SL1200_.jpg
 
 **2. Hill's c/d Multicare**
 - URL Amazon: https://www.amazon.es/dp/B01MSDL6B1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/519kzyrc+YL._AC_SL1000_.jpg
 
 **3. Hill's c/d Urinary Stress**
 - URL Amazon: https://www.amazon.es/dp/B01B1Q72VQ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61sjDzhCOcL._AC_SL1200_.jpg
 
 **4. Purina Pro Plan Urinary**
 - URL Amazon: https://www.amazon.es/dp/B015KDPDI0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61p+RNw2XQL._AC_SL1200_.jpg
 
 **5. Specific Crystal Prevention**
 - URL Amazon: https://www.amazon.es/dp/B07FYQBP9N
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51okA3UymyL._AC_SL1200_.jpg
 
 ---
 
@@ -563,7 +563,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Orijen Cat & Kitten (sin cereales)**
 - URL Amazon: https://www.amazon.es/dp/B00BXHHMAA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/811miJGobZL._AC_SL1500_.jpg
 
 **5. Advance Indoor Adult**
 - URL Amazon: 
@@ -577,20 +577,20 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Ageing 12+**
 - URL Amazon: https://www.amazon.es/dp/B0083F9OME
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61eHv+9zXsL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Royal Canin Ageing 12+**
 - URL Amazon: https://www.amazon.es/dp/B0083F9OME
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61eHv+9zXsL._AC_SL1500_.jpg
 
 **2. Hill's Science Plan Mature Adult 7+**
 - URL Amazon: https://www.amazon.es/dp/B073SQVNVH
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81mPPNRk5NL._AC_SL1500_.jpg
 
 **3. Purina Pro Plan Senior 7+**
 - URL Amazon: https://www.amazon.es/dp/B015KDIQ5W
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71G5ITpD4sL._AC_SL1500_.jpg
 
 **4. Orijen Senior Cat**
 - URL Amazon: 
@@ -598,7 +598,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Advance Senior**
 - URL Amazon: https://www.amazon.es/dp/B07QDX8NRF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71TLmTWwe0L._AC_SL1500_.jpg
 
 ---
 
@@ -608,12 +608,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Orijen Adult**
 - URL Amazon: https://www.amazon.es/dp/B06XFG1823
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61R+6UHBbTL._AC_SX679_.jpg
 
 ### Comparativa
 **1. Orijen Adult**
 - URL Amazon: https://www.amazon.es/dp/B06XFG1823
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61R+6UHBbTL._AC_SX679_.jpg
 
 **2. Acana Heritage Acres**
 - URL Amazon: 
@@ -621,15 +621,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Royal Canin Medium Adult**
 - URL Amazon: https://www.amazon.es/dp/B000VJW2GA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81aRZCye6+L._AC_SL1500_.jpg
 
 **4. Eukanuba Medium Adult**
 - URL Amazon: https://www.amazon.es/dp/B01DPD81W2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81q32s+DFZL._AC_SL1500_.jpg
 
 **5. Advance Adult Medium**
 - URL Amazon: https://www.amazon.es/dp/B008TOWNQ8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71dTJuufZ1L._AC_SL1500_.jpg
 
 ---
 
@@ -679,19 +679,19 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. Hill's Science Plan Mature 7+**
 - URL Amazon: https://www.amazon.es/dp/B003UAR6FY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61laXpruqhL._AC_SL1000_.jpg
 
 **3. Eukanuba Senior Medium**
 - URL Amazon: https://www.amazon.es/dp/B00CGOSQ5Y
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71ZzvG1AiwL._AC_SL1500_.jpg
 
 **4. Orijen Senior**
 - URL Amazon: https://www.amazon.es/dp/B06XG2VKH7
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81spJrxMa2L._AC_SL1500_.jpg
 
 **5. Advance Senior Vitality 7+**
 - URL Amazon: https://www.amazon.es/dp/B00388MZ8G
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71hHidLdScL._AC_SL1500_.jpg
 
 ---
 
@@ -701,12 +701,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Maxi Adult**
 - URL Amazon: https://www.amazon.es/dp/B007WIUS3M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61PNX8UYIJL._AC_SX679_.jpg
 
 ### Comparativa
 **1. Royal Canin Maxi Adult**
 - URL Amazon: https://www.amazon.es/dp/B007WIUS3M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61PNX8UYIJL._AC_SX679_.jpg
 
 **2. Orijen Large Breed**
 - URL Amazon: 
@@ -714,15 +714,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Taste of the Wild High Prairie**
 - URL Amazon: https://www.amazon.es/dp/B019Q0FJHS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81Z48RsrkLL._AC_SL1500_.jpg
 
 **4. Eukanuba Large Adult**
 - URL Amazon: https://www.amazon.es/dp/B0015Q0ZQW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/815Ztgs8iYL._AC_SL1500_.jpg
 
 **5. Acana Pacifica**
 - URL Amazon: https://www.amazon.es/dp/B01MUBS05M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81kATRuxFRL._AC_SL1500_.jpg
 
 ---
 
@@ -732,24 +732,24 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Mini Adult**
 - URL Amazon: https://www.amazon.es/dp/B000T4FWQ4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71meBcFe0kL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Royal Canin Mini Adult**
 - URL Amazon: https://www.amazon.es/dp/B000T4FWQ4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71meBcFe0kL._AC_SL1500_.jpg
 
 **2. Orijen Small & Mini**
 - URL Amazon: https://www.amazon.es/dp/B08LRFRVQS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61l3Qn78jEL._AC_SX679_.jpg
 
 **3. Taste of the Wild Small Breed**
 - URL Amazon: https://www.amazon.es/dp/B01L1TCJZW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81Kyv1KJVzL._AC_SL1500_.jpg
 
 **4. Advance Mini Adult**
 - URL Amazon: https://www.amazon.es/dp/B00388REL4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Tod7dQB2L._AC_SL1500_.jpg
 
 **5. Acana Light & Fit Small**
 - URL Amazon: 
@@ -763,12 +763,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Royal Canin Diabetic**
 - URL Amazon: https://www.amazon.es/dp/B009PZISPA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/6101d9gzNDL._AC_SX679_.jpg
 
 ### Comparativa
 **1. Royal Canin Diabetic**
 - URL Amazon: https://www.amazon.es/dp/B009PZISPA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/6101d9gzNDL._AC_SX679_.jpg
 
 **2. Hill's Prescription Diet w/d**
 - URL Amazon: 
@@ -794,12 +794,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Outward Hound Fun Feeder**
 - URL Amazon: https://www.amazon.es/dp/B00L3O3UPE
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ar4-vwd9L._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Outward Hound Fun Feeder**
 - URL Amazon: https://www.amazon.es/dp/B00L3O3UPE
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ar4-vwd9L._AC_SL1500_.jpg
 
 **2. JASGOOD Comedero Lento**
 - URL Amazon: 
@@ -811,11 +811,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Kong Wobbler**
 - URL Amazon: https://www.amazon.es/dp/B003ALMW0M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61rszHw5N5L._AC_SL1500_.jpg
 
 **5. Trixie Comedero Lento**
 - URL Amazon: https://www.amazon.es/dp/B0160VLFBU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41wPnRWx1vL._AC_SX466_.jpg
 
 ---
 
@@ -865,19 +865,19 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. Cosma Snackies**
 - URL Amazon: https://www.amazon.es/dp/B0D1XDB3DD
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71FdkBWrSkL._AC_SL1500_.jpg
 
 **3. GimCat Sticks**
 - URL Amazon: https://www.amazon.es/dp/B01MSCUP2O
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81QAL+v0ZFL._AC_SL1500_.jpg
 
 **4. Purina Dentalife Gato**
 - URL Amazon: https://www.amazon.es/dp/B07SB8DDXZ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81JdHVLIJ4L._AC_SL1500_.jpg
 
 **5. Whiskas Temptations**
 - URL Amazon: https://www.amazon.es/dp/B0015AFWB6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71cNrH3S9nL._AC_SL1500_.jpg
 
 ---
 
@@ -887,12 +887,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Rocco Chings (pechuga de pollo)**
 - URL Amazon: https://www.amazon.es/dp/B07S24MNB3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/814M+Ggvj9L._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Rocco Chings (pechuga de pollo)**
 - URL Amazon: https://www.amazon.es/dp/B07S24MNB3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/814M+Ggvj9L._AC_SL1500_.jpg
 
 **2. Wolf of Wilderness (oreja de conejo)**
 - URL Amazon: 
@@ -904,11 +904,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Edgar & Cooper (manzana y pollo)**
 - URL Amazon: https://www.amazon.es/dp/B07RJKVR4F
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81TahF2P9mL._AC_SL1500_.jpg
 
 **5. Greenies Original**
 - URL Amazon: https://www.amazon.es/dp/B07QT9XLGM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71ag3V-HmbL._AC_SL1500_.jpg
 
 ---
 
@@ -918,28 +918,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Cat's Best Original**
 - URL Amazon: https://www.amazon.es/dp/B0082AJ1C8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81epHCXuI5S._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Cat's Best Original**
 - URL Amazon: https://www.amazon.es/dp/B0082AJ1C8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81epHCXuI5S._AC_SL1500_.jpg
 
 **2. Ever Clean Aqua Breeze**
 - URL Amazon: https://www.amazon.es/dp/B00VTMVY9E
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61kPVpn9J+L._AC_SL1000_.jpg
 
 **3. Intersand Odourlock**
 - URL Amazon: https://www.amazon.es/dp/B08P3P9SBV
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61dLOmWuplL._AC_SL1200_.jpg
 
 **4. Tigerino Canada (sin perfume)**
 - URL Amazon: https://www.amazon.es/dp/B088837PDG
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Duvx-RfvL._AC_SL1500_.jpg
 
 **5. Nullodor arena de sílice**
 - URL Amazon: https://www.amazon.es/dp/B00FXOPSCS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71-ikox46mL._AC_SL1500_.jpg
 
 ---
 
@@ -949,12 +949,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **ChomChom Roller**
 - URL Amazon: https://www.amazon.es/dp/B00BAGTNAQ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71mmJsbMGZL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. ChomChom Roller**
 - URL Amazon: https://www.amazon.es/dp/B00BAGTNAQ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71mmJsbMGZL._AC_SL1500_.jpg
 
 **2. Guante FURminator**
 - URL Amazon: 
@@ -962,11 +962,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Cepillo de goma DELOMO**
 - URL Amazon: https://www.amazon.es/dp/B01N9KSITZ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81b7ohW6SmL._AC_SL1500_.jpg
 
 **4. Aspirador de mano Dyson V8**
 - URL Amazon: https://www.amazon.es/dp/B07BHCFH3W
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/31uW0zgcf0L._AC_SY450_.jpg
 
 **5. Rodillo Scotch-Brite**
 - URL Amazon: 
@@ -989,19 +989,19 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. TropiClean Oatmeal & Tea Tree**
 - URL Amazon: https://www.amazon.es/dp/B000WT8REK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/710L2m17mdL._AC_SL1500_.jpg
 
 **3. Menforsan con Aloe Vera**
 - URL Amazon: https://www.amazon.es/dp/B01980UMF0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91MvvwHhE-L._AC_SL1500_.jpg
 
 **4. Douxo S3 Calm**
 - URL Amazon: https://www.amazon.es/dp/B0883QM8QN
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51j2AHUknTL._AC_SL1500_.jpg
 
 **5. Beaphar Bio Shampoo**
 - URL Amazon: https://www.amazon.es/dp/B00OKFHO0U
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61DlZcZhGIS._AC_SL1500_.jpg
 
 ---
 
@@ -1011,24 +1011,24 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Virbac Epi-Otic**
 - URL Amazon: https://www.amazon.es/dp/B0056EAKUA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51MOfjgj4XL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Virbac Epi-Otic**
 - URL Amazon: https://www.amazon.es/dp/B0056EAKUA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51MOfjgj4XL._AC_SL1500_.jpg
 
 **2. Otoclean (ICF)**
 - URL Amazon: https://www.amazon.es/dp/B0089X5KLE
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51OWukBOITL._AC_SL1000_.jpg
 
 **3. Beaphar limpiador de oídos**
 - URL Amazon: https://www.amazon.es/dp/B00O4B4YSK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/712Jb4keJhL._AC_SL1500_.jpg
 
 **4. TropiClean Ear Wash**
 - URL Amazon: https://www.amazon.es/dp/B003DLE5TA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71FVSzzC5sL._AC_SL1500_.jpg
 
 ---
 
@@ -1047,11 +1047,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. Bravecto Comprimido Masticable**
 - URL Amazon: https://www.amazon.es/dp/B0DV1RNBG6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61ekKEJEvOL._AC_SL1500_.jpg
 
 **3. Frontline Plus Pipeta**
 - URL Amazon: https://www.amazon.es/dp/B01HS7GC6S
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/611C10o3yIS._AC_SX679_.jpg
 
 **4. Advantix Pipeta (Bayer/Elanco)**
 - URL Amazon: 
@@ -1069,28 +1069,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Cat's Best Original**
 - URL Amazon: https://www.amazon.es/dp/B0082AJ1C8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81epHCXuI5S._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Cat's Best Original**
 - URL Amazon: https://www.amazon.es/dp/B0082AJ1C8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81epHCXuI5S._AC_SL1500_.jpg
 
 **2. Ever Clean Total Cover**
 - URL Amazon: https://www.amazon.es/dp/B07NC5LM59
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61TNRGSmpVL._AC_SL1500_.jpg
 
 **3. Catsan Hygiene Plus**
 - URL Amazon: https://www.amazon.es/dp/B014PCXI5M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71UFhAAN9KL._AC_SL1500_.jpg
 
 **4. Tigerino Canada**
 - URL Amazon: https://www.amazon.es/dp/B07VFHM1M4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61FeK8cnFNL._AC_SX679_.jpg
 
 **5. Sanicat Clumping**
 - URL Amazon: https://www.amazon.es/dp/B00O4B8ISW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71twsjd-v6L._AC_SL1500_.jpg
 
 ---
 
@@ -1100,12 +1100,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Catit Arenero Jumbo**
 - URL Amazon: https://www.amazon.es/dp/B003RQVGKC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61HlSfNvjCL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Catit Arenero Jumbo**
 - URL Amazon: https://www.amazon.es/dp/B003RQVGKC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61HlSfNvjCL._AC_SL1500_.jpg
 
 **2. Iris USA Open Top XL**
 - URL Amazon: 
@@ -1131,28 +1131,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Litter-Robot 4**
 - URL Amazon: https://www.amazon.es/dp/B0CFTFRZ43
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61-gHO5eWyL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Litter-Robot 4**
 - URL Amazon: https://www.amazon.es/dp/B0CFTFRZ43
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61-gHO5eWyL._AC_SL1500_.jpg
 
 **2. PetSafe ScoopFree**
 - URL Amazon: https://www.amazon.es/dp/B00L4CBA8Y
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71dVJO+3EPS._AC_SL1500_.jpg
 
 **3. CatLink Luxury**
 - URL Amazon: https://www.amazon.es/dp/B0BCCG3QQY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61CWCUZ5VoL._AC_SL1500_.jpg
 
 **4. Catit SmartSift**
 - URL Amazon: https://www.amazon.es/dp/B009B83V76
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61p7nlT1hRL._AC_SL1500_.jpg
 
 **5. Petkit Pura Max**
 - URL Amazon: https://www.amazon.es/dp/B09Q32L24S
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71kCToDzBUL._AC_SL1500_.jpg
 
 ---
 
@@ -1162,28 +1162,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Catit Jumbo**
 - URL Amazon: https://www.amazon.es/dp/B0057XF6U4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51f4GisAUfL._AC_SX679_.jpg
 
 ### Comparativa
 **1. Catit Jumbo**
 - URL Amazon: https://www.amazon.es/dp/B0057XF6U4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51f4GisAUfL._AC_SX679_.jpg
 
 **2. Curver Rattan (estilo mueble)**
 - URL Amazon: https://www.amazon.es/dp/B009UHWQOW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61XFOI2kpnL._AC_SL1500_.jpg
 
 **3. Savic Hop In (entrada superior)**
 - URL Amazon: https://www.amazon.es/dp/B01MU1IZO0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61hJyta7hmL._AC_SL1500_.jpg
 
 **4. Trixie Vico**
 - URL Amazon: https://www.amazon.es/dp/B004V2P850
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51vm8pSaZZS._AC_SL1500_.jpg
 
 **5. Rotho MyPet Biala**
 - URL Amazon: https://www.amazon.es/dp/B0C9PR93HS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/514awRipA+L._AC_SL1200_.jpg
 
 ---
 
@@ -1193,12 +1193,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Dyson V15 Detect**
 - URL Amazon: https://www.amazon.es/dp/B0BS1Q7RG5
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41XHfNtRd3L._AC_SX679_.jpg
 
 ### Comparativa
 **1. Dyson V15 Detect**
 - URL Amazon: https://www.amazon.es/dp/B0BS1Q7RG5
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41XHfNtRd3L._AC_SX679_.jpg
 
 **2. Dyson V8 Animal**
 - URL Amazon: 
@@ -1224,12 +1224,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **FURminator Gatos Pelo Corto**
 - URL Amazon: https://www.amazon.es/dp/B0040QS3PO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61NTtMnJT5L._AC_SL1500_.jpg
 
 ### Comparativa
 **1. FURminator Gatos Pelo Corto**
 - URL Amazon: https://www.amazon.es/dp/B0040QS3PO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61NTtMnJT5L._AC_SL1500_.jpg
 
 **2. Hertzko Self-Cleaning Slicker Gatos**
 - URL Amazon: 
@@ -1255,12 +1255,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **FURminator Deslanador**
 - URL Amazon: https://www.amazon.es/dp/B07NSNDHH1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/713UmlozGqL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. FURminator Deslanador**
 - URL Amazon: https://www.amazon.es/dp/B07NSNDHH1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/713UmlozGqL._AC_SL1500_.jpg
 
 **2. Chris Christensen Mark II (cepillo de puas)**
 - URL Amazon: 
@@ -1268,15 +1268,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Hertzko Self Cleaning Slicker**
 - URL Amazon: https://www.amazon.es/dp/B00ZGPI3OY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/710yYDTuiML._AC_SL1500_.jpg
 
 **4. Trixie Cepillo de goma**
 - URL Amazon: https://www.amazon.es/dp/B003OQGTUM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81fyf3d8WDL._AC_SL1500_.jpg
 
 **5. Safari De-Matting Comb**
 - URL Amazon: https://www.amazon.es/dp/B0002ARR2W
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61HdvpkV29L._AC_SL1500_.jpg
 
 ---
 
@@ -1291,15 +1291,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### Comparativa
 **1. Virbac Episoothe**
 - URL Amazon: https://www.amazon.es/dp/B07JKMY68M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71MIgbfmCJL._AC_SL1500_.jpg
 
 **2. John Paul Pet Cat Shampoo**
 - URL Amazon: https://www.amazon.es/dp/B000NE5NP0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61o-UpY8a7L._AC_SL1500_.jpg
 
 **3. Beaphar Shampoo Gato**
 - URL Amazon: https://www.amazon.es/dp/B00LSXU0IU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61Xo+wKYrzL._AC_SL1500_.jpg
 
 **4. Bio-Groom Super Cream**
 - URL Amazon: 
@@ -1307,7 +1307,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Tropiclean Gentle Coconut**
 - URL Amazon: https://www.amazon.es/dp/B001VIWHD8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71lvLyFmLxL._AC_SL1500_.jpg
 
 ---
 
@@ -1357,11 +1357,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. Resco Original Deluxe (guillotina)**
 - URL Amazon: https://www.amazon.es/dp/B0010O7882
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61D7+cJ3XJL._AC_SL1500_.jpg
 
 **3. Safari Professional Trimmer (tijera)**
 - URL Amazon: https://www.amazon.es/dp/B0002ARQV4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61v2LGljdDL._AC_SL1500_.jpg
 
 **4. Casifor Cortaúñas con sensor LED**
 - URL Amazon: 
@@ -1369,7 +1369,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Dremel PawControl 7760-PGK**
 - URL Amazon: https://www.amazon.es/dp/B0C743BSH9
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51iRYVaKKgL._AC_SL1500_.jpg
 
 ---
 
@@ -1410,16 +1410,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Earth Rated Dispensador + Rollos**
 - URL Amazon: https://www.amazon.es/dp/B08VNYBXX4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71bx93r3IRL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Earth Rated Dispensador + Rollos**
 - URL Amazon: https://www.amazon.es/dp/B08VNYBXX4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71bx93r3IRL._AC_SL1500_.jpg
 
 **2. Amazon Basics Dispensador**
 - URL Amazon: https://www.amazon.es/dp/B00NABTC8M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71RhBxKwOWL._AC_SL1500_.jpg
 
 **3. Pogi's Pet Supplies Dispensador**
 - URL Amazon: 
@@ -1441,16 +1441,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Nature's Miracle Advanced**
 - URL Amazon: https://www.amazon.es/dp/B071ZMGPKV
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71A2mCZdFjL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Nature's Miracle Advanced**
 - URL Amazon: https://www.amazon.es/dp/B071ZMGPKV
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71A2mCZdFjL._AC_SL1500_.jpg
 
 **2. Simple Solution Extreme**
 - URL Amazon: https://www.amazon.es/dp/B01CZNPFCC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/717A4dB+0mL._AC_SL1500_.jpg
 
 **3. Urine Off**
 - URL Amazon: 
@@ -1503,20 +1503,20 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Musher's Secret**
 - URL Amazon: https://www.amazon.es/dp/B0002XIZXY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71WU2qo42HL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Musher's Secret**
 - URL Amazon: https://www.amazon.es/dp/B0002XIZXY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71WU2qo42HL._AC_SL1500_.jpg
 
 **2. Pawz Dog Boots (caucho natural)**
 - URL Amazon: https://www.amazon.es/dp/B001J1Y9VA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71yIkngB7WL._AC_SL1500_.jpg
 
 **3. Ruffwear Grip Trex**
 - URL Amazon: https://www.amazon.es/dp/B09MSLPSZL
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71UjxrO1vLL._AC_SL1500_.jpg
 
 **4. Trixie Walker Care Bálsamo**
 - URL Amazon: 
@@ -1534,28 +1534,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Pogi's Bolsas Biodegradables**
 - URL Amazon: https://www.amazon.es/dp/B00ISBWVT6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Q0UyeEfML._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Pogi's Bolsas Biodegradables**
 - URL Amazon: https://www.amazon.es/dp/B00ISBWVT6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Q0UyeEfML._AC_SL1500_.jpg
 
 **2. Biobag Bolsas Compostables**
 - URL Amazon: https://www.amazon.es/dp/B01K1U271S
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81rkU6pUozL._AC_SL1500_.jpg
 
 **3. Earth Rated Bolsas Eco**
 - URL Amazon: https://www.amazon.es/dp/B0088LIINY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/711WbFbVgxL._AC_SL1500_.jpg
 
 **4. Amazon Basics Biodegradables**
 - URL Amazon: https://www.amazon.es/dp/B00NABTC8M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71RhBxKwOWL._AC_SL1500_.jpg
 
 **5. Doggy Do Good Compostables**
 - URL Amazon: https://www.amazon.es/dp/B01LY7IKBQ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71NiXxLOlwL._AC_SL1500_.jpg
 
 ---
 
@@ -1570,7 +1570,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### Comparativa
 **1. Amazon Basics (pack 100)**
 - URL Amazon: https://www.amazon.es/dp/B00MW8G3YU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Co+yjlWAL._AC_SL1500_.jpg
 
 **2. Simple Solution 6 capas**
 - URL Amazon: 
@@ -1578,7 +1578,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Trixie Nappy (60x60 cm)**
 - URL Amazon: https://www.amazon.es/dp/B001BYKTPA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/614KZYBlYEL._AC_SL1200_.jpg
 
 **4. Empapador reutilizable Mednet**
 - URL Amazon: 
@@ -1627,28 +1627,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Pecute Alfombrilla Gel**
 - URL Amazon: https://www.amazon.es/dp/B06XJXKLTG
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51ZKJB5JdQL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Pecute Alfombrilla Gel**
 - URL Amazon: https://www.amazon.es/dp/B06XJXKLTG
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51ZKJB5JdQL._AC_SL1500_.jpg
 
 **2. Navaris Esterilla Refrigerante**
 - URL Amazon: https://www.amazon.es/dp/B0CN1CWWBV
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71yAvMPFSxL._AC_SL1500_.jpg
 
 **3. Trixie Cool Dreamer**
 - URL Amazon: https://www.amazon.es/dp/B0108SAUDK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41qZ1XNisVL._AC_SL1500_.jpg
 
 **4. Cama Elevada Coolaroo**
 - URL Amazon: https://www.amazon.es/dp/B07VL5L7KM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71wA6rN7TcL._AC_SL1500_.jpg
 
 **5. GoPetee XXL Refrigerante**
 - URL Amazon: https://www.amazon.es/dp/B07PFM64JF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61HmfDznjqL._AC_SL1500_.jpg
 
 ---
 
@@ -1658,12 +1658,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **PetSafe Easy Walk**
 - URL Amazon: https://www.amazon.es/dp/B00600YKKK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81w-ZebA1UL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. PetSafe Easy Walk**
 - URL Amazon: https://www.amazon.es/dp/B00600YKKK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81w-ZebA1UL._AC_SL1500_.jpg
 
 **2. Halti Harness**
 - URL Amazon: 
@@ -1671,11 +1671,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Julius-K9 IDC Powerharness**
 - URL Amazon: https://www.amazon.es/dp/B0041VQH8I
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81UkNdjGNFL._AC_SL1500_.jpg
 
 **4. Ruffwear Front Range**
 - URL Amazon: https://www.amazon.es/dp/B082FMQXPC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71HlxqjlenL._AC_SL1500_.jpg
 
 **5. Rabbitgoo No-Pull Harness**
 - URL Amazon: 
@@ -1689,28 +1689,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Julius-K9 IDC Powerharness**
 - URL Amazon: https://www.amazon.es/dp/B0041VQH8I
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81UkNdjGNFL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Julius-K9 IDC Powerharness**
 - URL Amazon: https://www.amazon.es/dp/B0041VQH8I
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81UkNdjGNFL._AC_SL1500_.jpg
 
 **2. Ruffwear Front Range**
 - URL Amazon: https://www.amazon.es/dp/B082FMQXPC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71HlxqjlenL._AC_SL1500_.jpg
 
 **3. Kurgo Tru-Fit Smart**
 - URL Amazon: https://www.amazon.es/dp/B00164ZW98
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/719KZhF7rnL._AC_SL1500_.jpg
 
 **4. Ferplast Agila**
 - URL Amazon: https://www.amazon.es/dp/B01I9T2K42
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61CyVo7tY5L._AC_SL1000_.jpg
 
 **5. EzyDog Quick Fit**
 - URL Amazon: https://www.amazon.es/dp/B003XX585I
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71HupkplU0L._AC_SL1500_.jpg
 
 ---
 
@@ -1720,16 +1720,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Kurgo Wander Hammock**
 - URL Amazon: https://www.amazon.es/dp/B00164SZPQ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71K1Hp2-tWL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Kurgo Wander Hammock**
 - URL Amazon: https://www.amazon.es/dp/B00164SZPQ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71K1Hp2-tWL._AC_SL1500_.jpg
 
 **2. Trixie Asiento Trasero**
 - URL Amazon: https://www.amazon.es/dp/B000WFBNKY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71RKxbyabrL._AC_SL1500_.jpg
 
 **3. Ruffwear Load Up (arnés homologado)**
 - URL Amazon: 
@@ -1760,7 +1760,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. Munchkin Easy Close**
 - URL Amazon: https://www.amazon.es/dp/B00KHP43A6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81pxe2GEL7L._AC_SL1500_.jpg
 
 **3. Trixie Barrera Perro**
 - URL Amazon: 
@@ -1782,12 +1782,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Baskerville Ultra**
 - URL Amazon: https://www.amazon.es/dp/B005D4O0LS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71TEp-x12DL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Baskerville Ultra**
 - URL Amazon: https://www.amazon.es/dp/B005D4O0LS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71TEp-x12DL._AC_SL1500_.jpg
 
 **2. Jafco Muzzle**
 - URL Amazon: 
@@ -1813,7 +1813,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Bedsure Cama Lavable para Perros**
 - URL Amazon: https://www.amazon.es/dp/B07V2DJ7GW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61EeNJgOkIL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Bedsure Cama Lavable**
@@ -1844,7 +1844,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Bedsure Cama Ortopédica para Perros**
 - URL Amazon: https://www.amazon.es/dp/B08NC88YD7
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/714QScIqOfL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Bedsure Cama Ortopédica**
@@ -1853,15 +1853,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. K9 Ballistics Tough Orthopedic**
 - URL Amazon: https://www.amazon.es/dp/B0BJ9V9WMW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51YbAgGhKuL._AC_SL1500_.jpg
 
 **3. PetFusion Ultimate**
 - URL Amazon: https://www.amazon.es/dp/B00TQ47CPW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71l2iEu1EaL._AC_SL1500_.jpg
 
 **4. Trixie Vital Bed**
 - URL Amazon: https://www.amazon.es/dp/B096MTYMHD
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71VxYjKhV2L._AC_SL1500_.jpg
 
 **5. Yaheetech Cama Grande Ortopédica**
 - URL Amazon: 
@@ -1875,24 +1875,24 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Bedsure Cueva Gato**
 - URL Amazon: https://www.amazon.es/dp/B089ZNSQL8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81Rp0QuqAxL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Bedsure Cueva Gato**
 - URL Amazon: https://www.amazon.es/dp/B089ZNSQL8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81Rp0QuqAxL._AC_SL1500_.jpg
 
 **2. Cama Donut Nido**
 - URL Amazon: https://www.amazon.es/dp/B07V6BZQC7
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71+3Iavcw7L._AC_SL1500_.jpg
 
 **3. Trixie Hamaca Radiador**
 - URL Amazon: https://www.amazon.es/dp/B076PQ866P
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51ZyhJQS9jL._AC_SX679_.jpg
 
 **4. Catit Vesper Cubo**
 - URL Amazon: https://www.amazon.es/dp/B00TOK58UO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71yFjGySeIL._AC_SL1500_.jpg
 
 **5. PetFusion Cama Ventana**
 - URL Amazon: 
@@ -1906,12 +1906,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **K9 Ballistics Chew Proof**
 - URL Amazon: https://www.amazon.es/dp/B0BJ9V9WMW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51YbAgGhKuL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. K9 Ballistics Chew Proof**
 - URL Amazon: https://www.amazon.es/dp/B0BJ9V9WMW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51YbAgGhKuL._AC_SL1500_.jpg
 
 **2. Kong Cama Ultra Durable**
 - URL Amazon: 
@@ -1919,15 +1919,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Cama elevada tipo catre (Veehoo)**
 - URL Amazon: https://www.amazon.es/dp/B07LFS84SC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/517Ibk1JLWL._AC_SL1500_.jpg
 
 **4. PetFusion Ultimate**
 - URL Amazon: https://www.amazon.es/dp/B00TQ47CPW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71l2iEu1EaL._AC_SL1500_.jpg
 
 **5. Hobbydog Cama XL reforzada**
 - URL Amazon: https://www.amazon.es/dp/B008DSK5WE
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71rr8jXPJfL._AC_SL1500_.jpg
 
 ---
 
@@ -1937,16 +1937,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Ruffwear Float Coat**
 - URL Amazon: https://www.amazon.es/dp/B01MY7UHDP
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91JnuHVrpgL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Ruffwear Float Coat**
 - URL Amazon: https://www.amazon.es/dp/B01MY7UHDP
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91JnuHVrpgL._AC_SL1500_.jpg
 
 **2. EzyDog DFD (Dog Flotation Device)**
 - URL Amazon: https://www.amazon.es/dp/B002SIVQ50
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/710byeMO2DL._AC_SL1500_.jpg
 
 **3. Trixie Chaleco Salvavidas**
 - URL Amazon: 
@@ -1954,7 +1954,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Vivaglory Ripstop**
 - URL Amazon: https://www.amazon.es/dp/B0DW7P9YXV
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71B688QW74L._AC_SL1500_.jpg
 
 **5. Hurtta Life Savior**
 - URL Amazon: 
@@ -1968,16 +1968,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Hurtta Downpour Suit**
 - URL Amazon: https://www.amazon.es/dp/B078XT82X2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61mVSBDe7cL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Hurtta Downpour Suit**
 - URL Amazon: https://www.amazon.es/dp/B078XT82X2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61mVSBDe7cL._AC_SL1500_.jpg
 
 **2. Rukka Pets Raincoat**
 - URL Amazon: https://www.amazon.es/dp/B07L8J3382
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61jUzjftUBL._AC_SL1500_.jpg
 
 **3. Freedog Chubasquero Galgo**
 - URL Amazon: 
@@ -1985,11 +1985,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Trixie Vimy Chubasquero**
 - URL Amazon: https://www.amazon.es/dp/B089ZDWYVZ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81jUKaKy6aL._AC_SL1500_.jpg
 
 **5. Zellar Chubasquero Ajustable**
 - URL Amazon: https://www.amazon.es/dp/B06XXLPZW1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61wrz1q+r9L._AC_SL1500_.jpg
 
 ---
 
@@ -1999,16 +1999,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Tractive GPS Cat**
 - URL Amazon: https://www.amazon.es/dp/B0BX6PCCWD
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71hJIvr80oL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Tractive GPS Cat**
 - URL Amazon: https://www.amazon.es/dp/B0BX6PCCWD
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71hJIvr80oL._AC_SL1500_.jpg
 
 **2. Weenect Cats 2**
 - URL Amazon: https://www.amazon.es/dp/B01F3T6YAM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71TLJ8-t71L._AC_SL1500_.jpg
 
 **3. Pawscout Tag**
 - URL Amazon: 
@@ -2016,11 +2016,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Tabcat**
 - URL Amazon: https://www.amazon.es/dp/B09XF678NT
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71exoF+4WmL._AC_SL1500_.jpg
 
 **5. Loc8tor Pet**
 - URL Amazon: https://www.amazon.es/dp/B005N0PGVK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61euoOg8B5L._AC_SL1500_.jpg
 
 ---
 
@@ -2030,12 +2030,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Leuchtie Mini**
 - URL Amazon: https://www.amazon.es/dp/B07QLV4915
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81D11GpydqL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Leuchtie Mini**
 - URL Amazon: https://www.amazon.es/dp/B07QLV4915
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81D11GpydqL._AC_SL1500_.jpg
 
 **2. Illumiseen LED Collar**
 - URL Amazon: 
@@ -2066,11 +2066,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### Comparativa
 **1. Flexi New Classic Tape L (8m, hasta 50 kg)**
 - URL Amazon: https://www.amazon.es/dp/B01HDAX59W
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/7176gzxZqyS._AC_SL1500_.jpg
 
 **2. Flexi Giant Tape XL (8m, hasta 60 kg)**
 - URL Amazon: https://www.amazon.es/dp/B01DDHQJHO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/818oi6Sop-L._AC_SL1500_.jpg
 
 **3. Trixie Correa Extensible Vario 5m**
 - URL Amazon: 
@@ -2078,7 +2078,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Ferplast Amigo Extra Strong 5m**
 - URL Amazon: https://www.amazon.es/dp/B00SKU8JS2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61bAO+KUbTL._AC_SL1500_.jpg
 
 **5. Hunter Correa Extensible Verona 5m**
 - URL Amazon: 
@@ -2097,23 +2097,23 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### Comparativa
 **1. Ruffwear Roamer (extensible ajustable)**
 - URL Amazon: https://www.amazon.es/dp/B08R5RVSMX
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71oNVAc5XDL._AC_SL1500_.jpg
 
 **2. Julius-K9 IDC Correa Neopreno**
 - URL Amazon: https://www.amazon.es/dp/B01C6O9DXC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71TTztrnV5L._AC_SL1500_.jpg
 
 **3. Flexi New Classic (retráctil)**
 - URL Amazon: https://www.amazon.es/dp/B0748PGNY3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71yMJBjPgRL._AC_SL1500_.jpg
 
 **4. Trixie Correa Larga Adiestramiento 10m**
 - URL Amazon: https://www.amazon.es/dp/B000WFFP7Q
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61lHVdGH3nL._AC_SL1500_.jpg
 
 **5. Kurgo Quantum (multiposición)**
 - URL Amazon: https://www.amazon.es/dp/B003NSCD1K
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81YC+3JCX1L._AC_SL1500_.jpg
 
 ---
 
@@ -2154,28 +2154,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Feandrea Jaula Metálica**
 - URL Amazon: https://www.amazon.es/dp/B00NEF20J2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ESX3QG01L._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Feandrea Jaula Metálica**
 - URL Amazon: https://www.amazon.es/dp/B00NEF20J2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ESX3QG01L._AC_SL1500_.jpg
 
 **2. AmazonBasics Jaula Plegable**
 - URL Amazon: https://www.amazon.es/dp/B09G4FD9GP
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91K5uLGProL._AC_SL1500_.jpg
 
 **3. Ferplast Atlas Car**
 - URL Amazon: https://www.amazon.es/dp/B00F5ZSSWM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81rtRgoVB-L._AC_SL1500_.jpg
 
 **4. Trixie Jaula Aluminio**
 - URL Amazon: https://www.amazon.es/dp/B008JWSDWI
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71qaMfP5ebL._AC_SL1500_.jpg
 
 **5. Petsfit Soft Crate**
 - URL Amazon: https://www.amazon.es/dp/B08SJ7XBJN
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71KUq0jZOQL._AC_SL1500_.jpg
 
 ---
 
@@ -2216,12 +2216,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Trixie Protector Maletero Universal**
 - URL Amazon: https://www.amazon.es/dp/B000QC2ZPK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61Ay4TWv3eL._AC_SL1200_.jpg
 
 ### Comparativa
 **1. Trixie Protector Maletero Universal**
 - URL Amazon: https://www.amazon.es/dp/B000QC2ZPK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61Ay4TWv3eL._AC_SL1200_.jpg
 
 **2. Pecute Protector Maletero Premium**
 - URL Amazon: 
@@ -2252,7 +2252,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### Comparativa
 **1. Petcute Funda Impermeable Acolchada**
 - URL Amazon: https://www.amazon.es/dp/B07PWPYV59
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71ClEoOkF6L._AC_SL1500_.jpg
 
 **2. Easy-Going Funda Elástica Universal**
 - URL Amazon: 
@@ -2260,7 +2260,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Ameritex Protector Sofá Reversible**
 - URL Amazon: https://www.amazon.es/dp/B082K4X4V6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/816VQhOQBwL._AC_SL1500_.jpg
 
 **4. STARAISE Protector Antiarañazos Gatos (pack 6)**
 - URL Amazon: 
@@ -2268,7 +2268,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Granbest Funda Sofá Gruesa Premium**
 - URL Amazon: https://www.amazon.es/dp/B08QZGLTN7
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/6134sYOGAXL._AC_SL1500_.jpg
 
 ---
 
@@ -2278,28 +2278,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Sherpa Original Deluxe**
 - URL Amazon: https://www.amazon.es/dp/B07D5FB8GM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71gbTlb80rL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Sherpa Original Deluxe**
 - URL Amazon: https://www.amazon.es/dp/B07D5FB8GM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71gbTlb80rL._AC_SL1500_.jpg
 
 **2. Trixie Ryan**
 - URL Amazon: https://www.amazon.es/dp/B000VBPEEK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81pd0R+xYhL._AC_SL1500_.jpg
 
 **3. Karlie Smart Trolley**
 - URL Amazon: https://www.amazon.es/dp/B00140OPRY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51O8kkfJAjL._AC_SL1200_.jpg
 
 **4. Arquivet bolsa de viaje**
 - URL Amazon: https://www.amazon.es/dp/B00Q78PIZ6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71XRt87RzjL._AC_SL1500_.jpg
 
 **5. Sleepypod Air**
 - URL Amazon: https://www.amazon.es/dp/B002Z6005W
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Yu3sb9lGL._AC_SL1500_.jpg
 
 ---
 
@@ -2309,12 +2309,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Bedsure Cueva Gato**
 - URL Amazon: https://www.amazon.es/dp/B089ZNSQL8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81Rp0QuqAxL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Bedsure Cueva Gato**
 - URL Amazon: https://www.amazon.es/dp/B089ZNSQL8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81Rp0QuqAxL._AC_SL1500_.jpg
 
 **2. Kivikis Cat Cave (Fieltro de Lana)**
 - URL Amazon: 
@@ -2326,7 +2326,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Catit Vesper Cubo**
 - URL Amazon: https://www.amazon.es/dp/B00TOK58UO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71yFjGySeIL._AC_SL1500_.jpg
 
 **5. PetPals Cueva Iglú XL**
 - URL Amazon: 
@@ -2349,15 +2349,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. Lollimeow Burbuja**
 - URL Amazon: https://www.amazon.es/dp/B07VZBSVN2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81hacXLYMKL._AC_SL1500_.jpg
 
 **3. Morpilot Mochila Gato XL**
 - URL Amazon: https://www.amazon.es/dp/B0B5HDR4CW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81DYkbd24aL._AC_SL1500_.jpg
 
 **4. Trixie Mochila Timon**
 - URL Amazon: https://www.amazon.es/dp/B003TOM430
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91k8DIeNLFL._AC_SL1500_.jpg
 
 **5. AmazonBasics Mochila Mascota**
 - URL Amazon: 
@@ -2371,16 +2371,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Catit Cabrio (Rígido)**
 - URL Amazon: https://www.amazon.es/dp/B07H8N1552
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81TZj0wi-CL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Catit Cabrio (Rígido)**
 - URL Amazon: https://www.amazon.es/dp/B07H8N1552
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81TZj0wi-CL._AC_SL1500_.jpg
 
 **2. Ferplast Atlas 20 (Rígido)**
 - URL Amazon: https://www.amazon.es/dp/B001MZUXUY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/517BY-xJRAL._AC_SL1000_.jpg
 
 **3. Trixie Holly (Blando)**
 - URL Amazon: 
@@ -2392,7 +2392,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Amazon Basics Blando**
 - URL Amazon: https://www.amazon.es/dp/B0713T9LHB
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91InEYmmrrL._AC_SL1500_.jpg
 
 ---
 
@@ -2411,19 +2411,19 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **2. PetSafe Spray Citronela**
 - URL Amazon: https://www.amazon.es/dp/B07JC82M6B
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71EiRNW94qL._AC_SL1500_.jpg
 
 **3. NBJU Collar Vibración Recargable**
 - URL Amazon: https://www.amazon.es/dp/B08YYP5WKY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/718I6s23FUL._AC_SL1500_.jpg
 
 **4. Modus Ultrasónico Exterior**
 - URL Amazon: https://www.amazon.es/dp/B07KG8C2K3
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61kz3T6HhOL._AC_SL1500_.jpg
 
 **5. PetSafe Ultrasónico Collar**
 - URL Amazon: https://www.amazon.es/dp/B00EE12RMU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/7194WTHeNcL._AC_SL1500_.jpg
 
 ---
 
@@ -2433,16 +2433,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Feliway Classic Difusor**
 - URL Amazon: https://www.amazon.es/dp/B019FO2U5Y
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81nBIE6y8YL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Feliway Classic Difusor**
 - URL Amazon: https://www.amazon.es/dp/B019FO2U5Y
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81nBIE6y8YL._AC_SL1500_.jpg
 
 **2. Feliway Friends Difusor**
 - URL Amazon: https://www.amazon.es/dp/B01I9GDDJ6
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ZzWYKIWRL._AC_SL1500_.jpg
 
 **3. Feliway Optimum Difusor**
 - URL Amazon: 
@@ -2450,11 +2450,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Beaphar CatComfort Difusor**
 - URL Amazon: https://www.amazon.es/dp/B07SS586BW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81NtlBLWCtL._AC_SL1500_.jpg
 
 **5. Pet Remedy Difusor Natural**
 - URL Amazon: https://www.amazon.es/dp/B0043QPL4W
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71PLTu3sOlL._AC_SL1500_.jpg
 
 ---
 
@@ -2481,11 +2481,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. PitPat GPS**
 - URL Amazon: https://www.amazon.es/dp/B0BM6JTJHC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81z4UNWhFcL._AC_SL1500_.jpg
 
 **5. Garmin T5 Mini**
 - URL Amazon: https://www.amazon.es/dp/B00L3C5EDC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/31zLST326+L._AC_SL1000_.jpg
 
 ---
 
@@ -2500,23 +2500,23 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### Comparativa
 **1. Trixie Hierba Gatera con Bandeja**
 - URL Amazon: https://www.amazon.es/dp/B000OM1B7U
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81XJuzzFXWL._AC_SL1500_.jpg
 
 **2. KONG Naturals Catnip Premium**
 - URL Amazon: https://www.amazon.es/dp/B0018N1DRW
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81O6nfO59aL._AC_SL1500_.jpg
 
 **3. KONG Naturals Spray Catnip**
 - URL Amazon: https://www.amazon.es/dp/B001U8CED2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61lUH5UiRnL._AC_SL1500_.jpg
 
 **4. Petstages Dental Banana con Catnip**
 - URL Amazon: https://www.amazon.es/dp/B0787KRMXC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71bBTVqNODL._AC_SL1500_.jpg
 
 **5. Matatabi Silvervine Sticks**
 - URL Amazon: https://www.amazon.es/dp/B07C92QHWM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91qotYJGU-L._AC_SL1500_.jpg
 
 ---
 
@@ -2526,12 +2526,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Chuckit! Classic Launcher 26M**
 - URL Amazon: https://www.amazon.es/dp/B00006IX59
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51n6uLRAukL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Chuckit! Classic Launcher 26M**
 - URL Amazon: https://www.amazon.es/dp/B00006IX59
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51n6uLRAukL._AC_SL1500_.jpg
 
 **2. Chuckit! Sport Launcher 12S**
 - URL Amazon: 
@@ -2547,7 +2547,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Nerf Dog Tennis Ball Blaster**
 - URL Amazon: https://www.amazon.es/dp/B01J75T7W0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61L+Dy2Cn-L._AC_SL1500_.jpg
 
 ---
 
@@ -2557,20 +2557,20 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Kong Ball Extreme**
 - URL Amazon: https://www.amazon.es/dp/B004VBC0SY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61BTLH0tsGL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Kong Ball Extreme**
 - URL Amazon: https://www.amazon.es/dp/B004VBC0SY
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61BTLH0tsGL._AC_SL1500_.jpg
 
 **2. Chuckit! Ultra Ball**
 - URL Amazon: https://www.amazon.es/dp/B000F4AVPA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/714HUsBpO+L._AC_SL1500_.jpg
 
 **3. West Paw Jive**
 - URL Amazon: https://www.amazon.es/dp/B0070S62UC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71kvBUDkGqL._AC_SL1500_.jpg
 
 **4. Goughnuts Ball**
 - URL Amazon: 
@@ -2578,7 +2578,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Planet Dog Orbee-Tuff**
 - URL Amazon: https://www.amazon.es/dp/B01ITF1P6A
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Cbj2C1xqL._AC_SL1500_.jpg
 
 ---
 
@@ -2593,19 +2593,19 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### Comparativa
 **1. Trixie Alicante 142 cm**
 - URL Amazon: https://www.amazon.es/dp/B000ND6ZP8
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61zIWPFmj7L._AC_SL1500_.jpg
 
 **2. Feandrea Árbol Rascador 143 cm**
 - URL Amazon: https://www.amazon.es/dp/B08XTMNMMZ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71OxqahqESL._AC_SL1500_.jpg
 
 **3. Catit Vesper Rocket**
 - URL Amazon: https://www.amazon.es/dp/B085X2YY3Z
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ecOlhnegL._AC_SL1500_.jpg
 
 **4. FUKUMARU Rascador de Pared**
 - URL Amazon: https://www.amazon.es/dp/B0B2NKLVCS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71u0UFQwvWL._AC_SL1500_.jpg
 
 **5. Navaris Rascador Cartón XL**
 - URL Amazon: 
@@ -2619,12 +2619,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **RHRQuality Maine Coon Fantasy**
 - URL Amazon: https://www.amazon.es/dp/B01GU4B2B0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91k3U7a92HL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. RHRQuality Maine Coon Fantasy**
 - URL Amazon: https://www.amazon.es/dp/B01GU4B2B0
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/91k3U7a92HL._AC_SL1500_.jpg
 
 **2. Trixie Nikolai XXL**
 - URL Amazon: 
@@ -2632,15 +2632,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Feandrea Árbol XXL**
 - URL Amazon: https://www.amazon.es/dp/B08MPV5Y7G
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/811x6T68HCL._AC_SL1500_.jpg
 
 **4. Catit Vesper High Base**
 - URL Amazon: https://www.amazon.es/dp/B00SOTG26K
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71Qbo805iML._AC_SL1500_.jpg
 
 **5. Natural Paradise XL**
 - URL Amazon: https://www.amazon.es/dp/B0C4B3ZRHC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81M8LYBA0sL._AC_SL1500_.jpg
 
 ---
 
@@ -2650,12 +2650,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Feliway Classic Spray**
 - URL Amazon: https://www.amazon.es/dp/B00D604FOS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71eAHzEOQAL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Feliway Classic Spray**
 - URL Amazon: https://www.amazon.es/dp/B00D604FOS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71eAHzEOQAL._AC_SL1500_.jpg
 
 **2. SssCat! Spray Detector Movimiento**
 - URL Amazon: 
@@ -2681,12 +2681,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Catit Vesper Rocket**
 - URL Amazon: https://www.amazon.es/dp/B085X2YY3Z
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ecOlhnegL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Catit Vesper Rocket**
 - URL Amazon: https://www.amazon.es/dp/B085X2YY3Z
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81ecOlhnegL._AC_SL1500_.jpg
 
 **2. Trixie Poste Soria**
 - URL Amazon: 
@@ -2694,15 +2694,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. Amazon Basics Rascador Árbol**
 - URL Amazon: https://www.amazon.es/dp/B07GL45JHQ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/813Cq0ZDWrL._AC_SL1500_.jpg
 
 **4. FUKUMARU Rascador Pared**
 - URL Amazon: https://www.amazon.es/dp/B0B2NKLVCS
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71u0UFQwvWL._AC_SL1500_.jpg
 
 **5. Feandrea Rascador 86 cm**
 - URL Amazon: https://www.amazon.es/dp/B01J7AMBL4
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61+3JKwt4PL._AC_SL1500_.jpg
 
 ---
 
@@ -2712,16 +2712,16 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Trixie Activity Sniffing Carpet**
 - URL Amazon: https://www.amazon.es/dp/B076BMCMB1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71JYOfdV6ML._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Trixie Activity Sniffing Carpet**
 - URL Amazon: https://www.amazon.es/dp/B076BMCMB1
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71JYOfdV6ML._AC_SL1500_.jpg
 
 **2. IEUUMLER Alfombra Olfato XL**
 - URL Amazon: https://www.amazon.es/dp/B08CZ3N1N2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71bOkVt17KL._AC_SL1500_.jpg
 
 **3. Pet Botanica Snuffle Mat**
 - URL Amazon: 
@@ -2729,11 +2729,11 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. AWOOF Alfombra Olfato**
 - URL Amazon: https://www.amazon.es/dp/B08L7QZJWV
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81gCV4qhULL._AC_SL1500_.jpg
 
 **5. Trixie Snack Snake**
 - URL Amazon: https://www.amazon.es/dp/B07CXMKQ8M
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51BT+h06mLL._AC_SL1500_.jpg
 
 ---
 
@@ -2743,12 +2743,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Da Bird Original**
 - URL Amazon: https://www.amazon.es/dp/B004N1FL74
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81KbZlEtJcL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Da Bird Original**
 - URL Amazon: https://www.amazon.es/dp/B004N1FL74
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81KbZlEtJcL._AC_SL1500_.jpg
 
 **2. Catit Senses Super Circuit Wand**
 - URL Amazon: 
@@ -2760,7 +2760,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **4. Jackson Galaxy Air Prey**
 - URL Amazon: https://www.amazon.es/dp/B07BBG28SN
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/710H9UNOGML._AC_SL1500_.jpg
 
 **5. Trixie Caña con Ratón y Plumas**
 - URL Amazon: 
@@ -2774,20 +2774,20 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Kong Classic**
 - URL Amazon: https://www.amazon.es/dp/B000AYN7LU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61CT7VZTqQL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Kong Classic**
 - URL Amazon: https://www.amazon.es/dp/B000AYN7LU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61CT7VZTqQL._AC_SL1500_.jpg
 
 **2. Nina Ottosson Dog Brick**
 - URL Amazon: https://www.amazon.es/dp/B0711Y9XTF
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81Fyb8B0YtL._AC_SL1500_.jpg
 
 **3. Outward Hound Hide-N-Slide**
 - URL Amazon: https://www.amazon.es/dp/B0719Q89XH
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81e8AScMfhL._AC_SL1500_.jpg
 
 **4. Snuffle Mat Kong**
 - URL Amazon: 
@@ -2795,7 +2795,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **5. Trixie Activity Flip Board**
 - URL Amazon: https://www.amazon.es/dp/B0054Q9TMA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/613cp35wyiL._AC_SL1500_.jpg
 
 ---
 
@@ -2805,28 +2805,28 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Catit Senses Play Circuit**
 - URL Amazon: https://www.amazon.es/dp/B00D3NI5YO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61pxZBdII5L._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Catit Senses Play Circuit**
 - URL Amazon: https://www.amazon.es/dp/B00D3NI5YO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61pxZBdII5L._AC_SL1500_.jpg
 
 **2. PetSafe SlimCat Dispensador**
 - URL Amazon: https://www.amazon.es/dp/B0018CG40O
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71o4tgJisoL._AC_SL1500_.jpg
 
 **3. Trixie Fun Board 5 en 1**
 - URL Amazon: https://www.amazon.es/dp/B001O8L2UO
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71dbJAGVU6L._AC_SL1500_.jpg
 
 **4. Cheerble Ball Interactiva**
 - URL Amazon: https://www.amazon.es/dp/B092ZQV9TD
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71wyRfFuJGL._AC_SL1500_.jpg
 
 **5. Catit Pixi Smart Ratón**
 - URL Amazon: https://www.amazon.es/dp/B0BGGF8K66
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61mj5Fd-kjL._AC_SL1500_.jpg
 
 ---
 
@@ -2836,7 +2836,7 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Kong Classic para cachorros**
 - URL Amazon: https://www.amazon.es/dp/B000MD4N30
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/41YYchTDoVL._AC_SL1000_.jpg
 
 ### Comparativa
 **1. Kong Classic (versión cachorro)**
@@ -2849,15 +2849,15 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 **3. West Paw Zogoflex Hurley**
 - URL Amazon: https://www.amazon.es/dp/B00A3NS3EE
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/51nlfhkdY8L._AC_SL1500_.jpg
 
 **4. Outward Hound Hide-A-Squirrel**
 - URL Amazon: https://www.amazon.es/dp/B000NV8940
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/7107+Nbp1ZL._AC_SL1500_.jpg
 
 **5. Chuckit Ultra Ball**
 - URL Amazon: https://www.amazon.es/dp/B000F4AVPA
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/714HUsBpO+L._AC_SL1500_.jpg
 
 ---
 
@@ -2867,24 +2867,24 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Nina Ottosson Dog Tornado**
 - URL Amazon: https://www.amazon.es/dp/B07239T47Y
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61NYhDBRLZL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Nina Ottosson Dog Tornado**
 - URL Amazon: https://www.amazon.es/dp/B07239T47Y
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61NYhDBRLZL._AC_SL1500_.jpg
 
 **2. Kong Classic (Rojo/Negro)**
 - URL Amazon: https://www.amazon.es/dp/B000AYN7LU
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61CT7VZTqQL._AC_SL1500_.jpg
 
 **3. Trixie Dog Activity Flip Board**
 - URL Amazon: https://www.amazon.es/dp/B07VHN95XM
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61KgMDesL6L._AC_SL1500_.jpg
 
 **4. iFetch Lanzador Automático**
 - URL Amazon: https://www.amazon.es/dp/B00PG3LWDK
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71xogxSiHqL._AC_SL1500_.jpg
 
 **5. Lickimat Classic**
 - URL Amazon: https://www.amazon.es/dp/B072PTSRZ3
@@ -2898,24 +2898,24 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Kong Extreme**
 - URL Amazon: https://www.amazon.es/dp/B0002AR0II
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/616UIXeYlbL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Kong Extreme**
 - URL Amazon: https://www.amazon.es/dp/B0002AR0II
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/616UIXeYlbL._AC_SL1500_.jpg
 
 **2. Kong Goodie Bone Extreme**
 - URL Amazon: https://www.amazon.es/dp/B0115C7BL2
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/61xe5UJQARL._AC_SL1500_.jpg
 
 **3. Nylabone DuraChew**
 - URL Amazon: https://www.amazon.es/dp/B002O0SK4W
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81jvk3F3uiL._AC_SL1500_.jpg
 
 **4. Asta de Ciervo Natural**
 - URL Amazon: https://www.amazon.es/dp/B06XVTB7DJ
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/71fDF9ERgKL._AC_SL1500_.jpg
 
 **5. Trixie Anillo de Caucho**
 - URL Amazon: 
@@ -2929,12 +2929,12 @@ Para cada producto haz lo siguiente en Amazon.es:
 ### TopPick
 **Catit Senses 2.0 Scratcher**
 - URL Amazon: https://www.amazon.es/dp/B015J4I8XC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81yTn3IFuYL._AC_SL1500_.jpg
 
 ### Comparativa
 **1. Catit Senses 2.0 Scratcher**
 - URL Amazon: https://www.amazon.es/dp/B015J4I8XC
-- Imagen: 
+- Imagen: https://m.media-amazon.com/images/I/81yTn3IFuYL._AC_SL1500_.jpg
 
 **2. Trixie Rascador de Sisal para Pared**
 - URL Amazon: 
