@@ -17,6 +17,11 @@ const recientes = articulos
 const perroCount = recientes.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
 const gatoCount = recientes.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
 
+const totalProductos = articulos.reduce((sum, a) => {
+  const matches = a.body?.match(/nombre:\s*"/g);
+  return sum + (matches ? matches.length : 0);
+}, 0);
+
 const siteUrl = 'https://patasyhogar.com';
 
 const organizationSchema = {
@@ -99,7 +104,11 @@ const categorias = [
       <div class="hero-stats">
         <div class="hero-stat">
           <strong>{articulos.length}</strong>
-          <span>artículos analizados</span>
+          <span>guías disponibles</span>
+        </div>
+        <div class="hero-stat">
+          <strong>{totalProductos}+</strong>
+          <span>productos analizados</span>
         </div>
         <div class="hero-stat">
           <strong>100%</strong>
