@@ -34,6 +34,15 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 2, name: 'Gatos' },
   ],
 };
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Guías y comparativas para gatos',
+  description: 'Todas las guías de compra y comparativas de productos para gatos.',
+  url: `${siteUrl}/gatos/`,
+  numberOfItems: articulosOrdenados.length,
+  inLanguage: 'es',
+};
 ---
 
 <Base
@@ -41,6 +50,7 @@ const breadcrumbSchema = {
   description="Todas las guías de compra y comparativas de productos para gatos: pienso, arena, rascadores, juguetes, transportines y más. Análisis honestos para elegir lo mejor."
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(collectionSchema)} slot="head" />
 
   <div class="category-page-header">
     <div class="container">

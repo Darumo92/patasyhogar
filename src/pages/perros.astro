@@ -34,6 +34,15 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 2, name: 'Perros' },
   ],
 };
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Guías y comparativas para perros',
+  description: 'Todas las guías de compra y comparativas de productos para perros.',
+  url: `${siteUrl}/perros/`,
+  numberOfItems: articulosOrdenados.length,
+  inLanguage: 'es',
+};
 ---
 
 <Base
@@ -41,6 +50,7 @@ const breadcrumbSchema = {
   description="Todas las guías de compra y comparativas de productos para perros: pienso, camas, juguetes, higiene, transporte y más. Análisis honestos para elegir lo mejor."
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(collectionSchema)} slot="head" />
 
   <div class="category-page-header">
     <div class="container">
