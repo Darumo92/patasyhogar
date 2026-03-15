@@ -257,6 +257,9 @@ import Base from '@/layouts/Base.astro';
     }
   }
 
+  const urlQuery = new URLSearchParams(window.location.search).get('q');
+  if (urlQuery) input.value = urlQuery;
+
   fetch('/buscar.json')
     .then(r => r.json())
     .then((data: Article[]) => {

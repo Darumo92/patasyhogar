@@ -84,7 +84,15 @@ const canonicalUrl = canonical || Astro.url.href;
         "name": "Patas y Hogar",
         "url": "https://patasyhogar.com",
         "description": "Guías de compra y comparativas de productos para perros y gatos",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://patasyhogar.com/buscar/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
 
