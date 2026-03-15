@@ -40,7 +40,13 @@ import Base from '@/layouts/Base.astro';
       <div id="no-results-state" class="search-state" style="display:none;">
         <p style="font-size: 3rem; margin-bottom: 0.75rem;">😿</p>
         <h2 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Sin resultados</h2>
-        <p class="text-muted">Prueba con otras palabras clave</p>
+        <p class="text-muted">Prueba con otras palabras clave o explora por categoría:</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-top: 1rem;">
+          <a href="/alimentacion/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🥣 Alimentación</a>
+          <a href="/higiene/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🪮 Higiene</a>
+          <a href="/descanso/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🏠 Descanso</a>
+          <a href="/comportamiento/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🧸 Enriquecimiento</a>
+        </div>
       </div>
       <div id="results-grid" class="articles-grid" style="display:none;" role="region" aria-live="polite" aria-label="Resultados de búsqueda"></div>
     </div>
