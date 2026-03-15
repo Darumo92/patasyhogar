@@ -112,6 +112,7 @@ const breadcrumbSchema = {
 ---
 
 <Base title={`${titulo} | Patas y Hogar`} description={descripcion} image={imagen} ogType="article" publishedTime={fecha.toISOString()} modifiedTime={(actualizadoEn || fecha).toISOString()}>
+  <meta name="robots" content="max-image-preview:large" slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
   {faqSchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />}
