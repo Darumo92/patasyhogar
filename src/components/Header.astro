@@ -24,14 +24,18 @@ const navLinks = [
       </button>
 
       <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
-        {navLinks.map(link => (
-          <a
-            href={link.href}
-            class={`nav-link ${currentPath.startsWith(link.href) ? 'active' : ''}`}
-          >
-            {link.label}
-          </a>
-        ))}
+        {navLinks.map(link => {
+          const isActive = currentPath.startsWith(link.href);
+          return (
+            <a
+              href={link.href}
+              class={`nav-link ${isActive ? 'active' : ''}`}
+              {...(isActive ? { 'aria-current': 'page' } : {})}
+            >
+              {link.label}
+            </a>
+          );
+        })}
         <a
           href="/buscar/"
           class={`nav-link nav-search ${currentPath === '/buscar/' ? 'active' : ''}`}
