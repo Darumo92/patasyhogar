@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 Disallow: /404
+Disallow: /aviso-legal/
+Disallow: /cookies/
+Disallow: /politica-privacidad/
 
 Sitemap: https://patasyhogar.com/sitemap-index.xml
