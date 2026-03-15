@@ -6,6 +6,10 @@ import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos');
 
+const destacados = articulos
+  .filter(a => a.data.destacado)
+  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime());
+
 const recientes = articulos
   .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
   .slice(0, 6);
@@ -115,6 +119,21 @@ const categorias = [
       </div>
     </div>
   </section>
+
+  <!-- Guías destacadas -->
+  {destacados.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Guías destacadas</h2>
+        <p class="section-subtitle">Nuestros análisis más completos y populares</p>
+        <div class="articles-grid">
+          {destacados.map(articulo => (
+            <ArticleCard articulo={articulo} />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- Artículos recientes -->
   {recientes.length > 0 && (
