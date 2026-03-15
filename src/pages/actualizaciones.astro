@@ -1,0 +1,49 @@
+---
+import Base from '@/layouts/Base.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const articulos = await getCollection('articulos');
+const actualizados = articulos
+  .filter(a => a.data.actualizadoEn)
+  .sort((a, b) => b.data.actualizadoEn!.getTime() - a.data.actualizadoEn!.getTime());
+
+const siteUrl = 'https://patasyhogar.com';
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Actualizaciones recientes' },
+  ],
+};
+---
+
+<Base
+  title="Actualizaciones recientes | Patas y Hogar"
+  description="Artículos actualizados recientemente en Patas y Hogar. Guías y comparativas revisadas con precios e información al día."
+>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+
+  <div class="category-page-header">
+    <div class="container">
+      <div class="category-icon-large" aria-hidden="true">🔄</div>
+      <h1>Actualizaciones recientes</h1>
+      <p>{actualizados.length} artículos revisados y actualizados</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="/">Inicio</a>
+      <span class="breadcrumb-sep" aria-hidden="true">›</span>
+      <span>Actualizaciones recientes</span>
+    </nav>
+
+    <div class="articles-grid">
+      {actualizados.map(a => (
+        <ArticleCard articulo={a} />
+      ))}
+    </div>
+  </div>
+</Base>
