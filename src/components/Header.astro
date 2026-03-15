@@ -69,6 +69,14 @@ const navLinks = [
     toggle.setAttribute('aria-expanded', String(!expanded));
   });
 
+  // Close mobile menu after clicking a link
+  nav?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle?.setAttribute('aria-expanded', 'false');
+    });
+  });
+
   // Dark mode toggle
   const themeBtn = document.getElementById('theme-toggle');
   const themeIcon = document.getElementById('theme-icon');
