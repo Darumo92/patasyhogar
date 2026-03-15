@@ -117,7 +117,7 @@ const productSchemas = productos.map(p => {
       {i === 0 && <span class="comp-badge">Top 1</span>}
       <div class="comp-card-header">
         {p.imagen && (
-          <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" />
+          <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
         )}
         <div class="comp-card-info">
           <h4 class="comp-name">{p.nombre}</h4>
