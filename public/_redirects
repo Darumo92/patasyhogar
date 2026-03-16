@@ -1,0 +1,82 @@
+# Redirect old category paths to new ones (301 permanent)
+/descanso/ /hogar/ 301
+/comportamiento/ /juguetes/ 301
+
+# Redirect old article paths: descanso → hogar
+/descanso/alfombrilla-refrigerante-perros/ /hogar/alfombrilla-refrigerante-perros/ 301
+/descanso/cama-perro-lavable/ /hogar/cama-perro-lavable/ 301
+/descanso/jaula-perro-casa-coche/ /hogar/jaula-perro-casa-coche/ 301
+/descanso/mejor-cama-antiansiedad-perro/ /hogar/mejor-cama-antiansiedad-perro/ 301
+/descanso/mejor-cama-cueva-gato/ /hogar/mejor-cama-cueva-gato/ 301
+/descanso/mejor-cama-perro-ortopedica/ /hogar/mejor-cama-perro-ortopedica/ 301
+/descanso/mejor-cama-perro-resistente/ /hogar/mejor-cama-perro-resistente/ 301
+/descanso/mejor-cama-gato/ /hogar/mejor-cama-gato/ 301
+/descanso/mejor-cama-elevada-perro/ /hogar/mejor-cama-elevada-perro/ 301
+/descanso/mejor-hamaca-gatos-ventana/ /hogar/mejor-hamaca-gatos-ventana/ 301
+/descanso/protector-sofa-mascotas/ /hogar/protector-sofa-mascotas/ 301
+/descanso/mejor-manta-perros/ /hogar/mejor-manta-perros/ 301
+/descanso/mejor-piscina-perros/ /hogar/mejor-piscina-perros/ 301
+/descanso/mejor-puerta-seguridad-perros/ /hogar/mejor-puerta-seguridad-perros/ 301
+/descanso/mejor-escalera-rampa-perros/ /hogar/mejor-escalera-rampa-perros/ 301
+
+# Redirect old article paths: descanso → paseo
+/descanso/collar-gps-gato/ /paseo/collar-gps-gato/ 301
+/descanso/mejor-arnes-perro/ /paseo/mejor-arnes-perro/ 301
+/descanso/mejor-arnes-antitirones-perro/ /paseo/mejor-arnes-antitirones-perro/ 301
+/descanso/mejor-arnes-gato-pasear/ /paseo/mejor-arnes-gato-pasear/ 301
+/descanso/mejor-correa-perro/ /paseo/mejor-correa-perro/ 301
+/descanso/correa-extensible-perros/ /paseo/correa-extensible-perros/ 301
+/descanso/mejor-bozal-perro/ /paseo/mejor-bozal-perro/ 301
+/descanso/mejor-chubasquero-perro/ /paseo/mejor-chubasquero-perro/ 301
+/descanso/mejor-abrigo-perro-invierno/ /paseo/mejor-abrigo-perro-invierno/ 301
+/descanso/mejor-chaleco-salvavidas-perro/ /paseo/mejor-chaleco-salvavidas-perro/ 301
+/descanso/mejor-collar-luminoso-perro/ /paseo/mejor-collar-luminoso-perro/ 301
+/descanso/mejor-protector-maletero-perros/ /paseo/mejor-protector-maletero-perros/ 301
+/descanso/asiento-coche-perro/ /paseo/asiento-coche-perro/ 301
+/descanso/mejor-transportin-cabina-avion/ /paseo/mejor-transportin-cabina-avion/ 301
+/descanso/mejor-transportin-perro-grande/ /paseo/mejor-transportin-perro-grande/ 301
+/descanso/transportin-rigido-vs-blando-gatos/ /paseo/transportin-rigido-vs-blando-gatos/ 301
+/descanso/mochila-transportar-gatos/ /paseo/mochila-transportar-gatos/ 301
+
+# Redirect old article paths: comportamiento → juguetes
+/comportamiento/alfombras-olfato-perros/ /juguetes/alfombras-olfato-perros/ 301
+/comportamiento/arbol-rascador-pequeno-pisos/ /juguetes/arbol-rascador-pequeno-pisos/ 301
+/comportamiento/juguetes-interactivos-gatos-solos/ /juguetes/juguetes-interactivos-gatos-solos/ 301
+/comportamiento/juguetes-perros-aburridos/ /juguetes/juguetes-perros-aburridos/ 301
+/comportamiento/mejor-difusor-feromonas-gatos/ /juguetes/mejor-difusor-feromonas-gatos/ 301
+/comportamiento/mejor-hierba-gatera-catnip/ /juguetes/mejor-hierba-gatera-catnip/ 301
+/comportamiento/mejor-juguete-cachorro/ /juguetes/mejor-juguete-cachorro/ 301
+/comportamiento/mejor-juguete-cana-gatos/ /juguetes/mejor-juguete-cana-gatos/ 301
+/comportamiento/mejor-juguete-estimulacion-mental-perros/ /juguetes/mejor-juguete-estimulacion-mental-perros/ 301
+/comportamiento/mejor-juguete-inteligencia-gatos/ /juguetes/mejor-juguete-inteligencia-gatos/ 301
+/comportamiento/mejor-juguete-rellenable-perros/ /juguetes/mejor-juguete-rellenable-perros/ 301
+/comportamiento/mejor-kong-perros/ /juguetes/mejor-kong-perros/ 301
+/comportamiento/mejor-lanzador-pelota-perro/ /juguetes/mejor-lanzador-pelota-perro/ 301
+/comportamiento/mejor-lanzador-pelota-perros/ /juguetes/mejor-lanzador-pelota-perros/ 301
+/comportamiento/mejor-pelota-perro-indestructible/ /juguetes/mejor-pelota-perro-indestructible/ 301
+/comportamiento/mejor-rascador-esquina-gatos/ /juguetes/mejor-rascador-esquina-gatos/ 301
+/comportamiento/mejor-rascador-gato-grande/ /juguetes/mejor-rascador-gato-grande/ 301
+/comportamiento/mejor-rascador-gatos/ /juguetes/mejor-rascador-gatos/ 301
+/comportamiento/mejor-rascador-pared-gatos/ /juguetes/mejor-rascador-pared-gatos/ 301
+/comportamiento/mejor-tunel-gatos/ /juguetes/mejor-tunel-gatos/ 301
+/comportamiento/mordedores-resistentes-perros/ /juguetes/mordedores-resistentes-perros/ 301
+/comportamiento/mejor-circuito-agilidad-perros/ /juguetes/mejor-circuito-agilidad-perros/ 301
+/comportamiento/collar-antiladridos-perros/ /paseo/collar-antiladridos-perros/ 301
+/comportamiento/mejor-gps-perro/ /paseo/mejor-gps-perro/ 301
+/comportamiento/mejor-repelente-gatos-muebles/ /hogar/mejor-repelente-gatos-muebles/ 301
+
+# Redirect old article paths: comportamiento → cuidados
+/comportamiento/como-presentar-perro-gato/ /cuidados/como-presentar-perro-gato/ 301
+/comportamiento/como-socializar-cachorro/ /cuidados/como-socializar-cachorro/ 301
+/comportamiento/cuanto-ejercicio-necesita-perro/ /cuidados/cuanto-ejercicio-necesita-perro/ 301
+/comportamiento/senales-estres-gatos/ /cuidados/senales-estres-gatos/ 301
+/comportamiento/como-saber-edad-gato/ /cuidados/como-saber-edad-gato/ 301
+/comportamiento/por-que-gatos-amasan/ /cuidados/por-que-gatos-amasan/ 301
+/comportamiento/por-que-perro-ladra-noche/ /cuidados/por-que-perro-ladra-noche/ 301
+/comportamiento/por-que-perros-comen-hierba/ /cuidados/por-que-perros-comen-hierba/ 301
+/comportamiento/razas-perro-piso-pequeno/ /cuidados/razas-perro-piso-pequeno/ 301
+/comportamiento/cachorro-primeras-semanas-casa/ /hogar/cachorro-primeras-semanas-casa/ 301
+/comportamiento/gato-maulla-mucho-noche-causas/ /hogar/gato-maulla-mucho-noche-causas/ 301
+/comportamiento/perro-miedo-petardos-fuegos-artificiales/ /hogar/perro-miedo-petardos-fuegos-artificiales/ 301
+/comportamiento/como-adiestrar-gato-tecnicas/ /juguetes/como-adiestrar-gato-tecnicas/ 301
+/comportamiento/enriquecimiento-ambiental-gato-interior/ /juguetes/enriquecimiento-ambiental-gato-interior/ 301
