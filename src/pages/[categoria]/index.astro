@@ -21,54 +21,103 @@ const categoriasInfo: Record<string, {
   descripcion: string;
   icono: string;
   intro: string;
-  subtemas: string[];
 }> = {
   alimentacion: {
     nombre: 'Alimentación',
     descripcion: 'Guías y comparativas de pienso, comida húmeda, snacks, fuentes y comederos para perros y gatos.',
     icono: '🥣',
     intro: 'La alimentación es la decisión más importante para la salud y longevidad de tu mascota. Un buen pienso puede prevenir enfermedades, mantener un peso saludable y mejorar la calidad de vida de tu perro o gato. En esta sección analizamos piensos secos, comida húmeda, snacks naturales y accesorios de alimentación, comparando ingredientes, precios y dónde comprarlos más barato en España.',
-    subtemas: ['Pienso para perros', 'Pienso para gatos', 'Comida húmeda', 'Snacks y premios', 'Fuentes de agua', 'Comederos'],
   },
   higiene: {
     nombre: 'Higiene y Cuidado',
     descripcion: 'Todo sobre arena, areneros, cepillos, champús y productos de cuidado diario para mascotas.',
     icono: '🪮',
     intro: 'El cuidado diario de tu mascota va mucho más allá del baño ocasional. Una buena rutina de higiene previene infecciones, mantiene el pelo en buen estado y refuerza el vínculo entre vosotros. Analizamos los mejores productos de higiene para perros y gatos: cepillos, champús, arenas para gatos, areneros, cortaúñas y más.',
-    subtemas: ['Arena para gatos', 'Areneros', 'Cepillos y peines', 'Champús', 'Antiparasitarios', 'Cortaúñas'],
   },
   paseo: {
     nombre: 'Paseo y Transporte',
     descripcion: 'Arneses, correas, transportines, ropa y accesorios para pasear y viajar con tu mascota.',
     icono: '🦮',
     intro: 'El paseo es uno de los momentos más importantes del día para tu perro, y viajar con tu mascota requiere el equipamiento adecuado. Un buen arnés previene lesiones cervicales, un transportín homologado es obligatorio en avión, y la ropa de abrigo protege a razas pequeñas en invierno. Comparamos arneses, correas, transportines, mochilas, GPS y todo lo que necesitas para salir con tu mascota.',
-    subtemas: ['Arneses', 'Correas', 'Transportines', 'Collares y GPS', 'Ropa y protección', 'Accesorios de coche'],
   },
   juguetes: {
     nombre: 'Juguetes y Enriquecimiento',
     descripcion: 'Juguetes interactivos, rascadores, mordedores y accesorios de estimulación mental.',
     icono: '🧸',
     intro: 'El enriquecimiento ambiental es fundamental para el bienestar mental de perros y gatos. Un animal aburrido desarrolla conductas destructivas, ansiedad y estrés. Los juguetes adecuados estimulan los instintos naturales, reducen la ansiedad por separación y mantienen a tu mascota activa y feliz. Analizamos juguetes interactivos, puzzles, rascadores, mordedores y accesorios de estimulación.',
-    subtemas: ['Juguetes para perros', 'Juguetes para gatos', 'Rascadores', 'Mordedores', 'Puzzles cognitivos', 'Alfombras olfativas'],
   },
   hogar: {
     nombre: 'Hogar y Descanso',
     descripcion: 'Camas, mantas, protectores y accesorios para que tu mascota esté cómoda en casa.',
     icono: '🏠',
     intro: 'Tu mascota pasa la mayor parte de su vida en casa, y su comodidad influye directamente en su salud y bienestar. La cama adecuada puede aliviar problemas articulares en perros mayores, reducir la ansiedad y mejorar la calidad del sueño. Comparamos camas, mantas, protectores de sofá, gateras, puertas de seguridad y todo lo que necesitas para crear un hogar perfecto para tu perro o gato.',
-    subtemas: ['Camas para perros', 'Camas para gatos', 'Protectores', 'Seguridad en el hogar', 'Confort y descanso', 'Accesorios de interior'],
   },
 };
 
-const info = categoriasInfo[categoria as string];
+// Subcategorías con keywords para agrupar artículos por slug
+const subcategoriasConfig: Record<string, { id: string; nombre: string; icono: string; keywords: string[] }[]> = {
+  alimentacion: [
+    { id: 'pienso-perros', nombre: 'Pienso para perros', icono: '🐶', keywords: ['pienso-perro', 'pienso-cachorro-raza', 'pienso-hipoalergenico'] },
+    { id: 'pienso-gatos', nombre: 'Pienso para gatos', icono: '🐱', keywords: ['pienso-gato', 'pienso-gatito', 'pienso-cachorro-gato', 'grain-free'] },
+    { id: 'comida-humeda', nombre: 'Comida húmeda', icono: '🥫', keywords: ['comida-humeda'] },
+    { id: 'snacks', nombre: 'Snacks y premios', icono: '🦴', keywords: ['snacks'] },
+    { id: 'comederos', nombre: 'Comederos', icono: '🍽️', keywords: ['comedero'] },
+    { id: 'bebederos', nombre: 'Bebederos y fuentes', icono: '💧', keywords: ['bebedero', 'fuente'] },
+    { id: 'nutricion', nombre: 'Nutrición y consejos', icono: '📊', keywords: ['cuantas-veces', 'cuanto-debe-comer', 'sobrepeso', 'no-quiere-comer', 'vomita', 'alimentos-prohibidos', 'alimentos-toxicos'] },
+  ],
+  higiene: [
+    { id: 'arena-areneros', nombre: 'Arena y areneros', icono: '🪣', keywords: ['arena', 'arenero'] },
+    { id: 'cepillos-aseo', nombre: 'Cepillos y aseo', icono: '🪮', keywords: ['cepillo', 'cortapelos', 'champu', 'banar', 'secador', 'cortaunas', 'oidos'] },
+    { id: 'antiparasitarios', nombre: 'Antiparasitarios', icono: '🛡️', keywords: ['antiparasitario', 'desparasitante', 'pipeta', 'pulgas', 'collar-antiparasitario'] },
+    { id: 'limpieza', nombre: 'Limpieza e higiene', icono: '🧹', keywords: ['bolsas-caca', 'empapadores', 'limpiador', 'dispensador', 'toallitas', 'aspirador', 'protector-patas'] },
+  ],
+  paseo: [
+    { id: 'arneses-correas', nombre: 'Arneses y correas', icono: '🦮', keywords: ['arnes', 'correa'] },
+    { id: 'transportines', nombre: 'Transportines y mochilas', icono: '🧳', keywords: ['transportin', 'mochila'] },
+    { id: 'collares-gps', nombre: 'Collares y localización', icono: '📍', keywords: ['collar', 'gps', 'bozal'] },
+    { id: 'ropa', nombre: 'Ropa y protección', icono: '🧥', keywords: ['abrigo', 'chubasquero', 'chaleco'] },
+    { id: 'coche', nombre: 'Coche y viaje', icono: '🚗', keywords: ['asiento-coche', 'protector-maletero'] },
+  ],
+  juguetes: [
+    { id: 'juguetes-perros', nombre: 'Juguetes para perros', icono: '🐶', keywords: ['kong', 'lanzador', 'pelota', 'mordedor', 'alfombras-olfato', 'circuito-agilidad', 'juguete-cachorro', 'juguete-estimulacion', 'juguete-rellenable', 'juguetes-perros'] },
+    { id: 'juguetes-gatos', nombre: 'Juguetes para gatos', icono: '🐱', keywords: ['juguete-inteligencia', 'juguete-cana', 'juguetes-interactivos-gatos', 'tunel', 'hierba-gatera', 'difusor-feromonas', 'enriquecimiento-ambiental', 'adiestrar-gato'] },
+    { id: 'rascadores', nombre: 'Rascadores', icono: '🐾', keywords: ['rascador', 'arbol-rascador'] },
+  ],
+  hogar: [
+    { id: 'camas-perros', nombre: 'Camas para perros', icono: '🐶', keywords: ['cama-perro', 'cama-antiansiedad', 'cama-elevada', 'cama-lavable'] },
+    { id: 'camas-gatos', nombre: 'Camas y descanso para gatos', icono: '🐱', keywords: ['cama-gato', 'cama-cueva', 'hamaca'] },
+    { id: 'confort', nombre: 'Confort y protección', icono: '🛋️', keywords: ['manta', 'alfombrilla', 'protector-sofa', 'piscina', 'repelente'] },
+    { id: 'seguridad', nombre: 'Seguridad en el hogar', icono: '🔒', keywords: ['puerta-seguridad', 'gatera', 'escalera', 'jaula'] },
+    { id: 'bienestar', nombre: 'Bienestar y convivencia', icono: '❤️', keywords: ['cachorro-primeras', 'maulla', 'petardos', 'residencias'] },
+  ],
+};
 
-const articulos = await getCollection('articulos', ({ data }) => data.categoria === categoria);
+const info = categoriasInfo[categoria as string];
+const subcats = subcategoriasConfig[categoria as string] || [];
+
+// Excluir informativos de las páginas de categoría (van en /cuidados/)
+const articulos = await getCollection('articulos', ({ data }) =>
+  data.categoria === categoria && data.tipo !== 'informativo'
+);
 const articulosOrdenados = articulos.sort(
   (a, b) => b.data.fecha.getTime() - a.data.fecha.getTime()
 );
 
+// Agrupar artículos por subcategoría
+function matchSubcat(slug: string, keywords: string[]): boolean {
+  return keywords.some(kw => slug.includes(kw));
+}
+
+const grupos = subcats.map(sub => ({
+  ...sub,
+  articulos: articulosOrdenados.filter(a => matchSubcat(a.slug, sub.keywords)),
+}));
+
+// Artículos que no encajan en ninguna subcategoría
+const asignados = new Set(grupos.flatMap(g => g.articulos.map(a => a.slug)));
+const sinGrupo = articulosOrdenados.filter(a => !asignados.has(a.slug));
+
 const destacados = articulosOrdenados.filter(a => a.data.destacado).slice(0, 3);
-const resto = articulosOrdenados.filter(a => !a.data.destacado || destacados.length === 0);
 
 const perroCount = articulosOrdenados.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
 const gatoCount = articulosOrdenados.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
@@ -116,25 +165,39 @@ const breadcrumbSchema = {
     <!-- Intro SEO -->
     <div class="category-intro">
       <p>{info.intro}</p>
-      <div class="category-subtemas">
-        {info.subtemas.map(s => (
-          <span class="badge" style="background: var(--color-bg-muted); color: var(--color-text-muted);">{s}</span>
-        ))}
-      </div>
     </div>
 
     {articulosOrdenados.length > 0 ? (
       <>
+        {/* Navegación rápida por subcategoría */}
+        <nav class="subcat-nav" aria-label="Subcategorías">
+          {grupos.filter(g => g.articulos.length > 0).map(g => (
+            <a href={`#${g.id}`} class="subcat-nav-link">
+              <span aria-hidden="true">{g.icono}</span>
+              <span>{g.nombre}</span>
+              <span class="subcat-nav-count">{g.articulos.length}</span>
+            </a>
+          ))}
+          {sinGrupo.length > 0 && (
+            <a href="#otros" class="subcat-nav-link">
+              <span aria-hidden="true">📋</span>
+              <span>Otros</span>
+              <span class="subcat-nav-count">{sinGrupo.length}</span>
+            </a>
+          )}
+        </nav>
+
         {/* Filtro por animal */}
         {perroCount > 0 && gatoCount > 0 && (
           <AnimalFilter perroCount={perroCount} gatoCount={gatoCount} totalCount={articulosOrdenados.length} />
         )}
 
-        <!-- Destacados -->
+        {/* Destacados */}
         {destacados.length > 0 && (
           <div style="margin-bottom: 3rem;">
-            <h2 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 1.25rem; color: var(--color-primary);">
-              ⭐ Guías destacadas
+            <h2 class="subcat-heading">
+              <span class="subcat-heading-icon" aria-hidden="true">⭐</span>
+              Guías destacadas
             </h2>
             <div class="articles-grid">
               {destacados.map(articulo => (
@@ -144,20 +207,41 @@ const breadcrumbSchema = {
           </div>
         )}
 
-        <!-- Todos los artículos -->
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-          <h2 style="font-size: 1.2rem; font-weight: 700;">
-            {destacados.length > 0 ? 'Todos los artículos' : 'Artículos'}
-          </h2>
-          <p class="text-muted" style="font-size: 0.875rem;">
-            {articulosOrdenados.length} {articulosOrdenados.length === 1 ? 'artículo' : 'artículos'}
-          </p>
-        </div>
-        <div class="articles-grid">
-          {(destacados.length > 0 ? resto : articulosOrdenados).map(articulo => (
-            <ArticleCard articulo={articulo} />
-          ))}
-        </div>
+        {/* Subcategorías */}
+        {grupos.filter(g => g.articulos.length > 0).map(g => (
+          <section id={g.id} class="subcat-section">
+            <h2 class="subcat-heading">
+              <span class="subcat-heading-icon" aria-hidden="true">{g.icono}</span>
+              {g.nombre}
+              <span class="subcat-heading-count">
+                {g.articulos.length} {g.articulos.length === 1 ? 'artículo' : 'artículos'}
+              </span>
+            </h2>
+            <div class="articles-grid">
+              {g.articulos.map(articulo => (
+                <ArticleCard articulo={articulo} />
+              ))}
+            </div>
+          </section>
+        ))}
+
+        {/* Sin grupo */}
+        {sinGrupo.length > 0 && (
+          <section id="otros" class="subcat-section">
+            <h2 class="subcat-heading">
+              <span class="subcat-heading-icon" aria-hidden="true">📋</span>
+              Otras guías
+              <span class="subcat-heading-count">
+                {sinGrupo.length} {sinGrupo.length === 1 ? 'artículo' : 'artículos'}
+              </span>
+            </h2>
+            <div class="articles-grid">
+              {sinGrupo.map(articulo => (
+                <ArticleCard articulo={articulo} />
+              ))}
+            </div>
+          </section>
+        )}
       </>
     ) : (
       <div class="text-center" style="padding: 4rem 0;">
@@ -177,17 +261,93 @@ const breadcrumbSchema = {
     background: var(--color-bg-muted);
     border-radius: var(--radius-md);
     padding: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     border-left: 4px solid var(--color-primary);
   }
   .category-intro p {
     color: var(--color-text-muted);
     line-height: 1.7;
-    margin-bottom: 1rem;
+    margin: 0;
   }
-  .category-subtemas {
+
+  /* Navegación rápida subcategorías */
+  .subcat-nav {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .subcat-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.85rem;
+    border: 1.5px solid var(--color-border);
+    border-radius: 99px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .subcat-nav-link:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-bg-muted);
+  }
+  .subcat-nav-count {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    background: var(--color-bg-muted);
+    padding: 0.1rem 0.4rem;
+    border-radius: 99px;
+  }
+
+  /* Secciones de subcategoría */
+  .subcat-section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 5rem;
+  }
+  .subcat-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-border);
+    flex-wrap: wrap;
+  }
+  .subcat-heading-icon {
+    font-size: 1.2rem;
+  }
+  .subcat-heading-count {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-left: auto;
+  }
+
+  /* Mobile */
+  @media (max-width: 640px) {
+    .subcat-nav {
+      gap: 0.4rem;
+    }
+    .subcat-nav-link {
+      padding: 0.4rem 0.7rem;
+      font-size: 0.75rem;
+    }
+    .subcat-heading {
+      font-size: 1.05rem;
+    }
+    .subcat-heading-count {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0.25rem;
+    }
   }
 </style>
