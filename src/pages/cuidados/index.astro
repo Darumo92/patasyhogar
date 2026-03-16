@@ -1,7 +1,6 @@
 ---
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
-import AnimalFilter from '@/components/AnimalFilter.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos', ({ data }) => data.tipo === 'informativo');
@@ -10,10 +9,12 @@ const articulosOrdenados = articulos.sort(
 );
 
 const destacados = articulosOrdenados.filter(a => a.data.destacado).slice(0, 3);
-const resto = articulosOrdenados.filter(a => !destacados.includes(a));
 
-const perroCount = articulosOrdenados.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
-const gatoCount = articulosOrdenados.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
+const grupos = [
+  { id: 'perros', nombre: 'Cuidados para perros', icono: '🐶', articulos: articulosOrdenados.filter(a => a.data.animal === 'perro') },
+  { id: 'gatos', nombre: 'Cuidados para gatos', icono: '🐱', articulos: articulosOrdenados.filter(a => a.data.animal === 'gato') },
+  { id: 'ambos', nombre: 'Para perros y gatos', icono: '🐾', articulos: articulosOrdenados.filter(a => a.data.animal === 'ambos') },
+].filter(g => g.articulos.length > 0);
 
 const siteUrl = 'https://patasyhogar.com';
 const breadcrumbSchema = {
@@ -47,6 +48,18 @@ const collectionSchema = {
       <div class="category-icon-large" aria-hidden="true">📖</div>
       <h1>Cuidados y consejos</h1>
       <p>{articulosOrdenados.length} guías informativas para el bienestar de tu mascota</p>
+
+      {articulosOrdenados.length > 0 && (
+        <nav class="subcat-nav" aria-label="Filtrar por animal">
+          {grupos.map(g => (
+            <a href={`#${g.id}`} class="subcat-nav-link">
+              <span aria-hidden="true">{g.icono}</span>
+              <span>{g.nombre}</span>
+              <span class="subcat-nav-count">{g.articulos.length}</span>
+            </a>
+          ))}
+        </nav>
+      )}
     </div>
   </div>
 
@@ -57,19 +70,17 @@ const collectionSchema = {
       <span>Cuidados</span>
     </nav>
 
-    <div class="cuidados-intro">
+    <div class="category-intro">
       <p>Todo lo que necesitas saber para cuidar mejor a tu perro o gato: alimentación, salud, comportamiento, higiene y bienestar. Guías prácticas basadas en fuentes veterinarias para que tomes las mejores decisiones para tu mascota.</p>
     </div>
 
     {articulosOrdenados.length > 0 ? (
       <>
-        {perroCount > 0 && gatoCount > 0 && (
-          <AnimalFilter perroCount={perroCount} gatoCount={gatoCount} totalCount={articulosOrdenados.length} />
-        )}
-
+        {/* Destacados */}
         {destacados.length > 0 && (
           <div style="margin-bottom: 3rem;">
-            <h2 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 1.25rem; color: var(--color-primary);">
+            <h2 class="subcat-heading">
+              <span class="subcat-heading-icon" aria-hidden="true">⭐</span>
               Guías destacadas
             </h2>
             <div class="articles-grid">
@@ -78,19 +89,21 @@ const collectionSchema = {
           </div>
         )}
 
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-          <h2 style="font-size: 1.2rem; font-weight: 700;">
-            {destacados.length > 0 ? 'Todas las guías' : 'Guías de cuidados'}
-          </h2>
-          <p class="text-muted" style="font-size: 0.875rem;">
-            {articulosOrdenados.length} {articulosOrdenados.length === 1 ? 'artículo' : 'artículos'}
-          </p>
-        </div>
-        <div class="articles-grid">
-          {(destacados.length > 0 ? resto : articulosOrdenados).map(a => (
-            <ArticleCard articulo={a} />
-          ))}
-        </div>
+        {/* Por animal */}
+        {grupos.map(g => (
+          <section id={g.id} class="subcat-section">
+            <h2 class="subcat-heading">
+              <span class="subcat-heading-icon" aria-hidden="true">{g.icono}</span>
+              {g.nombre}
+              <span class="subcat-heading-count">
+                {g.articulos.length} {g.articulos.length === 1 ? 'artículo' : 'artículos'}
+              </span>
+            </h2>
+            <div class="articles-grid">
+              {g.articulos.map(a => <ArticleCard articulo={a} />)}
+            </div>
+          </section>
+        ))}
       </>
     ) : (
       <div class="text-center" style="padding: 4rem 0;">
@@ -106,16 +119,79 @@ const collectionSchema = {
 </Base>
 
 <style>
-  .cuidados-intro {
+  .category-intro {
     background: var(--color-bg-muted);
     border-radius: var(--radius-md);
     padding: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     border-left: 4px solid var(--color-primary);
   }
-  .cuidados-intro p {
+  .category-intro p {
     color: var(--color-text-muted);
     line-height: 1.7;
     margin: 0;
+  }
+  .subcat-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+  }
+  .subcat-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.85rem;
+    border: 1.5px solid var(--color-border);
+    border-radius: 99px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: all 0.2s;
+    white-space: nowrap;
+    background: var(--color-bg-card);
+  }
+  .subcat-nav-link:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .subcat-nav-count {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    background: var(--color-bg-muted);
+    padding: 0.1rem 0.4rem;
+    border-radius: 99px;
+  }
+  .subcat-section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 5rem;
+  }
+  .subcat-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-border);
+    flex-wrap: wrap;
+  }
+  .subcat-heading-icon {
+    font-size: 1.2rem;
+  }
+  .subcat-heading-count {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-left: auto;
+  }
+  @media (max-width: 640px) {
+    .subcat-nav { gap: 0.4rem; }
+    .subcat-nav-link { padding: 0.4rem 0.7rem; font-size: 0.75rem; }
+    .subcat-heading { font-size: 1.05rem; }
+    .subcat-heading-count { width: 100%; margin-left: 0; margin-top: 0.25rem; }
   }
 </style>
