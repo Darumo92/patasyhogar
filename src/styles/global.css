@@ -115,6 +115,11 @@ a:hover {
   color: var(--color-primary-dark);
 }
 
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
 /* =========================================
    LAYOUT
    ========================================= */
@@ -152,8 +157,8 @@ a:hover {
   top: -100%;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--color-primary);
-  color: #fff;
+  background: var(--color-text);
+  color: var(--color-bg);
   padding: 0.5rem 1.5rem;
   border-radius: 0 0 var(--radius-sm) var(--radius-sm);
   font-weight: 600;
@@ -164,7 +169,7 @@ a:hover {
 
 .skip-link:focus {
   top: 0;
-  color: #fff;
+  color: var(--color-bg);
 }
 
 .header {
@@ -541,7 +546,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  background: linear-gradient(135deg, #fff8f4, #fef3e8);
+  background: linear-gradient(135deg, var(--color-bg-muted), var(--color-bg));
 }
 
 .article-card-body {
@@ -995,7 +1000,7 @@ a:hover {
 }
 
 .newsletter-input::placeholder {
-  color: #78716c;
+  color: #57534e;
 }
 
 .newsletter-input:focus {
