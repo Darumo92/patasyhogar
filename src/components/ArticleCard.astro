@@ -75,7 +75,7 @@ const esActualizado = !!actualizadoEn;
       <time datetime={fechaMostrar.toISOString().split('T')[0]}>
         {esActualizado ? `Actualizado: ${fechaFormateada}` : fechaFormateada}
       </time>
-      <span class="article-card-reading-time">{minutosLectura} min lectura</span>
+      <span class="article-card-reading-time">⏱ {minutosLectura} min</span>
       <a href={url} class="article-card-link" aria-label={`Leer más sobre ${titulo}`}>Leer más →</a>
     </div>
   </div>
