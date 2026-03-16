@@ -17,7 +17,8 @@ const recientes = articulos
 const perroCount = recientes.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
 const gatoCount = recientes.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
 
-const totalProductos = articulos.reduce((sum, a) => {
+const comparativas = articulos.filter(a => a.data.tipo !== 'informativo');
+const totalProductos = comparativas.reduce((sum, a) => {
   const matches = a.body?.match(/nombre:\s*"/g);
   return sum + (matches ? matches.length : 0);
 }, 0);
@@ -112,27 +113,19 @@ const categorias = [
         sin perder tiempo buscando
       </h1>
       <p class="hero-subtitle">
-        Comparativas honestas y guías de compra. Solo recomendamos lo que
-        realmente vale la pena.
+        Analizamos productos en Amazon, Zooplus y Tiendanimal para que tú solo tengas que elegir.
       </p>
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <strong>{articulos.length}</strong>
-          <span>guías disponibles</span>
-        </div>
-        <div class="hero-stat">
-          <strong>{totalProductos}+</strong>
-          <span>productos analizados</span>
-        </div>
-        <div class="hero-stat">
-          <strong>100%</strong>
-          <span>opinión independiente</span>
-        </div>
-        <div class="hero-stat">
-          <strong>3</strong>
-          <span>tiendas comparadas</span>
-        </div>
+      <div class="hero-cta">
+        <a href="/perros/" class="hero-cta-btn hero-cta-primary">
+          🐶 Guías para perros
+        </a>
+        <a href="/gatos/" class="hero-cta-btn hero-cta-primary">
+          🐱 Guías para gatos
+        </a>
       </div>
+      <p class="hero-meta">
+        {totalProductos}+ productos · {comparativas.length} comparativas · Precios actualizados
+      </p>
     </div>
   </section>
 
