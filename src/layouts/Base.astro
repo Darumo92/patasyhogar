@@ -30,10 +30,11 @@ const canonicalUrl = canonical || Astro.url.href;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Preconnect to external resources -->
-    <link rel="preconnect" href="https://m.media-amazon.com" crossorigin />
+    <!-- Preload critical font -->
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- DNS prefetch for external resources (lightweight, no unused connection warnings) -->
     <link rel="dns-prefetch" href="https://m.media-amazon.com" />
-    <link rel="preconnect" href="https://static.cloudflareinsights.com" crossorigin />
     <link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
     <link rel="dns-prefetch" href="https://www.amazon.es" />
     <link rel="dns-prefetch" href="https://www.zooplus.es" />
