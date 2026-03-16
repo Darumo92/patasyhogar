@@ -416,7 +416,7 @@ a:hover {
 
 .newsletter-section-privacy {
   font-size: 0.78rem;
-  color: var(--color-text-light);
+  color: var(--color-text-muted);
   margin-top: 0.75rem;
 }
 
@@ -1000,7 +1000,7 @@ a:hover {
 }
 
 .newsletter-input::placeholder {
-  color: #57534e;
+  color: #44403c;
 }
 
 .newsletter-input:focus {
