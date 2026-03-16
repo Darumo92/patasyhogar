@@ -24,31 +24,31 @@ const categoriasInfo: Record<string, {
 }> = {
   alimentacion: {
     nombre: 'Alimentación',
-    descripcion: 'Guías y comparativas de pienso, comida húmeda, snacks, fuentes y comederos para perros y gatos.',
+    descripcion: 'Guías y comparativas de pienso, comida húmeda, snacks, fuentes y comederos para perros y gatos. Encuentra el mejor producto al mejor precio.',
     icono: '🥣',
     intro: 'La alimentación es la decisión más importante para la salud y longevidad de tu mascota. Un buen pienso puede prevenir enfermedades, mantener un peso saludable y mejorar la calidad de vida de tu perro o gato. En esta sección analizamos piensos secos, comida húmeda, snacks naturales y accesorios de alimentación, comparando ingredientes, precios y dónde comprarlos más barato en España.',
   },
   higiene: {
     nombre: 'Higiene y Cuidado',
-    descripcion: 'Todo sobre arena, areneros, cepillos, champús y productos de cuidado diario para mascotas.',
+    descripcion: 'Guías y comparativas de arena, areneros, cepillos, champús, antiparasitarios y productos de cuidado diario para perros y gatos en España.',
     icono: '🪮',
     intro: 'El cuidado diario de tu mascota va mucho más allá del baño ocasional. Una buena rutina de higiene previene infecciones, mantiene el pelo en buen estado y refuerza el vínculo entre vosotros. Analizamos los mejores productos de higiene para perros y gatos: cepillos, champús, arenas para gatos, areneros, cortaúñas y más.',
   },
   paseo: {
     nombre: 'Paseo y Transporte',
-    descripcion: 'Arneses, correas, transportines, ropa y accesorios para pasear y viajar con tu mascota.',
+    descripcion: 'Comparativas de arneses, correas, transportines, GPS, ropa y accesorios para pasear y viajar con tu perro o gato de forma segura.',
     icono: '🦮',
     intro: 'El paseo es uno de los momentos más importantes del día para tu perro, y viajar con tu mascota requiere el equipamiento adecuado. Un buen arnés previene lesiones cervicales, un transportín homologado es obligatorio en avión, y la ropa de abrigo protege a razas pequeñas en invierno. Comparamos arneses, correas, transportines, mochilas, GPS y todo lo que necesitas para salir con tu mascota.',
   },
   juguetes: {
     nombre: 'Juguetes y Enriquecimiento',
-    descripcion: 'Juguetes interactivos, rascadores, mordedores y accesorios de estimulación mental.',
+    descripcion: 'Comparativas de juguetes interactivos, rascadores, mordedores y accesorios de estimulación mental para perros y gatos. Mantén a tu mascota activa.',
     icono: '🧸',
     intro: 'El enriquecimiento ambiental es fundamental para el bienestar mental de perros y gatos. Un animal aburrido desarrolla conductas destructivas, ansiedad y estrés. Los juguetes adecuados estimulan los instintos naturales, reducen la ansiedad por separación y mantienen a tu mascota activa y feliz. Analizamos juguetes interactivos, puzzles, rascadores, mordedores y accesorios de estimulación.',
   },
   hogar: {
     nombre: 'Hogar y Descanso',
-    descripcion: 'Camas, mantas, protectores y accesorios para que tu mascota esté cómoda en casa.',
+    descripcion: 'Guías y comparativas de camas, mantas, protectores de sofá y accesorios de descanso para perros y gatos. Crea el hogar perfecto para tu mascota.',
     icono: '🏠',
     intro: 'Tu mascota pasa la mayor parte de su vida en casa, y su comodidad influye directamente en su salud y bienestar. La cama adecuada puede aliviar problemas articulares en perros mayores, reducir la ansiedad y mejorar la calidad del sueño. Comparamos camas, mantas, protectores de sofá, gateras, puertas de seguridad y todo lo que necesitas para crear un hogar perfecto para tu perro o gato.',
   },
@@ -147,7 +147,7 @@ const breadcrumbSchema = {
 ---
 
 <Base
-  title={`${info.nombre} para perros y gatos 2026 | Guías y comparativas | Patas y Hogar`}
+  title={`${info.nombre} para mascotas 2026 | Patas y Hogar`}
   description={info.descripcion}
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
