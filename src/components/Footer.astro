@@ -63,8 +63,8 @@ const year = new Date().getFullYear();
       <form
         action="https://buttondown.com/api/emails/embed-subscribe/patasyhogar"
         method="post"
-        target="popupwindow"
         class="newsletter-form"
+        id="newsletter-form-footer"
       >
         <input
           type="email"
@@ -76,6 +76,7 @@ const year = new Date().getFullYear();
         />
         <button type="submit" class="newsletter-btn">Suscribirme</button>
       </form>
+      <p id="newsletter-msg-footer" style="font-size: 0.8rem; color: #a8a29e; margin-top: 0.5rem;"></p>
     </div>
 
     <div class="footer-affiliate-notice">
@@ -90,3 +91,49 @@ const year = new Date().getFullYear();
     </div>
   </div>
 </footer>
+
+<script>
+  document.querySelectorAll('form[action*="buttondown"]').forEach(form => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formEl = e.target as HTMLFormElement;
+      const email = (formEl.querySelector('input[name="email"]') as HTMLInputElement).value;
+      const btn = formEl.querySelector('button') as HTMLButtonElement;
+      const msgEl = formEl.nextElementSibling as HTMLElement;
+
+      btn.textContent = 'Enviando...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(formEl.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: `email=${encodeURIComponent(email)}`,
+        });
+
+        if (res.ok || res.status === 303) {
+          formEl.style.display = 'none';
+          if (msgEl) {
+            msgEl.textContent = '¡Suscrito! Revisa tu email para confirmar.';
+            msgEl.style.color = '#22c55e';
+            msgEl.style.fontWeight = '600';
+          }
+        } else {
+          if (msgEl) {
+            msgEl.textContent = 'Hubo un error. Inténtalo de nuevo.';
+            msgEl.style.color = '#ef4444';
+          }
+          btn.textContent = 'Suscribirme';
+          btn.disabled = false;
+        }
+      } catch {
+        if (msgEl) {
+          msgEl.textContent = 'Error de conexión. Inténtalo de nuevo.';
+          msgEl.style.color = '#ef4444';
+        }
+        btn.textContent = 'Suscribirme';
+        btn.disabled = false;
+      }
+    });
+  });
+</script>
