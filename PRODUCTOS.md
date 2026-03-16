@@ -708,9 +708,9 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B007WIUS3M
 - Imagen: https://m.media-amazon.com/images/I/61PNX8UYIJL._AC_SX679_.jpg
 
-**2. Orijen Large Breed**
-- URL Amazon: 
-- Imagen: 
+**2. Orijen Original**
+- URL Amazon: https://www.amazon.es/dp/B06XNBWL48
+- Imagen: https://m.media-amazon.com/images/I/81Z48RsrkLL._AC_SL1500_.jpg
 
 **3. Taste of the Wild High Prairie**
 - URL Amazon: https://www.amazon.es/dp/B019Q0FJHS
@@ -751,9 +751,9 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B00388REL4
 - Imagen: https://m.media-amazon.com/images/I/71Tod7dQB2L._AC_SL1500_.jpg
 
-**5. Acana Light & Fit Small**
-- URL Amazon: 
-- Imagen: 
+**5. Acana Adult Small Breed**
+- URL Amazon: https://www.amazon.es/dp/B01C6TJXAA
+- Imagen:
 
 ---
 
@@ -854,14 +854,14 @@ Para cada producto haz lo siguiente en Amazon.es:
 *Archivo: snacks-naturales-gatos*
 
 ### TopPick
-**Thrive Premium Liofilizado de Pollo**
-- URL Amazon: 
-- Imagen: 
+**IAMS Naturally Liofilizado de Pollo**
+- URL Amazon: https://www.amazon.es/dp/B07TZ3JZL5
+- Imagen:
 
 ### Comparativa
-**1. Thrive Premium Liofilizado de Pollo**
-- URL Amazon: 
-- Imagen: 
+**1. IAMS Naturally Liofilizado de Pollo**
+- URL Amazon: https://www.amazon.es/dp/B07TZ3JZL5
+- Imagen:
 
 **2. Cosma Snackies**
 - URL Amazon: https://www.amazon.es/dp/B0D1XDB3DD
@@ -1301,9 +1301,9 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B00LSXU0IU
 - Imagen: https://m.media-amazon.com/images/I/61Xo+wKYrzL._AC_SL1500_.jpg
 
-**4. Bio-Groom Super Cream**
-- URL Amazon: 
-- Imagen: 
+**4. MENFORSAN Crema Suavizante Desenredante Gatos**
+- URL Amazon: https://www.amazon.es/dp/B09S12TPPN
+- Imagen:
 
 **5. Tropiclean Gentle Coconut**
 - URL Amazon: https://www.amazon.es/dp/B001VIWHD8
@@ -1820,9 +1820,9 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B07V2DJ7GW
 - Imagen: https://m.media-amazon.com/images/I/61EeNJgOkIL._AC_SL1500_.jpg
 
-**2. Trixie Vital Laslo**
-- URL Amazon: 
-- Imagen: 
+**2. Trixie Vital Bendson**
+- URL Amazon: https://www.amazon.es/dp/B084GXKGFS
+- Imagen:
 
 **3. PetFusion Ultimate Dog Bed**
 - URL Amazon: https://www.amazon.es/dp/B08MHMFSNR
@@ -2072,17 +2072,17 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B01DDHQJHO
 - Imagen: https://m.media-amazon.com/images/I/818oi6Sop-L._AC_SL1500_.jpg
 
-**3. Trixie Correa Extensible Vario 5m**
-- URL Amazon: 
-- Imagen: 
+**3. Flexi New Comfort Cinta M (5m, hasta 25 kg)**
+- URL Amazon: https://www.amazon.es/dp/B08DMXPKZL
+- Imagen:
 
 **4. Ferplast Amigo Extra Strong 5m**
 - URL Amazon: https://www.amazon.es/dp/B00SKU8JS2
 - Imagen: https://m.media-amazon.com/images/I/61bAO+KUbTL._AC_SL1500_.jpg
 
-**5. Hunter Correa Extensible Verona 5m**
-- URL Amazon: 
-- Imagen: 
+**5. Flexi New Comfort Cinta L (8m, hasta 50 kg)**
+- URL Amazon: https://www.amazon.es/dp/B01H3K2ONK
+- Imagen:
 
 ---
 
@@ -2789,9 +2789,9 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B0719Q89XH
 - Imagen: https://m.media-amazon.com/images/I/81e8AScMfhL._AC_SL1500_.jpg
 
-**4. Snuffle Mat Kong**
-- URL Amazon: 
-- Imagen: 
+**4. LIVACASA Alfombra Olfativa Snuffle Mat**
+- URL Amazon: https://www.amazon.es/dp/B07WPSRH3M
+- Imagen:
 
 **5. Trixie Activity Flip Board**
 - URL Amazon: https://www.amazon.es/dp/B0054Q9TMA
