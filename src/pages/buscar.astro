@@ -45,8 +45,9 @@ import Base from '@/layouts/Base.astro';
         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-top: 1rem;">
           <a href="/alimentacion/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🥣 Alimentación</a>
           <a href="/higiene/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🪮 Higiene</a>
-          <a href="/descanso/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🏠 Descanso</a>
-          <a href="/comportamiento/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🧸 Enriquecimiento</a>
+          <a href="/paseo/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🦮 Paseo</a>
+          <a href="/juguetes/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🧸 Juguetes</a>
+          <a href="/hogar/" class="affiliate-button" style="font-size: 0.85rem; padding: 0.5rem 1rem;">🏠 Hogar</a>
         </div>
       </div>
       <div id="results-grid" class="articles-grid" style="display:none;" role="region" aria-live="polite" aria-label="Resultados de búsqueda"></div>
@@ -114,8 +115,9 @@ import Base from '@/layouts/Base.astro';
   const CATEGORIA_NOMBRES: Record<string, string> = {
     alimentacion: 'Alimentación',
     higiene: 'Higiene',
-    descanso: 'Descanso y Transporte',
-    comportamiento: 'Enriquecimiento',
+    paseo: 'Paseo y Transporte',
+    juguetes: 'Juguetes',
+    hogar: 'Hogar y Descanso',
   };
 
   interface Article {
@@ -124,6 +126,7 @@ import Base from '@/layouts/Base.astro';
     slug: string;
     categoria: string;
     animal: string;
+    tipo: string;
     imagen: string | null;
     tags: string[];
     contenido: string;
@@ -183,8 +186,12 @@ import Base from '@/layouts/Base.astro';
   }
 
   function renderCard(article: Article, query: string): string {
-    const url = `/${encodeURI(article.categoria)}/${encodeURI(article.slug)}/`;
-    const catNombre = CATEGORIA_NOMBRES[article.categoria] || escapeHtml(article.categoria);
+    const url = article.tipo === 'informativo'
+      ? `/cuidados/${encodeURI(article.slug)}/`
+      : `/${encodeURI(article.categoria)}/${encodeURI(article.slug)}/`;
+    const catNombre = article.tipo === 'informativo'
+      ? 'Cuidados'
+      : (CATEGORIA_NOMBRES[article.categoria] || escapeHtml(article.categoria));
     const normQ = normalize(query);
 
     const inTitle = normalize(article.titulo).includes(normQ);
@@ -208,7 +215,7 @@ import Base from '@/layouts/Base.astro';
         ${imgHtml}
         <div class="article-card-body">
           <div class="article-card-badges">
-            <span class="article-card-category badge badge-${article.categoria}">${catNombre}</span>
+            <span class="article-card-category badge badge-${article.tipo === 'informativo' ? 'cuidados' : article.categoria}">${catNombre}</span>
             <span class="article-card-animal">${ANIMAL_EMOJI[article.animal] || '🐾'}</span>
           </div>
           <a href="${url}"><h3 class="article-card-title">${tituloHtml}</h3></a>

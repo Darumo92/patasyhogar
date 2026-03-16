@@ -47,7 +47,7 @@ const itemListSchema = {
   itemListElement: recientes.map((a, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `${siteUrl}/${a.data.categoria}/${a.slug}`,
+    url: `${siteUrl}/${a.data.tipo === 'informativo' ? 'cuidados' : a.data.categoria}/${a.slug}`,
     name: a.data.titulo,
   })),
 };
@@ -68,18 +68,32 @@ const categorias = [
     count: articulos.filter(a => a.data.categoria === 'higiene').length,
   },
   {
-    slug: 'descanso',
-    nombre: 'Descanso y Transporte',
-    descripcion: 'Camas, transportines, mochilas y jaulas',
-    icono: '🏠',
-    count: articulos.filter(a => a.data.categoria === 'descanso').length,
+    slug: 'paseo',
+    nombre: 'Paseo y Transporte',
+    descripcion: 'Arneses, correas, transportines, ropa y accesorios de viaje',
+    icono: '🦮',
+    count: articulos.filter(a => a.data.categoria === 'paseo').length,
   },
   {
-    slug: 'comportamiento',
-    nombre: 'Enriquecimiento',
-    descripcion: 'Juguetes, rascadores, mordedores y estimulación mental',
+    slug: 'juguetes',
+    nombre: 'Juguetes',
+    descripcion: 'Juguetes interactivos, rascadores, mordedores y estimulación mental',
     icono: '🧸',
-    count: articulos.filter(a => a.data.categoria === 'comportamiento').length,
+    count: articulos.filter(a => a.data.categoria === 'juguetes').length,
+  },
+  {
+    slug: 'hogar',
+    nombre: 'Hogar y Descanso',
+    descripcion: 'Camas, mantas, protectores y accesorios para casa',
+    icono: '🏠',
+    count: articulos.filter(a => a.data.categoria === 'hogar').length,
+  },
+  {
+    slug: 'cuidados',
+    nombre: 'Cuidados',
+    descripcion: 'Guías sobre salud, comportamiento y bienestar de tu mascota',
+    icono: '📖',
+    count: articulos.filter(a => a.data.tipo === 'informativo').length,
   },
 ];
 ---
@@ -197,6 +211,9 @@ const categorias = [
         </a>
         <a href="/alimentacion/" class="affiliate-button" style="font-size: 1rem; padding: 0.875rem 2rem; background: var(--color-bg-muted); color: var(--color-text); border: 1.5px solid var(--color-border);">
           🥣 Ver alimentación
+        </a>
+        <a href="/cuidados/" class="affiliate-button" style="font-size: 1rem; padding: 0.875rem 2rem; background: var(--color-bg-muted); color: var(--color-text); border: 1.5px solid var(--color-border);">
+          📖 Cuidados y consejos
         </a>
       </div>
     </div>

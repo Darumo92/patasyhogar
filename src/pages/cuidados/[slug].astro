@@ -3,12 +3,9 @@ import Article from '@/layouts/Article.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const articulos = await getCollection('articulos', ({ data }) => data.tipo !== 'informativo');
+  const articulos = await getCollection('articulos', ({ data }) => data.tipo === 'informativo');
   return articulos.map(articulo => ({
-    params: {
-      categoria: articulo.data.categoria,
-      slug: articulo.slug,
-    },
+    params: { slug: articulo.slug },
     props: { articulo },
   }));
 }

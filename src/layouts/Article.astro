@@ -9,7 +9,8 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const { titulo, descripcion, categoria, animal: artAnimal, fecha, actualizadoEn, tags, imagen, imagenAlt, faqs } = articulo.data;
+const { titulo, descripcion, categoria, animal: artAnimal, fecha, actualizadoEn, tags, imagen, imagenAlt, faqs, tipo } = articulo.data;
+const esInformativo = tipo === 'informativo';
 const animalLabel = artAnimal === 'perro' ? '🐶 Perros' : artAnimal === 'gato' ? '🐱 Gatos' : '🐾 Perros y gatos';
 
 // Reading time: ~200 words per minute, strip MDX syntax first
@@ -29,6 +30,8 @@ const articleTags = new Set(tags || []);
 
 const scored = allArticles.map(a => {
   let score = 0;
+  // Same tipo: +2
+  if (a.data.tipo === tipo) score += 2;
   // Same category: +3
   if (a.data.categoria === categoria) score += 3;
   // Same animal or either is 'ambos': +2
@@ -47,11 +50,14 @@ const related = scored
 const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
   alimentacion: { nombre: 'Alimentación', icono: '🥣' },
   higiene: { nombre: 'Higiene', icono: '🪮' },
-  descanso: { nombre: 'Descanso y Transporte', icono: '🏠' },
-  comportamiento: { nombre: 'Enriquecimiento', icono: '🧸' },
+  paseo: { nombre: 'Paseo y Transporte', icono: '🦮' },
+  juguetes: { nombre: 'Juguetes', icono: '🧸' },
+  hogar: { nombre: 'Hogar y Descanso', icono: '🏠' },
 };
 
-const catInfo = categoriasInfo[categoria];
+const catInfo = esInformativo
+  ? { nombre: 'Cuidados', icono: '📖' }
+  : categoriasInfo[categoria];
 
 const fechaFormateada = fecha.toLocaleDateString('es-ES', {
   year: 'numeric',
@@ -105,7 +111,7 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
-    { '@type': 'ListItem', position: 2, name: catInfo.nombre, item: `${siteUrl}/${categoria}` },
+    { '@type': 'ListItem', position: 2, name: catInfo.nombre, item: `${siteUrl}/${esInformativo ? 'cuidados' : categoria}` },
     { '@type': 'ListItem', position: 3, name: titulo },
   ],
 };
@@ -121,7 +127,7 @@ const breadcrumbSchema = {
     <nav class="breadcrumb" aria-label="Migas de pan">
       <a href="/">Inicio</a>
       <span class="breadcrumb-sep" aria-hidden="true">›</span>
-      <a href={`/${categoria}/`}>{catInfo.nombre}</a>
+      <a href={esInformativo ? '/cuidados/' : `/${categoria}/`}>{catInfo.nombre}</a>
       <span class="breadcrumb-sep" aria-hidden="true">›</span>
       <span class="breadcrumb-animal">{animalLabel}</span>
       <span class="breadcrumb-sep" aria-hidden="true">›</span>
@@ -162,14 +168,16 @@ const breadcrumbSchema = {
       />
     )}
 
-    <div class="affiliate-disclaimer" role="note">
-      <span aria-hidden="true">ℹ️</span>
-      <span>
-        Este artículo contiene enlaces de afiliados. Si compras a través de
-        ellos podemos recibir una pequeña comisión <strong>sin coste adicional
-        para ti</strong>.
-      </span>
-    </div>
+    {!esInformativo && (
+      <div class="affiliate-disclaimer" role="note">
+        <span aria-hidden="true">ℹ️</span>
+        <span>
+          Este artículo contiene enlaces de afiliados. Si compras a través de
+          ellos podemos recibir una pequeña comisión <strong>sin coste adicional
+          para ti</strong>.
+        </span>
+      </div>
+    )}
 
     <nav class="toc" id="toc" aria-label="Tabla de contenidos" style="display:none;">
       <p class="toc-title">En este artículo</p>
@@ -221,7 +229,7 @@ const breadcrumbSchema = {
           ))}
         </div>
         <div style="text-align: center; margin-top: 1.5rem;">
-          <a href={`/${categoria}/`} class="affiliate-button" style="display: inline-flex; font-size: 0.9rem; padding: 0.65rem 1.5rem;">
+          <a href={esInformativo ? '/cuidados/' : `/${categoria}/`} class="affiliate-button" style="display: inline-flex; font-size: 0.9rem; padding: 0.65rem 1.5rem;">
             {catInfo.icono} Ver más en {catInfo.nombre} →
           </a>
         </div>

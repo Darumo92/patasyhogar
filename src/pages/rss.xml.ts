@@ -16,8 +16,10 @@ export async function GET(context: APIContext) {
       title: a.data.titulo,
       description: a.data.descripcion,
       pubDate: a.data.fecha,
-      link: `/${a.data.categoria}/${a.slug}/`,
-      categories: [a.data.categoria, a.data.animal],
+      link: a.data.tipo === 'informativo'
+        ? `/cuidados/${a.slug}/`
+        : `/${a.data.categoria}/${a.slug}/`,
+      categories: [a.data.categoria, a.data.animal, a.data.tipo ?? 'comparativa'],
     })),
     customData: '<language>es</language>',
   });

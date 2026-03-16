@@ -6,19 +6,25 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const { titulo, descripcion, categoria, animal, fecha, actualizadoEn, imagen } = articulo.data;
+const { titulo, descripcion, categoria, animal, fecha, actualizadoEn, imagen, tipo } = articulo.data;
 
 const animalEmoji = animal === 'perro' ? '🐶' : animal === 'gato' ? '🐱' : '🐾';
+const esInformativo = tipo === 'informativo';
 
 const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
   alimentacion: { nombre: 'Alimentación', icono: '🥣' },
   higiene: { nombre: 'Higiene', icono: '🪮' },
-  descanso: { nombre: 'Descanso', icono: '🏠' },
-  comportamiento: { nombre: 'Enriquecimiento', icono: '🧸' },
+  paseo: { nombre: 'Paseo', icono: '🦮' },
+  juguetes: { nombre: 'Juguetes', icono: '🧸' },
+  hogar: { nombre: 'Hogar', icono: '🏠' },
 };
 
-const info = categoriasInfo[categoria];
-const url = `/${categoria}/${articulo.slug}/`;
+const info = esInformativo
+  ? { nombre: 'Cuidados', icono: '📖' }
+  : categoriasInfo[categoria];
+const url = esInformativo
+  ? `/cuidados/${articulo.slug}/`
+  : `/${categoria}/${articulo.slug}/`;
 
 const wordCount = articulo.body
   .replace(/^---[\s\S]*?---/, '')
@@ -38,7 +44,7 @@ const fechaFormateada = fechaMostrar.toLocaleDateString('es-ES', {
 const esActualizado = !!actualizadoEn;
 ---
 
-<article class="article-card" data-animal={animal}>
+<article class="article-card" data-animal={animal} data-tipo={esInformativo ? 'informativo' : 'comparativa'}>
   <a href={url} class="article-card-image" aria-hidden="true" tabindex="-1">
     {imagen ? (
       <img src={imagen} alt={titulo} width="400" height="225" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 400px" />

@@ -10,12 +10,19 @@ Web de guias y comparativas de productos para perros y gatos con monetizacion po
 - **Contenido:** MDX en `src/content/articulos/`
 - **CSS:** Plain CSS con custom properties (`src/styles/global.css`). No Tailwind.
 
-## Estructura de categorias
+## Tipos de contenido
+
+- `tipo: comparativa | informativo` — campo en frontmatter (default: `comparativa`)
+- **Comparativas** (`comparativa`): analisis de productos con ComparisonTable, TopPick, AffiliateButton. URL: `/[categoria]/[slug]`
+- **Informativos** (`informativo`): guias de cuidados, salud, comportamiento. URL: `/cuidados/[slug]`. Sin disclaimer de afiliados.
+
+## Estructura de categorias (comparativas)
 
 - `alimentacion` - pienso, humeda, snacks, fuentes, comederos
-- `higiene` - arena, areneros, cepillos, champus
-- `descanso` - camas, transportines, mochilas, jaulas
-- `comportamiento` - juguetes, rascadores, mordedores
+- `higiene` - arena, areneros, cepillos, champus, antiparasitarios
+- `paseo` - arneses, correas, transportines, collares, GPS, ropa, accesorios coche
+- `juguetes` - juguetes, rascadores, mordedores, alfombras olfato, tuneles, feromonas
+- `hogar` - camas, mantas, hamacas, protector sofa, gateras, puertas seguridad
 
 ## Clasificacion por animal
 
@@ -27,7 +34,9 @@ Web de guias y comparativas de productos para perros y gatos con monetizacion po
 
 - Homepage: `/`
 - Categoria: `/[categoria]`
-- Articulo: `/[categoria]/[slug]`
+- Comparativa: `/[categoria]/[slug]`
+- Cuidados (listado): `/cuidados`
+- Cuidados (articulo): `/cuidados/[slug]`
 - Por animal: `/perros`, `/gatos`
 - Todos: `/articulos`
 - Busqueda: `/buscar`
@@ -51,8 +60,9 @@ Web de guias y comparativas de productos para perros y gatos con monetizacion po
 ```yaml
 titulo: string
 descripcion: string
-categoria: alimentacion | higiene | descanso | comportamiento
+categoria: alimentacion | higiene | paseo | juguetes | hogar
 animal: perro | gato | ambos
+tipo?: comparativa | informativo (default: comparativa)
 fecha: date
 imagen?: string
 imagenAlt?: string
@@ -132,4 +142,6 @@ Campos esperados por producto:
 1. Anadir entradas a `PRODUCTOS.md` con nombre, URL Amazon e imagen (vacios si no se tienen aun)
 2. Incluir siempre campo `animal` en frontmatter
 3. Incluir FAQs con schema en cada articulo
-4. El search index en `buscar.json.ts` incluye campo `animal` — mantener en sync
+4. El search index en `buscar.json.ts` incluye campos `animal` y `tipo` — mantener en sync
+5. Articulos informativos usan `tipo: informativo` y se sirven en `/cuidados/[slug]`
+6. Articulos informativos NO llevan ComparisonTable, TopPick ni AffiliateButton
