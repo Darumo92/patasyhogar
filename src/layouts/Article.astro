@@ -242,6 +242,16 @@ const breadcrumbSchema = {
   </article>
 
   <script>
+    // Wrap tables for horizontal scroll on mobile
+    document.querySelectorAll('.prose table').forEach(table => {
+      if (!table.parentElement?.classList.contains('table-wrapper')) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'table-wrapper';
+        table.parentNode?.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      }
+    });
+
     const content = document.getElementById('article-content');
     const tocNav = document.getElementById('toc');
     const tocList = document.getElementById('toc-list');
