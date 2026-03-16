@@ -1,16 +1,15 @@
 ---
 const currentPath = Astro.url.pathname;
 
-const navLinks = [
-  { href: '/perros/', label: '🐶 Perros' },
-  { href: '/gatos/', label: '🐱 Gatos' },
-  { href: '/alimentacion/', label: 'Alimentación' },
-  { href: '/higiene/', label: 'Higiene' },
-  { href: '/paseo/', label: 'Paseo' },
-  { href: '/juguetes/', label: 'Juguetes' },
-  { href: '/hogar/', label: 'Hogar' },
-  { href: '/cuidados/', label: '📖 Cuidados' },
+const categoryLinks = [
+  { href: '/alimentacion/', label: 'Alimentación', icono: '🥣' },
+  { href: '/higiene/', label: 'Higiene', icono: '🪮' },
+  { href: '/paseo/', label: 'Paseo y Transporte', icono: '🦮' },
+  { href: '/juguetes/', label: 'Juguetes', icono: '🧸' },
+  { href: '/hogar/', label: 'Hogar y Descanso', icono: '🏠' },
 ];
+
+const isCategoryActive = categoryLinks.some(c => currentPath.startsWith(c.href));
 ---
 
 <header class="header">
@@ -26,18 +25,52 @@ const navLinks = [
       </button>
 
       <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
-        {navLinks.map(link => {
-          const isActive = currentPath.startsWith(link.href);
-          return (
-            <a
-              href={link.href}
-              class={`nav-link ${isActive ? 'active' : ''}`}
-              {...(isActive ? { 'aria-current': 'page' } : {})}
-            >
-              {link.label}
-            </a>
-          );
-        })}
+        <a
+          href="/perros/"
+          class={`nav-link ${currentPath.startsWith('/perros/') ? 'active' : ''}`}
+          {...(currentPath.startsWith('/perros/') ? { 'aria-current': 'page' } : {})}
+        >
+          🐶 Perros
+        </a>
+        <a
+          href="/gatos/"
+          class={`nav-link ${currentPath.startsWith('/gatos/') ? 'active' : ''}`}
+          {...(currentPath.startsWith('/gatos/') ? { 'aria-current': 'page' } : {})}
+        >
+          🐱 Gatos
+        </a>
+
+        {/* Dropdown categorías — desktop: hover, mobile: inline */}
+        <div class="nav-dropdown" id="nav-dropdown">
+          <button
+            class={`nav-link nav-dropdown-trigger ${isCategoryActive ? 'active' : ''}`}
+            aria-expanded="false"
+            aria-haspopup="true"
+            id="dropdown-trigger"
+          >
+            Categorías <span class="nav-dropdown-arrow" aria-hidden="true">▾</span>
+          </button>
+          <div class="nav-dropdown-menu" id="dropdown-menu" role="menu">
+            {categoryLinks.map(link => (
+              <a
+                href={link.href}
+                class={`nav-dropdown-item ${currentPath.startsWith(link.href) ? 'active' : ''}`}
+                role="menuitem"
+              >
+                <span aria-hidden="true">{link.icono}</span>
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <a
+          href="/cuidados/"
+          class={`nav-link ${currentPath.startsWith('/cuidados/') ? 'active' : ''}`}
+          {...(currentPath.startsWith('/cuidados/') ? { 'aria-current': 'page' } : {})}
+        >
+          📖 Cuidados
+        </a>
         <a
           href="/buscar/"
           class={`nav-link nav-search ${currentPath === '/buscar/' ? 'active' : ''}`}
@@ -64,6 +97,131 @@ const navLinks = [
     font-size: 1.1rem;
     padding: 0.25rem 0.5rem;
   }
+
+  /* Dropdown container */
+  .nav-dropdown {
+    position: relative;
+  }
+
+  .nav-dropdown-trigger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .nav-dropdown-arrow {
+    font-size: 0.65rem;
+    transition: transform 0.2s;
+  }
+
+  /* Desktop dropdown menu */
+  .nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    min-width: 220px;
+    padding: 0.5rem;
+    z-index: 110;
+  }
+
+  .nav-dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background: var(--color-bg-card);
+    border-left: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border);
+  }
+
+  /* Show on hover (desktop) */
+  .nav-dropdown:hover .nav-dropdown-menu,
+  .nav-dropdown-menu.open {
+    display: block;
+  }
+
+  .nav-dropdown:hover .nav-dropdown-arrow {
+    transform: rotate(180deg);
+  }
+
+  .nav-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 0.85rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: all var(--transition);
+  }
+
+  .nav-dropdown-item:hover {
+    background: var(--color-bg-muted);
+    color: var(--color-primary);
+  }
+
+  .nav-dropdown-item.active {
+    color: var(--color-primary);
+    font-weight: 600;
+    background: rgba(194, 65, 12, 0.06);
+  }
+
+  /* Mobile: show categories inline in the menu */
+  @media (max-width: 768px) {
+    .nav-dropdown {
+      width: 100%;
+    }
+
+    .nav-dropdown-trigger {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      justify-content: space-between;
+    }
+
+    .nav-dropdown-menu {
+      position: static;
+      transform: none;
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+      padding: 0 0 0 1rem;
+      min-width: auto;
+      background: transparent;
+    }
+
+    .nav-dropdown-menu::before {
+      display: none;
+    }
+
+    /* On mobile: hidden by default, toggled by JS */
+    .nav-dropdown:hover .nav-dropdown-menu {
+      display: none;
+    }
+
+    .nav-dropdown-menu.open {
+      display: block;
+    }
+
+    .nav-dropdown-item {
+      padding: 0.6rem 1rem;
+      font-size: 0.85rem;
+    }
+  }
 </style>
 
 <script>
@@ -75,12 +233,34 @@ const navLinks = [
     toggle.setAttribute('aria-expanded', String(!expanded));
   });
 
-  // Close mobile menu after clicking a link
+  // Close mobile menu after clicking a nav link (not the dropdown trigger)
   nav?.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       nav.classList.remove('open');
       toggle?.setAttribute('aria-expanded', 'false');
     });
+  });
+
+  // Dropdown toggle for mobile
+  const dropdownTrigger = document.getElementById('dropdown-trigger');
+  const dropdownMenu = document.getElementById('dropdown-menu');
+  dropdownTrigger?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = dropdownMenu?.classList.contains('open');
+    dropdownMenu?.classList.toggle('open');
+    dropdownTrigger.setAttribute('aria-expanded', String(!isOpen));
+    const arrow = dropdownTrigger.querySelector('.nav-dropdown-arrow');
+    if (arrow) arrow.style.transform = isOpen ? '' : 'rotate(180deg)';
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!(e.target as Element)?.closest('.nav-dropdown')) {
+      dropdownMenu?.classList.remove('open');
+      dropdownTrigger?.setAttribute('aria-expanded', 'false');
+      const arrow = dropdownTrigger?.querySelector('.nav-dropdown-arrow') as HTMLElement;
+      if (arrow) arrow.style.transform = '';
+    }
   });
 
   // Dark mode toggle
