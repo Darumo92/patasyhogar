@@ -990,9 +990,9 @@ a:hover {
   flex: 1;
   padding: 0.6rem 0.875rem;
   border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text);
   font-size: 0.85rem;
   font-family: var(--font-sans);
   outline: none;
@@ -1005,6 +1005,16 @@ a:hover {
 
 .newsletter-input:focus {
   border-color: var(--color-primary);
+}
+
+.footer-newsletter .newsletter-input {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.footer-newsletter .newsletter-input::placeholder {
+  color: #a8a29e;
 }
 
 .newsletter-btn {
