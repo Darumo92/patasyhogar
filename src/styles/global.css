@@ -256,6 +256,10 @@ a:hover {
     padding: 1rem;
     gap: 0.25rem;
     box-shadow: var(--shadow-md);
+    z-index: 200;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .nav.open {

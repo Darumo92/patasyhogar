@@ -255,29 +255,49 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
     .nav-dropdown-divider {
       margin: 0.4rem 1rem;
     }
+
+    .nav-search {
+      justify-content: flex-start;
+      padding: 0.75rem 1rem;
+    }
   }
 </style>
 
 <script>
   const toggle = document.getElementById('nav-toggle');
   const nav = document.getElementById('nav');
+  const dropdownTrigger = document.getElementById('dropdown-trigger');
+  const dropdownMenu = document.getElementById('dropdown-menu');
+
+  function closeDropdown() {
+    dropdownMenu?.classList.remove('open');
+    dropdownTrigger?.setAttribute('aria-expanded', 'false');
+    const arrow = dropdownTrigger?.querySelector('.nav-dropdown-arrow') as HTMLElement;
+    if (arrow) arrow.style.transform = '';
+  }
+
+  function closeNav() {
+    nav?.classList.remove('open');
+    toggle?.setAttribute('aria-expanded', 'false');
+    closeDropdown();
+  }
+
   toggle?.addEventListener('click', () => {
-    nav?.classList.toggle('open');
-    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!expanded));
+    const isOpen = nav?.classList.contains('open');
+    if (isOpen) {
+      closeNav();
+    } else {
+      nav?.classList.add('open');
+      toggle.setAttribute('aria-expanded', 'true');
+    }
   });
 
   // Close mobile menu on link click
   nav?.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      nav.classList.remove('open');
-      toggle?.setAttribute('aria-expanded', 'false');
-    });
+    link.addEventListener('click', () => closeNav());
   });
 
   // Dropdown toggle (mobile + click fallback)
-  const dropdownTrigger = document.getElementById('dropdown-trigger');
-  const dropdownMenu = document.getElementById('dropdown-menu');
   dropdownTrigger?.addEventListener('click', (e) => {
     e.stopPropagation();
     const isOpen = dropdownMenu?.classList.contains('open');
@@ -290,10 +310,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
   // Close dropdown on outside click
   document.addEventListener('click', (e) => {
     if (!(e.target as Element)?.closest('.nav-dropdown')) {
-      dropdownMenu?.classList.remove('open');
-      dropdownTrigger?.setAttribute('aria-expanded', 'false');
-      const arrow = dropdownTrigger?.querySelector('.nav-dropdown-arrow') as HTMLElement;
-      if (arrow) arrow.style.transform = '';
+      closeDropdown();
     }
   });
 
