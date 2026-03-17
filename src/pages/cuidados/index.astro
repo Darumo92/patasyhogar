@@ -118,6 +118,25 @@ const collectionSchema = {
   </div>
 </Base>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.subcat-nav-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        const href = (link as HTMLAnchorElement).getAttribute('href');
+        if (!href || !href.startsWith('#')) return;
+        const target = document.querySelector(href);
+        if (!target) return;
+        e.preventDefault();
+        const header = document.querySelector('.header');
+        const offset = header ? header.getBoundingClientRect().height + 16 : 80;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+        history.replaceState(null, '', href);
+      });
+    });
+  });
+</script>
+
 <style>
   .category-intro {
     background: var(--color-bg-muted);
@@ -166,7 +185,6 @@ const collectionSchema = {
   }
   .subcat-section {
     margin-bottom: 3rem;
-    scroll-margin-top: 5rem;
   }
   .subcat-heading {
     display: flex;
