@@ -65,6 +65,15 @@
 /comportamiento/mejor-gps-perro/ /paseo/mejor-gps-perro/ 301
 /comportamiento/mejor-repelente-gatos-muebles/ /hogar/mejor-repelente-gatos-muebles/ 301
 
+# Consolidated articles redirects
+/alimentacion/mejor-pienso-gatito-cachorro/ /alimentacion/mejor-pienso-cachorro-gato/ 301
+/higiene/mejor-arenero-abierto-gatos/ /higiene/mejor-arenero-arena-gatos/ 301
+/higiene/mejor-arenero-cerrado-gatos-grandes/ /higiene/mejor-arenero-arena-gatos/ 301
+/higiene/mejor-arenero-autolimpiable/ /higiene/mejor-arenero-arena-gatos/ 301
+/higiene/mejor-arenero-autolimpiable-electrico/ /higiene/mejor-arenero-arena-gatos/ 301
+/higiene/mejor-arena-aglomerante-gatos/ /higiene/mejor-arenero-arena-gatos/ 301
+/higiene/arena-sin-polvo-comparativa/ /higiene/mejor-arenero-arena-gatos/ 301
+
 # Redirect old article paths: comportamiento → cuidados
 /comportamiento/como-presentar-perro-gato/ /cuidados/como-presentar-perro-gato/ 301
 /comportamiento/como-socializar-cachorro/ /cuidados/como-socializar-cachorro/ 301
