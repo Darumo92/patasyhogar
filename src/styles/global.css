@@ -812,6 +812,7 @@ a:hover {
 .affiliate-button {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   background: var(--color-primary);
   color: #fff;
@@ -822,6 +823,7 @@ a:hover {
   transition: all 0.25s ease;
   text-decoration: none;
   letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 
 .affiliate-button:hover {
@@ -869,6 +871,23 @@ a:hover {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin: 1.5rem 0;
+}
+
+@media (max-width: 480px) {
+  .affiliate-button {
+    font-size: 0.82rem;
+    padding: 0.6rem 1rem;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .affiliate-button-group {
+    flex-direction: column;
+  }
+
+  .affiliate-button-group .affiliate-button {
+    width: 100%;
+  }
 }
 
 /* (ComparisonTable styles moved to component) */
