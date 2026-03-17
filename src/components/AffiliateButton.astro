@@ -1,4 +1,6 @@
 ---
+import StoreIcon from './StoreIcon.astro';
+
 interface Props {
   href: string;
   tienda?: 'amazon' | 'zooplus' | 'tiendanimal' | 'default';
@@ -7,11 +9,11 @@ interface Props {
 
 const { href, tienda = 'default', texto } = Astro.props;
 
-const tiendaInfo: Record<string, { label: string; icono: string }> = {
-  amazon: { label: 'Ver en Amazon', icono: '🛒' },
-  zooplus: { label: 'Ver en Zooplus', icono: '🛒' },
-  tiendanimal: { label: 'Ver en Tiendanimal', icono: '🛒' },
-  default: { label: 'Ver oferta', icono: '🛒' },
+const tiendaInfo: Record<string, { label: string }> = {
+  amazon: { label: 'Ver en Amazon' },
+  zooplus: { label: 'Ver en Zooplus' },
+  tiendanimal: { label: 'Ver en Tiendanimal' },
+  default: { label: 'Ver oferta' },
 };
 
 const info = tiendaInfo[tienda];
@@ -28,5 +30,6 @@ const finalHref = tienda === 'amazon' && !href.includes('tag=')
   target="_blank"
   rel="nofollow noopener noreferrer sponsored"
 >
-  {info.icono} {label}
+  <StoreIcon tienda={tienda} size={15} />
+  {label}
 </a>

@@ -1,0 +1,47 @@
+---
+interface Props {
+  tienda: 'amazon' | 'zooplus' | 'tiendanimal' | 'default';
+  size?: number;
+}
+
+const { tienda, size = 16 } = Astro.props;
+---
+
+{/* Amazon: smile arrow */}
+{tienda === 'amazon' && (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M4 16c4-2 10-2 16 0" />
+    <path d="M18 13.5l2.5 2.5-2 1" />
+  </svg>
+)}
+
+{/* Zooplus: stylized eyes (their brand icon) */}
+{tienda === 'zooplus' && (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <ellipse cx="7.5" cy="12" rx="4.5" ry="5" fill="none" stroke="currentColor" stroke-width="2" />
+    <circle cx="8.5" cy="12" r="2" />
+    <ellipse cx="16.5" cy="12" rx="4.5" ry="5" fill="none" stroke="currentColor" stroke-width="2" />
+    <circle cx="17.5" cy="12" r="2" />
+  </svg>
+)}
+
+{/* Tiendanimal: paw print */}
+{tienda === 'tiendanimal' && (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <ellipse cx="7" cy="6.5" rx="2" ry="2.5" />
+    <ellipse cx="12" cy="5" rx="2" ry="2.5" />
+    <ellipse cx="17" cy="6.5" rx="2" ry="2.5" />
+    <ellipse cx="5" cy="12" rx="1.8" ry="2.3" />
+    <ellipse cx="19" cy="12" rx="1.8" ry="2.3" />
+    <path d="M8 16.5c0-2.5 2-4.5 4-4.5s4 2 4 4.5c0 2-1.5 3.5-4 3.5s-4-1.5-4-3.5z" />
+  </svg>
+)}
+
+{/* Default: shopping cart */}
+{tienda === 'default' && (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="9" cy="21" r="1" />
+    <circle cx="20" cy="21" r="1" />
+    <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+  </svg>
+)}

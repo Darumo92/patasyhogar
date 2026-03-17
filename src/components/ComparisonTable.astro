@@ -1,7 +1,12 @@
 ---
+import StoreIcon from './StoreIcon.astro';
+
 interface Producto {
   nombre: string;
   precio: string;
+  precioAmazon?: string;
+  precioZooplus?: string;
+  precioTiendanimal?: string;
   valoracion: number;
   puntosFuertes: string;
   imagen?: string;
@@ -101,6 +106,25 @@ const productSchemas = productos.map(p => {
     }),
   };
 });
+
+function tiendas(p: Producto) {
+  const list: { nombre: string; clase: string; precio: string; href: string; mejor: boolean }[] = [];
+  if (p.enlaceAmazon) list.push({ nombre: 'Amazon', clase: 'amazon', precio: p.precioAmazon || p.precio, href: amazonHref(p.enlaceAmazon), mejor: false });
+  if (p.enlaceZooplus) list.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus, mejor: false });
+  if (p.enlaceTiendanimal) list.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: p.enlaceTiendanimal, mejor: false });
+
+  // Mark cheapest store if there are 2+ stores with different prices
+  if (list.length > 1) {
+    const withNum = list.map(s => ({ ...s, num: parseFloat((s.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.')) }));
+    const min = Math.min(...withNum.map(s => s.num));
+    const cheapest = withNum.filter(s => s.num === min);
+    if (cheapest.length === 1 && new Set(withNum.map(s => s.num)).size > 1) {
+      const idx = list.findIndex(s => s.nombre === cheapest[0].nombre);
+      if (idx >= 0) list[idx].mejor = true;
+    }
+  }
+  return list;
+}
 ---
 
 <script is:inline type="application/ld+json" set:html={JSON.stringify({
@@ -118,66 +142,56 @@ const productSchemas = productos.map(p => {
 {titulo && <h3 class="comp-titulo">{titulo}</h3>}
 
 <div class="comp-grid">
-  {productos.map((p, i) => (
-    <div class="comp-card">
-      {i === 0 && <span class="comp-badge">Top 1</span>}
-      <div class="comp-card-header">
-        {p.imagen && (
-          <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
-        )}
-        <div class="comp-card-info">
-          <h4 class="comp-name">{p.nombre}</h4>
-          <div class="comp-rating-price">
-            <span class="comp-rating" title={`${p.valoracion}/5`}>
-              {estrellas(p.valoracion)}
-              <span class="comp-rating-num">{p.valoracion}/5</span>
-            </span>
-            <span class="comp-price">{p.precio}</span>
+  {productos.map((p, i) => {
+    const stores = tiendas(p);
+    return (
+      <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`}>
+        {i === 0 && <span class="comp-badge">Mejor opción</span>}
+
+        <div class="comp-header">
+          {p.imagen && (
+            <div class="comp-img-wrap">
+              <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
+            </div>
+          )}
+          <div class="comp-header-info">
+            <h4 class="comp-name">{p.nombre}</h4>
+            <div class="comp-meta">
+              <span class="comp-stars" title={`${p.valoracion}/5`}>
+                {estrellas(p.valoracion)}
+                <span class="comp-stars-num">{p.valoracion}/5</span>
+              </span>
+              <span class="comp-price">{p.precio}</span>
+            </div>
           </div>
         </div>
+
+        <p class="comp-desc">{p.puntosFuertes}</p>
+
+        <div class="comp-stores">
+          {stores.map(s => (
+            <a
+              href={s.href}
+              class={`affiliate-button ${s.clase}`}
+              target="_blank"
+              rel="nofollow noopener noreferrer sponsored"
+            >
+              <StoreIcon tienda={s.clase as any} size={15} />
+              {s.nombre} — {s.precio}
+              {s.mejor && <span class="comp-best">Mejor precio</span>}
+            </a>
+          ))}
+        </div>
       </div>
-      <p class="comp-pros">{p.puntosFuertes}</p>
-      <div class="comp-buttons">
-        {p.enlaceAmazon && (
-          <a
-            href={amazonHref(p.enlaceAmazon)}
-            class="affiliate-button amazon"
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-          >
-            🛒 Ver en Amazon
-          </a>
-        )}
-        {p.enlaceZooplus && (
-          <a
-            href={p.enlaceZooplus}
-            class="affiliate-button zooplus"
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-          >
-            🛒 Ver en Zooplus
-          </a>
-        )}
-        {p.enlaceTiendanimal && (
-          <a
-            href={p.enlaceTiendanimal}
-            class="affiliate-button tiendanimal"
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-          >
-            🛒 Ver en Tiendanimal
-          </a>
-        )}
-      </div>
-    </div>
-  ))}
+    );
+  })}
 </div>
 
 <style>
 .comp-titulo {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   letter-spacing: -0.02em;
 }
 
@@ -192,71 +206,74 @@ const productSchemas = productos.map(p => {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  padding: 1.25rem;
-  transition: all 0.25s ease;
+  padding: 1.5rem;
   position: relative;
-}
-
-.comp-card:first-child {
-  border-color: var(--color-primary);
-  border-width: 2px;
+  transition: box-shadow 0.2s ease;
 }
 
 .comp-card:hover {
-  border-color: var(--color-border-dark);
   box-shadow: var(--shadow-md);
 }
 
-.comp-card:first-child:hover {
-  border-color: var(--color-primary);
-  box-shadow: var(--shadow-lg);
+.comp-card--top {
+  border: 2px solid var(--color-primary);
+}
+
+.comp-card--top:hover {
+  box-shadow: 0 4px 24px color-mix(in srgb, var(--color-primary) 15%, transparent);
 }
 
 .comp-badge {
   position: absolute;
-  top: -0.6rem;
-  right: 1rem;
+  top: -0.65rem;
+  left: 1.25rem;
   background: var(--color-primary);
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  padding: 0.15rem 0.6rem;
+  padding: 0.2rem 0.7rem;
   border-radius: 100px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
 }
 
-.comp-card-header {
+/* --- Header: image + name/rating/price --- */
+.comp-header {
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
 }
 
-.comp-img {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
-  border-radius: var(--radius-md);
-  background: var(--color-bg-muted);
-  padding: 0.5rem;
+.comp-img-wrap {
   flex-shrink: 0;
+  background: var(--color-bg-muted);
+  border-radius: var(--radius-md);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.comp-card-info {
+.comp-img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+
+.comp-header-info {
   flex: 1;
   min-width: 0;
 }
 
 .comp-name {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--color-text);
-  margin: 0 0 0.5rem;
-  letter-spacing: -0.01em;
+  margin: 0 0 0.6rem;
   line-height: 1.3;
 }
 
-.comp-rating-price {
+.comp-meta {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -264,7 +281,7 @@ const productSchemas = productos.map(p => {
   flex-wrap: wrap;
 }
 
-.comp-rating {
+.comp-stars {
   color: #f59e0b;
   font-size: 1rem;
   letter-spacing: -1px;
@@ -273,7 +290,7 @@ const productSchemas = productos.map(p => {
   gap: 0.4rem;
 }
 
-.comp-rating-num {
+.comp-stars-num {
   font-size: 0.8rem;
   color: var(--color-text-muted);
   letter-spacing: normal;
@@ -281,54 +298,75 @@ const productSchemas = productos.map(p => {
 
 .comp-price {
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--color-primary);
   letter-spacing: -0.02em;
 }
 
-.comp-pros {
+/* --- Description --- */
+.comp-desc {
   font-size: 0.88rem;
   color: var(--color-text-muted);
-  line-height: 1.55;
-  margin: 0.875rem 0 0;
+  line-height: 1.6;
+  margin: 1rem 0 0;
   padding-top: 0.875rem;
   border-top: 1px solid var(--color-border);
 }
 
-.comp-buttons {
+/* --- Store buttons --- */
+.comp-stores {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1rem;
 }
 
-.comp-buttons .affiliate-button {
+.comp-stores .affiliate-button {
   font-size: 0.82rem;
-  padding: 0.5rem 1rem;
+  padding: 0.55rem 1rem;
+}
+
+.comp-best {
+  font-size: 0.65rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0.1rem 0.4rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 480px) {
-  .comp-card-header {
+  .comp-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .comp-header {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
   .comp-img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
   }
 
-  .comp-rating-price {
+  .comp-meta {
     justify-content: center;
   }
 
-  .comp-pros {
+  .comp-desc {
     text-align: left;
   }
 
-  .comp-buttons {
+  .comp-stores {
+    flex-direction: column;
+  }
+
+  .comp-stores .affiliate-button {
     justify-content: center;
+    width: 100%;
   }
 }
 </style>

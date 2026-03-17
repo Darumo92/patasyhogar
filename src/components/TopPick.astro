@@ -1,12 +1,18 @@
 ---
+import StoreIcon from './StoreIcon.astro';
+
 const AMAZON_TAG = 'patasyhogar-21';
 
 interface Props {
   nombre: string;
   descripcion: string;
   precio: string;
+  precioAmazon?: string;
+  precioZooplus?: string;
+  precioTiendanimal?: string;
   enlaceAmazon?: string;
   enlaceZooplus?: string;
+  enlaceTiendanimal?: string;
   imagen?: string;
   etiqueta?: string;
 }
@@ -15,8 +21,12 @@ const {
   nombre,
   descripcion,
   precio,
+  precioAmazon,
+  precioZooplus,
+  precioTiendanimal,
   enlaceAmazon,
   enlaceZooplus,
+  enlaceTiendanimal,
   imagen,
   etiqueta = 'Nuestra elección',
 } = Astro.props;
@@ -24,6 +34,21 @@ const {
 const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
   ? `${enlaceAmazon}${enlaceAmazon.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`
   : enlaceAmazon;
+
+const tiendas: { nombre: string; clase: string; precio: string; href: string; mejor: boolean }[] = [];
+if (amazonFinal) tiendas.push({ nombre: 'Amazon', clase: 'amazon', precio: precioAmazon || precio, href: amazonFinal, mejor: false });
+if (enlaceZooplus) tiendas.push({ nombre: 'Zooplus', clase: 'zooplus', precio: precioZooplus || precio, href: enlaceZooplus, mejor: false });
+if (enlaceTiendanimal) tiendas.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: precioTiendanimal || precio, href: enlaceTiendanimal, mejor: false });
+
+if (tiendas.length > 1) {
+  const withNum = tiendas.map(s => ({ ...s, num: parseFloat((s.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.')) }));
+  const min = Math.min(...withNum.map(s => s.num));
+  const cheapest = withNum.filter(s => s.num === min);
+  if (cheapest.length === 1 && new Set(withNum.map(s => s.num)).size > 1) {
+    const idx = tiendas.findIndex(s => s.nombre === cheapest[0].nombre);
+    if (idx >= 0) tiendas[idx].mejor = true;
+  }
+}
 ---
 
 <div class="top-pick">
@@ -38,17 +63,19 @@ const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
       <p class="top-pick-nombre">{nombre}</p>
       <p class="top-pick-desc">{descripcion}</p>
       <p class="top-pick-precio">{precio}</p>
-      <div class="top-pick-buttons">
-        {amazonFinal && (
-          <a href={amazonFinal} class="affiliate-button amazon" target="_blank" rel="nofollow noopener noreferrer sponsored">
-            🛒 Consultar precio en Amazon
+      <div class="top-pick-stores">
+        {tiendas.map(s => (
+          <a
+            href={s.href}
+            class={`affiliate-button ${s.clase}`}
+            target="_blank"
+            rel="nofollow noopener noreferrer sponsored"
+          >
+            <StoreIcon tienda={s.clase as any} size={15} />
+            {s.nombre} — {s.precio}
+            {s.mejor && <span class="tp-best">Mejor precio</span>}
           </a>
-        )}
-        {enlaceZooplus && (
-          <a href={enlaceZooplus} class="affiliate-button zooplus" target="_blank" rel="nofollow noopener noreferrer sponsored">
-            🛒 Ver en Zooplus
-          </a>
-        )}
+        ))}
       </div>
     </div>
   </div>
@@ -70,7 +97,7 @@ const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
   left: 1.25rem;
   background: var(--color-primary);
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 700;
   padding: 0.2rem 0.75rem;
   border-radius: 100px;
@@ -117,22 +144,32 @@ const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
 .top-pick-desc {
   font-size: 0.9rem;
   color: var(--color-text-muted);
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.6rem;
   line-height: 1.5;
 }
 
 .top-pick-precio {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 800;
-  margin: 0 0 1rem;
+  margin: 0 0 0.875rem;
   color: var(--color-primary);
   letter-spacing: -0.02em;
 }
 
-.top-pick-buttons {
+.top-pick-stores {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.tp-best {
+  font-size: 0.65rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0.1rem 0.4rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 540px) {
@@ -147,8 +184,17 @@ const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
     height: 160px;
   }
 
-  .top-pick-buttons {
+  .top-pick-desc {
+    text-align: left;
+  }
+
+  .top-pick-stores {
+    flex-direction: column;
+  }
+
+  .top-pick-stores .affiliate-button {
     justify-content: center;
+    width: 100%;
   }
 }
 </style>
