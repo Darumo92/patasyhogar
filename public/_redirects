@@ -105,6 +105,17 @@
 /juguetes/mejor-juguete-inteligencia-gatos/ /juguetes/mejor-juguete-gatos-guia/ 301
 /juguetes/mejor-tunel-gatos/ /juguetes/mejor-juguete-gatos-guia/ 301
 /juguetes/mejor-hierba-gatera-catnip/ /juguetes/mejor-juguete-gatos-guia/ 301
+/alimentacion/mejor-bebedero-perro/ /alimentacion/mejor-bebedero-perros-guia/ 301
+/alimentacion/mejor-fuente-agua-perros/ /alimentacion/mejor-bebedero-perros-guia/ 301
+/alimentacion/mejor-bebedero-portatil-perros/ /alimentacion/mejor-bebedero-perros-guia/ 301
+/paseo/mejor-transportin-perro-grande/ /paseo/mejor-transportin-perros-guia/ 301
+/paseo/mejor-transportin-cabina-avion/ /paseo/mejor-transportin-perros-guia/ 301
+/paseo/transportin-rigido-vs-blando-gatos/ /paseo/mejor-transportin-gatos-guia/ 301
+/paseo/mochila-transportar-gatos/ /paseo/mejor-transportin-gatos-guia/ 301
+/higiene/mejor-antiparasitario-perro/ /higiene/mejor-antiparasitario-perros-guia/ 301
+/higiene/mejor-desparasitante-interno-perros/ /higiene/mejor-antiparasitario-perros-guia/ 301
+/higiene/mejor-desparasitante-gatos/ /higiene/mejor-antiparasitario-gatos-guia/ 301
+/higiene/pipeta-antiparasitaria-gatos/ /higiene/mejor-antiparasitario-gatos-guia/ 301
 
 # Redirect old article paths: comportamiento → cuidados
 /comportamiento/como-presentar-perro-gato/ /cuidados/como-presentar-perro-gato/ 301
