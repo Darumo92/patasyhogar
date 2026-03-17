@@ -1181,6 +1181,22 @@ a:hover {
   text-decoration: underline;
 }
 
+.legal-page a.affiliate-button,
+a.affiliate-button {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+a.affiliate-button.amazon {
+  color: #0f1111 !important;
+}
+
+.affiliate-button.secondary {
+  background: var(--color-bg-muted) !important;
+  color: var(--color-text) !important;
+  border: 1.5px solid var(--color-border);
+}
+
 /* ---- Search highlight ---- */
 mark {
   background: #fde68a;
