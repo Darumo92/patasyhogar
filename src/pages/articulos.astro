@@ -90,7 +90,7 @@ const breadcrumbSchema = {
 </Base>
 
 <script>
-  document.addEventListener('astro:page-load', () => {
+  function initArticleFilters() {
     const animalBtns = document.querySelectorAll('.animal-filter-btn');
     const catBtns = document.querySelectorAll('.cat-filter-btn');
     const tipoBtns = document.querySelectorAll('.tipo-filter-btn');
@@ -154,7 +154,10 @@ const breadcrumbSchema = {
     });
 
     applyFilters();
-  });
+  }
+
+  document.addEventListener('DOMContentLoaded', initArticleFilters);
+  document.addEventListener('astro:page-load', initArticleFilters);
 </script>
 
 <style>

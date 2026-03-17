@@ -21,7 +21,7 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
 </div>
 
 <script>
-  document.addEventListener('astro:page-load', () => {
+  function initAnimalFilter() {
     const buttons = document.querySelectorAll('.animal-filter-btn');
     const cards = document.querySelectorAll('.article-card[data-animal]');
 
@@ -46,7 +46,10 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
         });
       });
     });
-  });
+  }
+
+  document.addEventListener('DOMContentLoaded', initAnimalFilter);
+  document.addEventListener('astro:page-load', initAnimalFilter);
 </script>
 
 <style>
