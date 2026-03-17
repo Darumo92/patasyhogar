@@ -1191,10 +1191,15 @@ a.affiliate-button.amazon {
   color: #0f1111 !important;
 }
 
-.affiliate-button.secondary {
+a.affiliate-button.secondary {
   background: var(--color-bg-muted) !important;
   color: var(--color-text) !important;
   border: 1.5px solid var(--color-border);
+}
+
+a.affiliate-button.secondary:hover {
+  background: var(--color-border) !important;
+  color: var(--color-text) !important;
 }
 
 /* ---- Search highlight ---- */
