@@ -61,7 +61,7 @@ const year = new Date().getFullYear();
         Recibe las mejores comparativas y consejos para tu mascota. Sin spam.
       </p>
       <form
-        action="https://buttondown.com/api/emails/embed-subscribe/patasyhogar"
+        action="/api/subscribe"
         method="post"
         class="newsletter-form"
         id="newsletter-form-footer"
@@ -93,7 +93,7 @@ const year = new Date().getFullYear();
 </footer>
 
 <script>
-  document.querySelectorAll('form[action*="buttondown"]').forEach(form => {
+  document.querySelectorAll('form[action="/api/subscribe"]').forEach(form => {
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const formEl = e.target as HTMLFormElement;
@@ -105,13 +105,15 @@ const year = new Date().getFullYear();
       btn.disabled = true;
 
       try {
-        const res = await fetch(formEl.action, {
+        const res = await fetch('/api/subscribe', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: `email=${encodeURIComponent(email)}`,
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email }),
         });
 
-        if (res.ok || res.status === 303) {
+        const data = await res.json();
+
+        if (data.success) {
           formEl.style.display = 'none';
           if (msgEl) {
             msgEl.textContent = '¡Suscrito! Revisa tu email para confirmar.';
@@ -120,7 +122,7 @@ const year = new Date().getFullYear();
           }
         } else {
           if (msgEl) {
-            msgEl.textContent = 'Hubo un error. Inténtalo de nuevo.';
+            msgEl.textContent = data.error || 'Hubo un error. Inténtalo de nuevo.';
             msgEl.style.color = '#ef4444';
           }
           btn.textContent = 'Suscribirme';
