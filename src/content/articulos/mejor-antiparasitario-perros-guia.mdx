@@ -12,7 +12,7 @@ faqs:
   - pregunta: "¿Con qué frecuencia hay que desparasitar a un perro?"
     respuesta: "Depende del tipo de protección. Los antiparasitarios externos varían: pipetas mensuales, collar Seresto cada 8 meses, Bravecto cada 3 meses. La desparasitación interna se recomienda cada 3 meses en adultos (4 veces al año). En España, la protección externa continua los 12 meses es lo más recomendable por el clima cálido."
   - pregunta: "¿Puedo usar Advantix si tengo gatos en casa?"
-    respuesta: "No. Advantix contiene permetrina, que es tóxica para los gatos. Si conviven perros y gatos en el mismo hogar, no uses Advantix ni ningún producto con permetrina. Opta por alternativas como el Seresto (que tiene versión para gatos) o pipetas sin permetrina como el Frontline Plus."
+    respuesta: "No. Advantix contiene permetrina, que es tóxica para los gatos. Si conviven perros y gatos en el mismo hogar, no uses Advantix ni ningún producto con permetrina (tampoco Frontline Tri-Act). Opta por alternativas como el collar Seresto, que tiene versión para gatos y perros."
   - pregunta: "¿Es lo mismo la desparasitación interna que la externa?"
     respuesta: "No. La desparasitación externa actúa contra parásitos que viven en la piel y pelo (pulgas, garrapatas, ácaros). La interna elimina parásitos del sistema digestivo y otros órganos (lombrices, tenias, gusanos del corazón). Ambas son necesarias y complementarias."
   - pregunta: "¿Cómo sé si mi perro tiene parásitos internos?"
@@ -23,13 +23,15 @@ faqs:
 
 import TopPick from '@/components/TopPick.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 
 <TopPick
   nombre="Seresto Collar Antiparasitario"
   descripcion="Protección continua frente a pulgas y garrapatas durante 8 meses sin necesidad de aplicaciones mensuales. El collar antiparasitario más recomendado por veterinarios en España."
-  precio="~40€"
-  enlaceAmazon="https://www.amazon.es/dp/B00O4AVN2G"
+  precio="~39€"
+  precioZooplus="41,99€"
+  precioTiendanimal="38,99€"
+  enlaceZooplus="https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/seresto/553279"
+  enlaceTiendanimal="https://www.tiendanimal.es/seresto-collar-antiparasitario-para-perros/BAY83883961_M.html"
   imagen="https://m.media-amazon.com/images/I/61mhYLEyEuL._AC_SL1500_.jpg"
   etiqueta="Nuestra elección"
 />
@@ -102,45 +104,38 @@ Eliminan lombrices intestinales (áscaris, tenias, anquilostomas, tricocéfalos)
 ## Mejores antiparasitarios externos para perros
 
 <ComparisonTable
-  titulo="Top 5 antiparasitarios externos para perros"
+  titulo="Top 3 antiparasitarios externos para perros"
   productos={[
     {
       nombre: "Seresto Collar (Elanco)",
       imagen: "https://m.media-amazon.com/images/I/61mhYLEyEuL._AC_SL1500_.jpg",
-      precio: "~40€ / 8 meses",
+      precio: "~39€",
+      precioZooplus: "41,99€",
+      precioTiendanimal: "38,99€",
       valoracion: 5,
-      puntosFuertes: "8 meses de protección continua. Mata pulgas y garrapatas por contacto. Sin aplicaciones mensuales. Resistente al agua.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00O4AVN2G",
+      puntosFuertes: "8 meses de protección continua. Mata pulgas y garrapatas por contacto. Sin aplicaciones mensuales. Resistente al agua. Perros >8kg.",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/seresto/553279",
+      enlaceTiendanimal: "https://www.tiendanimal.es/seresto-collar-antiparasitario-para-perros/BAY83883961_M.html",
     },
     {
-      nombre: "Bravecto Comprimido Masticable",
-      precio: "~35-55€ / 3 meses",
+      nombre: "Advantix Pipeta (Elanco)",
+      imagen: "https://media.zooplus.com/bilder/7/800/advantix_10_25kg_7.jpg?width=800&format=webp",
+      precio: "~9€",
+      precioZooplus: "37,99€ (4 pipetas)",
+      precioTiendanimal: "9,49€ (1 pipeta)",
       valoracion: 5,
-      puntosFuertes: "Un solo comprimido cada 3 meses. Elimina pulgas y garrapatas en horas. Cómodo y sin manchas en el pelo.",
-      enlaceAmazon: "https://www.amazon.es/dp/B0DV1RNBG6",
-      imagen: "https://m.media-amazon.com/images/I/61ekKEJEvOL._AC_SL1500_.jpg",
+      puntosFuertes: "Repele además de matar: mosquitos, flebotomos, garrapatas. Ideal para zonas con leishmaniosis. Solo para perros (tóxico para gatos).",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/advantix/405038",
+      enlaceTiendanimal: "https://www.tiendanimal.es/advantix-pipetas-antiparasitarias-para-perros/BAY4488389_M.html",
     },
     {
-      nombre: "Frontline Plus Pipeta",
-      precio: "~17€",
-      valoracion: 4,
-      puntosFuertes: "La pipeta más conocida de España. Mata pulgas y garrapatas. También rompe el ciclo reproductivo de las pulgas (S-metopreno).",
-      enlaceAmazon: "https://www.amazon.es/dp/B01HS7GC6S",
+      nombre: "Frontline Tri-Act Pipeta",
       imagen: "https://m.media-amazon.com/images/I/611C10o3yIS._AC_SX679_.jpg",
-    },
-    {
-      nombre: "Advantix Pipeta (Bayer/Elanco)",
-      precio: "~15-22€ / mes",
+      precio: "~25€",
+      precioZooplus: "24,99€ (3 pipetas)",
       valoracion: 4,
-      puntosFuertes: "Repele además de matar: mosquitos, flebotomos, garrapatas. Ideal para zonas con leishmaniosis. Solo para perros.",
-      enlaceAmazon: "https://www.amazon.es/dp/B007RFQDNY",
-    },
-    {
-      nombre: "Francodex Fiproline Perro Mediano (10-20 kg)",
-      precio: "~21€",
-      valoracion: 4,
-      puntosFuertes: "Pipeta con fipronil. Elimina pulgas hasta 8 semanas y garrapatas 4 semanas. Sin receta. Buena relación calidad-precio.",
-      enlaceAmazon: "https://www.amazon.es/dp/B004ZDZS46",
+      puntosFuertes: "Triple acción: mata pulgas y garrapatas, repele mosquitos y flebotomos. Fipronil + permetrina. Aplicación mensual. Sin receta.",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/frontline/frontline_tri_act/504161",
     },
   ]}
 />
@@ -149,7 +144,7 @@ Eliminan lombrices intestinales (áscaris, tenias, anquilostomas, tricocéfalos)
 
 El collar Seresto de Elanco (antes Bayer) es el antiparasitario más recomendado por veterinarios cuando el objetivo es comodidad y protección prolongada. Libera imidacloprid y flumetrina de forma continua durante 8 meses, matando pulgas y garrapatas por simple contacto (sin necesidad de que muerdan al perro).
 
-**Lo bueno:** 8 meses sin preocupaciones, resistente al agua (no hay que quitarlo para bañar al perro), disponible en dos tallas (hasta 8 kg y más de 8 kg). Coste mensual muy bajo: unos 5 euros al mes frente a los 15-17 euros de una pipeta.
+**Lo bueno:** 8 meses sin preocupaciones, resistente al agua (no hay que quitarlo para bañar al perro), disponible en dos tallas (hasta 8 kg y más de 8 kg). Coste mensual muy bajo: unos 5 euros al mes frente a los 9-38 euros de una pipeta. Disponible en Zooplus (~42€) y Tiendanimal (~39€).
 
 **Lo menos bueno:** precio inicial alto aunque sea rentable por mes; conviene comprarlo en sitios de confianza (han circulado falsificaciones); algunas personas prefieren evitar que el perro lleve algo permanentemente en el cuello.
 
@@ -159,85 +154,45 @@ Bravecto (fluralaner) revolucionó el mercado antiparasitario porque un solo com
 
 **Lo bueno:** comodidad extrema (solo 4 administraciones al año), muy eficaz frente a garrapatas resistentes a las pipetas, sin residuos en el pelo.
 
-**Lo menos bueno:** requiere receta veterinaria; precio por tratamiento elevado; no todos los perros aceptan el sabor del comprimido.
+**Lo menos bueno:** requiere receta veterinaria; precio por tratamiento elevado; no todos los perros aceptan el sabor del comprimido. Se adquiere exclusivamente en clínicas veterinarias.
 
-### 3. Frontline Plus: la pipeta de referencia
+### 3. Frontline Tri-Act: la pipeta de triple acción
 
-Frontline Plus es la pipeta antiparasitaria más vendida en España desde hace décadas. Combina fipronil (mata pulgas y garrapatas adultas) con S-metopreno (hormona que interrumpe el ciclo reproductivo de las pulgas, matando huevos y larvas). Se aplica una vez al mes en la nuca.
+Frontline Tri-Act es la evolución de la clásica Frontline Plus. Combina fipronil (mata pulgas y garrapatas) con permetrina (repele mosquitos y flebotomos, los vectores de la leishmaniosis). Es la pipeta más completa del mercado porque además de eliminar parásitos, los repele antes de que lleguen a picar. Se aplica una vez al mes en la nuca. Disponible en Zooplus (~25€ por 3 pipetas).
 
-**Lo bueno:** precio accesible, amplia disponibilidad, rompe el ciclo de las pulgas en el entorno (no solo mata adultos), buena eficacia probada.
+**Lo bueno:** triple acción (mata + repele), amplia disponibilidad en tiendas especializadas, sin receta, cubre pulgas, garrapatas, mosquitos y flebotomos.
 
-**Lo menos bueno:** algunas poblaciones de pulgas han desarrollado resistencia al fipronil en zonas donde se usa desde hace muchos años; no repele, solo mata.
+**Lo menos bueno:** contiene permetrina, por lo que **no se puede usar en hogares con gatos**; hay que recordar la aplicación mensual; no disponible actualmente en Amazon.
 
-### 4. Advantix: la pipeta que también repele
+### 4. Advantix: el especialista anti-leishmaniosis
 
-Advantix es la única pipeta antiparasitaria que además de matar pulgas y garrapatas **repele** mosquitos y flebotomos, los vectores de la leishmaniosis. En zonas de riesgo de leishmania (prácticamente toda la España peninsular y Canarias), Advantix es la elección más recomendada por los veterinarios.
+Advantix es otra pipeta antiparasitaria que además de matar pulgas y garrapatas **repele** mosquitos y flebotomos, los vectores de la leishmaniosis. En zonas de riesgo de leishmania (prácticamente toda la España peninsular y Canarias), Advantix es una de las elecciones más recomendadas por los veterinarios. Disponible en Zooplus (~38€/4 pipetas) y Tiendanimal (~9,49€/pipeta).
 
 **Atención:** Advantix contiene permetrina, que es **tóxica para los gatos**. No usar en hogares donde convivan gatos y perros, o mantener separados hasta que el pelo esté seco.
 
-**Lo bueno:** repele insectos vectores, especialmente indicado en zonas con riesgo de leishmaniosis, muy eficaz.
+**Lo bueno:** repele insectos vectores, especialmente indicado en zonas con riesgo de leishmaniosis, muy eficaz, disponible en varias tallas.
 
-**Lo menos bueno:** peligroso si hay gatos en casa; no disponible en formato comprimido.
-
-### 5. Francodex Fiproline: pipeta económica con fipronil
-
-Francodex Fiproline es una pipeta antiparasitaria con fipronil como principio activo, el mismo ingrediente que Frontline. Disponible en formato de 4 pipetas para perros medianos (10-20 kg), ofrece protección contra pulgas durante hasta 8 semanas y contra garrapatas durante 4 semanas.
-
-**Lo bueno:** sin receta, precio muy competitivo por pipeta, mismo principio activo que Frontline, fabricada en Francia con controles de calidad europeos.
-
-**Lo menos bueno:** no incluye IGR (regulador del crecimiento) como Frontline Plus, por lo que no rompe el ciclo reproductivo de las pulgas en el entorno; no repele insectos.
+**Lo menos bueno:** peligroso si hay gatos en casa; no disponible en formato comprimido; aplicación mensual.
 
 ## Tabla comparativa de antiparasitarios externos
 
-| Producto | Tipo | Frecuencia | Pulgas | Garrapatas | Mosquitos/flebotomos |
-|----------|------|-----------|--------|------------|----------------------|
-| Seresto | Collar | 8 meses | Sí | Sí | No |
-| Bravecto | Comprimido | 3 meses | Sí | Sí | No |
-| Frontline Plus | Pipeta | 1 mes | Sí + ciclo | Sí | No |
-| Advantix | Pipeta | 1 mes | Sí | Sí | Repele |
-| Francodex Fiproline | Pipeta | 1-2 meses | Sí | Sí | No |
+| Producto | Tipo | Frecuencia | Pulgas | Garrapatas | Mosquitos/flebotomos | Receta |
+|----------|------|-----------|--------|------------|----------------------|--------|
+| Seresto | Collar | 8 meses | Sí | Sí | No | No |
+| Advantix | Pipeta | 1 mes | Sí | Sí | Repele | No |
+| Frontline Tri-Act | Pipeta | 1 mes | Sí | Sí | Repele | No |
+| Bravecto | Comprimido | 3 meses | Sí | Sí | No | Sí |
 
 ## Mejores desparasitantes internos para perros
 
 La protección externa es la más visible, pero la interna es igual de importante. Los parásitos intestinales (lombrices, tenias, giardia) pueden afectar gravemente la salud del perro y algunos son zoonóticos (transmisibles a personas).
 
-<ComparisonTable
-  titulo="Top 4 desparasitantes internos para perros"
-  productos={[
-    {
-      nombre: "Milbemax (Elanco)",
-      imagen: "https://m.media-amazon.com/images/I/61l7tBE8ngL._AC_SL1500_.jpg",
-      precio: "~18-25€ / 2 comp.",
-      valoracion: 5,
-      puntosFuertes: "El más recetado por veterinarios. Cubre nematodos, cestodos y previene Dirofilaria. Comprimido pequeño y fácil de dar.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00HR3I848",
-    },
-    {
-      nombre: "Drontal Plus (Bayer/Elanco)",
-      imagen: "https://m.media-amazon.com/images/I/814Smv60D-L._AC_SL1500_.jpg",
-      precio: "~15-22€ / 2 comp.",
-      valoracion: 5,
-      puntosFuertes: "Amplio espectro contra nematodos y cestodos. Con sabor a carne para facilitar la toma. Muy eficaz contra Giardia a dosis elevada.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Drontal+Plus+perros",
-    },
-    {
-      nombre: "Zipyran Plus (Calier)",
-      imagen: "https://m.media-amazon.com/images/I/61jZOrAoVXL._AC_SL1500_.jpg",
-      precio: "~8-14€ / 2 comp.",
-      valoracion: 4,
-      puntosFuertes: "Desparasitante español con febantel, pirantel y praziquantel. Precio muy competitivo. Amplio espectro frente a gusanos redondos y planos.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Zipyran+Plus+perros",
-    },
-    {
-      nombre: "Dolpac (Vetoquinol)",
-      imagen: "https://m.media-amazon.com/images/I/618yF4jACjL._AC_SL1500_.jpg",
-      precio: "~12-18€ / 3 comp.",
-      valoracion: 4,
-      puntosFuertes: "Triple acción con oxantel, pirantel y praziquantel. Especialmente eficaz contra tricocéfalos. Comprimido con sabor para mejor aceptación.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Dolpac+perros+desparasitante",
-    },
-  ]}
-/>
+Los desparasitantes internos para perros son productos veterinarios que se adquieren en clínicas y farmacias. Los cuatro más recomendados son:
+
+- **Milbemax (Elanco)** (~18-25€/2 comp.): milbemicina + praziquantel. El más recetado por veterinarios. Cubre nematodos, cestodos y previene Dirofilaria. Comprimido pequeño.
+- **Drontal Plus (Elanco)** (~15-22€/2 comp.): febantel + pirantel + praziquantel. Amplio espectro. Sabor a carne. También eficaz contra Giardia a dosis elevada.
+- **Zipyran Plus (Calier)** (~8-14€/2 comp.): febantel + pirantel + praziquantel. Fabricación española. La opción más económica con mismos principios activos.
+- **Dolpac (Vetoquinol)** (~12-18€/3 comp.): oxantel + pirantel + praziquantel. Especialmente eficaz contra tricocéfalos.
 
 ### 1. Milbemax: el referente veterinario
 
@@ -245,11 +200,7 @@ Milbemax combina milbemicina oxima y praziquantel, lo que le da un espectro de a
 
 **Lo bueno:** comprimido pequeño y fácil de administrar, doble función (desparasitación + prevención de Dirofilaria), muy bien tolerado incluso en razas sensibles a la ivermectina (como Collies), ampliamente disponible.
 
-**Lo menos bueno:** precio algo más elevado que los genéricos; algunos perros rechazan el comprimido si no se esconde en comida.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00HR3I848" tienda="amazon" texto="Buscar Milbemax en Amazon" />
-</div>
+**Lo menos bueno:** precio algo más elevado que los genéricos; algunos perros rechazan el comprimido si no se esconde en comida. Se adquiere en clínicas veterinarias y farmacias.
 
 ### 2. Drontal Plus: el clásico de amplio espectro
 
@@ -257,11 +208,7 @@ Drontal Plus lleva décadas en el mercado y sigue siendo uno de los desparasitan
 
 **Lo bueno:** eficacia probada durante años, sabor a carne que la mayoría de perros acepta bien, disponible en varias presentaciones según el peso del perro, también actúa frente a Giardia (a dosis ajustada por el veterinario).
 
-**Lo menos bueno:** no previene el gusano del corazón (necesitarías un producto adicional en zonas de riesgo); el precio ha subido en los últimos años.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Drontal+Plus+perros" tienda="amazon" texto="Buscar Drontal Plus en Amazon" />
-</div>
+**Lo menos bueno:** no previene el gusano del corazón (necesitarías un producto adicional en zonas de riesgo); el precio ha subido en los últimos años. Se adquiere en clínicas veterinarias y farmacias.
 
 ### 3. Zipyran Plus: fabricación española a buen precio
 
@@ -269,11 +216,7 @@ Zipyran Plus es un desparasitante del laboratorio español Calier, con la misma 
 
 **Lo bueno:** precio imbatible, fabricado en España, mismos principios activos que las marcas líderes, muy utilizado en protectoras y criaderos por su buena relación calidad-precio.
 
-**Lo menos bueno:** comprimidos más grandes que otros productos; sin sabor a carne, lo que dificulta la administración en perros quisquillosos; no cubre Dirofilaria.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Zipyran+Plus+perros" tienda="amazon" texto="Buscar Zipyran Plus en Amazon" />
-</div>
+**Lo menos bueno:** comprimidos más grandes que otros productos; sin sabor a carne, lo que dificulta la administración en perros quisquillosos; no cubre Dirofilaria. Se adquiere en clínicas veterinarias y farmacias.
 
 ### 4. Dolpac: especialista en tricocéfalos
 
@@ -281,11 +224,7 @@ Dolpac utiliza una combinación diferente: oxantel, pirantel y praziquantel. El 
 
 **Lo bueno:** acción potente contra tricocéfalos, comprimidos con sabor para facilitar la toma, buena tolerancia, presentación en 3 comprimidos.
 
-**Lo menos bueno:** espectro algo más limitado que Milbemax; no previene Dirofilaria; menos disponibilidad en tiendas online.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Dolpac+perros+desparasitante" tienda="amazon" texto="Buscar Dolpac en Amazon" />
-</div>
+**Lo menos bueno:** espectro algo más limitado que Milbemax; no previene Dirofilaria; menos disponibilidad en tiendas online. Se adquiere en clínicas veterinarias y farmacias.
 
 ## Tabla resumen de desparasitantes internos
 
@@ -305,8 +244,8 @@ La protección antiparasitaria debe mantenerse todo el año. Aquí tienes un cal
 | Producto elegido | Frecuencia | Notas |
 |---|---|---|
 | Collar Seresto | Cada 8 meses | Anotar fecha de colocación |
-| Pipeta (Frontline, Advantix) | Cada 4 semanas | Calendario o alarma en el móvil |
-| Bravecto comprimido | Cada 12 semanas | Solo 4 dosis al año |
+| Pipeta (Frontline Tri-Act, Advantix) | Cada 4 semanas | Calendario o alarma en el móvil |
+| Bravecto comprimido (receta) | Cada 12 semanas | Solo 4 dosis al año |
 
 ### Desparasitación interna
 
@@ -380,9 +319,10 @@ No todos los perros cooperan igual con los antiparasitarios:
 El precio por tratamiento no es lo mismo que el coste anual. Compara siempre el coste real por mes de protección:
 
 **Antiparasitarios externos:**
-- Pipeta mensual a 15 €/mes = 180 €/año
-- Collar Seresto a 40 € / 8 meses = 60 €/año
-- Bravecto a 45 €/comprimido x 4/año = 180 €/año
+- Pipeta Advantix mensual a ~9,50 €/mes = ~114 €/año
+- Collar Seresto a ~39 € / 8 meses = ~59 €/año
+- Frontline Tri-Act a ~25 €/3 pipetas = ~100 €/año
+- Bravecto a ~45 €/comprimido x 4/año = ~180 €/año (receta)
 
 **Desparasitantes internos (4 dosis/año):**
 - Milbemax: ~50-100 €/año (según peso del perro)
@@ -395,19 +335,19 @@ El collar Seresto es la opción más económica en protección externa, y Zipyra
 
 Este criterio condiciona la accesibilidad del producto. En España:
 
-- **Sin receta:** Frontline Plus, Advantix, Francodex Fiproline, collar Seresto, la mayoría de desparasitantes internos de amplio espectro
-- **Con receta:** Bravecto, NexGard y otros comprimidos sistémicos
+- **Sin receta:** Frontline Tri-Act, Advantix, collar Seresto, la mayoría de desparasitantes internos de amplio espectro
+- **Con receta:** Bravecto, NexGard y otros comprimidos sistémicos (se adquieren en clínicas veterinarias)
 
 ## Resumen por perfil de perro
 
 | Perfil del perro | Externo recomendado | Interno recomendado |
 |---|---|---|
-| Perro urbano, paseos cortos | Frontline Plus pipeta | Zipyran Plus o Cazitel Plus |
+| Perro urbano, paseos cortos | Frontline Tri-Act pipeta | Zipyran Plus o Drontal Plus |
 | Perro que va al campo | Seresto collar | Milbemax (cubre Dirofilaria) |
 | Zona con leishmaniosis | Advantix pipeta | Milbemax |
-| Casa con perros y gatos | Frontline Plus o Seresto | Cualquier opción |
-| Dueño que olvida dosis | Bravecto comprimido | Milbemax trimestral |
-| Presupuesto ajustado | Francodex Fiproline pipeta | Zipyran Plus |
+| Casa con perros y gatos | Seresto collar | Cualquier opción |
+| Dueño que olvida dosis | Seresto collar o Bravecto | Milbemax trimestral |
+| Presupuesto ajustado | Seresto collar (~59€/año) | Zipyran Plus |
 
 ## Consejos de uso y errores frecuentes
 
@@ -447,7 +387,7 @@ Mantener la desparasitación interna al día no solo protege a tu perro: protege
 
 ## Nuestra recomendación
 
-Para la **protección externa**, el **collar Seresto** ofrece la mejor combinación de comodidad, eficacia y precio por mes. Si vives en zona de leishmaniosis, **Advantix** es imprescindible como pipeta mensual. Si prefieres comprimidos, **Bravecto** cada 3 meses es lo más cómodo.
+Para la **protección externa**, el **collar Seresto** ofrece la mejor combinación de comodidad, eficacia y precio por mes (~59€/año). Si vives en zona de leishmaniosis, **Advantix** o **Frontline Tri-Act** son las pipetas más indicadas por su efecto repelente contra flebotomos. Si prefieres comprimidos, **Bravecto** cada 3 meses es lo más cómodo (requiere receta veterinaria).
 
 Para la **protección interna**, **Milbemax** es difícil de superar: cubre nematodos, cestodos y previene la dirofilariosis con un solo comprimido trimestral. Si tu prioridad es el precio y no necesitas prevención frente a Dirofilaria, **Zipyran Plus** ofrece la misma eficacia frente a parásitos intestinales a un coste significativamente menor.
 
