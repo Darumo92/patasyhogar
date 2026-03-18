@@ -23,13 +23,15 @@ faqs:
 
 import TopPick from '@/components/TopPick.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 
 <TopPick
   nombre="Frontline Combo Gatos"
   descripcion="Pipeta antiparasitaria de referencia con fipronil y metopreno. Eficaz contra pulgas adultas, larvas, huevos y garrapatas durante un mes. La opción más probada y con más años en el mercado."
-  precio="~10€"
-  enlaceAmazon="https://www.amazon.es/dp/B09V6YT83K"
+  precio="~23€"
+  precioZooplus="24,49€"
+  precioTiendanimal="23,49€"
+  enlaceZooplus="https://www.zooplus.es/shop/tienda_gatos/antiparasitarios_gatos/frontline_gatos/pipetas_frontline_gatos/389416"
+  enlaceTiendanimal="https://www.tiendanimal.es/frontline-combo-pipetas-antiparasitarias-para-gatos-y-hurones/MER042000_M.html"
   etiqueta="Más probado"
   imagen="https://m.media-amazon.com/images/I/71Ch-OB3NVL._SL1444_.jpg"
 />
@@ -95,39 +97,38 @@ Los comprimidos desparasitantes eliminan parásitos intestinales (lombrices, ten
 ## Mejores pipetas antiparasitarias para gatos
 
 <ComparisonTable
-  titulo="Top 4 pipetas antiparasitarias para gatos"
+  titulo="Top 3 pipetas antiparasitarias para gatos"
   productos={[
     {
       nombre: "Frontline Combo Gatos",
       imagen: "https://m.media-amazon.com/images/I/71Ch-OB3NVL._SL1444_.jpg",
-      precio: "~10€",
+      precio: "~23€",
+      precioZooplus: "24,49€",
+      precioTiendanimal: "23,49€",
       valoracion: 5,
       puntosFuertes: "Fipronil + S-metopreno. Mata pulgas adultas, huevos, larvas y garrapatas. Rompe el ciclo reproductivo. Sin receta. Décadas de uso clínico.",
-      enlaceAmazon: "https://www.amazon.es/dp/B09V6YT83K",
-    },
-    {
-      nombre: "Broadline (Pipeta todo en uno)",
-      precio: "~30€ (3 pipetas)",
-      valoracion: 5,
-      puntosFuertes: "La más completa: pulgas, garrapatas, lombrices, tenias y gusano del corazón en una sola pipeta. Amplio espectro interno + externo. Prescripción veterinaria.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Broadline+gatos+pipetas",
-      imagen: "https://m.media-amazon.com/images/I/819bo79fhkL._AC_SL1500_.jpg",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/antiparasitarios_gatos/frontline_gatos/pipetas_frontline_gatos/389416",
+      enlaceTiendanimal: "https://www.tiendanimal.es/frontline-combo-pipetas-antiparasitarias-para-gatos-y-hurones/MER042000_M.html",
     },
     {
       nombre: "Beaphar Combotec Gatos",
       imagen: "https://m.media-amazon.com/images/I/81LNI+v-n4L._AC_SL1500_.jpg",
-      precio: "~12-18€ / 3 pipetas",
+      precio: "~32€",
+      precioAmazon: "31,90€",
       valoracion: 4,
-      puntosFuertes: "Fipronil + S-metopreno: misma combinación que Frontline Combo. Mata pulgas, garrapatas y rompe el ciclo reproductivo. Sin receta. Buena relación calidad-precio.",
+      puntosFuertes: "Fipronil + S-metopreno: misma combinación que Frontline Combo. Mata pulgas, garrapatas y rompe el ciclo reproductivo. Sin receta. Pack 3 pipetas.",
       enlaceAmazon: "https://www.amazon.es/dp/B0B56YGN5Y",
     },
     {
       nombre: "Vectra Felis (Ceva)",
       imagen: "https://m.media-amazon.com/images/I/51dceR7aP6L._AC_SL1500_.jpg",
-      precio: "~39€",
+      precio: "~21€",
+      precioAmazon: "39,35€",
+      precioTiendanimal: "21,49€",
       valoracion: 4,
       puntosFuertes: "Dinotefuran + piriproxifeno. Acción ultrarrápida contra pulgas. Alternativa moderna cuando hay resistencia al fipronil. Sin receta.",
       enlaceAmazon: "https://www.amazon.es/dp/B0CTHX49NK",
+      enlaceTiendanimal: "https://www.tiendanimal.es/vectra-felis-pipetas-antiparasitarias-para-gatos/CEVC66010B_M.html",
     },
   ]}
 />
@@ -142,11 +143,7 @@ Frontline Combo está disponible sin receta en farmacias, tiendas de mascotas y 
 
 **Lo bueno:** sin receta, amplia disponibilidad, protección frente a pulgas y su ciclo, también activa frente a garrapatas y piojos, precio razonable.
 
-**Lo menos bueno:** algunas poblaciones de pulgas han desarrollado resistencia parcial al fipronil en zonas donde se usa de forma continuada desde hace décadas; no protege frente a parásitos internos.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B09V6YT83K" tienda="amazon" texto="Ver Frontline Combo en Amazon" />
-</div>
+**Lo menos bueno:** algunas poblaciones de pulgas han desarrollado resistencia parcial al fipronil en zonas donde se usa de forma continuada desde hace décadas; no protege frente a parásitos internos. No disponible en Amazon, pero sí en Zooplus y Tiendanimal.
 
 ### Broadline: el todo en uno con receta
 
@@ -156,11 +153,7 @@ Esta combinación de amplio espectro lo convierte en la opción más cómoda par
 
 **Lo bueno:** protección completa interna + externa en un solo producto, amplio espectro, aplicación mensual sencilla.
 
-**Lo menos bueno:** requiere receta veterinaria, precio más alto que las pipetas de espectro parcial, puede causar irritación local leve.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Broadline+gatos+pipetas" tienda="amazon" texto="Ver Broadline en Amazon" />
-</div>
+**Lo menos bueno:** requiere receta veterinaria, precio más alto que las pipetas de espectro parcial, puede causar irritación local leve. Se adquiere en clínicas veterinarias y farmacias.
 
 ### Beaphar Combotec Gatos: la alternativa económica a Frontline
 
@@ -178,38 +171,21 @@ Vectra Felis de Ceva combina dinotefuran (acción rápida contra pulgas adultas)
 
 **Lo menos bueno:** no actúa frente a garrapatas ni parásitos internos, disponibilidad más limitada que Frontline.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0CTHX49NK" tienda="amazon" texto="Ver Vectra Felis en Amazon" />
-</div>
-
 ## Mejores collares antiparasitarios para gatos
 
 <ComparisonTable
-  titulo="Top 3 collares antiparasitarios para gatos"
+  titulo="Collar antiparasitario para gatos"
   productos={[
     {
       nombre: "Seresto Collar Gatos",
-      precio: "~30€",
+      precio: "~39€",
+      precioZooplus: "38,99€",
+      precioTiendanimal: "38,99€",
       valoracion: 5,
       puntosFuertes: "Protección continua durante 7-8 meses. Imidacloprid + flumetrina. Eficaz contra pulgas, garrapatas y piojos. Sistema de rotura de seguridad. Resistente al agua.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Seresto+collar+gatos",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/antiparasitarios_gatos/seresto/553284",
+      enlaceTiendanimal: "https://www.tiendanimal.es/seresto-collar-antiparasitario-para-gatos/BAY83883953_M.html",
       imagen: "https://m.media-amazon.com/images/I/61C9XtBVLOL._AC_SL1500_.jpg",
-    },
-    {
-      nombre: "Advantage Gatos (Pipeta antipulgas)",
-      precio: "~18€ (4 pipetas)",
-      valoracion: 4,
-      puntosFuertes: "Imidacloprid. Especialista en pulgas: elimina el 98-100% en 12 horas. Las mata por contacto, sin necesidad de picadura. Apta desde 1 kg.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Advantage+gatos+pipeta+antipulgas",
-      imagen: "https://m.media-amazon.com/images/I/716Lo2+6a9L._AC_SL1500_.jpg",
-    },
-    {
-      nombre: "Vetocanis Spot-on Fipronil Gatos",
-      imagen: "https://m.media-amazon.com/images/I/51cusYgTDAL._AC_SL1500_.jpg",
-      precio: "~8-12€ / pipeta",
-      valoracion: 4,
-      puntosFuertes: "Fipronil 50mg. Elimina pulgas y garrapatas. Sin receta. Precio muy accesible. Buena opción básica para gatos de interior.",
-      enlaceAmazon: "https://www.amazon.es/dp/B01LX1SDAK",
     },
   ]}
 />
@@ -220,15 +196,11 @@ El collar Seresto es la opción más cómoda para quienes olvidan aplicar la pip
 
 El collar tiene un **sistema de rotura de seguridad** diseñado para gatos: si el collar se engancha en una rama o un mueble, se abre automáticamente para evitar que el gato se ahorque. Es resistente al agua, por lo que no pierde eficacia si tu gato se moja ocasionalmente.
 
-El precio ronda los 30 euros, pero dividido entre 7-8 meses de protección sale a menos de 4 euros al mes, significativamente más barato que las pipetas mensuales.
+El precio ronda los 39 euros, pero dividido entre 7-8 meses de protección sale a menos de 5 euros al mes, significativamente más barato que las pipetas mensuales. Disponible en Zooplus y Tiendanimal al mismo precio.
 
 **Lo bueno:** 7-8 meses de protección continua, sistema de rotura de seguridad, resistente al agua, coste mensual bajo.
 
 **Lo menos bueno:** algunos gatos no toleran el collar, no cubre parásitos internos, puede dejar una marca gris en el pelaje de la zona del cuello.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Seresto+collar+gatos" tienda="amazon" texto="Ver Seresto Collar en Amazon" />
-</div>
 
 ### Advantage Gatos: el especialista en pulgas
 
@@ -238,11 +210,7 @@ Advantage está disponible para gatitos desde 1 kg de peso, lo que lo convierte 
 
 **Lo bueno:** elimina el 98-100% de pulgas en 12 horas, las mata por contacto, apto desde 1 kg, excelente tolerancia.
 
-**Lo menos bueno:** solo eficaz contra pulgas y piojos, no protege contra garrapatas ni parásitos internos.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Advantage+gatos+pipeta+antipulgas" tienda="amazon" texto="Ver Advantage en Amazon" />
-</div>
+**Lo menos bueno:** solo eficaz contra pulgas y piojos, no protege contra garrapatas ni parásitos internos. Se adquiere en clínicas veterinarias y farmacias.
 
 ### Vetocanis Spot-on Fipronil: la opción más económica
 
@@ -250,45 +218,17 @@ Vetocanis Spot-on es una pipeta con fipronil 50 mg que elimina pulgas en 24 hora
 
 **Lo bueno:** precio muy accesible, fipronil como principio activo probado, sin receta, fácil de encontrar online.
 
-**Lo menos bueno:** no incluye IGR para el ciclo reproductivo de las pulgas; eficacia frente a garrapatas más corta que frente a pulgas.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B01LX1SDAK" tienda="amazon" texto="Ver Vetocanis en Amazon" />
-</div>
+**Lo menos bueno:** no incluye IGR para el ciclo reproductivo de las pulgas; eficacia frente a garrapatas más corta que frente a pulgas. No disponible actualmente en Amazon ni en las tiendas habituales.
 
 ## Mejores desparasitantes internos (orales) para gatos
 
 La protección externa no sustituye a la interna. Los parásitos intestinales pueden estar presentes sin síntomas evidentes durante semanas, robando nutrientes y debilitando al gato progresivamente.
 
-<ComparisonTable
-  titulo="Top 3 desparasitantes internos para gatos"
-  productos={[
-    {
-      nombre: "Milbemax Gatos (Pastilla)",
-      precio: "~15€ (2 comprimidos)",
-      valoracion: 5,
-      puntosFuertes: "Desparasitante interno de referencia. Milbemicina + praziquantel. Eficaz contra lombrices, tenias y gusano del corazón. Comprimido pequeño sabor carne. Prescripción veterinaria.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Milbemax+gatos+comprimidos",
-      imagen: "https://m.media-amazon.com/images/I/61qMuGyQcIL._AC_SL1200_.jpg",
-    },
-    {
-      nombre: "Broadline (Pipeta todo en uno)",
-      precio: "~30€ (3 pipetas)",
-      valoracion: 5,
-      puntosFuertes: "Alternativa a la pastilla: cubre parásitos internos Y externos con pipeta mensual. Ideal si tu gato no acepta comprimidos. Requiere receta.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Broadline+gatos+pipetas",
-      imagen: "https://m.media-amazon.com/images/I/819bo79fhkL._AC_SL1500_.jpg",
-    },
-    {
-      nombre: "Drontal Gatos (Bayer/Elanco)",
-      precio: "~12-18€ / 2 comp.",
-      valoracion: 4,
-      puntosFuertes: "Pirantel + praziquantel. Amplio espectro contra nematodos y cestodos. Décadas en el mercado. Dosis única por tratamiento.",
-      enlaceAmazon: "https://www.amazon.es/s?k=Drontal+gatos+desparasitante",
-      imagen: "https://m.media-amazon.com/images/I/814Smv60D-L._AC_SL1500_.jpg",
-    },
-  ]}
-/>
+Los desparasitantes internos para gatos son productos veterinarios que requieren receta o se adquieren en clínicas y farmacias. Los tres más recomendados son:
+
+- **Milbemax Gatos** (~15€/2 comprimidos): milbemicina + praziquantel. El más prescrito en Europa. Cubre lombrices, tenias y gusano del corazón.
+- **Broadline** (~30€/3 pipetas): pipeta todo en uno que cubre parásitos internos Y externos. Ideal si tu gato no acepta comprimidos.
+- **Drontal Gatos** (~12-18€/2 comprimidos): pirantel + praziquantel. Clásico fiable contra nematodos y cestodos.
 
 ### Milbemax Gatos: el referente interno
 
@@ -298,11 +238,7 @@ Se recomienda administrarlo cada 3-4 meses en gatos de exterior y cada 6 meses e
 
 **Lo bueno:** amplio espectro interno (lombrices, tenias, gusano del corazón), comprimido pequeño con sabor carne, eficacia probada.
 
-**Lo menos bueno:** requiere receta veterinaria, difícil de administrar a gatos que rechazan pastillas, solo cubre parásitos internos.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Milbemax+gatos+comprimidos" tienda="amazon" texto="Ver Milbemax Gatos en Amazon" />
-</div>
+**Lo menos bueno:** requiere receta veterinaria, difícil de administrar a gatos que rechazan pastillas, solo cubre parásitos internos. Se adquiere en clínicas veterinarias y farmacias.
 
 ### Broadline como alternativa oral
 
@@ -314,11 +250,7 @@ Drontal para gatos combina pirantel y praziquantel para cubrir nematodos y cesto
 
 **Lo bueno:** eficacia probada, dosis única por tratamiento, amplio espectro intestinal.
 
-**Lo menos bueno:** no previene Dirofilaria, el comprimido no tiene sabor a carne en todas las presentaciones.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/s?k=Drontal+gatos+desparasitante" tienda="amazon" texto="Ver Drontal Gatos en Amazon" />
-</div>
+**Lo menos bueno:** no previene Dirofilaria, el comprimido no tiene sabor a carne en todas las presentaciones. Se adquiere en clínicas veterinarias y farmacias.
 
 ## Calendario de desparasitación para gatos
 
