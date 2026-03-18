@@ -23,12 +23,12 @@ faqs:
 
 import TopPick from '@/components/TopPick.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 
 <TopPick
   nombre="Bedsure Cama Ortopedica para Perros"
   descripcion="La mejor cama todo terreno del mercado: memory foam de 10 cm, funda lavable a maquina, funda interior impermeable y base antideslizante. Disponible en 5 tallas desde S hasta XXL. Ideal para perros mayores, razas grandes y cualquier perro que merezca un descanso de calidad."
-  precio="~45€"
+  precio="~50€"
+  precioAmazon="49,99€"
   enlaceAmazon="https://www.amazon.es/dp/B08NC88YD7"
   etiqueta="Nuestra eleccion"
   imagen="https://m.media-amazon.com/images/I/714QScIqOfL._AC_SL1500_.jpg"
@@ -122,27 +122,21 @@ Si tu perro muerde las camas, no inviertas en una cama cara hasta que el comport
 Para perros mayores, razas grandes y cualquier perro con problemas articulares diagnosticados.
 
 <ComparisonTable
-  titulo="Top 4 camas ortopedicas"
+  titulo="Top 3 camas ortopedicas"
   productos={[
     {
       nombre: "Bedsure Cama Ortopedica",
-      precio: "~45€",
+      precio: "~50€",
+      precioAmazon: "49,99€",
       valoracion: 5,
       puntosFuertes: "Memory foam de 10 cm de grosor, funda exterior lavable a maquina, funda interior impermeable, base antideslizante, disponible en 5 tallas desde S hasta XXL.",
       enlaceAmazon: "https://www.amazon.es/dp/B08NC88YD7",
       imagen: "https://m.media-amazon.com/images/I/714QScIqOfL._AC_SL1500_.jpg",
     },
     {
-      nombre: "PetFusion Ultimate",
-      precio: "~34€",
-      valoracion: 4,
-      puntosFuertes: "Base de memory foam solido (no fragmentado), bordes elevados para apoyar la cabeza, funda de lona resistente con cremallera oculta, funda impermeable incluida.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00TQ47CPW",
-      imagen: "https://m.media-amazon.com/images/I/71l2iEu1EaL._AC_SL1500_.jpg",
-    },
-    {
       nombre: "Trixie Vital Bed",
       precio: "~38€",
+      precioAmazon: "37,60€",
       valoracion: 4,
       puntosFuertes: "Diseno con lados acolchados bajos que facilitan la entrada a perros mayores, relleno ortopedico de alta densidad, funda desmontable y lavable, fabricado en Europa.",
       enlaceAmazon: "https://www.amazon.es/dp/B096MTYMHD",
@@ -152,6 +146,7 @@ Para perros mayores, razas grandes y cualquier perro con problemas articulares d
       nombre: "JOYELF Cama Ortopedica Grande",
       imagen: "https://m.media-amazon.com/images/I/61cCGmQ2-pL._AC_SL1500_.jpg",
       precio: "~90€",
+      precioAmazon: "89,99€",
       valoracion: 4,
       puntosFuertes: "Memory foam de alta densidad con bordes acolchados tipo sofa, funda lavable a maquina, base antideslizante de goma, incluye juguete chirriante de regalo.",
       enlaceAmazon: "https://www.amazon.es/dp/B06XQ492N8",
@@ -159,11 +154,11 @@ Para perros mayores, razas grandes y cualquier perro con problemas articulares d
   ]}
 />
 
-La **Bedsure Cama Ortopedica** es nuestra eleccion principal por su equilibrio entre prestaciones y precio. Sus 10 cm de memory foam ofrecen soporte articular real, la doble funda (exterior lavable + interior impermeable) protege la espuma de la humedad, y la base antideslizante es fundamental para perros mayores que necesitan apoyo estable para levantarse. Disponible en 5 tallas, cubre desde razas pequenas hasta gigantes como el Mastin o el Gran Danes.
+La **Bedsure Cama Ortopedica** (~50€) es nuestra eleccion principal por su equilibrio entre prestaciones y precio. Sus 10 cm de memory foam ofrecen soporte articular real, la doble funda (exterior lavable + interior impermeable) protege la espuma de la humedad, y la base antideslizante es fundamental para perros mayores que necesitan apoyo estable para levantarse. Disponible en 5 tallas, cubre desde razas pequenas hasta gigantes.
 
-El **PetFusion Ultimate** destaca por su memory foam solido en una sola pieza (no fragmentado ni triturado), que proporciona un soporte mas uniforme. Los bordes elevados sirven como almohada natural. La funda de lona de 35 oz es mas resistente que la mayoria y la cremallera oculta impide que el perro la abra.
+La **Trixie Vital Bed** (~38€) esta disenada especificamente para perros mayores: los lados acolchados son mas bajos de lo habitual, especialmente en la parte de entrada, para que el perro pueda meterse y salir sin levantar mucho las patas traseras. Fabricada en Europa con buena disponibilidad en tiendas fisicas en Espana.
 
-La **Trixie Vital Bed** esta disenada especificamente para perros mayores: los lados acolchados son mas bajos de lo habitual, especialmente en la parte de entrada, para que el perro pueda meterse y salir sin levantar mucho las patas traseras. Fabricada en Europa con buena disponibilidad en tiendas fisicas en Espana.
+La **JOYELF Cama Ortopedica** (~90€) es la opcion premium: memory foam de alta densidad con bordes tipo sofa, funda lavable y base antideslizante. Incluye juguete de regalo. Ideal para perros grandes que necesitan un soporte excepcional.
 
 La **JOYELF** tiene un diseno tipo sofa con bordes acolchados que rodean toda la superficie. El memory foam de alta densidad de 7,5 cm distribuye el peso de forma uniforme. La base de goma antideslizante evita que se desplace cuando el perro se apoya para levantarse.
 
@@ -176,38 +171,33 @@ Si tu perro mayor tiene dificultad para subir a la cama o al sofa, puede interes
 Para perros nerviosos, inseguros, rescatados o que se acurrucan para dormir.
 
 <ComparisonTable
-  titulo="Top 4 camas antiansiedad"
+  titulo="Top 3 camas antiansiedad"
   productos={[
     {
-      nombre: "Bedsure Cama Donut L",
-      imagen: "https://m.media-amazon.com/images/I/91rPZ+1taeL._AC_SL1500_.jpg",
-      puntosFuertes: "76cm diametro con bordes de 18cm. Lavable a maquina. Fondo antideslizante. Piel de cordero sintetica ultra suave. Multiples tallas y colores.",
-      precio: "~21€",
-      enlaceAmazon: "https://www.amazon.es/dp/B08Q3NKF71",
+      nombre: "DONWEI Cama Donut 50cm",
+      imagen: "https://m.media-amazon.com/images/I/71sbOVaE-JL._AC_SL1500_.jpg",
+      puntosFuertes: "Felpa suave con bordes altos tipo nido. Ideal para perros pequenos y medianos. Lavable. Fondo antideslizante. Precio imbatible.",
+      precio: "~19€",
+      precioAmazon: "18,99€",
+      enlaceAmazon: "https://www.amazon.es/dp/B0BW8QP6CD",
       valoracion: 5,
     },
     {
-      nombre: "Haoye Cama Donut XL 120cm",
-      imagen: "https://m.media-amazon.com/images/I/719ER-BZAQL._AC_SL1500_.jpg",
-      puntosFuertes: "120cm de diametro para razas grandes. Pelo extra largo muy esponjoso. Efecto envolvente superior. Lavable a maquina.",
-      precio: "~38€",
-      enlaceAmazon: "https://www.amazon.es/dp/B08LPP2ND8",
-      valoracion: 4.5,
+      nombre: "KSIIA Cama Antiansiedad 90x60cm",
+      imagen: "https://m.media-amazon.com/images/I/61azGm7BWUL._AC_SL1500_.jpg",
+      puntosFuertes: "Tamano generoso para perros medianos y grandes (90x60cm). Lavable a maquina. Fondo antideslizante. Felpa suave y mullida.",
+      precio: "~23€",
+      precioAmazon: "22,99€",
+      enlaceAmazon: "https://www.amazon.es/dp/B0BVY2K2JV",
+      valoracion: 5,
     },
     {
-      nombre: "Comlax Cama Donut Relajante",
-      imagen: "https://m.media-amazon.com/images/I/91dL1wLh1xL._AC_SL1500_.jpg",
-      puntosFuertes: "Funda extraible con cremallera para facil lavado. Pelo sintetico suave. Fondo antideslizante. 4 tamanos disponibles.",
-      precio: "~43€",
-      enlaceAmazon: "https://www.amazon.es/dp/B09MVXHVP2",
-      valoracion: 4.5,
-    },
-    {
-      nombre: "BingoPaw Cama Donut Extra Grande",
-      imagen: "https://m.media-amazon.com/images/I/71jK6GD8T-L._AC_SL1500_.jpg",
-      puntosFuertes: "118cm diametro para razas XL. Funda desmontable lavable a maquina. Pelo largo suave con buen efecto calmante.",
-      precio: "~35€",
-      enlaceAmazon: "https://www.amazon.es/dp/B08CXL5DZ3",
+      nombre: "HANHAN Donut Ortopedico XL",
+      imagen: "https://m.media-amazon.com/images/I/71NVfub7sQL._AC_SL1500_.jpg",
+      puntosFuertes: "Extra grande para razas XL. Bordes elevados envolventes. Pelo largo suave. Efecto calmante y ortopedico. Lavable.",
+      precio: "~66€",
+      precioAmazon: "66,24€",
+      enlaceAmazon: "https://www.amazon.es/dp/B08JHP1BZV",
       valoracion: 4,
     },
   ]}
@@ -215,11 +205,11 @@ Para perros nerviosos, inseguros, rescatados o que se acurrucan para dormir.
 
 Las camas antiansiedad tipo donut funcionan gracias a la **terapia de presion profunda**: cuando un cuerpo recibe presion suave y uniforme alrededor de su perimetro, se activa el sistema nervioso parasimpatico y se reduce la produccion de cortisol. Los cachorros duermen amontonados unos contra otros buscando exactamente esa sensacion. Las camas donut la replican con bordes elevados envolventes, superficie de pelo largo y suave, y forma circular que favorece el acurrucamiento natural.
 
-La **Bedsure Cama Donut L** domina la categoria por una razon: ofrece un equilibrio casi perfecto entre calidad, precio y funcionalidad. Con 76 cm de diametro es ideal para perros medianos como Cocker Spaniels, Beagles o Bulldogs Franceses. Los bordes de 18 cm crean una buena contencion y el forro de piel de cordero sintetica tiene un tacto que los perros encuentran muy atractivo.
+La **DONWEI Donut** (~19€) es perfecta para perros pequenos y medianos: 50 cm de diametro con bordes altos de felpa suave. A este precio puedes comprar varias y colocarlas en distintas habitaciones.
 
-La **Haoye XL de 120 cm** es la mejor opcion para razas grandes. Su pelo extra largo (5-6 cm de fibra) crea una superficie envolvente superior. Para un Golden Retriever, un Pastor Aleman o un Labrador ansioso, es la opcion mas generosa del mercado.
+La **KSIIA** (~23€) ofrece un formato rectangular amplio (90x60 cm) ideal para perros medianos y grandes que prefieren estirarse pero con bordes elevados para apoyar la cabeza. Lavable a maquina y con fondo antideslizante.
 
-La **Comlax** se diferencia por su funda extraible con cremallera, que permite lavarla por separado. Un detalle practico que alarga enormemente la vida util de la cama.
+El **HANHAN Donut XL** (~66€) es la opcion premium para razas grandes. Sus bordes elevados y pelo largo crean una superficie envolvente superior. Para un Golden Retriever, Pastor Aleman o Labrador ansioso, es la opcion mas generosa.
 
 **Que perros se benefician mas:** perros con ansiedad por separacion, rescatados o de protectora, perros mayores que buscan mas confort, razas pequenas que se sienten vulnerables, y cualquier perro que tienda a acurrucarse para dormir.
 
@@ -230,27 +220,21 @@ La **Comlax** se diferencia por su funda extraible con cremallera, que permite l
 Para verano, perros con artrosis y uso exterior.
 
 <ComparisonTable
-  titulo="Top 3 camas elevadas"
+  titulo="Top 2 camas elevadas"
   productos={[
     {
       nombre: "Amazon Basics Cama Elevada Refrescante L",
-      precio: "~30€",
+      precio: "~27€",
+      precioAmazon: "26,95€",
       valoracion: 5,
       puntosFuertes: "Malla transpirable, marco de acero, soporta hasta 100 kg, montaje en 5 minutos. La referencia en calidad-precio.",
       enlaceAmazon: "https://www.amazon.es/dp/B076VXVB2L",
       imagen: "https://m.media-amazon.com/images/I/71gw2oWnStS._AC_SL1500_.jpg",
     },
     {
-      nombre: "KOPEKS Cama Elevada XL para Perros Grandes",
-      precio: "~50€",
-      valoracion: 4.5,
-      puntosFuertes: "Tamano extra grande para razas gigantes. Tela Oxford 600D resistente. Incluye bolsa de viaje. Marco de acero reforzado.",
-      enlaceAmazon: "https://www.amazon.es/dp/B01BFQ283O",
-      imagen: "https://m.media-amazon.com/images/I/61PJy9uhKDL._AC_SL1500_.jpg",
-    },
-    {
       nombre: "PawHut Cama Elevada Portatil",
-      precio: "~25€",
+      precio: "~30€",
+      precioAmazon: "29,99€",
       valoracion: 4,
       puntosFuertes: "Ultraligera y plegable. Malla transpirable resistente al agua. Ideal para camping y viajes. Montaje sin herramientas.",
       enlaceAmazon: "https://www.amazon.es/dp/B01M02ETHA",
@@ -263,9 +247,9 @@ La cama elevada es la opcion mas infravalorada del mercado. La diferencia fundam
 
 Para perros con problemas articulares, la ventaja es doble. La superficie tensa distribuye el peso sin hundirse, eliminando los puntos de presion. Y la altura de 15-20 cm facilita que el perro se incorpore sin hacer el esfuerzo de levantarse desde el nivel del suelo.
 
-La **Amazon Basics L** es la mas vendida en Espana por una razon: calidad excelente a precio competitivo. El marco de acero resiste la oxidacion, la malla de textilene es transpirable y la capacidad de 100 kg la hace valida incluso para razas muy grandes. Hay resenas de perros que llevan usando la misma cama durante mas de 4 anos.
+La **Amazon Basics L** (~27€) es la mas vendida en Espana por una razon: calidad excelente a precio competitivo. El marco de acero resiste la oxidacion, la malla de textilene es transpirable y la capacidad de 100 kg la hace valida incluso para razas muy grandes.
 
-La **KOPEKS XL** esta pensada para razas gigantes, con tela Oxford 600D mas resistente a mordiscos e incluye bolsa de transporte para viajes. La **PawHut** es la opcion portatil perfecta para camping: ultraligera, plegable y se monta en dos minutos.
+La **PawHut** (~30€) es la opcion portatil perfecta para camping: ultraligera, plegable y se monta en dos minutos.
 
 **Cama elevada en invierno:** anade una manta polar sobre la malla y tendras una superficie calida y acogedora sin perder las ventajas ortopedicas. Las camas elevadas son utiles todo el ano.
 
@@ -276,42 +260,25 @@ Son tambien la opcion mas higienica del mercado: se limpian con una manguera y s
 Para perros que muerden, rascadores compulsivos y cachorros en fase de denticion.
 
 <ComparisonTable
-  titulo="Top 3 camas resistentes"
+  titulo="Cama resistente para perros destructores"
   productos={[
     {
-      nombre: "K9 Ballistics Chew Proof",
-      precio: "~375€",
-      valoracion: 5,
-      puntosFuertes: "Nylon balistico 1680D. Sin relleno que sacar. Tipo catre elevado. Garantia antidesgarro.",
-      enlaceAmazon: "https://www.amazon.es/dp/B0BJ9V9WMW",
-      imagen: "https://m.media-amazon.com/images/I/51YbAgGhKuL._AC_SL1500_.jpg",
-    },
-    {
-      nombre: "Cama elevada tipo catre (Veehoo)",
-      precio: "~30€",
-      valoracion: 5,
-      puntosFuertes: "Sin relleno que destruir. Tela tesalin resistente. Elevada del suelo. Fresca en verano. Lavable.",
-      enlaceAmazon: "https://www.amazon.es/dp/B07LFS84SC",
-      imagen: "https://m.media-amazon.com/images/I/517Ibk1JLWL._AC_SL1500_.jpg",
-    },
-    {
-      nombre: "Cama Antimordeduras Impermeable",
-      imagen: "https://m.media-amazon.com/images/I/61YQvM4I0yL._AC_SL1500_.jpg",
+      nombre: "Yuma Spazio Antimordeduras",
       precio: "~22€",
+      precioAmazon: "22,15€",
       valoracion: 4,
-      puntosFuertes: "Tejido resistente a mordiscos. Impermeable. Espuma ortopedica. Funda extraible y lavable a maquina.",
-      enlaceAmazon: "https://www.amazon.es/dp/B0BXPF9B7Z",
+      puntosFuertes: "Tejido resistente a mordiscos. Cojin lavable. Ideal para perros medianos y pequenos. Precio muy accesible.",
+      enlaceAmazon: "https://www.amazon.es/dp/B0BHKMZTM7",
+      imagen: "https://m.media-amazon.com/images/I/914OqYyPh5L._AC_SL1500_.jpg",
     },
   ]}
 />
 
 La mejor estrategia contra un perro destructor no es comprar camas caras que destroce: es elegir una cama que no ofrezca nada satisfactorio que morder.
 
-El **catre Veehoo** es la opcion mas inteligente para empezar. No hay espuma que sacar, no hay costuras que abrir, no hay nada que el perro pueda destruir de forma satisfactoria. La mayoria de perros que destrozan camas rellenas pierden interes al morder una superficie tensa y firme que no cede. A 30 euros, es una inversion minima para probar.
+La **Yuma Spazio** (~22€) ofrece tejido resistente a mordiscos a un precio muy accesible. Para perros que muerden ocasionalmente, es una buena primera opcion. Si tu perro es un destructor compulsivo, la mejor estrategia es una cama elevada tipo catre (como las Amazon Basics o PawHut de la seccion anterior): no hay relleno que sacar ni costuras que abrir, y la mayoria de perros pierden interes al morder una superficie tensa que no cede.
 
-La **K9 Ballistics** es la artilleria pesada: nylon balistico de grado militar 1680D con costuras reforzadas con Kevlar. El mismo material que se usa en equipamiento tactico. Si tu perro destroza una K9 Ballistics, la empresa ofrece garantia de reemplazo. Es la opcion para perros con ansiedad por separacion severa que destrozan todo.
-
-La **Cama Antimordeduras Impermeable** es un buen punto intermedio: tejido resistente con espuma ortopedica interior. No aguantara a un destructor compulsivo, pero si a perros que muerden ocasionalmente.
+Para casos severos de destruccion, marcas como K9 Ballistics ofrecen nylon balistico de grado militar, aunque sus precios superan los 400€ y no siempre estan disponibles en Amazon España.
 
 **¿Por que mi perro destruye su cama?** Las causas principales son aburrimiento (mas ejercicio y [juguetes interactivos](/juguetes/mejor-juguete-mental-perros-guia/)), ansiedad por separacion (trabajo conductual con profesional), denticion en cachorros (mordedores apropiados) o exceso de energia. Una cama resistente resuelve el sintoma; identificar la causa resuelve el problema.
 
@@ -326,31 +293,25 @@ La **Cama Antimordeduras Impermeable** es un buen punto intermedio: tejido resis
 Para hogares donde la higiene es prioridad, cachorros en aprendizaje y perros con problemas de piel.
 
 <ComparisonTable
-  titulo="Top 3 camas lavables"
+  titulo="Top 2 camas lavables"
   productos={[
     {
-      nombre: "Bedsure Cama Lavable",
-      precio: "~60€",
+      nombre: "Bedsure Cama Lavable Ortopedica",
+      precio: "~38€",
+      precioAmazon: "37,99€",
       valoracion: 5,
-      puntosFuertes: "Base impermeable antideslizante. Fibra hueca lavable a 40C. Multiples tamanos. Excelente relacion calidad-precio.",
-      enlaceAmazon: "https://www.amazon.es/dp/B07V2DJ7GW",
-      imagen: "https://m.media-amazon.com/images/I/61EeNJgOkIL._AC_SL1500_.jpg",
+      puntosFuertes: "Memory foam con funda lavable a maquina. Funda interior impermeable. Base antideslizante. Ideal para perros grandes.",
+      enlaceAmazon: "https://www.amazon.es/dp/B085XRZY59",
+      imagen: "https://m.media-amazon.com/images/I/81jqNoOi-BL._AC_SL1500_.jpg",
     },
     {
       nombre: "Knuffelwuff Oxford",
       precio: "~59€",
+      precioAmazon: "58,95€",
       valoracion: 4,
       puntosFuertes: "Oxford impermeable exterior. Base antideslizante. Relleno lavable. Diseno sobrio apto para cualquier decoracion.",
       enlaceAmazon: "https://www.amazon.es/dp/B0BRQLKL83",
-      imagen: "https://m.media-amazon.com/images/I/512AX5egOQL._AC_SX679_.jpg",
-    },
-    {
-      nombre: "Hobbydog Giant",
-      precio: "~40-70€",
-      valoracion: 4,
-      puntosFuertes: "Tela Ekolen resistente a aranazos. Relleno de espuma perfilada. Varios colores. Ideal para razas grandes.",
-      enlaceAmazon: "https://www.amazon.es/dp/B008AVNY9K",
-      imagen: "https://m.media-amazon.com/images/I/71ix0AkI0gL._AC_SL1500_.jpg",
+      imagen: "https://m.media-amazon.com/images/I/512AX5egOQL._AC_SL1100_.jpg",
     },
   ]}
 />
@@ -363,7 +324,7 @@ No todas las camas que se anuncian como "lavables" se pueden lavar igual de bien
 
 **Impermeabilidad:** hay dos tipos. La base impermeable protege el suelo pero no el relleno si el perro orina encima. El exterior impermeable completo (como en la Knuffelwuff Oxford) protege tambien la superficie, dando tiempo a limpiar antes de que la humedad penetre. Para cachorros o perros con incontinencia, el exterior impermeable es mucho mas adecuado.
 
-La **Bedsure Cama Lavable** es la referencia del mercado: base impermeable antideslizante, relleno de fibra hueca siliconada que recupera la forma tras el lavado y se seca en pocas horas al aire. La **Knuffelwuff Oxford** anade el exterior impermeable completo y un diseno que encaja en cualquier salon. La **Hobbydog Giant** destaca por su tejido Ekolen resistente a aranazos, ideal para razas grandes con unas potentes.
+La **Bedsure Cama Lavable Ortopedica** (~38€) combina memory foam con funda lavable a maquina y funda interior impermeable. La **Knuffelwuff Oxford** (~59€) anade el exterior impermeable completo y un diseno que encaja en cualquier salon.
 
 **Consejo de lavado:** usa el programa de ropa de cama (no el estandar), que tiene mas agua y centrifugado mas suave. Anade dos o tres pelotas de tenis a la lavadora para distribuir el relleno uniformemente. Asegurate de que la cama esta completamente seca antes de usarla: el relleno interno puede tardar horas en secarse aunque el exterior ya lo este.
 
