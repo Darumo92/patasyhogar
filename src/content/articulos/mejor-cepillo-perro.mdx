@@ -21,15 +21,19 @@ faqs:
     respuesta: "No es lo ideal. Un deslanador tipo FURminator es perfecto para perros con doble capa pero inútil o incluso dañino para perros de pelo rizado o de pelo muy fino. Cada tipo de pelo requiere herramientas distintas para no romper el pelo ni irritar la piel."
 ---
 
-import AffiliateButton from '@/components/AffiliateButton.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
 import TopPick from '@/components/TopPick.astro';
 
 <TopPick
   nombre="FURminator Deslanador"
   descripcion="El deslanador más efectivo del mercado: elimina hasta el 90% del pelo muerto de la capa inferior sin dañar la capa superior. Disponible en varios tamaños para pelo corto y largo."
-  precio="~30€"
+  precio="~28€"
+  precioAmazon="27,99€"
+  precioZooplus="27,99€"
+  precioTiendanimal="27,99€"
   enlaceAmazon="https://www.amazon.es/dp/B07NSNDHH1"
+  enlaceZooplus="https://www.zooplus.es/shop/tienda_perros/higiene_canina_maquinas_cortapelo/furminator/cepillos_furminator/745150"
+  enlaceTiendanimal="https://www.tiendanimal.es/furminator-cepillo-para-perros-de-pelo-corto/FUR65110_M.html"
   etiqueta="Nuestra elección"
   imagen="https://m.media-amazon.com/images/I/713UmlozGqL._AC_SL1500_.jpg"
 />
@@ -58,47 +62,51 @@ Antes de ir al tipo de pelo, hay factores comunes que determinan la calidad de c
   productos={[
     {
       nombre: "FURminator Deslanador",
-      precio: "~30€",
+      precio: "~28€",
+      precioAmazon: "27,99€",
+      precioZooplus: "27,99€",
+      precioTiendanimal: "27,99€",
       valoracion: 5,
       puntosFuertes: "Elimina hasta el 90% del pelo muerto de la subcapa, reduce la muda de forma muy visible, botón de expulsión de pelo, disponible en tallas y versiones corto/largo.",
       enlaceAmazon: "https://www.amazon.es/dp/B07NSNDHH1",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=FURminator+deslanador+perro",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/higiene_canina_maquinas_cortapelo/furminator/cepillos_furminator/745150",
+      enlaceTiendanimal: "https://www.tiendanimal.es/furminator-cepillo-para-perros-de-pelo-corto/FUR65110_M.html",
       imagen: "https://m.media-amazon.com/images/I/713UmlozGqL._AC_SL1500_.jpg",
     },
     {
       nombre: "Chris Christensen Mark II (cepillo de puas)",
       precio: "~52€",
+      precioAmazon: "51,68€",
       valoracion: 5,
       puntosFuertes: "Profesional, puas de acero inoxidable con puntas redondeadas, almohadilla flexible, ideal para pelo largo y esponjoso, muy duradero.",
       enlaceAmazon: "https://www.amazon.es/dp/B000ES6DJ0",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Chris+Christensen+cepillo+perro",
       imagen: "https://m.media-amazon.com/images/I/61UmvZ1hsmL._AC_SL1500_.jpg",
     },
     {
-      nombre: "Hertzko Self Cleaning Slicker",
+      nombre: "PAKEWAY Slicker Autolimpiante",
       precio: "~8€",
+      precioAmazon: "7,99€",
       valoracion: 4,
-      puntosFuertes: "Botón de autolimpieza, puas finas retráctiles que sacan los enredos sin tirar, precio accesible, bueno para cepillado diario.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00ZGPI3OY",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Hertzko+slicker+cepillo+perro",
-      imagen: "https://m.media-amazon.com/images/I/710yYDTuiML._AC_SL1500_.jpg",
+      puntosFuertes: "Botón de autolimpieza que retrae las púas. Púas finas y suaves. Precio accesible. Bueno para cepillado diario y desenredado suave.",
+      enlaceAmazon: "https://www.amazon.es/dp/B086DM9Q3T",
+      imagen: "https://m.media-amazon.com/images/I/51i0UOGXtQL._AC_SL1000_.jpg",
     },
     {
       nombre: "Trixie Cepillo de goma",
       precio: "~5€",
+      precioAmazon: "4,95€",
       valoracion: 4,
       puntosFuertes: "Ideal para pelo corto y durante el baño, masajea la piel mientras elimina pelo, suave y no araña, también útil para tapicerías.",
       enlaceAmazon: "https://www.amazon.es/dp/B003OQGTUM",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Trixie+cepillo+goma+perro",
       imagen: "https://m.media-amazon.com/images/I/81fyf3d8WDL._AC_SL1500_.jpg",
     },
     {
       nombre: "Safari De-Matting Comb",
       precio: "~27€",
+      precioAmazon: "27,01€",
       valoracion: 4,
       puntosFuertes: "Cuchillas de acero con bordes seguros que cortan nudos apelmazados sin arrancar el pelo, imprescindible para pelo largo muy enredado.",
       enlaceAmazon: "https://www.amazon.es/dp/B0002ARR2W",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Safari+De-Matting+perro",
       imagen: "https://m.media-amazon.com/images/I/61HdvpkV29L._AC_SL1500_.jpg",
     },
   ]}
@@ -118,10 +126,6 @@ Es importante no usarlo con demasiada frecuencia ni con demasiada presión: dos 
 
 **Lo menos bueno:** no sirve para perros de pelo rizado o liso muy corto; el precio es más alto que otros cepillos básicos.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B07NSNDHH1" tienda="amazon" texto="Consultar precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=FURminator+deslanador+perro" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
 
 ### Chris Christensen Mark II: calidad de peluquería canina
 
@@ -135,25 +139,17 @@ La durabilidad es excepcional: con un cuidado básico (limpieza semanal y secado
 
 **Lo menos bueno:** precio elevado para uso doméstico; no es el más efectivo para eliminar muda de la subcapa.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B000ES6DJ0" tienda="amazon" texto="Consultar precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Chris+Christensen+cepillo+perro" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
 
-### Hertzko Self Cleaning Slicker: para uso diario
+### PAKEWAY Slicker Autolimpiante: para uso diario
 
-El slicker de Hertzko es el cepillo de uso diario más popular en Amazon España. Su sistema de autolimpieza —un botón que retrae las puas y libera el pelo acumulado— hace que el proceso de limpiar el cepillo sea rápido y sin complicaciones. Las puas finas y levemente curvadas desenmaran el pelo sin tirar, lo que lo convierte en una buena opción para perros que no están acostumbrados al cepillado. Es el cepillo de iniciación ideal para cachorros o para perros adultos rescatados que tienen aversión al cepillado: la suavidad del contacto y la rapidez de las sesiones facilitan la habituación progresiva.
+El slicker de PAKEWAY tiene un botón de autolimpieza que retrae las púas y libera el pelo acumulado, haciendo que limpiar el cepillo sea rápido. Las púas finas y suaves desenmaran el pelo sin tirar, ideal para perros que no están acostumbrados al cepillado. A solo ~8€ es el cepillo de iniciación perfecto para cachorros o perros adultos rescatados.
 
-Funciona bien en pelo de longitud media y como herramienta de mantenimiento diario entre sesiones con el FURminator o el cepillo de puas. Para pelo largo con tendencia a apelmazarse, el slicker Hertzko resuelve los enredos superficiales antes de que se conviertan en nudos difíciles. No es el cepillo más efectivo para llegar a la subcapa, pero como herramienta de uso cotidiano tiene una relación calidad-precio difícil de superar.
+Funciona bien en pelo de longitud media y como herramienta de mantenimiento diario entre sesiones con el FURminator. No es el más efectivo para la subcapa, pero como cepillo cotidiano tiene una relación calidad-precio imbatible.
 
-**Lo bueno:** precio accesible, autolimpieza fácil, suave con el pelo, bueno para sesiones frecuentes.
+**Lo bueno:** precio imbatible (~8€), autolimpieza con un clic, púas suaves, bueno para uso diario.
 
-**Lo menos bueno:** no llega a la subcapa tan eficazmente como el FURminator; las puas pueden doblarse con el tiempo.
+**Lo menos bueno:** no llega a la subcapa como el FURminator; las púas pueden doblarse con uso intensivo.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00ZGPI3OY" tienda="amazon" texto="Consultar precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Hertzko+slicker+cepillo+perro" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
 
 ### Trixie Cepillo de goma: masaje y cepillado en uno
 
@@ -165,10 +161,6 @@ Es especialmente útil durante el baño, donde potencia la acción del champú y
 
 **Lo menos bueno:** no sirve para pelo largo; no llega a la subcapa.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B003OQGTUM" tienda="amazon" texto="Consultar precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Trixie+cepillo+goma+perro" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
 
 ### Safari De-Matting Comb: para nudos imposibles
 
@@ -178,10 +170,6 @@ Cuando el pelo de un perro lleva tiempo sin cepillarse, pueden formarse nudos ap
 
 **Lo menos bueno:** requiere algo de técnica para no causar incomodidad; no es un cepillo de uso cotidiano.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0002ARR2W" tienda="amazon" texto="Consultar precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Safari+De-Matting+perro" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
 
 ## Guía de compra: cómo elegir el cepillo correcto
 
