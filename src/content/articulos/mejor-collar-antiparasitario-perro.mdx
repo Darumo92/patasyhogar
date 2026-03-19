@@ -21,15 +21,17 @@ faqs:
     respuesta: "Un rascado ocasional puede ser normal los primeros días. Si el rascado es persistente, hay enrojecimiento, pérdida de pelo o irritación en el punto de contacto, retira el collar y consulta al veterinario. En estos casos la pipeta suele ser la alternativa más indicada."
 ---
 
-import AffiliateButton from '@/components/AffiliateButton.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
 import TopPick from '@/components/TopPick.astro';
 
 <TopPick
   nombre="Seresto (Elanco) 8 meses"
   descripcion="El collar antiparasitario más completo: 8 meses de protección, flumetrina + imidacloprid, resistente al agua y mecanismo de seguridad."
-  precio="~35-45€"
-  enlaceAmazon="https://www.amazon.es/dp/B00O4AVN2G"
+  precio="~42€"
+  precioZooplus="41,99€"
+  precioTiendanimal="41,99€"
+  enlaceZooplus="https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/seresto/553279"
+  enlaceTiendanimal="https://www.tiendanimal.es/seresto-collar-antiparasitario-para-perros/BAY83883961_M.html"
   imagen="https://m.media-amazon.com/images/I/51aTnDEGjzL._AC_SL1000_.jpg"
   etiqueta="Nuestra elección"
 />
@@ -48,50 +50,37 @@ Proteger a tu perro de pulgas, garrapatas y mosquitos es una de las responsabili
 ## Comparativa de los mejores collares antiparasitarios
 
 <ComparisonTable
-  titulo="Top 5 collares antiparasitarios para perros"
+  titulo="Top 3 collares antiparasitarios para perros"
   productos={[
     {
       nombre: "Seresto (Elanco) 8 meses",
       imagen: "https://m.media-amazon.com/images/I/51aTnDEGjzL._AC_SL1000_.jpg",
-      precio: "~35-45€",
+      precio: "~42€",
+      precioZooplus: "41,99€",
+      precioTiendanimal: "41,99€",
       valoracion: 5,
-      puntosFuertes: "El más completo. 8 meses de protección. Flumetrina + imidacloprid. Resistente al agua. Mecanismo de seguridad.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00O4AVN2G",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Seresto+collar+antiparasitario+perro",
+      puntosFuertes: "El más completo. 8 meses de protección. Flumetrina + imidacloprid. Resistente al agua. Mecanismo de seguridad. Perros >8kg.",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/seresto/553279",
+      enlaceTiendanimal: "https://www.tiendanimal.es/seresto-collar-antiparasitario-para-perros/BAY83883961_M.html",
     },
     {
       nombre: "Scalibor Protectorband",
       imagen: "https://m.media-amazon.com/images/I/51KGuAUjdfL._AC_SL1000_.jpg",
-      precio: "~20-28€",
+      precio: "~27€",
+      precioZooplus: "26,99€",
+      precioTiendanimal: "30,49€",
       valoracion: 5,
-      puntosFuertes: "Deltametrina. 6 meses de protección. Muy eficaz contra mosquitos y leishmaniosis. Ampliamente recomendado en España.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00EOOOGYY",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Scalibor+collar+perro",
+      puntosFuertes: "Deltametrina. 6-12 meses de protección según parásito. Muy eficaz contra flebotomos y leishmaniosis. El más recomendado en España.",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/scalibor/413722",
+      enlaceTiendanimal: "https://www.tiendanimal.es/scalibor-collar-antiparasitario-para-perros/MSD193378_M.html",
     },
     {
-      nombre: "Foresto (Bayer) Collar",
-      imagen: "https://m.media-amazon.com/images/I/51aTnDEGjzL._AC_SL1000_.jpg",
-      precio: "~30-40€",
-      valoracion: 5,
-      puntosFuertes: "Mismo principio activo que Seresto (es el mismo producto renombrado). 8 meses. Muy fiable y probado.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00O4AVN2G",
-    },
-    {
-      nombre: "Advantix Collar",
-      imagen: "https://m.media-amazon.com/images/I/816XoLzw2VL._AC_SL1500_.jpg",
-      precio: "~10€",
+      nombre: "Prevendog Collar",
+      precio: "~20€",
+      precioZooplus: "19,49-33,99€",
       valoracion: 4,
-      puntosFuertes: "Permetrina + imidacloprid. 4 meses de protección. Repele y mata pulgas, garrapatas y mosquitos. Precio asequible.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00KRFNTPQ",
-    },
-    {
-      nombre: "Beaphar Collar Antiparasitario",
-      imagen: "https://m.media-amazon.com/images/I/71Hk1e6PDQL._AC_SL1500_.jpg",
-      precio: "~8-12€",
-      valoracion: 3,
-      puntosFuertes: "La opción económica. 4-5 meses. Disponible en farmacias y grandes superficies. Válido para protección básica.",
-      enlaceAmazon: "https://www.amazon.es/dp/B073WZZ7BH",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Beaphar+collar+antiparasitario+perro",
+      puntosFuertes: "La alternativa económica con deltametrina. 6-12 meses de protección. Protege contra pulgas, garrapatas y flebotomos. Desde 7 semanas.",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perros/prevendog/1377320",
     },
   ]}
 />
@@ -108,10 +97,6 @@ Actúa tanto por contacto (las pulgas y garrapatas no necesitan morder al perro 
 
 **Lo menos bueno:** precio más elevado que otras opciones, algunos perros con piel muy sensible pueden reaccionar en el punto de contacto.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00O4AVN2G" tienda="amazon" texto="Consultar precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Seresto+collar+antiparasitario+perro" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
 
 ### Scalibor Protectorband: el mejor contra leishmaniosis
 
@@ -123,30 +108,24 @@ Dura 6 meses y es especialmente popular entre veterinarios de comunidades como A
 
 **Lo menos bueno:** la deltametrina actúa principalmente por repelencia, no es tan eficaz matando garrapatas ya adheridas. En zonas de mucha garrapata, puede necesitarse complementar.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00EOOOGYY" tienda="amazon" texto="Consultar precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Scalibor+collar+perro" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
 
-### Advantix Collar: relación calidad-precio
+### Prevendog Collar: la alternativa económica
 
-El collar Advantix combina permetrina e imidacloprid en 4 meses de protección. Es una alternativa razonable si buscas algo más económico que el Seresto pero con garantías.
+El Prevendog usa deltametrina (mismo principio activo que Scalibor) a un precio más accesible (~20€ en Zooplus). Protege contra pulgas, garrapatas y flebotomos durante 6-12 meses según el parásito. Disponible en tres tamaños. Es la opción más económica para una protección seria.
 
-**Lo bueno:** precio accesible, eficaz contra los parásitos principales, marca reconocida (Bayer/Elanco).
+**Lo bueno:** precio muy contenido, mismo principio activo que Scalibor, buena duración, disponible en Zooplus.
 
-**Lo menos bueno:** solo 4 meses de duración, lo que implica renovarlo con más frecuencia.
+**Lo menos bueno:** menos estudios clínicos publicados que Seresto o Scalibor, menos disponibilidad en tiendas físicas.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00KRFNTPQ" tienda="amazon" texto="Consultar precio en Amazon" />
-</div>
+**Nota:** Foresto es el nombre antiguo de Seresto (antes de que Bayer vendiera la división a Elanco). Son el mismo producto con diferente nombre comercial.
 
 ## Tabla comparativa: duración y principio activo
 
-| Collar | Principio activo | Duración | Resistente agua | Leishmaniosis |
-|--------|-----------------|----------|-----------------|---------------|
-| Seresto / Foresto | Flumetrina + Imidacloprid | 8 meses | Sí | Repelente moderado |
-| Scalibor | Deltametrina | 6 meses | Sí (parcialmente) | Muy eficaz |
-| Advantix Collar | Permetrina + Imidacloprid | 4 meses | Sí | Sí |
+| Collar | Principio activo | Duración | Resistente agua | Leishmaniosis | Precio |
+|--------|-----------------|----------|-----------------|---------------|--------|
+| Seresto | Flumetrina + Imidacloprid | 8 meses | Sí | Repelente moderado | ~42€ |
+| Scalibor | Deltametrina | 6-12 meses | Sí (parcialmente) | Muy eficaz | ~27€ |
+| Prevendog | Deltametrina | 6-12 meses | Sí | Eficaz | ~20€ |
 | Beaphar | Varios | 4-5 meses | No siempre | No |
 
 ## Collar antiparasitario vs pipeta: cuándo elegir cada uno
