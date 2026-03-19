@@ -21,12 +21,12 @@ faqs:
 
 import TopPick from '@/components/TopPick.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 
 <TopPick
   nombre="Trixie Dog Activity Agility Set"
   descripcion="Kit completo de agilidad con túnel de 2m, slalom de 12 postes, salto regulable en altura y valla. Plegable y fácil de transportar. Ideal para jardín y parques."
   precio="~45€"
+  precioAmazon="44,53€"
   enlaceAmazon="https://www.amazon.es/dp/B07D7YF9X8"
   etiqueta="Kit más completo"
   imagen="https://m.media-amazon.com/images/I/51nhIh37KpL._AC_SL1500_.jpg"
@@ -80,9 +80,10 @@ El aro es un círculo a través del cual el perro salta. A diferencia de la vall
   productos={[
     {
       nombre: "Trixie Dog Activity Agility Set",
-      imagen: "https://m.media-amazon.com/images/I/51nhIh37KpL._AC_SL1500_.jpg",
+      imagen: "https://m.media-amazon.com/images/I/51nhIh37KpL._AC_SL1000_.jpg",
       puntosFuertes: "Kit completo con túnel, slalom, salto y valla. Plegable con bolsa de transporte. Para todas las razas.",
       precio: "~45€",
+      precioAmazon: "44,53€",
       enlaceAmazon: "https://www.amazon.es/dp/B07D7YF9X8",
       valoracion: 5,
     },
@@ -90,16 +91,20 @@ El aro es un círculo a través del cual el perro salta. A diferencia de la vall
       nombre: "PawHut Circuito Agility 5 piezas",
       imagen: "https://m.media-amazon.com/images/I/61ZtPo-al5L._AC_SL1500_.jpg",
       puntosFuertes: "5 obstáculos variados con altura regulable. Construcción muy estable ideal para jardín. Buena relación calidad-precio.",
-      precio: "~40€",
+      precio: "~36€",
+      precioAmazon: "35,90€",
       enlaceAmazon: "https://www.amazon.es/dp/B0C1Y5K31T",
       valoracion: 4.5,
     },
     {
       nombre: "Trixie Túnel Agility 5m",
-      imagen: "https://m.media-amazon.com/images/I/51vBafPVktL._AC_SL1500_.jpg",
-      puntosFuertes: "Túnel de 5 metros con 60 cm de diámetro. Plegable muy compacto. Incluye piquetas de fijación al suelo.",
-      precio: "~72€",
+      imagen: "https://m.media-amazon.com/images/I/51vBafPVktL._AC_SL1080_.jpg",
+      puntosFuertes: "Túnel de 5 metros con 60 cm de diámetro. Plegable muy compacto. Incluye piquetas de fijación al suelo. Más barato en Zooplus.",
+      precio: "~63€",
+      precioAmazon: "72,41€",
+      precioZooplus: "62,99€",
       enlaceAmazon: "https://www.amazon.es/dp/B000OLWW92",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/agility/tuneles/57404",
       valoracion: 5,
     },
     {
@@ -107,14 +112,16 @@ El aro es un círculo a través del cual el perro salta. A diferencia de la vall
       imagen: "https://m.media-amazon.com/images/I/71YGO7PuYgL._AC_SL1500_.jpg",
       puntosFuertes: "60 piezas: túnel, vallas, postes y conos. Vallas con altura regulable. Bolsa de transporte incluida.",
       precio: "~100€",
+      precioAmazon: "99,99€",
       enlaceAmazon: "https://www.amazon.es/dp/B0BW5KQW9D",
       valoracion: 4.5,
     },
     {
       nombre: "Froadp Set Vallas Agility",
       imagen: "https://m.media-amazon.com/images/I/61-X2Xd0ozL._AC_SL1500_.jpg",
-      puntosFuertes: "Vallas con altura ajustable. Ligero y portátil para interior y exterior. La opción más económica.",
+      puntosFuertes: "Vallas con altura ajustable. Ligero y portátil para interior y exterior.",
       precio: "~68€",
+      precioAmazon: "67,99€",
       enlaceAmazon: "https://www.amazon.es/dp/B0BKVN6BC4",
       valoracion: 4,
     },
@@ -135,9 +142,6 @@ La versatilidad es su mayor fortaleza. Con estos cuatro obstáculos puedes dise�
 
 **Lo menos bueno:** el túnel de 2 metros es corto para perros experimentados, los postes del slalom pueden moverse en terreno muy duro donde las piquetas no penetran bien.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B07D7YF9X8" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
 
 ### 2. PawHut Circuito Agility 5 piezas: estabilidad para jardín
 
@@ -151,9 +155,6 @@ El punto fuerte de este set es la estabilidad. Donde otros kits se vuelcan o se 
 
 **Lo menos bueno:** no incluye túnel (el obstáculo favorito de la mayoría de perros), más pesado que otros kits y menos portátil.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0C1Y5K31T" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
 
 ### 3. Trixie Túnel Agility 5m: el obstáculo estrella por separado
 
@@ -167,9 +168,6 @@ Con 5 metros de longitud puedes colocarlo recto para trabajar velocidad, curvarl
 
 **Lo menos bueno:** es un solo obstáculo (necesitarás complementarlo con vallas u otros elementos para montar un circuito completo), puede acumular suciedad y humedad en el interior si se usa en terreno mojado.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B000OLWW92" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
 
 ### 4. JMMPOO Kit Agility 60 Piezas: el más completo en piezas
 
@@ -183,9 +181,6 @@ El montaje es relativamente rápido gracias a las piezas de encaje, y la bolsa d
 
 **Lo menos bueno:** algunas piezas son de plástico ligero que puede romperse con uso intenso, las instrucciones de montaje podrían ser más claras, con tantas piezas el primer montaje lleva algo de tiempo.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0BW5KQW9D" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
 
 ### 5. Froadp Set Vallas Agility: la opción económica para empezar
 
@@ -199,9 +194,6 @@ Si quieres probar si el agility le gusta a tu perro antes de invertir en un kit 
 
 **Lo menos bueno:** solo vallas (no incluye túnel, slalom ni otros obstáculos), el plástico puede deteriorarse con exposición solar prolongada, no incluye bolsa de transporte.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0BKVN6BC4" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
 
 ## Cómo empezar a entrenar agility en casa: guía paso a paso
 
