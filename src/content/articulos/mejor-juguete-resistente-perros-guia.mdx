@@ -23,13 +23,17 @@ faqs:
 
 import TopPick from '@/components/TopPick.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 
 <TopPick
-  nombre="Kong Extreme"
+  nombre="Kong Extreme L"
   descripcion="El rey de los juguetes resistentes: caucho negro ultra duradero, rellenable con comida y practicamente indestructible. Para masticadores potentes que destrozan cualquier juguete convencional."
-  precio="~10€"
+  precio="~12€"
+  precioAmazon="16,54€"
+  precioZooplus="12,19€"
+  precioTiendanimal="12,19€"
   enlaceAmazon="https://www.amazon.es/dp/B0002AR0II"
+  enlaceZooplus="https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/139585"
+  enlaceTiendanimal="https://www.tiendanimal.es/kong-extreme-juguete-para-perros/KONKOK2E_M.html"
   etiqueta="Nuestra eleccion"
   imagen="https://m.media-amazon.com/images/I/616UIXeYlbL._AC_SL1500_.jpg"
 />
@@ -110,24 +114,33 @@ Si no puedes hacer una marca con la una en la superficie del juguete, es demasia
   titulo="Top 4 pelotas indestructibles para perros"
   productos={[
     {
-      nombre: "Kong Ball Extreme",
-      precio: "~17€",
+      nombre: "Kong Ball Extreme M/L",
+      precio: "~13€",
+      precioAmazon: "17,39€",
+      precioZooplus: "13,19€",
       valoracion: 5,
       puntosFuertes: "Caucho natural negro ultra-resistente. Bote irregular impredecible. Disponible en 3 tamanos. El clasico indestructible.",
       enlaceAmazon: "https://www.amazon.es/dp/B004VBC0SY",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/327171",
       imagen: "https://m.media-amazon.com/images/I/61BTLH0tsGL._AC_SL1500_.jpg",
     },
     {
-      nombre: "Chuckit! Ultra Ball",
-      precio: "~11€",
+      nombre: "Chuckit! Ultra Ball M",
+      precio: "~5€",
+      precioAmazon: "10,90€",
+      precioZooplus: "4,69€",
+      precioTiendanimal: "7,49€",
       valoracion: 5,
       puntosFuertes: "Caucho de alta densidad. Bote alto y consistente. Compatible con lanzadores Chuckit. Flota en agua. Muy visible.",
       enlaceAmazon: "https://www.amazon.es/dp/B000F4AVPA",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/pelotas/pelotas_clasicas/456484",
+      enlaceTiendanimal: "https://www.tiendanimal.es/chuckit-ultra-pelota-de-caucho-para-perros/CHU170015_M.html",
       imagen: "https://m.media-amazon.com/images/I/714HUsBpO+L._AC_SL1500_.jpg",
     },
     {
       nombre: "West Paw Jive",
-      precio: "~24€",
+      precio: "~31€",
+      precioAmazon: "31,07€",
       valoracion: 5,
       puntosFuertes: "Zogoflex resistente con garantia de por vida. Bote alto e impredecible. Flota. Colores brillantes faciles de encontrar. 100% reciclable.",
       enlaceAmazon: "https://www.amazon.es/dp/B0070S62UC",
@@ -135,7 +148,8 @@ Si no puedes hacer una marca con la una en la superficie del juguete, es demasia
     },
     {
       nombre: "Goughnuts Ball",
-      precio: "~94€",
+      precio: "~79€",
+      precioAmazon: "79,47€",
       valoracion: 5,
       puntosFuertes: "La mas resistente del mercado. Indicador de seguridad rojo interior. Caucho de grado industrial. Programa de reemplazo.",
       enlaceAmazon: "https://www.amazon.es/dp/B093QGJB2R",
@@ -154,9 +168,6 @@ Disponible en tres tamanos (S, M/L y XL), aguanta mordidas repetidas de razas po
 
 **Lo menos bueno:** no flota, el color negro dificulta encontrarla en hierba alta.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B004VBC0SY" tienda="amazon" texto="Ver Kong Ball Extreme en Amazon" />
-</div>
 
 ### Chuckit! Ultra Ball: la reina del fetch
 
@@ -168,9 +179,6 @@ Flota en agua, lo que la hace perfecta para perros que nadan. El color naranja y
 
 **Lo menos bueno:** los masticadores extremos pueden perforar la capa exterior con el tiempo.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B000F4AVPA" tienda="amazon" texto="Ver Chuckit Ultra Ball en Amazon" />
-</div>
 
 ### West Paw Jive: garantia de por vida
 
@@ -182,9 +190,6 @@ Lo que diferencia a West Paw es su garantia: si tu perro la destroza, la empresa
 
 **Lo menos bueno:** precio mas alto, no tan facil de encontrar en tiendas fisicas en Espana.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0070S62UC" tienda="amazon" texto="Ver West Paw Jive en Amazon" />
-</div>
 
 ### Goughnuts Ball: para los destructores definitivos
 
@@ -196,9 +201,6 @@ Esta pensada para masticadores compulsivos que necesitan un objeto resistente pa
 
 **Lo menos bueno:** precio elevado, no flota, bote bajo, dificil de conseguir en Espana.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B093QGJB2R" tienda="amazon" texto="Ver Goughnuts Ball en Amazon" />
-</div>
 
 ## Los mejores mordedores resistentes
 
@@ -206,35 +208,45 @@ Esta pensada para masticadores compulsivos que necesitan un objeto resistente pa
   titulo="Top 4 mordedores resistentes para perros"
   productos={[
     {
-      nombre: "Kong Extreme",
-      precio: "~10€",
+      nombre: "Kong Extreme L",
+      precio: "~12€",
+      precioAmazon: "16,54€",
+      precioZooplus: "12,19€",
+      precioTiendanimal: "12,19€",
       valoracion: 5,
       puntosFuertes: "Caucho negro ultra resistente. Rellenable con comida. Rebota de forma impredecible. Todos los tamanos. Practicamente indestructible.",
       enlaceAmazon: "https://www.amazon.es/dp/B0002AR0II",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/139585",
+      enlaceTiendanimal: "https://www.tiendanimal.es/kong-extreme-juguete-para-perros/KONKOK2E_M.html",
       imagen: "https://m.media-amazon.com/images/I/616UIXeYlbL._AC_SL1500_.jpg",
     },
     {
-      nombre: "Nylabone DuraChew",
-      precio: "~10€",
+      nombre: "Atopo Mordedor Hueso Goma",
+      precio: "~19€",
+      precioAmazon: "18,99€",
       valoracion: 4,
-      puntosFuertes: "Nylon texturizado con sabor incorporado. Limpia dientes al morder. Extremadamente duradero. Varios sabores y tamanos.",
-      enlaceAmazon: "https://www.amazon.es/dp/B002O0SK4W",
-      imagen: "https://m.media-amazon.com/images/I/81jvk3F3uiL._AC_SL1500_.jpg",
+      puntosFuertes: "Goma resistente con superficie convexa texturizada. Forma de hueso ergonomica. Apto para perros pequenos, medianos y grandes.",
+      enlaceAmazon: "https://www.amazon.es/dp/B07CZ8X6KT",
+      imagen: "https://m.media-amazon.com/images/I/71MVjd+yZfL._AC_SL1500_.jpg",
     },
     {
       nombre: "Asta de Ciervo Natural",
       precio: "~12€",
+      precioAmazon: "11,99€",
       valoracion: 4,
       puntosFuertes: "100% natural, sin aditivos. Dura meses. No astilla. Rica en minerales. Se desgasta gradualmente sin romperse.",
       enlaceAmazon: "https://www.amazon.es/dp/B06XVTB7DJ",
       imagen: "https://m.media-amazon.com/images/I/71fDF9ERgKL._AC_SL1500_.jpg",
     },
     {
-      nombre: "Kong Goodie Bone Extreme",
-      precio: "~24€",
+      nombre: "Kong Goodie Bone Extreme M",
+      precio: "~11€",
+      precioAmazon: "23,98€",
+      precioZooplus: "11,49€",
       valoracion: 5,
       puntosFuertes: "Mismo caucho negro que el Kong Extreme. Forma de hueso con dos extremos rellenables. Ideal para mantener al perro ocupado.",
       enlaceAmazon: "https://www.amazon.es/dp/B0115C7BL2",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/154785",
       imagen: "https://m.media-amazon.com/images/I/61xe5UJQARL._AC_SL1500_.jpg",
     },
   ]}
@@ -250,23 +262,17 @@ La versatilidad es su gran fortaleza: puedes usarlo seco para morder, con comida
 
 **Lo menos bueno:** el caucho negro puede marcar superficies claras cuando es nuevo.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0002AR0II" tienda="amazon" texto="Ver Kong Extreme en Amazon" />
-</div>
 
-### Nylabone DuraChew: para masticadores obsesivos
+### Atopo Mordedor Hueso de Goma: alternativa economica
 
-Si tu perro puede tirarse horas mordiendo sin parar, el Nylabone es su juguete. El nylon texturizado libera sabor gradualmente mientras el perro mastica, manteniendolo enganchado. Las texturas estan disenadas para limpiar diferentes zonas de los dientes, incluidos los molares. Existe en varios sabores (pollo, ternera, tocino) y en multiples tallas.
+El Atopo es un mordedor de goma con forma de hueso y superficie convexa texturizada que masajea las encias del perro mientras mastica. Su tamano de 13 pulgadas lo hace apto para perros medianos y grandes. La textura irregular mantiene el interes del perro y ayuda a limpiar los dientes durante la masticacion.
 
-Es extremadamente duradero y solo se desgasta en particulas minusculas que el organismo digiere sin problema. El fabricante indica el peso recomendado para cada modelo, y elegir la talla correcta es esencial: un Nylabone demasiado pequeno puede tragarse parcialmente.
+Es una alternativa mas asequible al Kong Goodie Bone para perros que necesitan un mordedor resistente pero no son destructores extremos. La goma es densa y flexible, sin riesgo de astillamiento.
 
-**Lo bueno:** duracion excepcional, limpia dientes, sabor incorporado, seguridad de desgaste en particulas minimas.
+**Lo bueno:** precio accesible, textura estimulante, tamano generoso, apto para varias tallas.
 
-**Lo menos bueno:** no rellenable, material sintetico, hay que retirar cuando se desgasta mucho.
+**Lo menos bueno:** no rellenable, menos resistente que el Kong Extreme para masticadores extremos.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B002O0SK4W" tienda="amazon" texto="Ver Nylabone DuraChew en Amazon" />
-</div>
 
 ### Asta de ciervo: la opcion 100% natural
 
@@ -278,9 +284,6 @@ Existe en dos presentaciones: entera (mas dura, dura mas) y partida por la mitad
 
 **Lo menos bueno:** puede ser demasiado dura para cachorros o perros senior, riesgo de fractura dental con mordida extrema. Supervisar las primeras sesiones.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B06XVTB7DJ" tienda="amazon" texto="Ver asta de ciervo en Amazon" />
-</div>
 
 ### Kong Goodie Bone Extreme: mordedor rellenable
 
@@ -292,9 +295,6 @@ Relleno con pate y congelado la noche anterior, puede mantener al perro entreten
 
 **Lo menos bueno:** precio superior al Kong clasico, sin version para masticadores no destructivos.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0115C7BL2" tienda="amazon" texto="Ver Kong Goodie Bone Extreme en Amazon" />
-</div>
 
 ## Los mejores lanzadores de pelotas
 
@@ -303,27 +303,25 @@ Relleno con pate y congelado la noche anterior, puede mantener al perro entreten
   productos={[
     {
       nombre: "Chuckit! Classic Launcher 26M",
-      precio: "~21€",
+      precio: "~28€",
+      precioAmazon: "28,35€",
       valoracion: 5,
       puntosFuertes: "El lanzador manual de referencia. 66cm. Lanza hasta 50m. Recoge la pelota sin agacharte. Compatible con pelotas estandar.",
       enlaceAmazon: "https://www.amazon.es/dp/B00006IX59",
       imagen: "https://m.media-amazon.com/images/I/51n6uLRAukL._AC_SL1500_.jpg",
     },
     {
-      nombre: "iFetch Interactive Ball Launcher",
-      precio: "~63€",
-      valoracion: 5,
-      puntosFuertes: "Lanzador automatico. 3 distancias (3, 6, 9m). El perro aprende a depositar la pelota solo. Para interior y exterior.",
-      enlaceAmazon: "https://www.amazon.es/dp/B00PG3LWDK",
-      imagen: "https://m.media-amazon.com/images/I/71xogxSiHqL._AC_SL1500_.jpg",
-    },
-    {
       nombre: "Chuckit! Sport 12M Launcher",
-      imagen: "https://m.media-amazon.com/images/I/71VeMle0XOL._AC_SL1500_.jpg",
       precio: "~8€",
+      precioAmazon: "9,40€",
+      precioZooplus: "8,49€",
+      precioTiendanimal: "13,90€",
       valoracion: 4,
       puntosFuertes: "Version compacta (30cm) con mango ergonomico de goma. Compatible con pelotas estandar. Ideal para parques urbanos y viajes.",
       enlaceAmazon: "https://www.amazon.es/dp/B000PKWKMQ",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/pelotas/pelotas_pero_lanzador/456557",
+      enlaceTiendanimal: "https://www.tiendanimal.es/chuckit-sport-lanzador-de-pelotas-para-perros/CHU06800_M.html",
+      imagen: "https://m.media-amazon.com/images/I/71VeMle0XOL._AC_SL1500_.jpg",
     },
   ]}
 />
@@ -340,26 +338,6 @@ Compatible con pelotas Chuckit Ultra Ball y pelotas de tenis estandar. Construcc
 
 **Lo menos bueno:** necesita espacio abierto para aprovechar su alcance.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00006IX59" tienda="amazon" texto="Ver Chuckit Classic en Amazon" />
-</div>
-
-### iFetch Interactive Ball Launcher: el perro juega solo
-
-El iFetch lleva el fetch a otro nivel. Es un lanzador automatico donde el perro deposita la pelota en la tolva superior y la maquina la lanza automaticamente. Tres distancias configurables (3, 6 y 9 metros) lo hacen apto para interior y jardin.
-
-La mayoria de perros aprenden el sistema en pocas sesiones: llevan la pelota de vuelta, la sueltan en la tolva, retroceden y esperan el lanzamiento. Es estimulacion fisica y mental combinada, porque el perro debe aprender una secuencia de acciones para mantener el juego activo.
-
-Funciona mejor con perros que ya saben hacer fetch con humanos y que tienen alta motivacion por la pelota. Para perros con poca motivacion por la pelota, la inversion no compensa.
-
-**Lo bueno:** juego semi-autonomo, tres distancias, funciona en interior, construccion robusta.
-
-**Lo menos bueno:** usa pelotas propias de 4cm (no apto para razas grandes sin el modelo iFetch Too), precio elevado.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00PG3LWDK" tienda="amazon" texto="Ver iFetch en Amazon" />
-</div>
-
 ### Chuckit! Sport 12M Launcher: para llevar a todas partes
 
 La version compacta del Classic: solo 30cm, cabe en mochila o guantera. Distancia de lanzamiento de 15-25 metros, mas que suficiente para parques urbanos y zonas valladas. Mango ergonomico de goma, compatible con pelotas de 6,5cm y pelotas de tenis estandar. Incluye pelota Chuckit de serie.
@@ -368,22 +346,17 @@ La version compacta del Classic: solo 30cm, cabe en mochila o guantera. Distanci
 
 **Lo menos bueno:** distancia limitada, menos efecto palanca por su longitud corta.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B000PKWKMQ" tienda="amazon" texto="Ver Chuckit Sport en Amazon" />
-</div>
 
-## Lanzadores manuales vs. automaticos: cual elegir
+## Lanzadores manuales: Classic vs. Sport
 
-| Criterio | Manual (Chuckit) | Automatico (iFetch/PetSafe) |
+| Criterio | Classic 26M | Sport 12M |
 |---|---|---|
-| Precio | 8-21€ | 63-200€ |
-| Distancia | 15-60 m | 3-15 m |
-| Participacion humana | Cada lanzamiento | Semi-autonomo |
-| Portabilidad | Excelente | Limitada |
-| Pilas/electricidad | No | Si |
-| Mejor para | Espacios abiertos, vinculo | Perros hiperactivos, movilidad reducida |
+| Precio | ~28€ | ~9€ |
+| Longitud | 66 cm | 30 cm |
+| Distancia | 40-60 m | 15-25 m |
+| Mejor para | Espacios abiertos, playa | Parques urbanos, viajes |
 
-El juego de buscar es una actividad de vinculo en la que el perro interactua contigo. Si reduces tu participacion a supervisar una maquina, pierdes parte del valor relacional. Los lanzadores automaticos tienen su sitio cuando el propietario tiene movilidad reducida o cuando el perro necesita mas ejercicio del que puedes ofrecer fisicamente.
+El juego de buscar es una actividad de vinculo en la que el perro interactua contigo. El Classic ofrece mayor distancia y efecto palanca, pero el Sport cabe en cualquier mochila y es mas que suficiente para la mayoria de parques urbanos.
 
 ## Seguridad: cuando supervisar y cuando reemplazar
 
