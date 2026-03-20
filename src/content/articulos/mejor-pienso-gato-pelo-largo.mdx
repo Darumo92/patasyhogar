@@ -21,15 +21,19 @@ faqs:
 
 import TopPick from '@/components/TopPick.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 
 <TopPick
   nombre="Royal Canin Indoor Long Hair"
   descripcion="Fórmula específica para gatos de interior con pelo largo. Rica en omega-3 y omega-6 para un manto brillante, con fibra insoluble que facilita la eliminación natural de bolas de pelo."
   precio="~11€"
+  precioAmazon="11,33€ (400 g)"
+  precioZooplus="46,49€ (4 kg)"
+  precioTiendanimal="52,49€ (4 kg)"
   enlaceAmazon="https://www.amazon.es/dp/B007G5EQ7A"
+  enlaceZooplus="https://www.zooplus.es/shop/tienda_gatos/pienso_gatos/royal_canin/royal_canin_indoor/55545"
+  enlaceTiendanimal="https://www.tiendanimal.es/royal-canin-indoor-long-hair-pienso-para-gatos/ROY2549400_M.html"
   etiqueta="Mejor para pelo largo"
-  imagen="https://m.media-amazon.com/images/I/41lw4u8MexL._AC_SL1500_.jpg"
+  imagen="https://m.media-amazon.com/images/I/41lw4u8MexL._AC_SL1000_.jpg"
 />
 
 Los gatos de pelo largo son una de las mascotas más elegantes y espectaculares que puedes tener en casa. Persas, Maine Coon, Ragdoll, Bosque de Noruega... todas estas razas comparten una característica: un manto denso y largo que necesita una nutrición específica para mantenerse sano, brillante y libre de enredos.
@@ -113,43 +117,55 @@ Cuando leas la etiqueta de un pienso para gatos de pelo largo, estos son los ing
   productos={[
     {
       nombre: "Royal Canin Indoor Long Hair",
-      imagen: "https://m.media-amazon.com/images/I/41lw4u8MexL._AC_SL1500_.jpg",
+      imagen: "https://m.media-amazon.com/images/I/41lw4u8MexL._AC_SL1000_.jpg",
       precio: "~11€",
+      precioAmazon: "11,33€ (400 g)",
+      precioZooplus: "46,49€ (4 kg)",
+      precioTiendanimal: "52,49€ (4 kg)",
       valoracion: 5,
       puntosFuertes: "Formulado para gatos de interior con pelo largo. Complejo de fibras que reduce bolas de pelo hasta un 36%. EPA y DHA para pelo brillante.",
-      enlaceAmazon: "https://www.amazon.es/dp/B007G5EQ7A"
+      enlaceAmazon: "https://www.amazon.es/dp/B007G5EQ7A",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/pienso_gatos/royal_canin/royal_canin_indoor/55545",
+      enlaceTiendanimal: "https://www.tiendanimal.es/royal-canin-indoor-long-hair-pienso-para-gatos/ROY2549400_M.html",
     },
     {
       nombre: "Royal Canin Hairball Care",
       imagen: "https://m.media-amazon.com/images/I/61IzaKkZohL._AC_SL1500_.jpg",
-      precio: "~38€",
+      precio: "~46€",
+      precioAmazon: "45,98€ (4 kg)",
+      precioZooplus: "46,49€ (4 kg)",
+      precioTiendanimal: "58,99€ (4 kg)",
       valoracion: 5,
       puntosFuertes: "Especial anti bolas de pelo con mezcla patentada de fibras. Reduce un 52% el pelo expulsado. Apto para todos los gatos adultos.",
-      enlaceAmazon: "https://www.amazon.es/dp/B0015V4HHU"
+      enlaceAmazon: "https://www.amazon.es/dp/B0015V4HHU",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/pienso_gatos/royal_canin/royal_canin_care_nutrition/55556",
+      enlaceTiendanimal: "https://www.tiendanimal.es/royal-canin-intense-hairball-pienso-para-gatos/ROY313529_M.html",
     },
     {
       nombre: "Royal Canin Persian Adult",
-      imagen: "https://m.media-amazon.com/images/I/41XoUx4CLQS._AC_SL1500_.jpg",
-      precio: "~49€",
+      imagen: "https://m.media-amazon.com/images/I/41XoUx4CLQS._AC_.jpg",
+      precio: "~50€",
+      precioAmazon: "50,48€ (4 kg)",
+      precioZooplus: "51,49€ (4 kg)",
+      precioTiendanimal: "64,89€ (4 kg)",
       valoracion: 4.5,
       puntosFuertes: "Croqueta adaptada a la mandíbula braquicéfala del Persa. Fórmula con biotina y aceite de borraja para pelo largo y denso.",
-      enlaceAmazon: "https://www.amazon.es/dp/B003QPY5NO"
+      enlaceAmazon: "https://www.amazon.es/dp/B003QPY5NO",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/pienso_gatos/royal_canin/royal_canin_pienso_diferentes_razas/55557",
+      enlaceTiendanimal: "https://www.tiendanimal.es/royal-canin-persian-pienso-para-gato-adulto-persa/ROY306813_M.html",
     },
     {
-      nombre: "Advance Hairball Sterilized",
+      nombre: "Advance Hairball Sterilized Pavo",
       imagen: "https://m.media-amazon.com/images/I/71E5+z0QgtL._AC_SL1500_.jpg",
-      precio: "~45€ (10 kg)",
+      precio: "~47€",
+      precioAmazon: "46,54€ (10 kg)",
+      precioZooplus: "48,99€ (10 kg)",
+      precioTiendanimal: "49,99€ (10 kg)",
       valoracion: 4,
-      puntosFuertes: "Doble función: control de bolas de pelo + peso saludable en gatos esterilizados. Malta natural y fibra para tránsito intestinal.",
-      enlaceAmazon: "https://www.amazon.es/dp/B01MSLYYV6"
-    },
-    {
-      nombre: "Purina Pro Plan Elegant (Derma Plus)",
-      imagen: "https://m.media-amazon.com/images/I/81SRCryoEjL._AC_SL1500_.jpg",
-      precio: "~28€ (3 kg)",
-      valoracion: 4,
-      puntosFuertes: "Fórmula Derma Plus con salmón rico en Omega-3 para piel sana y pelo brillante. Reduce la caída de pelo en 6 semanas.",
-      enlaceAmazon: "https://www.amazon.es/dp/B007ZYSP7O"
+      puntosFuertes: "Doble función: control de bolas de pelo + peso saludable en gatos esterilizados. Malta natural y fibra para tránsito intestinal. Mejor precio/kg.",
+      enlaceAmazon: "https://www.amazon.es/dp/B01MSLYYV6",
+      enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/pienso_gatos/affinity_advance/sterilized/579062",
+      enlaceTiendanimal: "https://www.tiendanimal.es/advance-sterilized-hairball-pavo-y-cebada-pienso-para-gatos/ADV921864_M.html",
     }
   ]}
 />
@@ -176,7 +192,6 @@ La croqueta tiene una forma y textura adaptadas para fomentar la masticación, l
 - Contiene cereales (maíz, arroz) como ingredientes secundarios
 - Solo disponible en formato 2 kg y 4 kg
 
-<AffiliateButton enlace="https://www.amazon.es/dp/B007G5EQ7A" texto="Ver Royal Canin Indoor Long Hair en Amazon" />
 
 ### 2. Royal Canin Hairball Care
 
@@ -197,7 +212,6 @@ Además, su perfil nutricional es completo y equilibrado, con un 34% de proteín
 - Menos omega-3 que la versión Indoor Long Hair
 - Sabor único (pollo)
 
-<AffiliateButton enlace="https://www.amazon.es/dp/B0015V4HHU" texto="Ver Royal Canin Hairball Care en Amazon" />
 
 ### 3. Royal Canin Persian Adult
 
@@ -218,7 +232,6 @@ Un punto diferenciador es que contiene nutrientes específicos para la salud del
 - Contenido calórico algo alto para gatos sedentarios
 - No es la mejor opción para gatos esterilizados
 
-<AffiliateButton enlace="https://www.amazon.es/dp/B003QPY5NO" texto="Ver Royal Canin Persian Adult en Amazon" />
 
 ### 4. Advance Hairball Sterilized
 
@@ -239,28 +252,6 @@ El formato de 10 kg lo hace especialmente interesante para hogares con varios ga
 - El formato grande puede perder frescura si tienes un solo gato
 - Palatabilidad inferior según algunas reseñas
 
-<AffiliateButton enlace="https://www.amazon.es/dp/B01MSLYYV6" texto="Ver Advance Hairball Sterilized en Amazon" />
-
-### 5. Purina Pro Plan Elegant (Derma Plus)
-
-**Pro Plan Elegant**, ahora comercializado como Derma Plus en algunos mercados, está formulado con un enfoque diferente: la salud de la piel como base para un pelo sano. Su ingrediente estrella es el salmón como fuente principal de proteína, que aporta de forma natural omega-3 de alta biodisponibilidad.
-
-Incluye un complejo patentado llamado Optiderma, que combina ácidos grasos esenciales con vitaminas del grupo B y zinc para reforzar la barrera cutánea. Los resultados sobre la calidad del pelo son visibles a partir de la cuarta semana de uso.
-
-Es una opción interesante para gatos de pelo largo que además tienen piel sensible, dermatitis o tendencia a la caspa. Su contenido en fibra es moderado, por lo que no es la mejor elección si el problema principal son las bolas de pelo.
-
-**Lo bueno:**
-- Salmón como proteína principal (alta digestibilidad)
-- Excelente para pieles sensibles y pelo apagado
-- Complejo Optiderma patentado
-- Buena palatabilidad (sabor salmón)
-
-**Lo menos bueno:**
-- Control de bolas de pelo inferior a Royal Canin Hairball Care
-- Precio algo elevado para el formato de 3 kg
-- Menos disponible en tiendas físicas
-
-<AffiliateButton enlace="https://www.amazon.es/dp/B007ZYSP7O" texto="Ver Purina Pro Plan Elegant en Amazon" />
 
 ## Cómo reducir las bolas de pelo además del pienso
 
@@ -315,9 +306,8 @@ El Bosque de Noruega tiene una doble capa impermeable diseñada para soportar in
 | Gato de pelo largo de interior | Royal Canin Indoor Long Hair |
 | Bolas de pelo frecuentes (>2/mes) | Royal Canin Hairball Care |
 | Gato persa o braquicéfalo | Royal Canin Persian Adult |
-| Gato esterilizado con bolas de pelo | Advance Hairball Sterilized |
-| Pelo apagado o piel sensible | Purina Pro Plan Elegant |
-| Varios gatos, presupuesto ajustado | Advance Hairball Sterilized (10 kg) |
+| Gato esterilizado con bolas de pelo | Advance Hairball Sterilized Pavo |
+| Varios gatos, presupuesto ajustado | Advance Hairball Sterilized Pavo (10 kg) |
 
 ## Conclusión
 
