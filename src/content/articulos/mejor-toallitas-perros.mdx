@@ -22,16 +22,15 @@ faqs:
 ---
 
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 import TopPick from '@/components/TopPick.astro';
 
 <TopPick
   nombre="Pogi's Grooming Wipes"
   descripcion="Toallitas extra grandes, hipoalergénicas y biodegradables. Formuladas con aloe vera y vitamina E. Sin alcohol, parabenos ni productos químicos agresivos. Disponibles con o sin aroma a té verde."
-  precio="~11€"
+  precio="~10€"
   enlaceAmazon="https://www.amazon.es/dp/B010MVG6ZY"
   etiqueta="Mejor calidad-precio"
-  imagen="https://m.media-amazon.com/images/I/71hlJ8bz3FL._AC_SL1500_.jpg"
+  imagen="https://m.media-amazon.com/images/I/81fA24XNNsL._AC_SL1500_.jpg"
 />
 
 Las toallitas húmedas para perros son ese producto que, una vez que empiezas a usar, te preguntas cómo vivías sin ellas. Llegas del paseo, le limpias las patas en la puerta y evitas que tu perro reparta barro, polen y suciedad por toda la casa. Son rápidas, prácticas y mucho menos engorrosas que meter al perro en la bañera después de cada salida.
@@ -56,18 +55,21 @@ Si necesitas una limpieza más profunda, nuestra guía de [champús para perros 
   productos={[
     {
       nombre: "Pogi's Grooming Wipes",
-      precio: "~11€",
+      precio: "~10€",
       valoracion: 5,
       puntosFuertes: "Extra grandes (20x23 cm). Biodegradables de fibra de bambú. Hipoalergénicas con aloe vera y vitamina E. Sin alcohol ni parabenos. Disponibles sin aroma o con té verde.",
       enlaceAmazon: "https://www.amazon.es/dp/B010MVG6ZY",
-      imagen: "https://m.media-amazon.com/images/I/71hlJ8bz3FL._AC_SL1500_.jpg",
+      imagen: "https://m.media-amazon.com/images/I/81fA24XNNsL._AC_SL1500_.jpg",
     },
     {
       nombre: "Earth Rated Toallitas Lavanda",
       precio: "~8€",
+      precioAmazon: "~8€",
+      precioTiendanimal: "7,39€",
       valoracion: 5,
       puntosFuertes: "Hipoalergénicas y compostables. Aroma suave a lavanda. Sin alcohol ni parabenos. Tamaño generoso (20x20 cm). Dermatológicamente testadas. Ideales para patas y cuerpo.",
       enlaceAmazon: "https://www.amazon.es/dp/B07NHGX19F",
+      enlaceTiendanimal: "https://www.tiendanimal.es/earth-rated-toallitas-humedas-para-perros/EARAS01261_M.html",
       imagen: "https://m.media-amazon.com/images/I/611Q8d+YRXL._AC_SL1500_.jpg",
     },
     {
@@ -79,12 +81,15 @@ Si necesitas una limpieza más profunda, nuestra guía de [champús para perros 
       imagen: "https://m.media-amazon.com/images/I/71DvFtD0XAL._AC_SL1500_.jpg",
     },
     {
-      nombre: "Nature's Miracle Deodorizing Wipes",
-      precio: "~13€ (100 uds)",
+      nombre: "Inodorina Refresh Talco",
+      precio: "~6€",
+      precioAmazon: "~6€",
+      precioTiendanimal: "4,99€",
       valoracion: 4,
-      puntosFuertes: "Especializadas en eliminar olores. Fórmula bioenzimática. Eficaces contra olores corporales persistentes. Aroma a melón fresco. Textura gruesa y resistente.",
-      enlaceAmazon: "https://www.amazon.es/dp/B0938TKRHR",
-      imagen: "https://m.media-amazon.com/images/I/71YZpgujdNS._AC_SL1500_.jpg",
+      puntosFuertes: "Desinfectantes con aroma a talco. pH neutro. Tejido resistente sin alcohol. Aptas para perros y gatos. 40 unidades. Muy económicas.",
+      enlaceAmazon: "https://www.amazon.es/dp/B00O4APJ1W",
+      enlaceTiendanimal: "https://www.tiendanimal.es/inodorina-refresh-toallitas-humedas-talco-para-mascotas/IND100100_M.html",
+      imagen: "https://m.media-amazon.com/images/I/910bTkOFZvL._AC_SL1500_.jpg",
     },
     {
       nombre: "CLX Wipes Clorhexidina",
@@ -111,10 +116,6 @@ Están disponibles en dos versiones: sin aroma (la mejor opción para perros con
 
 **Lo menos bueno:** El cierre de la tapa puede secarse si no se cierra bien. Las últimas toallitas del pack pueden estar un poco menos húmedas.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B010MVG6ZY" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
-
 ### Earth Rated Toallitas Lavanda — Las más ecológicas
 
 Earth Rated es una marca canadiense conocida por sus bolsas de caca biodegradables, y aplica la misma filosofía ecológica a sus toallitas. Son compostables, hipoalergénicas y dermatológicamente testadas, lo que significa que han pasado pruebas clínicas para confirmar que no irritan la piel.
@@ -126,10 +127,6 @@ También están disponibles en versión sin aroma en packs de 400 unidades, idea
 **Lo bueno:** Compostables y dermatológicamente testadas, aroma a lavanda no invasivo, textura gruesa y resistente, pack de 400 unidades disponible.
 
 **Lo menos bueno:** Ligeramente más pequeñas que las Pogi's. El aroma a lavanda puede no gustar a todos.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B07NHGX19F" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
 
 ### Burt's Bees Multipurpose Dog Wipes — Cosmética natural para perros
 
@@ -145,25 +142,17 @@ La filosofía de Burt's Bees es usar ingredientes que reconozcas, sin rellenos s
 
 **Lo menos bueno:** Disponibilidad irregular en España. Precio por unidad más alto. Pack de solo 50 unidades.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B01524830M" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
+### Inodorina Refresh Talco — Las más económicas
 
-### Nature's Miracle Deodorizing Wipes — Las mejores contra olores
+Las Inodorina Refresh son una marca italiana muy conocida en el mercado de productos para mascotas, y sus toallitas con aroma a talco son una de las opciones más económicas del mercado sin sacrificar calidad. Con un pH neutro y un tejido resistente sin alcohol, son aptas tanto para perros como para gatos.
 
-Si tu perro es de los que huelen fuerte entre baño y baño, las Nature's Miracle están diseñadas específicamente para ti. Su fórmula bioenzimática no solo elimina la suciedad superficial, sino que descompone las moléculas responsables del olor corporal. No enmascara el olor con perfume: lo elimina de raíz.
+El aroma a talco es suave y limpio, muy parecido al de los polvos de talco clásicos. No es un olor químico ni invasivo, y la mayoría de perros lo toleran bien. Las toallitas tienen buena resistencia al frotar y no se deshacen al limpiar barro o suciedad moderada.
 
-Las toallitas son gruesas y tienen una textura con relieve que atrapa la suciedad de forma efectiva. El aroma a melón fresco es agradable y duradero, sin ser químico ni molesto para el perro. Son especialmente útiles para limpiar la zona del cuello y las orejas, donde el olor corporal tiende a concentrarse.
+El pack de 40 unidades a ~6€ en Amazon y ~5€ en Tiendanimal las convierte en las más asequibles de esta comparativa. Son ideales como toallitas complementarias para tener en el coche, en la mochila del paseo o como opción económica para uso diario en limpieza de patas.
 
-El principal inconveniente es que están más orientadas a la desodorización que a la hidratación. Si tu perro tiene piel seca, puede que necesites complementarlas con un acondicionador o toallitas hidratantes. También son algo más caras que las opciones básicas, pero para perros con problemas de olor, la diferencia es notable.
+**Lo bueno:** Precio imbatible, pH neutro, tejido resistente, sin alcohol, aptas para perros y gatos, disponibles en Amazon y Tiendanimal.
 
-**Lo bueno:** Fórmula bioenzimática que elimina olores de raíz, textura con relieve, aroma agradable a melón.
-
-**Lo menos bueno:** Menos hidratantes que otras opciones. Precio ligeramente superior. No son las mejores para piel sensible.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0938TKRHR" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
+**Lo menos bueno:** Pack pequeño (40 unidades), menos hidratantes que las Pogi's o Earth Rated, no son biodegradables.
 
 ### CLX Wipes Clorhexidina — Las recomendadas por veterinarios
 
@@ -176,10 +165,6 @@ El pack contiene solo 40 toallitas a un precio de unos 14 euros, lo que las conv
 **Lo bueno:** Clorhexidina al 0,5% con acción antiséptica, recomendadas por veterinarios, sin alcohol, aptas para piel lesionada.
 
 **Lo menos bueno:** Solo 40 unidades por pack. Precio por unidad alto. No son para uso diario general.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B006ZN0JSE" tienda="amazon" texto="Ver precio en Amazon" />
-</div>
 
 ## Guía de compra: cómo elegir las toallitas adecuadas para tu perro
 
@@ -215,11 +200,11 @@ Las CLX Wipes con clorhexidina son eficaces y útiles, pero no deben usarse como
 
 | Producto | Precio | Uds. | Tamaño | Biodegradable | Formulación | Ideal para |
 |----------|--------|------|--------|---------------|-------------|------------|
-| Pogi's Grooming Wipes | ~15€ | 100 | 20x23 cm | Sí (bambú) | Aloe vera, vitamina E | Uso diario, todo tipo de perros |
-| Earth Rated Lavanda | ~12€ | 100 | 20x20 cm | Sí (compostable) | Sin alcohol, hipoalergénica | Uso diario, perros sensibles |
-| Burt's Bees Multipurpose | ~10€ | 50 | Estándar | No | Miel, manzanilla | Perros con piel normal, cosmética natural |
-| Nature's Miracle Deodorizing | ~13€ | 100 | Estándar | No | Fórmula bioenzimática | Perros con mucho olor corporal |
-| CLX Wipes Clorhexidina | ~14€ | 40 | Estándar | No | Clorhexidina 0,5% | Pieles con dermatitis, uso veterinario |
+| Pogi's Grooming Wipes | ~10€ | 100 | 20x23 cm | Sí (bambú) | Aloe vera, vitamina E | Uso diario, todo tipo de perros |
+| Earth Rated Lavanda | ~8€ | 100 | 20x20 cm | Sí (compostable) | Sin alcohol, hipoalergénica | Uso diario, perros sensibles |
+| Burt's Bees Multipurpose | ~17€ | 50 | Estándar | No | Miel, manzanilla | Perros con piel normal, cosmética natural |
+| Inodorina Refresh Talco | ~6€ | 40 | Estándar | No | pH neutro, sin alcohol | Limpieza diaria económica |
+| CLX Wipes Clorhexidina | ~20€ | 40 | Estándar | No | Clorhexidina 0,5% | Pieles con dermatitis, uso veterinario |
 
 ## Cuándo usar toallitas y cuándo bañar al perro
 
@@ -270,12 +255,6 @@ Las toallitas pueden limpiar la parte externa de la oreja (el pabellón auricula
 
 Para el uso diario, las **Pogi's Grooming Wipes** son nuestra primera elección: extra grandes, biodegradables, hipoalergénicas y con un precio imbatible en el pack de 100 o 400 unidades. Si prefieres un aroma a lavanda y valoras la certificación compostable, las **Earth Rated** son una alternativa igualmente excelente.
 
-Para perros con problemas de olor, las **Nature's Miracle** con fórmula bioenzimática hacen un trabajo excepcional. Y si tu perro tiene dermatitis o problemas de piel que requieren desinfección, las **CLX Wipes con clorhexidina** son las que tu veterinario recomendaría.
+Si buscas una opción económica para el día a día, las **Inodorina Refresh Talco** son las más asequibles y están disponibles tanto en Amazon como en Tiendanimal. Y si tu perro tiene dermatitis o problemas de piel que requieren desinfección, las **CLX Wipes con clorhexidina** son las que tu veterinario recomendaría.
 
 Sea cual sea tu elección, incorporar toallitas a la rutina diaria de tu perro es una de esas pequeñas inversiones que mejoran la convivencia enormemente: tu perro más limpio, tu casa más limpia y los baños menos frecuentes.
-
-<AffiliateButton
-  texto="Ver todas las toallitas para perros en Amazon"
-  href="https://www.amazon.es/dp/B010MVG6ZY"
-  tienda="amazon"
-/>
