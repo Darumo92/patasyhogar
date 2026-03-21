@@ -22,13 +22,13 @@ faqs:
 ---
 
 import ComparisonTable from '@/components/ComparisonTable.astro';
-import AffiliateButton from '@/components/AffiliateButton.astro';
 import TopPick from '@/components/TopPick.astro';
 
 <TopPick
   nombre="Pogi's Bolsas Biodegradables"
   descripcion="Bolsas extra gruesas de 20 micras, a prueba de fugas, con certificación EPI. Disponibles en packs de 300 y 450 unidades con aroma a lavanda opcional."
   precio="~9€"
+  precioAmazon="8,54€"
   enlaceAmazon="https://www.amazon.es/dp/B00ISBWVT6"
   etiqueta="Nuestra elección"
   imagen="https://m.media-amazon.com/images/I/71Q0UyeEfML._AC_SL1500_.jpg"
@@ -77,6 +77,7 @@ Existen bolsas de papel encerado para excrementos, pero son poco prácticas: se 
     {
       nombre: "Pogi's Bolsas Biodegradables",
       precio: "~9€",
+      precioAmazon: "8,54€",
       valoracion: 5,
       puntosFuertes: "Extra gruesas (20 micras), a prueba de fugas, certificación EPI, aroma lavanda opcional, compatibles con cualquier dispensador.",
       enlaceAmazon: "https://www.amazon.es/dp/B00ISBWVT6",
@@ -85,22 +86,27 @@ Existen bolsas de papel encerado para excrementos, pero son poco prácticas: se 
     {
       nombre: "Biobag Bolsas Compostables",
       precio: "~31€",
+      precioAmazon: "30,60€",
       valoracion: 5,
       puntosFuertes: "Certificación EN 13432 y OK Compost. Almidón de maíz real. Se descomponen en 90-180 días. Marca líder en compostables.",
       enlaceAmazon: "https://www.amazon.es/dp/B01K1U271S",
-      imagen: "https://m.media-amazon.com/images/I/61OuglnrnwL._AC_SL1500_.jpg",
+      imagen: "https://m.media-amazon.com/images/I/61OuglnrnwL._AC_SL1001_.jpg",
     },
     {
       nombre: "Earth Rated Bolsas Eco",
       precio: "~5€",
+      precioAmazon: "5,22€",
+      precioTiendanimal: "5,59€",
       valoracion: 4,
       puntosFuertes: "Muy resistentes. Aroma a lavanda. Fáciles de abrir y separar del rollo. Incluyen dispensador en algunos packs.",
       enlaceAmazon: "https://www.amazon.es/dp/B0088LIINY",
+      enlaceTiendanimal: "https://www.tiendanimal.es/earth-rated-refill-bolsas-lavanda-para-heces-de-perros/EARVA01201_M.html",
       imagen: "https://m.media-amazon.com/images/I/711WbFbVgxL._AC_SL1500_.jpg",
     },
     {
       nombre: "Amazon Basics Biodegradables",
       precio: "~8€",
+      precioAmazon: "8,36€",
       valoracion: 4,
       puntosFuertes: "El mejor precio por unidad. Razonablemente gruesas. Compatibles con dispensador estándar. Sin fragancia.",
       enlaceAmazon: "https://www.amazon.es/dp/B00NABTC8M",
@@ -109,6 +115,7 @@ Existen bolsas de papel encerado para excrementos, pero son poco prácticas: se 
     {
       nombre: "Doggy Do Good Compostables",
       precio: "~82€",
+      precioAmazon: "82,46€",
       valoracion: 4,
       puntosFuertes: "Certificación ASTM D6400, almidón de maíz, extra largas (23 x 35 cm), totalmente compostables, sin fragancia.",
       enlaceAmazon: "https://www.amazon.es/dp/B01LY7IKBQ",
@@ -131,10 +138,6 @@ El grosor extra también repercute en la experiencia de uso: las bolsas más fin
 
 **Lo menos bueno:** llevan certificación EPI (no EN 13432), por lo que su compostabilidad es menos rigurosa que la de Biobag.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00N2MBTOY" tienda="amazon" texto="Consultar precio en Amazon" />
-</div>
-
 ### Biobag: la opción más ecológica de verdad
 
 Si tu prioridad es el medio ambiente por encima de todo, Biobag es tu marca. Es una de las pocas que cuenta con la certificación EN 13432 y el sello OK Compost, lo que garantiza que sus bolsas se descomponen completamente en instalaciones de compostaje industrial en un plazo de 90 a 180 días.
@@ -144,24 +147,6 @@ Están fabricadas con Mater-Bi, un bioplástico a base de almidón de maíz. La 
 **Lo bueno:** la certificación medioambiental más seria del mercado, compostabilidad real, marca con décadas de experiencia.
 
 **Lo menos bueno:** algo menos resistentes que las Pogi's, precio ligeramente superior por unidad, se degradan si las guardas mucho tiempo.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B01K1U271S" tienda="amazon" texto="Consultar precio en Amazon" />
-</div>
-
-### Earth Rated: la marca premium
-
-Earth Rated ha construido una marca sólida a base de calidad consistente. Sus bolsas son gruesas, fáciles de abrir (algo que se agradece cuando tienes prisa y una mano ocupada con la correa) y tienen un aroma a lavanda agradable que disimula bien los olores.
-
-El pack de 270 bolsas sale algo más caro que la competencia, pero muchos usuarios repiten por la fiabilidad. También ofrecen dispensadores propios con diseño bonito que se enganchan a la correa.
-
-**Lo bueno:** muy resistentes, fáciles de separar del rollo, aroma agradable, dispensador incluido en algunos packs.
-
-**Lo menos bueno:** precio por unidad superior a la media, sus credenciales biodegradables no son las más transparentes.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0088LIINY" tienda="amazon" texto="Consultar precio en Amazon" />
-</div>
 
 ## Tabla comparativa de las bolsas analizadas
 
@@ -249,10 +234,6 @@ La diferencia de textura que algunos usuarios describen como "menos táctil" que
 
 **Lo menos bueno:** algo menos resistentes que las Pogi's, precio ligeramente superior por unidad, se degradan si las guardas mucho tiempo.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B01K1U271S" tienda="amazon" texto="Consultar precio en Amazon" />
-</div>
-
 ### Earth Rated: la marca premium
 
 Earth Rated ha construido una marca sólida a base de calidad consistente. Sus bolsas son gruesas, fáciles de abrir (algo que se agradece cuando tienes prisa y una mano ocupada con la correa) y tienen un aroma a lavanda agradable que disimula bien los olores.
@@ -263,11 +244,7 @@ Lo que distingue a Earth Rated de otras marcas similares es la constancia de cal
 
 **Lo bueno:** muy resistentes, fáciles de separar del rollo, aroma agradable, dispensador incluido en algunos packs.
 
-**Lo menos bueno:** precio por unidad superior a la media, sus credenciales biodegradables no son las más transparentes.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0088LIINY" tienda="amazon" texto="Consultar precio en Amazon" />
-</div>
+**Lo menos bueno:** precio por unidad superior a la media, sus credenciales biodegradables no son las más transparentes. Disponible también en Tiendanimal (~6€).
 
 ### Amazon Basics Biodegradables: la opción más económica
 
@@ -278,10 +255,6 @@ No tienen el grosor ni la certificación de las Pogi's o las Biobag, pero para e
 **Lo bueno:** el mejor precio por unidad, compatible con cualquier dispensador, disponibles en grandes cantidades.
 
 **Lo menos bueno:** grosor estándar (puede no ser suficiente para deposiciones muy blandas o perros grandes), certificación menos detallada que otras marcas.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B00NABTC8M" tienda="amazon" texto="Consultar precio en Amazon" />
-</div>
 
 ## Preguntas frecuentes
 
