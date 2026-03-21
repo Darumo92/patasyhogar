@@ -79,9 +79,15 @@ const productSchemas = productos.map(p => {
           returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
           merchantReturnDays: 30,
           returnMethod: 'https://schema.org/ReturnByMail',
+          returnFees: 'https://schema.org/FreeReturn',
         },
         shippingDetails: {
           '@type': 'OfferShippingDetails',
+          shippingRate: {
+            '@type': 'MonetaryAmount',
+            value: 0,
+            currency: 'EUR',
+          },
           shippingDestination: {
             '@type': 'DefinedRegion',
             addressCountry: 'ES',
