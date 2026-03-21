@@ -33,6 +33,11 @@ const canonicalUrl = canonical || Astro.url.href;
     <!-- Preload critical font (latin covers all Spanish chars: á é í ó ú ñ ü) -->
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
 
+    <!-- Display font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&display=swap" />
+
     <!-- Preconnect for resources loaded on most pages -->
     <link rel="preconnect" href="https://m.media-amazon.com" crossorigin />
 
@@ -115,6 +120,30 @@ const canonicalUrl = canonical || Astro.url.href;
       <slot />
     </main>
     <Footer />
+
+    <!-- Mobile bottom navigation -->
+    <nav class="bottom-nav" aria-label="Navegación rápida">
+      <a href="/" class="bottom-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+        <span>Inicio</span>
+      </a>
+      <a href="/perros/" class="bottom-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><circle cx="7" cy="5" r="2"/><path d="M5.5 7 3 21"/><path d="M8 7l2.5 14"/><path d="M13 4c0 0 3 2 5 2s4-1 4-1"/><path d="M13 4c0 2 1.5 6 3 8"/><path d="M18 6c0 2-1 6-3 8"/></svg>
+        <span>Perros</span>
+      </a>
+      <a href="/gatos/" class="bottom-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26.72.3.58 1.05.4 1.68-.2.67-.7 1.72-1.38 3.1C20.44 9.41 21 11.14 21 13a9 9 0 1 1-18 0c0-1.86.56-3.59 1.56-5.22C3.86 6.36 3.36 5.31 3.16 4.64 2.98 4 2.84 3.3 3.58 3c1.39-.58 4.64.26 6.42 2.26.65-.17 1.33-.26 2-.26Z"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75Z"/></svg>
+        <span>Gatos</span>
+      </a>
+      <a href="/articulos/" class="bottom-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg>
+        <span>Guías</span>
+      </a>
+      <a href="/buscar/" class="bottom-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span>Buscar</span>
+      </a>
+    </nav>
 
     <!-- GA4: load after page is interactive -->
     <script is:inline>

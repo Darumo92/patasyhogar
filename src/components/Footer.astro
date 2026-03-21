@@ -1,4 +1,6 @@
 ---
+import LogoIcon from './LogoIcon.astro';
+
 const categorias = [
   { href: '/alimentacion/', label: 'Alimentación' },
   { href: '/higiene/', label: 'Higiene' },
@@ -15,7 +17,7 @@ const year = new Date().getFullYear();
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" class="logo" style="color: #fff;">
-          <span class="logo-icon">🐾</span>
+          <LogoIcon size={28} />
           Patas y <span style="color: #f59e0b">Hogar</span>
         </a>
         <p>

@@ -2,6 +2,7 @@
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import AnimalFilter from '@/components/AnimalFilter.astro';
+import CategoryIcon from '@/components/CategoryIcon.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos');
@@ -12,7 +13,7 @@ const destacados = articulos
 
 const recientes = articulos
   .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
-  .slice(0, 6);
+  .slice(0, 4);
 
 const perroCount = recientes.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
 const gatoCount = recientes.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
@@ -104,42 +105,36 @@ const categorias = [
     slug: 'alimentacion',
     nombre: 'Alimentación',
     descripcion: 'Pienso, húmeda, snacks, fuentes y comederos para perros y gatos',
-    icono: '🥣',
     count: articulos.filter(a => a.data.categoria === 'alimentacion').length,
   },
   {
     slug: 'higiene',
     nombre: 'Higiene',
     descripcion: 'Arena, areneros, cepillos, champús y cuidado diario',
-    icono: '🪮',
     count: articulos.filter(a => a.data.categoria === 'higiene').length,
   },
   {
     slug: 'paseo',
     nombre: 'Paseo y Transporte',
     descripcion: 'Arneses, correas, transportines, ropa y accesorios de viaje',
-    icono: '🦮',
     count: articulos.filter(a => a.data.categoria === 'paseo').length,
   },
   {
     slug: 'juguetes',
     nombre: 'Juguetes',
     descripcion: 'Juguetes interactivos, rascadores, mordedores y estimulación mental',
-    icono: '🧸',
     count: articulos.filter(a => a.data.categoria === 'juguetes').length,
   },
   {
     slug: 'hogar',
     nombre: 'Hogar y Descanso',
     descripcion: 'Camas, mantas, protectores y accesorios para casa',
-    icono: '🏠',
     count: articulos.filter(a => a.data.categoria === 'hogar').length,
   },
   {
     slug: 'cuidados',
     nombre: 'Cuidados',
     descripcion: 'Guías sobre salud, comportamiento y bienestar de tu mascota',
-    icono: '📖',
     count: articulos.filter(a => a.data.tipo === 'informativo').length,
   },
 ];
@@ -161,6 +156,20 @@ const categorias = [
       <p class="hero-subtitle">
         Analizamos productos en Amazon, Zooplus y Tiendanimal para que tú solo tengas que elegir.
       </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>{totalProductos}+</strong>
+          <span>productos</span>
+        </div>
+        <div class="hero-stat">
+          <strong>{comparativas.length}</strong>
+          <span>comparativas</span>
+        </div>
+        <div class="hero-stat">
+          <strong>3</strong>
+          <span>tiendas</span>
+        </div>
+      </div>
       <div class="hero-cta">
         <a href="/perros/" class="hero-cta-btn hero-cta-primary">
           🐶 Guías para perros
@@ -170,7 +179,7 @@ const categorias = [
         </a>
       </div>
       <p class="hero-meta">
-        {totalProductos}+ productos · {comparativas.length} comparativas · Precios actualizados
+        Precios actualizados en marzo 2026 · Comparados en 3 tiendas
       </p>
     </div>
   </section>
@@ -206,7 +215,7 @@ const categorias = [
       <div class="categories-grid">
         {categorias.map(cat => (
           <a href={`/${cat.slug}/`} class="category-card">
-            <span class="category-icon" aria-hidden="true">{cat.icono}</span>
+            <span class="category-icon" aria-hidden="true"><CategoryIcon categoria={cat.slug} size={24} /></span>
             <div class="category-info">
               <h3>{cat.nombre}</h3>
               <p>{cat.descripcion}</p>

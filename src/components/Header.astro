@@ -1,17 +1,20 @@
 ---
+import LogoIcon from './LogoIcon.astro';
+import CategoryIcon from './CategoryIcon.astro';
+
 const currentPath = Astro.url.pathname;
 
 const comparativaLinks = [
-  { href: '/alimentacion/', label: 'Alimentación', icono: '🥣' },
-  { href: '/higiene/', label: 'Higiene', icono: '🪮' },
-  { href: '/paseo/', label: 'Paseo y Transporte', icono: '🦮' },
-  { href: '/juguetes/', label: 'Juguetes', icono: '🧸' },
-  { href: '/hogar/', label: 'Hogar y Descanso', icono: '🏠' },
+  { href: '/alimentacion/', label: 'Alimentación', cat: 'alimentacion' },
+  { href: '/higiene/', label: 'Higiene', cat: 'higiene' },
+  { href: '/paseo/', label: 'Paseo y Transporte', cat: 'paseo' },
+  { href: '/juguetes/', label: 'Juguetes', cat: 'juguetes' },
+  { href: '/hogar/', label: 'Hogar y Descanso', cat: 'hogar' },
 ];
 
 const infoLinks = [
-  { href: '/cuidados/', label: 'Cuidados y consejos', icono: '📖' },
-  { href: '/articulos/', label: 'Todos los artículos', icono: '📚' },
+  { href: '/cuidados/', label: 'Cuidados y consejos', cat: 'cuidados' },
+  { href: '/articulos/', label: 'Todos los artículos', cat: '' },
 ];
 
 const isPerrosActive = currentPath.startsWith('/perros/');
@@ -23,7 +26,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
   <div class="container">
     <div class="header-inner">
       <a href="/" class="logo">
-        <span class="logo-icon">🐾</span>
+        <LogoIcon size={28} />
         Patas y <span>Hogar</span>
       </a>
 
@@ -65,7 +68,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
                 class={`nav-dropdown-item ${currentPath.startsWith(link.href) ? 'active' : ''}`}
                 role="menuitem"
               >
-                <span aria-hidden="true">{link.icono}</span>
+                <CategoryIcon categoria={link.cat} size={18} />
                 {link.label}
               </a>
             ))}
@@ -77,7 +80,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
                 class={`nav-dropdown-item ${currentPath.startsWith(link.href) ? 'active' : ''}`}
                 role="menuitem"
               >
-                <span aria-hidden="true">{link.icono}</span>
+                {link.cat ? <CategoryIcon categoria={link.cat} size={18} /> : <span aria-hidden="true">📚</span>}
                 {link.label}
               </a>
             ))}
