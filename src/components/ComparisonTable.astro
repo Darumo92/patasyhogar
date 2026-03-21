@@ -151,9 +151,10 @@ function tiendas(p: Producto) {
 <div class="comp-grid">
   {productos.map((p, i) => {
     const stores = tiendas(p);
+    const ratingPercent = (p.valoracion / 5) * 100;
     return (
-      <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`}>
-        {i === 0 && <span class="comp-badge">Mejor opción</span>}
+      <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={p.precio}>
+        {i === 0 && <span class="comp-badge">🏆 Mejor opción</span>}
 
         <div class="comp-header">
           {p.imagen && (
@@ -164,10 +165,12 @@ function tiendas(p: Producto) {
           <div class="comp-header-info">
             <h4 class="comp-name">{p.nombre}</h4>
             <div class="comp-meta">
-              <span class="comp-stars" title={`${p.valoracion}/5`}>
-                {estrellas(p.valoracion)}
-                <span class="comp-stars-num">{p.valoracion}/5</span>
-              </span>
+              <div class="comp-rating">
+                <div class="comp-rating-bar">
+                  <div class="comp-rating-fill" style={`width: ${ratingPercent}%`}></div>
+                </div>
+                <span class="comp-rating-num">{p.valoracion}/5</span>
+              </div>
               <span class="comp-price">{p.precio}</span>
             </div>
           </div>
@@ -175,20 +178,40 @@ function tiendas(p: Producto) {
 
         <p class="comp-desc">{p.puntosFuertes}</p>
 
-        <div class="comp-stores">
-          {stores.map(s => (
-            <a
-              href={s.href}
-              class={`affiliate-button ${s.clase}`}
-              target="_blank"
-              rel="nofollow noopener noreferrer sponsored"
-            >
-              <StoreIcon tienda={s.clase as any} size={15} />
-              {s.nombre} — {s.precio}
-              {s.mejor && <span class="comp-best">Mejor precio</span>}
-            </a>
-          ))}
-        </div>
+        {stores.length > 1 ? (
+          <div class="comp-price-table">
+            {stores.map(s => (
+              <a
+                href={s.href}
+                class={`comp-price-row ${s.mejor ? 'comp-price-row--best' : ''}`}
+                target="_blank"
+                rel="nofollow noopener noreferrer sponsored"
+              >
+                <span class="comp-price-store">
+                  <StoreIcon tienda={s.clase as any} size={14} />
+                  {s.nombre}
+                </span>
+                <span class="comp-price-amount">{s.precio}</span>
+                {s.mejor && <span class="comp-price-best-tag">Mejor precio</span>}
+                <span class="comp-price-go">Ver →</span>
+              </a>
+            ))}
+          </div>
+        ) : (
+          <div class="comp-stores">
+            {stores.map(s => (
+              <a
+                href={s.href}
+                class={`affiliate-button ${s.clase}`}
+                target="_blank"
+                rel="nofollow noopener noreferrer sponsored"
+              >
+                <StoreIcon tienda={s.clase as any} size={15} />
+                {s.nombre} — {s.precio}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     );
   })}
@@ -224,6 +247,7 @@ function tiendas(p: Producto) {
 
 .comp-card--top {
   border: 2px solid var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 3%, var(--color-bg-card));
 }
 
 .comp-card--top:hover {
@@ -232,16 +256,17 @@ function tiendas(p: Producto) {
 
 .comp-badge {
   position: absolute;
-  top: -0.65rem;
+  top: -0.7rem;
   left: 1.25rem;
-  background: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
   color: #fff;
   font-size: 0.68rem;
   font-weight: 700;
-  padding: 0.2rem 0.7rem;
+  padding: 0.25rem 0.8rem;
   border-radius: 100px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--color-primary) 25%, transparent);
 }
 
 /* --- Header: image + name/rating/price --- */
@@ -288,19 +313,32 @@ function tiendas(p: Producto) {
   flex-wrap: wrap;
 }
 
-.comp-stars {
-  color: #f59e0b;
-  font-size: 1rem;
-  letter-spacing: -1px;
+/* Rating bar */
+.comp-rating {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
-.comp-stars-num {
-  font-size: 0.8rem;
+.comp-rating-bar {
+  width: 80px;
+  height: 6px;
+  background: var(--color-border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.comp-rating-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #f59e0b, #eab308);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.comp-rating-num {
+  font-size: 0.85rem;
+  font-weight: 700;
   color: var(--color-text-muted);
-  letter-spacing: normal;
 }
 
 .comp-price {
@@ -320,7 +358,79 @@ function tiendas(p: Producto) {
   border-top: 1px solid var(--color-border);
 }
 
-/* --- Store buttons --- */
+/* --- Price comparison table (multi-store) --- */
+.comp-price-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.comp-price-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.875rem;
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-muted);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+  font-size: 0.88rem;
+}
+
+.comp-price-row:hover {
+  background: var(--color-border);
+  color: var(--color-text);
+  transform: translateX(2px);
+}
+
+.comp-price-row--best {
+  background: color-mix(in srgb, var(--color-secondary) 10%, var(--color-bg-muted));
+  border: 1px solid color-mix(in srgb, var(--color-secondary) 25%, transparent);
+}
+
+.comp-price-row--best:hover {
+  background: color-mix(in srgb, var(--color-secondary) 15%, var(--color-bg-muted));
+}
+
+.comp-price-store {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  min-width: 110px;
+}
+
+.comp-price-amount {
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.comp-price-best-tag {
+  font-size: 0.6rem;
+  font-weight: 700;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.comp-price-go {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+/* --- Store buttons (single store fallback) --- */
 .comp-stores {
   display: flex;
   flex-wrap: wrap;
@@ -331,16 +441,6 @@ function tiendas(p: Producto) {
 .comp-stores .affiliate-button {
   font-size: 0.85rem;
   padding: 0.6rem 1.1rem;
-}
-
-.comp-best {
-  font-size: 0.65rem;
-  font-weight: 700;
-  background: rgba(255, 255, 255, 0.25);
-  padding: 0.1rem 0.4rem;
-  border-radius: 100px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 @media (max-width: 480px) {
@@ -376,7 +476,24 @@ function tiendas(p: Producto) {
     justify-content: center;
     font-size: 0.85rem;
     padding: 0.6rem 1.1rem;
+  }
+
+  .comp-price-store {
+    min-width: auto;
+  }
+
+  .comp-price-row {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .comp-price-go {
+    margin-left: 0;
     width: 100%;
+    text-align: center;
+    padding-top: 0.25rem;
+    border-top: 1px solid var(--color-border);
+    margin-top: 0.25rem;
   }
 }
 </style>

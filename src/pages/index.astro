@@ -61,6 +61,44 @@ const itemListSchema = {
   })),
 };
 
+// Seasonal content: find articles tagged with current season topics
+const now = new Date();
+const month = now.getMonth() + 1; // 1-12
+
+type SeasonalConfig = { tags: string[]; titulo: string; icono: string; color: string };
+const seasonalMap: SeasonalConfig[] = [];
+
+// Spring (March-May): procesionaria, allergies
+if (month >= 3 && month <= 5) {
+  seasonalMap.push({ tags: ['procesionaria', 'primavera', 'alergia'], titulo: 'Temporada de procesionaria', icono: '⚠️', color: '#dc2626' });
+  seasonalMap.push({ tags: ['garrapatas', 'antiparasitarios', 'pulgas'], titulo: 'Protege contra parásitos', icono: '🛡️', color: '#059669' });
+}
+// Summer (June-August): heat, hydration
+if (month >= 6 && month <= 8) {
+  seasonalMap.push({ tags: ['golpe de calor', 'verano', 'hidratacion'], titulo: 'Protege del calor', icono: '☀️', color: '#d97706' });
+  seasonalMap.push({ tags: ['viaje', 'transportin', 'coche'], titulo: 'Viajar con mascotas', icono: '🚗', color: '#2563eb' });
+}
+// Autumn (Sept-Nov): cold prep
+if (month >= 9 && month <= 11) {
+  seasonalMap.push({ tags: ['frio', 'ropa perro', 'abrigo'], titulo: 'Prepara el invierno', icono: '🧥', color: '#7c3aed' });
+}
+// Winter (Dec-Feb): cold, gifts
+if (month === 12 || month <= 2) {
+  seasonalMap.push({ tags: ['navidad', 'regalo', 'juguete'], titulo: 'Regalos para mascotas', icono: '🎁', color: '#dc2626' });
+  seasonalMap.push({ tags: ['frio', 'ropa perro', 'manta'], titulo: 'Mantén caliente a tu mascota', icono: '❄️', color: '#2563eb' });
+}
+
+// Find matching seasonal articles
+const seasonalArticles: { articulo: typeof articulos[0]; config: SeasonalConfig }[] = [];
+for (const config of seasonalMap) {
+  const match = articulos.find(a =>
+    a.data.tags?.some(t => config.tags.some(st => t.toLowerCase().includes(st)))
+  );
+  if (match && !seasonalArticles.some(s => s.articulo.slug === match.slug)) {
+    seasonalArticles.push({ articulo: match, config });
+  }
+}
+
 const categorias = [
   {
     slug: 'alimentacion',
@@ -137,6 +175,29 @@ const categorias = [
     </div>
   </section>
 
+  <!-- Seasonal Banner -->
+  {seasonalArticles.length > 0 && (
+    <section class="seasonal-banner">
+      <div class="container">
+        <div class="seasonal-items">
+          {seasonalArticles.slice(0, 2).map(({ articulo: sa, config }) => {
+            const saUrl = `/${sa.data.tipo === 'informativo' ? 'cuidados' : sa.data.categoria}/${sa.slug}/`;
+            return (
+              <a href={saUrl} class="seasonal-item" style={`--seasonal-color: ${config.color}`}>
+                <span class="seasonal-icon">{config.icono}</span>
+                <div class="seasonal-text">
+                  <strong>{config.titulo}</strong>
+                  <span>{sa.data.titulo}</span>
+                </div>
+                <span class="seasonal-arrow">→</span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- Categorías -->
   <section class="section" style="background: var(--color-bg-muted); border-bottom: 1px solid var(--color-border);">
     <div class="container">
@@ -194,12 +255,13 @@ const categorias = [
     </section>
   )}
 
-  <!-- Newsletter -->
+  <!-- Newsletter (home: lead magnet) -->
   <section class="section newsletter-section">
     <div class="container text-center">
-      <h2 class="newsletter-section-title">📬 No te pierdas nada</h2>
+      <h2 class="newsletter-section-title">📋 Checklist gratis: lo esencial para tu mascota</h2>
       <p class="newsletter-section-desc">
-        Recibe nuevas comparativas y consejos para tu mascota directamente en tu email. Sin spam, solo contenido útil.
+        Descarga nuestra guía con el equipamiento imprescindible para perros y gatos.
+        Además, recibirás nuestras mejores comparativas y alertas de bajadas de precio.
       </p>
       <form
         action="/api/subscribe"
@@ -215,10 +277,10 @@ const categorias = [
           aria-label="Tu email"
           class="newsletter-input"
         />
-        <button type="submit" class="newsletter-btn">Suscribirme</button>
+        <button type="submit" class="newsletter-btn">Quiero la guía</button>
       </form>
       <p class="newsletter-section-privacy" id="newsletter-msg-hero">
-        Sin spam. Puedes darte de baja cuando quieras.
+        Gratis y sin spam. Puedes darte de baja cuando quieras.
       </p>
     </div>
   </section>

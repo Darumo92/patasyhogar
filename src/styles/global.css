@@ -98,6 +98,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 img {
@@ -180,6 +181,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 100;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .header-inner {
@@ -384,6 +386,96 @@ a:hover {
 }
 
 /* =========================================
+   SEASONAL BANNER
+   ========================================= */
+
+.seasonal-banner {
+  padding: 1rem 0;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.seasonal-items {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.seasonal-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 280px;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--seasonal-color, var(--color-primary));
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+}
+
+.seasonal-item:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--seasonal-color, var(--color-primary));
+  color: var(--color-text);
+  transform: translateY(-1px);
+}
+
+.seasonal-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.seasonal-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.seasonal-text strong {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--seasonal-color, var(--color-primary));
+}
+
+.seasonal-text span {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--color-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.seasonal-arrow {
+  font-weight: 700;
+  color: var(--seasonal-color, var(--color-primary));
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.seasonal-item:hover .seasonal-arrow {
+  transform: translateX(3px);
+}
+
+@media (max-width: 480px) {
+  .seasonal-items {
+    flex-direction: column;
+  }
+
+  .seasonal-item {
+    min-width: auto;
+  }
+}
+
+/* =========================================
    NEWSLETTER SECTION
    ========================================= */
 
@@ -456,7 +548,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  transition: all 0.25s ease;
+  transition: all 0.25s ease, background-color 0.3s ease;
   color: var(--color-text);
 }
 
@@ -510,7 +602,7 @@ a:hover {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease, background-color 0.3s ease;
   display: flex;
   flex-direction: column;
 }

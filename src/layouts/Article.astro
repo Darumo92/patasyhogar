@@ -277,8 +277,8 @@ const breadcrumbSchema = {
     )}
 
     <div class="article-newsletter">
-      <p class="article-newsletter-title">📬 ¿Te ha sido útil? Recibe más contenido como este</p>
-      <p class="article-newsletter-desc">Comparativas, consejos y novedades para tu mascota. Sin spam, solo contenido útil.</p>
+      <p class="article-newsletter-title">🔔 ¿Te avisamos cuando actualicemos esta guía?</p>
+      <p class="article-newsletter-desc">Actualizamos precios y productos regularmente. Suscríbete y te avisaremos de los cambios en esta guía y otras similares.</p>
       <form
         action="/api/subscribe"
         method="post"
@@ -320,7 +320,61 @@ const breadcrumbSchema = {
     </div>
   </article>
 
+  {!esInformativo && (
+    <div class="sticky-cta-bar" id="sticky-cta" aria-hidden="true">
+      <div class="sticky-cta-inner">
+        <span class="sticky-cta-name" id="sticky-cta-name"></span>
+        <span class="sticky-cta-price" id="sticky-cta-price"></span>
+        <a href="#" class="sticky-cta-btn" id="sticky-cta-link" target="_blank" rel="nofollow noopener noreferrer sponsored">
+          Ver precio →
+        </a>
+      </div>
+    </div>
+  )}
+
   <script>
+    // Sticky CTA bar for mobile
+    (function() {
+      const stickyBar = document.getElementById('sticky-cta');
+      if (!stickyBar) return;
+
+      const nameEl = document.getElementById('sticky-cta-name');
+      const priceEl = document.getElementById('sticky-cta-price');
+      const linkEl = document.getElementById('sticky-cta-link');
+      if (!nameEl || !priceEl || !linkEl) return;
+
+      const topPick = document.querySelector('.top-pick');
+      if (!topPick) return;
+
+      const name = topPick.querySelector('.top-pick-nombre')?.textContent || '';
+      const price = topPick.querySelector('.top-pick-precio')?.textContent || '';
+      const firstLink = topPick.querySelector('.affiliate-button') as HTMLAnchorElement;
+      if (!firstLink) return;
+
+      nameEl.textContent = name.length > 30 ? name.slice(0, 30) + '...' : name;
+      priceEl.textContent = price;
+      linkEl.href = firstLink.href;
+
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (window.innerWidth <= 768) {
+            stickyBar.classList.toggle('sticky-cta-visible', !entry.isIntersecting);
+            stickyBar.setAttribute('aria-hidden', String(entry.isIntersecting));
+          }
+        },
+        { threshold: 0 }
+      );
+      observer.observe(topPick);
+
+      // Hide on scroll to bottom (footer area)
+      window.addEventListener('scroll', () => {
+        const nearBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 200;
+        if (nearBottom) {
+          stickyBar.classList.remove('sticky-cta-visible');
+        }
+      }, { passive: true });
+    })();
+
     // Wrap tables for horizontal scroll on mobile
     document.querySelectorAll('.prose table').forEach(table => {
       if (!table.parentElement?.classList.contains('table-wrapper')) {
@@ -485,6 +539,68 @@ const breadcrumbSchema = {
     .breadcrumb-animal {
       font-size: 0.85rem;
       color: var(--color-text-muted);
+    }
+
+    /* Sticky CTA bar (mobile only) */
+    .sticky-cta-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 90;
+      background: var(--color-bg-card);
+      border-top: 1px solid var(--color-border);
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+      padding: 0.625rem 1rem;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+    .sticky-cta-bar.sticky-cta-visible {
+      transform: translateY(0);
+    }
+    .sticky-cta-inner {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .sticky-cta-name {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--color-text);
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .sticky-cta-price {
+      font-size: 0.9rem;
+      font-weight: 800;
+      color: var(--color-primary);
+      white-space: nowrap;
+    }
+    .sticky-cta-btn {
+      background: var(--color-primary);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.5rem 1rem;
+      border-radius: 100px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .sticky-cta-btn:hover {
+      background: var(--color-primary-dark);
+      color: #fff;
+    }
+    @media (max-width: 768px) {
+      .sticky-cta-bar {
+        display: block;
+      }
     }
 
     /* FAQ */

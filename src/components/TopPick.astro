@@ -52,7 +52,7 @@ if (tiendas.length > 1) {
 ---
 
 <div class="top-pick">
-  <div class="top-pick-badge">{etiqueta}</div>
+  <div class="top-pick-badge">🏆 {etiqueta}</div>
   <div class="top-pick-body">
     {imagen && (
       <div class="top-pick-img-wrap">
@@ -67,7 +67,7 @@ if (tiendas.length > 1) {
         {tiendas.map(s => (
           <a
             href={s.href}
-            class={`affiliate-button ${s.clase}`}
+            class={`affiliate-button ${s.clase} ${s.mejor ? 'tp-best-btn' : ''}`}
             target="_blank"
             rel="nofollow noopener noreferrer sponsored"
           >
@@ -85,24 +85,26 @@ if (tiendas.length > 1) {
 .top-pick {
   border: 2px solid var(--color-primary);
   border-radius: var(--radius-lg);
-  padding: 1.5rem;
+  padding: 1.75rem 1.5rem 1.5rem;
   margin: 1.5rem 0;
   background: color-mix(in srgb, var(--color-primary) 4%, var(--color-bg));
   position: relative;
+  box-shadow: 0 4px 24px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 .top-pick-badge {
   position: absolute;
-  top: -0.7rem;
+  top: -0.8rem;
   left: 1.25rem;
-  background: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
   color: white;
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  padding: 0.2rem 0.75rem;
+  padding: 0.3rem 0.9rem;
   border-radius: 100px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--color-primary) 30%, transparent);
 }
 
 .top-pick-body {
@@ -134,7 +136,7 @@ if (tiendas.length > 1) {
 }
 
 .top-pick-nombre {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 800;
   margin: 0 0 0.4rem;
   color: var(--color-text);
@@ -149,9 +151,9 @@ if (tiendas.length > 1) {
 }
 
 .top-pick-precio {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 800;
-  margin: 0 0 0.875rem;
+  margin: 0 0 1rem;
   color: var(--color-primary);
   letter-spacing: -0.02em;
 }
@@ -162,11 +164,22 @@ if (tiendas.length > 1) {
   gap: 0.5rem;
 }
 
-.tp-best {
-  font-size: 0.65rem;
+.top-pick-stores .affiliate-button {
+  font-size: 0.88rem;
+  padding: 0.65rem 1.2rem;
   font-weight: 700;
-  background: rgba(255, 255, 255, 0.25);
-  padding: 0.1rem 0.4rem;
+}
+
+.tp-best-btn {
+  position: relative;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3), 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tp-best {
+  font-size: 0.6rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0.15rem 0.45rem;
   border-radius: 100px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -195,8 +208,8 @@ if (tiendas.length > 1) {
   .top-pick-stores .affiliate-button {
     justify-content: center;
     width: 100%;
-    font-size: 0.85rem;
-    padding: 0.6rem 1.1rem;
+    font-size: 0.88rem;
+    padding: 0.7rem 1.1rem;
   }
 }
 </style>
