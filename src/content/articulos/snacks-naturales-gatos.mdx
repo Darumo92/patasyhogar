@@ -21,17 +21,15 @@ faqs:
     respuesta: "Nunca des a tu gato: cebolla, ajo, puerro o cebollino (destruyen glóbulos rojos), uvas o pasas (nefrotóxicas), chocolate o cacao (teobrombina tóxica), xilitol (presente en chicles y algunos dulces, muy tóxico), alcohol, aguacate o macadamia. El atún en lata en aceite puede darse ocasionalmente pero no como base de la dieta por su alto contenido en sodio y mercurio."
 ---
 
-import AffiliateButton from '@/components/AffiliateButton.astro';
 import ComparisonTable from '@/components/ComparisonTable.astro';
 import TopPick from '@/components/TopPick.astro';
 
 <TopPick
-  nombre="IAMS Naturally Liofilizado de Pollo"
-  descripcion="100% pechuga de pollo liofilizada sin aditivos, conservantes ni cereales. Alta palatabilidad, sin azúcar ni colorantes artificiales. Pack de 4 bolsas de 25 g."
-  precio="~12€ / 4x25g"
-  enlaceAmazon="https://www.amazon.es/dp/B07TZ3JZL5"
-  enlaceZooplus="https://www.zooplus.es/search/results?q=IAMS+Naturally+liofilizado+gato"
-  imagen="https://m.media-amazon.com/images/I/71mFgFSh9xL._AC_SL1500_.jpg"
+  nombre="Trixie Corazones de Pollo Liofilizados"
+  descripcion="100% corazones de pollo liofilizados. Snack monoproteico sin cereales ni aditivos. Intensamente sabroso y rico en proteínas. Pack de 6 bolsas de 25 g."
+  precio="~14€"
+  enlaceAmazon="https://www.amazon.es/dp/B0D98BVJ99"
+  imagen="https://m.media-amazon.com/images/I/61kTuad10YL._AC_.jpg"
   etiqueta="Nuestra elección"
 />
 
@@ -78,102 +76,82 @@ Antes de entrar en los productos concretos, conviene entender qué tipo de snack
   titulo="Top 5 snacks naturales para gatos"
   productos={[
     {
-      nombre: "IAMS Naturally Liofilizado de Pollo",
-      imagen: "https://m.media-amazon.com/images/I/71mFgFSh9xL._AC_SL1500_.jpg",
-      precio: "~12€ / 4x25g",
+      nombre: "Trixie Corazones de Pollo Liofilizados",
+      imagen: "https://m.media-amazon.com/images/I/61kTuad10YL._AC_.jpg",
+      precio: "~14€",
+      precioAmazon: "14,13€",
       valoracion: 5,
-      puntosFuertes: "100% pechuga de pollo liofilizada, sin cereales ni gluten, sin azúcar ni colorantes artificiales, alta palatabilidad, ideal para adiestramiento.",
-      enlaceAmazon: "https://www.amazon.es/dp/B07TZ3JZL5",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=IAMS+Naturally+liofilizado+gato",
+      puntosFuertes: "100% corazones de pollo liofilizados. Monoproteico, sin cereales ni aditivos. Intensamente sabroso y rico en proteínas. Pack 6x25g.",
+      enlaceAmazon: "https://www.amazon.es/dp/B0D98BVJ99",
     },
     {
-      nombre: "Cosma Snackies",
-      precio: "~18€",
+      nombre: "Dokas Corazones de Pollo Liofilizados",
+      precio: "~12€",
+      precioAmazon: "11,96€",
       valoracion: 5,
-      puntosFuertes: "Liofilizados de atún, pollo o gambas. Monoproteicos, sin cereales, alta digestibilidad, varios sabores.",
-      enlaceAmazon: "https://www.amazon.es/dp/B0D1XDB3DD",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Cosma+Snackies+gato",
-      imagen: "https://m.media-amazon.com/images/I/71FdkBWrSkL._AC_SL1500_.jpg",
+      puntosFuertes: "100% corazones de pollo liofilizados. Conserva todos los nutrientes naturales. Sin conservantes ni colorantes. Pack 6x15g.",
+      enlaceAmazon: "https://www.amazon.es/dp/B08H8X4ZZ3",
+      imagen: "https://m.media-amazon.com/images/I/713xlsNoYxL._AC_SL1500_.jpg",
     },
     {
-      nombre: "GimCat Sticks",
-      precio: "~3€ / pack 5 sticks",
-      valoracion: 4,
-      puntosFuertes: "Formato stick clásico con carne como primer ingrediente, amplia gama de sabores, palatabilidad alta, precio accesible.",
-      enlaceAmazon: "https://www.amazon.es/dp/B01MSCUP2O",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=GimCat+Sticks+gato",
-      imagen: "https://m.media-amazon.com/images/I/81QAL+v0ZFL._AC_SL1500_.jpg",
+      nombre: "INABA Churu Atún",
+      precio: "~3€",
+      precioAmazon: "3,25€",
+      valoracion: 5,
+      puntosFuertes: "Puré cremoso de atún en tubo. Sin cereales, conservantes ni colorantes. Solo 6 kcal por tubo. Ideal para dar medicamentos. Pack 4x14g.",
+      enlaceAmazon: "https://www.amazon.es/dp/B08TQPDTN1",
+      imagen: "https://m.media-amazon.com/images/I/81uPKDdpW1L._AC_SL1500_.jpg",
     },
     {
       nombre: "Purina Dentalife Gato",
-      precio: "~5€ / 8 sticks",
+      precio: "~12€",
+      precioAmazon: "12,07€",
       valoracion: 4,
-      puntosFuertes: "Textura porosa que reduce sarro y placa, respaldo clínico de Purina, apetecible para la mayoría de gatos.",
+      puntosFuertes: "Textura porosa que reduce sarro y placa. Respaldo clínico de Purina. Apetecible para la mayoría de gatos.",
       enlaceAmazon: "https://www.amazon.es/dp/B07SB8DDXZ",
-      enlaceZooplus: "https://www.zooplus.es/search/results?q=Purina+Dentalife+gato",
       imagen: "https://m.media-amazon.com/images/I/81JdHVLIJ4L._AC_SL1500_.jpg",
     },
     {
-      nombre: "Whiskas Temptations",
-      precio: "~3€ / 60g",
-      valoracion: 3,
-      puntosFuertes: "Exterior crujiente e interior cremoso, palatabilidad muy alta, económico, muy disponible en supermercados.",
-      enlaceAmazon: "https://www.amazon.es/dp/B0015AFWB6",
-      imagen: "https://m.media-amazon.com/images/I/71cNrH3S9nL._AC_SL1500_.jpg",
+      nombre: "Whiskas Sticks Pollo",
+      precio: "~49€ / 28 packs",
+      precioAmazon: "49€",
+      valoracion: 4,
+      puntosFuertes: "Sticks con pollo como ingrediente principal. Formato práctico. Muy apetecibles. Pack económico de 28 unidades.",
+      enlaceAmazon: "https://www.amazon.es/dp/B01LTHKZN4",
+      imagen: "https://m.media-amazon.com/images/I/61qnptq86TL._AC_SL1000_.jpg",
     },
   ]}
 />
 
 ## Análisis detallado
 
-### IAMS Naturally Liofilizado de Pollo: el snack más natural del mercado
+### Trixie Corazones de Pollo Liofilizados: el snack más natural
 
-IAMS Naturally ofrece snacks liofilizados con un solo ingrediente: 100% pechuga de pollo. Sin cereales, sin colorantes, sin conservantes, sin azúcar añadida ni OMG. El resultado es un snack con palatabilidad altísima y un perfil nutricional impecable: 80% de proteína, 8% de grasa y solo 1% de fibra bruta.
+Trixie ofrece snacks liofilizados con un solo ingrediente: 100% corazones de pollo. Sin cereales, sin colorantes, sin conservantes. El proceso de liofilización preserva todos los nutrientes esenciales y el sabor natural de la carne. A diferencia del deshidratado convencional que aplica calor y degrada vitaminas, la liofilización congela primero el alimento y luego elimina el agua mediante vacío a temperatura muy baja, conservando la estructura nutricional casi intacta.
 
-El proceso de liofilización preserva todos los nutrientes esenciales y el sabor natural de la pechuga de pollo. A diferencia del deshidratado convencional que aplica calor y degrada vitaminas y enzimas, la liofilización congela primero el alimento y luego elimina el agua mediante vacío a temperatura muy baja, conservando la estructura nutricional casi intacta. El resultado es un producto que se conserva sin conservantes añadidos durante meses y que retiene el sabor y el olor de la carne fresca.
+El formato de pack de 6 bolsas de 25 g resulta práctico para mantener la frescura: una vez abierta cada bolsa, se consume en pocos días sin que el producto se deteriore.
 
-El formato de pack de 4 bolsas de 25 g resulta práctico para mantener la frescura: una vez abierta cada bolsa, se consume en pocos días sin que el producto se deteriore.
-
-**Lo bueno:** ingrediente único (100% pechuga de pollo), sin cereales ni gluten, proceso de liofilización limpio, máxima palatabilidad, ideal para gatos con alergias o sensibilidades.
+**Lo bueno:** ingrediente único (100% corazón de pollo), monoproteico, proceso de liofilización limpio, máxima palatabilidad, ideal para gatos con alergias o sensibilidades.
 
 **Lo menos bueno:** precio algo elevado por gramo; hay que dosificar con cuidado por la densidad calórica.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B07TZ3JZL5" tienda="amazon" texto="Ver precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=IAMS+Naturally+liofilizado+gato" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
+### Dokas Corazones de Pollo Liofilizados: alternativa económica
 
-### Cosma Snackies: liofilizados de calidad a mejor precio
+Dokas ofrece un producto muy similar al de Trixie: corazones de pollo liofilizados al 100%, sin aditivos ni conservantes. El pack de 6 bolsas de 15 g es algo más pequeño pero a un precio inferior, lo que lo convierte en una opción excelente para probar los liofilizados antes de comprometerse con formatos más grandes.
 
-Cosma Snackies ofrece una alternativa muy similar a IAMS Naturally pero a un precio algo más accesible. Disponibles en versiones de atún, pollo y gambas, son snacks monoproteicos liofilizados sin aditivos. La palatabilidad es excelente —especialmente la versión de atún— y son fáciles de partir en trozos pequeños para usarlos como premios de adiestramiento.
+**Lo bueno:** 100% natural, buena relación calidad-precio, conserva todos los nutrientes, sin cereales.
 
-La variedad de sabores tiene una utilidad práctica para quienes usan snacks en el adiestramiento o en la administración de medicamentos. Algunos gatos tienen preferencias muy marcadas y rechazan el pollo pero aceptan sin reservas las gambas, o viceversa. Tener dos o tres sabores rotativos también evita la saciación sensorial: un gato que recibe el mismo snack todos los días acabará por perder entusiasmo hacia él. Usar diferentes sabores por días o semanas mantiene la motivación alta, algo especialmente valioso cuando el snack cumple una función de refuerzo conductual.
+**Lo menos bueno:** bolsas de 15 g se terminan rápido con gatos voraces.
 
-**Lo bueno:** varios sabores monoproteicos, sin cereales, precio mejor que IAMS Naturally, alta aceptación.
+### INABA Churu Atún: el puré cremoso que todos los gatos adoran
 
-**Lo menos bueno:** disponibilidad algo más limitada en tiendas físicas.
+El INABA Churu ha revolucionado el mercado de snacks para gatos con su formato de puré en tubo. La textura cremosa es irresistible para la inmensa mayoría de gatos, incluso los más exigentes. Con solo 6 kcal por tubo, es uno de los snacks más bajos en calorías del mercado. Sin cereales, sin conservantes ni colorantes.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B0D1XDB3DD" tienda="amazon" texto="Ver precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Cosma+Snackies+gato" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
+Es especialmente útil para administrar medicamentos (mezcla el comprimido triturado con el puré), para hidratar gatos que beben poco, y como distractor durante revisiones veterinarias.
 
-### GimCat Sticks: el clásico del formato stick
+**Lo bueno:** palatabilidad extrema, muy bajo en calorías, sin cereales, formato práctico, ideal para medicar.
 
-Los GimCat Sticks son probablemente los sticks para gatos más vendidos en España. Su popularidad se debe a que los gatos los aceptan con facilidad y a su precio muy accesible. La calidad de ingredientes es correcta para ser un snack de gran consumo, aunque no llega al nivel de los liofilizados.
-
-Hay que leer la etiqueta según la variedad: algunas versiones tienen carne como primer ingrediente con buen perfil; otras versiones más baratas o de supermercado pueden tener cereales más arriba en la lista.
-
-Los GimCat Sticks funcionan bien como snack de refuerzo intermitente para gatos que ya están acostumbrados a recibir premios. No son la opción ideal para adiestramiento intensivo (los trozos son demasiado grandes y el olor no es tan potente como el de un liofilizado), pero para el uso diario casual —un premio tras la revisión de uñas, un refuerzo positivo cuando el gato usa el rascador— cumplen perfectamente su función a un coste muy controlado.
-
-**Lo bueno:** palatabilidad alta, precio muy accesible, amplia disponibilidad, muchos sabores.
-
-**Lo menos bueno:** la calidad de ingredientes es variable según la variedad; no es la opción más natural del mercado.
-
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B01MSCUP2O" tienda="amazon" texto="Ver precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=GimCat+Sticks+gato" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
+**Lo menos bueno:** la textura cremosa no aporta acción dental; puede ensuciar si el gato lo come directamente del tubo.
 
 ### Purina Dentalife: para cuidar los dientes mientras premia
 
@@ -187,20 +165,15 @@ El contexto de uso del Dentalife es importante para entender su valor. La enferm
 
 **Lo menos bueno:** no es un snack puramente natural; tiene más ingredientes que los liofilizados.
 
-<div class="affiliate-button-group">
-  <AffiliateButton href="https://www.amazon.es/dp/B07SB8DDXZ" tienda="amazon" texto="Ver precio en Amazon" />
-  <AffiliateButton href="https://www.zooplus.es/search/results?q=Purina+Dentalife+gato" tienda="zooplus" texto="Ver precio en Zooplus" />
-</div>
-
 ## Guía de compra: cómo elegir el snack adecuado para tu gato
 
 No todos los snacks sirven para los mismos propósitos. Estos son los criterios que guían una buena elección.
 
 ### Define el objetivo del snack
 
-El primer paso es decidir para qué necesitas el snack. Si es para el adiestramiento o para reforzar comportamientos específicos, necesitas un premio con tres características: palatabilidad muy alta (que el gato lo considere algo especial), tamaño muy pequeño (para no disparar la ingesta calórica con muchas repeticiones) y olor potente (los gatos se orientan mucho por el olfato). Los liofilizados monoproteicos como IAMS Naturally o Cosma Snackies cumplen estos tres requisitos mejor que cualquier otro formato.
+El primer paso es decidir para qué necesitas el snack. Si es para el adiestramiento o para reforzar comportamientos específicos, necesitas un premio con tres características: palatabilidad muy alta (que el gato lo considere algo especial), tamaño muy pequeño (para no disparar la ingesta calórica con muchas repeticiones) y olor potente (los gatos se orientan mucho por el olfato). Los liofilizados monoproteicos como los de Trixie o Dokas cumplen estos tres requisitos mejor que cualquier otro formato.
 
-Si en cambio el snack es simplemente un premio diario casual, la calidad de ingredientes sigue siendo relevante pero el criterio de tamaño y palatabilidad extrema es menos crítico. Aquí los sticks como GimCat o los purés en tubo son perfectamente válidos.
+Si en cambio el snack es simplemente un premio diario casual, la calidad de ingredientes sigue siendo relevante pero el criterio de tamaño y palatabilidad extrema es menos crítico. Aquí los sticks como Whiskas o los purés en tubo como INABA Churu son perfectamente válidos.
 
 ### Prioriza la proteína animal identificada
 
@@ -218,11 +191,11 @@ Aunque los snacks se dan en pequeñas cantidades, un cambio brusco puede causar 
 
 | Snack | Tipo | Ingrediente principal | Sin cereales | Para adiestramiento | Efecto dental |
 |-------|------|----------------------|--------------|--------------------|----|
-| IAMS Naturally Liofilizado Pollo | Liofilizado | Pollo 100% | Sí | Excelente | No |
-| Cosma Snackies | Liofilizado | Pollo/Atún/Gambas | Sí | Muy bueno | No |
-| GimCat Sticks | Stick | Carne/derivados | Variable | Aceptable | No |
+| Trixie Corazones Pollo | Liofilizado | Pollo 100% | Sí | Excelente | No |
+| Dokas Corazones Pollo | Liofilizado | Pollo 100% | Sí | Excelente | No |
+| INABA Churu Atún | Puré cremoso | Atún | Sí | Muy bueno | No |
 | Purina Dentalife | Dental | Pollo/Derivados | No | Aceptable | Sí |
-| Whiskas Temptations | Crujiente/cremoso | Pollo/derivados | No | Aceptable | Leve |
+| Whiskas Sticks Pollo | Stick | Pollo/derivados | No | Aceptable | No |
 
 ## Consejos para usar snacks sin que tu gato engorde
 
@@ -232,11 +205,11 @@ Los snacks son un placer para el gato y un recurso de vínculo para el dueño, p
 
 **Compensa las calorías del snack reduciendo el pienso.** Si le das snacks a lo largo del día, reduce ligeramente la ración de pienso para compensar. Un error común es dar la ración completa de pienso más los snacks "porque son pequeños". Sumados, pueden suponer un exceso calórico significativo a lo largo de semanas.
 
-**Parte los snacks en trozos más pequeños.** Un liofilizado de IAMS Naturally que pesa 1 g se puede partir en 3-4 trozos sin perder su efecto como refuerzo conductual. El gato no distingue entre recibir un trozo grande o tres trozos pequeños como recompensa; lo que cuenta es el número de interacciones positivas, no el volumen de comida.
+**Parte los snacks en trozos más pequeños.** Un liofilizado de Trixie que pesa 1 g se puede partir en 3-4 trozos sin perder su efecto como refuerzo conductual. El gato no distingue entre recibir un trozo grande o tres trozos pequeños como recompensa; lo que cuenta es el número de interacciones positivas, no el volumen de comida.
 
 **Usa los snacks para enriquecer el entorno.** En lugar de dar el snack directamente de la mano, puedes esconderlo en diferentes lugares de la casa para que el gato lo busque. Esta práctica de búsqueda de comida estimula el instinto de caza, reduce el aburrimiento y convierte la misma cantidad de snack en una actividad de enriquecimiento ambiental.
 
-**Modera el uso de snacks de alta palatabilidad.** Los snacks muy apetecibles (Temptations, liofilizados) pueden crear dependencia conductual si se usan en exceso: el gato aprende que hacer determinados comportamientos genera el snack y puede volverse insistente. Usa los snacks más apetecibles para refuerzo esporádico, no como parte de una rutina fija que el gato pueda reclamar.
+**Modera el uso de snacks de alta palatabilidad.** Los snacks muy apetecibles (INABA Churu, liofilizados) pueden crear dependencia conductual si se usan en exceso: el gato aprende que hacer determinados comportamientos genera el snack y puede volverse insistente. Usa los snacks más apetecibles para refuerzo esporádico, no como parte de una rutina fija que el gato pueda reclamar.
 
 ## Snacks y obesidad felina: cuánto es demasiado
 
