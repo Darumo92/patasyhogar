@@ -24,34 +24,38 @@ const year = new Date().getFullYear();
         </p>
       </div>
 
-      <div class="footer-col">
+      <nav class="footer-col" aria-label="Categorías">
         <p class="footer-heading">Categorías</p>
         <ul class="footer-links" role="list">
           {categorias.map(c => (
             <li><a href={c.href}>{c.label}</a></li>
           ))}
         </ul>
-      </div>
+      </nav>
 
       <div class="footer-col">
-        <p class="footer-heading">Explorar</p>
-        <ul class="footer-links" role="list">
-          <li><a href="/perros/">🐶 Guías para perros</a></li>
-          <li><a href="/gatos/">🐱 Guías para gatos</a></li>
-          <li><a href="/cuidados/">📖 Cuidados y consejos</a></li>
-          <li><a href="/buscar/">🔍 Buscar artículos</a></li>
-          <li><a href="/articulos/">📚 Todos los artículos</a></li>
-          <li><a href="/tags/">🏷️ Temas</a></li>
-          <li><a href="/actualizaciones/">🔄 Actualizaciones</a></li>
-          <li><a href="/rss.xml">📡 RSS Feed</a></li>
-          <li><a href="/sobre-nosotros/">Sobre nosotros</a></li>
-        </ul>
-        <p class="footer-heading" style="margin-top: 1rem;">Legal</p>
-        <ul class="footer-links" role="list">
-          <li><a href="/politica-privacidad/">Privacidad</a></li>
-          <li><a href="/aviso-legal/">Aviso legal</a></li>
-          <li><a href="/cookies/">Cookies</a></li>
-        </ul>
+        <nav aria-label="Explorar">
+          <p class="footer-heading">Explorar</p>
+          <ul class="footer-links" role="list">
+            <li><a href="/perros/">🐶 Guías para perros</a></li>
+            <li><a href="/gatos/">🐱 Guías para gatos</a></li>
+            <li><a href="/cuidados/">📖 Cuidados y consejos</a></li>
+            <li><a href="/buscar/">🔍 Buscar artículos</a></li>
+            <li><a href="/articulos/">📚 Todos los artículos</a></li>
+            <li><a href="/tags/">🏷️ Temas</a></li>
+            <li><a href="/actualizaciones/">🔄 Actualizaciones</a></li>
+            <li><a href="/rss.xml">📡 RSS Feed</a></li>
+            <li><a href="/sobre-nosotros/">Sobre nosotros</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Información legal" style="margin-top: 1rem;">
+          <p class="footer-heading">Legal</p>
+          <ul class="footer-links" role="list">
+            <li><a href="/politica-privacidad/">Privacidad</a></li>
+            <li><a href="/aviso-legal/">Aviso legal</a></li>
+            <li><a href="/cookies/">Cookies</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
 

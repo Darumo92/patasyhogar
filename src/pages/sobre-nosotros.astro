@@ -1,9 +1,50 @@
 ---
 import Base from '@/layouts/Base.astro';
+
+const siteUrl = 'https://patasyhogar.com';
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Sobre nosotros' },
+  ],
+};
+
+const aboutPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'Sobre nosotros — Patas y Hogar',
+  description: 'Conoce al equipo detrás de Patas y Hogar. Guías de compra honestas para ayudarte a elegir los mejores productos para tu mascota.',
+  url: `${siteUrl}/sobre-nosotros/`,
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'Patas y Hogar',
+    url: siteUrl,
+    foundingDate: '2026',
+    description: 'Equipo de amantes de los animales afincado en España. Guías de compra y comparativas de productos para perros y gatos.',
+    email: 'contacto@patasyhogar.com',
+    areaServed: {
+      '@type': 'Country',
+      name: 'ES',
+    },
+    knowsAbout: ['productos para perros', 'productos para gatos', 'nutrición animal', 'cuidado de mascotas'],
+  },
+};
 ---
 
-<Base title="Sobre nosotros - Patas y Hogar" description="Conoce el equipo detrás de Patas y Hogar. Guías de compra honestas para ayudarte a elegir los mejores productos para tu mascota.">
+<Base title="Sobre nosotros — Patas y Hogar" description="Conoce al equipo detrás de Patas y Hogar. Guías de compra honestas para ayudarte a elegir los mejores productos para tu mascota.">
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(aboutPageSchema)} slot="head" />
+
   <article class="container legal-page">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="/">Inicio</a>
+      <span class="breadcrumb-sep" aria-hidden="true">›</span>
+      <span>Sobre nosotros</span>
+    </nav>
+
     <h1>Sobre nosotros</h1>
 
     <p>

@@ -1,8 +1,9 @@
 User-agent: *
 Allow: /
 Disallow: /404
-Disallow: /aviso-legal/
-Disallow: /cookies/
-Disallow: /politica-privacidad/
+Disallow: /api/
+
+# Las páginas legales usan meta noindex — NO bloquear con Disallow
+# para que Google pueda leer el noindex y desindexarlas correctamente.
 
 Sitemap: https://patasyhogar.com/sitemap-index.xml

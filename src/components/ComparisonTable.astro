@@ -65,6 +65,12 @@ const productSchemas = productos.map(p => {
         bestRating: 5,
       },
     },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: p.valoracion,
+      bestRating: 5,
+      ratingCount: 1,
+    },
     ...(price && {
       offers: {
         '@type': 'Offer',

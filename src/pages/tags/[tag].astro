@@ -44,6 +44,7 @@ const breadcrumbSchema = {
   title={`${tagName} — artículos y guías | Patas y Hogar`}
   description={`Todos los artículos sobre ${tagName} en Patas y Hogar. ${articulos.length} guías y comparativas de productos para mascotas.`}
 >
+  <meta name="robots" content="noindex, follow" slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
 
   <div class="category-page-header">

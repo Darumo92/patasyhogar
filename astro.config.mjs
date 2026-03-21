@@ -11,11 +11,10 @@ export default defineConfig({
       filter: (page) =>
         !page.includes('/aviso-legal/') &&
         !page.includes('/cookies/') &&
-        !page.includes('/politica-privacidad/'),
-      serialize(item) {
-        item.lastmod = new Date().toISOString();
-        return item;
-      },
+        !page.includes('/politica-privacidad/') &&
+        !page.includes('/buscar/') &&
+        !page.includes('/tags') &&
+        !page.includes('/actualizaciones/'),
     }),
   ],
   output: 'static',

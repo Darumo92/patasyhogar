@@ -25,26 +25,26 @@ const totalProductos = comparativas.reduce((sum, a) => {
 
 const siteUrl = 'https://patasyhogar.com';
 
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
-  ],
-};
-
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Patas y Hogar',
   url: siteUrl,
-  logo: `${siteUrl}/favicon.svg`,
+  logo: {
+    '@type': 'ImageObject',
+    url: `${siteUrl}/favicon.svg`,
+  },
   description: 'Guías de compra y comparativas de productos para perros y gatos',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'contacto@patasyhogar.com',
     contactType: 'customer service',
     availableLanguage: 'Spanish',
+  },
+  foundingDate: '2026',
+  areaServed: {
+    '@type': 'Country',
+    name: 'ES',
   },
 };
 
@@ -111,7 +111,6 @@ const categorias = [
   title="Patas y Hogar · Guías y comparativas para perros y gatos"
   description="Análisis honestos y comparativas de productos para perros y gatos. Pienso, accesorios, higiene, camas y transportines. Todo lo que tu mascota necesita."
 >
-  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(organizationSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
   <!-- Hero -->

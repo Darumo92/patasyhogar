@@ -1,5 +1,15 @@
 ---
 import Base from '@/layouts/Base.astro';
+
+const siteUrl = 'https://patasyhogar.com';
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Buscar' },
+  ],
+};
 ---
 
 <Base
@@ -7,6 +17,8 @@ import Base from '@/layouts/Base.astro';
   description="Busca entre todas nuestras guías y comparativas de productos para perros y gatos. Encuentra análisis de piensos, juguetes, camas, antiparasitarios y más."
   canonical="https://patasyhogar.com/buscar/"
 >
+  <meta name="robots" content="noindex, follow" slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
   <div class="container section">
     <h1 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem;">
       Buscar artículos
