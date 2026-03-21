@@ -30,15 +30,15 @@ const canonicalUrl = canonical || Astro.url.href;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Preload critical fonts -->
+    <!-- Preload critical font (latin covers all Spanish chars: á é í ó ú ñ ü) -->
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Preconnect for resources loaded on most pages -->
     <link rel="preconnect" href="https://m.media-amazon.com" crossorigin />
 
     <!-- DNS prefetch for external resources (lightweight, no unused connection warnings) -->
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
     <link rel="dns-prefetch" href="https://www.amazon.es" />
     <link rel="dns-prefetch" href="https://www.zooplus.es" />
