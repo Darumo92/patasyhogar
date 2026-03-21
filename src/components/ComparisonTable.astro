@@ -33,10 +33,6 @@ const { productos, titulo } = Astro.props;
 const FALLBACK_IMAGE = '/og-default.jpg';
 const PRICE_VALID_UNTIL = `${new Date().getFullYear() + 1}-12-31`;
 
-function estrellas(n: number): string {
-  return '★'.repeat(Math.round(n)) + '☆'.repeat(5 - Math.round(n));
-}
-
 function precioNumerico(precio: string): string | null {
   const match = precio.match(/(\d+[.,]?\d*)/);
   return match ? match[1].replace(',', '.') : null;
@@ -148,12 +144,22 @@ function tiendas(p: Producto) {
 
 {titulo && <h3 class="comp-titulo">{titulo}</h3>}
 
+{productos.length > 2 && (
+  <div class="comp-sort">
+    <span class="comp-sort-label">Ordenar por:</span>
+    <button class="comp-sort-btn comp-sort-btn--active" data-sort="default">Recomendado</button>
+    <button class="comp-sort-btn" data-sort="price-asc">Precio ↑</button>
+    <button class="comp-sort-btn" data-sort="price-desc">Precio ↓</button>
+    <button class="comp-sort-btn" data-sort="rating">Valoración</button>
+  </div>
+)}
+
 <div class="comp-grid">
   {productos.map((p, i) => {
     const stores = tiendas(p);
     const ratingPercent = (p.valoracion / 5) * 100;
     return (
-      <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={p.precio}>
+      <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={p.precio} data-price-num={parseFloat((p.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.'))} data-rating={p.valoracion} data-original-index={i}>
         {i === 0 && <span class="comp-badge">🏆 Mejor opción</span>}
 
         <div class="comp-header">
@@ -218,7 +224,48 @@ function tiendas(p: Producto) {
 </div>
 
 <style>
+/* Sort controls */
+.comp-sort {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.comp-sort-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-right: 0.25rem;
+}
+
+.comp-sort-btn {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 100px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.comp-sort-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.comp-sort-btn--active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
 .comp-titulo {
+  font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 800;
   margin-bottom: 1.25rem;
@@ -497,3 +544,42 @@ function tiendas(p: Producto) {
   }
 }
 </style>
+
+<script>
+  document.querySelectorAll('.comp-sort').forEach(sortBar => {
+    const grid = sortBar.nextElementSibling as HTMLElement;
+    if (!grid || !grid.classList.contains('comp-grid')) return;
+
+    const cards = Array.from(grid.querySelectorAll('.comp-card')) as HTMLElement[];
+    const btns = sortBar.querySelectorAll('.comp-sort-btn');
+
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btns.forEach(b => b.classList.remove('comp-sort-btn--active'));
+        btn.classList.add('comp-sort-btn--active');
+
+        const sortType = (btn as HTMLElement).dataset.sort;
+        const sorted = [...cards];
+
+        if (sortType === 'price-asc') {
+          sorted.sort((a, b) => parseFloat(a.dataset.priceNum || '0') - parseFloat(b.dataset.priceNum || '0'));
+        } else if (sortType === 'price-desc') {
+          sorted.sort((a, b) => parseFloat(b.dataset.priceNum || '0') - parseFloat(a.dataset.priceNum || '0'));
+        } else if (sortType === 'rating') {
+          sorted.sort((a, b) => parseFloat(b.dataset.rating || '0') - parseFloat(a.dataset.rating || '0'));
+        } else {
+          sorted.sort((a, b) => parseInt(a.dataset.originalIndex || '0') - parseInt(b.dataset.originalIndex || '0'));
+        }
+
+        // Remove top styling from all, add to first in sorted view
+        sorted.forEach((card, i) => {
+          card.classList.remove('comp-card--top');
+          const badge = card.querySelector('.comp-badge');
+          if (badge) (badge as HTMLElement).style.display = i === 0 ? '' : 'none';
+          if (i === 0) card.classList.add('comp-card--top');
+          grid.appendChild(card);
+        });
+      });
+    });
+  });
+</script>

@@ -1,0 +1,331 @@
+---
+import { getCollection } from 'astro:content';
+
+const articulos = await getCollection('articulos');
+
+// Build a lookup of articles by category + animal for the quiz results
+const quizData = articulos.map(a => ({
+  slug: a.slug,
+  titulo: a.data.titulo,
+  descripcion: a.data.descripcion,
+  categoria: a.data.categoria,
+  animal: a.data.animal,
+  tipo: a.data.tipo || 'comparativa',
+  imagen: a.data.imagen,
+  tags: a.data.tags || [],
+  url: a.data.tipo === 'informativo' ? `/cuidados/${a.slug}/` : `/${a.data.categoria}/${a.slug}/`,
+}));
+---
+
+<div class="quiz" id="pet-quiz">
+  <div class="quiz-step quiz-step--active" data-step="1">
+    <p class="quiz-question">¿Para quién buscas?</p>
+    <div class="quiz-options">
+      <button class="quiz-option" data-value="perro" data-field="animal">
+        <span class="quiz-option-icon">🐶</span>
+        <span>Perro</span>
+      </button>
+      <button class="quiz-option" data-value="gato" data-field="animal">
+        <span class="quiz-option-icon">🐱</span>
+        <span>Gato</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="quiz-step" data-step="2">
+    <p class="quiz-question">¿Qué tipo de producto te interesa?</p>
+    <div class="quiz-options quiz-options--grid">
+      <button class="quiz-option" data-value="alimentacion" data-field="categoria">
+        <span class="quiz-option-icon">🥣</span>
+        <span>Alimentación</span>
+      </button>
+      <button class="quiz-option" data-value="higiene" data-field="categoria">
+        <span class="quiz-option-icon">🪮</span>
+        <span>Higiene</span>
+      </button>
+      <button class="quiz-option" data-value="paseo" data-field="categoria">
+        <span class="quiz-option-icon">🦮</span>
+        <span>Paseo</span>
+      </button>
+      <button class="quiz-option" data-value="juguetes" data-field="categoria">
+        <span class="quiz-option-icon">🧸</span>
+        <span>Juguetes</span>
+      </button>
+      <button class="quiz-option" data-value="hogar" data-field="categoria">
+        <span class="quiz-option-icon">🏠</span>
+        <span>Hogar</span>
+      </button>
+      <button class="quiz-option" data-value="cuidados" data-field="categoria">
+        <span class="quiz-option-icon">❤️</span>
+        <span>Salud y cuidados</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="quiz-step" data-step="3">
+    <p class="quiz-question">Estas guías son para ti:</p>
+    <div class="quiz-results" id="quiz-results"></div>
+    <button class="quiz-restart" id="quiz-restart">← Volver a empezar</button>
+  </div>
+
+  <div class="quiz-progress">
+    <div class="quiz-progress-dot quiz-progress-dot--active" data-dot="1"></div>
+    <div class="quiz-progress-dot" data-dot="2"></div>
+    <div class="quiz-progress-dot" data-dot="3"></div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ quizData }}>
+(function() {
+  const quiz = document.getElementById('pet-quiz');
+  if (!quiz) return;
+
+  const answers = {};
+  const steps = quiz.querySelectorAll('.quiz-step');
+  const dots = quiz.querySelectorAll('.quiz-progress-dot');
+  const resultsEl = document.getElementById('quiz-results');
+  const restartBtn = document.getElementById('quiz-restart');
+
+  function goToStep(n) {
+    steps.forEach(s => s.classList.remove('quiz-step--active'));
+    dots.forEach(d => d.classList.remove('quiz-progress-dot--active'));
+    const step = quiz.querySelector(`[data-step="${n}"]`);
+    if (step) step.classList.add('quiz-step--active');
+    for (let i = 1; i <= n; i++) {
+      const dot = quiz.querySelector(`[data-dot="${i}"]`);
+      if (dot) dot.classList.add('quiz-progress-dot--active');
+    }
+  }
+
+  function showResults() {
+    if (!resultsEl) return;
+    const animal = answers.animal;
+    const cat = answers.categoria;
+
+    let results = quizData.filter(a =>
+      (a.animal === animal || a.animal === 'ambos') &&
+      (cat === 'cuidados' ? a.tipo === 'informativo' : a.categoria === cat)
+    );
+
+    if (results.length === 0) {
+      results = quizData.filter(a => a.animal === animal || a.animal === 'ambos').slice(0, 5);
+    }
+
+    results = results.slice(0, 5);
+
+    resultsEl.innerHTML = results.map(a => `
+      <a href="${a.url}" class="quiz-result-card">
+        ${a.imagen ? `<img src="${a.imagen}" alt="" width="80" height="45" loading="lazy" />` : ''}
+        <div>
+          <strong>${a.titulo}</strong>
+          <span>${a.descripcion.slice(0, 80)}${a.descripcion.length > 80 ? '...' : ''}</span>
+        </div>
+      </a>
+    `).join('');
+
+    goToStep(3);
+  }
+
+  quiz.querySelectorAll('.quiz-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const field = btn.dataset.field;
+      const value = btn.dataset.value;
+      answers[field] = value;
+
+      btn.closest('.quiz-options').querySelectorAll('.quiz-option').forEach(b => b.classList.remove('quiz-option--selected'));
+      btn.classList.add('quiz-option--selected');
+
+      setTimeout(() => {
+        if (field === 'animal') goToStep(2);
+        else if (field === 'categoria') showResults();
+      }, 200);
+    });
+  });
+
+  restartBtn?.addEventListener('click', () => {
+    Object.keys(answers).forEach(k => delete answers[k]);
+    quiz.querySelectorAll('.quiz-option--selected').forEach(b => b.classList.remove('quiz-option--selected'));
+    goToStep(1);
+  });
+})();
+</script>
+
+<style>
+.quiz {
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.quiz-step {
+  display: none;
+}
+
+.quiz-step--active {
+  display: block;
+  animation: quizFadeIn 0.3s ease;
+}
+
+@keyframes quizFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.quiz-question {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 1.25rem;
+}
+
+.quiz-options {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.quiz-options--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.625rem;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.quiz-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-bg-muted);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+  border-color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 5%, var(--color-bg-muted));
+}
+
+.quiz-option--selected {
+  border-color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 8%, var(--color-bg));
+  color: var(--color-primary);
+}
+
+.quiz-option-icon {
+  font-size: 1.75rem;
+}
+
+.quiz-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.quiz-result-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--color-bg-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+}
+
+.quiz-result-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+  color: var(--color-text);
+}
+
+.quiz-result-card img {
+  width: 80px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.quiz-result-card strong {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+}
+
+.quiz-result-card span {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.quiz-restart {
+  margin-top: 1rem;
+  background: none;
+  border: 1.5px solid var(--color-border);
+  border-radius: 100px;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: all 0.2s;
+}
+
+.quiz-restart:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.quiz-progress {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.quiz-progress-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-border);
+  transition: background 0.3s;
+}
+
+.quiz-progress-dot--active {
+  background: var(--color-primary);
+}
+
+@media (max-width: 480px) {
+  .quiz-options--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quiz-option {
+    padding: 0.75rem 1rem;
+    font-size: 0.82rem;
+  }
+
+  .quiz-option-icon {
+    font-size: 1.4rem;
+  }
+}
+</style>

@@ -231,6 +231,21 @@ const breadcrumbSchema = {
       </picture>
     )}
 
+    <aside class="trust-bar">
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Análisis independiente
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M12 2v4"/><path d="m16.24 7.76-2.83 2.83"/><path d="M18 12h4"/><path d="m16.24 16.24-2.83-2.83"/><path d="M12 18v4"/><path d="m7.76 16.24 2.83-2.83"/><path d="M2 12h4"/><path d="m7.76 7.76 2.83 2.83"/></svg>
+        Precios comparados en 3 tiendas
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M21.5 2v6s-6-1-12 4c0 0-1-5-1-10 7.5 0 13 0 13 0z"/><path d="M2.5 22c2-2 8-6 9.5-9.5"/><path d="M10 15c-3 0-6 3-6 3"/></svg>
+        Actualizado regularmente
+      </div>
+    </aside>
+
     {!esInformativo && (
       <div class="affiliate-disclaimer" role="note">
         <span aria-hidden="true">ℹ️</span>
@@ -269,12 +284,18 @@ const breadcrumbSchema = {
 
     {faqs && faqs.length > 0 && (
       <section class="faq-section" aria-labelledby="faq-titulo">
-        <h2 id="faq-titulo">Preguntas frecuentes</h2>
+        <div class="faq-header">
+          <h2 id="faq-titulo">Preguntas frecuentes</h2>
+          <p class="faq-subtitle">{faqs.length} preguntas sobre {titulo.toLowerCase().includes('mejor') ? titulo.replace(/^mejor\w*\s*/i, '') : titulo.toLowerCase()}</p>
+        </div>
         <div class="faq-list">
-          {faqs.map(f => (
-            <details class="faq-item">
-              <summary class="faq-pregunta">{f.pregunta}</summary>
-              <p class="faq-respuesta">{f.respuesta}</p>
+          {faqs.map((f, i) => (
+            <details class="faq-item" {...(i === 0 ? { open: true } : {})}>
+              <summary class="faq-pregunta">
+                <span class="faq-pregunta-text">{f.pregunta}</span>
+                <span class="faq-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="faq-respuesta">{f.respuesta}</div>
             </details>
           ))}
         </div>
@@ -519,6 +540,38 @@ const breadcrumbSchema = {
       counter-reset: toc-counter;
     }
 
+    /* Trust bar */
+    .trust-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1.25rem 0;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--color-secondary);
+      background: color-mix(in srgb, var(--color-secondary) 8%, var(--color-bg));
+      padding: 0.35rem 0.75rem;
+      border-radius: 100px;
+      border: 1px solid color-mix(in srgb, var(--color-secondary) 15%, transparent);
+    }
+    .trust-item svg {
+      flex-shrink: 0;
+    }
+    @media (max-width: 480px) {
+      .trust-bar {
+        gap: 0.375rem;
+      }
+      .trust-item {
+        font-size: 0.72rem;
+        padding: 0.3rem 0.6rem;
+      }
+    }
+
     .article-author a {
       color: var(--color-primary);
       text-decoration: none;
@@ -676,60 +729,99 @@ const breadcrumbSchema = {
       padding-top: 2rem;
       border-top: 2px solid var(--color-border);
     }
-    .faq-section h2 {
-      font-size: 1.3rem;
-      font-weight: 700;
+    .faq-header {
       margin-bottom: 1.25rem;
+    }
+    .faq-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 800;
+      margin-bottom: 0.25rem;
+    }
+    .faq-subtitle {
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
     }
     .faq-list {
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 0.625rem;
     }
     .faq-item {
       border: 1px solid var(--color-border);
-      border-radius: var(--radius-md);
+      border-left: 3px solid var(--color-primary);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
       overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .faq-item[open] {
+      border-left-color: var(--color-secondary);
+      background: color-mix(in srgb, var(--color-secondary) 2%, var(--color-bg));
     }
     .faq-pregunta {
       background: var(--color-bg-muted);
-      padding: 0.875rem 1.25rem;
+      padding: 1rem 1.25rem;
       font-weight: 600;
       font-size: 0.95rem;
       cursor: pointer;
       list-style: none;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 0.5rem;
+      gap: 0.75rem;
       user-select: none;
+      transition: background 0.2s;
+    }
+    .faq-pregunta:hover {
+      background: var(--color-border);
     }
     .faq-pregunta::-webkit-details-marker {
       display: none;
     }
-    .faq-pregunta::before {
-      content: 'P: ';
-      color: var(--color-primary);
-      font-weight: 700;
-      flex-shrink: 0;
+    .faq-pregunta-text {
+      flex: 1;
     }
-    .faq-pregunta::after {
-      content: '+';
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: var(--color-primary);
+    .faq-toggle {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--color-primary);
       flex-shrink: 0;
-      transition: transform 0.2s;
+      position: relative;
+      transition: transform 0.3s ease, background 0.2s;
     }
-    .faq-item[open] .faq-pregunta::after {
-      content: '−';
+    .faq-toggle::before,
+    .faq-toggle::after {
+      content: '';
+      position: absolute;
+      background: #fff;
+      border-radius: 1px;
+    }
+    .faq-toggle::before {
+      width: 10px;
+      height: 2px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .faq-toggle::after {
+      width: 2px;
+      height: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: transform 0.3s ease;
+    }
+    .faq-item[open] .faq-toggle {
+      background: var(--color-secondary);
+      transform: rotate(45deg);
     }
     .faq-respuesta {
       padding: 0.875rem 1.25rem;
       font-size: 0.9rem;
       color: var(--color-text-muted);
-      line-height: 1.6;
+      line-height: 1.7;
       margin: 0;
+      border-top: 1px solid var(--color-border);
     }
   </style>
 </Base>

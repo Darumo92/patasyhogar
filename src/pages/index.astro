@@ -3,6 +3,7 @@ import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import AnimalFilter from '@/components/AnimalFilter.astro';
 import CategoryIcon from '@/components/CategoryIcon.astro';
+import PetQuiz from '@/components/PetQuiz.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos');
@@ -184,6 +185,13 @@ const categorias = [
     </div>
   </section>
 
+  <!-- Quiz: ¿Qué necesita mi mascota? -->
+  <section class="section" style="padding: 3rem 0;">
+    <div class="container" style="max-width: 600px;">
+      <PetQuiz />
+    </div>
+  </section>
+
   <!-- Seasonal Banner -->
   {seasonalArticles.length > 0 && (
     <section class="seasonal-banner">
@@ -263,6 +271,35 @@ const categorias = [
       </div>
     </section>
   )}
+
+  <!-- Trust / Social proof -->
+  <section class="trust-section">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-card">
+          <span class="trust-card-icon">🔍</span>
+          <div>
+            <strong>Análisis independientes</strong>
+            <p>Probamos y comparamos productos reales. Sin reseñas patrocinadas.</p>
+          </div>
+        </div>
+        <div class="trust-card">
+          <span class="trust-card-icon">🏷️</span>
+          <div>
+            <strong>Precios comparados en 3 tiendas</strong>
+            <p>Amazon, Zooplus y Tiendanimal. Te mostramos el mejor precio.</p>
+          </div>
+        </div>
+        <div class="trust-card">
+          <span class="trust-card-icon">🔄</span>
+          <div>
+            <strong>Actualizado regularmente</strong>
+            <p>Revisamos precios y disponibilidad para que la info sea fiable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Newsletter (home: lead magnet) -->
   <section class="section newsletter-section">
