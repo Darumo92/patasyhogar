@@ -70,20 +70,40 @@ if (tiendas.length > 1) {
       <p class="top-pick-nombre">{nombre}</p>
       <p class="top-pick-desc">{descripcion}</p>
       <p class="top-pick-precio">{precio}</p>
-      <div class="top-pick-stores">
-        {tiendas.map(s => (
-          <a
-            href={s.href}
-            class={`affiliate-button ${s.clase} ${s.mejor ? 'tp-best-btn' : ''}`}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-          >
-            <StoreIcon tienda={s.clase as any} size={15} />
-            {s.nombre} — {s.precio}
-            {s.mejor && <span class="tp-best">Mejor precio</span>}
-          </a>
-        ))}
-      </div>
+      {tiendas.length > 1 ? (
+        <div class="tp-price-table">
+          {tiendas.map(s => (
+            <a
+              href={s.href}
+              class={`tp-price-row ${s.mejor ? 'tp-price-row--best' : ''}`}
+              target="_blank"
+              rel="nofollow noopener noreferrer sponsored"
+            >
+              <span class="tp-price-store">
+                <StoreIcon tienda={s.clase as any} size={14} />
+                {s.nombre}
+              </span>
+              <span class="tp-price-amount">{s.precio}</span>
+              {s.mejor && <span class="tp-price-best-tag">Mejor precio</span>}
+              <span class="tp-price-go">Ver →</span>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="top-pick-stores">
+          {tiendas.map(s => (
+            <a
+              href={s.href}
+              class={`affiliate-button ${s.clase}`}
+              target="_blank"
+              rel="nofollow noopener noreferrer sponsored"
+            >
+              <StoreIcon tienda={s.clase as any} size={15} />
+              {s.nombre} — {s.precio}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   </div>
 </div>
@@ -165,6 +185,81 @@ if (tiendas.length > 1) {
   letter-spacing: -0.02em;
 }
 
+/* --- Price comparison table (multi-store) --- */
+.tp-price-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.tp-price-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.875rem;
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-muted);
+  border-left: 3px solid var(--store-color, var(--color-border));
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+  font-size: 0.88rem;
+}
+
+.tp-price-row:hover {
+  background: var(--color-border);
+  color: var(--color-text);
+  transform: translateX(2px);
+}
+
+.tp-price-row[href*="amazon"] { --store-color: #ff9900; }
+.tp-price-row[href*="zooplus"] { --store-color: #398927; }
+.tp-price-row[href*="tiendanimal"] { --store-color: #00632E; }
+
+.tp-price-row--best {
+  background: color-mix(in srgb, var(--color-secondary) 10%, var(--color-bg-muted));
+  border: 1px solid color-mix(in srgb, var(--color-secondary) 25%, transparent);
+}
+
+.tp-price-row--best:hover {
+  background: color-mix(in srgb, var(--color-secondary) 15%, var(--color-bg-muted));
+}
+
+.tp-price-store {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  min-width: 110px;
+}
+
+.tp-price-amount {
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.tp-price-best-tag {
+  font-size: 0.6rem;
+  font-weight: 700;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.tp-price-go {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+/* --- Single store button --- */
 .top-pick-stores {
   display: flex;
   flex-wrap: wrap;
@@ -175,21 +270,6 @@ if (tiendas.length > 1) {
   font-size: 0.88rem;
   padding: 0.65rem 1.2rem;
   font-weight: 700;
-}
-
-.tp-best-btn {
-  position: relative;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3), 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.tp-best {
-  font-size: 0.6rem;
-  font-weight: 700;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 0.15rem 0.45rem;
-  border-radius: 100px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 @media (max-width: 540px) {
@@ -217,6 +297,24 @@ if (tiendas.length > 1) {
     width: 100%;
     font-size: 0.88rem;
     padding: 0.7rem 1.1rem;
+  }
+
+  .tp-price-store {
+    min-width: auto;
+  }
+
+  .tp-price-row {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tp-price-go {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.25rem;
+    border-top: 1px solid var(--color-border);
+    margin-top: 0.25rem;
   }
 }
 </style>
