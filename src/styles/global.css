@@ -718,8 +718,6 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
   gap: 2rem;
-  content-visibility: auto;
-  contain-intrinsic-size: auto 500px;
 }
 
 .article-card {
