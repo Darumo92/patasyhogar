@@ -109,6 +109,14 @@ const productSchemas = productos.map(p => {
   };
 });
 
+function starData(val: number) {
+  const full = Math.floor(val);
+  const decimal = val - full;
+  const half = decimal >= 0.3 && decimal <= 0.7;
+  const empty = 5 - full - (half ? 1 : 0);
+  return { full, half, empty: Math.max(0, empty) };
+}
+
 function tiendas(p: Producto) {
   const list: { nombre: string; clase: string; precio: string; href: string; mejor: boolean }[] = [];
   if (p.enlaceAmazon) list.push({ nombre: 'Amazon', clase: 'amazon', precio: p.precioAmazon || p.precio, href: amazonHref(p.enlaceAmazon), mejor: false });
@@ -151,7 +159,7 @@ function tiendas(p: Producto) {
 <div class="comp-grid">
   {productos.map((p, i) => {
     const stores = tiendas(p);
-    const ratingPercent = (p.valoracion / 5) * 100;
+    const stars = starData(p.valoracion);
     return (
       <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={p.precio} data-price-num={parseFloat((p.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.'))} data-rating={p.valoracion} data-original-index={i}>
         {i === 0 && <span class="comp-badge">🏆 Mejor opción</span>}
@@ -168,11 +176,21 @@ function tiendas(p: Producto) {
           <div class="comp-header-info">
             <h4 class="comp-name">{p.nombre}</h4>
             <div class="comp-meta">
-              <div class="comp-rating">
-                <div class="comp-rating-bar">
-                  <div class="comp-rating-fill" style={`width: ${ratingPercent}%`}></div>
-                </div>
-                <span class="comp-rating-num">{p.valoracion}/5</span>
+              <div class="comp-stars" aria-label={`${p.valoracion} de 5 estrellas`}>
+                {Array.from({ length: stars.full }).map(() => (
+                  <svg class="comp-star comp-star--full" viewBox="0 0 20 20" width="16" height="16"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" /></svg>
+                ))}
+                {stars.half && (
+                  <svg class="comp-star comp-star--half" viewBox="0 0 20 20" width="16" height="16">
+                    <defs><clipPath id={`half-${i}`}><rect x="0" y="0" width="10" height="20" /></clipPath></defs>
+                    <path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" class="comp-star-empty-bg" />
+                    <path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" clip-path={`url(#half-${i})`} class="comp-star-full-bg" />
+                  </svg>
+                )}
+                {Array.from({ length: stars.empty }).map(() => (
+                  <svg class="comp-star comp-star--empty" viewBox="0 0 20 20" width="16" height="16"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" /></svg>
+                ))}
+                <span class="comp-rating-num">{p.valoracion}</span>
               </div>
               <span class="comp-price">{p.precio}</span>
             </div>
@@ -357,32 +375,38 @@ function tiendas(p: Producto) {
   flex-wrap: wrap;
 }
 
-/* Rating bar */
-.comp-rating {
+/* Star rating */
+.comp-stars {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 2px;
 }
 
-.comp-rating-bar {
-  width: 80px;
-  height: 6px;
-  background: var(--color-border);
-  border-radius: 3px;
-  overflow: hidden;
+.comp-star {
+  flex-shrink: 0;
 }
 
-.comp-rating-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--color-secondary), #e9c46a);
-  border-radius: 3px;
-  transition: width 0.3s ease;
+.comp-star--full path {
+  fill: var(--color-secondary);
+}
+
+.comp-star--empty path {
+  fill: var(--color-border);
+}
+
+.comp-star-empty-bg {
+  fill: var(--color-border);
+}
+
+.comp-star-full-bg {
+  fill: var(--color-secondary);
 }
 
 .comp-rating-num {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: var(--color-text-muted);
+  margin-left: 0.35rem;
 }
 
 .comp-price {
@@ -419,6 +443,7 @@ function tiendas(p: Producto) {
   padding: 0.6rem 0.875rem;
   border-radius: var(--radius-sm);
   background: var(--color-bg-muted);
+  border-left: 3px solid var(--store-color, var(--color-border));
   text-decoration: none;
   color: var(--color-text);
   transition: all 0.2s ease;
@@ -430,6 +455,11 @@ function tiendas(p: Producto) {
   color: var(--color-text);
   transform: translateX(2px);
 }
+
+/* Store color indicators */
+.comp-price-row[href*="amazon"] { --store-color: #ff9900; }
+.comp-price-row[href*="zooplus"] { --store-color: #398927; }
+.comp-price-row[href*="tiendanimal"] { --store-color: #00632E; }
 
 .comp-price-row--best {
   background: color-mix(in srgb, var(--color-secondary) 10%, var(--color-bg-muted));
