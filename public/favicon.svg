@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <!-- House silhouette -->
-  <path d="M32 6L4 28h8v26h16V38h8v16h16V28h8L32 6z" fill="#c2410c"/>
+  <path d="M32 6L4 28h8v26h16V38h8v16h16V28h8L32 6z" fill="#2d6a4f"/>
   <!-- Paw print (centered in house) -->
   <ellipse cx="25" cy="36" rx="3.2" ry="4" fill="#fff"/>
   <ellipse cx="39" cy="36" rx="3.2" ry="4" fill="#fff"/>

@@ -208,7 +208,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
   .nav-dropdown-item.active {
     color: var(--color-primary);
     font-weight: 600;
-    background: rgba(194, 65, 12, 0.06);
+    background: color-mix(in srgb, var(--color-primary) 8%, transparent);
   }
 
   /* Mobile */
@@ -331,11 +331,11 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
     if (isDark) {
       document.documentElement.removeAttribute('data-theme');
       localStorage.setItem('theme', 'light');
-      if (metaTheme) metaTheme.setAttribute('content', '#c2410c');
+      if (metaTheme) metaTheme.setAttribute('content', '#2d6a4f');
     } else {
       document.documentElement.setAttribute('data-theme', 'dark');
       localStorage.setItem('theme', 'dark');
-      if (metaTheme) metaTheme.setAttribute('content', '#0c0a09');
+      if (metaTheme) metaTheme.setAttribute('content', '#121220');
     }
     updateIcon();
   });
