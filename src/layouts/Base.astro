@@ -33,12 +33,10 @@ const canonicalUrl = canonical || Astro.url.href;
     <!-- Preload critical font (latin covers all Spanish chars: á é í ó ú ñ ü) -->
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
 
-    <!-- Display font for headings (non-blocking) -->
+    <!-- Display font for headings -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="style" id="outfit-font" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&display=swap" />
-    <script is:inline>var l=document.getElementById('outfit-font');l&&l.addEventListener('load',function(){l.rel='stylesheet'})</script>
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&display=swap" /></noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&display=optional" />
 
     <!-- Preconnect for resources loaded on most pages -->
     <link rel="preconnect" href="https://m.media-amazon.com" crossorigin />
