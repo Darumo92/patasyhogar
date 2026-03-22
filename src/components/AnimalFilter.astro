@@ -79,10 +79,30 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
     color: var(--color-primary);
   }
 
+  .animal-filter-btn[data-filter="perro"]:hover {
+    border-color: var(--color-dog);
+    color: var(--color-dog);
+  }
+
+  .animal-filter-btn[data-filter="gato"]:hover {
+    border-color: var(--color-cat);
+    color: var(--color-cat);
+  }
+
   .animal-filter-btn.active {
     background: var(--color-primary);
     border-color: var(--color-primary);
     color: white;
+  }
+
+  .animal-filter-btn.active[data-filter="perro"] {
+    background: var(--color-dog);
+    border-color: var(--color-dog);
+  }
+
+  .animal-filter-btn.active[data-filter="gato"] {
+    background: var(--color-cat);
+    border-color: var(--color-cat);
   }
 
   .animal-filter-count {
