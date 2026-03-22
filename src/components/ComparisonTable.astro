@@ -167,10 +167,14 @@ function tiendas(p: Producto) {
         <div class="comp-header">
           {p.imagen && (
             <div class="comp-img-wrap">
-              <picture>
-                <source srcset={p.imagen.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" sizes="(max-width: 480px) 140px, 120px" />
+              {p.imagen.startsWith('/') ? (
+                <picture>
+                  <source srcset={p.imagen.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" sizes="(max-width: 480px) 140px, 120px" />
+                  <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
+                </picture>
+              ) : (
                 <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
-              </picture>
+              )}
             </div>
           )}
           <div class="comp-header-info">
