@@ -120,7 +120,7 @@ body {
   font-size: 1rem;
   color: var(--color-text);
   background-color: var(--color-bg);
-  line-height: 1.6;
+  line-height: 1.65;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -363,7 +363,7 @@ a:hover {
   color: var(--color-text);
   line-height: 1.1;
   margin-bottom: 1.25rem;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
   position: relative;
 }
 
@@ -1134,7 +1134,7 @@ a:hover {
   font-size: 2.25rem;
   font-weight: 900;
   margin-bottom: 0.5rem;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 .category-page-header p {
@@ -1600,7 +1600,6 @@ button:focus-visible,
 }
 
 .trust-card-icon {
-  font-size: 1.5rem;
   flex-shrink: 0;
   width: 44px;
   height: 44px;
@@ -1609,6 +1608,7 @@ button:focus-visible,
   justify-content: center;
   background: color-mix(in srgb, var(--color-primary) 8%, var(--color-bg));
   border-radius: var(--radius-sm);
+  color: var(--color-primary);
 }
 
 .trust-card strong {
