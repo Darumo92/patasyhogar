@@ -61,12 +61,6 @@ const productSchemas = productos.map(p => {
         bestRating: 5,
       },
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: p.valoracion,
-      bestRating: 5,
-      ratingCount: 1,
-    },
     ...(price && {
       offers: {
         '@type': 'Offer',
@@ -165,7 +159,10 @@ function tiendas(p: Producto) {
         <div class="comp-header">
           {p.imagen && (
             <div class="comp-img-wrap">
-              <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
+              <picture>
+                <source srcset={p.imagen.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" sizes="(max-width: 480px) 140px, 120px" />
+                <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
+              </picture>
             </div>
           )}
           <div class="comp-header-info">

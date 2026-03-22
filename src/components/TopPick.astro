@@ -56,7 +56,10 @@ if (tiendas.length > 1) {
   <div class="top-pick-body">
     {imagen && (
       <div class="top-pick-img-wrap">
-        <img src={imagen} alt={nombre} width="160" height="160" class="top-pick-img" loading="lazy" decoding="async" sizes="(max-width: 540px) 160px, 140px" />
+        <picture>
+          <source srcset={imagen.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" sizes="(max-width: 540px) 160px, 140px" />
+          <img src={imagen} alt={nombre} width="160" height="160" class="top-pick-img" loading="lazy" decoding="async" sizes="(max-width: 540px) 160px, 140px" />
+        </picture>
       </div>
     )}
     <div class="top-pick-info">

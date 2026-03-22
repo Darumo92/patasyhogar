@@ -50,7 +50,7 @@ const collectionSchema = {
 ---
 
 <Base
-  title="Guías y comparativas para gatos 2026 | Patas y Hogar"
+  title={`Guías y comparativas para gatos ${new Date().getFullYear()} | Patas y Hogar`}
   description="Guías y comparativas de productos para gatos: pienso, arena, rascadores, juguetes y más. Análisis honestos para elegir lo mejor."
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
