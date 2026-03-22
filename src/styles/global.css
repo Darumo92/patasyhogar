@@ -130,6 +130,7 @@ body {
   background-color: var(--color-bg);
   line-height: 1.65;
   transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 img {
@@ -163,7 +164,7 @@ a:hover {
 }
 
 .section {
-  padding: 3.5rem 0;
+  padding-block: 3.5rem;
 }
 
 .section-title {
@@ -650,7 +651,7 @@ a:hover {
 
 .categories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
   gap: 1rem;
 }
 
@@ -714,7 +715,7 @@ a:hover {
 
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
   gap: 2rem;
   content-visibility: auto;
   contain-intrinsic-size: auto 500px;
