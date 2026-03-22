@@ -961,6 +961,7 @@ a:hover {
   margin: 2.5rem 0 1rem;
   color: var(--color-text);
   padding-bottom: 0.5rem;
+  scroll-margin-top: 5rem;
   border-bottom: 2px solid var(--color-border);
   letter-spacing: -0.02em;
 }
@@ -972,6 +973,7 @@ a:hover {
   margin: 2rem 0 0.75rem;
   color: var(--color-text);
   letter-spacing: -0.01em;
+  scroll-margin-top: 5rem;
 }
 
 .prose p {
