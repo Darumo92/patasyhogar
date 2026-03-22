@@ -1,28 +1,26 @@
 ---
 /**
- * Adds smooth scroll behavior to anchor links within a nav.
- * Dynamically calculates header offset so the target section
- * is never hidden behind the sticky header.
+ * Keeps anchor navigation clean by using replaceState instead of pushState,
+ * so clicking multiple subcategory links doesn't pollute browser history.
+ *
+ * The actual smooth scrolling + header offset is handled entirely by CSS:
+ *   html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+ *   .subcat-section { scroll-margin-top: 5rem; }
  *
  * Usage: Place <SmoothScroll /> anywhere on the page.
- * It will handle all .subcat-nav-link clicks with href="#id".
  */
 ---
 
 <script>
-  function initSmoothScroll() {
+  document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.subcat-nav-link').forEach(link => {
-      link.addEventListener('click', (e) => {
+      link.addEventListener('click', () => {
         const href = (link as HTMLAnchorElement).getAttribute('href');
-        if (!href || !href.startsWith('#')) return;
-        const target = document.querySelector(href);
-        if (!target) return;
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        history.replaceState(null, '', href);
+        if (href?.startsWith('#')) {
+          // Replace history entry so Back doesn't cycle through anchors
+          setTimeout(() => history.replaceState(null, '', href), 50);
+        }
       });
     });
-  }
-
-  document.addEventListener('DOMContentLoaded', initSmoothScroll);
+  });
 </script>
