@@ -562,7 +562,7 @@ a:hover {
   transform: translateX(3px);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .seasonal-items {
     flex-direction: column;
   }
