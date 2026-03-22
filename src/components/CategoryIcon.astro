@@ -16,8 +16,7 @@ const { categoria, size = 24 } = Astro.props;
 
 {categoria === 'higiene' && (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width={size} height={size} aria-hidden="true">
-    <path d="M20.04 7.03 4.03 17.34a1 1 0 0 0 .73 1.82l17.68-1.68a1 1 0 0 0 .87-1.12L21.75 6.2a1 1 0 0 0-1.71-.17z"/>
-    <path d="M7.5 13.5 10 11"/><path d="m12 15 2.5-2.5"/>
+    <path d="M4 4a2 2 0 0 0-2 2v2h20V6a2 2 0 0 0-2-2z"/><path d="M2 8v6a6 6 0 0 0 12 0V8"/><path d="m16 8 4 8h2"/>
   </svg>
 )}
 
@@ -33,11 +32,7 @@ const { categoria, size = 24 } = Astro.props;
 
 {categoria === 'juguetes' && (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width={size} height={size} aria-hidden="true">
-    <circle cx="12" cy="12" r="4"/>
-    <path d="M12 2v4"/><path d="M12 18v4"/>
-    <path d="m4.93 4.93 2.83 2.83"/><path d="m16.24 16.24 2.83 2.83"/>
-    <path d="M2 12h4"/><path d="M18 12h4"/>
-    <path d="m4.93 19.07 2.83-2.83"/><path d="m16.24 7.76 2.83-2.83"/>
+    <rect width="12" height="12" x="2" y="10" rx="2"/><path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"/><path d="M6 18h.01"/><path d="M10 14h.01"/>
   </svg>
 )}
 
