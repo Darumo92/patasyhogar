@@ -221,7 +221,7 @@ const categorias = [
     <div class="container">
       <h2 class="section-title">Explora por categoría</h2>
       <p class="section-subtitle">Encuentra exactamente lo que buscas para tu mascota</p>
-      <div class="categories-grid">
+      <div class="categories-grid reveal-group">
         {categorias.map(cat => (
           <a href={`/${cat.slug}/`} class="category-card">
             <span class="category-icon" aria-hidden="true"><CategoryIcon categoria={cat.slug} size={24} /></span>
@@ -244,9 +244,9 @@ const categorias = [
   {destacados.length > 0 && (
     <section class="section">
       <div class="container">
-        <h2 class="section-title">Guías destacadas</h2>
-        <p class="section-subtitle">Nuestros análisis más completos y populares</p>
-        <div class="articles-grid">
+        <h2 class="section-title reveal">Guías destacadas</h2>
+        <p class="section-subtitle reveal">Nuestros análisis más completos y populares</p>
+        <div class="articles-grid reveal-group">
           {destacados.map(articulo => (
             <ArticleCard articulo={articulo} />
           ))}
@@ -259,12 +259,12 @@ const categorias = [
   {recientes.length > 0 && (
     <section class="section">
       <div class="container">
-        <h2 class="section-title">Últimos análisis</h2>
-        <p class="section-subtitle">Los artículos más recientes del blog</p>
+        <h2 class="section-title reveal">Últimos análisis</h2>
+        <p class="section-subtitle reveal">Los artículos más recientes del blog</p>
         {perroCount > 0 && gatoCount > 0 && (
           <AnimalFilter perroCount={perroCount} gatoCount={gatoCount} totalCount={recientes.length} />
         )}
-        <div class="articles-grid">
+        <div class="articles-grid reveal-group">
           {recientes.map(articulo => (
             <ArticleCard articulo={articulo} />
           ))}
@@ -276,7 +276,7 @@ const categorias = [
   <!-- Trust / Social proof -->
   <section class="trust-section">
     <div class="container">
-      <div class="trust-grid">
+      <div class="trust-grid reveal-group">
         <div class="trust-card">
           <span class="trust-card-icon">🔍</span>
           <div>
@@ -305,7 +305,7 @@ const categorias = [
   <!-- Newsletter (home: lead magnet) -->
   <section class="section newsletter-section">
     <div class="container text-center">
-      <h2 class="newsletter-section-title">📋 Checklist gratis: lo esencial para tu mascota</h2>
+      <h2 class="newsletter-section-title reveal">📋 Checklist gratis: lo esencial para tu mascota</h2>
       <p class="newsletter-section-desc">
         Descarga nuestra guía con el equipamiento imprescindible para perros y gatos.
         Además, recibirás nuestras mejores comparativas y alertas de bajadas de precio.

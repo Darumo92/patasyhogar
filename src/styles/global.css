@@ -309,7 +309,10 @@ a:hover {
    ========================================= */
 
 .hero {
-  background: var(--color-bg);
+  background:
+    radial-gradient(circle, color-mix(in srgb, var(--color-primary) 6%, transparent) 1px, transparent 1px),
+    var(--color-bg);
+  background-size: 28px 28px;
   padding: 6rem 0 5rem;
   text-align: center;
   border-bottom: 1px solid var(--color-border);
@@ -1259,33 +1262,33 @@ a:hover {
 }
 
 .badge-alimentacion {
-  background: #fef3e8;
-  color: #92400e;
+  background: #fdf0e2;
+  color: #a05a2c;
 }
 
 .badge-higiene {
-  background: #e8f4ed;
-  color: #2d5a3d;
+  background: #e4f2eb;
+  color: #1b5e3a;
 }
 
 .badge-paseo {
-  background: #eef0f8;
-  color: #3b4580;
+  background: #e6ecf8;
+  color: #2e4a7a;
 }
 
 .badge-juguetes {
-  background: #fef3e8;
-  color: #7c3a12;
+  background: #fce8e4;
+  color: #b04a32;
 }
 
 .badge-hogar {
-  background: #f0e8fe;
-  color: #5b3a8c;
+  background: #ede4f8;
+  color: #5a3488;
 }
 
 .badge-cuidados {
-  background: #e8f0ee;
-  color: #2d5a4d;
+  background: #e2ede8;
+  color: #1b4332;
 }
 
 .text-center {
@@ -1435,7 +1438,10 @@ button:focus-visible,
 }
 
 [data-theme="dark"] .hero {
-  background: var(--color-bg);
+  background:
+    radial-gradient(circle, color-mix(in srgb, var(--color-primary) 8%, transparent) 1px, transparent 1px),
+    var(--color-bg);
+  background-size: 28px 28px;
 }
 
 [data-theme="dark"] .hero::before {
@@ -1615,8 +1621,67 @@ button:focus-visible,
   color: var(--color-primary);
 }
 
+.bottom-nav-active {
+  color: var(--color-primary);
+}
+
+.bottom-nav-active svg {
+  stroke-width: 2.5;
+}
+
 .bottom-nav-item svg {
   flex-shrink: 0;
+}
+
+/* =========================================
+   SCROLL REVEAL ANIMATIONS
+   ========================================= */
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.reveal.revealed {
+  animation: reveal-up 0.5s ease forwards;
+}
+
+/* Stagger children in grids */
+.reveal-group.revealed > :nth-child(1) { animation-delay: 0s; }
+.reveal-group.revealed > :nth-child(2) { animation-delay: 0.08s; }
+.reveal-group.revealed > :nth-child(3) { animation-delay: 0.16s; }
+.reveal-group.revealed > :nth-child(4) { animation-delay: 0.24s; }
+.reveal-group.revealed > :nth-child(5) { animation-delay: 0.32s; }
+.reveal-group.revealed > :nth-child(6) { animation-delay: 0.4s; }
+
+.reveal-group > * {
+  opacity: 0;
+}
+
+.reveal-group.revealed > * {
+  animation: reveal-up 0.5s ease forwards;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-group > * {
+    opacity: 1;
+  }
+  .reveal.revealed,
+  .reveal-group.revealed > * {
+    animation: none;
+  }
 }
 
 /* =========================================
