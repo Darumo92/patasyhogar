@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Descarga imágenes de Pexels para TODOS los artículos.
- * Las guarda en public/images/articulos/<slug>.jpg
+ * Las guarda en public/images/articulos/<slug>.webp
  *
  * Uso:
  *   node scripts/pexels-batch-download.mjs          # procesa todos
@@ -11,6 +11,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import sharp from 'sharp';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -196,8 +197,9 @@ async function downloadImage(photo, destPath) {
   const res = await fetch(imageUrl);
   if (!res.ok) return false;
   const buffer = Buffer.from(await res.arrayBuffer());
-  writeFileSync(destPath, buffer);
-  return buffer.length;
+  const webpBuffer = await sharp(buffer).webp({ quality: 80 }).toBuffer();
+  writeFileSync(destPath, webpBuffer);
+  return webpBuffer.length;
 }
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -260,7 +262,7 @@ for (let i = 0; i < files.length; i++) {
   }
 
   const photo = data.photos[0];
-  const destPath = resolve(IMAGES_DIR, `${slug}.jpg`);
+  const destPath = resolve(IMAGES_DIR, `${slug}.webp`);
   const bytes = await downloadImage(photo, destPath);
 
   if (!bytes) {

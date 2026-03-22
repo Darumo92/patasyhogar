@@ -8,7 +8,7 @@
  * Argumentos:
  *   1. Query de búsqueda en Pexels
  *   2. Nombre del archivo destino (sin extensión ni ruta)
- *      Se guarda en public/images/articulos/<nombre>.jpg
+ *      Se guarda en public/images/articulos/<nombre>.webp
  *
  * Opciones:
  *   --orientation=landscape|portrait|square  (default: landscape)
@@ -16,9 +16,10 @@
  *   --list     Solo mostrar los primeros resultados sin descargar
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, unlinkSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import sharp from 'sharp';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -132,8 +133,11 @@ if (!imageRes.ok) {
 const buffer = Buffer.from(await imageRes.arrayBuffer());
 const destDir = resolve(ROOT, 'public/images/articulos');
 mkdirSync(destDir, { recursive: true });
-const destPath = resolve(destDir, `${filename}.jpg`);
-writeFileSync(destPath, buffer);
 
-console.log(`\nGuardada en: public/images/articulos/${filename}.jpg (${(buffer.length / 1024).toFixed(0)} KB)`);
+// Convert to WebP
+const destPath = resolve(destDir, `${filename}.webp`);
+const webpBuffer = await sharp(buffer).webp({ quality: 80 }).toBuffer();
+writeFileSync(destPath, webpBuffer);
+
+console.log(`\nGuardada en: public/images/articulos/${filename}.webp (${(webpBuffer.length / 1024).toFixed(0)} KB)`);
 console.log(`Crédito: ${photo.photographer} — ${photo.url}`);
