@@ -342,6 +342,7 @@ a:hover {
   margin: 0 auto 2rem;
   line-height: 1.6;
   position: relative;
+  min-height: 1.84em;
 }
 
 .hero-stats {
