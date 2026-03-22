@@ -14,7 +14,7 @@ const comparativaLinks = [
 
 const infoLinks = [
   { href: '/cuidados/', label: 'Cuidados y consejos', cat: 'cuidados' },
-  { href: '/articulos/', label: 'Todos los artículos', cat: '' },
+  { href: '/articulos/', label: 'Todos los artículos', cat: 'articulos' },
 ];
 
 const isPerrosActive = currentPath.startsWith('/perros/');
@@ -84,7 +84,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
                 class={`nav-dropdown-item ${currentPath.startsWith(link.href) ? 'active' : ''}`}
                 role="menuitem"
               >
-                {link.cat ? <CategoryIcon categoria={link.cat} size={18} /> : <span aria-hidden="true">📚</span>}
+                <CategoryIcon categoria={link.cat} size={18} />
                 {link.label}
               </a>
             ))}
