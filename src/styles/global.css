@@ -1255,7 +1255,7 @@ a:hover {
   padding: 0.6rem 1.25rem;
   border-radius: 100px;
   border: none;
-  background: var(--color-accent);
+  background: var(--color-primary);
   color: #fff;
   font-weight: 600;
   font-size: 0.85rem;
@@ -1266,9 +1266,9 @@ a:hover {
 }
 
 .newsletter-btn:hover {
-  background: color-mix(in srgb, var(--color-accent) 85%, black);
+  background: var(--color-primary-dark);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px color-mix(in srgb, var(--color-accent) 30%, transparent);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--color-primary) 30%, transparent);
 }
 
 @media (max-width: 480px) {
