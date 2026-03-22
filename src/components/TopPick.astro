@@ -217,12 +217,13 @@ if (tiendas.length > 1) {
 .tp-price-row[href*="tiendanimal"] { --store-color: #00632E; }
 
 .tp-price-row--best {
-  background: color-mix(in srgb, var(--color-secondary) 10%, var(--color-bg-muted));
-  border: 1px solid color-mix(in srgb, var(--color-secondary) 25%, transparent);
+  background: color-mix(in srgb, var(--store-color) 10%, var(--color-bg-muted));
+  border: 1px solid color-mix(in srgb, var(--store-color) 25%, transparent);
+  border-left: 3px solid var(--store-color);
 }
 
 .tp-price-row--best:hover {
-  background: color-mix(in srgb, var(--color-secondary) 15%, var(--color-bg-muted));
+  background: color-mix(in srgb, var(--store-color) 15%, var(--color-bg-muted));
 }
 
 .tp-price-store {
@@ -242,7 +243,7 @@ if (tiendas.length > 1) {
 .tp-price-best-tag {
   font-size: 0.6rem;
   font-weight: 700;
-  background: var(--color-secondary);
+  background: var(--store-color);
   color: #fff;
   padding: 0.15rem 0.5rem;
   border-radius: 100px;
