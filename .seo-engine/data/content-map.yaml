@@ -2045,7 +2045,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_paseo_perros'
   target_keywords:
   - keyword: "mejor correa para perros: comparativa y guía completa"
     search_volume: 0
@@ -2065,6 +2065,9 @@ blogs:
   internal_links_to:
   - jaula-perro-casa-coche
   - mejor-arnes-perro
+  - mejor-arnes-antitirones-perro
+  - correa-extensible-perros
+  - mejor-collar-luminoso-perro
   internal_links_from:
   - collar-antiladridos-perros
   - jaula-perro-casa-coche
@@ -2080,14 +2083,14 @@ blogs:
   has_eeat_signals: true
   needs_update_reason: ''
 - slug: mejor-cortapelos-perros
-  title: "Mejor cortapelos para perros: comparativa 2025"
+  title: "Mejor cortapelos para perros: comparativa 2026"
   file_path: src/content/articulos/mejor-cortapelos-perros.mdx
   status: published
   published_date: '2025-12-01'
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_higiene_perros'
   target_keywords:
   - keyword: mejor cortapelos para perros
     search_volume: 0
@@ -2108,20 +2111,21 @@ blogs:
   internal_links_to:
   - mejor-secador-perros
   - mejor-cepillo-perro
+  - champu-perros-piel-sensible
   internal_links_from:
   - champu-perros-piel-sensible
   word_count: 2903
   has_eeat_signals: true
   needs_update_reason: ''
 - slug: mejor-cortaunas-perros
-  title: "Mejor cortaúñas para perros: comparativa 2025"
+  title: "Mejor cortaúñas para perros: comparativa 2026"
   file_path: src/content/articulos/mejor-cortaunas-perros.mdx
   status: published
   published_date: '2025-11-25'
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_higiene_perros'
   target_keywords:
   - keyword: mejor cortaúñas para perros
     search_volume: 0
@@ -2141,19 +2145,21 @@ blogs:
   competitors_mentioned: []
   internal_links_to:
   - mejor-cepillo-perro
+  - mejor-cortapelos-perros
+  - como-limpiar-oidos-perro
   internal_links_from: []
   word_count: 3050
   has_eeat_signals: true
   needs_update_reason: ''
 - slug: mejor-difusor-feromonas-gatos
-  title: "Mejor difusor de feromonas para gatos: comparativa 2025"
+  title: "Mejor difusor de feromonas para gatos: comparativa 2026"
   file_path: src/content/articulos/mejor-difusor-feromonas-gatos.mdx
   status: published
   published_date: '2026-03-03'
   last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_juguetes_enriquecimiento'
   target_keywords:
   - keyword: mejor difusor de feromonas para gatos
     search_volume: 0
@@ -2174,6 +2180,8 @@ blogs:
   internal_links_to:
   - senales-estres-gatos
   - enriquecimiento-ambiental-gato-interior
+  - mejor-rascador-gatos-guia
+  - como-presentar-perro-gato
   internal_links_from:
   - como-presentar-perro-gato
   - gato-maulla-mucho-noche-causas
@@ -2187,14 +2195,14 @@ blogs:
   has_eeat_signals: true
   needs_update_reason: ''
 - slug: mejor-dispensador-bolsas-caca-perro
-  title: Mejor dispensador de bolsas caca perro 2025
+  title: Mejor dispensador de bolsas caca perro 2026
   file_path: src/content/articulos/mejor-dispensador-bolsas-caca-perro.mdx
   status: published
   published_date: '2026-01-18'
   last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_higiene_perros'
   target_keywords:
   - keyword: mejor dispensador de bolsas caca perro
     search_volume: 0
@@ -2215,20 +2223,21 @@ blogs:
   internal_links_to:
   - mejores-bolsas-caca-perro-biodegradables
   - mejor-correa-perro
+  - mejor-arnes-perro
   internal_links_from:
   - mejores-bolsas-caca-perro-biodegradables
   word_count: 3174
   has_eeat_signals: true
   needs_update_reason: ''
 - slug: mejor-escalera-rampa-perros
-  title: "Mejor escalera y rampa para perros: comparativa 2025"
+  title: "Mejor escalera y rampa para perros: comparativa 2026"
   file_path: src/content/articulos/mejor-escalera-rampa-perros.mdx
   status: published
   published_date: '2025-12-01'
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_hogar_descanso'
   target_keywords:
   - keyword: mejor escalera y rampa para perros
     search_volume: 0
@@ -2248,6 +2257,8 @@ blogs:
   competitors_mentioned: []
   internal_links_to:
   - mejor-cama-perro-guia
+  - mejor-pienso-perro-senior
+  - mejor-protector-maletero-perros
   internal_links_from:
   - mejor-cama-perro-guia
   word_count: 1764

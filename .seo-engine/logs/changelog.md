@@ -1,5 +1,14 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-23 23:00
+**Action:** Revisión SEO Engine completa de 6 artículos con SERP analysis
+**Files:**
+- 6 artículos MDX: títulos 2025→2026, tags ampliados, enlaces externos, artículos relacionados, internal links
+- `mejor-escalera-rampa-perros.mdx`: TopPick cambiado (Rampa Madera 10kg → TRIXIE Petwalk 75kg)
+- `.seo-engine/data/content-map.yaml`: cluster_ids, títulos, internal_links actualizados
+**Summary:** Revisión completa de correa-perro, cortapelos, cortauñas, difusor-feromonas, dispensador-bolsas, escalera-rampa. Años corregidos, TopPick cambiado, enlaces externos de autoridad, artículos relacionados, tags ampliados.
+**Triggered by:** user
+
 ## 2026-03-23 22:00
 **Action:** Revisión SEO Engine completa con SERP analysis de 8 artículos
 **Files:**
