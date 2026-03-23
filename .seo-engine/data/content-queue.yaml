@@ -1,0 +1,438 @@
+last_updated: "2026-03-23"
+
+queue:
+  # === PILLAR PAGES (high priority) ===
+
+  - id: "q_001"
+    title: "Guía completa de alimentación para perros"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_alimentacion_perros"
+    target_keywords: ["alimentación perros", "guía nutrición perro", "mejor pienso perro"]
+    unique_angle: "Guía definitiva que conecta todas las comparativas de pienso existentes con criterios de selección por raza, edad y condición. Incluye tabla resumen con enlace a cada comparativa específica."
+    priority: "high"
+    priority_reason: "Pillar page needed for largest content cluster (18 published articles). High commercial intent keywords."
+    status: "planned"
+    estimated_word_count: 4000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-pienso-perro-raza-grande"
+      - "mejor-pienso-perro-raza-pequena"
+      - "mejor-pienso-perro-adulto-raza-mediana"
+      - "mejor-pienso-perro-senior"
+      - "mejor-pienso-cachorro-raza-grande"
+      - "mejor-pienso-perro-esterilizado"
+      - "mejor-pienso-hipoalergenico-perro"
+      - "mejor-pienso-perro-diabetico"
+      - "mejor-comida-humeda-perros"
+      - "mejores-snacks-naturales-perros"
+      - "cuantas-veces-dia-debe-comer-perro"
+      - "alimentos-prohibidos-perros"
+      - "diferencia-pienso-grain-free-normal"
+      - "perro-sobrepeso-dieta-ejercicio"
+
+  - id: "q_002"
+    title: "Guía completa de alimentación para gatos"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_alimentacion_gatos"
+    target_keywords: ["alimentación gatos", "guía nutrición gato", "mejor pienso gato"]
+    unique_angle: "Hub central que organiza la nutrición felina por etapa de vida (kitten, adulto, senior) y condición (esterilizado, indoor, urinario, pelo largo). Incluye señales de alerta nutricional."
+    priority: "high"
+    priority_reason: "Pillar page needed for second largest content cluster (14 published articles)."
+    status: "planned"
+    estimated_word_count: 3500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-pienso-gato-esterilizado"
+      - "mejor-pienso-gato-indoor"
+      - "mejor-pienso-gato-pelo-largo"
+      - "mejor-pienso-gato-senior"
+      - "mejor-pienso-cachorro-gato"
+      - "pienso-gato-problemas-urinarios"
+      - "mejor-comida-humeda-gatos"
+      - "snacks-naturales-gatos"
+      - "cuanto-debe-comer-gato-adulto"
+      - "alimentos-toxicos-gatos"
+
+  - id: "q_003"
+    title: "Guía completa de higiene y grooming para perros"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_higiene_perros"
+    target_keywords: ["higiene perro", "grooming perro guía", "cuidar higiene perro"]
+    unique_angle: "Rutina de higiene canina mes a mes con checklist descargable. Conecta cada tarea (dientes, oídos, pelo, uñas, baño) con su comparativa de productos correspondiente."
+    priority: "high"
+    priority_reason: "Pillar page for cluster with 20 published articles. Strong internal linking opportunity."
+    status: "planned"
+    estimated_word_count: 3500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-cepillo-perro"
+      - "champu-perros-piel-sensible"
+      - "mejor-cortapelos-perros"
+      - "como-limpiar-dientes-perro"
+      - "como-limpiar-oidos-perro"
+      - "mejor-cortaunas-perros"
+      - "mejor-antiparasitario-perros-guia"
+      - "muda-pelo-perros-guia-cuidados"
+
+  - id: "q_004"
+    title: "Guía completa de higiene y cuidado para gatos"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_higiene_gatos"
+    target_keywords: ["higiene gato", "cuidado gato guía", "aseo gato"]
+    unique_angle: "Enfocada en la particularidad del gato como animal autoacicalador: cuándo intervenir y cuándo no. Rutina mínima de higiene felina respetando su naturaleza."
+    priority: "high"
+    priority_reason: "Pillar page for cat hygiene cluster (8 published articles)."
+    status: "planned"
+    estimated_word_count: 3000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-arenero-arena-gatos"
+      - "mejor-cepillo-gatos"
+      - "como-banar-gato"
+      - "como-cortar-unas-gato"
+      - "mejor-antiparasitario-gatos-guia"
+      - "muda-pelo-gatos-guia-cuidados"
+
+  - id: "q_005"
+    title: "Guía completa para pasear y viajar con tu perro"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_paseo_perros"
+    target_keywords: ["pasear perro guía", "viajar con perro", "equipamiento paseo perro"]
+    unique_angle: "Combina paseo diario, viajes en coche, y actividades al aire libre en una sola guía. Incluye sección de normativa española (bozal, correa, PPP) y equipamiento por situación."
+    priority: "high"
+    priority_reason: "Pillar page for cluster with 20 published articles. Unifies paseo + viaje content."
+    status: "planned"
+    estimated_word_count: 4000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-arnes-perro"
+      - "mejor-arnes-antitirones-perro"
+      - "mejor-correa-perro"
+      - "mejor-gps-perro"
+      - "mejor-transportin-perros-guia"
+      - "asiento-coche-perro"
+      - "mejor-protector-maletero-perros"
+      - "como-socializar-cachorro"
+      - "cuanto-ejercicio-necesita-perro"
+
+  - id: "q_006"
+    title: "Guía completa de juguetes y enriquecimiento para mascotas"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_juguetes_enriquecimiento"
+    target_keywords: ["juguetes mascotas", "enriquecimiento perro gato", "estimulación mental mascotas"]
+    unique_angle: "Organiza juguetes por tipo de estimulación (física, mental, olfativa, social) y por animal. Incluye señales de aburrimiento y plan semanal de actividades."
+    priority: "high"
+    priority_reason: "Pillar page for juguetes cluster (11 published articles)."
+    status: "planned"
+    estimated_word_count: 3500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-juguete-cachorro"
+      - "mejor-juguete-gatos-guia"
+      - "mejor-juguete-mental-perros-guia"
+      - "mejor-juguete-resistente-perros-guia"
+      - "mejor-rascador-gatos-guia"
+      - "alfombras-olfato-perros"
+      - "enriquecimiento-ambiental-gato-interior"
+
+  - id: "q_007"
+    title: "Guía completa para preparar tu hogar para mascotas"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_hogar_mascotas"
+    target_keywords: ["hogar mascotas", "preparar casa perro gato", "convivir mascotas hogar"]
+    unique_angle: "Recorrido habitación por habitación (salón, cocina, dormitorio, balcón, jardín) con peligros, soluciones y productos recomendados para cada zona. Diferenciando perro y gato."
+    priority: "high"
+    priority_reason: "Pillar page for hogar cluster (13 published articles)."
+    status: "planned"
+    estimated_word_count: 3500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-cama-perro-guia"
+      - "mejor-cama-gato-guia"
+      - "protector-sofa-mascotas"
+      - "mejor-puerta-seguridad-perros"
+      - "mejor-gatera-puerta-gato"
+      - "cachorro-primeras-semanas-casa"
+      - "como-presentar-perro-gato"
+
+  - id: "q_008"
+    title: "Guía completa de salud y bienestar para perros"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_salud_comportamiento_perros"
+    target_keywords: ["salud perro guía", "bienestar perro", "cuidados salud perro"]
+    unique_angle: "Guía preventiva organizada por sistemas del cuerpo (digestivo, piel, articulaciones, dental, comportamiento). Incluye señales de alarma y cuándo ir al veterinario."
+    priority: "high"
+    priority_reason: "Pillar page for dog health cluster. Informativo content has no hub page."
+    status: "planned"
+    estimated_word_count: 4000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "por-que-perro-ladra-noche"
+      - "perro-miedo-petardos-fuegos-artificiales"
+      - "como-socializar-cachorro"
+      - "procesionaria-pino-perros-peligros-primeros-auxilios"
+      - "alergia-primaveral-perros-gatos-sintomas-tratamiento"
+      - "perro-no-quiere-comer-causas"
+      - "perro-sobrepeso-dieta-ejercicio"
+
+  - id: "q_009"
+    title: "Guía completa de salud y bienestar para gatos"
+    blog_type: "tutorial"
+    content_type: "pillar"
+    cluster_id: "tc_salud_comportamiento_gatos"
+    target_keywords: ["salud gato guía", "bienestar gato", "cuidados salud gato"]
+    unique_angle: "Enfocada en la naturaleza discreta del gato para ocultar dolor. Enseña a leer el lenguaje corporal felino y detectar problemas antes de que sean graves."
+    priority: "high"
+    priority_reason: "Pillar page for cat health cluster. Critical gap in informativo content hub."
+    status: "planned"
+    estimated_word_count: 3500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    depends_on: []
+    internal_link_targets:
+      - "gato-maulla-mucho-noche-causas"
+      - "senales-estres-gatos"
+      - "por-que-gatos-amasan"
+      - "gato-vomita-causas-soluciones"
+      - "como-saber-edad-gato"
+      - "enriquecimiento-ambiental-gato-interior"
+
+  # === GAP-FILLING CLUSTER PAGES (medium priority) ===
+
+  - id: "q_010"
+    title: "Primeros auxilios para perros: guía de emergencia"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    target_keywords: ["primeros auxilios perro", "emergencia perro", "botiquín perro"]
+    unique_angle: "Guía práctica con protocolos paso a paso para las 10 emergencias más comunes (envenenamiento, golpe de calor, herida, atragantamiento). Incluye contenido del botiquín casero."
+    priority: "medium"
+    priority_reason: "Major content gap - only procesionaria covered. High search demand for emergency content."
+    status: "planned"
+    estimated_word_count: 3000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. No product comparison needed."
+    depends_on: []
+    internal_link_targets:
+      - "procesionaria-pino-perros-peligros-primeros-auxilios"
+      - "alimentos-prohibidos-perros"
+      - "alergia-primaveral-perros-gatos-sintomas-tratamiento"
+
+  - id: "q_011"
+    title: "Ansiedad por separación en perros: causas y soluciones"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    target_keywords: ["ansiedad separación perro", "perro solo casa", "perro llora solo"]
+    unique_angle: "Diferencia ansiedad real de aburrimiento. Plan de desensibilización progresiva con cronograma semanal. Incluye cuándo productos (feromonas, juguetes) ayudan y cuándo se necesita profesional."
+    priority: "medium"
+    priority_reason: "Very common behavioral problem with high search volume. Links to juguetes and feromonas products."
+    status: "planned"
+    estimated_word_count: 2500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. Can link to juguete mental and difusor feromonas."
+    depends_on: []
+    internal_link_targets:
+      - "perro-miedo-petardos-fuegos-artificiales"
+      - "mejor-juguete-mental-perros-guia"
+      - "por-que-perro-ladra-noche"
+
+  - id: "q_012"
+    title: "Viajar con perro en coche: guía de seguridad"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_paseo_perros"
+    target_keywords: ["viajar perro coche", "perro coche seguridad", "normativa perro coche"]
+    unique_angle: "Combina normativa DGT real con comparativa de sistemas de retención (transportín vs arnés homologado vs rejilla). Incluye tips para perros con miedo al coche."
+    priority: "medium"
+    priority_reason: "High intent topic bridging 3 existing product comparativas. Seasonal demand (vacaciones)."
+    status: "planned"
+    estimated_word_count: 2500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. Fuerte oportunidad de internal linking a productos."
+    depends_on: []
+    internal_link_targets:
+      - "asiento-coche-perro"
+      - "mejor-protector-maletero-perros"
+      - "mejor-transportin-perros-guia"
+      - "jaula-perro-casa-coche"
+
+  - id: "q_013"
+    title: "Mejor pienso para cachorros de raza pequeña"
+    blog_type: "listicle"
+    content_type: "cluster"
+    cluster_id: "tc_alimentacion_perros"
+    target_keywords: ["mejor pienso cachorro raza pequeña", "pienso cachorro mini"]
+    unique_angle: "Croqueta pequeña, alta densidad calórica, control de hipoglucemia. Diferencia necesidades de raza toy vs raza pequeña estándar."
+    priority: "medium"
+    priority_reason: "Direct gap - cachorro raza grande exists but not raza pequeña. Symmetric coverage needed."
+    status: "planned"
+    estimated_word_count: 2500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: comparativa. Requires real Amazon product research."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-pienso-cachorro-raza-grande"
+      - "mejor-pienso-perro-raza-pequena"
+      - "cachorro-primeras-semanas-casa"
+
+  - id: "q_014"
+    title: "Calendario de vacunación para perros"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    target_keywords: ["calendario vacunación perro", "vacunas perro obligatorias", "cuándo vacunar perro"]
+    unique_angle: "Calendario visual por semanas (cachorro) y años (adulto/senior) con vacunas obligatorias vs recomendadas por comunidad autónoma en España."
+    priority: "medium"
+    priority_reason: "Evergreen informational content. High search volume, no existing coverage."
+    status: "planned"
+    estimated_word_count: 2000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. No product comparison."
+    depends_on: []
+    internal_link_targets:
+      - "cachorro-primeras-semanas-casa"
+      - "como-socializar-cachorro"
+      - "mejor-antiparasitario-perros-guia"
+
+  - id: "q_015"
+    title: "Gato agresivo: causas y cómo corregirlo"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_gatos"
+    target_keywords: ["gato agresivo", "gato muerde", "gato araña causas"]
+    unique_angle: "Distingue 7 tipos de agresividad felina (territorial, por miedo, redirigida, por juego, por dolor, maternal, idiopática). Plan de acción diferenciado para cada tipo."
+    priority: "medium"
+    priority_reason: "Common behavioral concern with no coverage. Can link to feromonas and enriquecimiento."
+    status: "planned"
+    estimated_word_count: 2500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. Links to feromonas, rascadores, enriquecimiento."
+    depends_on: []
+    internal_link_targets:
+      - "senales-estres-gatos"
+      - "mejor-difusor-feromonas-gatos"
+      - "enriquecimiento-ambiental-gato-interior"
+      - "como-presentar-perro-gato"
+
+  - id: "q_016"
+    title: "Cómo bañar a tu perro en casa paso a paso"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_higiene_perros"
+    target_keywords: ["cómo bañar perro casa", "bañar perro paso a paso", "cada cuánto bañar perro"]
+    unique_angle: "Guía visual paso a paso con frecuencia recomendada por tipo de pelo y actividad. Incluye sección de errores comunes que dañan la piel."
+    priority: "medium"
+    priority_reason: "How-to bañar gato exists but not perro. Bridges 3 product comparativas (champú, secador, toallitas)."
+    status: "planned"
+    estimated_word_count: 2000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. Strong internal linking to hygiene products."
+    depends_on: []
+    internal_link_targets:
+      - "champu-perros-piel-sensible"
+      - "mejor-secador-perros"
+      - "mejor-toallitas-perros"
+      - "mejor-cepillo-perro"
+
+  - id: "q_017"
+    title: "Presupuesto mensual para mantener un perro"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_hogar_mascotas"
+    target_keywords: ["presupuesto mensual perro", "cuánto cuesta mantener perro", "gastos perro mes"]
+    unique_angle: "Desglose real por categoría (alimentación, veterinario, higiene, accesorios) con rangos de precio por tamaño de perro. Incluye trucos de ahorro sin comprometer bienestar."
+    priority: "medium"
+    priority_reason: "Pre-adoption content gap. Drives traffic to multiple product categories via budget recommendations."
+    status: "planned"
+    estimated_word_count: 2500
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. Transversal - links to products across all categories."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-pienso-perro-raza-grande"
+      - "mejor-pienso-perro-raza-pequena"
+      - "mejor-antiparasitario-perros-guia"
+      - "mejor-cama-perro-guia"
+
+  - id: "q_018"
+    title: "Señales de dolor en perros: cómo detectarlas"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    target_keywords: ["señales dolor perro", "perro dolor síntomas", "cómo saber si perro tiene dolor"]
+    unique_angle: "Escala de dolor canina adaptada para dueños no veterinarios. 15 señales organizadas por sutiles (las que se pierden) vs obvias, con fotos/diagramas de posturas corporales."
+    priority: "medium"
+    priority_reason: "Critical health topic with no coverage. Evergreen, high trust-building content."
+    status: "planned"
+    estimated_word_count: 2000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. YMYL content - must be accurate and cite veterinary sources."
+    depends_on: []
+    internal_link_targets:
+      - "perro-no-quiere-comer-causas"
+      - "por-que-perro-ladra-noche"
+      - "mejor-escalera-rampa-perros"
+
+  - id: "q_019"
+    title: "Cómo proteger tu casa para un gato"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_hogar_mascotas"
+    target_keywords: ["proteger casa gato", "casa segura gato", "peligros gato casa"]
+    unique_angle: "Checklist de seguridad específico para gatos: ventanas basculantes (la trampa mortal), plantas tóxicas, cables, productos de limpieza. Con soluciones por habitación."
+    priority: "medium"
+    priority_reason: "Cat-specific home safety gap. Drives traffic to gatera, repelente, rascador products."
+    status: "planned"
+    estimated_word_count: 2000
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. Unique angle on basculante windows (very specific Spanish problem)."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-gatera-puerta-gato"
+      - "mejor-repelente-gatos-muebles"
+      - "alimentos-toxicos-gatos"
+      - "enriquecimiento-ambiental-gato-interior"

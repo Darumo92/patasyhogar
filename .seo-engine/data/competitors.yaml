@@ -1,0 +1,404 @@
+last_updated: "2026-03-23"
+last_verified: "2026-03-23"
+
+competitors:
+  - id: "comp_soyunperro"
+    name: "Soyunperro"
+    website: "https://soyunperro.com"
+    category: "pet content / affiliate"
+    estimated_da: null
+    strengths: ""
+    weaknesses: ""
+    primary_focus: "perro"
+    content_types: ["guías salud", "recomendaciones productos", "razas"]
+    monetization: "affiliate / ads"
+    notes: "Not yet verified. Dog-focused content site with health guides and product recommendations."
+
+  - id: "comp_expertoanimal"
+    name: "Expertoanimal"
+    website: "https://expertoanimal.com"
+    category: "pet content / editorial"
+    estimated_da: null
+    strengths: ""
+    weaknesses: ""
+    primary_focus: "ambos"
+    content_types: ["guías cuidados", "salud", "comportamiento", "razas"]
+    monetization: "ads / affiliate"
+    notes: "Not yet verified. Large pet content site with strong domain authority. Broad coverage of dogs, cats, and other animals."
+
+  - id: "comp_misanimales"
+    name: "Mis Animales"
+    website: "https://misanimales.com"
+    category: "pet content / editorial"
+    estimated_da: null
+    strengths: ""
+    weaknesses: ""
+    primary_focus: "ambos"
+    content_types: ["guías cuidados", "salud", "curiosidades", "comportamiento"]
+    monetization: "ads"
+    notes: "Not yet verified. Covers dogs, cats, and other animals. Strong in care guides and curiosity-driven content."
+
+  - id: "comp_miwuki"
+    name: "Miwuki"
+    website: "https://miwuki.com"
+    category: "pet adoption / content"
+    estimated_da: null
+    strengths: ""
+    weaknesses: ""
+    primary_focus: "ambos"
+    content_types: ["adopción", "blog cuidados", "guías básicas"]
+    monetization: "platform / ads"
+    notes: "Not yet verified. Pet adoption platform with blog. May have lower depth in product comparisons."
+
+content_coverage_matrix:
+  - topic: "Pienso perros"
+    our_project:
+      covered: true
+      article_count: 8
+      details: "Comparativas por raza (grande, mediana, pequeña), edad (cachorro, senior), condición (esterilizado, hipoalérgénico, diabético)"
+      slugs:
+        - mejor-pienso-perro-raza-grande
+        - mejor-pienso-perro-raza-pequena
+        - mejor-pienso-perro-adulto-raza-mediana
+        - mejor-pienso-perro-senior
+        - mejor-pienso-cachorro-raza-grande
+        - mejor-pienso-perro-esterilizado
+        - mejor-pienso-hipoalergenico-perro
+        - mejor-pienso-perro-diabetico
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Pienso gatos"
+    our_project:
+      covered: true
+      article_count: 6
+      details: "Comparativas por condición (esterilizado, indoor, pelo largo, urinario), edad (cachorro, senior)"
+      slugs:
+        - mejor-pienso-gato-esterilizado
+        - mejor-pienso-gato-indoor
+        - mejor-pienso-gato-pelo-largo
+        - mejor-pienso-gato-senior
+        - mejor-pienso-cachorro-gato
+        - pienso-gato-problemas-urinarios
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Comida húmeda mascotas"
+    our_project:
+      covered: true
+      article_count: 2
+      details: "Comparativas de comida húmeda para perros y gatos"
+      slugs:
+        - mejor-comida-humeda-perros
+        - mejor-comida-humeda-gatos
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Snacks y premios"
+    our_project:
+      covered: true
+      article_count: 2
+      details: "Snacks naturales para perros y gatos"
+      slugs:
+        - mejores-snacks-naturales-perros
+        - snacks-naturales-gatos
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Nutrición y alimentación (informativos)"
+    our_project:
+      covered: true
+      article_count: 6
+      details: "Guías sobre cantidades, alimentos prohibidos, grain-free, sobrepeso"
+      slugs:
+        - cuantas-veces-dia-debe-comer-perro
+        - cuanto-debe-comer-gato-adulto
+        - alimentos-prohibidos-perros
+        - alimentos-toxicos-gatos
+        - diferencia-pienso-grain-free-normal
+        - perro-sobrepeso-dieta-ejercicio
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Antiparasitarios"
+    our_project:
+      covered: true
+      article_count: 4
+      details: "Antiparasitarios internos/externos, collares antiparasitarios, eliminación pulgas"
+      slugs:
+        - mejor-antiparasitario-perros-guia
+        - mejor-antiparasitario-gatos-guia
+        - mejor-collar-antiparasitario-perro
+        - como-eliminar-pulgas-perro-casa
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Higiene y grooming perros"
+    our_project:
+      covered: true
+      article_count: 12
+      details: "Cepillos, champús, cortapelos, secador, dientes, oídos, uñas, toallitas, empapadores"
+      slugs:
+        - mejor-cepillo-perro
+        - champu-perros-piel-sensible
+        - mejor-cortapelos-perros
+        - mejor-secador-perros
+        - mejor-cepillo-dientes-perros
+        - como-limpiar-dientes-perro
+        - como-limpiar-oidos-perro
+        - mejor-cortaunas-perros
+        - mejor-toallitas-perros
+        - mejores-empapadores-perros
+        - muda-pelo-perros-guia-cuidados
+        - mejor-protector-patas-perro
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Higiene y cuidado gatos"
+    our_project:
+      covered: true
+      article_count: 7
+      details: "Areneros, cepillos, champú, baño, uñas, muda de pelo"
+      slugs:
+        - mejor-arenero-arena-gatos
+        - mejor-cepillo-gatos
+        - mejor-champu-gato
+        - como-banar-gato
+        - como-cortar-unas-gato
+        - muda-pelo-gatos-guia-cuidados
+        - mejor-repelente-gatos-muebles
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Paseo y arneses perros"
+    our_project:
+      covered: true
+      article_count: 10
+      details: "Arneses, correas, bozales, collares, GPS, ropa para paseo"
+      slugs:
+        - mejor-arnes-perro
+        - mejor-arnes-antitirones-perro
+        - mejor-correa-perro
+        - correa-extensible-perros
+        - mejor-bozal-perro
+        - mejor-collar-luminoso-perro
+        - mejor-gps-perro
+        - mejor-abrigo-perro-invierno
+        - mejor-chubasquero-perro
+        - mejor-chaleco-salvavidas-perro
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Transporte mascotas"
+    our_project:
+      covered: true
+      article_count: 5
+      details: "Transportines, asiento coche, protector maletero, jaula"
+      slugs:
+        - mejor-transportin-perros-guia
+        - mejor-transportin-gatos-guia
+        - asiento-coche-perro
+        - mejor-protector-maletero-perros
+        - jaula-perro-casa-coche
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Juguetes y enriquecimiento"
+    our_project:
+      covered: true
+      article_count: 9
+      details: "Juguetes perro/gato, rascadores, alfombras olfato, agilidad, feromonas, enriquecimiento"
+      slugs:
+        - mejor-juguete-cachorro
+        - mejor-juguete-gatos-guia
+        - mejor-juguete-mental-perros-guia
+        - mejor-juguete-resistente-perros-guia
+        - mejor-rascador-gatos-guia
+        - arbol-rascador-pequeno-pisos
+        - alfombras-olfato-perros
+        - mejor-circuito-agilidad-perros
+        - mejor-difusor-feromonas-gatos
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Hogar y descanso"
+    our_project:
+      covered: true
+      article_count: 10
+      details: "Camas, mantas, protector sofá, puertas seguridad, gateras, escaleras/rampas, piscinas"
+      slugs:
+        - mejor-cama-perro-guia
+        - mejor-cama-gato-guia
+        - mejor-manta-perros
+        - protector-sofa-mascotas
+        - mejor-puerta-seguridad-perros
+        - mejor-gatera-puerta-gato
+        - mejor-escalera-rampa-perros
+        - mejor-piscina-perros
+        - alfombrilla-refrigerante-perros
+        - mejor-limpiador-enzimatico-mascotas
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"
+
+  - topic: "Comportamiento y salud"
+    our_project:
+      covered: true
+      article_count: 11
+      details: "Ladridos, maullidos, estrés, miedos, vómitos, socialización, adiestramiento, curiosidades"
+      slugs:
+        - por-que-perro-ladra-noche
+        - gato-maulla-mucho-noche-causas
+        - senales-estres-gatos
+        - perro-miedo-petardos-fuegos-artificiales
+        - como-socializar-cachorro
+        - como-adiestrar-gato-tecnicas
+        - por-que-gatos-amasan
+        - por-que-perros-comen-hierba
+        - como-presentar-perro-gato
+        - como-saber-edad-gato
+        - perro-no-quiere-comer-causas
+    competitors:
+      comp_soyunperro:
+        covered: null
+        confidence: "unverified"
+      comp_expertoanimal:
+        covered: null
+        confidence: "unverified"
+      comp_misanimales:
+        covered: null
+        confidence: "unverified"
+      comp_miwuki:
+        covered: null
+        confidence: "unverified"

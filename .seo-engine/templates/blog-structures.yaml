@@ -1,0 +1,146 @@
+# Blog Structures by Type — Voice Variation Guide
+# Each structure specifies sections, voice, word count, and E-E-A-T injection points.
+
+comparison:
+  name: "Comparativa de productos"
+  voice: "analítico, basado en datos, experto pero accesible"
+  word_count: "2000-3500"
+  description: "Análisis detallado de productos con tabla comparativa y recomendación destacada"
+  structure:
+    - section: "TopPick"
+      description: "Producto destacado con componente TopPick"
+      eeat_injection: false
+    - section: "Introducción"
+      description: "Contexto del problema, por qué importa elegir bien. Keyword principal."
+      eeat_injection: true  # experiencia personal o métrica
+    - section: "ComparisonTable"
+      description: "Tabla comparativa con todos los productos"
+      eeat_injection: false
+    - section: "Análisis detallado"
+      description: "Review individual de cada producto: pros, contras, para quién"
+      eeat_injection: true  # experiencia de uso, datos reales
+    - section: "Guía de compra"
+      description: "Criterios para elegir: qué mirar, errores comunes"
+      eeat_injection: false
+    - section: "Nuestra recomendación"
+      description: "Resumen final con recomendación por caso de uso"
+      eeat_injection: false
+    - section: "FAQs"
+      description: "3-5 preguntas de People Also Ask"
+      eeat_injection: false
+
+listicle:
+  name: "Listado/ranking"
+  voice: "curador útil, ordenado, va al grano"
+  word_count: "2500-4000"
+  description: "Lista ordenada de productos o consejos con criterio claro de ranking"
+  structure:
+    - section: "Introducción"
+      description: "Qué cubre la lista y criterio de selección"
+      eeat_injection: true
+    - section: "El listado"
+      description: "Items numerados con descripción, pros/contras"
+      eeat_injection: true
+    - section: "Cómo elegir"
+      description: "Guía rápida de criterios"
+      eeat_injection: false
+    - section: "FAQs"
+      description: "3-5 preguntas frecuentes"
+      eeat_injection: false
+
+tutorial:
+  name: "Tutorial / Guía paso a paso"
+  voice: "profesor paciente, usa 'yo', comparte experiencia"
+  word_count: "1500-2500"
+  description: "Guía paso a paso para realizar una tarea de cuidado de mascotas"
+  structure:
+    - section: "Introducción"
+      description: "Por qué es importante, cuándo hacerlo"
+      eeat_injection: true  # experiencia personal
+    - section: "Qué necesitas"
+      description: "Materiales o productos necesarios"
+      eeat_injection: false
+    - section: "Paso a paso"
+      description: "Instrucciones detalladas numeradas"
+      eeat_injection: true  # tips de experiencia
+    - section: "Errores comunes"
+      description: "Qué evitar y por qué"
+      eeat_injection: false
+    - section: "Cuándo acudir al veterinario"
+      description: "Señales de alarma"
+      eeat_injection: false
+    - section: "FAQs"
+      description: "3-5 preguntas frecuentes"
+      eeat_injection: false
+
+how_to:
+  name: "Cómo hacer / Resolver problema"
+  voice: "resolutivo, directo, empático con el problema"
+  word_count: "1200-2000"
+  description: "Respuesta directa a un problema concreto del dueño"
+  structure:
+    - section: "El problema"
+      description: "Descripción del problema y por qué ocurre"
+      eeat_injection: true
+    - section: "Solución rápida"
+      description: "Respuesta directa para quien tiene prisa"
+      eeat_injection: false
+    - section: "Solución detallada"
+      description: "Explicación paso a paso"
+      eeat_injection: true
+    - section: "Prevención"
+      description: "Cómo evitar que vuelva a pasar"
+      eeat_injection: false
+    - section: "FAQs"
+      description: "3-5 preguntas frecuentes"
+      eeat_injection: false
+
+review:
+  name: "Review / Análisis en profundidad"
+  voice: "reviewer honesto, admite inconvenientes, específico"
+  word_count: "2000-3000"
+  description: "Análisis en profundidad de un producto o categoría específica"
+  structure:
+    - section: "Resumen rápido"
+      description: "Veredicto en 2-3 frases para quien no quiere leer todo"
+      eeat_injection: false
+    - section: "Qué es y para quién"
+      description: "Contexto del producto y público objetivo"
+      eeat_injection: false
+    - section: "Puntos fuertes"
+      description: "Lo mejor del producto, con datos concretos"
+      eeat_injection: true
+    - section: "Puntos débiles"
+      description: "Lo peor, sin disimular"
+      eeat_injection: true
+    - section: "Comparación con alternativas"
+      description: "Vs 2-3 alternativas directas"
+      eeat_injection: false
+    - section: "Veredicto final"
+      description: "Para quién sí y para quién no"
+      eeat_injection: false
+    - section: "FAQs"
+      description: "3-5 preguntas frecuentes"
+      eeat_injection: false
+
+thought_leadership:
+  name: "Guía de experto / Opinión"
+  voice: "opinión fundamentada, toma posición, no genérico"
+  word_count: "1500-2500"
+  description: "Artículo de opinión experta sobre un tema de cuidado animal"
+  structure:
+    - section: "La tesis"
+      description: "Posición clara desde el primer párrafo"
+      eeat_injection: true
+    - section: "El contexto"
+      description: "Por qué este tema importa ahora"
+      eeat_injection: false
+    - section: "Los argumentos"
+      description: "Evidencia, datos, experiencia"
+      eeat_injection: true
+    - section: "Contraargumentos"
+      description: "Reconocer la otra posición"
+      eeat_injection: false
+    - section: "Conclusión"
+      description: "Reafirmar posición con matiz"
+      eeat_injection: false

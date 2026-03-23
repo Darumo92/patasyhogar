@@ -1,0 +1,4031 @@
+last_updated: '2026-03-23'
+blogs:
+- slug: alergia-primaveral-perros-gatos-sintomas-tratamiento
+  title: "Alergia primaveral en perros y gatos: síntomas y tratamiento"
+  file_path: src/content/articulos/alergia-primaveral-perros-gatos-sintomas-tratamiento.mdx
+  status: published
+  published_date: '2026-03-22'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "alergia primaveral en perros y gatos: síntomas y tratamiento"
+    search_volume: 0
+    is_primary: true
+  - keyword: alergia primaveral perros
+    search_volume: 0
+    is_primary: false
+  - keyword: alergia polen gatos
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-hipoalergenico-perro
+  - perro-no-quiere-comer-causas
+  - senales-estres-gatos
+  - mejor-antiparasitario-perros-guia
+  - mejor-antiparasitario-gatos-guia
+  - champu-perros-piel-sensible
+  - como-banar-gato
+  internal_links_from:
+  - muda-pelo-gatos-guia-cuidados
+  - muda-pelo-perros-guia-cuidados
+  word_count: 2921
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: alfombras-olfato-perros
+  title: "Mejores alfombras de olfato para perros: comparativa 2026"
+  file_path: src/content/articulos/alfombras-olfato-perros.mdx
+  status: published
+  published_date: '2025-10-30'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores alfombras de olfato para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: alfombra olfato
+    search_volume: 0
+    is_primary: false
+  - keyword: snuffle mat
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - TRIXIE Alfombra para Olfatear
+  - Nobleza Alfombra Olfativa 70x70cm
+  - PATIO PLUS Alfombra Olfativa 90x90cm
+  - Edipets Alfombra Olfativa
+  - Trixie Snack Snake
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-resistente-perros-guia
+  - mejor-juguete-mental-perros-guia
+  internal_links_from:
+  - mejor-juguete-mental-perros-guia
+  - mejor-juguete-resistente-perros-guia
+  - mejores-snacks-naturales-perros
+  - perro-no-quiere-comer-causas
+  - residencias-mascotas-verano
+  word_count: 2434
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: alfombrilla-refrigerante-perros
+  title: "Mejor alfombrilla refrigerante para perros: comparativa 2026"
+  file_path: src/content/articulos/alfombrilla-refrigerante-perros.mdx
+  status: published
+  published_date: '2025-09-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor alfombrilla refrigerante para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: alfombrilla refrigerante
+    search_volume: 0
+    is_primary: false
+  - keyword: perro verano
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Pecute Alfombrilla Gel
+  - Navaris Esterilla Refrigerante
+  - Trixie Cool Dreamer
+  - Amazon Basics Cama Elevada
+  - Nobleza Alfombrilla XL
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cama-perro-guia
+  - mejor-piscina-perros
+  internal_links_from:
+  - jaula-perro-casa-coche
+  - mejor-bebedero-perros-guia
+  - mejor-cama-perro-guia
+  - mejor-piscina-perros
+  word_count: 2841
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: alimentos-prohibidos-perros
+  title: "Alimentos prohibidos para perros: lo que nunca debes darles"
+  file_path: src/content/articulos/alimentos-prohibidos-perros.mdx
+  status: published
+  published_date: '2025-11-20'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "alimentos prohibidos para perros: lo que nunca debes darles"
+    search_volume: 0
+    is_primary: true
+  - keyword: alimentos prohibidos perros
+    search_volume: 0
+    is_primary: false
+  - keyword: toxicos perros
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejores-snacks-naturales-perros
+  internal_links_from:
+  - cachorro-primeras-semanas-casa
+  - mejor-juguete-mental-perros-guia
+  - perro-no-quiere-comer-causas
+  - perro-sobrepeso-dieta-ejercicio
+  - por-que-perros-comen-hierba
+  - procesionaria-pino-perros-peligros-primeros-auxilios
+  word_count: 2985
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: alimentos-toxicos-gatos
+  title: "Alimentos tóxicos para gatos: guía completa"
+  file_path: src/content/articulos/alimentos-toxicos-gatos.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "alimentos tóxicos para gatos: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: alimentos tóxicos gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: comida prohibida gatos
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - gato-vomita-causas-soluciones
+  - snacks-naturales-gatos
+  internal_links_from: []
+  word_count: 3872
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: arbol-rascador-pequeno-pisos
+  title: "Mejor árbol rascador pequeño para pisos: comparativa 2026"
+  file_path: src/content/articulos/arbol-rascador-pequeno-pisos.mdx
+  status: published
+  published_date: '2025-11-12'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor árbol rascador pequeño para pisos
+    search_volume: 0
+    is_primary: true
+  - keyword: rascador gato
+    search_volume: 0
+    is_primary: false
+  - keyword: árbol rascador pequeño
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Catit Vesper V-Base
+  - Trixie Poste Baza
+  - Amazon Basics Rascador Árbol
+  - FUKUMARU Rascador Pared
+  - Feandrea Rascador 84 cm
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-rascador-gatos-guia
+  - enriquecimiento-ambiental-gato-interior
+  internal_links_from:
+  - mejor-juguete-gatos-guia
+  - mejor-rascador-gatos-guia
+  word_count: 2661
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: asiento-coche-perro
+  title: Mejor asiento de coche para perros 2026
+  file_path: src/content/articulos/asiento-coche-perro.mdx
+  status: published
+  published_date: '2026-02-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor asiento de coche para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: asiento coche perro
+    search_volume: 0
+    is_primary: false
+  - keyword: hamaca coche perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Kurgo Wander Hammock
+  - Trixie Asiento Elevado
+  - Ruffwear Load Up (arnés homologado)
+  - 4Knines Hammock
+  - Amazon Basics Hamaca
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  internal_links_from:
+  - mejor-protector-maletero-perros
+  word_count: 2800
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: cachorro-primeras-semanas-casa
+  title: "Cachorro en casa: guía de las primeras semanas"
+  file_path: src/content/articulos/cachorro-primeras-semanas-casa.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cachorro en casa: guía de las primeras semanas"
+    search_volume: 0
+    is_primary: true
+  - keyword: cachorro nuevo casa
+    search_volume: 0
+    is_primary: false
+  - keyword: primeras semanas cachorro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - jaula-perro-casa-coche
+  - mejor-pienso-cachorro-gato
+  - mejores-empapadores-perros
+  - mejor-juguete-cachorro
+  - mejor-limpiador-enzimatico-mascotas
+  - como-socializar-cachorro
+  - alimentos-prohibidos-perros
+  internal_links_from:
+  - mejor-puerta-seguridad-perros
+  - mejores-empapadores-perros
+  - procesionaria-pino-perros-peligros-primeros-auxilios
+  word_count: 4527
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: cepillos-quitar-pelo-perro-sofa
+  title: Cepillos para quitar pelo de perro del sofá
+  file_path: src/content/articulos/cepillos-quitar-pelo-perro-sofa.mdx
+  status: published
+  published_date: '2025-11-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: cepillos para quitar pelo de perro del sofá
+    search_volume: 0
+    is_primary: true
+  - keyword: quitar pelo perro sofa
+    search_volume: 0
+    is_primary: false
+  - keyword: rodillo pelo mascota
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - ChomChom Roller
+  - Guante Quitapelos DELOMO
+  - Aspirador de mano Dyson V8
+  - Rodillo Scotch-Brite
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-perro
+  - mejor-aspirador-pelo-mascotas
+  internal_links_from:
+  - mejor-aspirador-pelo-mascotas
+  - muda-pelo-gatos-guia-cuidados
+  - muda-pelo-perros-guia-cuidados
+  word_count: 2747
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: champu-perros-piel-sensible
+  title: "Champú para perros con piel sensible: comparativa 2026"
+  file_path: src/content/articulos/champu-perros-piel-sensible.mdx
+  status: published
+  published_date: '2025-11-22'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: champú para perros con piel sensible
+    search_volume: 0
+    is_primary: true
+  - keyword: champu perro
+    search_volume: 0
+    is_primary: false
+  - keyword: piel sensible
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Virbac Allermyl
+  - "TropiClean Oatmeal & Tea Tree"
+  - Menforsan con Aloe Vera
+  - Douxo S3 Calm
+  - Beaphar Bio Shampoo
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-perro
+  - mejor-cortapelos-perros
+  internal_links_from:
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - como-eliminar-pulgas-perro-casa
+  - mejor-cepillo-perro
+  - mejor-secador-perros
+  - mejor-toallitas-perros
+  - muda-pelo-perros-guia-cuidados
+  word_count: 2620
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: collar-antiladridos-perros
+  title: Mejor collar antiladridos para perros 2026
+  file_path: src/content/articulos/collar-antiladridos-perros.mdx
+  status: published
+  published_date: '2025-11-26'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor collar antiladridos para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: collar antiladridos
+    search_volume: 0
+    is_primary: false
+  - keyword: ladridos excesivos perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - MASBRILL Collar Antiladridos
+  - PetSafe Spray Citronela
+  - NBJU Collar Vibración Recargable
+  - PetSafe Ultrasónico Collar
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-correa-perro
+  internal_links_from: []
+  word_count: 1803
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: collar-gps-gato
+  title: Mejor collar GPS para gatos 2026
+  file_path: src/content/articulos/collar-gps-gato.mdx
+  status: published
+  published_date: '2026-02-10'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor collar gps para gatos
+    search_volume: 0
+    is_primary: true
+  - keyword: collar gps gato
+    search_volume: 0
+    is_primary: false
+  - keyword: localizador gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Tractive GPS Cat
+  - Weenect XS GPS Gato
+  - Kippy Cat Color GPS
+  - Tabcat
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-gato-pasear
+  - mejor-transportin-gatos-guia
+  internal_links_from:
+  - mejor-arnes-gato-pasear
+  word_count: 2789
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-adiestrar-gato-tecnicas
+  title: "Cómo adiestrar a un gato: técnicas eficaces"
+  file_path: src/content/articulos/como-adiestrar-gato-tecnicas.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo adiestrar a un gato: técnicas eficaces"
+    search_volume: 0
+    is_primary: true
+  - keyword: adiestrar gato
+    search_volume: 0
+    is_primary: false
+  - keyword: entrenar gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-gatos-guia
+  - snacks-naturales-gatos
+  - mejor-rascador-gatos-guia
+  internal_links_from: []
+  word_count: 3740
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-banar-gato
+  title: "Cómo bañar a un gato: guía paso a paso para hacerlo sin drama"
+  file_path: src/content/articulos/como-banar-gato.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo bañar a un gato: guía paso a paso para hacerlo sin drama"
+    search_volume: 0
+    is_primary: true
+  - keyword: bañar gato
+    search_volume: 0
+    is_primary: false
+  - keyword: higiene gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-champu-gato
+  - mejor-cepillo-gatos
+  internal_links_from:
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - mejor-antiparasitario-gatos-guia
+  - mejor-arenero-arena-gatos
+  - mejor-arnes-gato-pasear
+  - mejor-transportin-gatos-guia
+  - muda-pelo-gatos-guia-cuidados
+  word_count: 3167
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-cortar-unas-gato
+  title: "Cómo cortar las uñas a un gato: guía paso a paso sin estrés"
+  file_path: src/content/articulos/como-cortar-unas-gato.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo cortar las uñas a un gato: guía paso a paso sin estrés"
+    search_volume: 0
+    is_primary: true
+  - keyword: cortar uñas gato
+    search_volume: 0
+    is_primary: false
+  - keyword: cuidado uñas gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-gatos
+  - senales-estres-gatos
+  internal_links_from:
+  - mejor-rascador-gatos-guia
+  word_count: 3590
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-eliminar-pulgas-perro-casa
+  title: Cómo eliminar pulgas en perros y en casa
+  file_path: src/content/articulos/como-eliminar-pulgas-perro-casa.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: cómo eliminar pulgas en perros y en casa
+    search_volume: 0
+    is_primary: true
+  - keyword: pulgas perro
+    search_volume: 0
+    is_primary: false
+  - keyword: eliminar pulgas
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-collar-antiparasitario-perro
+  - champu-perros-piel-sensible
+  - mejor-antiparasitario-perros-guia
+  - mejor-aspirador-pelo-mascotas
+  internal_links_from:
+  - mejor-antiparasitario-perros-guia
+  - mejor-collar-antiparasitario-perro
+  word_count: 3793
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-limpiar-dientes-perro
+  title: "Cómo limpiar los dientes a tu perro: guía completa"
+  file_path: src/content/articulos/como-limpiar-dientes-perro.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo limpiar los dientes a tu perro: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: limpiar dientes perro
+    search_volume: 0
+    is_primary: false
+  - keyword: higiene dental perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-dientes-perros
+  - mejores-snacks-naturales-perros
+  - como-socializar-cachorro
+  - cuanto-ejercicio-necesita-perro
+  internal_links_from: []
+  word_count: 3710
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-limpiar-oidos-perro
+  title: "Cómo limpiar los oídos a un perro en casa: guía paso a paso"
+  file_path: src/content/articulos/como-limpiar-oidos-perro.mdx
+  status: published
+  published_date: '2025-11-25'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo limpiar los oídos a un perro en casa: guía paso a paso"
+    search_volume: 0
+    is_primary: true
+  - keyword: limpiar oídos perro
+    search_volume: 0
+    is_primary: false
+  - keyword: otitis perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Virbac Epi-Otic
+  - Otoclean (ICF)
+  - Beaphar limpiador de oídos
+  - TropiClean Ear Wash
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-perro
+  - como-socializar-cachorro
+  internal_links_from: []
+  word_count: 1480
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-presentar-perro-gato
+  title: "Cómo presentar un perro y un gato: guía paso a paso"
+  file_path: src/content/articulos/como-presentar-perro-gato.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo presentar un perro y un gato: guía paso a paso"
+    search_volume: 0
+    is_primary: true
+  - keyword: presentar perro gato
+    search_volume: 0
+    is_primary: false
+  - keyword: convivencia perro gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-puerta-seguridad-perros
+  - mejor-difusor-feromonas-gatos
+  internal_links_from:
+  - perro-no-quiere-comer-causas
+  word_count: 3305
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-saber-edad-gato
+  title: "Cómo saber la edad de un gato: guía completa"
+  file_path: src/content/articulos/como-saber-edad-gato.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo saber la edad de un gato: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: edad gato
+    search_volume: 0
+    is_primary: false
+  - keyword: años gato humano
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-cachorro-gato
+  - mejor-pienso-gato-senior
+  internal_links_from: []
+  word_count: 4240
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: como-socializar-cachorro
+  title: "Cómo socializar a un cachorro: guía completa"
+  file_path: src/content/articulos/como-socializar-cachorro.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "cómo socializar a un cachorro: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: socializar cachorro
+    search_volume: 0
+    is_primary: false
+  - keyword: periodo socialización perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-juguete-cachorro
+  internal_links_from:
+  - cachorro-primeras-semanas-casa
+  - como-limpiar-dientes-perro
+  - como-limpiar-oidos-perro
+  word_count: 3994
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: comparativa-fuentes-agua-gatos
+  title: Mejores fuentes de agua para gatos 2026
+  file_path: src/content/articulos/comparativa-fuentes-agua-gatos.mdx
+  status: published
+  published_date: '2025-10-12'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores fuentes de agua para gatos
+    search_volume: 0
+    is_primary: true
+  - keyword: fuente agua gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: bebedero gatos
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Catit Pixi Fountain Inox 2L
+  - Catit Flower Fountain
+  - PetSafe Drinkwell Platinum
+  - FEELNEEDY Inox Inalámbrica
+  - GIOTOHUN Fuente Gatos
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-bebedero-perros-guia
+  - pienso-gato-problemas-urinarios
+  internal_links_from:
+  - mejor-bebedero-perros-guia
+  - pienso-gato-problemas-urinarios
+  word_count: 2629
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: correa-extensible-perros
+  title: Mejor correa extensible para perros 2026
+  file_path: src/content/articulos/correa-extensible-perros.mdx
+  status: published
+  published_date: '2025-12-10'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor correa extensible para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: correa extensible perro
+    search_volume: 0
+    is_primary: false
+  - keyword: correa retráctil perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - "Flexi New Classic Tape L (8m, hasta 50 kg)"
+  - "Flexi Giant Professional Tape (10m, hasta 50 kg)"
+  - "Flexi New Comfort Cinta S (5m, hasta 15 kg)"
+  - Ferplast Amigo Extra Strong 5m
+  - "Flexi New Comfort Cinta L (8m, hasta 50 kg)"
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-comedero-perros-guia
+  internal_links_from: []
+  word_count: 2528
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: cuantas-veces-dia-debe-comer-perro
+  title: "¿Cuántas veces al día debe comer un perro?"
+  file_path: src/content/articulos/cuantas-veces-dia-debe-comer-perro.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "¿cuántas veces al día debe comer un perro?"
+    search_volume: 0
+    is_primary: true
+  - keyword: cuántas veces comer perro
+    search_volume: 0
+    is_primary: false
+  - keyword: frecuencia comida perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-comedero-perros-guia
+  - mejor-pienso-perro-senior
+  - mejor-pienso-cachorro-raza-grande
+  - mejor-comida-humeda-perros
+  - mejor-pienso-perro-esterilizado
+  - cuanto-debe-comer-gato-adulto
+  internal_links_from:
+  - mejor-pienso-cachorro-raza-grande
+  - por-que-perros-comen-hierba
+  word_count: 3840
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: cuanto-debe-comer-gato-adulto
+  title: "¿Cuánto debe comer un gato adulto? Guía de cantidades"
+  file_path: src/content/articulos/cuanto-debe-comer-gato-adulto.mdx
+  status: published
+  published_date: '2025-10-28'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "¿cuánto debe comer un gato adulto? guía de cantidades"
+    search_volume: 0
+    is_primary: true
+  - keyword: cantidad comida gato
+    search_volume: 0
+    is_primary: false
+  - keyword: raciones gato adulto
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-esterilizado
+  - mejor-comedero-gatos-guia
+  internal_links_from:
+  - cuantas-veces-dia-debe-comer-perro
+  - mejor-pienso-cachorro-gato
+  - snacks-naturales-gatos
+  word_count: 3001
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: cuanto-ejercicio-necesita-perro
+  title: "¿Cuánto ejercicio necesita tu perro? Guía completa por razas"
+  file_path: src/content/articulos/cuanto-ejercicio-necesita-perro.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "¿cuánto ejercicio necesita tu perro? guía completa por razas"
+    search_volume: 0
+    is_primary: true
+  - keyword: ejercicio perro
+    search_volume: 0
+    is_primary: false
+  - keyword: paseo perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-mental-perros-guia
+  - mejor-arnes-perro
+  internal_links_from:
+  - como-limpiar-dientes-perro
+  - mejor-circuito-agilidad-perros
+  - mejor-juguete-mental-perros-guia
+  - mejor-juguete-resistente-perros-guia
+  - perro-sobrepeso-dieta-ejercicio
+  - procesionaria-pino-perros-peligros-primeros-auxilios
+  word_count: 4935
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: diferencia-pienso-grain-free-normal
+  title: "Pienso grain-free vs normal: ¿merece la pena pagar más?"
+  file_path: src/content/articulos/diferencia-pienso-grain-free-normal.mdx
+  status: published
+  published_date: '2025-10-22'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "pienso grain-free vs normal: ¿merece la pena pagar más?"
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso grain free
+    search_volume: 0
+    is_primary: false
+  - keyword: pienso sin cereales perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-esterilizado
+  - mejor-pienso-perro-adulto-raza-mediana
+  internal_links_from: []
+  word_count: 3128
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: enriquecimiento-ambiental-gato-interior
+  title: Enriquecimiento ambiental para gatos de interior
+  file_path: src/content/articulos/enriquecimiento-ambiental-gato-interior.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: enriquecimiento ambiental para gatos de interior
+    search_volume: 0
+    is_primary: true
+  - keyword: gato interior
+    search_volume: 0
+    is_primary: false
+  - keyword: enriquecimiento ambiental gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cama-gato-guia
+  - mejor-rascador-gatos-guia
+  - mejor-juguete-gatos-guia
+  - mejor-fuente-agua-gatos-silenciosa
+  internal_links_from:
+  - arbol-rascador-pequeno-pisos
+  - mejor-cama-gato-guia
+  - mejor-difusor-feromonas-gatos
+  - mejor-gatera-puerta-gato
+  - mejor-juguete-gatos-guia
+  - mejor-pienso-gato-indoor
+  - mejor-rascador-gatos-guia
+  - muda-pelo-gatos-guia-cuidados
+  - senales-estres-gatos
+  word_count: 4442
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: gato-maulla-mucho-noche-causas
+  title: "Mi gato maúlla mucho por la noche: causas y soluciones"
+  file_path: src/content/articulos/gato-maulla-mucho-noche-causas.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mi gato maúlla mucho por la noche: causas y soluciones"
+    search_volume: 0
+    is_primary: true
+  - keyword: gato maúlla noche
+    search_volume: 0
+    is_primary: false
+  - keyword: gato no deja dormir
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-gatos-guia
+  - mejor-comedero-gatos-guia
+  - mejor-difusor-feromonas-gatos
+  - senales-estres-gatos
+  internal_links_from:
+  - mejor-juguete-gatos-guia
+  word_count: 4025
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: gato-vomita-causas-soluciones
+  title: "Mi gato vomita: causas y cuándo preocuparse"
+  file_path: src/content/articulos/gato-vomita-causas-soluciones.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mi gato vomita: causas y cuándo preocuparse"
+    search_volume: 0
+    is_primary: true
+  - keyword: gato vomita
+    search_volume: 0
+    is_primary: false
+  - keyword: vómito gato causas
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-gatos
+  - mejor-pienso-gato-pelo-largo
+  - mejor-comedero-gatos-guia
+  - mejor-antiparasitario-gatos-guia
+  - mejor-comida-humeda-gatos
+  internal_links_from:
+  - alimentos-toxicos-gatos
+  word_count: 3250
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: jaula-perro-casa-coche
+  title: "Mejor jaula para perros: comparativa para casa y coche 2026"
+  file_path: src/content/articulos/jaula-perro-casa-coche.mdx
+  status: published
+  published_date: '2025-11-05'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor jaula para perros: comparativa para casa y coche"
+    search_volume: 0
+    is_primary: true
+  - keyword: jaula perro
+    search_volume: 0
+    is_primary: false
+  - keyword: crate perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Amazon Basics Doble Puerta (91cm)
+  - Amazon Basics Jaula XL (122cm)
+  - Ferplast Atlas Car
+  - Trixie Jaula Aluminio
+  - Petsfit Soft Crate
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-correa-perro
+  - alfombrilla-refrigerante-perros
+  internal_links_from:
+  - cachorro-primeras-semanas-casa
+  - mejor-correa-perro
+  word_count: 1902
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-abrigo-perro-invierno
+  title: "Mejor abrigo para perros en invierno: comparativa 2026"
+  file_path: src/content/articulos/mejor-abrigo-perro-invierno.mdx
+  status: published
+  published_date: '2026-02-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor abrigo para perros en invierno
+    search_volume: 0
+    is_primary: true
+  - keyword: abrigo perro invierno
+    search_volume: 0
+    is_primary: false
+  - keyword: chaqueta perro frío
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Ruffwear Powder Hound
+  - Hurtta Extreme Warmer
+  - Julius-K9 Abrigo Softshell
+  - Geyecete Abrigo Impermeable Galgo
+  - Gooby Fleece Vest
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-chubasquero-perro
+  - mejor-correa-perro
+  internal_links_from:
+  - mejor-chubasquero-perro
+  - mejor-protector-patas-perro
+  word_count: 3182
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-antiparasitario-gatos-guia
+  title: "Mejor antiparasitario para gatos: guía completa"
+  file_path: src/content/articulos/mejor-antiparasitario-gatos-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor antiparasitario para gatos: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: antiparasitario gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: pipeta antiparasitaria gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Frontline Combo Gatos
+  - Beaphar Combotec Gatos
+  - Vectra Felis (Ceva)
+  - Seresto Collar Gatos
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-antiparasitario-perros-guia
+  - como-banar-gato
+  - mejor-champu-gato
+  - mejor-arenero-arena-gatos
+  internal_links_from:
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - gato-vomita-causas-soluciones
+  - mejor-antiparasitario-perros-guia
+  - mejor-arenero-arena-gatos
+  - mejor-arnes-gato-pasear
+  - muda-pelo-gatos-guia-cuidados
+  - residencias-mascotas-verano
+  word_count: 3626
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-antiparasitario-perros-guia
+  title: "Mejor antiparasitario para perros: guía completa"
+  file_path: src/content/articulos/mejor-antiparasitario-perros-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor antiparasitario para perros: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: antiparasitario perro
+    search_volume: 0
+    is_primary: false
+  - keyword: pipeta antiparasitaria perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Seresto Collar (Elanco)
+  - Advantix Pipeta (Elanco)
+  - Frontline Tri-Act Pipeta
+  competitors_mentioned: []
+  internal_links_to:
+  - como-eliminar-pulgas-perro-casa
+  - mejor-collar-antiparasitario-perro
+  - mejor-antiparasitario-gatos-guia
+  - mejor-correa-perro
+  internal_links_from:
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - como-eliminar-pulgas-perro-casa
+  - mejor-antiparasitario-gatos-guia
+  - mejor-collar-antiparasitario-perro
+  - muda-pelo-perros-guia-cuidados
+  - perro-no-quiere-comer-causas
+  - residencias-mascotas-verano
+  word_count: 3893
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-arenero-arena-gatos
+  title: "Mejor arenero y arena para gatos: guía completa 2026"
+  file_path: src/content/articulos/mejor-arenero-arena-gatos.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor arenero y arena para gatos: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: arenero gato
+    search_volume: 0
+    is_primary: false
+  - keyword: mejor arenero para gatos
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Catit Arenero Jumbo
+  - Iris USA Open Top XL
+  - Yangbaga Bandeja Acero Inoxidable XL
+  - Catit Jumbo cerrado
+  - PawHut XXL Acero Inox (entrada superior)
+  - Curver Rattan (estilo mueble)
+  - Petkit Pura Max
+  - Catit SmartSift (manual)
+  - PetSafe ScoopFree
+  - "Cat's Best Original"
+  - Ever Clean Total Cover
+  - Tigerino Canada
+  - Sanicat Clumping
+  - Ever Clean Aqua Breeze
+  - Sanicat Diamonds (sílice)
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cama-gato-guia
+  - mejor-comedero-gatos-guia
+  - como-banar-gato
+  - mejor-champu-gato
+  - mejor-antiparasitario-gatos-guia
+  internal_links_from:
+  - mejor-antiparasitario-gatos-guia
+  - mejor-cama-gato-guia
+  - mejor-cepillo-gatos
+  - mejor-champu-gato
+  - mejor-comedero-gatos-guia
+  - mejor-transportin-gatos-guia
+  - residencias-mascotas-verano
+  word_count: 2924
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-arnes-antitirones-perro
+  title: "Mejor arnés antitirones para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-arnes-antitirones-perro.mdx
+  status: published
+  published_date: '2026-01-20'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor arnés antitirones para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: arnés antitirones perro
+    search_volume: 0
+    is_primary: false
+  - keyword: arnés perro no tirar
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - PetSafe Easy Walk
+  - Halti Harness
+  - Julius-K9 IDC Powerharness
+  - Ruffwear Front Range
+  - Rabbitgoo No-Pull Harness
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-correa-perro
+  internal_links_from:
+  - mejor-juguete-resistente-perros-guia
+  word_count: 3419
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-arnes-gato-pasear
+  title: "Mejores arneses para gatos: comparativa 2026"
+  file_path: src/content/articulos/mejor-arnes-gato-pasear.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores arneses para gatos
+    search_volume: 0
+    is_primary: true
+  - keyword: arnés gato
+    search_volume: 0
+    is_primary: false
+  - keyword: pasear gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Rabbitgoo Arnés Gato Antiescape
+  - Catit Arnés Ajustable
+  - PetSafe Come With Me Kitty
+  - Supet Arnés Chaleco Gato
+  - FAYOGOO Arnés Chaleco Antiescape
+  competitors_mentioned: []
+  internal_links_to:
+  - collar-gps-gato
+  - mejor-antiparasitario-gatos-guia
+  - como-banar-gato
+  internal_links_from:
+  - collar-gps-gato
+  word_count: 3436
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-arnes-perro
+  title: "Mejor arnés para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-arnes-perro.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor arnés para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: arnés perro
+    search_volume: 0
+    is_primary: false
+  - keyword: arnés antitirones
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Julius-K9 IDC Powerharness
+  - Ruffwear Front Range
+  - Kurgo Tru-Fit Smart
+  - Ferplast Agila
+  - EzyDog Quick Fit
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-correa-perro
+  internal_links_from:
+  - asiento-coche-perro
+  - collar-antiladridos-perros
+  - como-socializar-cachorro
+  - correa-extensible-perros
+  - cuanto-ejercicio-necesita-perro
+  - mejor-abrigo-perro-invierno
+  - mejor-arnes-antitirones-perro
+  - mejor-bozal-perro
+  - mejor-chaleco-salvavidas-perro
+  - mejor-chubasquero-perro
+  - mejor-correa-perro
+  - mejor-gps-perro
+  - mejor-transportin-perros-guia
+  - razas-perro-piso-pequeno
+  - residencias-mascotas-verano
+  word_count: 1570
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-aspirador-pelo-mascotas
+  title: "Mejor aspirador para pelo de mascotas: comparativa 2026"
+  file_path: src/content/articulos/mejor-aspirador-pelo-mascotas.mdx
+  status: published
+  published_date: '2026-03-07'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor aspirador para pelo de mascotas
+    search_volume: 0
+    is_primary: true
+  - keyword: aspirador pelo mascotas
+    search_volume: 0
+    is_primary: false
+  - keyword: aspirador pelo perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Dyson V15 Detect
+  - Dyson V8 Animal
+  - Dreame Z30
+  - Rowenta X-Force Flex Animal
+  - Xiaomi G20 Max
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-perro
+  - cepillos-quitar-pelo-perro-sofa
+  internal_links_from:
+  - cepillos-quitar-pelo-perro-sofa
+  - como-eliminar-pulgas-perro-casa
+  - mejor-limpiador-enzimatico-mascotas
+  - muda-pelo-gatos-guia-cuidados
+  - muda-pelo-perros-guia-cuidados
+  word_count: 3378
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-bebedero-perros-guia
+  title: "Mejor bebedero para perros 2026: guía completa"
+  file_path: src/content/articulos/mejor-bebedero-perros-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor bebedero para perros : guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: bebedero perro
+    search_volume: 0
+    is_primary: false
+  - keyword: fuente agua perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - AmazonBasics Cuenco Acero Inox
+  - PawHut Comedero Elevado Acero Inox
+  - Bebedero de jardín/exterior automático
+  - "PetSafe Drinkwell 3,7L Inox"
+  - EYENIMAL Smart Bloom Pet Fountain
+  - Petkit Eversweet 2S
+  - Veken 3L Inox para perros
+  - PetSafe Drinkwell Platinum 5L
+  - "Bonve Pet 3,2L con LED"
+  - PETKIT Eversweet Travel 400ml
+  - Trixie Bebedero de Viaje 750ml
+  - Cuenco plegable de silicona (pack 2)
+  competitors_mentioned: []
+  internal_links_to:
+  - comparativa-fuentes-agua-gatos
+  - mejor-comedero-perros-guia
+  - alfombrilla-refrigerante-perros
+  - mejor-pienso-perro-adulto-raza-mediana
+  internal_links_from:
+  - comparativa-fuentes-agua-gatos
+  - mejor-comedero-perros-guia
+  - perro-no-quiere-comer-causas
+  word_count: 4050
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-bozal-perro
+  title: "Mejor bozal para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-bozal-perro.mdx
+  status: published
+  published_date: '2026-02-11'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor bozal para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: bozal perro
+    search_volume: 0
+    is_primary: false
+  - keyword: bozal cesta perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Baskerville Ultra
+  - Jafco Muzzle
+  - Trixie Bozal Plástico
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-correa-perro
+  - mejor-arnes-perro
+  internal_links_from: []
+  word_count: 2651
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-cama-gato-guia
+  title: "Mejor cama para gatos: guía definitiva 2026"
+  file_path: src/content/articulos/mejor-cama-gato-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor cama para gatos: guía definitiva"
+    search_volume: 0
+    is_primary: true
+  - keyword: cama gato
+    search_volume: 0
+    is_primary: false
+  - keyword: cama cueva gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - HULG Cueva 2 en 1
+  - Galatée Cueva Iglú de Felpa
+  - Catit Vesper Cubo
+  - Trixie Cueva Minou
+  - Cama Donut Redonda
+  - Trixie Hamaca Radiador
+  - riijk Hamaca Extra Estable
+  - Oster Sunny Seat
+  - Dracarys Hamaca Ventana
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arenero-arena-gatos
+  - mejor-rascador-gatos-guia
+  - enriquecimiento-ambiental-gato-interior
+  - senales-estres-gatos
+  - mejor-difusor-feromonas-gatos
+  - mejor-gatera-puerta-gato
+  internal_links_from:
+  - enriquecimiento-ambiental-gato-interior
+  - mejor-arenero-arena-gatos
+  - mejor-rascador-gatos-guia
+  - mejor-transportin-gatos-guia
+  - por-que-gatos-amasan
+  word_count: 3695
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-cama-perro-guia
+  title: "Mejor cama para perros: guía completa por tipos 2026"
+  file_path: src/content/articulos/mejor-cama-perro-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor cama para perros: guía completa por tipos"
+    search_volume: 0
+    is_primary: true
+  - keyword: cama perro
+    search_volume: 0
+    is_primary: false
+  - keyword: mejor cama perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Bedsure Cama Ortopédica
+  - Trixie Vital Bed
+  - JOYELF Cama Ortopédica Grande
+  - DONWEI Cama Donut 50cm
+  - KSIIA Cama Antiansiedad 90x60cm
+  - HANHAN Donut Ortopédico XL
+  - Amazon Basics Cama Elevada Refrescante L
+  - PawHut Cama Elevada Portátil
+  - Yuma Spazio Antimordeduras
+  - Bedsure Cama Lavable Ortopédica
+  - Knuffelwuff Oxford
+  competitors_mentioned: []
+  internal_links_to:
+  - alfombrilla-refrigerante-perros
+  - mejor-juguete-mental-perros-guia
+  - mejor-escalera-rampa-perros
+  - mejor-manta-perros
+  - mejores-empapadores-perros
+  internal_links_from:
+  - alfombrilla-refrigerante-perros
+  - mejor-escalera-rampa-perros
+  - mejor-manta-perros
+  - mejor-transportin-perros-guia
+  - perro-miedo-petardos-fuegos-artificiales
+  - por-que-perro-ladra-noche
+  - razas-perro-piso-pequeno
+  word_count: 3206
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-cepillo-dientes-perros
+  title: Mejor cepillo de dientes para perros 2026
+  file_path: src/content/articulos/mejor-cepillo-dientes-perros.mdx
+  status: published
+  published_date: '2025-12-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor cepillo de dientes para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: cepillo dientes perro
+    search_volume: 0
+    is_primary: false
+  - keyword: higiene dental perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Stangest Kit Dental
+  - "Arm & Hammer Fresh Spectrum Kit"
+  - Virbac C.E.T. Pasta Enzimática
+  - Trixie Set Higiene Dental
+  - Cepillo de Dedo Silicona (Pack 5)
+  competitors_mentioned: []
+  internal_links_to:
+  - mejores-snacks-naturales-perros
+  - mejor-juguete-resistente-perros-guia
+  internal_links_from:
+  - como-limpiar-dientes-perro
+  - perro-no-quiere-comer-causas
+  word_count: 3630
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-cepillo-gatos
+  title: Mejor cepillo para gatos por tipo de pelo 2026
+  file_path: src/content/articulos/mejor-cepillo-gatos.mdx
+  status: published
+  published_date: '2026-03-14'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor cepillo para gatos por tipo de pelo
+    search_volume: 0
+    is_primary: true
+  - keyword: cepillo gato
+    search_volume: 0
+    is_primary: false
+  - keyword: pelo gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - FURminator Gatos Pelo Corto M/L
+  - PAKEWAY Slicker Autolimpiante
+  - Hertzko Cortanudos Gatos
+  - aumuca Cepillo Gatos Autolimpiante
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-champu-gato
+  - mejor-arenero-arena-gatos
+  internal_links_from:
+  - como-banar-gato
+  - como-cortar-unas-gato
+  - gato-vomita-causas-soluciones
+  - mejor-pienso-gato-pelo-largo
+  - muda-pelo-gatos-guia-cuidados
+  word_count: 2048
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-cepillo-perro
+  title: "Mejor cepillo para perros: guía completa por tipo de pelo 2026"
+  file_path: src/content/articulos/mejor-cepillo-perro.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor cepillo para perros: guía completa por tipo de pelo"
+    search_volume: 0
+    is_primary: true
+  - keyword: cepillo perro
+    search_volume: 0
+    is_primary: false
+  - keyword: cepillo pelo largo
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - FURminator Deslanador
+  - Chris Christensen Mark II (cepillo de púas)
+  - PAKEWAY Slicker Autolimpiante
+  - Trixie Cepillo de goma
+  - Safari De-Matting Comb
+  competitors_mentioned: []
+  internal_links_to:
+  - champu-perros-piel-sensible
+  internal_links_from:
+  - cepillos-quitar-pelo-perro-sofa
+  - champu-perros-piel-sensible
+  - como-limpiar-oidos-perro
+  - mejor-aspirador-pelo-mascotas
+  - mejor-cortapelos-perros
+  - mejor-cortaunas-perros
+  - mejor-secador-perros
+  - muda-pelo-perros-guia-cuidados
+  word_count: 3081
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-chaleco-salvavidas-perro
+  title: "Mejor chaleco salvavidas para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-chaleco-salvavidas-perro.mdx
+  status: published
+  published_date: '2026-02-25'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor chaleco salvavidas para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: chaleco salvavidas perro
+    search_volume: 0
+    is_primary: false
+  - keyword: chaleco flotador perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - EzyDog DFD (Dog Flotation Device)
+  - EzyDog X2 Boost
+  - Vivaglory Ripstop
+  - Hurtta Life Savior
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-piscina-perros
+  internal_links_from:
+  - mejor-piscina-perros
+  word_count: 3119
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-champu-gato
+  title: "Mejor champú para gatos: comparativa y guía completa 2026"
+  file_path: src/content/articulos/mejor-champu-gato.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor champú para gatos: comparativa y guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: champú gato
+    search_volume: 0
+    is_primary: false
+  - keyword: baño gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Virbac Allercalm Champú
+  - John Paul Pet Cat Shampoo
+  - Beaphar Shampoo Gato
+  - MENFORSAN Crema Suavizante Desenredante Gatos
+  - MENFORSAN Champú Muy Suave Gatos
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arenero-arena-gatos
+  internal_links_from:
+  - como-banar-gato
+  - mejor-antiparasitario-gatos-guia
+  - mejor-arenero-arena-gatos
+  - mejor-cepillo-gatos
+  word_count: 1741
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-chubasquero-perro
+  title: Mejor chubasquero para perros 2026
+  file_path: src/content/articulos/mejor-chubasquero-perro.mdx
+  status: published
+  published_date: '2025-11-14'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor chubasquero para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: chubasquero perro
+    search_volume: 0
+    is_primary: false
+  - keyword: impermeable perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Hurtta Downpour Suit
+  - Rukka Pets Raincoat
+  - Geyecete Chubasquero Galgo
+  - Trixie Vimy Chubasquero
+  - Zellar Chubasquero Ajustable
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-abrigo-perro-invierno
+  - mejor-arnes-perro
+  internal_links_from:
+  - mejor-abrigo-perro-invierno
+  - mejor-protector-patas-perro
+  word_count: 1850
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-circuito-agilidad-perros
+  title: "Mejores circuitos de agilidad para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-circuito-agilidad-perros.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores circuitos de agilidad para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: agilidad perro
+    search_volume: 0
+    is_primary: false
+  - keyword: circuito agility perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Trixie Dog Activity Agility Set
+  - PawHut Circuito Agility 5 piezas
+  - Trixie Túnel Agility 5m
+  - JMMPOO Kit Agility 60 Piezas
+  - Froadp Set Vallas Agility
+  competitors_mentioned: []
+  internal_links_to:
+  - cuanto-ejercicio-necesita-perro
+  - mejor-juguete-mental-perros-guia
+  internal_links_from: []
+  word_count: 3820
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-collar-antiparasitario-perro
+  title: Mejor collar antiparasitario para perros 2026
+  file_path: src/content/articulos/mejor-collar-antiparasitario-perro.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor collar antiparasitario para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: collar antiparasitario
+    search_volume: 0
+    is_primary: false
+  - keyword: perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Seresto (Elanco) 8 meses
+  - Scalibor Protectorband
+  - Prevendog Collar
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-antiparasitario-perros-guia
+  - como-eliminar-pulgas-perro-casa
+  internal_links_from:
+  - como-eliminar-pulgas-perro-casa
+  - mejor-antiparasitario-perros-guia
+  - procesionaria-pino-perros-peligros-primeros-auxilios
+  word_count: 2769
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-collar-luminoso-perro
+  title: "Mejor collar luminoso LED para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-collar-luminoso-perro.mdx
+  status: published
+  published_date: '2026-02-07'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor collar luminoso led para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: collar led perro
+    search_volume: 0
+    is_primary: false
+  - keyword: collar luminoso perro noche
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Nepfaivy LED Collar
+  - Pceotllar LED Collar RGB
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-gps-perro
+  - mejor-correa-perro
+  internal_links_from:
+  - mejor-gps-perro
+  word_count: 2642
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-comedero-antihormigas-mascotas
+  title: "Mejor comedero antihormigas: comparativa 2026"
+  file_path: src/content/articulos/mejor-comedero-antihormigas-mascotas.mdx
+  status: published
+  published_date: '2026-03-11'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor comedero antihormigas
+    search_volume: 0
+    is_primary: true
+  - keyword: comedero antihormigas perro
+    search_volume: 0
+    is_primary: false
+  - keyword: comedero antihormigas gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Nayeco Comedero Antihormigas Inox 1.9L
+  - GRPET Comedero Antihormigas
+  - GP GP10060 Comedero Antihormigas
+  - TK-Pet Comedero Antihormigas Inox
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-comedero-perros-guia
+  - mejor-comedero-gatos-guia
+  internal_links_from:
+  - mejor-comedero-perros-guia
+  word_count: 3038
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-comedero-gatos-guia
+  title: "Mejor comedero para gatos: guía completa 2026"
+  file_path: src/content/articulos/mejor-comedero-gatos-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor comedero para gatos: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: comedero gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: comedero elevado gatos
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - PETKIT CYBERTAIL Acero Inox
+  - HCHLQLZ Cerámica Elevado Inclinado
+  - Catit Senses 2.0 Digger
+  - LickiMat Kitty
+  - Northmate Catch
+  - SureFeed Microchip Pet Feeder
+  - PetSafe 5 Comidas Programable
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-fuente-agua-gatos-silenciosa
+  - mejor-comida-humeda-gatos
+  - mejor-pienso-gato-esterilizado
+  - mejor-arenero-arena-gatos
+  internal_links_from:
+  - cuanto-debe-comer-gato-adulto
+  - gato-maulla-mucho-noche-causas
+  - gato-vomita-causas-soluciones
+  - mejor-arenero-arena-gatos
+  - mejor-comedero-antihormigas-mascotas
+  - mejor-comida-humeda-gatos
+  word_count: 2902
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-comedero-perros-guia
+  title: "Mejor comedero para perros 2026: guía definitiva"
+  file_path: src/content/articulos/mejor-comedero-perros-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor comedero para perros : guía definitiva"
+    search_volume: 0
+    is_primary: true
+  - keyword: comedero perros
+    search_volume: 0
+    is_primary: false
+  - keyword: comedero elevado perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - AmazonBasics Acero Inoxidable Antideslizante
+  - RUFFWEAR Quencher Bowl (plegable viaje)
+  - Trixie Comedero Elevado Acero Inox
+  - Outward Hound Fun Feeder Slo-Bowl
+  - Kong Wobbler
+  - LickiMat Slomo
+  - HoneyGuaridan Doble Cuenco 5L
+  - Catit PIXI Smart Feeder
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-raza-grande
+  - mejores-snacks-naturales-perros
+  - perro-no-quiere-comer-causas
+  - mejor-bebedero-perros-guia
+  - mejor-comedero-antihormigas-mascotas
+  internal_links_from:
+  - correa-extensible-perros
+  - cuantas-veces-dia-debe-comer-perro
+  - mejor-bebedero-perros-guia
+  - mejor-comedero-antihormigas-mascotas
+  - mejor-comida-humeda-perros
+  - mejor-pienso-perro-raza-grande
+  - mejor-pienso-perro-raza-pequena
+  - mejores-snacks-naturales-perros
+  - perro-no-quiere-comer-causas
+  - perro-sobrepeso-dieta-ejercicio
+  word_count: 3478
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-comida-humeda-gatos
+  title: "Mejor comida húmeda para gatos exigentes: comparativa 2026"
+  file_path: src/content/articulos/mejor-comida-humeda-gatos.mdx
+  status: published
+  published_date: '2025-10-08'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor comida húmeda para gatos exigentes
+    search_volume: 0
+    is_primary: true
+  - keyword: comida húmeda
+    search_volume: 0
+    is_primary: false
+  - keyword: gatos exigentes
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Applaws en caldo natural (24x70g)
+  - Cosma Nature (solo Zooplus)
+  - Sheba Delicatezze Selección Mixta
+  - "Lily's Kitchen Paté sin Cereales (32x85g)"
+  - Gourmet Gold Mousse Variado (24x85g)
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-senior
+  - mejor-comedero-gatos-guia
+  internal_links_from:
+  - gato-vomita-causas-soluciones
+  - mejor-comedero-gatos-guia
+  - mejor-pienso-gato-esterilizado
+  - mejor-pienso-gato-senior
+  word_count: 3158
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-comida-humeda-perros
+  title: "Mejor comida húmeda para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-comida-humeda-perros.mdx
+  status: published
+  published_date: '2026-02-17'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor comida húmeda para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: comida húmeda perro
+    search_volume: 0
+    is_primary: false
+  - keyword: latas perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Applaws Taste Toppers Pollo en Caldo
+  - "Lily's Kitchen Classic Dinners"
+  - Purina Pro Plan Adult Pavo 12x400g
+  - Animonda GranCarno Original Adult
+  - Royal Canin Maxi Adult en Salsa
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-senior
+  - mejor-comedero-perros-guia
+  internal_links_from:
+  - cuantas-veces-dia-debe-comer-perro
+  - mejor-pienso-perro-adulto-raza-mediana
+  - mejor-pienso-perro-senior
+  - perro-no-quiere-comer-causas
+  word_count: 2645
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-correa-perro
+  title: "Mejor correa para perros: comparativa y guía completa 2026"
+  file_path: src/content/articulos/mejor-correa-perro.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor correa para perros: comparativa y guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: correa perro
+    search_volume: 0
+    is_primary: false
+  - keyword: correa adiestramiento
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Ruffwear Roamer (extensible ajustable)
+  - "Julius-K9 Color & Gray Correa 1,2m"
+  - Flexi New Classic (retráctil 5m)
+  - Trixie Ramal Tracking Adiestramiento 10m
+  competitors_mentioned: []
+  internal_links_to:
+  - jaula-perro-casa-coche
+  - mejor-arnes-perro
+  internal_links_from:
+  - collar-antiladridos-perros
+  - jaula-perro-casa-coche
+  - mejor-abrigo-perro-invierno
+  - mejor-antiparasitario-perros-guia
+  - mejor-arnes-antitirones-perro
+  - mejor-arnes-perro
+  - mejor-bozal-perro
+  - mejor-collar-luminoso-perro
+  - mejor-dispensador-bolsas-caca-perro
+  - mejores-bolsas-caca-perro-biodegradables
+  word_count: 1522
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-cortapelos-perros
+  title: "Mejor cortapelos para perros: comparativa 2025"
+  file_path: src/content/articulos/mejor-cortapelos-perros.mdx
+  status: published
+  published_date: '2025-12-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor cortapelos para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: cortapelos perros
+    search_volume: 0
+    is_primary: false
+  - keyword: maquinilla perros
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - oneisall Cortapelos IPX7
+  - Moser Max50
+  - Wahl KM10
+  - Milea Cortapelos Silencioso
+  - Cortapelos Profesional Inalámbrico
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-secador-perros
+  - mejor-cepillo-perro
+  internal_links_from:
+  - champu-perros-piel-sensible
+  word_count: 2903
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-cortaunas-perros
+  title: "Mejor cortaúñas para perros: comparativa 2025"
+  file_path: src/content/articulos/mejor-cortaunas-perros.mdx
+  status: published
+  published_date: '2025-11-25'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor cortaúñas para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: cortauñas perros
+    search_volume: 0
+    is_primary: false
+  - keyword: cortauñas mascotas
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Millers Forge Profesional (guillotina)
+  - Resco Original Deluxe (guillotina)
+  - Safari Professional Trimmer (tijera)
+  - EPROICKS Cortaúñas con Luz LED
+  - Dremel PawControl 7760-PGK
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-perro
+  internal_links_from: []
+  word_count: 3050
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-difusor-feromonas-gatos
+  title: "Mejor difusor de feromonas para gatos: comparativa 2025"
+  file_path: src/content/articulos/mejor-difusor-feromonas-gatos.mdx
+  status: published
+  published_date: '2026-03-03'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor difusor de feromonas para gatos
+    search_volume: 0
+    is_primary: true
+  - keyword: feromonas gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: feliway difusor
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Feliway Classic Difusor
+  - Feliway Friends Difusor
+  - Feliway Optimum Difusor
+  - Beaphar CatComfort Difusor
+  - Pet Remedy Difusor Natural
+  competitors_mentioned: []
+  internal_links_to:
+  - senales-estres-gatos
+  - enriquecimiento-ambiental-gato-interior
+  internal_links_from:
+  - como-presentar-perro-gato
+  - gato-maulla-mucho-noche-causas
+  - mejor-cama-gato-guia
+  - mejor-juguete-gatos-guia
+  - mejor-rascador-gatos-guia
+  - perro-miedo-petardos-fuegos-artificiales
+  - residencias-mascotas-verano
+  - senales-estres-gatos
+  word_count: 2847
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-dispensador-bolsas-caca-perro
+  title: Mejor dispensador de bolsas caca perro 2025
+  file_path: src/content/articulos/mejor-dispensador-bolsas-caca-perro.mdx
+  status: published
+  published_date: '2026-01-18'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor dispensador de bolsas caca perro
+    search_volume: 0
+    is_primary: true
+  - keyword: dispensador bolsas perro
+    search_volume: 0
+    is_primary: false
+  - keyword: bolsas caca perro biodegradables
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Amazon Basics Dispensador + 300 bolsas
+  - Earth Rated Recambios Lavanda (120 bolsas)
+  - "Pogi's Pet Supplies Dispensador"
+  - TBonz Dispensador con Linterna LED
+  - BioBag Bolsas Compostables
+  competitors_mentioned: []
+  internal_links_to:
+  - mejores-bolsas-caca-perro-biodegradables
+  - mejor-correa-perro
+  internal_links_from:
+  - mejores-bolsas-caca-perro-biodegradables
+  word_count: 3174
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-escalera-rampa-perros
+  title: "Mejor escalera y rampa para perros: comparativa 2025"
+  file_path: src/content/articulos/mejor-escalera-rampa-perros.mdx
+  status: published
+  published_date: '2025-12-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor escalera y rampa para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: escalera perros
+    search_volume: 0
+    is_primary: false
+  - keyword: rampa perros
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Rampa Plegable Madera Ajustable
+  - PetSafe Solvit Rampa Telescópica
+  - TRIXIE Rampa Petwalk Plegable
+  - Zvonema Escalera Espuma 3 Peldaños
+  - TRIXIE Escalera Madera Petstair
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cama-perro-guia
+  internal_links_from:
+  - mejor-cama-perro-guia
+  word_count: 1764
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-fuente-agua-gatos-silenciosa
+  title: Mejores fuentes de agua silenciosas para gatos
+  file_path: src/content/articulos/mejor-fuente-agua-gatos-silenciosa.mdx
+  status: published
+  published_date: '2026-02-03'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores fuentes de agua silenciosas para gatos
+    search_volume: 0
+    is_primary: true
+  - keyword: fuente agua gato silenciosa
+    search_volume: 0
+    is_primary: false
+  - keyword: bebedero gato automático
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Petkit Eversweet 3 Pro
+  - Catit Pixi Smart Fountain
+  - AONBOY 3.2L Inox
+  - PetSafe Drinkwell Mini
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-esterilizado
+  - pienso-gato-problemas-urinarios
+  internal_links_from:
+  - enriquecimiento-ambiental-gato-interior
+  - mejor-comedero-gatos-guia
+  word_count: 3364
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-gatera-puerta-gato
+  title: "Mejor gatera (puerta para gatos): comparativa 2026"
+  file_path: src/content/articulos/mejor-gatera-puerta-gato.mdx
+  status: published
+  published_date: '2026-02-19'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor gatera (puerta para gatos)
+    search_volume: 0
+    is_primary: true
+  - keyword: gatera gato
+    search_volume: 0
+    is_primary: false
+  - keyword: puerta gato microchip
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - SureFlap Microchip Cat Flap
+  - SureFlap Microchip Pet Door (XL)
+  - PetSafe Staywell 4 posiciones
+  - Cat Mate Electromagnetic
+  - Trixie Gatera 4 Vías con Túnel
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-puerta-seguridad-perros
+  - enriquecimiento-ambiental-gato-interior
+  internal_links_from:
+  - mejor-cama-gato-guia
+  - mejor-puerta-seguridad-perros
+  word_count: 3589
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-gps-perro
+  title: "Mejor GPS para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-gps-perro.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor gps para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: gps perro
+    search_volume: 0
+    is_primary: false
+  - keyword: localizador perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Tractive GPS Dog 4G
+  - Weenect XS para Perros
+  - PitPat GPS
+  - Garmin T5 Mini
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-collar-luminoso-perro
+  internal_links_from:
+  - mejor-collar-luminoso-perro
+  word_count: 2729
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-juguete-cachorro
+  title: Mejores juguetes para cachorros 2026
+  file_path: src/content/articulos/mejor-juguete-cachorro.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores juguetes para cachorros
+    search_volume: 0
+    is_primary: true
+  - keyword: juguetes cachorro
+    search_volume: 0
+    is_primary: false
+  - keyword: mordedor cachorro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Kong Classic Rellenable (S)
+  - Kong Tug Toy Elástico
+  - West Paw Zogoflex Hurley
+  - Outward Hound Hide-A-Squirrel
+  - Chuckit Ultra Ball
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-resistente-perros-guia
+  internal_links_from:
+  - cachorro-primeras-semanas-casa
+  - como-socializar-cachorro
+  word_count: 1600
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-juguete-gatos-guia
+  title: "Mejor juguete para gatos: guía completa 2026"
+  file_path: src/content/articulos/mejor-juguete-gatos-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor juguete para gatos: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: juguetes gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: juguete interactivo gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Pawaboo Caña Retráctil con Plumas
+  - Trixie Caña con Ratón y Plumas
+  - Catit Senses Play Circuit
+  - PetSafe SlimCat Dispensador
+  - Nina Ottosson Buggin Out
+  - Catit Senses Food Maze
+  - "Doc & Phoebe's Indoor Hunting Feeder"
+  - PAWZ Road Túnel Donut
+  - Trixie Hierba Gatera con Bandeja
+  - KONG Naturals Catnip Premium
+  - Petstages Dental Banana con Catnip
+  - Matatabi Silvervine Sticks
+  competitors_mentioned: []
+  internal_links_to:
+  - enriquecimiento-ambiental-gato-interior
+  - mejor-difusor-feromonas-gatos
+  - mejor-rascador-gatos-guia
+  - arbol-rascador-pequeno-pisos
+  - gato-maulla-mucho-noche-causas
+  - senales-estres-gatos
+  - snacks-naturales-gatos
+  internal_links_from:
+  - como-adiestrar-gato-tecnicas
+  - enriquecimiento-ambiental-gato-interior
+  - gato-maulla-mucho-noche-causas
+  - mejor-rascador-gatos-guia
+  - residencias-mascotas-verano
+  word_count: 3985
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-juguete-mental-perros-guia
+  title: "Juguetes de estimulación mental para perros: guía 2026"
+  file_path: src/content/articulos/mejor-juguete-mental-perros-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "juguetes de estimulación mental para perros: guía"
+    search_volume: 0
+    is_primary: true
+  - keyword: juguetes estimulacion mental perro
+    search_volume: 0
+    is_primary: false
+  - keyword: kong perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - KONG Classic S
+  - KONG Extreme M
+  - West Paw Toppl L
+  - KONG Wobbler L
+  - Nina Ottosson Dog Brick
+  - Nina Ottosson Dog Tornado
+  - Nina Ottosson Dog Casino
+  - LickiMat Classic
+  - KONG Classic S (congelado)
+  - Nobleza Alfombra Olfativa 70x70
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-resistente-perros-guia
+  - alimentos-prohibidos-perros
+  - alfombras-olfato-perros
+  - cuanto-ejercicio-necesita-perro
+  internal_links_from:
+  - alfombras-olfato-perros
+  - cuanto-ejercicio-necesita-perro
+  - mejor-cama-perro-guia
+  - mejor-circuito-agilidad-perros
+  - mejor-juguete-resistente-perros-guia
+  - perro-no-quiere-comer-causas
+  - por-que-perro-ladra-noche
+  - razas-perro-piso-pequeno
+  - residencias-mascotas-verano
+  word_count: 3966
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-juguete-resistente-perros-guia
+  title: "Juguetes resistentes para perros: guía completa 2026"
+  file_path: src/content/articulos/mejor-juguete-resistente-perros-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "juguetes resistentes para perros: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: pelota perro indestructible
+    search_volume: 0
+    is_primary: false
+  - keyword: mordedor perro resistente
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Kong Ball Extreme M/L
+  - "Chuckit! Ultra Ball M"
+  - West Paw Jive S
+  - Goughnuts Ball
+  - Kong Extreme M
+  - Atopo Mordedor Hueso Goma
+  - Asta de Ciervo Natural
+  - Kong Goodie Bone Extreme M
+  - "Chuckit! Sport 12M Launcher"
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-mental-perros-guia
+  - alfombras-olfato-perros
+  - cuanto-ejercicio-necesita-perro
+  - mejor-arnes-antitirones-perro
+  internal_links_from:
+  - alfombras-olfato-perros
+  - mejor-cepillo-dientes-perros
+  - mejor-juguete-cachorro
+  - mejor-juguete-mental-perros-guia
+  - residencias-mascotas-verano
+  word_count: 2893
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-limpiador-enzimatico-mascotas
+  title: Mejor limpiador enzimático para mascotas 2026
+  file_path: src/content/articulos/mejor-limpiador-enzimatico-mascotas.mdx
+  status: published
+  published_date: '2026-03-14'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor limpiador enzimático para mascotas
+    search_volume: 0
+    is_primary: true
+  - keyword: limpiador enzimático
+    search_volume: 0
+    is_primary: false
+  - keyword: orina mascota
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Simple Solution Extreme
+  - Urine Off 500ml
+  - Bio-Chem Enzymreiniger
+  competitors_mentioned: []
+  internal_links_to:
+  - mejores-empapadores-perros
+  - mejor-aspirador-pelo-mascotas
+  internal_links_from:
+  - cachorro-primeras-semanas-casa
+  - mejores-empapadores-perros
+  word_count: 1402
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-manta-perros
+  title: "Mejor manta para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-manta-perros.mdx
+  status: published
+  published_date: '2025-12-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor manta para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: manta perro
+    search_volume: 0
+    is_primary: false
+  - keyword: manta impermeable perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Feandrea Manta Impermeable Reversible
+  - Luciphia Manta Impermeable Lavable
+  - Bedsure Manta Sofá Reversible
+  - Trixie Barney Manta Polar
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cama-perro-guia
+  - protector-sofa-mascotas
+  internal_links_from:
+  - mejor-cama-perro-guia
+  - por-que-gatos-amasan
+  - protector-sofa-mascotas
+  word_count: 2555
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-cachorro-gato
+  title: Mejor pienso para gatito cachorro 2026
+  file_path: src/content/articulos/mejor-pienso-cachorro-gato.mdx
+  status: published
+  published_date: '2026-02-20'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para gatito cachorro
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso gatito
+    search_volume: 0
+    is_primary: false
+  - keyword: pienso cachorro gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Kitten
+  - "Hill's Science Plan Kitten Pollo"
+  - Purina Pro Plan Kitten Optistart 3kg
+  - "Orijen Cat & Kitten"
+  - Advance Kitten Pollo
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-esterilizado
+  - cuanto-debe-comer-gato-adulto
+  internal_links_from:
+  - cachorro-primeras-semanas-casa
+  - como-saber-edad-gato
+  word_count: 2760
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-cachorro-raza-grande
+  title: Mejor pienso cachorro raza grande 2026
+  file_path: src/content/articulos/mejor-pienso-cachorro-raza-grande.mdx
+  status: published
+  published_date: '2025-10-05'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso cachorro raza grande
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso cachorro
+    search_volume: 0
+    is_primary: false
+  - keyword: raza grande
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Maxi Puppy
+  - Purina Pro Plan Puppy Large Robust
+  - Eukanuba Puppy Large Breed
+  - Orijen Puppy Large
+  - Advance Puppy Maxi
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-raza-grande
+  - cuantas-veces-dia-debe-comer-perro
+  internal_links_from:
+  - cuantas-veces-dia-debe-comer-perro
+  - mejor-pienso-perro-raza-grande
+  word_count: 2758
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-gato-esterilizado
+  title: Mejor pienso para gato esterilizado 2026
+  file_path: src/content/articulos/mejor-pienso-gato-esterilizado.mdx
+  status: published
+  published_date: '2026-03-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para gato esterilizado
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso gato esterilizado
+    search_volume: 0
+    is_primary: false
+  - keyword: alimentacion gato castrado
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Sterilised 37
+  - "Hill's Science Plan Sterilised Adult Pollo"
+  - Purina Pro Plan Sterilised Renal Plus Salmón
+  - Acana Pacifica Cat
+  - Advance Adult Sterilized Pavo
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-indoor
+  - mejor-comida-humeda-gatos
+  internal_links_from:
+  - cuanto-debe-comer-gato-adulto
+  - diferencia-pienso-grain-free-normal
+  - mejor-comedero-gatos-guia
+  - mejor-fuente-agua-gatos-silenciosa
+  - mejor-pienso-cachorro-gato
+  - mejor-pienso-gato-indoor
+  - mejor-pienso-gato-pelo-largo
+  - snacks-naturales-gatos
+  word_count: 2965
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-gato-indoor
+  title: "Mejor pienso para gatos de interior: guía y comparativa 2026"
+  file_path: src/content/articulos/mejor-pienso-gato-indoor.mdx
+  status: published
+  published_date: '2025-12-20'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor pienso para gatos de interior: guía y comparativa"
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso gato interior
+    search_volume: 0
+    is_primary: false
+  - keyword: pienso gato indoor
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Indoor 27
+  - Purina Pro Plan Sterilised Salmón
+  - "Orijen Cat & Kitten"
+  - Advance Hairball Sterilized Pavo
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-esterilizado
+  - enriquecimiento-ambiental-gato-interior
+  internal_links_from:
+  - mejor-pienso-gato-esterilizado
+  - muda-pelo-gatos-guia-cuidados
+  word_count: 2965
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-gato-pelo-largo
+  title: "Mejor pienso para gatos de pelo largo: comparativa 2026"
+  file_path: src/content/articulos/mejor-pienso-gato-pelo-largo.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para gatos de pelo largo
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso gato pelo largo
+    search_volume: 0
+    is_primary: false
+  - keyword: bolas de pelo gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Indoor Long Hair
+  - Royal Canin Hairball Care
+  - Royal Canin Persian Adult
+  - Advance Hairball Sterilized Pavo
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-gatos
+  - mejor-pienso-gato-esterilizado
+  internal_links_from:
+  - gato-vomita-causas-soluciones
+  - muda-pelo-gatos-guia-cuidados
+  word_count: 2519
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-gato-senior
+  title: "Mejor pienso para gatos mayores: guía y comparativa 2026"
+  file_path: src/content/articulos/mejor-pienso-gato-senior.mdx
+  status: published
+  published_date: '2026-02-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor pienso para gatos mayores: guía y comparativa"
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso gato senior
+    search_volume: 0
+    is_primary: false
+  - keyword: pienso gato mayor
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Ageing 12+
+  - Purina Pro Plan Sterilised Senior 7+ Pavo
+  - Advance Senior Sterilized Pollo
+  - Ultima Senior Sterilized Pollo
+  competitors_mentioned: []
+  internal_links_to:
+  - pienso-gato-problemas-urinarios
+  - mejor-comida-humeda-gatos
+  internal_links_from:
+  - como-saber-edad-gato
+  - mejor-comida-humeda-gatos
+  - pienso-gato-problemas-urinarios
+  word_count: 2478
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-hipoalergenico-perro
+  title: "Mejor pienso hipoalergénico para perros: comparativa 2026"
+  file_path: src/content/articulos/mejor-pienso-hipoalergenico-perro.mdx
+  status: published
+  published_date: '2026-03-14'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso hipoalergénico para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso hipoalergenico
+    search_volume: 0
+    is_primary: false
+  - keyword: alergia perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Hypoallergenic
+  - "Hill's z/d Prescription Diet"
+  - Purina Pro Plan HA Hypoallergenic
+  - Advance Veterinary Diets Hypoallergenic
+  - Acana Grass-Fed Lamb
+  competitors_mentioned: []
+  internal_links_to:
+  - perro-no-quiere-comer-causas
+  - mejor-pienso-perro-adulto-raza-mediana
+  internal_links_from:
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  word_count: 1303
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-perro-adulto-raza-mediana
+  title: Mejor pienso para perro de raza mediana 2026
+  file_path: src/content/articulos/mejor-pienso-perro-adulto-raza-mediana.mdx
+  status: published
+  published_date: '2025-11-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para perro de raza mediana
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso perro adulto
+    search_volume: 0
+    is_primary: false
+  - keyword: raza mediana
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Orijen Original
+  - Acana Adult Dog
+  - Royal Canin Medium Adult
+  - Eukanuba Adult Medium Pollo
+  - Advance Medium Adult Pollo
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-raza-grande
+  - mejor-pienso-perro-raza-pequena
+  - mejor-comida-humeda-perros
+  internal_links_from:
+  - diferencia-pienso-grain-free-normal
+  - mejor-bebedero-perros-guia
+  - mejor-pienso-hipoalergenico-perro
+  - mejor-pienso-perro-esterilizado
+  - mejor-pienso-perro-raza-pequena
+  - perro-no-quiere-comer-causas
+  word_count: 3165
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-perro-diabetico
+  title: "Mejor pienso para perros diabéticos: comparativa 2026"
+  file_path: src/content/articulos/mejor-pienso-perro-diabetico.mdx
+  status: published
+  published_date: '2026-03-05'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para perros diabéticos
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso perro diabético
+    search_volume: 0
+    is_primary: false
+  - keyword: alimentación perro diabetes
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Diabetic DS37
+  - Purina Pro Plan DM Diabetes Management
+  - Advance Veterinary Diets Diabetes Colitis
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-senior
+  - perro-sobrepeso-dieta-ejercicio
+  internal_links_from:
+  - mejor-pienso-perro-senior
+  word_count: 3072
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-perro-esterilizado
+  title: Mejor pienso para perro esterilizado 2026
+  file_path: src/content/articulos/mejor-pienso-perro-esterilizado.mdx
+  status: published
+  published_date: '2025-10-01'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para perro esterilizado
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso
+    search_volume: 0
+    is_primary: false
+  - keyword: perro esterilizado
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Medium Sterilised
+  - Purina Pro Plan Light/Sterilised Cordero
+  - "Orijen Fit & Trim"
+  - Advance Medium Adult Pollo
+  competitors_mentioned: []
+  internal_links_to:
+  - perro-sobrepeso-dieta-ejercicio
+  - mejor-pienso-perro-adulto-raza-mediana
+  internal_links_from:
+  - cuantas-veces-dia-debe-comer-perro
+  - perro-sobrepeso-dieta-ejercicio
+  word_count: 2666
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-perro-raza-grande
+  title: Mejor pienso para perros de raza grande 2026
+  file_path: src/content/articulos/mejor-pienso-perro-raza-grande.mdx
+  status: published
+  published_date: '2026-01-05'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para perros de raza grande
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso raza grande
+    search_volume: 0
+    is_primary: false
+  - keyword: pienso perro grande
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Maxi Adult
+  - Orijen Original
+  - Taste of the Wild High Prairie
+  - Eukanuba Large Adult Pollo
+  - Acana Pacifica Perro
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-senior
+  - mejor-pienso-cachorro-raza-grande
+  - mejor-comedero-perros-guia
+  internal_links_from:
+  - mejor-comedero-perros-guia
+  - mejor-pienso-cachorro-raza-grande
+  - mejor-pienso-perro-adulto-raza-mediana
+  word_count: 2658
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-perro-raza-pequena
+  title: "Mejor pienso para perros de raza pequeña: comparativa 2026"
+  file_path: src/content/articulos/mejor-pienso-perro-raza-pequena.mdx
+  status: published
+  published_date: '2025-12-01'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para perros de raza pequeña
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso raza pequeña
+    search_volume: 0
+    is_primary: false
+  - keyword: pienso perro pequeño
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Mini Adult
+  - Orijen Small Breed
+  - Taste of the Wild Appalachian Valley Small Breed
+  - Advance Mini Adult Pollo
+  - Acana Adult Small Breed
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-adulto-raza-mediana
+  - mejor-comedero-perros-guia
+  - mejor-pienso-perro-senior
+  internal_links_from:
+  - mejor-pienso-perro-adulto-raza-mediana
+  - muda-pelo-perros-guia-cuidados
+  word_count: 3111
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-pienso-perro-senior
+  title: "Mejor pienso para perro senior: comparativa 2026"
+  file_path: src/content/articulos/mejor-pienso-perro-senior.mdx
+  status: published
+  published_date: '2025-11-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso para perro senior
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso senior
+    search_volume: 0
+    is_primary: false
+  - keyword: perro mayor
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Maxi Ageing 8+
+  - Eukanuba Senior Medium Pollo
+  - Orijen Senior
+  - Advance Senior Vitality 7+
+  competitors_mentioned: []
+  internal_links_to:
+  - perro-sobrepeso-dieta-ejercicio
+  - mejor-pienso-perro-diabetico
+  - mejor-comida-humeda-perros
+  internal_links_from:
+  - cuantas-veces-dia-debe-comer-perro
+  - mejor-comida-humeda-perros
+  - mejor-pienso-perro-diabetico
+  - mejor-pienso-perro-raza-grande
+  - mejor-pienso-perro-raza-pequena
+  - muda-pelo-perros-guia-cuidados
+  word_count: 2051
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-piscina-perros
+  title: "Mejor piscina para perros: comparativa 2025"
+  file_path: src/content/articulos/mejor-piscina-perros.mdx
+  status: published
+  published_date: '2026-02-13'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor piscina para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: piscina perro
+    search_volume: 0
+    is_primary: false
+  - keyword: piscina plegable perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - GoStock Piscina Plegable 160cm
+  - vidaXL Piscina Plegable 120cm
+  - PawHut Piscina Plegable 140cm
+  - Yaheetech Piscina Plegable XXL
+  - Trixie Piscina para Perros
+  competitors_mentioned: []
+  internal_links_to:
+  - alfombrilla-refrigerante-perros
+  - mejor-chaleco-salvavidas-perro
+  internal_links_from:
+  - alfombrilla-refrigerante-perros
+  - mejor-chaleco-salvavidas-perro
+  word_count: 3189
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-protector-maletero-perros
+  title: Mejor protector de maletero para perros 2025
+  file_path: src/content/articulos/mejor-protector-maletero-perros.mdx
+  status: published
+  published_date: '2026-03-14'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor protector de maletero para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: protector maletero
+    search_volume: 0
+    is_primary: false
+  - keyword: coche perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Looxmeer Funda Maletero Universal
+  - Trixie Protector Maletero Universal
+  - Heldenwerk Protector Maletero Universal
+  - Toozey Protector Maletero XL
+  - PETCUTE Protector Maletero Perros
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-transportin-perros-guia
+  - asiento-coche-perro
+  internal_links_from:
+  - residencias-mascotas-verano
+  word_count: 2031
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-protector-patas-perro
+  title: Mejores protectores de almohadillas para perros 2025
+  file_path: src/content/articulos/mejor-protector-patas-perro.mdx
+  status: published
+  published_date: '2026-02-21'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores protectores de almohadillas para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: protector almohadillas perro
+    search_volume: 0
+    is_primary: false
+  - keyword: cera patas perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Trixie Walker Care Crema
+  - Pawz Dog Boots (caucho natural)
+  - Pawz MaxWax 200g
+  - QUMY Botas Impermeables
+  - Ruffwear Grip Trex
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-abrigo-perro-invierno
+  - mejor-chubasquero-perro
+  internal_links_from: []
+  word_count: 3425
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-puerta-seguridad-perros
+  title: Mejor puerta de seguridad para perros 2025
+  file_path: src/content/articulos/mejor-puerta-seguridad-perros.mdx
+  status: published
+  published_date: '2026-03-09'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor puerta de seguridad para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: puerta seguridad perro
+    search_volume: 0
+    is_primary: false
+  - keyword: barrera perro escalera
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - PawHut Barrera Extensible 75-145 cm
+  - PawHut Barrera 75-103 cm con Puerta
+  - Trixie Barrera Perro
+  - Bettacare Premium Alta 104 cm
+  - Nordlinger Pro Stop Fix
+  competitors_mentioned: []
+  internal_links_to:
+  - cachorro-primeras-semanas-casa
+  - mejor-gatera-puerta-gato
+  internal_links_from:
+  - como-presentar-perro-gato
+  - mejor-gatera-puerta-gato
+  word_count: 3393
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-rascador-gatos-guia
+  title: "Mejor rascador para gatos 2026: guía definitiva"
+  file_path: src/content/articulos/mejor-rascador-gatos-guia.mdx
+  status: published
+  published_date: '2026-03-17'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor rascador para gatos : guía definitiva"
+    search_volume: 0
+    is_primary: true
+  - keyword: rascador gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: árbol rascador
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Trixie Alicante 142 cm
+  - Feandrea Árbol Rascador 143 cm
+  - riijk Rascador Cartón con Catnip
+  - Amazon Basics Rascador Cartón
+  - RHRQuality Maine Coon Lounge
+  - Trixie Nikolai XXL
+  - Feandrea Árbol XXL
+  - Natural Paradise Magnolia XL
+  - Navaris Rascador Esquina Sisal
+  - FUKUMARU Rascador Esquina L
+  - GIBZ Rascador Sisal Esquina Sofá
+  - Trixie Tabla Rascadora Sisal
+  - FUKUMARU Rascador Pared Madera
+  - MIUZMORE Rascador Pared 73 cm
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-gatos-guia
+  - mejor-difusor-feromonas-gatos
+  - arbol-rascador-pequeno-pisos
+  - mejor-cama-gato-guia
+  - como-cortar-unas-gato
+  - enriquecimiento-ambiental-gato-interior
+  internal_links_from:
+  - arbol-rascador-pequeno-pisos
+  - como-adiestrar-gato-tecnicas
+  - enriquecimiento-ambiental-gato-interior
+  - mejor-cama-gato-guia
+  - mejor-juguete-gatos-guia
+  - mejor-repelente-gatos-muebles
+  word_count: 3820
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-repelente-gatos-muebles
+  title: Mejores repelentes para gatos en sofás y muebles 2026
+  file_path: src/content/articulos/mejor-repelente-gatos-muebles.mdx
+  status: published
+  published_date: '2026-02-27'
+  last_updated: '2026-03-14'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores repelentes para gatos en sofás y muebles
+    search_volume: 0
+    is_primary: true
+  - keyword: repelente gatos sofá
+    search_volume: 0
+    is_primary: false
+  - keyword: spray anti arañazos gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Feliway Classic Spray
+  - RepellShield Spray Repelente Gatos
+  - WEALLIN Spray Antiarañazos Gatos
+  - Pidsen Cinta Adhesiva Anti-Arañazos
+  competitors_mentioned: []
+  internal_links_to:
+  - protector-sofa-mascotas
+  - mejor-rascador-gatos-guia
+  internal_links_from:
+  - protector-sofa-mascotas
+  word_count: 3117
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-secador-perros
+  title: "Mejor secador para perros: comparativa 2025"
+  file_path: src/content/articulos/mejor-secador-perros.mdx
+  status: published
+  published_date: '2025-12-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor secador para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: secador perros
+    search_volume: 0
+    is_primary: false
+  - keyword: expulsador agua
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - MetroVac Air Force Commander
+  - Artero Black 1 Motor
+  - CHAOLUN High Velocity
+  - Mxmoonant 2400W
+  - PawHut Secador 2800W
+  competitors_mentioned: []
+  internal_links_to:
+  - champu-perros-piel-sensible
+  - mejor-cepillo-perro
+  internal_links_from:
+  - mejor-cortapelos-perros
+  - muda-pelo-perros-guia-cuidados
+  word_count: 3309
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-toallitas-perros
+  title: "Mejores toallitas húmedas para perros: comparativa 2025"
+  file_path: src/content/articulos/mejor-toallitas-perros.mdx
+  status: published
+  published_date: '2025-12-01'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores toallitas húmedas para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: toallitas perros
+    search_volume: 0
+    is_primary: false
+  - keyword: limpieza perros
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - "Pogi's Grooming Wipes"
+  - Earth Rated Toallitas Lavanda
+  - "Burt's Bees Multipurpose Dog Wipes"
+  - Inodorina Refresh Talco
+  - CLX Wipes Clorhexidina
+  competitors_mentioned: []
+  internal_links_to:
+  - champu-perros-piel-sensible
+  internal_links_from: []
+  word_count: 2736
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-transportin-gatos-guia
+  title: "Mejor transportín para gatos: guía completa 2025"
+  file_path: src/content/articulos/mejor-transportin-gatos-guia.mdx
+  status: published
+  published_date: '2025-12-08'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor transportín para gatos: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: transportín gato
+    search_volume: 0
+    is_primary: false
+  - keyword: transportín rígido gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Amazon Basics 2 Puertas 58cm (Rígido)
+  - Ferplast Atlas 20 (Rígido)
+  - Curver Petlife (Rígido)
+  - Trixie Holly (Blando)
+  - ALLSOPETS Plegable (Blando)
+  - Amazon Basics Blando
+  - Pecute Expandible
+  - PETCUTE Mochila Burbuja
+  - Aukor Mochila Burbuja
+  - Trixie Mochila Timon
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arenero-arena-gatos
+  - como-banar-gato
+  - mejor-cama-gato-guia
+  internal_links_from:
+  - collar-gps-gato
+  word_count: 3903
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejor-transportin-perros-guia
+  title: "Mejor transportín para perros: guía completa 2026"
+  file_path: src/content/articulos/mejor-transportin-perros-guia.mdx
+  status: published
+  published_date: '2025-12-08'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejor transportín para perros: guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: transportin perro
+    search_volume: 0
+    is_primary: false
+  - keyword: transportin perro grande
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Ferplast Atlas Car 80
+  - Petmate Sky Kennel XL
+  - Transportín Gulliver 5 Plus
+  - Petsfit Transportín Avión Plegable
+  - PETCUTE Transportín Plegable
+  - COMSLE Transportín Avión
+  - TRIXIE Bolsa Ryan
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-cama-perro-guia
+  internal_links_from:
+  - mejor-protector-maletero-perros
+  - residencias-mascotas-verano
+  word_count: 3776
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejores-bolsas-caca-perro-biodegradables
+  title: Mejores bolsas caca de perro biodegradables
+  file_path: src/content/articulos/mejores-bolsas-caca-perro-biodegradables.mdx
+  status: published
+  published_date: '2025-11-18'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores bolsas caca de perro biodegradables
+    search_volume: 0
+    is_primary: true
+  - keyword: bolsas caca perro
+    search_volume: 0
+    is_primary: false
+  - keyword: bolsas biodegradables
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - "Pogi's Bolsas Biodegradables"
+  - Biobag Bolsas Compostables
+  - Earth Rated Bolsas Eco
+  - Amazon Basics Biodegradables
+  - Doggy Do Good Compostables
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-correa-perro
+  - mejor-dispensador-bolsas-caca-perro
+  internal_links_from:
+  - mejor-dispensador-bolsas-caca-perro
+  word_count: 2456
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejores-empapadores-perros
+  title: "Mejores empapadores para perros: comparativa 2026"
+  file_path: src/content/articulos/mejores-empapadores-perros.mdx
+  status: published
+  published_date: '2025-11-18'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores empapadores para perros
+    search_volume: 0
+    is_primary: true
+  - keyword: empapadores perro
+    search_volume: 0
+    is_primary: false
+  - keyword: cachorro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Amazon Basics (pack 100)
+  - Simple Solution Premium (pack 100)
+  - Trixie Home Training
+  - SILVERWOOF Reutilizable (90x160 cm)
+  - "Arquivet Pads XL (90x60 cm, 50 uds)"
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-limpiador-enzimatico-mascotas
+  - cachorro-primeras-semanas-casa
+  internal_links_from:
+  - cachorro-primeras-semanas-casa
+  - mejor-cama-perro-guia
+  - mejor-limpiador-enzimatico-mascotas
+  word_count: 2759
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: mejores-snacks-naturales-perros
+  title: "Mejores snacks naturales para perros: guía y comparativa 2026"
+  file_path: src/content/articulos/mejores-snacks-naturales-perros.mdx
+  status: published
+  published_date: '2025-10-15'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mejores snacks naturales para perros: guía y comparativa"
+    search_volume: 0
+    is_primary: true
+  - keyword: snacks perro
+    search_volume: 0
+    is_primary: false
+  - keyword: premios naturales
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Rocco Chings (pechuga de pollo)
+  - Wolf of Wilderness (oreja de conejo)
+  - Purizon (tiras de pato)
+  - Greenies Original
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-comedero-perros-guia
+  - alfombras-olfato-perros
+  internal_links_from:
+  - alimentos-prohibidos-perros
+  - como-limpiar-dientes-perro
+  - mejor-cepillo-dientes-perros
+  - mejor-comedero-perros-guia
+  - perro-no-quiere-comer-causas
+  word_count: 2099
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: muda-pelo-gatos-guia-cuidados
+  title: "Muda de pelo en gatos: guía completa de cuidados"
+  file_path: src/content/articulos/muda-pelo-gatos-guia-cuidados.mdx
+  status: published
+  published_date: '2026-03-23'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "muda de pelo en gatos: guía completa de cuidados"
+    search_volume: 0
+    is_primary: true
+  - keyword: muda pelo gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: gato suelta mucho pelo
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - senales-estres-gatos
+  - mejor-cepillo-gatos
+  - mejor-pienso-gato-pelo-largo
+  - como-banar-gato
+  - mejor-pienso-gato-indoor
+  - enriquecimiento-ambiental-gato-interior
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - mejor-antiparasitario-gatos-guia
+  - mejor-aspirador-pelo-mascotas
+  - cepillos-quitar-pelo-perro-sofa
+  - protector-sofa-mascotas
+  - muda-pelo-perros-guia-cuidados
+  internal_links_from:
+  - muda-pelo-perros-guia-cuidados
+  word_count: 3916
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: muda-pelo-perros-guia-cuidados
+  title: "Muda de pelo en perros: guía completa de cuidados"
+  file_path: src/content/articulos/muda-pelo-perros-guia-cuidados.mdx
+  status: published
+  published_date: '2026-03-23'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "muda de pelo en perros: guía completa de cuidados"
+    search_volume: 0
+    is_primary: true
+  - keyword: muda pelo perros
+    search_volume: 0
+    is_primary: false
+  - keyword: caída pelo perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-perro
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - champu-perros-piel-sensible
+  - mejor-secador-perros
+  - mejor-pienso-perro-raza-pequena
+  - mejor-pienso-perro-senior
+  - mejor-antiparasitario-perros-guia
+  - mejor-aspirador-pelo-mascotas
+  - cepillos-quitar-pelo-perro-sofa
+  - protector-sofa-mascotas
+  - muda-pelo-gatos-guia-cuidados
+  internal_links_from:
+  - muda-pelo-gatos-guia-cuidados
+  word_count: 3475
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: perro-miedo-petardos-fuegos-artificiales
+  title: "Perro con miedo a petardos: cómo calmarlo"
+  file_path: src/content/articulos/perro-miedo-petardos-fuegos-artificiales.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "perro con miedo a petardos: cómo calmarlo"
+    search_volume: 0
+    is_primary: true
+  - keyword: perro miedo petardos
+    search_volume: 0
+    is_primary: false
+  - keyword: ansiedad perro fuegos artificiales
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cama-perro-guia
+  - mejor-difusor-feromonas-gatos
+  internal_links_from: []
+  word_count: 3850
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: perro-no-quiere-comer-causas
+  title: "Mi perro no quiere comer: causas y soluciones"
+  file_path: src/content/articulos/perro-no-quiere-comer-causas.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "mi perro no quiere comer: causas y soluciones"
+    search_volume: 0
+    is_primary: true
+  - keyword: perro no come
+    search_volume: 0
+    is_primary: false
+  - keyword: inapetencia perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-dientes-perros
+  - alimentos-prohibidos-perros
+  - mejor-comedero-perros-guia
+  - como-presentar-perro-gato
+  - mejor-pienso-perro-adulto-raza-mediana
+  - mejor-bebedero-perros-guia
+  - mejores-snacks-naturales-perros
+  - mejor-antiparasitario-perros-guia
+  - mejor-juguete-mental-perros-guia
+  - mejor-comida-humeda-perros
+  - alfombras-olfato-perros
+  internal_links_from:
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - mejor-comedero-perros-guia
+  - mejor-pienso-hipoalergenico-perro
+  word_count: 3804
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: perro-sobrepeso-dieta-ejercicio
+  title: "Perro con sobrepeso: dieta y ejercicio"
+  file_path: src/content/articulos/perro-sobrepeso-dieta-ejercicio.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "perro con sobrepeso: dieta y ejercicio"
+    search_volume: 0
+    is_primary: true
+  - keyword: perro obeso
+    search_volume: 0
+    is_primary: false
+  - keyword: perro sobrepeso
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - cuanto-ejercicio-necesita-perro
+  - mejor-pienso-perro-esterilizado
+  - mejor-comedero-perros-guia
+  - alimentos-prohibidos-perros
+  internal_links_from:
+  - mejor-pienso-perro-diabetico
+  - mejor-pienso-perro-esterilizado
+  - mejor-pienso-perro-senior
+  word_count: 3931
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: pienso-gato-problemas-urinarios
+  title: Mejor pienso gatos con problemas urinarios
+  file_path: src/content/articulos/pienso-gato-problemas-urinarios.mdx
+  status: published
+  published_date: '2025-10-18'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor pienso gatos con problemas urinarios
+    search_volume: 0
+    is_primary: true
+  - keyword: pienso gato
+    search_volume: 0
+    is_primary: false
+  - keyword: problemas urinarios
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Royal Canin Urinary S/O
+  - "Hill's c/d Multicare"
+  - Purina Pro Plan Urinary
+  - Specific Crystal Prevention
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-senior
+  - comparativa-fuentes-agua-gatos
+  internal_links_from:
+  - comparativa-fuentes-agua-gatos
+  - mejor-fuente-agua-gatos-silenciosa
+  - mejor-pienso-gato-senior
+  word_count: 1936
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: por-que-gatos-amasan
+  title: "¿Por qué los gatos amasan? Significado y curiosidades"
+  file_path: src/content/articulos/por-que-gatos-amasan.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "¿por qué los gatos amasan? significado y curiosidades"
+    search_volume: 0
+    is_primary: true
+  - keyword: gatos amasan
+    search_volume: 0
+    is_primary: false
+  - keyword: comportamiento gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-manta-perros
+  - mejor-cama-gato-guia
+  internal_links_from: []
+  word_count: 3745
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: por-que-perro-ladra-noche
+  title: "¿Por qué mi perro ladra por la noche? 8 causas y soluciones"
+  file_path: src/content/articulos/por-que-perro-ladra-noche.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "¿por qué mi perro ladra por la noche? 8 causas y soluciones"
+    search_volume: 0
+    is_primary: true
+  - keyword: perro ladra noche
+    search_volume: 0
+    is_primary: false
+  - keyword: ladridos nocturnos perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-mental-perros-guia
+  - mejor-cama-perro-guia
+  internal_links_from: []
+  word_count: 4097
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: por-que-perros-comen-hierba
+  title: "¿Por qué mi perro come hierba? Causas y cuándo preocuparse"
+  file_path: src/content/articulos/por-que-perros-comen-hierba.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "¿por qué mi perro come hierba? causas y cuándo preocuparse"
+    search_volume: 0
+    is_primary: true
+  - keyword: perro come hierba
+    search_volume: 0
+    is_primary: false
+  - keyword: comportamiento perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - alimentos-prohibidos-perros
+  - cuantas-veces-dia-debe-comer-perro
+  internal_links_from: []
+  word_count: 2919
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: procesionaria-pino-perros-peligros-primeros-auxilios
+  title: "Procesionaria y perros: peligros y primeros auxilios"
+  file_path: src/content/articulos/procesionaria-pino-perros-peligros-primeros-auxilios.mdx
+  status: published
+  published_date: '2026-03-21'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "procesionaria y perros: peligros y primeros auxilios"
+    search_volume: 0
+    is_primary: true
+  - keyword: procesionaria perros
+    search_volume: 0
+    is_primary: false
+  - keyword: oruga procesionaria
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - cachorro-primeras-semanas-casa
+  - alimentos-prohibidos-perros
+  - cuanto-ejercicio-necesita-perro
+  - mejor-collar-antiparasitario-perro
+  internal_links_from: []
+  word_count: 2441
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: protector-sofa-mascotas
+  title: Mejor protector de sofá para mascotas 2026
+  file_path: src/content/articulos/protector-sofa-mascotas.mdx
+  status: published
+  published_date: '2025-11-24'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejor protector de sofá para mascotas
+    search_volume: 0
+    is_primary: true
+  - keyword: protector sofá mascotas
+    search_volume: 0
+    is_primary: false
+  - keyword: funda sofá perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Petcute Funda Impermeable Acolchada
+  - Ameritex Protector Sofá Reversible
+  - Granbest Funda Sofá Gruesa Premium
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-manta-perros
+  - mejor-repelente-gatos-muebles
+  internal_links_from:
+  - mejor-manta-perros
+  - mejor-repelente-gatos-muebles
+  - muda-pelo-gatos-guia-cuidados
+  - muda-pelo-perros-guia-cuidados
+  word_count: 1408
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: razas-perro-piso-pequeno
+  title: 15 mejores razas de perro para piso pequeño en 2026
+  file_path: src/content/articulos/razas-perro-piso-pequeno.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: 15 mejores razas de perro para piso pequeño en
+    search_volume: 0
+    is_primary: true
+  - keyword: razas perro piso
+    search_volume: 0
+    is_primary: false
+  - keyword: perro apartamento
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cama-perro-guia
+  - mejor-arnes-perro
+  - mejor-juguete-mental-perros-guia
+  internal_links_from: []
+  word_count: 4857
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: residencias-mascotas-verano
+  title: "Residencias para mascotas en verano: cómo elegir bien"
+  file_path: src/content/articulos/residencias-mascotas-verano.mdx
+  status: published
+  published_date: '2026-03-16'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "residencias para mascotas en verano: cómo elegir bien"
+    search_volume: 0
+    is_primary: true
+  - keyword: residencias mascotas
+    search_volume: 0
+    is_primary: false
+  - keyword: hotel mascotas verano
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-juguete-mental-perros-guia
+  - alfombras-olfato-perros
+  - mejor-antiparasitario-perros-guia
+  - mejor-antiparasitario-gatos-guia
+  - mejor-juguete-resistente-perros-guia
+  - mejor-juguete-gatos-guia
+  - mejor-difusor-feromonas-gatos
+  - mejor-arenero-arena-gatos
+  - mejor-arnes-perro
+  - mejor-protector-maletero-perros
+  - mejor-transportin-perros-guia
+  internal_links_from: []
+  word_count: 2045
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: senales-estres-gatos
+  title: 10 señales de estrés en gatos que no debes ignorar
+  file_path: src/content/articulos/senales-estres-gatos.mdx
+  status: published
+  published_date: '2026-03-15'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: 10 señales de estrés en gatos que no debes ignorar
+    search_volume: 0
+    is_primary: true
+  - keyword: estrés gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: comportamiento gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - enriquecimiento-ambiental-gato-interior
+  - mejor-difusor-feromonas-gatos
+  internal_links_from:
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - como-cortar-unas-gato
+  - gato-maulla-mucho-noche-causas
+  - mejor-cama-gato-guia
+  - mejor-difusor-feromonas-gatos
+  - mejor-juguete-gatos-guia
+  - muda-pelo-gatos-guia-cuidados
+  word_count: 4013
+  has_eeat_signals: true
+  needs_update_reason: ''
+- slug: snacks-naturales-gatos
+  title: Mejores snacks naturales para gatos 2026
+  file_path: src/content/articulos/snacks-naturales-gatos.mdx
+  status: published
+  published_date: '2026-02-05'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: ''
+  target_keywords:
+  - keyword: mejores snacks naturales para gatos
+    search_volume: 0
+    is_primary: true
+  - keyword: snacks gatos
+    search_volume: 0
+    is_primary: false
+  - keyword: premios gatos
+    search_volume: 0
+    is_primary: false
+  features_mentioned:
+  - Trixie Corazones de Pollo Liofilizados
+  - Dokas Corazones de Pollo Liofilizados
+  - INABA Churu Atún
+  - Purina Dentalife Gato
+  - Whiskas Sticks Pollo
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-esterilizado
+  - cuanto-debe-comer-gato-adulto
+  internal_links_from:
+  - alimentos-toxicos-gatos
+  - como-adiestrar-gato-tecnicas
+  - mejor-juguete-gatos-guia
+  word_count: 2495
+  has_eeat_signals: true
+  needs_update_reason: ''

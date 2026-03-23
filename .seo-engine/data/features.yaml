@@ -1,0 +1,1460 @@
+project: "Patas y Hogar"
+last_updated: "2026-03-23"
+generated_from: "src/content/articulos/"
+
+categories:
+  # ============================================================
+  # ALIMENTACION
+  # ============================================================
+  - id: "cat_alimentacion"
+    name: "Alimentación"
+    description: "Piensos, comida húmeda, snacks y accesorios de alimentación para perros y gatos"
+    subcategories:
+      # --- Pienso perros ---
+      - id: "sub_pienso_perro"
+        name: "Pienso para perros"
+        features:
+          - id: "feat_pienso_cachorro_raza_grande"
+            name: "Pienso cachorro raza grande"
+            description: "Comparativa de piensos para cachorros de raza grande"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-cachorro-raza-grande.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-cachorro-raza-grande"]
+            tags: ["pienso", "cachorro", "raza grande", "perro"]
+            notes: ""
+
+          - id: "feat_pienso_perro_adulto_raza_mediana"
+            name: "Pienso perro adulto raza mediana"
+            description: "Comparativa de piensos para perros adultos de raza mediana"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-perro-adulto-raza-mediana.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-perro-adulto-raza-mediana"]
+            tags: ["pienso", "perro adulto", "raza mediana", "perro"]
+            notes: ""
+
+          - id: "feat_pienso_perro_raza_grande"
+            name: "Pienso perro raza grande"
+            description: "Comparativa de piensos para perros de raza grande"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-perro-raza-grande.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-perro-raza-grande"]
+            tags: ["pienso", "raza grande", "perro"]
+            notes: ""
+
+          - id: "feat_pienso_perro_raza_pequena"
+            name: "Pienso perro raza pequeña"
+            description: "Comparativa de piensos para perros de raza pequeña"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-perro-raza-pequena.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-perro-raza-pequena"]
+            tags: ["pienso", "raza pequeña", "perro"]
+            notes: ""
+
+          - id: "feat_pienso_perro_senior"
+            name: "Pienso perro senior"
+            description: "Comparativa de piensos para perros mayores"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-perro-senior.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-perro-senior"]
+            tags: ["pienso", "senior", "perro mayor", "perro"]
+            notes: ""
+
+          - id: "feat_pienso_perro_esterilizado"
+            name: "Pienso perro esterilizado"
+            description: "Comparativa de piensos para perros esterilizados"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-perro-esterilizado.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-perro-esterilizado"]
+            tags: ["pienso", "esterilizado", "perro"]
+            notes: ""
+
+          - id: "feat_pienso_hipoalergenico_perro"
+            name: "Pienso hipoalergénico perro"
+            description: "Comparativa de piensos hipoalergénicos para perros con alergias"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-hipoalergenico-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-hipoalergenico-perro"]
+            tags: ["pienso", "hipoalergénico", "alergia", "perro"]
+            notes: ""
+
+          - id: "feat_pienso_perro_diabetico"
+            name: "Pienso perro diabético"
+            description: "Comparativa de piensos para perros diabéticos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-perro-diabetico.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-perro-diabetico"]
+            tags: ["pienso", "diabético", "dieta veterinaria", "perro"]
+            notes: ""
+
+      # --- Pienso gatos ---
+      - id: "sub_pienso_gato"
+        name: "Pienso para gatos"
+        features:
+          - id: "feat_pienso_cachorro_gato"
+            name: "Pienso gatito cachorro"
+            description: "Comparativa de piensos para gatitos cachorros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-cachorro-gato.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-cachorro-gato"]
+            tags: ["pienso", "cachorro", "gatito", "gato"]
+            notes: ""
+
+          - id: "feat_pienso_gato_esterilizado"
+            name: "Pienso gato esterilizado"
+            description: "Comparativa de piensos para gatos esterilizados"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-gato-esterilizado.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-gato-esterilizado"]
+            tags: ["pienso", "esterilizado", "gato"]
+            notes: ""
+
+          - id: "feat_pienso_gato_indoor"
+            name: "Pienso gato interior"
+            description: "Comparativa de piensos para gatos de interior"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-gato-indoor.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-gato-indoor"]
+            tags: ["pienso", "gato interior", "indoor", "gato"]
+            notes: ""
+
+          - id: "feat_pienso_gato_pelo_largo"
+            name: "Pienso gato pelo largo"
+            description: "Comparativa de piensos para gatos de pelo largo"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-gato-pelo-largo.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-gato-pelo-largo"]
+            tags: ["pienso", "pelo largo", "bolas de pelo", "gato"]
+            notes: ""
+
+          - id: "feat_pienso_gato_senior"
+            name: "Pienso gato senior"
+            description: "Comparativa de piensos para gatos mayores"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-pienso-gato-senior.mdx"
+                section: "full article"
+            blog_refs: ["mejor-pienso-gato-senior"]
+            tags: ["pienso", "senior", "gato mayor", "gato"]
+            notes: ""
+
+          - id: "feat_pienso_gato_problemas_urinarios"
+            name: "Pienso gato problemas urinarios"
+            description: "Comparativa de piensos para gatos con problemas urinarios (FLUTD)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/pienso-gato-problemas-urinarios.mdx"
+                section: "full article"
+            blog_refs: ["pienso-gato-problemas-urinarios"]
+            tags: ["pienso", "urinario", "FLUTD", "cistitis", "gato"]
+            notes: ""
+
+      # --- Comida húmeda ---
+      - id: "sub_comida_humeda"
+        name: "Comida húmeda"
+        features:
+          - id: "feat_comida_humeda_perros"
+            name: "Comida húmeda para perros"
+            description: "Comparativa de comida húmeda y latas para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-comida-humeda-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-comida-humeda-perros"]
+            tags: ["comida húmeda", "latas", "perro"]
+            notes: ""
+
+          - id: "feat_comida_humeda_gatos"
+            name: "Comida húmeda para gatos"
+            description: "Comparativa de comida húmeda para gatos exigentes"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-comida-humeda-gatos.mdx"
+                section: "full article"
+            blog_refs: ["mejor-comida-humeda-gatos"]
+            tags: ["comida húmeda", "gatos exigentes", "gato"]
+            notes: ""
+
+      # --- Snacks ---
+      - id: "sub_snacks"
+        name: "Snacks y premios"
+        features:
+          - id: "feat_snacks_naturales_perros"
+            name: "Snacks naturales para perros"
+            description: "Guía y comparativa de snacks naturales para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejores-snacks-naturales-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejores-snacks-naturales-perros"]
+            tags: ["snacks", "premios", "natural", "perro"]
+            notes: ""
+
+          - id: "feat_snacks_naturales_gatos"
+            name: "Snacks naturales para gatos"
+            description: "Comparativa de snacks y premios naturales para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/snacks-naturales-gatos.mdx"
+                section: "full article"
+            blog_refs: ["snacks-naturales-gatos"]
+            tags: ["snacks", "premios", "natural", "gato"]
+            notes: ""
+
+      # --- Comederos ---
+      - id: "sub_comederos"
+        name: "Comederos"
+        features:
+          - id: "feat_comedero_perros"
+            name: "Comedero para perros"
+            description: "Guía definitiva de comederos para perros (elevado, lento, automático)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-comedero-perros-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-comedero-perros-guia"]
+            tags: ["comedero", "elevado", "lento", "automático", "perro"]
+            notes: ""
+
+          - id: "feat_comedero_gatos"
+            name: "Comedero para gatos"
+            description: "Guía completa de comederos para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-comedero-gatos-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-comedero-gatos-guia"]
+            tags: ["comedero", "elevado", "lento", "automático", "gato"]
+            notes: ""
+
+          - id: "feat_comedero_antihormigas"
+            name: "Comedero antihormigas"
+            description: "Comparativa de comederos antihormigas para mascotas"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-comedero-antihormigas-mascotas.mdx"
+                section: "full article"
+            blog_refs: ["mejor-comedero-antihormigas-mascotas"]
+            tags: ["comedero", "antihormigas", "perro", "gato", "ambos"]
+            notes: ""
+
+      # --- Bebederos y fuentes ---
+      - id: "sub_bebederos_fuentes"
+        name: "Bebederos y fuentes de agua"
+        features:
+          - id: "feat_bebedero_perros"
+            name: "Bebedero para perros"
+            description: "Guía completa de bebederos para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-bebedero-perros-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-bebedero-perros-guia"]
+            tags: ["bebedero", "fuente agua", "hidratación", "perro"]
+            notes: ""
+
+          - id: "feat_fuentes_agua_gatos"
+            name: "Fuentes de agua para gatos"
+            description: "Comparativa de fuentes de agua para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/comparativa-fuentes-agua-gatos.mdx"
+                section: "full article"
+            blog_refs: ["comparativa-fuentes-agua-gatos"]
+            tags: ["fuente agua", "bebedero", "hidratación", "gato"]
+            notes: ""
+
+          - id: "feat_fuente_agua_gatos_silenciosa"
+            name: "Fuente de agua silenciosa para gatos"
+            description: "Comparativa de fuentes de agua silenciosas para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-fuente-agua-gatos-silenciosa.mdx"
+                section: "full article"
+            blog_refs: ["mejor-fuente-agua-gatos-silenciosa"]
+            tags: ["fuente agua", "silenciosa", "gato"]
+            notes: ""
+
+      # --- Guías informativas alimentación ---
+      - id: "sub_guias_alimentacion"
+        name: "Guías de alimentación (informativo)"
+        features:
+          - id: "feat_alimentos_prohibidos_perros"
+            name: "Alimentos prohibidos para perros"
+            description: "Guía completa de alimentos que nunca debes dar a tu perro"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/alimentos-prohibidos-perros.mdx"
+                section: "full article"
+            blog_refs: ["alimentos-prohibidos-perros"]
+            tags: ["alimentos prohibidos", "tóxicos", "salud", "perro"]
+            notes: "Artículo informativo (tipo: informativo). Nota: no tiene tipo explícito en frontmatter pero es guía informativa."
+
+          - id: "feat_alimentos_toxicos_gatos"
+            name: "Alimentos tóxicos para gatos"
+            description: "Guía completa de alimentos tóxicos para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/alimentos-toxicos-gatos.mdx"
+                section: "full article"
+            blog_refs: ["alimentos-toxicos-gatos"]
+            tags: ["alimentos tóxicos", "intoxicación", "salud", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_cuantas_veces_comer_perro"
+            name: "Cuántas veces al día debe comer un perro"
+            description: "Guía de frecuencia y horarios de alimentación para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/cuantas-veces-dia-debe-comer-perro.mdx"
+                section: "full article"
+            blog_refs: ["cuantas-veces-dia-debe-comer-perro"]
+            tags: ["frecuencia comida", "horario", "alimentación", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_cuanto_debe_comer_gato"
+            name: "Cuánto debe comer un gato adulto"
+            description: "Guía de cantidades y raciones para gatos adultos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/cuanto-debe-comer-gato-adulto.mdx"
+                section: "full article"
+            blog_refs: ["cuanto-debe-comer-gato-adulto"]
+            tags: ["cantidad comida", "raciones", "obesidad", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_diferencia_pienso_grain_free"
+            name: "Pienso grain-free vs normal"
+            description: "Comparación informativa entre pienso sin cereales y pienso normal"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/diferencia-pienso-grain-free-normal.mdx"
+                section: "full article"
+            blog_refs: ["diferencia-pienso-grain-free-normal"]
+            tags: ["grain free", "sin cereales", "alimentación", "perro", "gato", "ambos"]
+            notes: "Artículo informativo (tipo: informativo). Aplica a perros y gatos."
+
+          - id: "feat_gato_vomita_causas"
+            name: "Mi gato vomita: causas y soluciones"
+            description: "Guía sobre por qué vomita un gato y cuándo preocuparse"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/gato-vomita-causas-soluciones.mdx"
+                section: "full article"
+            blog_refs: ["gato-vomita-causas-soluciones"]
+            tags: ["vómito", "digestivo", "salud", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_perro_no_quiere_comer"
+            name: "Mi perro no quiere comer: causas y soluciones"
+            description: "Guía sobre inapetencia en perros y cómo solucionarlo"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/perro-no-quiere-comer-causas.mdx"
+                section: "full article"
+            blog_refs: ["perro-no-quiere-comer-causas"]
+            tags: ["inapetencia", "no come", "salud", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_perro_sobrepeso_dieta"
+            name: "Perro con sobrepeso: dieta y ejercicio"
+            description: "Guía sobre obesidad canina, dieta y ejercicio para adelgazar"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/perro-sobrepeso-dieta-ejercicio.mdx"
+                section: "full article"
+            blog_refs: ["perro-sobrepeso-dieta-ejercicio"]
+            tags: ["sobrepeso", "obesidad", "dieta", "ejercicio", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+  # ============================================================
+  # HIGIENE
+  # ============================================================
+  - id: "cat_higiene"
+    name: "Higiene"
+    description: "Arena, areneros, cepillos, champús, antiparasitarios y productos de limpieza e higiene"
+    subcategories:
+      # --- Areneros y arena ---
+      - id: "sub_areneros_arena"
+        name: "Areneros y arena para gatos"
+        features:
+          - id: "feat_arenero_arena_gatos"
+            name: "Arenero y arena para gatos"
+            description: "Guía completa de areneros y arenas para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-arenero-arena-gatos.mdx"
+                section: "full article"
+            blog_refs: ["mejor-arenero-arena-gatos"]
+            tags: ["arenero", "arena", "aglomerante", "gato"]
+            notes: ""
+
+      # --- Cepillos y grooming ---
+      - id: "sub_cepillos_grooming"
+        name: "Cepillos y grooming"
+        features:
+          - id: "feat_cepillo_perro"
+            name: "Cepillo para perros"
+            description: "Guía completa de cepillos para perros por tipo de pelo"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-cepillo-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-cepillo-perro"]
+            tags: ["cepillo", "pelo", "grooming", "perro"]
+            notes: ""
+
+          - id: "feat_cepillo_gatos"
+            name: "Cepillo para gatos"
+            description: "Comparativa de cepillos para gatos por tipo de pelo"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-cepillo-gatos.mdx"
+                section: "full article"
+            blog_refs: ["mejor-cepillo-gatos"]
+            tags: ["cepillo", "pelo", "deslanador", "gato"]
+            notes: ""
+
+          - id: "feat_cepillos_quitar_pelo_sofa"
+            name: "Cepillos para quitar pelo del sofá"
+            description: "Comparativa de rodillos y cepillos para quitar pelo de mascota del sofá"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/cepillos-quitar-pelo-perro-sofa.mdx"
+                section: "full article"
+            blog_refs: ["cepillos-quitar-pelo-perro-sofa"]
+            tags: ["quitar pelo", "rodillo", "sofá", "limpieza", "perro"]
+            notes: ""
+
+          - id: "feat_cortapelos_perros"
+            name: "Cortapelos para perros"
+            description: "Comparativa de cortapelos y maquinillas para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-cortapelos-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-cortapelos-perros"]
+            tags: ["cortapelos", "maquinilla", "peluquería canina", "perro"]
+            notes: ""
+
+          - id: "feat_secador_perros"
+            name: "Secador para perros"
+            description: "Comparativa de secadores y expulsadores de agua para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-secador-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-secador-perros"]
+            tags: ["secador", "grooming", "baño", "perro"]
+            notes: ""
+
+          - id: "feat_aspirador_pelo_mascotas"
+            name: "Aspirador para pelo de mascotas"
+            description: "Comparativa de aspiradores especializados en pelo de mascotas"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-aspirador-pelo-mascotas.mdx"
+                section: "full article"
+            blog_refs: ["mejor-aspirador-pelo-mascotas"]
+            tags: ["aspirador", "pelo", "limpieza", "perro", "gato", "ambos"]
+            notes: ""
+
+      # --- Champús y baño ---
+      - id: "sub_champus_bano"
+        name: "Champús y baño"
+        features:
+          - id: "feat_champu_perros_piel_sensible"
+            name: "Champú perros piel sensible"
+            description: "Comparativa de champús para perros con piel sensible y atopia"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/champu-perros-piel-sensible.mdx"
+                section: "full article"
+            blog_refs: ["champu-perros-piel-sensible"]
+            tags: ["champú", "piel sensible", "atopia", "perro"]
+            notes: ""
+
+          - id: "feat_champu_gato"
+            name: "Champú para gatos"
+            description: "Comparativa y guía de champús para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-champu-gato.mdx"
+                section: "full article"
+            blog_refs: ["mejor-champu-gato"]
+            tags: ["champú", "baño", "limpieza", "gato"]
+            notes: ""
+
+      # --- Higiene dental ---
+      - id: "sub_higiene_dental"
+        name: "Higiene dental"
+        features:
+          - id: "feat_cepillo_dientes_perros"
+            name: "Cepillo de dientes para perros"
+            description: "Comparativa de kits dentales y cepillos de dientes para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-cepillo-dientes-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-cepillo-dientes-perros"]
+            tags: ["cepillo dientes", "higiene dental", "salud bucal", "perro"]
+            notes: ""
+
+      # --- Uñas ---
+      - id: "sub_unas"
+        name: "Cuidado de uñas"
+        features:
+          - id: "feat_cortaunas_perros"
+            name: "Cortaúñas para perros"
+            description: "Comparativa de cortaúñas para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-cortaunas-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-cortaunas-perros"]
+            tags: ["cortaúñas", "higiene", "perro"]
+            notes: ""
+
+      # --- Antiparasitarios ---
+      - id: "sub_antiparasitarios"
+        name: "Antiparasitarios"
+        features:
+          - id: "feat_antiparasitario_perros"
+            name: "Antiparasitario para perros"
+            description: "Guía completa de antiparasitarios para perros (pipetas, collares, pastillas)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-antiparasitario-perros-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-antiparasitario-perros-guia"]
+            tags: ["antiparasitario", "pipeta", "collar", "pulgas", "garrapatas", "perro"]
+            notes: ""
+
+          - id: "feat_antiparasitario_gatos"
+            name: "Antiparasitario para gatos"
+            description: "Guía completa de antiparasitarios para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-antiparasitario-gatos-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-antiparasitario-gatos-guia"]
+            tags: ["antiparasitario", "pipeta", "collar", "pulgas", "gato"]
+            notes: ""
+
+          - id: "feat_collar_antiparasitario_perro"
+            name: "Collar antiparasitario para perros"
+            description: "Comparativa de collares antiparasitarios para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-collar-antiparasitario-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-collar-antiparasitario-perro"]
+            tags: ["collar antiparasitario", "pulgas", "garrapatas", "perro"]
+            notes: ""
+
+      # --- Limpieza y toallitas ---
+      - id: "sub_limpieza"
+        name: "Limpieza e higiene general"
+        features:
+          - id: "feat_toallitas_perros"
+            name: "Toallitas húmedas para perros"
+            description: "Comparativa de toallitas húmedas para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-toallitas-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-toallitas-perros"]
+            tags: ["toallitas", "limpieza", "higiene", "perro"]
+            notes: ""
+
+          - id: "feat_empapadores_perros"
+            name: "Empapadores para perros"
+            description: "Comparativa de empapadores para cachorros y perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejores-empapadores-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejores-empapadores-perros"]
+            tags: ["empapadores", "cachorro", "higiene", "perro"]
+            notes: ""
+
+          - id: "feat_limpiador_enzimatico"
+            name: "Limpiador enzimático para mascotas"
+            description: "Comparativa de limpiadores enzimáticos para eliminar orina y olores"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-limpiador-enzimatico-mascotas.mdx"
+                section: "full article"
+            blog_refs: ["mejor-limpiador-enzimatico-mascotas"]
+            tags: ["limpiador enzimático", "orina", "olor", "perro", "gato", "ambos"]
+            notes: ""
+
+          - id: "feat_bolsas_caca_biodegradables"
+            name: "Bolsas caca perro biodegradables"
+            description: "Comparativa de bolsas biodegradables para recoger excrementos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejores-bolsas-caca-perro-biodegradables.mdx"
+                section: "full article"
+            blog_refs: ["mejores-bolsas-caca-perro-biodegradables"]
+            tags: ["bolsas caca", "biodegradable", "paseo", "perro"]
+            notes: ""
+
+          - id: "feat_dispensador_bolsas_caca"
+            name: "Dispensador de bolsas caca perro"
+            description: "Comparativa de dispensadores de bolsas para excrementos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-dispensador-bolsas-caca-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-dispensador-bolsas-caca-perro"]
+            tags: ["dispensador bolsas", "bolsas caca", "paseo", "perro"]
+            notes: ""
+
+      # --- Protector patas ---
+      - id: "sub_protector_patas"
+        name: "Protección de patas"
+        features:
+          - id: "feat_protector_patas_perro"
+            name: "Protector de almohadillas para perros"
+            description: "Comparativa de ceras, bálsamos y botas protectoras de patas"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-protector-patas-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-protector-patas-perro"]
+            tags: ["protector patas", "cera", "botas", "almohadillas", "perro"]
+            notes: ""
+
+      # --- Guías informativas higiene ---
+      - id: "sub_guias_higiene"
+        name: "Guías de higiene y salud (informativo)"
+        features:
+          - id: "feat_como_banar_gato"
+            name: "Cómo bañar a un gato"
+            description: "Guía paso a paso para bañar a un gato sin drama"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-banar-gato.mdx"
+                section: "full article"
+            blog_refs: ["como-banar-gato"]
+            tags: ["bañar gato", "higiene", "champú", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_como_cortar_unas_gato"
+            name: "Cómo cortar las uñas a un gato"
+            description: "Guía paso a paso para cortar uñas a un gato sin estrés"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-cortar-unas-gato.mdx"
+                section: "full article"
+            blog_refs: ["como-cortar-unas-gato"]
+            tags: ["cortar uñas", "higiene", "manicura", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_como_limpiar_dientes_perro"
+            name: "Cómo limpiar los dientes a un perro"
+            description: "Guía completa de higiene dental canina"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-limpiar-dientes-perro.mdx"
+                section: "full article"
+            blog_refs: ["como-limpiar-dientes-perro"]
+            tags: ["limpiar dientes", "higiene dental", "sarro", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_como_limpiar_oidos_perro"
+            name: "Cómo limpiar los oídos a un perro"
+            description: "Guía paso a paso para limpiar oídos a un perro en casa"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-limpiar-oidos-perro.mdx"
+                section: "full article"
+            blog_refs: ["como-limpiar-oidos-perro"]
+            tags: ["limpiar oídos", "otitis", "higiene", "perro"]
+            notes: "No tiene tipo: informativo explícito en frontmatter pero es guía de cuidados."
+
+          - id: "feat_como_eliminar_pulgas"
+            name: "Cómo eliminar pulgas en perros y en casa"
+            description: "Guía para eliminar pulgas del perro y prevenir infestaciones"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-eliminar-pulgas-perro-casa.mdx"
+                section: "full article"
+            blog_refs: ["como-eliminar-pulgas-perro-casa"]
+            tags: ["pulgas", "eliminar", "prevención", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_alergia_primaveral"
+            name: "Alergia primaveral en perros y gatos"
+            description: "Guía sobre alergia estacional: síntomas, tratamiento y prevención"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/alergia-primaveral-perros-gatos-sintomas-tratamiento.mdx"
+                section: "full article"
+            blog_refs: ["alergia-primaveral-perros-gatos-sintomas-tratamiento"]
+            tags: ["alergia primaveral", "polen", "dermatitis", "perro", "gato", "ambos"]
+            notes: "Artículo informativo (tipo: informativo). Aplica a perros y gatos."
+
+          - id: "feat_procesionaria_perros"
+            name: "Procesionaria y perros: peligros y primeros auxilios"
+            description: "Guía sobre la procesionaria del pino y cómo actuar si afecta a tu perro"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/procesionaria-pino-perros-peligros-primeros-auxilios.mdx"
+                section: "full article"
+            blog_refs: ["procesionaria-pino-perros-peligros-primeros-auxilios"]
+            tags: ["procesionaria", "primeros auxilios", "urgencia", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_muda_pelo_perros"
+            name: "Muda de pelo en perros"
+            description: "Guía completa de cuidados durante la muda de pelo en perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/muda-pelo-perros-guia-cuidados.mdx"
+                section: "full article"
+            blog_refs: ["muda-pelo-perros-guia-cuidados"]
+            tags: ["muda pelo", "cepillado", "caída pelo", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_muda_pelo_gatos"
+            name: "Muda de pelo en gatos"
+            description: "Guía completa de cuidados durante la muda de pelo en gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/muda-pelo-gatos-guia-cuidados.mdx"
+                section: "full article"
+            blog_refs: ["muda-pelo-gatos-guia-cuidados"]
+            tags: ["muda pelo", "bolas pelo", "cepillado", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+  # ============================================================
+  # PASEO
+  # ============================================================
+  - id: "cat_paseo"
+    name: "Paseo"
+    description: "Arneses, correas, transportines, collares, GPS, ropa y accesorios de coche"
+    subcategories:
+      # --- Arneses ---
+      - id: "sub_arneses"
+        name: "Arneses"
+        features:
+          - id: "feat_arnes_perro"
+            name: "Arnés para perros"
+            description: "Comparativa de arneses para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-arnes-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-arnes-perro"]
+            tags: ["arnés", "paseo", "perro"]
+            notes: ""
+
+          - id: "feat_arnes_antitirones_perro"
+            name: "Arnés antitirones para perros"
+            description: "Comparativa de arneses antitirones para paseo sin tirones"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-arnes-antitirones-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-arnes-antitirones-perro"]
+            tags: ["arnés antitirones", "paseo", "adiestramiento", "perro"]
+            notes: ""
+
+          - id: "feat_arnes_gato"
+            name: "Arnés para gatos"
+            description: "Comparativa de arneses antiescape para pasear gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-arnes-gato-pasear.mdx"
+                section: "full article"
+            blog_refs: ["mejor-arnes-gato-pasear"]
+            tags: ["arnés", "pasear gato", "antiescape", "gato"]
+            notes: ""
+
+      # --- Correas ---
+      - id: "sub_correas"
+        name: "Correas"
+        features:
+          - id: "feat_correa_perro"
+            name: "Correa para perros"
+            description: "Comparativa y guía de correas para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-correa-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-correa-perro"]
+            tags: ["correa", "paseo", "adiestramiento", "perro"]
+            notes: ""
+
+          - id: "feat_correa_extensible"
+            name: "Correa extensible para perros"
+            description: "Comparativa de correas extensibles y retráctiles"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/correa-extensible-perros.mdx"
+                section: "full article"
+            blog_refs: ["correa-extensible-perros"]
+            tags: ["correa extensible", "retráctil", "flexi", "perro"]
+            notes: ""
+
+      # --- Collares ---
+      - id: "sub_collares"
+        name: "Collares"
+        features:
+          - id: "feat_collar_antiladridos"
+            name: "Collar antiladridos para perros"
+            description: "Comparativa de collares antiladridos y vibración"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/collar-antiladridos-perros.mdx"
+                section: "full article"
+            blog_refs: ["collar-antiladridos-perros"]
+            tags: ["collar antiladridos", "adiestramiento", "vibración", "perro"]
+            notes: ""
+
+          - id: "feat_collar_luminoso"
+            name: "Collar luminoso LED para perros"
+            description: "Comparativa de collares luminosos para paseo nocturno"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-collar-luminoso-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-collar-luminoso-perro"]
+            tags: ["collar LED", "luminoso", "noche", "seguridad", "perro"]
+            notes: ""
+
+      # --- Bozales ---
+      - id: "sub_bozales"
+        name: "Bozales"
+        features:
+          - id: "feat_bozal_perro"
+            name: "Bozal para perros"
+            description: "Comparativa de bozales para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-bozal-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-bozal-perro"]
+            tags: ["bozal", "cesta", "obligatorio", "perro"]
+            notes: ""
+
+      # --- GPS y localización ---
+      - id: "sub_gps_localizacion"
+        name: "GPS y localización"
+        features:
+          - id: "feat_gps_perro"
+            name: "GPS para perros"
+            description: "Comparativa de localizadores GPS para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-gps-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-gps-perro"]
+            tags: ["GPS", "localizador", "rastreador", "seguridad", "perro"]
+            notes: ""
+
+          - id: "feat_gps_gato"
+            name: "Collar GPS para gatos"
+            description: "Comparativa de localizadores GPS para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/collar-gps-gato.mdx"
+                section: "full article"
+            blog_refs: ["collar-gps-gato"]
+            tags: ["GPS", "collar", "localizador", "gato exterior", "gato"]
+            notes: ""
+
+      # --- Transportines ---
+      - id: "sub_transportines"
+        name: "Transportines"
+        features:
+          - id: "feat_transportin_perros"
+            name: "Transportín para perros"
+            description: "Guía completa de transportines para perros (rígido, blando, avión)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-transportin-perros-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-transportin-perros-guia"]
+            tags: ["transportín", "viaje", "IATA", "avión", "perro"]
+            notes: ""
+
+          - id: "feat_transportin_gatos"
+            name: "Transportín para gatos"
+            description: "Guía completa de transportines para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-transportin-gatos-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-transportin-gatos-guia"]
+            tags: ["transportín", "mochila", "viaje", "gato"]
+            notes: ""
+
+      # --- Ropa ---
+      - id: "sub_ropa"
+        name: "Ropa para perros"
+        features:
+          - id: "feat_abrigo_perro_invierno"
+            name: "Abrigo para perros en invierno"
+            description: "Comparativa de abrigos y chaquetas de invierno para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-abrigo-perro-invierno.mdx"
+                section: "full article"
+            blog_refs: ["mejor-abrigo-perro-invierno"]
+            tags: ["abrigo", "invierno", "ropa", "frío", "perro"]
+            notes: ""
+
+          - id: "feat_chubasquero_perro"
+            name: "Chubasquero para perros"
+            description: "Comparativa de chubasqueros e impermeables para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-chubasquero-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-chubasquero-perro"]
+            tags: ["chubasquero", "impermeable", "lluvia", "perro"]
+            notes: ""
+
+          - id: "feat_chaleco_salvavidas_perro"
+            name: "Chaleco salvavidas para perros"
+            description: "Comparativa de chalecos flotadores para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-chaleco-salvavidas-perro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-chaleco-salvavidas-perro"]
+            tags: ["chaleco salvavidas", "flotador", "playa", "agua", "perro"]
+            notes: ""
+
+      # --- Accesorios coche ---
+      - id: "sub_accesorios_coche"
+        name: "Accesorios de coche"
+        features:
+          - id: "feat_asiento_coche_perro"
+            name: "Asiento de coche para perros"
+            description: "Comparativa de asientos y hamacas de coche para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/asiento-coche-perro.mdx"
+                section: "full article"
+            blog_refs: ["asiento-coche-perro"]
+            tags: ["asiento coche", "hamaca coche", "viaje", "perro"]
+            notes: ""
+
+          - id: "feat_protector_maletero"
+            name: "Protector de maletero para perros"
+            description: "Comparativa de protectores y fundas de maletero para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-protector-maletero-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-protector-maletero-perros"]
+            tags: ["protector maletero", "funda", "coche", "viaje", "perro"]
+            notes: ""
+
+      # --- Guías informativas paseo ---
+      - id: "sub_guias_paseo"
+        name: "Guías de paseo y actividad (informativo)"
+        features:
+          - id: "feat_como_socializar_cachorro"
+            name: "Cómo socializar a un cachorro"
+            description: "Guía completa sobre el periodo de socialización del cachorro"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-socializar-cachorro.mdx"
+                section: "full article"
+            blog_refs: ["como-socializar-cachorro"]
+            tags: ["socializar", "cachorro", "educación", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_cuanto_ejercicio_perro"
+            name: "Cuánto ejercicio necesita un perro"
+            description: "Guía completa de necesidades de ejercicio por razas"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/cuanto-ejercicio-necesita-perro.mdx"
+                section: "full article"
+            blog_refs: ["cuanto-ejercicio-necesita-perro"]
+            tags: ["ejercicio", "paseo", "actividad física", "razas", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_perros_comen_hierba"
+            name: "Por qué los perros comen hierba"
+            description: "Causas y cuándo preocuparse si tu perro come hierba"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/por-que-perros-comen-hierba.mdx"
+                section: "full article"
+            blog_refs: ["por-que-perros-comen-hierba"]
+            tags: ["come hierba", "comportamiento", "salud", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+  # ============================================================
+  # JUGUETES
+  # ============================================================
+  - id: "cat_juguetes"
+    name: "Juguetes"
+    description: "Juguetes, rascadores, mordedores, alfombras de olfato, túneles y feromonas"
+    subcategories:
+      # --- Juguetes perros ---
+      - id: "sub_juguetes_perro"
+        name: "Juguetes para perros"
+        features:
+          - id: "feat_juguete_cachorro"
+            name: "Juguetes para cachorros"
+            description: "Comparativa de juguetes y mordedores para cachorros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-juguete-cachorro.mdx"
+                section: "full article"
+            blog_refs: ["mejor-juguete-cachorro"]
+            tags: ["juguete", "cachorro", "mordedor", "dentición", "perro"]
+            notes: ""
+
+          - id: "feat_juguete_mental_perros"
+            name: "Juguetes de estimulación mental para perros"
+            description: "Guía de juguetes de estimulación mental y enriquecimiento cognitivo"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-juguete-mental-perros-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-juguete-mental-perros-guia"]
+            tags: ["juguete mental", "Kong", "puzzle", "enriquecimiento", "perro"]
+            notes: ""
+
+          - id: "feat_juguete_resistente_perros"
+            name: "Juguetes resistentes para perros"
+            description: "Guía de juguetes indestructibles para masticadores agresivos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-juguete-resistente-perros-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-juguete-resistente-perros-guia"]
+            tags: ["juguete resistente", "indestructible", "mordedor", "perro"]
+            notes: ""
+
+          - id: "feat_alfombras_olfato_perros"
+            name: "Alfombras de olfato para perros"
+            description: "Comparativa de alfombras olfativas (snuffle mats) para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/alfombras-olfato-perros.mdx"
+                section: "full article"
+            blog_refs: ["alfombras-olfato-perros"]
+            tags: ["alfombra olfato", "snuffle mat", "estimulación mental", "perro"]
+            notes: ""
+
+          - id: "feat_circuito_agilidad_perros"
+            name: "Circuito de agilidad para perros"
+            description: "Comparativa de circuitos y sets de agility para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-circuito-agilidad-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-circuito-agilidad-perros"]
+            tags: ["agility", "circuito", "ejercicio", "entrenamiento", "perro"]
+            notes: ""
+
+      # --- Juguetes gatos ---
+      - id: "sub_juguetes_gato"
+        name: "Juguetes para gatos"
+        features:
+          - id: "feat_juguete_gatos"
+            name: "Juguetes para gatos"
+            description: "Guía completa de juguetes para gatos (interactivos, puzzle, caña, túnel)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-juguete-gatos-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-juguete-gatos-guia"]
+            tags: ["juguete", "interactivo", "caña", "puzzle", "túnel", "gato"]
+            notes: ""
+
+      # --- Rascadores ---
+      - id: "sub_rascadores"
+        name: "Rascadores para gatos"
+        features:
+          - id: "feat_rascador_gatos"
+            name: "Rascador para gatos"
+            description: "Guía definitiva de rascadores para gatos (árbol, pared, esquina)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-rascador-gatos-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-rascador-gatos-guia"]
+            tags: ["rascador", "árbol rascador", "sisal", "gato"]
+            notes: ""
+
+          - id: "feat_arbol_rascador_pequeno"
+            name: "Árbol rascador pequeño para pisos"
+            description: "Comparativa de árboles rascadores compactos para pisos pequeños"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/arbol-rascador-pequeno-pisos.mdx"
+                section: "full article"
+            blog_refs: ["arbol-rascador-pequeno-pisos"]
+            tags: ["árbol rascador", "compacto", "piso pequeño", "gato"]
+            notes: ""
+
+      # --- Feromonas ---
+      - id: "sub_feromonas"
+        name: "Feromonas y calmantes"
+        features:
+          - id: "feat_difusor_feromonas_gatos"
+            name: "Difusor de feromonas para gatos"
+            description: "Comparativa de difusores de feromonas calmantes para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-difusor-feromonas-gatos.mdx"
+                section: "full article"
+            blog_refs: ["mejor-difusor-feromonas-gatos"]
+            tags: ["feromonas", "Feliway", "estrés", "calmante", "gato"]
+            notes: ""
+
+      # --- Guías informativas juguetes ---
+      - id: "sub_guias_juguetes"
+        name: "Guías de comportamiento y enriquecimiento (informativo)"
+        features:
+          - id: "feat_enriquecimiento_gato_interior"
+            name: "Enriquecimiento ambiental para gatos de interior"
+            description: "Guía sobre estimulación y bienestar para gatos que viven en pisos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/enriquecimiento-ambiental-gato-interior.mdx"
+                section: "full article"
+            blog_refs: ["enriquecimiento-ambiental-gato-interior"]
+            tags: ["enriquecimiento ambiental", "gato interior", "bienestar", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_como_adiestrar_gato"
+            name: "Cómo adiestrar a un gato"
+            description: "Guía de técnicas de adiestramiento y clicker training para gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-adiestrar-gato-tecnicas.mdx"
+                section: "full article"
+            blog_refs: ["como-adiestrar-gato-tecnicas"]
+            tags: ["adiestrar gato", "clicker training", "trucos", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+  # ============================================================
+  # HOGAR
+  # ============================================================
+  - id: "cat_hogar"
+    name: "Hogar"
+    description: "Camas, mantas, hamacas, protectores de sofá, gateras, puertas de seguridad y convivencia"
+    subcategories:
+      # --- Camas ---
+      - id: "sub_camas"
+        name: "Camas y descanso"
+        features:
+          - id: "feat_cama_perro"
+            name: "Cama para perros"
+            description: "Guía completa de camas para perros por tipos (ortopédica, antiansiedad, elevada)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-cama-perro-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-cama-perro-guia"]
+            tags: ["cama", "ortopédica", "antiansiedad", "descanso", "perro"]
+            notes: ""
+
+          - id: "feat_cama_gato"
+            name: "Cama para gatos"
+            description: "Guía definitiva de camas para gatos (cueva, hamaca ventana, donut, iglú)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-cama-gato-guia.mdx"
+                section: "full article"
+            blog_refs: ["mejor-cama-gato-guia"]
+            tags: ["cama", "cueva", "hamaca", "donut", "gato"]
+            notes: ""
+
+      # --- Mantas ---
+      - id: "sub_mantas"
+        name: "Mantas"
+        features:
+          - id: "feat_manta_perros"
+            name: "Manta para perros"
+            description: "Comparativa de mantas para perros (impermeables, sofá, descanso)"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-manta-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-manta-perros"]
+            tags: ["manta", "impermeable", "sofá", "descanso", "perro"]
+            notes: ""
+
+      # --- Protectores sofá ---
+      - id: "sub_protectores_sofa"
+        name: "Protectores de sofá"
+        features:
+          - id: "feat_protector_sofa"
+            name: "Protector de sofá para mascotas"
+            description: "Comparativa de fundas y protectores de sofá para hogares con mascotas"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/protector-sofa-mascotas.mdx"
+                section: "full article"
+            blog_refs: ["protector-sofa-mascotas"]
+            tags: ["protector sofá", "funda sofá", "perro", "gato", "ambos"]
+            notes: ""
+
+      # --- Jaulas ---
+      - id: "sub_jaulas"
+        name: "Jaulas y crates"
+        features:
+          - id: "feat_jaula_perro"
+            name: "Jaula para perros (casa y coche)"
+            description: "Comparativa de jaulas y crates para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/jaula-perro-casa-coche.mdx"
+                section: "full article"
+            blog_refs: ["jaula-perro-casa-coche"]
+            tags: ["jaula", "crate", "coche", "adiestramiento", "perro"]
+            notes: ""
+
+      # --- Gateras ---
+      - id: "sub_gateras"
+        name: "Gateras"
+        features:
+          - id: "feat_gatera_puerta_gato"
+            name: "Gatera (puerta para gatos)"
+            description: "Comparativa de gateras con microchip y magnéticas"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-gatera-puerta-gato.mdx"
+                section: "full article"
+            blog_refs: ["mejor-gatera-puerta-gato"]
+            tags: ["gatera", "puerta gato", "microchip", "magnética", "gato"]
+            notes: ""
+
+      # --- Puertas seguridad ---
+      - id: "sub_puertas_seguridad"
+        name: "Puertas de seguridad"
+        features:
+          - id: "feat_puerta_seguridad_perros"
+            name: "Puerta de seguridad para perros"
+            description: "Comparativa de puertas barrera y vallas de seguridad para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-puerta-seguridad-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-puerta-seguridad-perros"]
+            tags: ["puerta seguridad", "barrera", "valla", "cachorro", "perro"]
+            notes: ""
+
+      # --- Escaleras y rampas ---
+      - id: "sub_escaleras_rampas"
+        name: "Escaleras y rampas"
+        features:
+          - id: "feat_escalera_rampa_perros"
+            name: "Escalera y rampa para perros"
+            description: "Comparativa de escaleras y rampas de acceso para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-escalera-rampa-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-escalera-rampa-perros"]
+            tags: ["escalera", "rampa", "acceso sofá", "rampa coche", "perro"]
+            notes: ""
+
+      # --- Repelentes ---
+      - id: "sub_repelentes"
+        name: "Repelentes y protección de muebles"
+        features:
+          - id: "feat_repelente_gatos_muebles"
+            name: "Repelente para gatos en sofás y muebles"
+            description: "Comparativa de sprays y repelentes para evitar arañazos de gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-repelente-gatos-muebles.mdx"
+                section: "full article"
+            blog_refs: ["mejor-repelente-gatos-muebles"]
+            tags: ["repelente", "anti arañazos", "sofá", "muebles", "gato"]
+            notes: ""
+
+      # --- Refrigeración y verano ---
+      - id: "sub_refrigeracion_verano"
+        name: "Refrigeración y verano"
+        features:
+          - id: "feat_alfombrilla_refrigerante"
+            name: "Alfombrilla refrigerante para perros"
+            description: "Comparativa de alfombrillas y camas frías para perros en verano"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/alfombrilla-refrigerante-perros.mdx"
+                section: "full article"
+            blog_refs: ["alfombrilla-refrigerante-perros"]
+            tags: ["alfombrilla refrigerante", "verano", "calor", "perro"]
+            notes: ""
+
+          - id: "feat_piscina_perros"
+            name: "Piscina para perros"
+            description: "Comparativa de piscinas plegables y resistentes para perros"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-piscina-perros.mdx"
+                section: "full article"
+            blog_refs: ["mejor-piscina-perros"]
+            tags: ["piscina", "plegable", "verano", "refrescar", "perro"]
+            notes: ""
+
+      # --- Guías informativas hogar ---
+      - id: "sub_guias_hogar"
+        name: "Guías de hogar y convivencia (informativo)"
+        features:
+          - id: "feat_cachorro_primeras_semanas"
+            name: "Cachorro en casa: primeras semanas"
+            description: "Guía de las primeras semanas con un cachorro en casa"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/cachorro-primeras-semanas-casa.mdx"
+                section: "full article"
+            blog_refs: ["cachorro-primeras-semanas-casa"]
+            tags: ["cachorro", "primeras semanas", "educación", "perro"]
+            notes: "Artículo informativo. No tiene tipo: informativo explícito en frontmatter."
+
+          - id: "feat_como_presentar_perro_gato"
+            name: "Cómo presentar un perro y un gato"
+            description: "Guía paso a paso para la convivencia entre perro y gato"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-presentar-perro-gato.mdx"
+                section: "full article"
+            blog_refs: ["como-presentar-perro-gato"]
+            tags: ["presentar perro gato", "convivencia", "socialización", "ambos"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_como_saber_edad_gato"
+            name: "Cómo saber la edad de un gato"
+            description: "Guía para determinar la edad de un gato y tabla de equivalencias"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/como-saber-edad-gato.mdx"
+                section: "full article"
+            blog_refs: ["como-saber-edad-gato"]
+            tags: ["edad gato", "años humanos", "senior", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_gato_maulla_noche"
+            name: "Mi gato maúlla mucho por la noche"
+            description: "Causas y soluciones para el maullido nocturno en gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/gato-maulla-mucho-noche-causas.mdx"
+                section: "full article"
+            blog_refs: ["gato-maulla-mucho-noche-causas"]
+            tags: ["maullido nocturno", "gato noche", "comportamiento", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_perro_miedo_petardos"
+            name: "Perro con miedo a petardos"
+            description: "Guía para calmar a un perro con miedo a petardos y fuegos artificiales"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/perro-miedo-petardos-fuegos-artificiales.mdx"
+                section: "full article"
+            blog_refs: ["perro-miedo-petardos-fuegos-artificiales"]
+            tags: ["miedo petardos", "ansiedad", "fuegos artificiales", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_perro_ladra_noche"
+            name: "Por qué mi perro ladra por la noche"
+            description: "8 causas y soluciones para los ladridos nocturnos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/por-que-perro-ladra-noche.mdx"
+                section: "full article"
+            blog_refs: ["por-que-perro-ladra-noche"]
+            tags: ["ladridos nocturnos", "comportamiento", "ansiedad", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_por_que_gatos_amasan"
+            name: "Por qué los gatos amasan"
+            description: "Significado y curiosidades del amasado felino"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/por-que-gatos-amasan.mdx"
+                section: "full article"
+            blog_refs: ["por-que-gatos-amasan"]
+            tags: ["gatos amasan", "comportamiento", "lenguaje corporal", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_senales_estres_gatos"
+            name: "Señales de estrés en gatos"
+            description: "10 señales de estrés en gatos que no debes ignorar"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/senales-estres-gatos.mdx"
+                section: "full article"
+            blog_refs: ["senales-estres-gatos"]
+            tags: ["estrés", "comportamiento", "ansiedad", "salud", "gato"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_razas_perro_piso_pequeno"
+            name: "Mejores razas de perro para piso pequeño"
+            description: "15 razas de perro ideales para apartamentos y pisos pequeños"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/razas-perro-piso-pequeno.mdx"
+                section: "full article"
+            blog_refs: ["razas-perro-piso-pequeno"]
+            tags: ["razas", "piso pequeño", "apartamento", "perro tranquilo", "perro"]
+            notes: "Artículo informativo (tipo: informativo)"
+
+          - id: "feat_residencias_mascotas_verano"
+            name: "Residencias para mascotas en verano"
+            description: "Guía para elegir residencia o guardería para mascotas en vacaciones"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/residencias-mascotas-verano.mdx"
+                section: "full article"
+            blog_refs: ["residencias-mascotas-verano"]
+            tags: ["residencia", "hotel mascotas", "guardería", "vacaciones", "ambos"]
+            notes: "Artículo informativo (tipo: informativo). Aplica a perros y gatos."
+
+# ============================================================
+# SUMMARY
+# ============================================================
+# Total features: 113
+# By category:
+#   - Alimentación: 30 (8 pienso perro, 6 pienso gato, 2 comida húmeda, 2 snacks, 3 comederos, 3 bebederos/fuentes, 8 guías informativas)
+#   - Higiene: 30 (1 arenero, 6 cepillos/grooming, 2 champús, 1 higiene dental, 1 uñas, 3 antiparasitarios, 6 limpieza, 1 protector patas, 9 guías informativas)
+#   - Paseo: 21 (3 arneses, 2 correas, 2 collares, 1 bozal, 2 GPS, 2 transportines, 3 ropa, 2 accesorios coche, 3 guías informativas)
+#   - Juguetes: 13 (5 juguetes perro, 1 juguetes gato, 2 rascadores, 1 feromonas, 2 guías informativas)
+#   - Hogar: 19 (2 camas, 1 manta, 1 protector sofá, 1 jaula, 1 gatera, 1 puerta seguridad, 1 escalera/rampa, 1 repelente, 2 refrigeración/verano, 10 guías informativas)
+# By type:
+#   - Comparativas: ~78
+#   - Informativos: ~35
+# By animal:
+#   - Perro: ~72
+#   - Gato: ~30
+#   - Ambos: ~11

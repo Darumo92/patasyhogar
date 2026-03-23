@@ -1,0 +1,143 @@
+# SEO Content Engine — Project Configuration
+# Auto-generated 2026-03-23. Edit anything here anytime — Claude Code reads this before every task.
+
+project:
+  name: "Patas y Hogar"
+  tagline: "Guías y comparativas de productos para perros y gatos"
+  description: "Web de guías y comparativas de productos para perros y gatos con monetización por afiliados (Amazon, Zooplus, Tiendanimal) y publicidad."
+  website: "https://patasyhogar.com"
+  target_audience:
+    primary: "dueños de perros y gatos en España"
+    secondary: "dueños primerizos buscando guías de cuidados"
+    technical_level: "beginner"
+
+# Author — auto-detected from git config
+author:
+  name: "darumo"
+  title: ""
+  bio: ""
+  website: "https://patasyhogar.com"
+  social_links: {}
+
+# Trust signals — used for E-E-A-T in blogs
+trust_signals:
+  review_links:
+    g2: ""
+    trustpilot: ""
+    capterra: ""
+    product_hunt: ""
+    rightfeature: ""
+    canny: ""
+    other: []
+  testimonials: []
+  metrics:
+    - "109+ artículos publicados"
+    - "Comparativas con precios verificados de 3 tiendas (Amazon, Zooplus, Tiendanimal)"
+
+# CMS — auto-detected
+cms:
+  type: "astro"
+  blog_directory: "src/content/articulos/"
+  docs_directory: ""
+  frontmatter_format: "yaml"
+  date_format: "YYYY-MM-DD"
+  slug_style: "kebab-case"
+  slug_max_words: 7
+  image_directory: "public/images/articulos/"
+  frontmatter_schema:
+    required:
+      - titulo
+      - descripcion
+      - categoria
+      - animal
+      - fecha
+    optional:
+      - tipo
+      - imagen
+      - imagenAlt
+      - destacado
+      - tags
+      - faqs
+      - actualizadoEn
+
+competitors:
+  - name: "Soyunperro"
+    website: "https://soyunperro.com"
+    id: "comp_soyunperro"
+  - name: "Expertoanimal"
+    website: "https://expertoanimal.com"
+    id: "comp_expertoanimal"
+  - name: "Mis Animales"
+    website: "https://misanimales.com"
+    id: "comp_misanimales"
+  - name: "Miwuki"
+    website: "https://miwuki.com"
+    id: "comp_miwuki"
+
+seo:
+  primary_topics:
+    - "mejor pienso perro"
+    - "mejor pienso gato"
+    - "comparativa productos mascotas"
+    - "cuidados perros"
+    - "cuidados gatos"
+    - "accesorios perros"
+    - "accesorios gatos"
+    - "higiene mascotas"
+  brand_terms:
+    - "Patas y Hogar"
+    - "patasyhogar"
+  avoid_terms: []
+  target_regions: ["España"]
+  language: "es"
+
+content:
+  min_word_count: 1500
+  max_word_count: 4000
+  default_author: "darumo"
+  tone: "profesional-cercano"
+  include_faq: true
+  include_toc: true
+  cta_text: ""
+  cta_url: ""
+  max_posts_per_month: 8
+  requires_human_review: true
+
+  # Content types specific to this project
+  tipos:
+    comparativa:
+      description: "Análisis de productos con ComparisonTable, TopPick, AffiliateButton"
+      url_pattern: "/[categoria]/[slug]"
+      components: ["ComparisonTable", "TopPick"]
+    informativo:
+      description: "Guías de cuidados, salud, comportamiento. Sin disclaimer de afiliados."
+      url_pattern: "/cuidados/[slug]"
+      components: []
+
+  categorias:
+    - id: "alimentacion"
+      label: "Alimentación"
+      topics: ["pienso", "comida húmeda", "snacks", "fuentes agua", "comederos", "bebederos"]
+    - id: "higiene"
+      label: "Higiene"
+      topics: ["arena gatos", "areneros", "cepillos", "champús", "antiparasitarios", "limpieza dental"]
+    - id: "paseo"
+      label: "Paseo"
+      topics: ["arneses", "correas", "transportines", "collares", "GPS", "ropa", "accesorios coche"]
+    - id: "juguetes"
+      label: "Juguetes"
+      topics: ["juguetes", "rascadores", "mordedores", "alfombras olfato", "túneles", "feromonas"]
+    - id: "hogar"
+      label: "Hogar"
+      topics: ["camas", "mantas", "hamacas", "protector sofá", "gateras", "puertas seguridad"]
+
+technical_seo:
+  meta_description_max_chars: 155
+  title_tag_max_chars: 60
+  image_alt_text_required: true
+  canonical_url_pattern: "https://patasyhogar.com/{path}"
+
+integrations:
+  seo_tool: "none"
+  analytics: "none"
+  search_console: false

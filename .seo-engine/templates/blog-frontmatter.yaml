@@ -1,0 +1,41 @@
+# Blog Frontmatter Template — Astro MDX
+# Enforce: titulo ≤ 60 chars, descripcion ≤ 155 chars, slug ≤ 7 words
+
+comparativa:
+  required:
+    titulo: "string — keyword principal, max 60 chars"
+    descripcion: "string — keyword + CTA, max 155 chars"
+    categoria: "alimentacion | higiene | paseo | juguetes | hogar"
+    animal: "perro | gato | ambos"
+    fecha: "date — YYYY-MM-DD"
+  optional:
+    tipo: "comparativa (default)"
+    imagen: "string — /images/articulos/{slug}.webp"
+    imagenAlt: "string — descriptivo con keywords"
+    destacado: "boolean — default false"
+    tags: "string[] — 3-6 keywords long-tail"
+    faqs: "array — [{pregunta, respuesta}] — 3-5 por artículo"
+    actualizadoEn: "date — solo cuando se revisa realmente"
+
+informativo:
+  required:
+    titulo: "string — keyword principal, max 60 chars"
+    descripcion: "string — keyword + CTA, max 155 chars"
+    categoria: "alimentacion | higiene | paseo | juguetes | hogar"
+    animal: "perro | gato | ambos"
+    tipo: "informativo"
+    fecha: "date — YYYY-MM-DD"
+  optional:
+    imagen: "string — /images/articulos/{slug}.webp"
+    imagenAlt: "string — descriptivo con keywords"
+    destacado: "boolean — default false"
+    tags: "string[] — 3-6 keywords long-tail"
+    faqs: "array — [{pregunta, respuesta}] — 3-5 por artículo"
+    actualizadoEn: "date — solo cuando se revisa realmente"
+
+# Imports según tipo
+imports:
+  comparativa: |
+    import ComparisonTable from '@/components/ComparisonTable.astro';
+    import TopPick from '@/components/TopPick.astro';
+  informativo: ""
