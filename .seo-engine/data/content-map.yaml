@@ -1739,7 +1739,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_juguetes_enriquecimiento'
   target_keywords:
   - keyword: mejores circuitos de agilidad para perros
     search_volume: 0
@@ -1760,6 +1760,7 @@ blogs:
   internal_links_to:
   - cuanto-ejercicio-necesita-perro
   - mejor-juguete-mental-perros-guia
+  - mejor-juguete-resistente-perros-guia
   internal_links_from: []
   word_count: 3820
   has_eeat_signals: true
@@ -1772,7 +1773,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_higiene_perros'
   target_keywords:
   - keyword: mejor collar antiparasitario para perros
     search_volume: 0
@@ -1791,6 +1792,7 @@ blogs:
   internal_links_to:
   - mejor-antiparasitario-perros-guia
   - como-eliminar-pulgas-perro-casa
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
   internal_links_from:
   - como-eliminar-pulgas-perro-casa
   - mejor-antiparasitario-perros-guia
@@ -1806,7 +1808,7 @@ blogs:
   last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_paseo_perros'
   target_keywords:
   - keyword: mejor collar luminoso led para perros
     search_volume: 0
@@ -1824,6 +1826,7 @@ blogs:
   internal_links_to:
   - mejor-gps-perro
   - mejor-correa-perro
+  - mejor-arnes-perro
   internal_links_from:
   - mejor-gps-perro
   word_count: 2642
@@ -1837,7 +1840,7 @@ blogs:
   last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_alimentacion_perros'
   target_keywords:
   - keyword: mejor comedero antihormigas
     search_volume: 0
@@ -1870,7 +1873,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_alimentacion_gatos'
   target_keywords:
   - keyword: "mejor comedero para gatos: guía completa"
     search_volume: 0
@@ -1913,7 +1916,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_alimentacion_perros'
   target_keywords:
   - keyword: "mejor comedero para perros : guía definitiva"
     search_volume: 0
@@ -1959,10 +1962,10 @@ blogs:
   file_path: src/content/articulos/mejor-comida-humeda-gatos.mdx
   status: published
   published_date: '2025-10-08'
-  last_updated: ''
+  last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_alimentacion_gatos'
   target_keywords:
   - keyword: mejor comida húmeda para gatos exigentes
     search_volume: 0
@@ -1983,6 +1986,7 @@ blogs:
   internal_links_to:
   - mejor-pienso-gato-senior
   - mejor-comedero-gatos-guia
+  - mejor-pienso-gato-esterilizado
   internal_links_from:
   - gato-vomita-causas-soluciones
   - mejor-comedero-gatos-guia
@@ -1999,7 +2003,7 @@ blogs:
   last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_alimentacion_perros'
   target_keywords:
   - keyword: mejor comida húmeda para perros
     search_volume: 0
@@ -2020,6 +2024,8 @@ blogs:
   internal_links_to:
   - mejor-pienso-perro-senior
   - mejor-comedero-perros-guia
+  - mejor-pienso-perro-raza-grande
+  - mejores-snacks-naturales-perros
   internal_links_from:
   - cuantas-veces-dia-debe-comer-perro
   - mejor-pienso-perro-adulto-raza-mediana

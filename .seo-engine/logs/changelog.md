@@ -1,5 +1,18 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-23 18:30
+**Action:** Revisión completa de 8 artículos con SEO Content Engine
+**Files:**
+- `src/content/articulos/mejor-circuito-agilidad-perros.mdx` — corregidos 5 precios en tabla resumen, imagen unificada, E-E-A-T añadido, artículos relacionados
+- `src/content/articulos/mejor-collar-antiparasitario-perro.mdx` — nota aclaratoria Advantix/Beaphar, artículos relacionados
+- `src/content/articulos/mejor-collar-luminoso-perro.mdx` — nota sobre productos sin enlace, artículos relacionados
+- `src/content/articulos/mejor-comedero-antihormigas-mascotas.mdx` — E-E-A-T añadido
+- `src/content/articulos/mejor-comida-humeda-gatos.mdx` — actualizadoEn añadido, artículos relacionados
+- `src/content/articulos/mejor-comida-humeda-perros.mdx` — E-E-A-T añadido, artículos relacionados
+- `.seo-engine/data/content-map.yaml` — cluster_ids asignados a 8 artículos, internal_links_to actualizados, last_updated comida-humeda-gatos
+**Summary:** Revisión de 8 artículos: precios corregidos, E-E-A-T reforzado en 3 artículos, artículos relacionados en 5, cluster_ids asignados en content-map, internal links actualizados.
+**Triggered by:** user
+
 ## 2026-03-23 — Inicialización del SEO Engine
 **Action:** Setup completo del SEO Content Engine
 **Files:**
