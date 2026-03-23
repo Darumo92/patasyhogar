@@ -54,6 +54,36 @@ Web de guias y comparativas de productos para perros y gatos con monetizacion po
 - `src/components/AnimalFilter.astro` - tabs filtro perro/gato
 - `src/styles/global.css` - todos los estilos
 - `PRODUCTOS.md` - tracking de URLs Amazon e imagenes por articulo
+- `scripts/pexels-download.mjs` - descarga imagen individual de Pexels por query
+- `scripts/pexels-batch-download.mjs` - descarga imagenes de Pexels para todos los articulos
+
+## Imagenes de articulos (Pexels)
+
+Para descargar imagenes de Pexels hay dos scripts disponibles. Requieren `PEXELS_API_KEY` en `.env`.
+
+### Descarga individual
+```bash
+# Listar resultados sin descargar
+node scripts/pexels-download.mjs "dog brushing fur grooming" --list
+
+# Descargar la primera imagen
+node scripts/pexels-download.mjs "dog brushing fur grooming" muda-pelo-perros-guia-cuidados
+
+# Elegir otra imagen de los resultados
+node scripts/pexels-download.mjs "dog brushing fur grooming" muda-pelo-perros-guia-cuidados --index=2
+
+# Opciones: --orientation=landscape|portrait|square (default: landscape)
+```
+
+Guarda automaticamente en `public/images/articulos/<nombre>.webp` (formato WebP, calidad 80).
+
+### Descarga en lote
+```bash
+node scripts/pexels-batch-download.mjs          # procesa todos los articulos
+node scripts/pexels-batch-download.mjs --dry-run # solo muestra queries sin descargar
+```
+
+El script batch tiene un diccionario de queries optimizadas por slug de articulo en `QUERIES`. Al anadir articulos nuevos, anadir su query al diccionario para obtener mejores resultados.
 
 ## Frontmatter de articulos
 
