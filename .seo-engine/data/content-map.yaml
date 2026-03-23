@@ -2272,7 +2272,7 @@ blogs:
   last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_alimentacion_gatos'
   target_keywords:
   - keyword: mejores fuentes de agua silenciosas para gatos
     search_volume: 0
@@ -2292,6 +2292,8 @@ blogs:
   internal_links_to:
   - mejor-pienso-gato-esterilizado
   - pienso-gato-problemas-urinarios
+  - mejor-comedero-gatos-guia
+  - mejor-comida-humeda-gatos
   internal_links_from:
   - enriquecimiento-ambiental-gato-interior
   - mejor-comedero-gatos-guia
@@ -2306,7 +2308,7 @@ blogs:
   last_updated: '2026-03-14'
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_hogar_descanso'
   target_keywords:
   - keyword: mejor gatera (puerta para gatos)
     search_volume: 0
@@ -2327,6 +2329,7 @@ blogs:
   internal_links_to:
   - mejor-puerta-seguridad-perros
   - enriquecimiento-ambiental-gato-interior
+  - mejor-rascador-gatos-guia
   internal_links_from:
   - mejor-cama-gato-guia
   - mejor-puerta-seguridad-perros
@@ -2341,7 +2344,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_paseo_perros'
   target_keywords:
   - keyword: mejor gps para perros
     search_volume: 0
@@ -2361,6 +2364,7 @@ blogs:
   internal_links_to:
   - mejor-arnes-perro
   - mejor-collar-luminoso-perro
+  - mejor-correa-perro
   internal_links_from:
   - mejor-collar-luminoso-perro
   word_count: 2729
@@ -2374,7 +2378,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_juguetes_enriquecimiento'
   target_keywords:
   - keyword: mejores juguetes para cachorros
     search_volume: 0
@@ -2394,6 +2398,8 @@ blogs:
   competitors_mentioned: []
   internal_links_to:
   - mejor-juguete-resistente-perros-guia
+  - mejor-juguete-mental-perros-guia
+  - cachorro-primeras-semanas-casa
   internal_links_from:
   - cachorro-primeras-semanas-casa
   - como-socializar-cachorro
@@ -2408,7 +2414,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_juguetes_enriquecimiento'
   target_keywords:
   - keyword: "mejor juguete para gatos: guía completa"
     search_volume: 0
@@ -2458,7 +2464,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_juguetes_enriquecimiento'
   target_keywords:
   - keyword: "juguetes de estimulación mental para perros: guía"
     search_volume: 0
@@ -2507,7 +2513,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_juguetes_enriquecimiento'
   target_keywords:
   - keyword: "juguetes resistentes para perros: guía completa"
     search_volume: 0
@@ -2551,7 +2557,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_higiene_perros'
   target_keywords:
   - keyword: mejor limpiador enzimático para mascotas
     search_volume: 0
@@ -2570,6 +2576,7 @@ blogs:
   internal_links_to:
   - mejores-empapadores-perros
   - mejor-aspirador-pelo-mascotas
+  - cachorro-primeras-semanas-casa
   internal_links_from:
   - cachorro-primeras-semanas-casa
   - mejores-empapadores-perros

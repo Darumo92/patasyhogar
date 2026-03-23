@@ -1,5 +1,13 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-23 23:30
+**Action:** Revisión SEO Engine completa de 8 artículos con SERP analysis
+**Files:**
+- 8 artículos MDX: enlaces externos (ISFM, AVEPA, REIAC, ECHA, Applied Animal Behaviour Science), tags ampliados, artículos relacionados
+- `.seo-engine/data/content-map.yaml`: cluster_ids y internal_links para 8 artículos
+**Summary:** Revisión fuente-agua-gatos, gatera, gps-perro, juguete-cachorro, juguete-gatos, juguete-mental, juguete-resistente, limpiador-enzimatico. Enlaces externos, artículos relacionados, tags, clusters.
+**Triggered by:** user
+
 ## 2026-03-23 23:00
 **Action:** Revisión SEO Engine completa de 6 artículos con SERP analysis
 **Files:**
