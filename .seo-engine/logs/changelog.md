@@ -1,5 +1,15 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-23 22:00
+**Action:** Revisión SEO Engine completa con SERP analysis de 8 artículos
+**Files:**
+- 8 artículos MDX: enlaces externos de autoridad (RSCE, ESCCAP, DGT, ANECPLA, FEDIAF, ACVIM), tags ampliados a 6
+- `mejor-comida-humeda-gatos.mdx`: título simplificado (sin "exigentes"), precioZooplus Cosma Nature
+- `mejor-comida-humeda-perros.mdx`: Royal Canin precio aclarado (sobre individual)
+- `.seo-engine/data/content-map.yaml`: título y keywords actualizados comida-humeda-gatos
+**Summary:** Revisión SERP + SEO Engine: enlaces externos de autoridad en 8 artículos, tags ampliados, título optimizado comida-humeda-gatos, precios aclarados comida-humeda-perros.
+**Triggered by:** user
+
 ## 2026-03-23 18:30
 **Action:** Revisión completa de 8 artículos con SEO Content Engine
 **Files:**

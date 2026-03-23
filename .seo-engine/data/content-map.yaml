@@ -1958,7 +1958,7 @@ blogs:
   has_eeat_signals: true
   needs_update_reason: ''
 - slug: mejor-comida-humeda-gatos
-  title: "Mejor comida húmeda para gatos exigentes: comparativa 2026"
+  title: "Mejor comida húmeda para gatos: comparativa 2026"
   file_path: src/content/articulos/mejor-comida-humeda-gatos.mdx
   status: published
   published_date: '2025-10-08'
@@ -1967,13 +1967,13 @@ blogs:
   content_type: comparativa
   cluster_id: 'tc_alimentacion_gatos'
   target_keywords:
-  - keyword: mejor comida húmeda para gatos exigentes
+  - keyword: mejor comida húmeda para gatos
     search_volume: 0
     is_primary: true
   - keyword: comida húmeda
     search_volume: 0
     is_primary: false
-  - keyword: gatos exigentes
+  - keyword: comida húmeda gatos
     search_volume: 0
     is_primary: false
   features_mentioned:
