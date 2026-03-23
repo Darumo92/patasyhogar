@@ -3535,10 +3535,10 @@ blogs:
   file_path: src/content/articulos/muda-pelo-gatos-guia-cuidados.mdx
   status: published
   published_date: '2026-03-23'
-  last_updated: ''
+  last_updated: '2026-03-23'
   blog_type: how-to
   content_type: informativo
-  cluster_id: ''
+  cluster_id: 'tc_higiene_gatos'
   target_keywords:
   - keyword: "muda de pelo en gatos: guía completa de cuidados"
     search_volume: 0

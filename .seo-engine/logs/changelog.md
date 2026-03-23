@@ -18,3 +18,12 @@
 - `.seo-engine/logs/changelog.md` — este archivo
 **Summary:** Inicialización completa con auto-detección de proyecto Astro, escaneo de 113 artículos MDX, generación de topic clusters, keywords semilla y cola de contenido.
 **Triggered by:** user
+
+## 2026-03-23 — Revisión y mejora de muda-pelo-gatos-guia-cuidados
+**Action:** Evaluación SEO + aplicación de mejoras
+**Files:**
+- `src/content/articulos/muda-pelo-gatos-guia-cuidados.mdx` — añadida experiencia personal del autor (E-E-A-T), 2 enlaces externos autoritativos (Cornell Feline Health Center, AVEPA), variados anchor texts de enlaces internos repetidos
+- `.seo-engine/data/content-map.yaml` — asignado cluster_id tc_higiene_gatos
+- `.seo-engine/data/seo-keywords.csv` — añadidas 3 keywords: "muda pelo gatos", "gato suelta mucho pelo", "bolas pelo gato"
+**Summary:** Artículo evaluado con 8.5/10. Mejoras aplicadas: experiencia personal E-E-A-T en intro, enlaces externos a Cornell y AVEPA, anchor text variado en links internos repetidos, keyword tracking y asignación a cluster.
+**Triggered by:** user
