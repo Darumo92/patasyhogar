@@ -167,47 +167,6 @@ Campos esperados por producto:
 ### 7. Rebuild tras cambios
 - Ejecutar `npm run build` despues de anadir o modificar articulos
 
-## Workflow de revision de articulos (multi-tienda)
-
-Proceso completo para revisar cada articulo comparativo:
-
-### Paso 1: Verificar ASINs en Amazon
-- Pedir al usuario precio, disponibilidad e imagen de cada ASIN
-- Pasar siempre el enlace completo (https://www.amazon.es/dp/ASIN) para que el usuario pueda clicar
-- Si "precio no disponible": buscar ASIN alternativo o eliminar producto
-- Si "ASIN no existe": buscar reemplazo
-
-### Paso 2: Verificar nombres de productos
-- Verificar con WebFetch que el nombre del producto en el articulo coincide con el nombre real del ASIN
-- Los articulos a menudo tienen nombres incorrectos
-
-### Paso 3: Verificar imagenes
-- Pedir al usuario la imagen de Amazon de cada producto
-- Comprobar que coincide con la del articulo
-- Si cambia un producto, SIEMPRE actualizar imagen, precio, nombre, descripcion, enlace
-
-### Paso 4: Buscar en Zooplus y Tiendanimal
-- Buscar CADA producto individualmente por nombre especifico (nunca busquedas genericas de categoria)
-- Usar WebSearch con `site:zooplus.es nombre-producto` y `site:tiendanimal.es nombre-producto`
-- Verificar URL directa con WebFetch (confirmar nombre y precio)
-- Solo añadir enlaces verificados que lleven al producto correcto
-- NUNCA inventar URLs de tiendas
-
-### Paso 5: Actualizar TopPick
-- El TopPick DEBE incluir los mismos enlaces de tienda que su producto en el ComparisonTable
-- Si el producto tiene Zooplus/Tiendanimal en el ComparisonTable, el TopPick tambien
-
-### Paso 6: Limpiar articulo
-- Eliminar import de AffiliateButton si existe
-- Eliminar todos los bloques `<div class="affiliate-button-group">...</div>`
-- Actualizar precios en todo el articulo (ComparisonTable, TopPick, texto, tablas markdown)
-- Los precios deben ser consistentes en todo el articulo
-
-### Paso 7: Build y push
-- `npm run build` (actualiza CSP hashes)
-- Commit con resumen de cambios
-- Push
-
 ### Reglas importantes
 - NUNCA adivinar precios — siempre verificar
 - NUNCA inventar URLs de Zooplus o Tiendanimal
@@ -220,11 +179,6 @@ Proceso completo para revisar cada articulo comparativo:
 - **Amazon**: tag `patasyhogar-21` (auto-appended por componentes)
 - **Zooplus**: sin codigo de afiliado aun (futuro)
 - **Tiendanimal**: sin codigo de afiliado aun (futuro)
-
-### Progreso de revision
-- 109 articulos totales
-- ~80 revisados, ~29 pendientes (marzo 2026)
-- Los articulos de pienso (13) tienen URLs de busqueda de Zooplus que hay que reemplazar por URLs directas
 
 ## Workflow de productos
 
