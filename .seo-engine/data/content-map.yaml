@@ -4056,3 +4056,36 @@ blogs:
   word_count: 2495
   has_eeat_signals: true
   needs_update_reason: ''
+
+- slug: garrapatas-perros-prevenir-extraer
+  title: "Garrapatas en perros: cómo prevenir y extraerlas"
+  file_path: src/content/articulos/garrapatas-perros-prevenir-extraer.mdx
+  status: human-review
+  published_date: '2026-03-24'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_higiene_perros
+  target_keywords:
+  - keyword: garrapatas en perros
+    search_volume: 0
+    is_primary: true
+  - keyword: quitar garrapata perro
+    search_volume: 0
+    is_primary: false
+  - keyword: prevenir garrapatas perro
+    search_volume: 0
+    is_primary: false
+  - keyword: enfermedades garrapatas perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-collar-antiparasitario-perro
+  - mejor-antiparasitario-perros-guia
+  - como-eliminar-pulgas-perro-casa
+  internal_links_from: []
+  word_count: 2200
+  has_eeat_signals: true
+  needs_update_reason: ''

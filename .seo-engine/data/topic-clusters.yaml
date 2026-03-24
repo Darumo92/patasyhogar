@@ -350,6 +350,11 @@ clusters:
         slug: "mejor-limpiador-enzimatico-mascotas"
         status: "published"
         blog_slug: "mejor-limpiador-enzimatico-mascotas"
+      - title: "Garrapatas en perros: cómo prevenir y extraerlas"
+        target_keyword: "garrapatas en perros"
+        slug: "garrapatas-perros-prevenir-extraer"
+        status: "published"
+        blog_slug: "garrapatas-perros-prevenir-extraer"
       # Planned pages
       - title: "Cómo bañar a tu perro en casa paso a paso"
         target_keyword: "cómo bañar perro casa"

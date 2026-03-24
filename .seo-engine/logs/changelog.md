@@ -1,5 +1,16 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-24 10:00
+**Action:** Nuevo artículo informativo: "Garrapatas en perros: cómo prevenir y extraerlas"
+**Files:**
+- `src/content/articulos/garrapatas-perros-prevenir-extraer.mdx` (nuevo)
+- `public/images/articulos/garrapatas-perros-prevenir-extraer.webp` (Pexels: Karel Svanda)
+- `.seo-engine/data/content-map.yaml` (entrada añadida)
+- `.seo-engine/data/topic-clusters.yaml` (añadido a tc_higiene_perros)
+- `.seo-engine/data/seo-keywords.csv` (4 keywords añadidas)
+**Summary:** Guía tutorial informativa sobre garrapatas en perros: detección, extracción paso a paso, prevención y enfermedades transmitidas. Cluster tc_higiene_perros. Internal links a antiparasitarios, collares y pulgas. E-E-A-T: cita ESCCAP, especies en España, datos parasitológicos.
+**Triggered by:** user
+
 ## 2026-03-23 23:30
 **Action:** Revisión SEO Engine completa de 8 artículos con SERP analysis
 **Files:**
