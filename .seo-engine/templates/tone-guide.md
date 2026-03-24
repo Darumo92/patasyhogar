@@ -64,6 +64,18 @@ Si config.yaml no tiene trust signals suficientes, pedir al usuario antes de pub
 - **No presionar** — "Si te interesa, puedes verlo en Amazon" > "¡CÓMPRALO YA!"
 - **Multi-tienda** — ofrecer Amazon, Zooplus y Tiendanimal cuando estén disponibles
 
+## Humanización (anti-detección IA)
+
+**OBLIGATORIO: Leer `templates/humanization-guide.md` antes de escribir o revisar cualquier artículo.**
+
+Resumen de reglas clave:
+- **Variar intros** — nunca repetir el mismo patrón en artículos consecutivos
+- **Experiencia personal** — mínimo 2-3 inserciones por artículo
+- **Asimetría en listas** — no todos los productos con el mismo número de pros/contras
+- **Romper la estructura** — no seguir siempre el mismo esquema de secciones
+- **Honestidad** — si no has probado algo, dilo abiertamente
+- **Autoría real** — nombre real, no marca
+
 ## Lo que NUNCA hacer
 
 - Inventar datos, precios, ASINs o URLs de productos
@@ -72,3 +84,6 @@ Si config.yaml no tiene trust signals suficientes, pedir al usuario antes de pub
 - Poner keyword principal más de 3-4 veces en un artículo corto
 - Escribir artículos sin ángulo único — "más completo" NO es un ángulo
 - Usar "sin duda", "sin lugar a dudas", "el mejor del mercado" sin justificación
+- Empezar artículos con "[Tema] es uno de los aspectos más..." o variantes formulaicas
+- Escribir todos los pros/contras con el mismo número de puntos (simetría perfecta = marcador IA)
+- Publicar artículos sin ninguna frase de experiencia personal o declaración honesta

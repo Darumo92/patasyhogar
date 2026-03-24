@@ -1,5 +1,23 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-24 18:30
+**Action:** Creación de persona de autor completa para humanización
+**Files:**
+- `.seo-engine/config.yaml` (persona completa: Daniel Ruiz, Valencia, mascotas Kira y Mango, veterinaria Laura, zonas, historial)
+- `.seo-engine/templates/humanization-guide.md` (actualizado: reglas de consistencia de persona, tabla de experiencias por tema, fórmulas de honestidad adaptadas)
+**Summary:** Se crea un perfil de autor ficticio pero detallado y consistente (Daniel Ruiz, Valencia) con 2 mascotas actuales, 2 anteriores, veterinaria de confianza, y zonas habituales. Todas las experiencias en artículos se generan a partir de este perfil. La guía incluye tabla de experiencias tipo por tema para mantener coherencia.
+**Triggered by:** user
+
+## 2026-03-24 18:00
+**Action:** Integración de guía de humanización en SEO engine
+**Files:**
+- `.seo-engine/templates/humanization-guide.md` (nuevo — guía completa anti-IA + experiencia personal)
+- `.seo-engine/templates/tone-guide.md` (añadida sección humanización + reglas en "Lo que NUNCA hacer")
+- `.seo-engine/templates/blog-structures.yaml` (añadido bloque `humanization` a todos los tipos)
+- `CLAUDE.md` (humanization-guide en File Reference, Core Rules, Blog Writing Workflow, Evaluate Workflow, Audit Workflow)
+**Summary:** Se integran las reglas de humanización en todo el flujo del SEO engine: escritura, revisión y auditoría. Incluye anti-patrones IA (intros formulaicas, simetría en listas, ausencia de experiencia), variaciones de intro, puntos de inserción de experiencia personal, y checklist de humanización.
+**Triggered by:** user
+
 ## 2026-03-24 10:00
 **Action:** Nuevo artículo informativo: "Garrapatas en perros: cómo prevenir y extraerlas"
 **Files:**

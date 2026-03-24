@@ -213,11 +213,12 @@ SEO engine lives in `.seo-engine/`. Use it for all blog and SEO tasks.
 | `templates/blog-frontmatter.yaml` | Frontmatter format | When generating |
 | `templates/blog-structures.yaml` | Outlines by type | When structuring |
 | `templates/tone-guide.md` | Style + E-E-A-T rules | Before writing |
+| `templates/humanization-guide.md` | Anti-IA patterns + experiencia personal | Before writing and reviewing |
 | `logs/changelog.md` | Audit trail | After every action |
 
 ### Core Rules
 
-1. **Read before writing.** Always read: config, features, content-map, content-queue, topic-clusters, tone-guide.
+1. **Read before writing.** Always read: config, features, content-map, content-queue, topic-clusters, tone-guide, humanization-guide.
 2. **Never fabricate features.** Only reference what's in features.yaml.
 3. **Competitor claims need confidence.** If "unverified" or 90+ days old → caveat or direct reader to competitor's page.
 4. **No web search for SERP data.** NEVER use your built-in web search to research keywords or SERP results. It produces generic data that leads to generic content. ALWAYS ask the user to provide real Google SERP data (top results, PAA, related searches). The ONLY exception is if a dedicated SEO MCP tool (Semrush, Ahrefs) is connected.
@@ -293,15 +294,17 @@ a) Select structure from blog-structures.yaml
    - Common mistakes to avoid
    - Tools/templates: Options available (include your product naturally)
    - FAQ from People Also Ask data
-b) Read tone-guide.md — use correct voice for this blog type
-c) Build frontmatter: titulo ≤ 60 chars, descripcion ≤ 155 chars, slug ≤ 7 words
-d) Write blog:
+b) Read tone-guide.md and humanization-guide.md — use correct voice and apply anti-IA patterns
+c) **Humanization check pre-writing:** Review intros of 3 most recent articles in same category to avoid repeating patterns
+d) Build frontmatter: titulo ≤ 60 chars, descripcion ≤ 155 chars, slug ≤ 7 words
+e) Write blog:
    - Primary keyword in: title, first paragraph, one H2, description, slug
    - Secondary keywords natural
-   - FAQ from People Also Ask data
+   - FAQ from People Also Ask data (variable count 3-7, NOT always 5)
    - Internal links: prioritize pillar (if cluster page), then relevant blogs. Varied anchor text.
    - External links: 1-2 authoritative (not competitors)
-e) **Inject E-E-A-T:** author name, testimonial/metric/experience from config, review link
+   - **Humanization:** Intro variada, min 2 inserciones de experiencia personal, pros/contras asimétricos, al menos 1 variación estructural
+f) **Inject E-E-A-T:** author name (nombre real, no marca), testimonial/metric/experience from config, review link
 f) **Ask user:**
    ```
    Antes de finalizar, ¿quieres añadir algo?
@@ -334,14 +337,15 @@ c) **Alert:**
 6. Competitor data freshness (90+ days)
 7. Internal linking gaps
 8. E-E-A-T gaps (has_eeat_signals: false)
-9. Report + update queue + log
+9. Humanization gaps (intros formulaicas, sin experiencia personal, listas simétricas, estructura idéntica)
+10. Report + update queue + log
 
 ### Evaluate / Review Blog Workflow
 
 When asked to evaluate, review, analyze, or give feedback on a blog (existing or draft):
 
 1. Read the blog file
-2. Read config.yaml, features.yaml, competitors.yaml, content-map.yaml, topic-clusters.yaml, tone-guide.md
+2. Read config.yaml, features.yaml, competitors.yaml, content-map.yaml, topic-clusters.yaml, tone-guide.md, humanization-guide.md
 3. Evaluate against ALL of these criteria:
    - **SEO check:** Primary keyword in title, first paragraph, one H2, description, slug? Title ≤ 60 chars? Description ≤ 155 chars?
    - **Keyword cannibalization:** Does another blog target the same keyword?
@@ -357,6 +361,11 @@ When asked to evaluate, review, analyze, or give feedback on a blog (existing or
    - **Pillar completeness (if pillar):** Does it have ALL mandatory sections?
    - **SERP intent match:** Does the content format match what Google rewards for this keyword?
    - **FAQ quality:** Are FAQ questions drawn from real People Also Ask data or generic?
+   - **Humanización — intro:** ¿La intro es formulaica o repite el patrón de otros artículos de la misma categoría?
+   - **Humanización — experiencia:** ¿Tiene al menos 2 inserciones de experiencia personal (o declaración honesta)?
+   - **Humanización — asimetría:** ¿Las listas de pros/contras tienen número variable o son todas iguales?
+   - **Humanización — estructura:** ¿Sigue exactamente el esquema estándar o tiene alguna variación?
+   - **Humanización — autoría:** ¿Firma con nombre real o con nombre de marca?
 4. Output a structured report with: score (out of 10), strengths, issues found, specific fix recommendations
 5. If blog is in content-map with status "human-review": provide clear approve/reject recommendation
 

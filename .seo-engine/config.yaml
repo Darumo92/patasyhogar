@@ -11,13 +11,68 @@ project:
     secondary: "dueños primerizos buscando guías de cuidados"
     technical_level: "beginner"
 
-# Author — auto-detected from git config
+# Author persona — used for E-E-A-T and humanization across all articles
 author:
-  name: "darumo"
-  title: ""
-  bio: ""
+  name: "Daniel Ruiz"
+  title: "Fundador de Patas y Hogar"
+  bio: "Llevo más de 8 años conviviendo con perros y gatos. Creé Patas y Hogar porque cada vez que buscaba un producto para mis mascotas acababa más perdido que antes — quería crear las guías que me habría gustado encontrar a mí."
   website: "https://patasyhogar.com"
-  social_links: {}
+  city: "Valencia"
+  social_links:
+    instagram: ""  # TODO: crear perfil si se quiere enlazar
+
+  # Mascotas del autor — usar estos datos de forma consistente en TODOS los artículos
+  pets:
+    - name: "Kira"
+      species: "perro"
+      breed: "mestiza (cruce de podenco con algo que nadie ha sabido identificar)"
+      age: 6
+      size: "mediana, unos 18 kg"
+      personality: "nerviosa en paseos, tragona, le cuesta quedarse quieta en el veterinario"
+      adopted: true
+      origin: "adoptada de una protectora de Valencia con 8 meses"
+      quirks:
+        - "saca la comida del comedero y la come en el suelo"
+        - "tira de la correa como si la vida le fuera en ello"
+        - "duerme en el sofá aunque tiene dos camas"
+        - "le tiene pánico a las tormentas"
+    - name: "Mango"
+      species: "gato"
+      breed: "europeo común, naranja atigrado"
+      age: 3
+      size: "grande, casi 6 kg"
+      personality: "tranquilo pero territorial, madrugador, le gusta el agua"
+      adopted: true
+      origin: "lo encontré en un parking con 2 meses, lleno de pulgas"
+      quirks:
+        - "bebe solo de la fuente, ignora el cuenco"
+        - "rasca el sofá aunque tiene tres rascadores"
+        - "vomitaba con comederos planos hasta que le compré uno elevado"
+        - "se pelea con su reflejo en el cristal de la terraza"
+
+  # Mascotas anteriores (para referencias históricas)
+  past_pets:
+    - name: "Thor"
+      species: "perro"
+      breed: "pastor alemán"
+      context: "el perro de la familia, creció con él de niño en Alicante"
+    - name: "Nala"
+      species: "gata"
+      breed: "siamesa"
+      context: "gata de su compañera de piso en la universidad, convivió 2 años con ella"
+
+  # Veterinario de referencia
+  vet:
+    name: "Laura"
+    clinic: "una clínica cerca de Blasco Ibáñez"
+    context: "lleva a Kira y Mango desde el principio, de confianza"
+
+  # Zonas habituales (para referencias geográficas)
+  locations:
+    walks: ["Jardín del Turia", "parque de Cabecera", "playa de la Malvarrosa (en invierno)"]
+    vet_area: "zona de Benimaclet"
+    garrapatas: "sobre todo en las zonas de huerta al sur de Valencia, y en primavera en el Turia"
+    procesionaria: "pinos del parque de Cabecera y alrededores de la Albufera"
 
 # Trust signals — used for E-E-A-T in blogs
 trust_signals:

@@ -6,12 +6,17 @@ comparison:
   voice: "analítico, basado en datos, experto pero accesible"
   word_count: "2000-3500"
   description: "Análisis detallado de productos con tabla comparativa y recomendación destacada"
+  humanization:
+    intro_variation: true  # Obligatorio: intro diferente a otros artículos de la misma categoría
+    min_personal_experience: 2  # Mínimo 2 inserciones de experiencia personal
+    asymmetric_lists: true  # Pros/contras con número variable por producto
+    variable_faq_count: "3-7"  # No siempre 5
   structure:
     - section: "TopPick"
       description: "Producto destacado con componente TopPick"
       eeat_injection: false
     - section: "Introducción"
-      description: "Contexto del problema, por qué importa elegir bien. Keyword principal."
+      description: "Contexto del problema, por qué importa elegir bien. Keyword principal. VARIAR formato: pregunta, anécdota, dato, recomendación directa."
       eeat_injection: true  # experiencia personal o métrica
     - section: "ComparisonTable"
       description: "Tabla comparativa con todos los productos"
@@ -34,6 +39,11 @@ listicle:
   voice: "curador útil, ordenado, va al grano"
   word_count: "2500-4000"
   description: "Lista ordenada de productos o consejos con criterio claro de ranking"
+  humanization:
+    intro_variation: true
+    min_personal_experience: 2
+    asymmetric_lists: true
+    variable_faq_count: "3-7"
   structure:
     - section: "Introducción"
       description: "Qué cubre la lista y criterio de selección"
@@ -53,6 +63,11 @@ tutorial:
   voice: "profesor paciente, usa 'yo', comparte experiencia"
   word_count: "1500-2500"
   description: "Guía paso a paso para realizar una tarea de cuidado de mascotas"
+  humanization:
+    intro_variation: true
+    min_personal_experience: 3  # Tutoriales deben ser más personales
+    asymmetric_lists: true
+    variable_faq_count: "3-7"
   structure:
     - section: "Introducción"
       description: "Por qué es importante, cuándo hacerlo"
@@ -78,6 +93,11 @@ how_to:
   voice: "resolutivo, directo, empático con el problema"
   word_count: "1200-2000"
   description: "Respuesta directa a un problema concreto del dueño"
+  humanization:
+    intro_variation: true
+    min_personal_experience: 2
+    asymmetric_lists: true
+    variable_faq_count: "3-5"
   structure:
     - section: "El problema"
       description: "Descripción del problema y por qué ocurre"
@@ -100,6 +120,11 @@ review:
   voice: "reviewer honesto, admite inconvenientes, específico"
   word_count: "2000-3000"
   description: "Análisis en profundidad de un producto o categoría específica"
+  humanization:
+    intro_variation: true
+    min_personal_experience: 3  # Reviews deben ser muy personales
+    asymmetric_lists: true
+    variable_faq_count: "3-7"
   structure:
     - section: "Resumen rápido"
       description: "Veredicto en 2-3 frases para quien no quiere leer todo"
@@ -128,6 +153,11 @@ thought_leadership:
   voice: "opinión fundamentada, toma posición, no genérico"
   word_count: "1500-2500"
   description: "Artículo de opinión experta sobre un tema de cuidado animal"
+  humanization:
+    intro_variation: true
+    min_personal_experience: 3
+    asymmetric_lists: true
+    variable_faq_count: "3-5"
   structure:
     - section: "La tesis"
       description: "Posición clara desde el primer párrafo"
