@@ -2591,7 +2591,7 @@ blogs:
   last_updated: ''
   blog_type: comparison
   content_type: comparativa
-  cluster_id: ''
+  cluster_id: 'tc_hogar_mascotas'
   target_keywords:
   - keyword: mejor manta para perros
     search_volume: 0

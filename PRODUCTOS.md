@@ -2953,3 +2953,30 @@ Para cada producto haz lo siguiente en Amazon.es:
 - Imagen: https://m.media-amazon.com/images/I/71lFrFahJXL._AC_SL1500_.jpg
 
 ---
+
+## [HOGAR] Mejor manta para perros: comparativa 2026
+*Archivo: mejor-manta-perros*
+
+### TopPick
+**Feandrea Manta Impermeable Reversible**
+- URL Amazon: https://www.amazon.es/dp/B0DWXB136K
+- Imagen: https://m.media-amazon.com/images/I/81QoG7fu8mL._AC_SL1500_.jpg
+
+### Comparativa
+**1. Feandrea Manta Impermeable Reversible**
+- URL Amazon: https://www.amazon.es/dp/B0DWXB136K
+- Imagen: https://m.media-amazon.com/images/I/81QoG7fu8mL._AC_SL1500_.jpg
+
+**2. Luciphia Manta Impermeable Lavable**
+- URL Amazon: https://www.amazon.es/dp/B0D8SVGC39
+- Imagen: https://m.media-amazon.com/images/I/719sA8NiBeL._AC_SL1500_.jpg
+
+**3. Bedsure Manta Sofá Reversible**
+- URL Amazon: https://www.amazon.es/dp/B09NVH2S1X
+- Imagen: https://m.media-amazon.com/images/I/81cGq1bNqUL._AC_SL1500_.jpg
+
+**4. Trixie Barney Manta Polar**
+- URL Amazon: https://www.amazon.es/dp/B000QC552K
+- Imagen: https://m.media-amazon.com/images/I/71mb-ozyNZL._AC_SL1500_.jpg
+
+---
