@@ -3,9 +3,11 @@ import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   articulo: CollectionEntry<'articulos'>;
+  headingLevel?: 2 | 3;
 }
 
-const { articulo } = Astro.props;
+const { articulo, headingLevel = 3 } = Astro.props;
+const Heading = `h${headingLevel}` as any;
 const { titulo, descripcion, categoria, animal, fecha, actualizadoEn, imagen, tipo } = articulo.data;
 
 const animalEmoji = animal === 'perro' ? '🐶' : animal === 'gato' ? '🐱' : '🐾';
@@ -66,7 +68,7 @@ const esActualizado = !!actualizadoEn;
     </div>
 
     <a href={url}>
-      <h3 class="article-card-title">{titulo}</h3>
+      <Heading class="article-card-title">{titulo}</Heading>
     </a>
 
     <p class="article-card-excerpt">{descripcion}</p>
