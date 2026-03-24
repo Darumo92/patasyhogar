@@ -8,33 +8,28 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
-    { '@type': 'ListItem', position: 2, name: 'Sobre nosotros' },
+    { '@type': 'ListItem', position: 2, name: 'Sobre mí' },
   ],
 };
 
 const aboutPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
-  name: 'Sobre nosotros — Patas y Hogar',
-  description: 'Conoce al equipo detrás de Patas y Hogar. Guías de compra honestas para ayudarte a elegir los mejores productos para tu mascota.',
+  name: 'Sobre mí — Patas y Hogar',
+  description: 'Soy Daniel Ruiz, creador de Patas y Hogar. Vivo en Valencia con mi perra Kira y mi gato Mango.',
   url: `${siteUrl}/sobre-nosotros/`,
   mainEntity: {
-    '@type': 'Organization',
-    name: 'Patas y Hogar',
-    url: siteUrl,
-    foundingDate: '2026',
-    description: 'Equipo de amantes de los animales afincado en España. Guías de compra y comparativas de productos para perros y gatos.',
-    email: 'contacto@patasyhogar.com',
-    areaServed: {
-      '@type': 'Country',
-      name: 'ES',
-    },
+    '@type': 'Person',
+    name: 'Daniel Ruiz',
+    url: `${siteUrl}/sobre-nosotros/`,
+    jobTitle: 'Fundador de Patas y Hogar',
+    description: 'Amante de los animales afincado en Valencia. Creador de guías de compra y comparativas de productos para perros y gatos.',
     knowsAbout: ['productos para perros', 'productos para gatos', 'nutrición animal', 'cuidado de mascotas'],
   },
 };
 ---
 
-<Base title="Sobre nosotros — Patas y Hogar" description="Conoce al equipo detrás de Patas y Hogar. Guías de compra honestas para ayudarte a elegir los mejores productos para tu mascota.">
+<Base title="Sobre mí — Patas y Hogar" description="Soy Daniel Ruiz, creador de Patas y Hogar. Vivo en Valencia con mi perra Kira y mi gato Mango. Escribo las guías que me habría gustado encontrar.">
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(aboutPageSchema)} slot="head" />
 
@@ -42,73 +37,92 @@ const aboutPageSchema = {
     <nav class="breadcrumb" aria-label="Migas de pan">
       <a href="/">Inicio</a>
       <span class="breadcrumb-sep" aria-hidden="true">›</span>
-      <span>Sobre nosotros</span>
+      <span>Sobre mí</span>
     </nav>
 
-    <h1>Sobre nosotros</h1>
+    <h1>Sobre mí</h1>
 
     <p>
-      <strong>Patas y Hogar</strong> nació en 2026 de algo que nos pasó a todos: buscar un simple
-      comedero para el perro y acabar perdidos entre cientos de opciones, reseñas contradictorias
-      y artículos que recomendaban productos descatalogados. Pensamos que tenía que haber una forma
-      mejor de hacer esto.
+      Me llamo <strong>Daniel Ruiz</strong>, vivo en Valencia y tengo una perra mestiza de 6 años
+      llamada <strong>Kira</strong> y un gato naranja de 3 llamado <strong>Mango</strong>.
     </p>
     <p>
-      Somos un pequeño equipo de amantes de los animales afincado en España. Entre nosotros sumamos
-      más de 15 años conviviendo con perros y gatos de todo tipo: desde un galgo rescatado que le
-      tiene pánico a los petardos hasta una gata persa que solo bebe agua en movimiento. Esas
-      experiencias reales son las que dan forma a nuestras guías.
+      Creé <strong>Patas y Hogar</strong> porque cada vez que buscaba un pienso, un arnés o un
+      simple comedero para alguno de los dos, acababa más perdido que antes: cientos de opciones,
+      reseñas contradictorias y artículos que recomendaban productos descatalogados. Quería crear
+      las guías que me habría gustado encontrar a mí.
     </p>
 
-    <h2>Qué hacemos</h2>
+    <h2>Kira y Mango</h2>
     <p>
-      Investigamos, comparamos y analizamos productos para mascotas. Cada guía pasa por un proceso
-      riguroso: estudiamos las fichas técnicas de cada producto, leemos cientos de valoraciones de
-      compradores reales en Amazon y otras tiendas, consultamos foros especializados y, siempre que
-      es posible, probamos los productos con nuestras propias mascotas.
+      Kira es una cruce de podenco con algo que nadie ha sabido identificar. La adopté de una
+      protectora de Valencia cuando tenía 8 meses. Es nerviosa en los paseos, tira de la correa
+      como si la vida le fuera en ello y tiene pánico a las tormentas. Pero también es la que me
+      ha enseñado todo lo que sé sobre arneses antitirones, GPS para perros y camas ortopédicas
+      (duerme en el sofá aunque tiene dos camas, por cierto).
     </p>
     <p>
-      Para los artículos de salud y nutrición, contrastamos la información con fuentes veterinarias
-      reconocidas y publicaciones científicas. No somos veterinarios, y siempre recomendamos consultar
-      con un profesional para decisiones médicas.
+      Mango lo encontré en un parking con 2 meses, lleno de pulgas. Ahora pesa casi 6 kilos y es
+      el gato más territorial que conozco. Solo bebe de la fuente (ignora olímpicamente el cuenco),
+      rasca el sofá aunque tiene tres rascadores y vomitaba con todos los comederos planos hasta
+      que le compré uno elevado. Gracias a él sé más de fatiga de bigotes, areneros y fuentes de
+      agua de lo que habría imaginado.
     </p>
     <p>
-      No tenemos productos favoritos ni marcas patrocinadoras. Recomendamos lo que creemos que es la
-      mejor opción para cada necesidad y presupuesto.
+      Crecí con Thor, un pastor alemán que fue el perro de la familia en Alicante. Y durante la
+      universidad conviví un par de años con Nala, la gata siamesa de mi compañera de piso. Así
+      que llevo toda la vida con animales en casa.
     </p>
 
-    <h2>Cómo nos financiamos</h2>
+    <h2>Cómo trabajo</h2>
     <p>
-      Patas y Hogar participa en programas de afiliados como Amazon Afiliados y otros. Esto significa
-      que cuando compras un producto a través de nuestros enlaces, recibimos una pequeña comisión
+      Investigo, comparo y analizo productos para mascotas. Estudio las fichas técnicas de cada
+      producto, leo cientos de valoraciones de compradores reales en Amazon, Zooplus y Tiendanimal,
+      consulto foros especializados y, siempre que puedo, pruebo los productos con Kira y Mango.
+    </p>
+    <p>
+      Para los artículos de salud y cuidados, contrasto la información con fuentes veterinarias
+      reconocidas. Mi veterinaria Laura, en su clínica cerca de Blasco Ibáñez, lleva a Kira y
+      a Mango desde el principio y es a quien consulto cuando tengo dudas. Pero no soy veterinario,
+      y siempre recomiendo consultar con un profesional para decisiones médicas.
+    </p>
+    <p>
+      No tengo productos favoritos ni marcas patrocinadoras. Recomiendo lo que creo que es la
+      mejor opción para cada necesidad y presupuesto. Si algo no me convence, lo digo.
+    </p>
+
+    <h2>Cómo se financia Patas y Hogar</h2>
+    <p>
+      Patas y Hogar participa en programas de afiliados como Amazon Afiliados. Esto significa
+      que cuando compras un producto a través de mis enlaces, recibo una pequeña comisión
       <strong>sin coste adicional para ti</strong>.
     </p>
     <p>
-      Este modelo nos permite mantener el sitio gratuito y libre de publicidad intrusiva. Nuestras
-      recomendaciones son independientes: la comisión es la misma independientemente del producto que
-      recomendemos, por lo que no tenemos incentivo para recomendar un producto peor.
+      Este modelo me permite mantener el sitio gratuito y sin publicidad intrusiva. La comisión
+      es la misma independientemente del producto que recomiende, así que no tengo incentivo para
+      recomendar algo peor.
     </p>
 
-    <h2>Nuestro compromiso</h2>
+    <h2>Mi compromiso</h2>
     <ul>
-      <li><strong>Honestidad:</strong> si un producto no nos convence, lo decimos. Incluimos contras reales, no solo ventajas</li>
-      <li><strong>Transparencia:</strong> siempre indicamos que usamos enlaces de afiliados</li>
-      <li><strong>Actualización:</strong> revisamos precios, disponibilidad y recomendaciones periódicamente. Los productos descatalogados se sustituyen por alternativas reales</li>
-      <li><strong>Bienestar animal:</strong> nunca recomendaremos productos que puedan perjudicar a tu mascota</li>
-      <li><strong>Independencia:</strong> ninguna marca nos paga por aparecer en nuestras guías. Las recomendaciones se basan exclusivamente en calidad, relación calidad-precio y opiniones de usuarios reales</li>
+      <li><strong>Honestidad:</strong> si un producto no me convence, lo digo. Incluyo contras reales, no solo ventajas</li>
+      <li><strong>Transparencia:</strong> siempre indico que uso enlaces de afiliados</li>
+      <li><strong>Actualización:</strong> reviso precios, disponibilidad y recomendaciones periódicamente. Los productos descatalogados los sustituyo por alternativas reales</li>
+      <li><strong>Bienestar animal:</strong> nunca recomendaré productos que puedan perjudicar a tu mascota</li>
     </ul>
 
     <h2>Contacto</h2>
     <p>
-      Si tienes alguna pregunta, sugerencia o quieres colaborar con nosotros, puedes escribirnos a
+      Si tienes alguna pregunta, sugerencia o simplemente quieres contarme tu experiencia con
+      algún producto, puedes escribirme a
       <strong><!--email_off-->contacto@patasyhogar.com<!--email_on--></strong>.
     </p>
 
     <h2>Empieza a explorar</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem;">
-      <a href="/perros/" class="affiliate-button btn-dog" style="font-size: 0.9rem; padding: 0.65rem 1.25rem;">🐶 Guías para perros</a>
-      <a href="/gatos/" class="affiliate-button btn-cat" style="font-size: 0.9rem; padding: 0.65rem 1.25rem;">🐱 Guías para gatos</a>
-      <a href="/articulos/" class="affiliate-button secondary" style="font-size: 0.9rem; padding: 0.65rem 1.25rem;">📚 Todos los artículos</a>
+      <a href="/perros/" class="affiliate-button btn-dog" style="font-size: 0.9rem; padding: 0.65rem 1.25rem;">Guías para perros</a>
+      <a href="/gatos/" class="affiliate-button btn-cat" style="font-size: 0.9rem; padding: 0.65rem 1.25rem;">Guías para gatos</a>
+      <a href="/articulos/" class="affiliate-button secondary" style="font-size: 0.9rem; padding: 0.65rem 1.25rem;">Todos los artículos</a>
     </div>
   </article>
 </Base>
