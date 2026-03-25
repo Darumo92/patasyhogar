@@ -10,6 +10,7 @@ import { join, extname, basename } from 'path';
 
 const DIRS = ['public/images/articulos', 'public/images/productos'];
 const WEBP_QUALITY = 80;
+const ARTICLE_MAX_WIDTH = 800; // hero images display at max 800px
 
 async function getJpgFiles(dir) {
   try {
@@ -36,7 +37,17 @@ async function convertToWebp(filePath) {
     // WebP doesn't exist yet, proceed
   }
 
-  const info = await sharp(filePath)
+  let pipeline = sharp(filePath);
+
+  // Resize article hero images to max display width (saves ~30-50%)
+  if (filePath.includes('articulos')) {
+    const meta = await sharp(filePath).metadata();
+    if (meta.width > ARTICLE_MAX_WIDTH) {
+      pipeline = pipeline.resize(ARTICLE_MAX_WIDTH);
+    }
+  }
+
+  const info = await pipeline
     .webp({ quality: WEBP_QUALITY })
     .toFile(webpPath);
 

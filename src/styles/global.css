@@ -1079,12 +1079,12 @@ a:hover {
 }
 
 .affiliate-button.zooplus {
-  background: #398927;
+  background: #2d6e1f;
   color: #fff;
 }
 
 .affiliate-button.zooplus:hover {
-  background: #2d6e1f;
+  background: #245a19;
   color: #fff;
   box-shadow: 0 6px 20px rgba(57, 137, 39, 0.35);
 }
