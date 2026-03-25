@@ -23,6 +23,11 @@ function amazonHref(url: string): string {
   return `${url}${url.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`;
 }
 
+/** Resize Amazon product images to save bandwidth (140px display × 2x retina = 280px) */
+function optimizeImg(url?: string): string | undefined {
+  return url?.replace(/\._AC_SL\d+_/, '._AC_SL300_');
+}
+
 interface Props {
   productos: Producto[];
   titulo?: string;
@@ -167,7 +172,7 @@ function tiendas(p: Producto) {
         <div class="comp-header">
           {p.imagen && (
             <div class="comp-img-wrap">
-              <img src={p.imagen} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
+              <img src={optimizeImg(p.imagen)} alt={p.nombre} width="140" height="140" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 140px, 120px" />
             </div>
           )}
           <div class="comp-header-info">

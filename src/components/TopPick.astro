@@ -35,6 +35,12 @@ const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
   ? `${enlaceAmazon}${enlaceAmazon.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`
   : enlaceAmazon;
 
+/** Resize Amazon product images to save bandwidth (160px display × 2x retina = 320px) */
+const optimizeImg = (url?: string) =>
+  url?.replace(/\._AC_SL\d+_/, '._AC_SL320_') ?? url;
+
+const imagenOpt = optimizeImg(imagen);
+
 const tiendas: { nombre: string; clase: string; precio: string; href: string; mejor: boolean }[] = [];
 if (amazonFinal) tiendas.push({ nombre: 'Amazon', clase: 'amazon', precio: precioAmazon || precio, href: amazonFinal, mejor: false });
 if (enlaceZooplus) tiendas.push({ nombre: 'Zooplus', clase: 'zooplus', precio: precioZooplus || precio, href: enlaceZooplus, mejor: false });
@@ -56,7 +62,7 @@ if (tiendas.length > 1) {
   <div class="top-pick-body">
     {imagen && (
       <div class="top-pick-img-wrap">
-        <img src={imagen} alt={nombre} width="160" height="160" class="top-pick-img" loading="lazy" decoding="async" sizes="(max-width: 540px) 160px, 140px" />
+        <img src={imagenOpt} alt={nombre} width="160" height="160" class="top-pick-img" loading="lazy" decoding="async" sizes="(max-width: 540px) 160px, 140px" />
       </div>
     )}
     <div class="top-pick-info">
