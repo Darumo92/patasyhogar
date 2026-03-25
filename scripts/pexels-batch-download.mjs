@@ -35,6 +35,7 @@ const dryRun = process.argv.includes('--dry-run');
 // Curated search queries per article slug for optimal Pexels results
 const QUERIES = {
   // Alimentación
+  'mejor-comedero-automatico-wifi-gatos': 'cat eating food bowl home',
   'mejor-pienso-cachorro-gato': 'kitten eating food bowl',
   'mejor-pienso-cachorro-raza-grande': 'large breed puppy eating',
   'mejor-pienso-gato-esterilizado': 'cat eating food bowl indoor',

@@ -106,6 +106,34 @@ Usar una diferente cada vez — no repetir el mismo patrón en artículos consec
 - [ ] Al menos 1 mención de veterinario, fuente experta o experiencia directa
 - [ ] Tono conversacional en al menos 2-3 párrafos (no todo enciclopédico)
 - [ ] Foto propia si es artículo prioritario
+- [ ] **Coherencia verificada:** grep de nombres propios en artículos existentes, sin contradicciones
+- [ ] **Coherencia temporal:** fechas de uso de productos compatibles con fecha de lanzamiento (ASIN)
+- [ ] **Coherencia de ubicación:** cocina/salón/lavadero/etc. coinciden con artículos previos
+
+## Verificación de coherencia (obligatorio antes de publicar)
+
+Cada artículo nuevo debe pasar una revisión de coherencia con el resto del contenido publicado. Las incoherencias destruyen la credibilidad del autor y son fáciles de detectar para lectores recurrentes y para Google.
+
+### Coherencia con la persona del autor
+- **Buscar menciones previas** de Kira, Mango, Laura, Ana, Carlos y cualquier persona/mascota nombrada en otros artículos. Usar `grep` en `src/content/articulos/` antes de publicar.
+- **No contradecir datos establecidos:** si un artículo dice que el arenero de Mango está en el lavadero, todos los artículos deben decir lo mismo. Si la fuente de agua está en el salón, mantenerlo.
+- **Objetos del autor:** si Daniel ya dijo que usa el PETKIT CYBERTAIL en un artículo, cualquier artículo nuevo que mencione un comedero diferente debe explicar la transición (ej: "sigo usando el PETKIT para húmedo, pero añadí el PETLIBRO WiFi para el pienso diario").
+
+### Coherencia temporal
+- **Verificar que los productos existían** en la fecha que afirmamos usarlos. Los ASINs que empiezan por B0F, B0G o posterior son productos muy recientes (Q4 2025+). No afirmar "llevo un año usándolo" si el ASIN sugiere que salió hace meses.
+- **No usar fechas vagas** que puedan quedar obsoletas ("hace poco", "recientemente"). Preferir referencias relativas al artículo ("desde noviembre", "un par de meses").
+- **Cruzar con fechas de publicación:** si un artículo publicado en marzo 2026 dice "llevo un año con X", significa que lo compró en ~marzo 2025. Si otro artículo publicado en enero 2026 dice lo mismo, hay conflicto.
+
+### Coherencia de producto
+- **No inventar features.** Si el nombre de Amazon no dice "WiFi", no afirmar que tiene WiFi. Si no dice "acero inoxidable", no asumir que lo incluye.
+- **No contradecir otros artículos** sobre el mismo producto. Si el PETLIBRO Granary se describe en un artículo como "5L", no decir "4L" en otro.
+- **Personajes secundarios** (amigos, vecinos) deben ser consistentes. Si "Ana" es la vecina con Xiaomi, no puede aparecer en otro artículo como "Ana, la amiga que tiene un Golden Retriever". Mantener un registro mental de personajes inventados.
+
+### Proceso de verificación
+1. Antes de publicar, buscar en `src/content/articulos/` todas las menciones de nombres propios usados en el artículo nuevo
+2. Verificar que las afirmaciones temporales ("desde hace X meses") sean compatibles con la fecha de lanzamiento del producto (revisar ASIN)
+3. Comprobar que los datos de ubicación (cocina, salón, lavadero) coinciden con artículos previos
+4. Si se menciona un producto que ya aparece en otro artículo, asegurar que los datos técnicos (capacidad, precio, material) no se contradicen
 
 ## Artículos estacionales
 

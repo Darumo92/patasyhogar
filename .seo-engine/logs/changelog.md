@@ -1,5 +1,16 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-25 12:00
+**Action:** Nuevo artículo comparativo: "Mejor comedero automático WiFi para gatos 2026"
+**Files:**
+- `src/content/articulos/mejor-comedero-automatico-wifi-gatos.mdx` (nuevo)
+- `public/images/articulos/mejor-comedero-automatico-wifi-gatos.webp` (Pexels: Ludovic Delot)
+- `.seo-engine/data/content-map.yaml` (entrada añadida)
+- `.seo-engine/data/topic-clusters.yaml` (añadido a tc_alimentacion_gatos)
+- `.seo-engine/data/seo-keywords.csv` (3 keywords añadidas)
+**Summary:** Comparativa de 6 comederos automáticos WiFi para gatos (PETLIBRO Granary, PETLIBRO Polar, Catit PIXI, WOPET, HoneyGuaridan, Xiaomi). Ángulo: enfocado exclusivamente en modelos con WiFi y app, diferenciándose de guías generales de comederos. Cluster tc_alimentacion_gatos. Internal links a comedero-gatos-guia, fuente-agua, comida-húmeda, cuánto-comer, gato-vomita. E-E-A-T: experiencia personal con Mango, veterinaria Laura, datos técnicos reales. ~2986 palabras.
+**Triggered by:** user
+
 ## 2026-03-24 18:30
 **Action:** Creación de persona de autor completa para humanización
 **Files:**
