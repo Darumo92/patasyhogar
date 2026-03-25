@@ -134,6 +134,7 @@ faqs?: [{pregunta, respuesta}]
 - Nunca inventar ASINs, URLs ni imagenes de productos
 - Usar `fetch_amazon_images.py` como referencia para extraer imagenes reales del HTML de Amazon
 - Si un producto no existe en Amazon.es, buscar un reemplazo equivalente
+- **Imagenes Amazon optimizadas:** usar siempre `_AC_SL300_` en las URLs de imagenes (no `_AC_SL1500_`). Las imagenes se muestran a 120-160px, y 300px cubre 2x retina. Los componentes TopPick y ComparisonTable tambien hacen replace automatico como fallback.
 
 ### 3. Contenido extenso y de calidad SEO
 - Articulos largos, detallados y de calidad para indexacion y posicionamiento
