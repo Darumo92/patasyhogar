@@ -12,34 +12,48 @@ const DIRS = ['public/images/articulos', 'public/images/productos'];
 const WEBP_QUALITY = 80;
 const ARTICLE_MAX_WIDTH = 800; // hero images display at max 800px
 
-async function getJpgFiles(dir) {
+async function getImageFiles(dir) {
   try {
     const files = await readdir(dir);
     return files
-      .filter(f => /\.(jpg|jpeg|png)$/i.test(f))
+      .filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f))
       .map(f => join(dir, f));
   } catch {
     return [];
   }
 }
 
-async function convertToWebp(filePath) {
-  const webpPath = filePath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+async function optimizeImage(filePath) {
+  const isAlreadyWebp = /\.webp$/i.test(filePath);
+  const webpPath = isAlreadyWebp ? filePath : filePath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
 
-  // Skip if WebP already exists and is newer than source
-  try {
-    const srcStat = await stat(filePath);
-    const webpStat = await stat(webpPath);
-    if (webpStat.mtimeMs >= srcStat.mtimeMs) {
-      return { file: basename(filePath), skipped: true };
+  // For non-WebP files, skip if WebP already exists and is newer
+  if (!isAlreadyWebp) {
+    try {
+      const srcStat = await stat(filePath);
+      const webpStat = await stat(webpPath);
+      if (webpStat.mtimeMs >= srcStat.mtimeMs) {
+        return { file: basename(filePath), skipped: true };
+      }
+    } catch {
+      // WebP doesn't exist yet, proceed
     }
-  } catch {
-    // WebP doesn't exist yet, proceed
   }
 
+  // For WebP files in articulos, only process if oversized
+  if (isAlreadyWebp && filePath.includes('articulos')) {
+    const meta = await sharp(filePath).metadata();
+    if (meta.width <= ARTICLE_MAX_WIDTH) {
+      return { file: basename(filePath), skipped: true };
+    }
+  } else if (isAlreadyWebp) {
+    return { file: basename(filePath), skipped: true };
+  }
+
+  const srcSize = (await stat(filePath)).size;
   let pipeline = sharp(filePath);
 
-  // Resize article hero images to max display width (saves ~30-50%)
+  // Resize article hero images to max display width
   if (filePath.includes('articulos')) {
     const meta = await sharp(filePath).metadata();
     if (meta.width > ARTICLE_MAX_WIDTH) {
@@ -47,11 +61,15 @@ async function convertToWebp(filePath) {
     }
   }
 
+  const tmpPath = webpPath + '.tmp';
   const info = await pipeline
     .webp({ quality: WEBP_QUALITY })
-    .toFile(webpPath);
+    .toFile(tmpPath);
 
-  const srcSize = (await stat(filePath)).size;
+  // Replace original (or create new WebP)
+  const { renameSync } = await import('fs');
+  renameSync(tmpPath, webpPath);
+
   const savings = Math.round((1 - info.size / srcSize) * 100);
 
   return {
@@ -70,13 +88,13 @@ async function main() {
   let skipped = 0;
 
   for (const dir of DIRS) {
-    const files = await getJpgFiles(dir);
+    const files = await getImageFiles(dir);
     if (files.length === 0) continue;
 
     console.log(`\n📁 ${dir} (${files.length} images)`);
 
     for (const file of files) {
-      const result = await convertToWebp(file);
+      const result = await optimizeImage(file);
       if (result.skipped) {
         skipped++;
         continue;
