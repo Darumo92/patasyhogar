@@ -110,6 +110,15 @@ Usar una diferente cada vez — no repetir el mismo patrón en artículos consec
 - [ ] **Coherencia temporal:** fechas de uso de productos compatibles con fecha de lanzamiento (ASIN)
 - [ ] **Coherencia de ubicación:** cocina/salón/lavadero/etc. coinciden con artículos previos
 
+## Checklist GEO — IA Search (aplicar a cada artículo)
+
+- [ ] **Respuesta directa:** Las primeras 1-2 frases responden la pregunta del título de forma concisa
+- [ ] **Veredicto en prosa (comparativas):** Antes del TopPick, frase en texto plano con "el mejor X es Y por Z"
+- [ ] **H2 pregunta:** Al menos 1-2 H2 usan formato pregunta natural
+- [ ] **Datos citables:** Cifras concretas, porcentajes, rangos con fuente
+- [ ] **Meta description con recomendación (comparativas):** Nombre del producto en la descripción
+- [ ] **FAQs con respuestas autónomas:** Cada respuesta FAQ se entiende sola, sin leer el artículo
+
 ## Verificación de coherencia (obligatorio antes de publicar)
 
 Cada artículo nuevo debe pasar una revisión de coherencia con el resto del contenido publicado. Las incoherencias destruyen la credibilidad del autor y son fáciles de detectar para lectores recurrentes y para Google.

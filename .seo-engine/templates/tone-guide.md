@@ -39,6 +39,13 @@
 - Internal links con anchor text variado y contextual
 - No keyword stuffing — si suena forzado, reescribe
 
+### GEO (Generative Engine Optimization — búsquedas en IA)
+- **Respuesta directa obligatoria.** Las primeras 1-2 frases del artículo deben responder la pregunta del título de forma concisa y citable. Los modelos de IA (ChatGPT, Perplexity, Claude, Gemini) extraen la respuesta de las primeras frases.
+- **Veredicto en prosa para comparativas.** Antes del componente TopPick, incluir una frase en texto plano con la recomendación: "Después de analizar N modelos, **el mejor [X] es [Nombre]** por [razón]." Los crawlers de IA no parsean componentes Astro.
+- **H2 en formato pregunta.** Al menos 1-2 H2 del artículo deben ser preguntas naturales ("¿Cuánto ejercicio necesita un cachorro?" en vez de "Ejercicio recomendado para cachorros"). Los modelos hacen matching directo pregunta-encabezado.
+- **Datos citables.** Incluir cifras concretas, porcentajes, rangos y fuentes que un modelo pueda citar textualmente. "Un gato adulto necesita 200-300 kcal/día" > "Los gatos necesitan una cantidad adecuada de calorías".
+- **Meta description con recomendación.** En comparativas, la meta description debe incluir el nombre del producto recomendado. "El mejor arnés para perros es el Julius-K9. Comparativa de 8 modelos con precios y análisis."
+
 ## E-E-A-T obligatorio
 
 **Cada artículo DEBE incluir al menos uno de estos:**

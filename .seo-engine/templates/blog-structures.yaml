@@ -11,9 +11,21 @@ comparison:
     min_personal_experience: 2  # Mínimo 2 inserciones de experiencia personal
     asymmetric_lists: true  # Pros/contras con número variable por producto
     variable_faq_count: "3-7"  # No siempre 5
+  geo_optimization:  # Generative Engine Optimization (IA search)
+    verdict_prose: true  # OBLIGATORIO: frase en prosa ANTES del TopPick con veredicto directo
+    question_h2: true  # Al menos 1-2 H2 en formato pregunta
+    direct_answer_description: true  # La meta description debe incluir el nombre del producto recomendado
   structure:
+    - section: "Veredicto rápido (prosa)"
+      description: >
+        OBLIGATORIO para GEO/IA. 1-2 frases en prosa ANTES del TopPick con la recomendación directa.
+        Formato: "Después de analizar N modelos, **el mejor [producto] es [Nombre Producto]** por [razón principal].
+        Si buscas [alternativa], el [Nombre Alternativa] es la mejor opción calidad-precio."
+        Esta frase es lo que los modelos de IA (ChatGPT, Perplexity, Claude) citan como respuesta directa.
+        NO es un componente, es texto markdown normal que los crawlers pueden leer.
+      eeat_injection: false
     - section: "TopPick"
-      description: "Producto destacado con componente TopPick"
+      description: "Producto destacado con componente TopPick (complementa el veredicto en prosa)"
       eeat_injection: false
     - section: "Introducción"
       description: "Contexto del problema, por qué importa elegir bien. Keyword principal. VARIAR formato: pregunta, anécdota, dato, recomendación directa."
@@ -68,9 +80,15 @@ tutorial:
     min_personal_experience: 3  # Tutoriales deben ser más personales
     asymmetric_lists: true
     variable_faq_count: "3-7"
+  geo_optimization:
+    direct_answer_intro: true  # OBLIGATORIO: respuesta directa en 1-2 frases al inicio
+    question_h2: true  # Al menos 1-2 H2 en formato pregunta
   structure:
     - section: "Introducción"
-      description: "Por qué es importante, cuándo hacerlo"
+      description: >
+        OBLIGATORIO: Empezar con respuesta directa en 1-2 frases (GEO).
+        Ejemplo: "Para bañar a un gato, necesitas agua tibia (37°C), champú específico para gatos y toallas.
+        El proceso dura 10-15 minutos." Luego contexto y experiencia personal.
       eeat_injection: true  # experiencia personal
     - section: "Qué necesitas"
       description: "Materiales o productos necesarios"
@@ -98,9 +116,16 @@ how_to:
     min_personal_experience: 2
     asymmetric_lists: true
     variable_faq_count: "3-5"
+  geo_optimization:
+    direct_answer_intro: true  # OBLIGATORIO: respuesta directa antes de desarrollar
+    question_h2: true  # H2 principales en formato pregunta cuando sea natural
   structure:
-    - section: "El problema"
-      description: "Descripción del problema y por qué ocurre"
+    - section: "El problema + respuesta directa"
+      description: >
+        OBLIGATORIO: Las primeras 1-2 frases deben responder la pregunta del título directamente.
+        Ejemplo para "¿Por qué mi perro come hierba?": "Los perros comen hierba principalmente por instinto
+        y para facilitar la digestión. En la mayoría de casos es un comportamiento normal que no requiere
+        intervención veterinaria." Luego desarrollar el problema en detalle.
       eeat_injection: true
     - section: "Solución rápida"
       description: "Respuesta directa para quien tiene prisa"

@@ -4,6 +4,27 @@
 
 Patas y Hogar es un sitio web en español dedicado a guías de compra, comparativas de productos y artículos informativos sobre el cuidado de perros y gatos. Todos los análisis incluyen productos reales disponibles en tiendas españolas (Amazon.es, Zooplus, Tiendanimal).
 
+## Autor
+
+- Nombre: Daniel Ruiz
+- Rol: Fundador de Patas y Hogar
+- Ubicación: Valencia, España
+- Experiencia: Más de 8 años conviviendo con perros y gatos
+- Mascotas actuales: Kira (perra mestiza adoptada, 6 años) y Mango (gato naranja, 3 años)
+- Más información: https://patasyhogar.com/sobre-nosotros/
+
+## Metodología
+
+- Todos los productos recomendados son reales y están disponibles en tiendas españolas
+- Los precios se verifican y actualizan regularmente
+- Las comparativas incluyen pros y contras reales basados en análisis detallado
+- Las guías de cuidados están contrastadas con fuentes veterinarias
+- El contenido incluye experiencia personal directa con mascotas
+
+## Contenido completo
+
+Para acceder al texto completo de todos los artículos en formato legible por máquina: https://patasyhogar.com/llms-full.txt
+
 ## Secciones principales
 
 - [Inicio](https://patasyhogar.com/)
@@ -43,6 +64,7 @@ Patas y Hogar es un sitio web en español dedicado a guías de compra, comparati
 - [Mejor pienso para perro senior 2026](https://patasyhogar.com/alimentacion/mejor-pienso-perro-senior/)
 - [Mejor pienso para gatos con problemas urinarios](https://patasyhogar.com/alimentacion/pienso-gato-problemas-urinarios/)
 - [Mejores snacks naturales para perros 2026](https://patasyhogar.com/alimentacion/mejores-snacks-naturales-perros/)
+- [Mejor comedero automático WiFi para gatos 2026](https://patasyhogar.com/alimentacion/mejor-comedero-automatico-wifi-gatos/)
 - [Mejores snacks naturales para gatos 2026](https://patasyhogar.com/alimentacion/snacks-naturales-gatos/)
 
 ## Comparativas de higiene
@@ -149,3 +171,4 @@ Patas y Hogar es un sitio web en español dedicado a guías de compra, comparati
 - [Razas de perro para piso pequeño](https://patasyhogar.com/cuidados/razas-perro-piso-pequeno/)
 - [Residencias para mascotas en verano](https://patasyhogar.com/cuidados/residencias-mascotas-verano/)
 - [Señales de estrés en gatos](https://patasyhogar.com/cuidados/senales-estres-gatos/)
+- [¿Puedo dejar a mi gato solo un fin de semana?](https://patasyhogar.com/cuidados/dejar-gato-solo-fin-de-semana/)
