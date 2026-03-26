@@ -1,5 +1,36 @@
-last_updated: '2026-03-23'
+last_updated: '2026-03-26'
 blogs:
+- slug: dejar-gato-solo-fin-de-semana
+  title: "¿Puedo dejar a mi gato solo un fin de semana?"
+  file_path: src/content/articulos/dejar-gato-solo-fin-de-semana.mdx
+  status: human-review
+  published_date: '2026-03-26'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "dejar gato solo fin de semana"
+    search_volume: 0
+    is_primary: true
+  - keyword: "gato solo en casa días"
+    search_volume: 0
+    is_primary: false
+  - keyword: "cuánto tiempo puede estar un gato solo"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - senales-estres-gatos
+  - mejor-comedero-automatico-wifi-gatos
+  - enriquecimiento-ambiental-gato-interior
+  - residencias-mascotas-verano
+  internal_links_from: []
+  has_eeat_signals: true
+  word_count: 2500
+  notes: "Ángulo: guía práctica con checklist real basada en experiencia personal con Mango, no solo teoría"
+
 - slug: alergia-primaveral-perros-gatos-sintomas-tratamiento
   title: "Alergia primaveral en perros y gatos: síntomas y tratamiento"
   file_path: src/content/articulos/alergia-primaveral-perros-gatos-sintomas-tratamiento.mdx

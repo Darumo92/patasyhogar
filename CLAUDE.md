@@ -167,7 +167,18 @@ Campos esperados por producto:
 - Tags relevantes (3-6 keywords long-tail)
 - imagenAlt descriptivo con keywords
 
-### 7. Rebuild tras cambios
+### 7. Verificacion de coherencia de experiencias personales
+Antes de dar por terminado un articulo nuevo, verificar SIEMPRE la coherencia con el resto del contenido publicado. Esto es OBLIGATORIO, no opcional:
+
+- **Grep de nombres propios** (`Mango`, `Kira`, `Laura`, `Nala`, `Thor`, `Ana`, `Carlos`) en `src/content/articulos/` para encontrar menciones previas
+- **No contradecir anecdotas existentes.** Si en otro articulo se cuenta una historia (ej: "el puente con comedero basico sin WiFi"), el nuevo articulo no puede contar la misma situacion de forma diferente
+- **Coherencia temporal.** Las fechas de uso de productos deben ser compatibles con las de otros articulos (ej: si el PETLIBRO se compro "en noviembre", no decir que ya lo tenia "desde hace dos anos")
+- **Coherencia de ubicacion.** Comedero en cocina, fuente en salon, arenero en lavadero — siempre igual
+- **Coherencia de personalidad.** Mango es tranquilo y territorial, Kira es nerviosa y tragona — no invertir rasgos
+- **No repetir la misma anecdota** en dos articulos. Variar usando diferentes quirks del perfil en `config.yaml`
+- **Si se referencia un evento de otro articulo**, enlazar a ese articulo y mantener los detalles consistentes
+
+### 8. Rebuild tras cambios
 - Ejecutar `npm run build` despues de anadir o modificar articulos
 
 ### Reglas importantes

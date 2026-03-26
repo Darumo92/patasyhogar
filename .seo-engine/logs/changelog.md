@@ -1,5 +1,14 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-26 10:00
+**Action:** Nuevo artículo informativo: "¿Puedo dejar a mi gato solo un fin de semana?"
+**Files:**
+- `src/content/articulos/dejar-gato-solo-fin-de-semana.mdx` (nuevo)
+- `public/images/articulos/dejar-gato-solo-fin-de-semana.webp` (Pexels: Mirco Ian Millar)
+- `.seo-engine/data/content-map.yaml` (entrada añadida)
+**Summary:** Guía informativa sobre dejar gatos solos un fin de semana. Ángulo único: checklist práctico basado en experiencia personal con Mango, no solo teoría genérica como Feliway/Purina. Incluye clasificación por edad/salud, casos en los que no hacerlo, checklist detallado de preparación, y señales de que el gato no tolera bien la soledad. Internal links a: señales estrés gatos, comedero automático WiFi, enriquecimiento ambiental, residencias mascotas. E-E-A-T: experiencia personal con Mango, veterinaria Laura, referencia a estudio Oregon/Current Biology 2019. 6 FAQs variadas (incluyendo regla 3-3-3 del PAA). ~2500 palabras.
+**Triggered by:** user
+
 ## 2026-03-25 12:00
 **Action:** Nuevo artículo comparativo: "Mejor comedero automático WiFi para gatos 2026"
 **Files:**
