@@ -11,7 +11,7 @@ Patas y Hogar es un sitio web en español dedicado a guías de compra, comparati
 - Ubicación: Valencia, España
 - Experiencia: Más de 8 años conviviendo con perros y gatos
 - Mascotas actuales: Kira (perra mestiza adoptada, 6 años) y Mango (gato naranja, 3 años)
-- Más información: https://patasyhogar.com/sobre-nosotros/
+- Más información: https://patasyhogar.com/sobre-mi/
 
 ## Metodología
 
@@ -37,7 +37,7 @@ Para acceder al texto completo de todos los artículos en formato legible por m�
 - [Artículos para perros](https://patasyhogar.com/perros/)
 - [Artículos para gatos](https://patasyhogar.com/gatos/)
 - [Todos los artículos](https://patasyhogar.com/articulos/)
-- [Sobre nosotros](https://patasyhogar.com/sobre-nosotros/)
+- [Sobre mí](https://patasyhogar.com/sobre-mi/)
 
 ## Comparativas de alimentación
 

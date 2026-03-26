@@ -1,3 +1,6 @@
+# Sobre nosotros → Sobre mí
+/sobre-nosotros/ /sobre-mi/ 301
+
 # Redirect old category paths to new ones (301 permanent)
 /descanso/ /hogar/ 301
 /comportamiento/ /juguetes/ 301

@@ -94,7 +94,7 @@ const articleSchema = {
   author: {
     '@type': 'Person',
     name: 'Daniel Ruiz',
-    url: `${siteUrl}/sobre-nosotros/`,
+    url: `${siteUrl}/sobre-mi/`,
     jobTitle: 'Fundador de Patas y Hogar',
   },
   publisher: {
@@ -203,7 +203,7 @@ const breadcrumbSchema = {
       <p class="article-description">{descripcion}</p>
 
       <div class="article-meta">
-        <span class="article-author">Por <a href="/sobre-nosotros/" rel="author">Daniel Ruiz</a></span>
+        <span class="article-author">Por <a href="/sobre-mi/" rel="author">Daniel Ruiz</a></span>
         <time datetime={fecha.toISOString().split('T')[0]}>Publicado: {fechaFormateada}</time>
         {actualizadoFormateado && (
           <time datetime={(actualizadoEn as Date).toISOString().split('T')[0]} class="article-updated">
