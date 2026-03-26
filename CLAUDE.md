@@ -77,7 +77,7 @@ node scripts/pexels-download.mjs "dog brushing fur grooming" muda-pelo-perros-gu
 
 Guarda automaticamente en `public/images/articulos/<nombre>.webp` (formato WebP, calidad 80).
 
-**Tamano maximo:** Las imagenes hero de articulos deben tener max 800px de ancho (se muestran a max 800px en el layout). El script `optimize-images.mjs` redimensiona automaticamente a 800px en el build si son mas grandes. Si se descargan manualmente, asegurarse de no subir imagenes innecesariamente grandes.
+**Tamano maximo:** Las imagenes hero de articulos deben tener max 800px de ancho (se muestran a max 800px en el layout). Los scripts `pexels-download.mjs` y `pexels-batch-download.mjs` redimensionan automaticamente a 800px al descargar. El script `optimize-images.mjs` tambien redimensiona JPG/PNG/WebP sobredimensionados como red de seguridad. Si se descargan imagenes manualmente, asegurarse de redimensionar a max 800px antes de subir.
 
 ### Descarga en lote
 ```bash

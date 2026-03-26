@@ -198,7 +198,13 @@ async function downloadImage(photo, destPath) {
   const res = await fetch(imageUrl);
   if (!res.ok) return false;
   const buffer = Buffer.from(await res.arrayBuffer());
-  const webpBuffer = await sharp(buffer).webp({ quality: 80 }).toBuffer();
+  const MAX_WIDTH = 800;
+  const meta = await sharp(buffer).metadata();
+  let pipeline = sharp(buffer);
+  if (meta.width > MAX_WIDTH) {
+    pipeline = pipeline.resize(MAX_WIDTH);
+  }
+  const webpBuffer = await pipeline.webp({ quality: 80 }).toBuffer();
   writeFileSync(destPath, webpBuffer);
   return webpBuffer.length;
 }

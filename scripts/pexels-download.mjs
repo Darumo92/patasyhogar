@@ -136,7 +136,13 @@ mkdirSync(destDir, { recursive: true });
 
 // Convert to WebP
 const destPath = resolve(destDir, `${filename}.webp`);
-const webpBuffer = await sharp(buffer).webp({ quality: 80 }).toBuffer();
+const MAX_WIDTH = 800;
+const meta = await sharp(buffer).metadata();
+let pipeline = sharp(buffer);
+if (meta.width > MAX_WIDTH) {
+  pipeline = pipeline.resize(MAX_WIDTH);
+}
+const webpBuffer = await pipeline.webp({ quality: 80 }).toBuffer();
 writeFileSync(destPath, webpBuffer);
 
 console.log(`\nGuardada en: public/images/articulos/${filename}.webp (${(webpBuffer.length / 1024).toFixed(0)} KB)`);
