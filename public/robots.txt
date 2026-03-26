@@ -2,7 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /404
 Disallow: /api/
-Disallow: /tags/
 
 # AI search bots — permitir explícitamente el rastreo
 User-agent: GPTBot
