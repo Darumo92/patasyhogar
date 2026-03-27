@@ -1,5 +1,20 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-27 12:30
+**Action:** Article approved and published
+**Files:** .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml
+**Summary:** "Cuánto cuesta mantener un gato al mes en España" approved by user. Status updated to published.
+**Triggered by:** user
+
+## 2026-03-27 12:00
+**Action:** New informativo article created
+**Files:**
+- `src/content/articulos/cuanto-cuesta-mantener-un-gato-al-mes.mdx` (nuevo)
+- `.seo-engine/data/content-map.yaml` (entrada añadida)
+- `.seo-engine/data/content-queue.yaml` (nueva entrada q_020 con status human-review)
+**Summary:** Created informativo article "Cuánto cuesta mantener un gato al mes en España" (~2700 words). Desglose por partidas: alimentación, arena, veterinario, equipamiento, gastos opcionales. Includes personal E-E-A-T section with Mango's real monthly costs. Status: human-review.
+**Triggered by:** user
+
 ## 2026-03-26 10:00
 **Action:** Nuevo artículo informativo: "¿Puedo dejar a mi gato solo un fin de semana?"
 **Files:**

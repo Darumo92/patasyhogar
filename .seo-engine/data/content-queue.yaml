@@ -436,3 +436,31 @@ queue:
       - "mejor-repelente-gatos-muebles"
       - "alimentos-toxicos-gatos"
       - "enriquecimiento-ambiental-gato-interior"
+
+  - id: "q_020"
+    title: "Cuánto cuesta mantener un gato al mes en España"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_hogar_mascotas"
+    animal: "gato"
+    target_keywords: ["cuánto cuesta mantener un gato al mes", "gastos mensuales gato España", "presupuesto gato", "coste mantener gato", "gasto anual gato"]
+    unique_angle: "Desglose real por partidas (alimentación, arena, veterinario, equipamiento, gastos opcionales) con cifras concretas de España 2026. Incluye experiencia personal con costes reales de Mango."
+    priority: "medium"
+    priority_reason: "Pre-adoption informational content. Drives traffic to multiple product comparativas across all categories."
+    status: "published"
+    actual_word_count: 2700
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: informativo. Artículo creado el 2026-03-27. Transversal - links a productos de todas las categorías."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-pienso-gato-esterilizado"
+      - "mejor-pienso-gato-indoor"
+      - "mejor-arenero-arena-gatos"
+      - "mejor-antiparasitario-gatos-guia"
+      - "mejor-fuente-agua-gatos-silenciosa"
+      - "mejor-comedero-gatos-guia"
+      - "mejor-cama-gato-guia"
+      - "mejor-transportin-gatos-guia"
+      - "mejor-rascador-gatos-guia"
+      - "dejar-gato-solo-fin-de-semana"

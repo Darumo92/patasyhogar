@@ -4157,3 +4157,47 @@ blogs:
   word_count: 2986
   has_eeat_signals: true
   needs_update_reason: ''
+- slug: cuanto-cuesta-mantener-un-gato-al-mes
+  title: "Cuánto cuesta mantener un gato al mes en España"
+  file_path: src/content/articulos/cuanto-cuesta-mantener-un-gato-al-mes.mdx
+  status: published
+  published_date: '2026-03-27'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  animal: gato
+  cluster_id: 'tc_hogar_mascotas'
+  url: /cuidados/cuanto-cuesta-mantener-un-gato-al-mes
+  target_keywords:
+  - keyword: cuánto cuesta mantener un gato al mes
+    search_volume: 0
+    is_primary: true
+  - keyword: gastos mensuales gato España
+    search_volume: 0
+    is_primary: false
+  - keyword: presupuesto gato
+    search_volume: 0
+    is_primary: false
+  - keyword: coste mantener gato
+    search_volume: 0
+    is_primary: false
+  - keyword: gasto anual gato
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-gato-esterilizado
+  - mejor-pienso-gato-indoor
+  - mejor-arenero-arena-gatos
+  - mejor-antiparasitario-gatos-guia
+  - mejor-fuente-agua-gatos-silenciosa
+  - mejor-comedero-gatos-guia
+  - mejor-cama-gato-guia
+  - mejor-transportin-gatos-guia
+  - mejor-rascador-gatos-guia
+  - dejar-gato-solo-fin-de-semana
+  internal_links_from: []
+  word_count: 2700
+  has_eeat_signals: true
+  needs_update_reason: ''
