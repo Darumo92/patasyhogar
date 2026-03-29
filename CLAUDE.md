@@ -192,7 +192,7 @@ Antes de dar por terminado un articulo nuevo, verificar SIEMPRE la coherencia co
 ### Tiendas soportadas
 - **Amazon**: tag `patasyhogar-21` (auto-appended por componentes)
 - **Zooplus**: sin codigo de afiliado aun (futuro)
-- **Tiendanimal**: sin codigo de afiliado aun (futuro)
+- **Tiendanimal**: Webgains (wgcampaignid=1746742, wgprogramid=9507) — auto-appended por componentes. En los articulos MDX poner la URL directa de tiendanimal.com, los componentes la envuelven automaticamente.
 
 ## Workflow de productos
 

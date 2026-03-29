@@ -17,10 +17,16 @@ interface Producto {
 }
 
 const AMAZON_TAG = 'patasyhogar-21';
+const WEBGAINS_CAMPAIGN = '1746742';
+const WEBGAINS_PROGRAM = '9507';
 
 function amazonHref(url: string): string {
   if (url.includes('tag=')) return url;
   return `${url}${url.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`;
+}
+
+function tiendanimalHref(url: string): string {
+  return `https://assets.ikhnaie.me/click.html?wgcampaignid=${WEBGAINS_CAMPAIGN}&wgprogramid=${WEBGAINS_PROGRAM}&wgtarget=${encodeURIComponent(url)}`;
 }
 
 /** Resize Amazon product images to save bandwidth (140px display × 2x retina = 280px) */
@@ -126,7 +132,7 @@ function tiendas(p: Producto) {
   const list: { nombre: string; clase: string; precio: string; href: string; mejor: boolean }[] = [];
   if (p.enlaceAmazon) list.push({ nombre: 'Amazon', clase: 'amazon', precio: p.precioAmazon || p.precio, href: amazonHref(p.enlaceAmazon), mejor: false });
   if (p.enlaceZooplus) list.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus, mejor: false });
-  if (p.enlaceTiendanimal) list.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: p.enlaceTiendanimal, mejor: false });
+  if (p.enlaceTiendanimal) list.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal), mejor: false });
 
   // Mark cheapest store if there are 2+ stores with different prices
   if (list.length > 1) {
@@ -463,6 +469,7 @@ function tiendas(p: Producto) {
 .comp-price-row[href*="amazon"] { --store-color: #b56e00; }
 .comp-price-row[href*="zooplus"] { --store-color: #2d6e1f; }
 .comp-price-row[href*="tiendanimal"] { --store-color: #00632E; }
+.comp-price-row[href*="ikhnaie.me"] { --store-color: #00632E; }
 
 .comp-price-row--best {
   background: color-mix(in srgb, var(--store-color) 10%, var(--color-bg-muted));

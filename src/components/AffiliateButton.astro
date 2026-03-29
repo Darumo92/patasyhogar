@@ -9,6 +9,9 @@ interface Props {
 
 const { href, tienda = 'default', texto } = Astro.props;
 
+const WEBGAINS_CAMPAIGN = '1746742';
+const WEBGAINS_PROGRAM = '9507';
+
 const tiendaInfo: Record<string, { label: string }> = {
   amazon: { label: 'Ver en Amazon' },
   zooplus: { label: 'Ver en Zooplus' },
@@ -19,9 +22,17 @@ const tiendaInfo: Record<string, { label: string }> = {
 const info = tiendaInfo[tienda];
 const label = texto || info.label;
 
-const finalHref = tienda === 'amazon' && !href.includes('tag=')
-  ? `${href}${href.includes('?') ? '&' : '?'}tag=patasyhogar-21`
-  : href;
+function buildHref(url: string, store: string): string {
+  if (store === 'amazon' && !url.includes('tag=')) {
+    return `${url}${url.includes('?') ? '&' : '?'}tag=patasyhogar-21`;
+  }
+  if (store === 'tiendanimal' || url.includes('tiendanimal.com')) {
+    return `https://assets.ikhnaie.me/click.html?wgcampaignid=${WEBGAINS_CAMPAIGN}&wgprogramid=${WEBGAINS_PROGRAM}&wgtarget=${encodeURIComponent(url)}`;
+  }
+  return url;
+}
+
+const finalHref = buildHref(href, tienda);
 ---
 
 <a
