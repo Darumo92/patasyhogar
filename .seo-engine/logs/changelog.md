@@ -1,5 +1,17 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-30 10:15
+**Action:** Article approved and published
+**Files:** .seo-engine/data/content-map.yaml
+**Summary:** "Ansiedad por separación en perros: cómo ayudarle" approved by user. Status updated to published.
+**Triggered by:** user
+
+## 2026-03-30 10:00
+**Action:** New informativo article created
+**Files:** src/content/articulos/ansiedad-separacion-perros.mdx, .seo-engine/data/content-map.yaml, .seo-engine/data/seo-keywords.csv
+**Summary:** Created "Ansiedad por separación en perros: cómo ayudarle". Informativo article with personal experience angle (Kira adopted dog). Covers symptoms, causes, step-by-step desensitization protocol, and when to seek professional help. SERP analyzed — all informational results. Image downloaded from Pexels.
+**Triggered by:** user
+
 ## 2026-03-27 12:30
 **Action:** Article approved and published
 **Files:** .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml

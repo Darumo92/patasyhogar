@@ -1,5 +1,42 @@
-last_updated: '2026-03-26'
+last_updated: '2026-03-30'
 blogs:
+- slug: ansiedad-separacion-perros
+  title: "Ansiedad por separación en perros: cómo ayudarle"
+  file_path: src/content/articulos/ansiedad-separacion-perros.mdx
+  status: published
+  published_date: '2026-03-30'
+  last_updated: ''
+  blog_type: how-to
+  content_type: informativo
+  cluster_id: ''
+  target_keywords:
+  - keyword: "ansiedad por separación en perros"
+    search_volume: 0
+    is_primary: true
+  - keyword: "ansiedad separación perros síntomas"
+    search_volume: 0
+    is_primary: false
+  - keyword: "perro llora cuando me voy"
+    search_volume: 0
+    is_primary: false
+  - keyword: "ansiedad separación perros adoptados"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - como-socializar-cachorro
+  - perro-miedo-petardos-fuegos-artificiales
+  - mejor-cama-perro-guia
+  - alfombras-olfato-perros
+  - mejor-juguete-mental-perros-guia
+  - cuanto-ejercicio-necesita-perro
+  - cachorro-primeras-semanas-casa
+  internal_links_from: []
+  has_eeat_signals: true
+  word_count: 2800
+  notes: "Ángulo: experiencia real con Kira (adoptada) + enfoque en perros adoptados/adultos que los top results no cubren con experiencia personal. Regla 3-3-3 incluida."
+
 - slug: dejar-gato-solo-fin-de-semana
   title: "¿Puedo dejar a mi gato solo un fin de semana?"
   file_path: src/content/articulos/dejar-gato-solo-fin-de-semana.mdx
