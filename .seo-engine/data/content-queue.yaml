@@ -464,3 +464,22 @@ queue:
       - "mejor-transportin-gatos-guia"
       - "mejor-rascador-gatos-guia"
       - "dejar-gato-solo-fin-de-semana"
+
+  - id: "q_021"
+    title: "Mejor cámara para vigilar mascotas en casa 2026"
+    blog_type: "listicle"
+    content_type: "cluster"
+    cluster_id: "tc_hogar_mascotas"
+    animal: "ambos"
+    target_keywords: ["mejor cámara vigilar mascotas", "cámara vigilancia mascotas", "cámara para perros", "pet camera", "cámara interior WiFi", "vigilar mascota en casa"]
+    unique_angle: "Comparativa enfocada exclusivamente en funciones útiles para mascotas (detección de ladridos, audio bidireccional, seguimiento automático), no solo specs genéricas de cámara de seguridad."
+    priority: "high"
+    priority_reason: "High commercial intent keyword (~1600 vol). Pet cameras gaining popularity in Spain."
+    status: "human-review"
+    actual_word_count: 2800
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Tipo: comparativa. Artículo creado el 2026-03-31. 6 productos: Tapo C225, Furbo 360°, eufy S350, Xiaomi C500 Pro, Tapo C220, Enabot EBO SE."
+    depends_on: []
+    internal_link_targets:
+      - "ansiedad-separacion-perros"

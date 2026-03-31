@@ -1,4 +1,4 @@
-last_updated: '2026-03-30'
+last_updated: '2026-03-31'
 blogs:
 - slug: ansiedad-separacion-perros
   title: "Ansiedad por separación en perros: cómo ayudarle"
@@ -4237,4 +4237,43 @@ blogs:
   internal_links_from: []
   word_count: 2700
   has_eeat_signals: true
+
+- slug: mejor-camara-vigilar-mascotas
+  title: "Mejor cámara para vigilar mascotas en casa 2026"
+  file_path: src/content/articulos/mejor-camara-vigilar-mascotas.mdx
+  status: human-review
+  published_date: '2026-03-31'
+  last_updated: ''
+  blog_type: listicle
+  content_type: comparativa
+  animal: ambos
+  cluster_id: 'tc_hogar_mascotas'
+  url: /hogar/mejor-camara-vigilar-mascotas
+  target_keywords:
+  - keyword: "mejor cámara vigilar mascotas"
+    search_volume: 1600
+    is_primary: true
+  - keyword: "cámara vigilancia mascotas"
+    search_volume: 0
+    is_primary: false
+  - keyword: "cámara para perros"
+    search_volume: 0
+    is_primary: false
+  - keyword: "pet camera"
+    search_volume: 0
+    is_primary: false
+  - keyword: "cámara interior WiFi"
+    search_volume: 0
+    is_primary: false
+  - keyword: "vigilar mascota en casa"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - ansiedad-separacion-perros
+  internal_links_from: []
+  word_count: 2800
+  has_eeat_signals: true
+  notes: "Comparativa de 6 cámaras de vigilancia para mascotas: Tapo C225, Furbo 360°, eufy S350, Xiaomi C500 Pro, Tapo C220, Enabot EBO SE. Ángulo: enfocado en funciones útiles para mascotas (detección ladridos, audio bidireccional, seguimiento)."
   needs_update_reason: ''

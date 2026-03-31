@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-03-31 18:00
+**Action:** New article created: mejor-camara-vigilar-mascotas
+**Files:** src/content/articulos/mejor-camara-vigilar-mascotas.mdx, content-map.yaml, seo-keywords.csv, content-queue.yaml, topic-clusters.yaml
+**Summary:** Comparativa de 6 cámaras de vigilancia para mascotas (Tapo C225, Furbo 360°, eufy S350, Xiaomi C500 Pro, Tapo C220, Enabot EBO SE). Categoría hogar, animal ambos.
+**Triggered by:** user
+
 ## 2026-03-30 10:15
 **Action:** Article approved and published
 **Files:** .seo-engine/data/content-map.yaml
