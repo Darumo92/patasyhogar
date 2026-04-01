@@ -1,5 +1,43 @@
-last_updated: '2026-03-31'
+last_updated: '2026-04-01'
 blogs:
+- slug: mejor-comedero-automatico-perros-app
+  title: "Mejor comedero automático para perros con app 2026"
+  file_path: src/content/articulos/mejor-comedero-automatico-perros-app.mdx
+  status: published
+  published_date: '2026-04-01'
+  last_updated: ''
+  blog_type: listicle
+  content_type: comparativa
+  cluster_id: tc_alimentacion_perros
+  target_keywords:
+  - keyword: "comedero automático perros wifi"
+    search_volume: 0
+    is_primary: true
+  - keyword: "comedero inteligente perros"
+    search_volume: 0
+    is_primary: false
+  - keyword: "dispensador comida perros app"
+    search_volume: 0
+    is_primary: false
+  - keyword: "mejor comedero automático perros"
+    search_volume: 0
+    is_primary: false
+  - keyword: "comedero automático perros grandes"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-comedero-perros-guia
+  - mejor-comedero-automatico-wifi-gatos
+  - cuantas-veces-dia-debe-comer-perro
+  - perro-no-quiere-comer-causas
+  - mejor-camara-vigilar-mascotas
+  internal_links_from: []
+  has_eeat_signals: true
+  word_count: 2800
+  notes: "Ángulo: enfoque específico en la experiencia de APP (no solo automático). Top pick: Cecotec Pumba 6000 a 45€ — ángulo de precio imbatible vs competidores que recomiendan modelos caros. SERP: intent comercial, top results de El País, Xataka, Kiwoko."
+
 - slug: ansiedad-separacion-perros
   title: "Ansiedad por separación en perros: cómo ayudarle"
   file_path: src/content/articulos/ansiedad-separacion-perros.mdx

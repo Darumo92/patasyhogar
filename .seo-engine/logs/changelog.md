@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-01 12:00
+**Action:** New comparativa article created: mejor-comedero-automatico-perros-app
+**Files:** src/content/articulos/mejor-comedero-automatico-perros-app.mdx, content-map.yaml, seo-keywords.csv, topic-clusters.yaml
+**Summary:** Comparativa de 6 comederos automáticos WiFi con app para perros (Cecotec Pumba 6000, Xiaomi, PETLIBRO x2, WOPET, comedero 8L). Top pick: Cecotec Pumba 6000 (~45€). Categoría alimentación, animal perro. Cluster: tc_alimentacion_perros. SERP intent comercial. Ángulo: enfoque en experiencia de app + precio imbatible del Cecotec vs competencia.
+**Triggered by:** user
+
 ## 2026-03-31 18:00
 **Action:** New article created: mejor-camara-vigilar-mascotas
 **Files:** src/content/articulos/mejor-camara-vigilar-mascotas.mdx, content-map.yaml, seo-keywords.csv, content-queue.yaml, topic-clusters.yaml
