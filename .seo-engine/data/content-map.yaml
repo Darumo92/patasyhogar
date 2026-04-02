@@ -1,4 +1,4 @@
-last_updated: '2026-04-01'
+last_updated: '2026-04-02'
 blogs:
 - slug: mejor-comedero-automatico-perros-app
   title: "Mejor comedero automático para perros con app 2026"
@@ -4314,4 +4314,60 @@ blogs:
   word_count: 2800
   has_eeat_signals: true
   notes: "Comparativa de 6 cámaras de vigilancia para mascotas: Tapo C225, Furbo 360°, eufy S350, Xiaomi C500 Pro, Tapo C220, Enabot EBO SE. Ángulo: enfocado en funciones útiles para mascotas (detección ladridos, audio bidireccional, seguimiento)."
+  needs_update_reason: ''
+
+- slug: cuanto-cuesta-mantener-un-perro-al-mes
+  title: "Cuánto cuesta mantener un perro al mes en España (2026)"
+  file_path: src/content/articulos/cuanto-cuesta-mantener-un-perro-al-mes.mdx
+  status: published
+  published_date: '2026-04-02'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  animal: perro
+  cluster_id: 'tc_hogar_mascotas'
+  url: /cuidados/cuanto-cuesta-mantener-un-perro-al-mes
+  target_keywords:
+  - keyword: cuánto cuesta mantener un perro al mes
+    search_volume: 0
+    is_primary: true
+  - keyword: gastos mensuales perro España
+    search_volume: 0
+    is_primary: false
+  - keyword: presupuesto perro
+    search_volume: 0
+    is_primary: false
+  - keyword: coste mantener perro
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-pienso-perro-raza-pequena
+  - mejor-pienso-perro-adulto-raza-mediana
+  - mejor-pienso-perro-raza-grande
+  - mejor-pienso-perro-senior
+  - mejor-pienso-perro-esterilizado
+  - mejor-comida-humeda-perros
+  - mejores-snacks-naturales-perros
+  - mejor-antiparasitario-perros-guia
+  - mejor-collar-antiparasitario-perro
+  - garrapatas-perros-prevenir-extraer
+  - mejor-arnes-perro
+  - mejor-arnes-antitirones-perro
+  - mejor-correa-perro
+  - mejor-cama-perro-guia
+  - mejor-comedero-perros-guia
+  - mejor-bebedero-perros-guia
+  - mejor-gps-perro
+  - mejor-transportin-perros-guia
+  - mejor-juguete-cachorro
+  - mejor-dispensador-bolsas-caca-perro
+  - mejores-bolsas-caca-perro-biodegradables
+  - mejor-comedero-automatico-perros-app
+  - ansiedad-separacion-perros
+  internal_links_from: []
+  word_count: 2800
+  has_eeat_signals: true
+  notes: "Desglose real de costes mensuales de mantener un perro en España por partidas (alimentación, veterinario, higiene, paseo, accesorios). Rangos por tamaño de perro. Artículo transversal con enlaces a comparativas de todas las categorías."
   needs_update_reason: ''

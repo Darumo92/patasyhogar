@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-02 10:00
+**Action:** SEO engine data files updated for published article: cuanto-cuesta-mantener-un-perro-al-mes
+**Files:** content-queue.yaml (q_017 status→published), seo-keywords.csv (4 keywords added), topic-clusters.yaml (added to tc_hogar_mascotas), content-map.yaml (new entry)
+**Summary:** Registered "Cuánto cuesta mantener un perro al mes en España (2026)" across all SEO engine data files. Informativo article, cluster tc_hogar_mascotas. ~2800 words, 23 internal links to product comparativas across all categories.
+**Triggered by:** user
+
 ## 2026-04-01 12:00
 **Action:** New comparativa article created: mejor-comedero-automatico-perros-app
 **Files:** src/content/articulos/mejor-comedero-automatico-perros-app.mdx, content-map.yaml, seo-keywords.csv, topic-clusters.yaml

@@ -782,13 +782,12 @@ clusters:
         slug: "mejor-camara-vigilar-mascotas"
         status: "human-review"
         blog_slug: "mejor-camara-vigilar-mascotas"
+      - title: "Cuánto cuesta mantener un perro al mes en España (2026)"
+        target_keyword: "cuánto cuesta mantener un perro al mes"
+        slug: "cuanto-cuesta-mantener-un-perro-al-mes"
+        status: "published"
+        blog_slug: "cuanto-cuesta-mantener-un-perro-al-mes"
       # Planned pages
-      - title: "Presupuesto mensual para mantener un perro"
-        target_keyword: "presupuesto mensual perro coste"
-        slug: "presupuesto-mensual-perro"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
       - title: "Cómo proteger tu casa para un gato"
         target_keyword: "proteger casa gato seguridad"
         slug: "como-proteger-casa-gato"

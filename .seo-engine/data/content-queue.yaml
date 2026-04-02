@@ -376,25 +376,45 @@ queue:
       - "mejor-cepillo-perro"
 
   - id: "q_017"
-    title: "Presupuesto mensual para mantener un perro"
+    title: "Cuánto cuesta mantener un perro al mes en España (2026)"
     blog_type: "tutorial"
     content_type: "cluster"
     cluster_id: "tc_hogar_mascotas"
-    target_keywords: ["presupuesto mensual perro", "cuánto cuesta mantener perro", "gastos perro mes"]
+    animal: "perro"
+    target_keywords: ["cuánto cuesta mantener un perro al mes", "gastos mensuales perro España", "presupuesto perro", "coste mantener perro"]
     unique_angle: "Desglose real por categoría (alimentación, veterinario, higiene, accesorios) con rangos de precio por tamaño de perro. Incluye trucos de ahorro sin comprometer bienestar."
     priority: "medium"
     priority_reason: "Pre-adoption content gap. Drives traffic to multiple product categories via budget recommendations."
-    status: "planned"
-    estimated_word_count: 2500
+    status: "published"
+    actual_word_count: 2800
     serp_analyzed: false
     cannibalization_check: "passed"
-    notes: "Tipo: informativo. Transversal - links to products across all categories."
+    notes: "Tipo: informativo. Artículo creado el 2026-04-02. Transversal - links a productos de todas las categorías."
     depends_on: []
     internal_link_targets:
-      - "mejor-pienso-perro-raza-grande"
       - "mejor-pienso-perro-raza-pequena"
+      - "mejor-pienso-perro-adulto-raza-mediana"
+      - "mejor-pienso-perro-raza-grande"
+      - "mejor-pienso-perro-senior"
+      - "mejor-pienso-perro-esterilizado"
+      - "mejor-comida-humeda-perros"
+      - "mejores-snacks-naturales-perros"
       - "mejor-antiparasitario-perros-guia"
+      - "mejor-collar-antiparasitario-perro"
+      - "garrapatas-perros-prevenir-extraer"
+      - "mejor-arnes-perro"
+      - "mejor-arnes-antitirones-perro"
+      - "mejor-correa-perro"
       - "mejor-cama-perro-guia"
+      - "mejor-comedero-perros-guia"
+      - "mejor-bebedero-perros-guia"
+      - "mejor-gps-perro"
+      - "mejor-transportin-perros-guia"
+      - "mejor-juguete-cachorro"
+      - "mejor-dispensador-bolsas-caca-perro"
+      - "mejores-bolsas-caca-perro-biodegradables"
+      - "mejor-comedero-automatico-perros-app"
+      - "ansiedad-separacion-perros"
 
   - id: "q_018"
     title: "Señales de dolor en perros: cómo detectarlas"
