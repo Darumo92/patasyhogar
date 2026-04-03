@@ -271,6 +271,63 @@ Checklist completo para revisar un articulo existente:
 - Ejecutar `npm run build` despues de cada articulo revisado
 - Antes de push, ejecutar siempre `npm run build` para actualizar CSP hashes
 
+## Pillar pages y clusters
+
+### Pillar pages existentes
+Cada pillar page es un hub informativo que conecta todos los articulos de su cluster. Los articulos del cluster deben enlazar a su pillar.
+
+| Cluster | Pillar slug | URL | Estado |
+|---|---|---|---|
+| Alimentacion perros | `guia-alimentacion-perros` | `/cuidados/guia-alimentacion-perros/` | publicado |
+| Alimentacion gatos | — | — | pendiente |
+| Higiene perros | — | — | pendiente |
+| Higiene gatos | — | — | pendiente |
+| Paseo perros | — | — | pendiente |
+| Juguetes | — | — | pendiente |
+| Hogar mascotas | — | — | pendiente |
+| Salud perros | — | — | pendiente |
+| Salud gatos | — | — | pendiente |
+
+### Al crear un articulo nuevo en un cluster con pillar
+1. Anadir un internal link natural a la pillar page en el cuerpo del articulo (en intro o primera seccion)
+2. Variar el anchor text — no usar siempre el mismo texto
+3. El algoritmo de related articles en `Article.astro` ya prioriza la pillar automaticamente (+4 score)
+
+### Al crear una nueva pillar page
+1. Actualizar la tabla de arriba con el slug y URL
+2. Actualizar `pillarSlugs` en `src/layouts/Article.astro` (linea ~38) para que related articles la priorice
+3. Anadir internal links desde TODOS los articulos existentes del cluster hacia la nueva pillar
+4. La pillar debe enlazar a todos los articulos del cluster
+5. Actualizar `topic-clusters.yaml` y `content-queue.yaml` en `.seo-engine/`
+
+### Schema implementado (no tocar manualmente)
+- **Homepage**: WebSite + Organization (con contactPoint)
+- **Categorias** (`/alimentacion/`, etc.): ItemList + CollectionPage + Breadcrumb
+- **Cuidados** (`/cuidados/`): CollectionPage + Breadcrumb
+- **Perros/Gatos** (`/perros/`, `/gatos/`): CollectionPage + Breadcrumb
+- **Articulos**: Article + Breadcrumb + FAQPage (si hay faqs) + HowTo (si hay pasos) + Product (en ComparisonTable)
+- **Contacto**: ContactPage + Organization
+- **Sobre mi**: AboutPage + Person
+- Los hashes CSP se generan automaticamente con `npm run build`
+
+### Paginas del sitio (no olvidar al enlazar)
+- `/contacto/` — pagina de contacto (enlazada en footer)
+- `/sobre-mi/` — pagina about con Person schema
+- Paginas legales: `/aviso-legal/`, `/cookies/`, `/politica-privacidad/` (con noindex)
+
+### robots.txt
+- `/buscar/` esta bloqueado para evitar indexacion de contenido duplicado
+- `/404` y `/api/` tambien bloqueados
+- Bots de IA permitidos explicitamente (GPTBot, ClaudeBot, PerplexityBot, etc.)
+
+### Performance
+- Fuente Inter: preload (critica, usada en todo el body)
+- Fuente Outfit: prefetch (solo headings, no bloquea FCP)
+- Scroll reveal: respeta `prefers-reduced-motion` (desactiva animaciones si el usuario lo pide)
+- Imagenes hero: `loading="eager"` con `width="800"` y `height="400"`
+- Imagenes en body: `loading="lazy"` con `decoding="async"`
+- GA4: diferido 2 segundos post-load
+
 ## Workflow de productos
 
 1. Anadir entradas a `PRODUCTOS.md` con nombre, URL Amazon e imagen (vacios si no se tienen aun)
