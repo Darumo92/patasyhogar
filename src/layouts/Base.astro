@@ -36,8 +36,8 @@ const currentPath = Astro.url.pathname;
     <!-- Preload critical font (latin covers all Spanish chars: á é í ó ú ñ ü) -->
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
 
-    <!-- Display font for headings (self-hosted) -->
-    <link rel="preload" href="/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Display font for headings (self-hosted, not preloaded — non-critical for FCP) -->
+    <link rel="prefetch" href="/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Preconnect for resources loaded on article pages -->
     <link rel="dns-prefetch" href="https://m.media-amazon.com" />
@@ -146,11 +146,11 @@ const currentPath = Astro.url.pathname;
       </a>
     </nav>
 
-    <!-- Scroll reveal observer -->
+    <!-- Scroll reveal observer (respects prefers-reduced-motion) -->
     <script is:inline>
       (function() {
         var els = document.querySelectorAll('.reveal, .reveal-group');
-        if (!els.length || !('IntersectionObserver' in window)) {
+        if (!els.length || !('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
           els.forEach(function(el) { el.classList.add('revealed'); });
           return;
         }
