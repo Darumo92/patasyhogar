@@ -365,6 +365,11 @@ clusters:
         slug: "garrapatas-perros-prevenir-extraer"
         status: "published"
         blog_slug: "garrapatas-perros-prevenir-extraer"
+      - title: "Mejor collar antipulgas natural para perros"
+        target_keyword: "collar antipulgas natural perro"
+        slug: "collar-antipulgas-natural-perro"
+        status: "human-review"
+        blog_slug: "collar-antipulgas-natural-perro"
       # Planned pages
       - title: "Cómo bañar a tu perro en casa paso a paso"
         target_keyword: "cómo bañar perro casa"

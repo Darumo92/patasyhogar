@@ -1,5 +1,38 @@
-last_updated: '2026-04-02'
+last_updated: '2026-04-03'
 blogs:
+- slug: collar-antipulgas-natural-perro
+  title: "Mejor collar antipulgas natural para perros 2026"
+  file_path: src/content/articulos/collar-antipulgas-natural-perro.mdx
+  status: human-review
+  published_date: '2026-04-03'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: tc_higiene_perros
+  target_keywords:
+  - keyword: "collar antipulgas natural perro"
+    search_volume: 0
+    is_primary: true
+  - keyword: "collar antiparasitario natural perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "antipulgas natural perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "collar margosa perro"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-antiparasitario-perros-guia
+  - mejor-collar-antiparasitario-perro
+  - como-eliminar-pulgas-perro-casa
+  - garrapatas-perros-prevenir-extraer
+  internal_links_from: []
+  has_eeat_signals: true
+  word_count: 2800
+  notes: "Comparativa de collares naturales (Menforsan, Stanvet Life, Disane). Ángulo honesto: complemento, no sustituto. Experiencia personal con Menforsan en invierno. Solo en Amazon, no disponible en Zooplus/Tiendanimal."
 - slug: mejor-comedero-automatico-perros-app
   title: "Mejor comedero automático para perros con app 2026"
   file_path: src/content/articulos/mejor-comedero-automatico-perros-app.mdx

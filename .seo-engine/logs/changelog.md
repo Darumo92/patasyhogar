@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-03 14:00
+**Action:** New comparativa article created: collar-antipulgas-natural-perro
+**Files:** src/content/articulos/collar-antipulgas-natural-perro.mdx (new), content-map.yaml (new entry), seo-keywords.csv (3 keywords added), topic-clusters.yaml (added to tc_higiene_perros)
+**Summary:** Created "Mejor collar antipulgas natural para perros 2026" — comparativa of 3 natural flea collars (Menforsan, Stanvet Life, Disane). Honest angle: natural collars as complement, not substitute for chemical antiparasitarios. Only available on Amazon (not on Zooplus/Tiendanimal). ~2800 words, 4 internal links, E-E-A-T signals with personal experience and vet mention.
+**Triggered by:** user
+
 ## 2026-04-02 10:00
 **Action:** SEO engine data files updated for published article: cuanto-cuesta-mantener-un-perro-al-mes
 **Files:** content-queue.yaml (q_017 status→published), seo-keywords.csv (4 keywords added), topic-clusters.yaml (added to tc_hogar_mascotas), content-map.yaml (new entry)
