@@ -137,6 +137,21 @@ const itemListSchema = {
   })),
 };
 
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${info.nombre} para perros y gatos`,
+  description: info.descripcion,
+  url: `${siteUrl}/${categoria}/`,
+  numberOfItems: articulosOrdenados.length,
+  inLanguage: 'es',
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Patas y Hogar',
+    url: siteUrl,
+  },
+};
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -152,6 +167,7 @@ const breadcrumbSchema = {
   description={info.descripcion}
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(collectionSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
   <div class="category-page-header">
     <div class="container">
