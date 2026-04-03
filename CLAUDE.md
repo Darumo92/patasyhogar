@@ -182,17 +182,94 @@ Antes de dar por terminado un articulo nuevo, verificar SIEMPRE la coherencia co
 - Ejecutar `npm run build` despues de anadir o modificar articulos
 
 ### Reglas importantes
-- NUNCA adivinar precios — siempre verificar
-- NUNCA inventar URLs de Zooplus o Tiendanimal
-- Si un producto cambia, actualizar TODO: nombre, ASIN, imagen, precio, descripcion, texto del analisis
-- No poner `actualizadoEn` en bulk (senial de freshness spam para Google)
-- Imagenes de Amazon (m.media-amazon.com) son OK para hotlinking
-- Imagenes de Zooplus/Tiendanimal NO funcionan (hotlinking bloqueado) — descargar a public/images/productos/
+- Ver seccion "Verificacion de productos" arriba para reglas detalladas de precios, imagenes, tiendas y cambios de producto
 
 ### Tiendas soportadas
 - **Amazon**: tag `patasyhogar-21` (auto-appended por componentes)
 - **Zooplus**: sin codigo de afiliado aun (futuro)
 - **Tiendanimal**: Webgains (wgcampaignid=1746742, wgprogramid=9507) — auto-appended por componentes. En los articulos MDX poner la URL directa de tiendanimal.com, los componentes la envuelven automaticamente.
+
+## Verificacion de productos (reglas criticas)
+
+### Nunca adivinar datos
+- NUNCA adivinar precios, URLs, imagenes, ASINs ni specs de productos
+- Si no se puede verificar un dato, preguntar al usuario inmediatamente
+- Amazon bloquea scraping con CAPTCHA — pedir al usuario precio E imagen juntos para cada producto
+
+### Al cambiar un producto/ASIN
+Actualizar TODO sin excepcion:
+1. nombre — debe coincidir con el producto real en Amazon
+2. imagen — pedir al usuario la URL de Amazon (m.media-amazon.com)
+3. precio — verificado por el usuario
+4. puntosFuertes — describir el producto real, no el anterior
+5. Texto del articulo — analisis, tablas comparativas, FAQs, resumen
+6. Verificar que el producto encaja en la tematica del articulo
+
+### Imagenes de productos
+- CSP solo permite imagenes de `'self'` y `m.media-amazon.com` — NUNCA usar URLs de otros dominios directamente
+- Imagenes de Zooplus/Tiendanimal NO funcionan (hotlinking bloqueado) — descargar a `public/images/productos/`
+- Pedir al usuario precio E imagen en la misma peticion
+- Antes de commit, verificar que TODOS los productos en ComparisonTable tienen campo `imagen`
+- Imagenes hero de Pexels: comprobar duplicados por hash (`md5 -r public/images/articulos/*.webp | sort | awk '{print $1}' | uniq -d`)
+
+### Busqueda en tiendas (obligatorio)
+- Buscar CADA producto INDIVIDUALMENTE en Amazon, Zooplus y Tiendanimal ANTES de escribir
+- Buscar por nombre exacto: `site:zooplus.es "[nombre producto]"` y `site:tiendanimal.es "[nombre producto]"`
+- Si el nombre no funciona, buscar tambien por marca
+- Verificar cada URL con WebFetch — confirmar que es el producto correcto, no una pagina generica
+- NUNCA inventar URLs de Zooplus o Tiendanimal
+- Orden: primero verificar Amazon → luego buscar Zooplus/Tiendanimal para la lista FINAL de productos
+
+### Verificar nombres de productos
+- No confiar en los nombres del articulo — verificar que cada nombre coincide con su ASIN
+- Verificar ANTES de buscar en Zooplus/Tiendanimal (si el nombre es incorrecto, la busqueda falla)
+
+### TopPick y ComparisonTable sincronizados
+- Si un producto es TopPick Y esta en ComparisonTable, ambos deben tener los mismos enlaces de tiendas
+- Al anadir enlaceZooplus/enlaceTiendanimal a ComparisonTable, copiar tambien al TopPick
+
+### Calidad sobre velocidad
+- En cambios masivos, procesar pocos articulos a la vez y verificar calidad
+- No aplicar texto cookie-cutter identico a muchos articulos
+
+## Workflow de revision de articulos
+
+Checklist completo para revisar un articulo existente:
+
+### Contenido y estructura
+- Productos en la seccion/categoria correcta (no poner una fuente en seccion de comederos)
+- Descripciones coinciden con lo que el producto realmente es
+- Textos de analisis describen cada producto con precision
+- Sin productos duplicados entre secciones
+- Flujo logico y organizacion de secciones
+
+### Productos y datos
+1. Verificar TODOS los ASINs de Amazon — pasar enlaces completos al usuario para precio + imagen
+2. Si precio difiere: actualizar. Si no disponible: buscar reemplazo o eliminar
+3. Buscar cada producto en Zooplus y Tiendanimal (ver reglas arriba)
+4. Anadir precios por tienda: precioAmazon, precioZooplus, precioTiendanimal
+5. Precios consistentes en ComparisonTable, TopPick, texto y tablas markdown
+
+### SEO y calidad
+- Titulo con keyword principal, max ~60 chars
+- Meta descripcion con keyword + CTA, max ~155 chars
+- Estructura H2/H3 logica
+- Internal links a articulos relacionados
+- FAQs relevantes en frontmatter
+- Tags relevantes (3-6)
+- imagenAlt descriptivo con keywords
+- Contenido completo y util, sin relleno
+
+### Limpieza
+- Eliminar imports de AffiliateButton si no se usan
+- Eliminar grupos de botones redundantes (ComparisonTable ya tiene botones)
+- Convertir tablas markdown duplicadas a solo specs (sin precios que se desincronicen)
+- Actualizar ano del titulo si es necesario
+
+### Reglas de revision
+- NO anadir `actualizadoEn` en revisiones masivas — solo cuando hay cambios reales de contenido
+- Ejecutar `npm run build` despues de cada articulo revisado
+- Antes de push, ejecutar siempre `npm run build` para actualizar CSP hashes
 
 ## Workflow de productos
 

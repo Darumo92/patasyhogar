@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-03 22:45
+**Action:** First pillar page created: guia-alimentacion-perros
+**Files:** src/content/articulos/guia-alimentacion-perros.mdx (new), public/images/articulos/guia-alimentacion-perros.webp (new), content-queue.yaml (q_001 status→human-review), topic-clusters.yaml (tc_alimentacion_perros pillar updated)
+**Summary:** Created "Alimentación para perros: guía completa" — first pillar page of the site. Hub for the alimentacion_perros cluster (19 published articles). ~3000 words, 15+ internal links to cluster comparativas and informativos. SERP intent: informational (Purina, Medivet, Kiwoko dominate). Unique angle: organizes by life stage + breed size + condition with links to real verified product comparisons. Includes personal experience (Kira, Laura), hydration section, 7 common mistakes, action plan. 6 FAQs from PAA data.
+**Triggered by:** user
+
 ## 2026-04-03 14:00
 **Action:** New comparativa article created: collar-antipulgas-natural-perro
 **Files:** src/content/articulos/collar-antipulgas-natural-perro.mdx (new), content-map.yaml (new entry), seo-keywords.csv (3 keywords added), topic-clusters.yaml (added to tc_higiene_perros)

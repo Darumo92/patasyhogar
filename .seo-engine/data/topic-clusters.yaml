@@ -5,13 +5,13 @@ clusters:
     name: "Alimentación para perros"
     description: "Todo sobre nutrición canina: piensos por raza/edad/condición, comida húmeda, snacks, comederos, y guías de alimentación"
     pillar:
-      title: "Guía completa de alimentación para perros"
+      title: "Alimentación para perros: guía completa"
       target_keyword: "alimentación perros guía completa"
-      slug: "guia-completa-alimentacion-perros"
-      status: "planned"
-      serp_analyzed: false
-      blog_slug: ""
-      notes: "Requires SERP analysis before writing. Must link to all published dog food comparativas."
+      slug: "guia-alimentacion-perros"
+      status: "human-review"
+      serp_analyzed: true
+      blog_slug: "guia-alimentacion-perros"
+      notes: "Published 2026-04-03. Pillar page with 15+ internal links to cluster pages. URL: /cuidados/guia-alimentacion-perros/"
     cluster_pages:
       # Published pages
       - title: "Mejor pienso para perros de raza grande"

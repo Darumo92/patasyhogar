@@ -4,19 +4,19 @@ queue:
   # === PILLAR PAGES (high priority) ===
 
   - id: "q_001"
-    title: "Guía completa de alimentación para perros"
+    title: "Alimentación para perros: guía completa"
     blog_type: "tutorial"
     content_type: "pillar"
     cluster_id: "tc_alimentacion_perros"
     target_keywords: ["alimentación perros", "guía nutrición perro", "mejor pienso perro"]
-    unique_angle: "Guía definitiva que conecta todas las comparativas de pienso existentes con criterios de selección por raza, edad y condición. Incluye tabla resumen con enlace a cada comparativa específica."
+    unique_angle: "Hub que organiza nutrición canina por etapa de vida, tamaño de raza y condición, enlazando a 19 comparativas reales con productos verificados. Ningún resultado SERP hace esto."
     priority: "high"
-    priority_reason: "Pillar page needed for largest content cluster (18 published articles). High commercial intent keywords."
-    status: "planned"
-    estimated_word_count: 4000
-    serp_analyzed: false
+    priority_reason: "Pillar page needed for largest content cluster (19 published articles). High commercial intent keywords."
+    status: "human-review"
+    actual_word_count: 3000
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    notes: "Tipo: informativo. Creado 2026-04-03. SERP intent informacional (Purina, Medivet, Kiwoko). Slug: guia-alimentacion-perros. URL: /cuidados/guia-alimentacion-perros/. 15+ internal links a comparativas del cluster."
     depends_on: []
     internal_link_targets:
       - "mejor-pienso-perro-raza-grande"
