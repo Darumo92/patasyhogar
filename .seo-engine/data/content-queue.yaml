@@ -196,43 +196,50 @@ queue:
       - "cuanto-cuesta-mantener-un-perro-al-mes"
 
   - id: "q_008"
-    title: "Guía completa de salud y bienestar para perros"
+    title: "Salud y cuidados del perro: guía completa"
     blog_type: "tutorial"
     content_type: "pillar"
     cluster_id: "tc_salud_comportamiento_perros"
-    target_keywords: ["salud perro guía", "bienestar perro", "cuidados salud perro"]
-    unique_angle: "Guía preventiva organizada por sistemas del cuerpo (digestivo, piel, articulaciones, dental, comportamiento). Incluye señales de alarma y cuándo ir al veterinario."
+    target_keywords: ["cuidados salud perro", "bienestar perro", "salud perro guía"]
+    unique_angle: "Guía preventiva con experiencia real (Kira, Laura). Cubre cuidados diarios, prevención, ejercicio, comportamiento como indicador de salud, peligros estacionales en España, y señales de alerta urgente vs importante."
     priority: "high"
     priority_reason: "Pillar page for dog health cluster. Informativo content has no hub page."
-    status: "planned"
-    estimated_word_count: 4000
-    serp_analyzed: false
+    status: "human-review"
+    actual_word_count: 3700
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    notes: "Creado 2026-04-04. SERP keyword 'salud perros guía' contaminada por 'perros guía' (ONCE). Keyword ajustada a 'cuidados salud perro'. SERP intent informacional (Purina, Boehringer, MadridSalud). Slug: guia-completa-salud-bienestar-perros. URL: /cuidados/guia-completa-salud-bienestar-perros/."
     depends_on: []
     internal_link_targets:
       - "por-que-perro-ladra-noche"
       - "perro-miedo-petardos-fuegos-artificiales"
       - "como-socializar-cachorro"
+      - "por-que-perros-comen-hierba"
       - "procesionaria-pino-perros-peligros-primeros-auxilios"
       - "alergia-primaveral-perros-gatos-sintomas-tratamiento"
+      - "cuanto-ejercicio-necesita-perro"
+      - "razas-perro-piso-pequeno"
+      - "guia-alimentacion-perros"
+      - "guia-completa-higiene-grooming-perros"
+      - "guia-completa-juguetes-enriquecimiento-mascotas"
+      - "guia-completa-hogar-seguro-mascotas"
       - "perro-no-quiere-comer-causas"
       - "perro-sobrepeso-dieta-ejercicio"
 
   - id: "q_009"
-    title: "Guía completa de salud y bienestar para gatos"
+    title: "Salud y cuidados del gato: guía completa"
     blog_type: "tutorial"
     content_type: "pillar"
     cluster_id: "tc_salud_comportamiento_gatos"
-    target_keywords: ["salud gato guía", "bienestar gato", "cuidados salud gato"]
-    unique_angle: "Enfocada en la naturaleza discreta del gato para ocultar dolor. Enseña a leer el lenguaje corporal felino y detectar problemas antes de que sean graves."
+    target_keywords: ["cuidados salud gato", "bienestar gato", "salud gato guía"]
+    unique_angle: "Enfocada en la naturaleza discreta del gato para ocultar dolor. Enseña a leer comportamiento como indicador de salud. Experiencia real con Mango. Incluye regla 3-3-3 (PAA popular)."
     priority: "high"
     priority_reason: "Pillar page for cat health cluster. Critical gap in informativo content hub."
-    status: "planned"
-    estimated_word_count: 3500
-    serp_analyzed: false
+    status: "human-review"
+    actual_word_count: 3850
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    notes: "Creado 2026-04-04. SERP intent informacional (Purina, Tiendanimal, Royal Canin, Medivet). PAA: regla 3-3-3, cómo cuidar salud, qué cuidados dar. Slug: guia-completa-salud-bienestar-gatos. URL: /cuidados/guia-completa-salud-bienestar-gatos/."
     depends_on: []
     internal_link_targets:
       - "gato-maulla-mucho-noche-causas"
@@ -240,6 +247,12 @@ queue:
       - "por-que-gatos-amasan"
       - "gato-vomita-causas-soluciones"
       - "como-saber-edad-gato"
+      - "como-adiestrar-gato-tecnicas"
+      - "enriquecimiento-ambiental-gato-interior"
+      - "como-presentar-perro-gato"
+      - "guia-completa-alimentacion-gatos"
+      - "guia-completa-higiene-cuidado-gatos"
+      - "guia-completa-juguetes-enriquecimiento-mascotas"
       - "enriquecimiento-ambiental-gato-interior"
 
   # === GAP-FILLING CLUSTER PAGES (medium priority) ===

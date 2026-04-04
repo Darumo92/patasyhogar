@@ -285,8 +285,8 @@ Cada pillar page es un hub informativo que conecta todos los articulos de su clu
 | Paseo perros | `guia-completa-paseo-viaje-perros` | `/cuidados/guia-completa-paseo-viaje-perros/` | human-review |
 | Juguetes | `guia-completa-juguetes-enriquecimiento-mascotas` | `/cuidados/guia-completa-juguetes-enriquecimiento-mascotas/` | human-review |
 | Hogar mascotas | `guia-completa-hogar-seguro-mascotas` | `/cuidados/guia-completa-hogar-seguro-mascotas/` | human-review |
-| Salud perros | — | — | pendiente |
-| Salud gatos | — | — | pendiente |
+| Salud perros | `guia-completa-salud-bienestar-perros` | `/cuidados/guia-completa-salud-bienestar-perros/` | human-review |
+| Salud gatos | `guia-completa-salud-bienestar-gatos` | `/cuidados/guia-completa-salud-bienestar-gatos/` | human-review |
 
 ### Al crear un articulo nuevo en un cluster con pillar
 1. Anadir un internal link natural a la pillar page en el cuerpo del articulo (en intro o primera seccion)

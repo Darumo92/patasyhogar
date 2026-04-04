@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-04 23:30
+**Action:** Created pillar pages for salud/comportamiento perros and salud/comportamiento gatos clusters
+**Files:** src/content/articulos/guia-completa-salud-bienestar-perros.mdx, src/content/articulos/guia-completa-salud-bienestar-gatos.mdx, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/content-map.yaml
+**Summary:** Two new pillar pages completing all 9 planned pillar pages. Dog health pillar (~3700 words): keyword adjusted from "salud perros guía" (contaminated by perros guía/ONCE) to "cuidados salud perro". Covers cuidados diarios, prevención, ejercicio, comportamiento como termómetro de salud, peligros estacionales en España, señales de alerta. Cat health pillar (~3850 words): opens with contraposición "independiente ≠ autosuficiente". Covers lectura de comportamiento felino como indicador de salud, regla 3-3-3 (PAA popular), enriquecimiento ambiental, convivencia multiespecie. PillarSlugs NOT added to Article.astro because salud clusters are cross-category (hogar/paseo/higiene) and would conflict with existing category-based matching logic.
+**Triggered by:** user
+
 ## 2026-04-04 22:00
 **Action:** Created pillar pages for juguetes/enriquecimiento and hogar/mascotas clusters
 **Files:** src/content/articulos/guia-completa-juguetes-enriquecimiento-mascotas.mdx, src/content/articulos/guia-completa-hogar-seguro-mascotas.mdx, src/layouts/Article.astro, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/content-map.yaml

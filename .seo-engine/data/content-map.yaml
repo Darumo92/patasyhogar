@@ -1,5 +1,77 @@
 last_updated: '2026-04-04'
 blogs:
+- slug: guia-completa-salud-bienestar-perros
+  title: "Salud y cuidados del perro: guía completa"
+  file_path: src/content/articulos/guia-completa-salud-bienestar-perros.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_perros
+  is_pillar: true
+  target_keywords:
+  - keyword: "cuidados salud perro"
+    search_volume: 0
+    is_primary: true
+  - keyword: "bienestar perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "salud perro guía"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - guia-alimentacion-perros
+  - guia-completa-higiene-grooming-perros
+  - guia-completa-juguetes-enriquecimiento-mascotas
+  - guia-completa-hogar-seguro-mascotas
+  - cuanto-ejercicio-necesita-perro
+  - por-que-perro-ladra-noche
+  - perro-miedo-petardos-fuegos-artificiales
+  - como-socializar-cachorro
+  - por-que-perros-comen-hierba
+  - procesionaria-pino-perros-peligros-primeros-auxilios
+  - alergia-primaveral-perros-gatos-sintomas-tratamiento
+  - razas-perro-piso-pequeno
+  - perro-sobrepeso-dieta-ejercicio
+  has_eeat_signals: true
+- slug: guia-completa-salud-bienestar-gatos
+  title: "Salud y cuidados del gato: guía completa"
+  file_path: src/content/articulos/guia-completa-salud-bienestar-gatos.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_gatos
+  is_pillar: true
+  target_keywords:
+  - keyword: "cuidados salud gato"
+    search_volume: 0
+    is_primary: true
+  - keyword: "bienestar gato"
+    search_volume: 0
+    is_primary: false
+  - keyword: "salud gato guía"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - guia-completa-alimentacion-gatos
+  - guia-completa-higiene-cuidado-gatos
+  - guia-completa-juguetes-enriquecimiento-mascotas
+  - gato-maulla-mucho-noche-causas
+  - senales-estres-gatos
+  - por-que-gatos-amasan
+  - gato-vomita-causas-soluciones
+  - como-saber-edad-gato
+  - como-adiestrar-gato-tecnicas
+  - enriquecimiento-ambiental-gato-interior
+  - como-presentar-perro-gato
+  has_eeat_signals: true
 - slug: guia-completa-juguetes-enriquecimiento-mascotas
   title: "Enriquecimiento ambiental y juguetes para perros y gatos"
   file_path: src/content/articulos/guia-completa-juguetes-enriquecimiento-mascotas.mdx

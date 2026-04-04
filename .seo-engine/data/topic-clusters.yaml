@@ -815,13 +815,13 @@ clusters:
     name: "Salud y comportamiento de perros"
     description: "Guías de salud canina, comportamiento, miedos, primeros auxilios, y problemas comunes"
     pillar:
-      title: "Guía completa de salud y bienestar para perros"
-      target_keyword: "salud perro guía completa"
+      title: "Salud y cuidados del perro: guía completa"
+      target_keyword: "cuidados salud perro"
       slug: "guia-completa-salud-bienestar-perros"
-      status: "planned"
-      serp_analyzed: false
-      blog_slug: ""
-      notes: "Requires SERP analysis. Important pillar to unify scattered informativo content about dogs."
+      status: "human-review"
+      serp_analyzed: true
+      blog_slug: "guia-completa-salud-bienestar-perros"
+      notes: "Published 2026-04-04. Pillar page with 15+ internal links to cluster pages. URL: /cuidados/guia-completa-salud-bienestar-perros/. SERP keyword adjusted from 'salud perros guía' (contaminated by perros guía/ONCE) to 'cuidados salud perro'."
     cluster_pages:
       # Published pages
       - title: "Por qué mi perro ladra por la noche"
@@ -900,13 +900,13 @@ clusters:
     name: "Salud y comportamiento de gatos"
     description: "Guías de salud felina, comportamiento, estrés, y problemas comunes en gatos"
     pillar:
-      title: "Guía completa de salud y bienestar para gatos"
-      target_keyword: "salud gato guía completa"
+      title: "Salud y cuidados del gato: guía completa"
+      target_keyword: "cuidados salud gato"
       slug: "guia-completa-salud-bienestar-gatos"
-      status: "planned"
-      serp_analyzed: false
-      blog_slug: ""
-      notes: "Requires SERP analysis. Unifies scattered informativo content about cats."
+      status: "human-review"
+      serp_analyzed: true
+      blog_slug: "guia-completa-salud-bienestar-gatos"
+      notes: "Published 2026-04-04. Pillar page with 12+ internal links to cluster pages. URL: /cuidados/guia-completa-salud-bienestar-gatos/. PAA: regla 3-3-3 gatos (included in FAQs)."
     cluster_pages:
       # Published pages
       - title: "Gato maúlla mucho por la noche: causas"
