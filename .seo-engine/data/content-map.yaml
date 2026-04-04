@@ -4454,3 +4454,60 @@ blogs:
   has_eeat_signals: true
   notes: "Pillar page for cat nutrition cluster. Hub linking to all cat food comparativas and informational guides. Personal experience with Mango, vet Laura references. SERP intent: informational."
   needs_update_reason: ''
+
+- slug: guia-completa-higiene-grooming-perros
+  title: "Higiene y grooming para perros: guía completa"
+  file_path: src/content/articulos/guia-completa-higiene-grooming-perros.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: pillar
+  content_type: informativo
+  cluster_id: tc_higiene_perros
+  is_pillar: true
+  target_keywords:
+  - keyword: "higiene perro guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: "grooming perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "cuidar higiene perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "rutina higiene canina"
+    search_volume: 0
+    is_primary: false
+  - keyword: "aseo perro casa"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-perro
+  - champu-perros-piel-sensible
+  - mejor-cortapelos-perros
+  - mejor-secador-perros
+  - mejor-cepillo-dientes-perros
+  - como-limpiar-dientes-perro
+  - como-limpiar-oidos-perro
+  - mejor-cortaunas-perros
+  - mejor-toallitas-perros
+  - mejor-antiparasitario-perros-guia
+  - mejor-collar-antiparasitario-perro
+  - collar-antipulgas-natural-perro
+  - garrapatas-perros-prevenir-extraer
+  - muda-pelo-perros-guia-cuidados
+  - limpiador-enzimatico-mascotas
+  - mejor-dispensador-bolsas-caca-perro
+  - mejores-bolsas-caca-perro-biodegradables
+  - mejor-limpiador-patas-perro
+  - mejor-empapador-perros
+  - mejor-peine-antipulgas-perro
+  - mejor-toallitas-oidos-perros
+  - mejor-pasta-dientes-perros
+  internal_links_from: []
+  word_count: 3500
+  has_eeat_signals: true
+  notes: "Pillar page for dog hygiene/grooming cluster. Hub linking to all 22 cluster articles. Personal experience with Kira, vet Laura references. SERP intent: informational."
+  needs_update_reason: ''

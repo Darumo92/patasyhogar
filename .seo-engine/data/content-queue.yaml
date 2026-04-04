@@ -70,11 +70,11 @@ queue:
     unique_angle: "Rutina de higiene canina mes a mes con checklist descargable. Conecta cada tarea (dientes, oídos, pelo, uñas, baño) con su comparativa de productos correspondiente."
     priority: "high"
     priority_reason: "Pillar page for cluster with 20 published articles. Strong internal linking opportunity."
-    status: "planned"
-    estimated_word_count: 3500
-    serp_analyzed: false
+    status: "human-review"
+    actual_word_count: 3500
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    notes: "Tipo: informativo. Creado 2026-04-04. SERP intent informacional. Slug: guia-completa-higiene-grooming-perros. URL: /cuidados/guia-completa-higiene-grooming-perros/. 22 internal links a comparativas del cluster."
     depends_on: []
     internal_link_targets:
       - "mejor-cepillo-perro"

@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-04 14:00
+**Action:** Created pillar page for higiene perros cluster
+**Files:** src/content/articulos/guia-completa-higiene-grooming-perros.mdx, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml, CLAUDE.md
+**Summary:** Published dog hygiene/grooming pillar page with 22 internal links to cluster articles. SERP intent: informational. Updated all SEO engine data files and pillar pages table in CLAUDE.md.
+**Triggered by:** user
+
 ## 2026-04-04 10:30
 **Action:** Created pillar page for alimentación gatos cluster
 **Files:** src/content/articulos/guia-completa-alimentacion-gatos.mdx, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-map.yaml, src/layouts/Article.astro
