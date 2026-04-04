@@ -480,10 +480,10 @@ clusters:
       title: "Guía completa para pasear y viajar con tu perro"
       target_keyword: "pasear perro guía completa"
       slug: "guia-completa-paseo-viaje-perros"
-      status: "planned"
+      status: "human-review"
       serp_analyzed: false
-      blog_slug: ""
-      notes: "Requires SERP analysis. Should unify paseo products with travel and safety content."
+      blog_slug: "guia-completa-paseo-viaje-perros"
+      notes: "Published 2026-04-04. Pillar page with 20+ internal links to cluster pages. URL: /cuidados/guia-completa-paseo-viaje-perros/"
     cluster_pages:
       # Published pages
       - title: "Mejor arnés para perros"

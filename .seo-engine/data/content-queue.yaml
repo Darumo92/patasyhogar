@@ -118,7 +118,7 @@ queue:
     unique_angle: "Combina paseo diario, viajes en coche, y actividades al aire libre en una sola guía. Incluye sección de normativa española (bozal, correa, PPP) y equipamiento por situación."
     priority: "high"
     priority_reason: "Pillar page for cluster with 20 published articles. Unifies paseo + viaje content."
-    status: "planned"
+    status: "human-review"
     estimated_word_count: 4000
     serp_analyzed: false
     cannibalization_check: "passed"

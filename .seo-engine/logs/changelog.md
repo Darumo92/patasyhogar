@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-04 10:00
+**Action:** Created pillar page for "Paseo y viaje con perros" cluster
+**Files:** src/content/articulos/guia-completa-paseo-viaje-perros.mdx, src/layouts/Article.astro, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-map.yaml
+**Summary:** New pillar page covering paseo frequency, equipment, seasonal gear, anti-pulling training, car travel, and common mistakes. Links to 20 published cluster articles. Updated pillarSlugs in Article.astro.
+**Triggered by:** user
+
 ## 2026-04-04 18:00
 **Action:** Created pillar page for higiene gatos cluster
 **Files:** src/content/articulos/guia-completa-higiene-cuidado-gatos.mdx, src/layouts/Article.astro, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-queue.yaml, 7 cluster articles updated with pillar links

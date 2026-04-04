@@ -1,5 +1,58 @@
 last_updated: '2026-04-04'
 blogs:
+- slug: guia-completa-paseo-viaje-perros
+  title: "Pasear a tu perro: guía completa de paseo y viaje"
+  file_path: src/content/articulos/guia-completa-paseo-viaje-perros.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_paseo_perros
+  is_pillar: true
+  target_keywords:
+  - keyword: "guía paseo perros"
+    search_volume: 0
+    is_primary: true
+  - keyword: "pasear perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "cuántas veces pasear perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "equipamiento paseo perro"
+    search_volume: 0
+    is_primary: false
+  - keyword: "viajar con perro"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arnes-perro
+  - mejor-arnes-antitirones-perro
+  - mejor-correa-perro
+  - correa-extensible-perros
+  - mejor-bozal-perro
+  - mejor-collar-luminoso-perro
+  - mejor-gps-perros
+  - mejor-ropa-perros
+  - mejor-chubasquero-perro
+  - mejor-abrigo-perro
+  - mejor-transportin-perro
+  - protector-maletero-coche-perros
+  - mejor-silla-coche-perro
+  - mejor-cinturon-seguridad-perro-coche
+  - mejor-bolsa-transporte-perro
+  - mejor-collar-antiparasitario-perro
+  - mejor-antiparasitario-perros-guia
+  - ansiedad-separacion-perros
+  - perro-tira-correa-soluciones
+  - guia-alimentacion-perros
+  internal_links_from: []
+  has_eeat_signals: true
+  word_count: 3500
+  notes: "Pillar page for tc_paseo_perros cluster. Covers paseo frequency, equipment, seasonal gear, anti-pulling training, car travel, and common mistakes. 20+ internal links to cluster articles."
 - slug: collar-antipulgas-natural-perro
   title: "Mejor collar antipulgas natural para perros 2026"
   file_path: src/content/articulos/collar-antipulgas-natural-perro.mdx
