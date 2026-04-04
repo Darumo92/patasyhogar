@@ -402,10 +402,10 @@ clusters:
       title: "Guía completa de higiene y cuidado para gatos"
       target_keyword: "higiene gato guía completa"
       slug: "guia-completa-higiene-cuidado-gatos"
-      status: "planned"
-      serp_analyzed: false
-      blog_slug: ""
-      notes: "Requires SERP analysis before writing."
+      status: "human-review"
+      serp_analyzed: true
+      blog_slug: "guia-completa-higiene-cuidado-gatos"
+      notes: "Published 2026-04-04. Pillar page with 10+ internal links to cluster pages. URL: /cuidados/guia-completa-higiene-cuidado-gatos/"
     cluster_pages:
       # Published pages
       - title: "Mejor arenero y arena para gatos"

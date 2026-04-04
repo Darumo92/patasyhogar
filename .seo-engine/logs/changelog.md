@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-04 18:00
+**Action:** Created pillar page for higiene gatos cluster
+**Files:** src/content/articulos/guia-completa-higiene-cuidado-gatos.mdx, src/layouts/Article.astro, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-queue.yaml, 7 cluster articles updated with pillar links
+**Summary:** New pillar page "Higiene del gato: guía completa de cuidados" (~3200 words). SERP intent informacional. Unique angle: cat as self-groomer, when to intervene vs when not. 10+ internal links to cluster comparativas. Added pillar to Article.astro pillarSlugs array. Added internal links from all 7 cluster articles back to pillar with varied anchor text.
+**Triggered by:** user
+
 ## 2026-04-04 14:00
 **Action:** Created pillar page for higiene perros cluster
 **Files:** src/content/articulos/guia-completa-higiene-grooming-perros.mdx, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml, CLAUDE.md

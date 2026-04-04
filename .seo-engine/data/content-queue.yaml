@@ -95,11 +95,11 @@ queue:
     unique_angle: "Enfocada en la particularidad del gato como animal autoacicalador: cuándo intervenir y cuándo no. Rutina mínima de higiene felina respetando su naturaleza."
     priority: "high"
     priority_reason: "Pillar page for cat hygiene cluster (8 published articles)."
-    status: "planned"
-    estimated_word_count: 3000
-    serp_analyzed: false
+    status: "human-review"
+    actual_word_count: 3200
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    notes: "Tipo: informativo. Creado 2026-04-04. SERP intent informacional. Slug: guia-completa-higiene-cuidado-gatos. URL: /cuidados/guia-completa-higiene-cuidado-gatos/. 10+ internal links a comparativas del cluster."
     depends_on: []
     internal_link_targets:
       - "mejor-arenero-arena-gatos"

@@ -4511,3 +4511,50 @@ blogs:
   has_eeat_signals: true
   notes: "Pillar page for dog hygiene/grooming cluster. Hub linking to all 22 cluster articles. Personal experience with Kira, vet Laura references. SERP intent: informational."
   needs_update_reason: ''
+
+- slug: guia-completa-higiene-cuidado-gatos
+  title: "Higiene del gato: guía completa de cuidados"
+  file_path: src/content/articulos/guia-completa-higiene-cuidado-gatos.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: pillar
+  content_type: informativo
+  cluster_id: tc_higiene_gatos
+  is_pillar: true
+  target_keywords:
+  - keyword: "higiene gato guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: "cuidado gato guía"
+    search_volume: 0
+    is_primary: false
+  - keyword: "aseo gato"
+    search_volume: 0
+    is_primary: false
+  - keyword: "higiene felina"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-cepillo-gatos
+  - muda-pelo-gatos-guia-cuidados
+  - como-banar-gato
+  - mejor-champu-gato
+  - como-cortar-unas-gato
+  - mejor-arenero-arena-gatos
+  - mejor-antiparasitario-gatos-guia
+  - cuanto-cuesta-mantener-un-gato-al-mes
+  internal_links_from:
+  - mejor-cepillo-gatos
+  - mejor-arenero-arena-gatos
+  - como-banar-gato
+  - como-cortar-unas-gato
+  - mejor-antiparasitario-gatos-guia
+  - muda-pelo-gatos-guia-cuidados
+  - mejor-champu-gato
+  word_count: 3200
+  has_eeat_signals: true
+  notes: "Pillar page for cat hygiene cluster. Hub linking to all cat hygiene comparativas and guides. Unique angle: cat as self-groomer, when to intervene vs not. Personal experience with Mango, vet Laura references. SERP intent: informational."
+  needs_update_reason: ''
