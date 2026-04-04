@@ -282,9 +282,9 @@ Cada pillar page es un hub informativo que conecta todos los articulos de su clu
 | Alimentacion gatos | `guia-completa-alimentacion-gatos` | `/cuidados/guia-completa-alimentacion-gatos/` | publicado |
 | Higiene perros | `guia-completa-higiene-grooming-perros` | `/cuidados/guia-completa-higiene-grooming-perros/` | human-review |
 | Higiene gatos | `guia-completa-higiene-cuidado-gatos` | `/cuidados/guia-completa-higiene-cuidado-gatos/` | human-review |
-| Paseo perros | — | — | pendiente |
-| Juguetes | — | — | pendiente |
-| Hogar mascotas | — | — | pendiente |
+| Paseo perros | `guia-completa-paseo-viaje-perros` | `/cuidados/guia-completa-paseo-viaje-perros/` | human-review |
+| Juguetes | `guia-completa-juguetes-enriquecimiento-mascotas` | `/cuidados/guia-completa-juguetes-enriquecimiento-mascotas/` | human-review |
+| Hogar mascotas | `guia-completa-hogar-seguro-mascotas` | `/cuidados/guia-completa-hogar-seguro-mascotas/` | human-review |
 | Salud perros | — | — | pendiente |
 | Salud gatos | — | — | pendiente |
 

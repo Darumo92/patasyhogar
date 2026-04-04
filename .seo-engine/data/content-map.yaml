@@ -1,5 +1,90 @@
 last_updated: '2026-04-04'
 blogs:
+- slug: guia-completa-juguetes-enriquecimiento-mascotas
+  title: "Enriquecimiento ambiental y juguetes para perros y gatos"
+  file_path: src/content/articulos/guia-completa-juguetes-enriquecimiento-mascotas.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_juguetes_enriquecimiento
+  is_pillar: true
+  target_keywords:
+  - keyword: "enriquecimiento ambiental perros"
+    search_volume: 0
+    is_primary: true
+  - keyword: "juguetes enriquecimiento mascotas"
+    search_volume: 0
+    is_primary: false
+  - keyword: "estimulación mental mascotas"
+    search_volume: 0
+    is_primary: false
+  - keyword: "ideas enriquecimiento DIY"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - mejor-juguete-cachorro
+  - mejor-juguete-gatos-guia
+  - mejor-juguete-mental-perros-guia
+  - mejor-juguete-resistente-perros-guia
+  - mejor-rascador-gatos-guia
+  - arbol-rascador-pequeno-pisos
+  - alfombras-olfato-perros
+  - mejor-circuito-agilidad-perros
+  - mejor-difusor-feromonas-gatos
+  - enriquecimiento-ambiental-gato-interior
+  - como-adiestrar-gato-tecnicas
+  has_eeat_signals: true
+  word_count: 3800
+
+- slug: guia-completa-hogar-seguro-mascotas
+  title: "Cómo preparar tu casa para un perro o un gato"
+  file_path: src/content/articulos/guia-completa-hogar-seguro-mascotas.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_hogar_mascotas
+  is_pillar: true
+  target_keywords:
+  - keyword: "preparar casa mascota"
+    search_volume: 0
+    is_primary: true
+  - keyword: "hogar seguro perros gatos"
+    search_volume: 0
+    is_primary: false
+  - keyword: "preparar hogar mascota nueva"
+    search_volume: 0
+    is_primary: false
+  - keyword: "llegada cachorro casa"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - mejor-cama-perro-guia
+  - mejor-cama-gato-guia
+  - mejor-manta-perros
+  - protector-sofa-mascotas
+  - mejor-puerta-seguridad-perros
+  - mejor-gatera-puerta-gato
+  - mejor-escalera-rampa-perros
+  - alfombrilla-refrigerante-perros
+  - mejor-piscina-perros
+  - mejor-camara-vigilar-mascotas
+  - jaula-perro-casa-coche
+  - cachorro-primeras-semanas-casa
+  - como-presentar-perro-gato
+  - residencias-mascotas-verano
+  - cuanto-cuesta-mantener-un-perro-al-mes
+  - mejor-arenero-arena-gatos
+  has_eeat_signals: true
+  word_count: 3500
+
 - slug: guia-completa-paseo-viaje-perros
   title: "Pasear a tu perro: guía completa de paseo y viaje"
   file_path: src/content/articulos/guia-completa-paseo-viaje-perros.mdx

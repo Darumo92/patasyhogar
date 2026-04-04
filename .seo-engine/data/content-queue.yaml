@@ -1,4 +1,4 @@
-last_updated: "2026-03-23"
+last_updated: "2026-04-04"
 
 queue:
   # === PILLAR PAGES (high priority) ===
@@ -136,19 +136,19 @@ queue:
       - "cuanto-ejercicio-necesita-perro"
 
   - id: "q_006"
-    title: "Guía completa de juguetes y enriquecimiento para mascotas"
+    title: "Enriquecimiento ambiental y juguetes para perros y gatos"
     blog_type: "tutorial"
     content_type: "pillar"
     cluster_id: "tc_juguetes_enriquecimiento"
-    target_keywords: ["juguetes mascotas", "enriquecimiento perro gato", "estimulación mental mascotas"]
-    unique_angle: "Organiza juguetes por tipo de estimulación (física, mental, olfativa, social) y por animal. Incluye señales de aburrimiento y plan semanal de actividades."
+    target_keywords: ["enriquecimiento ambiental perros", "juguetes enriquecimiento mascotas", "estimulación mental mascotas", "ideas enriquecimiento DIY"]
+    unique_angle: "Única guía que cubre enriquecimiento para perros Y gatos juntos. Incluye ideas DIY con coste cero, rutina semanal de enriquecimiento canino, y tabla de juguetes por temperamento. SERP dominado por artículos solo de perros."
     priority: "high"
     priority_reason: "Pillar page for juguetes cluster (11 published articles)."
-    status: "planned"
-    estimated_word_count: 3500
-    serp_analyzed: false
+    status: "human-review"
+    actual_word_count: 3800
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    notes: "Tipo: informativo. Creado 2026-04-04. SERP intent informacional (Purina, ExpertAnimal, Tiendanimal). Slug: guia-completa-juguetes-enriquecimiento-mascotas. URL: /cuidados/guia-completa-juguetes-enriquecimiento-mascotas/. 11+ internal links a cluster articles."
     depends_on: []
     internal_link_targets:
       - "mejor-juguete-cachorro"
@@ -156,32 +156,44 @@ queue:
       - "mejor-juguete-mental-perros-guia"
       - "mejor-juguete-resistente-perros-guia"
       - "mejor-rascador-gatos-guia"
+      - "arbol-rascador-pequeno-pisos"
       - "alfombras-olfato-perros"
+      - "mejor-circuito-agilidad-perros"
+      - "mejor-difusor-feromonas-gatos"
       - "enriquecimiento-ambiental-gato-interior"
+      - "como-adiestrar-gato-tecnicas"
 
   - id: "q_007"
-    title: "Guía completa para preparar tu hogar para mascotas"
+    title: "Cómo preparar tu casa para un perro o un gato"
     blog_type: "tutorial"
     content_type: "pillar"
     cluster_id: "tc_hogar_mascotas"
-    target_keywords: ["hogar mascotas", "preparar casa perro gato", "convivir mascotas hogar"]
-    unique_angle: "Recorrido habitación por habitación (salón, cocina, dormitorio, balcón, jardín) con peligros, soluciones y productos recomendados para cada zona. Diferenciando perro y gato."
+    target_keywords: ["preparar casa mascota", "hogar seguro perros gatos", "preparar hogar mascota nueva", "llegada cachorro casa"]
+    unique_angle: "Va más allá de la llegada: cubre seguridad, organización por zonas, convivencia multiespecie y mantenimiento continuo del hogar. Competidores son artículos superficiales de 5-7 tips (Purina, Idealista, El Mueble)."
     priority: "high"
     priority_reason: "Pillar page for hogar cluster (13 published articles)."
-    status: "planned"
-    estimated_word_count: 3500
-    serp_analyzed: false
+    status: "human-review"
+    actual_word_count: 3500
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Requires SERP analysis before writing. Tipo: informativo."
+    notes: "Tipo: informativo. Creado 2026-04-04. SERP intent informacional (Purina, RSCE, Idealista, El Mueble). Slug: guia-completa-hogar-seguro-mascotas. URL: /cuidados/guia-completa-hogar-seguro-mascotas/. 15+ internal links a cluster articles."
     depends_on: []
     internal_link_targets:
       - "mejor-cama-perro-guia"
       - "mejor-cama-gato-guia"
+      - "mejor-manta-perros"
       - "protector-sofa-mascotas"
       - "mejor-puerta-seguridad-perros"
       - "mejor-gatera-puerta-gato"
+      - "mejor-escalera-rampa-perros"
+      - "alfombrilla-refrigerante-perros"
+      - "mejor-piscina-perros"
+      - "mejor-camara-vigilar-mascotas"
+      - "jaula-perro-casa-coche"
       - "cachorro-primeras-semanas-casa"
       - "como-presentar-perro-gato"
+      - "residencias-mascotas-verano"
+      - "cuanto-cuesta-mantener-un-perro-al-mes"
 
   - id: "q_008"
     title: "Guía completa de salud y bienestar para perros"

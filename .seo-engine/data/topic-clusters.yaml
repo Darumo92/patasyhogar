@@ -618,10 +618,10 @@ clusters:
       title: "Guía completa de juguetes y enriquecimiento para mascotas"
       target_keyword: "juguetes enriquecimiento mascotas"
       slug: "guia-completa-juguetes-enriquecimiento-mascotas"
-      status: "planned"
-      serp_analyzed: false
-      blog_slug: ""
-      notes: "Requires SERP analysis. Covers both perro and gato."
+      status: "human-review"
+      serp_analyzed: true
+      blog_slug: "guia-completa-juguetes-enriquecimiento-mascotas"
+      notes: "SERP informacional (Purina, ExpertAnimal, Tiendanimal). Ángulo: única guía que cubre perros Y gatos. Sección DIY coste cero + rutina semanal enriquecimiento."
     cluster_pages:
       # Published pages
       - title: "Mejor juguete para cachorros"
@@ -711,10 +711,10 @@ clusters:
       title: "Guía completa para preparar tu hogar para mascotas"
       target_keyword: "hogar seguro mascotas guía"
       slug: "guia-completa-hogar-seguro-mascotas"
-      status: "planned"
-      serp_analyzed: false
-      blog_slug: ""
-      notes: "Requires SERP analysis. Bridges dog and cat home products."
+      status: "human-review"
+      serp_analyzed: true
+      blog_slug: "guia-completa-hogar-seguro-mascotas"
+      notes: "SERP informacional (Purina, RSCE, Idealista, El Mueble). Ángulo: profundidad vs tips superficiales. Cubre seguridad, zonas, multiespecie, clima, ausencias. Búsquedas relacionadas: introducir gato con perros."
     cluster_pages:
       # Published pages
       - title: "Mejor cama para perros"

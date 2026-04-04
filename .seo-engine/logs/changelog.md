@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-04 22:00
+**Action:** Created pillar pages for juguetes/enriquecimiento and hogar/mascotas clusters
+**Files:** src/content/articulos/guia-completa-juguetes-enriquecimiento-mascotas.mdx, src/content/articulos/guia-completa-hogar-seguro-mascotas.mdx, src/layouts/Article.astro, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/content-map.yaml
+**Summary:** Two new pillar pages created with SERP analysis. Juguetes pillar (~3800 words): SERP informacional, ángulo diferenciador cubriendo perros+gatos juntos, secciones DIY coste cero y rutina semanal enriquecimiento canino. Hogar pillar (~3500 words): SERP informacional, ángulo de profundidad vs tips superficiales de competidores, cubre seguridad, zonas multiespecie, clima y ausencias. Updated pillarSlugs in Article.astro with improved matching logic for 'ambos' animal type.
+**Triggered by:** user
+
 ## 2026-04-04 10:00
 **Action:** Created pillar page for "Paseo y viaje con perros" cluster
 **Files:** src/content/articulos/guia-completa-paseo-viaje-perros.mdx, src/layouts/Article.astro, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-map.yaml

@@ -36,10 +36,13 @@ const pillarSlugs: { categoria: string; animal: string; slug: string }[] = [
   { categoria: 'higiene', animal: 'perro', slug: 'guia-completa-higiene-grooming-perros' },
   { categoria: 'higiene', animal: 'gato', slug: 'guia-completa-higiene-cuidado-gatos' },
   { categoria: 'paseo', animal: 'perro', slug: 'guia-completa-paseo-viaje-perros' },
+  { categoria: 'juguetes', animal: 'ambos', slug: 'guia-completa-juguetes-enriquecimiento-mascotas' },
+  { categoria: 'hogar', animal: 'ambos', slug: 'guia-completa-hogar-seguro-mascotas' },
 ];
 
 // Find the pillar that matches this article's cluster
-const matchingPillar = pillarSlugs.find(p => p.categoria === categoria && p.animal === animal);
+// Match exact animal, or pillar 'ambos' matches any animal, or article 'ambos' matches any pillar
+const matchingPillar = pillarSlugs.find(p => p.categoria === categoria && (p.animal === animal || p.animal === 'ambos' || animal === 'ambos'));
 const pillarSlug = matchingPillar?.slug;
 
 const scored = allArticles.map(a => {
