@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-04 10:30
+**Action:** Created pillar page for alimentación gatos cluster
+**Files:** src/content/articulos/guia-completa-alimentacion-gatos.mdx, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-map.yaml, src/layouts/Article.astro
+**Summary:** Published cat nutrition pillar page with 15+ internal links to cluster articles. Updated pillarSlugs in Article.astro to support multiple pillars per category (perro + gato). SERP intent: informational.
+**Triggered by:** user
+
 ## 2026-04-03 22:45
 **Action:** First pillar page created: guia-alimentacion-perros
 **Files:** src/content/articulos/guia-alimentacion-perros.mdx (new), public/images/articulos/guia-alimentacion-perros.webp (new), content-queue.yaml (q_001 status→human-review), topic-clusters.yaml (tc_alimentacion_perros pillar updated)

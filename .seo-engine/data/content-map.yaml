@@ -1,4 +1,4 @@
-last_updated: '2026-04-03'
+last_updated: '2026-04-04'
 blogs:
 - slug: collar-antipulgas-natural-perro
   title: "Mejor collar antipulgas natural para perros 2026"
@@ -4403,4 +4403,54 @@ blogs:
   word_count: 2800
   has_eeat_signals: true
   notes: "Desglose real de costes mensuales de mantener un perro en España por partidas (alimentación, veterinario, higiene, paseo, accesorios). Rangos por tamaño de perro. Artículo transversal con enlaces a comparativas de todas las categorías."
+  needs_update_reason: ''
+- slug: guia-completa-alimentacion-gatos
+  title: "Alimentación para gatos: guía completa"
+  file_path: src/content/articulos/guia-completa-alimentacion-gatos.mdx
+  status: human-review
+  published_date: '2026-04-04'
+  last_updated: ''
+  blog_type: pillar
+  content_type: informativo
+  cluster_id: tc_alimentacion_gatos
+  is_pillar: true
+  target_keywords:
+  - keyword: "alimentación gatos guía completa"
+    search_volume: 0
+    is_primary: true
+  - keyword: "nutrición felina"
+    search_volume: 0
+    is_primary: false
+  - keyword: "dieta gato"
+    search_volume: 0
+    is_primary: false
+  - keyword: "pienso gato guía"
+    search_volume: 0
+    is_primary: false
+  - keyword: "comida gatos"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - muda-pelo-gatos-guia-cuidados
+  - gato-vomita-causas-soluciones
+  - mejor-comida-humeda-gatos
+  - mejor-comedero-automatico-wifi-gatos
+  - snacks-naturales-gatos
+  - comparativa-fuentes-agua-gatos
+  - mejor-fuente-agua-gatos-silenciosa
+  - mejor-pienso-cachorro-gato
+  - mejor-pienso-gato-senior
+  - mejor-pienso-gato-esterilizado
+  - mejor-pienso-gato-indoor
+  - mejor-pienso-gato-pelo-largo
+  - pienso-gato-problemas-urinarios
+  - cuanto-debe-comer-gato-adulto
+  - alimentos-toxicos-gatos
+  - mejor-comedero-gatos-guia
+  internal_links_from: []
+  word_count: 3000
+  has_eeat_signals: true
+  notes: "Pillar page for cat nutrition cluster. Hub linking to all cat food comparativas and informational guides. Personal experience with Mango, vet Laura references. SERP intent: informational."
   needs_update_reason: ''

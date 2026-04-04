@@ -279,7 +279,7 @@ Cada pillar page es un hub informativo que conecta todos los articulos de su clu
 | Cluster | Pillar slug | URL | Estado |
 |---|---|---|---|
 | Alimentacion perros | `guia-alimentacion-perros` | `/cuidados/guia-alimentacion-perros/` | publicado |
-| Alimentacion gatos | — | — | pendiente |
+| Alimentacion gatos | `guia-completa-alimentacion-gatos` | `/cuidados/guia-completa-alimentacion-gatos/` | publicado |
 | Higiene perros | — | — | pendiente |
 | Higiene gatos | — | — | pendiente |
 | Paseo perros | — | — | pendiente |

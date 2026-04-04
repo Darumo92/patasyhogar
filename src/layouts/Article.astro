@@ -29,10 +29,15 @@ const allArticles = await getCollection('articulos', ({ slug }) => slug !== arti
 const animal = articulo.data.animal;
 const articleTags = new Set(tags || []);
 
-// Pillar pages for each category (cluster hubs that informativos should link to)
-const pillarSlugs: Record<string, string> = {
-  alimentacion: 'guia-alimentacion-perros',
-};
+// Pillar pages for each cluster (category + animal combinations)
+const pillarSlugs: { categoria: string; animal: string; slug: string }[] = [
+  { categoria: 'alimentacion', animal: 'perro', slug: 'guia-alimentacion-perros' },
+  { categoria: 'alimentacion', animal: 'gato', slug: 'guia-completa-alimentacion-gatos' },
+];
+
+// Find the pillar that matches this article's cluster
+const matchingPillar = pillarSlugs.find(p => p.categoria === categoria && p.animal === animal);
+const pillarSlug = matchingPillar?.slug;
 
 const scored = allArticles.map(a => {
   let score = 0;
@@ -45,7 +50,6 @@ const scored = allArticles.map(a => {
   // Shared tags: +1 per tag
   (a.data.tags || []).forEach(t => { if (articleTags.has(t)) score += 1; });
   // Pillar page bonus: if this article is in a cluster with a pillar, boost the pillar
-  const pillarSlug = pillarSlugs[categoria];
   if (pillarSlug && a.slug === pillarSlug) score += 4;
   // Cluster sibling bonus: if current article IS the pillar, boost cluster pages
   if (pillarSlug && articulo.slug === pillarSlug && a.data.categoria === categoria) score += 2;
