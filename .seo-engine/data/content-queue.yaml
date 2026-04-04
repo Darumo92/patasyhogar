@@ -12,7 +12,7 @@ queue:
     unique_angle: "Hub que organiza nutrición canina por etapa de vida, tamaño de raza y condición, enlazando a 19 comparativas reales con productos verificados. Ningún resultado SERP hace esto."
     priority: "high"
     priority_reason: "Pillar page needed for largest content cluster (19 published articles). High commercial intent keywords."
-    status: "human-review"
+    status: "published"
     actual_word_count: 3000
     serp_analyzed: true
     cannibalization_check: "passed"
@@ -43,7 +43,7 @@ queue:
     unique_angle: "Hub central que organiza la nutrición felina por etapa de vida (kitten, adulto, senior) y condición (esterilizado, indoor, urinario, pelo largo). Incluye señales de alerta nutricional."
     priority: "high"
     priority_reason: "Pillar page needed for second largest content cluster (14 published articles)."
-    status: "planned"
+    status: "published"
     estimated_word_count: 3500
     serp_analyzed: false
     cannibalization_check: "passed"
@@ -70,7 +70,7 @@ queue:
     unique_angle: "Rutina de higiene canina mes a mes con checklist descargable. Conecta cada tarea (dientes, oídos, pelo, uñas, baño) con su comparativa de productos correspondiente."
     priority: "high"
     priority_reason: "Pillar page for cluster with 20 published articles. Strong internal linking opportunity."
-    status: "human-review"
+    status: "published"
     actual_word_count: 3500
     serp_analyzed: true
     cannibalization_check: "passed"
@@ -95,7 +95,7 @@ queue:
     unique_angle: "Enfocada en la particularidad del gato como animal autoacicalador: cuándo intervenir y cuándo no. Rutina mínima de higiene felina respetando su naturaleza."
     priority: "high"
     priority_reason: "Pillar page for cat hygiene cluster (8 published articles)."
-    status: "human-review"
+    status: "published"
     actual_word_count: 3200
     serp_analyzed: true
     cannibalization_check: "passed"
@@ -118,7 +118,7 @@ queue:
     unique_angle: "Combina paseo diario, viajes en coche, y actividades al aire libre en una sola guía. Incluye sección de normativa española (bozal, correa, PPP) y equipamiento por situación."
     priority: "high"
     priority_reason: "Pillar page for cluster with 20 published articles. Unifies paseo + viaje content."
-    status: "human-review"
+    status: "published"
     estimated_word_count: 4000
     serp_analyzed: false
     cannibalization_check: "passed"
@@ -144,7 +144,7 @@ queue:
     unique_angle: "Única guía que cubre enriquecimiento para perros Y gatos juntos. Incluye ideas DIY con coste cero, rutina semanal de enriquecimiento canino, y tabla de juguetes por temperamento. SERP dominado por artículos solo de perros."
     priority: "high"
     priority_reason: "Pillar page for juguetes cluster (11 published articles)."
-    status: "human-review"
+    status: "published"
     actual_word_count: 3800
     serp_analyzed: true
     cannibalization_check: "passed"
@@ -172,7 +172,7 @@ queue:
     unique_angle: "Va más allá de la llegada: cubre seguridad, organización por zonas, convivencia multiespecie y mantenimiento continuo del hogar. Competidores son artículos superficiales de 5-7 tips (Purina, Idealista, El Mueble)."
     priority: "high"
     priority_reason: "Pillar page for hogar cluster (13 published articles)."
-    status: "human-review"
+    status: "published"
     actual_word_count: 3500
     serp_analyzed: true
     cannibalization_check: "passed"
@@ -204,7 +204,7 @@ queue:
     unique_angle: "Guía preventiva con experiencia real (Kira, Laura). Cubre cuidados diarios, prevención, ejercicio, comportamiento como indicador de salud, peligros estacionales en España, y señales de alerta urgente vs importante."
     priority: "high"
     priority_reason: "Pillar page for dog health cluster. Informativo content has no hub page."
-    status: "human-review"
+    status: "published"
     actual_word_count: 3700
     serp_analyzed: true
     cannibalization_check: "passed"
@@ -235,7 +235,7 @@ queue:
     unique_angle: "Enfocada en la naturaleza discreta del gato para ocultar dolor. Enseña a leer comportamiento como indicador de salud. Experiencia real con Mango. Incluye regla 3-3-3 (PAA popular)."
     priority: "high"
     priority_reason: "Pillar page for cat health cluster. Critical gap in informativo content hub."
-    status: "human-review"
+    status: "published"
     actual_word_count: 3850
     serp_analyzed: true
     cannibalization_check: "passed"

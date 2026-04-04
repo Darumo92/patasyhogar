@@ -3,7 +3,7 @@ blogs:
 - slug: guia-completa-salud-bienestar-perros
   title: "Salud y cuidados del perro: guía completa"
   file_path: src/content/articulos/guia-completa-salud-bienestar-perros.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: tutorial
@@ -40,7 +40,7 @@ blogs:
 - slug: guia-completa-salud-bienestar-gatos
   title: "Salud y cuidados del gato: guía completa"
   file_path: src/content/articulos/guia-completa-salud-bienestar-gatos.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: tutorial
@@ -75,7 +75,7 @@ blogs:
 - slug: guia-completa-juguetes-enriquecimiento-mascotas
   title: "Enriquecimiento ambiental y juguetes para perros y gatos"
   file_path: src/content/articulos/guia-completa-juguetes-enriquecimiento-mascotas.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: tutorial
@@ -115,7 +115,7 @@ blogs:
 - slug: guia-completa-hogar-seguro-mascotas
   title: "Cómo preparar tu casa para un perro o un gato"
   file_path: src/content/articulos/guia-completa-hogar-seguro-mascotas.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: tutorial
@@ -160,7 +160,7 @@ blogs:
 - slug: guia-completa-paseo-viaje-perros
   title: "Pasear a tu perro: guía completa de paseo y viaje"
   file_path: src/content/articulos/guia-completa-paseo-viaje-perros.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: tutorial
@@ -4617,7 +4617,7 @@ blogs:
 - slug: guia-completa-alimentacion-gatos
   title: "Alimentación para gatos: guía completa"
   file_path: src/content/articulos/guia-completa-alimentacion-gatos.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: pillar
@@ -4668,7 +4668,7 @@ blogs:
 - slug: guia-completa-higiene-grooming-perros
   title: "Higiene y grooming para perros: guía completa"
   file_path: src/content/articulos/guia-completa-higiene-grooming-perros.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: pillar
@@ -4725,7 +4725,7 @@ blogs:
 - slug: guia-completa-higiene-cuidado-gatos
   title: "Higiene del gato: guía completa de cuidados"
   file_path: src/content/articulos/guia-completa-higiene-cuidado-gatos.mdx
-  status: human-review
+  status: published
   published_date: '2026-04-04'
   last_updated: ''
   blog_type: pillar

@@ -1,4 +1,4 @@
-last_updated: "2026-03-23"
+last_updated: "2026-04-04"
 
 clusters:
   - cluster_id: "tc_alimentacion_perros"
@@ -8,7 +8,7 @@ clusters:
       title: "Alimentación para perros: guía completa"
       target_keyword: "alimentación perros guía completa"
       slug: "guia-alimentacion-perros"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-alimentacion-perros"
       notes: "Published 2026-04-03. Pillar page with 15+ internal links to cluster pages. URL: /cuidados/guia-alimentacion-perros/"
@@ -141,7 +141,7 @@ clusters:
       title: "Guía completa de alimentación para gatos"
       target_keyword: "alimentación gatos guía completa"
       slug: "guia-completa-alimentacion-gatos"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-alimentacion-gatos"
       notes: "Published 2026-04-04. Pillar page with 15+ internal links to cluster pages. URL: /cuidados/guia-completa-alimentacion-gatos/"
@@ -254,7 +254,7 @@ clusters:
       title: "Guía completa de higiene y grooming para perros"
       target_keyword: "higiene perro guía completa"
       slug: "guia-completa-higiene-grooming-perros"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-higiene-grooming-perros"
       notes: "Pillar page created 2026-04-04. SERP intent informational. 22 cluster article links."
@@ -402,7 +402,7 @@ clusters:
       title: "Guía completa de higiene y cuidado para gatos"
       target_keyword: "higiene gato guía completa"
       slug: "guia-completa-higiene-cuidado-gatos"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-higiene-cuidado-gatos"
       notes: "Published 2026-04-04. Pillar page with 10+ internal links to cluster pages. URL: /cuidados/guia-completa-higiene-cuidado-gatos/"
@@ -480,7 +480,7 @@ clusters:
       title: "Guía completa para pasear y viajar con tu perro"
       target_keyword: "pasear perro guía completa"
       slug: "guia-completa-paseo-viaje-perros"
-      status: "human-review"
+      status: "published"
       serp_analyzed: false
       blog_slug: "guia-completa-paseo-viaje-perros"
       notes: "Published 2026-04-04. Pillar page with 20+ internal links to cluster pages. URL: /cuidados/guia-completa-paseo-viaje-perros/"
@@ -618,7 +618,7 @@ clusters:
       title: "Guía completa de juguetes y enriquecimiento para mascotas"
       target_keyword: "juguetes enriquecimiento mascotas"
       slug: "guia-completa-juguetes-enriquecimiento-mascotas"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-juguetes-enriquecimiento-mascotas"
       notes: "SERP informacional (Purina, ExpertAnimal, Tiendanimal). Ángulo: única guía que cubre perros Y gatos. Sección DIY coste cero + rutina semanal enriquecimiento."
@@ -711,7 +711,7 @@ clusters:
       title: "Guía completa para preparar tu hogar para mascotas"
       target_keyword: "hogar seguro mascotas guía"
       slug: "guia-completa-hogar-seguro-mascotas"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-hogar-seguro-mascotas"
       notes: "SERP informacional (Purina, RSCE, Idealista, El Mueble). Ángulo: profundidad vs tips superficiales. Cubre seguridad, zonas, multiespecie, clima, ausencias. Búsquedas relacionadas: introducir gato con perros."
@@ -818,7 +818,7 @@ clusters:
       title: "Salud y cuidados del perro: guía completa"
       target_keyword: "cuidados salud perro"
       slug: "guia-completa-salud-bienestar-perros"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-salud-bienestar-perros"
       notes: "Published 2026-04-04. Pillar page with 15+ internal links to cluster pages. URL: /cuidados/guia-completa-salud-bienestar-perros/. SERP keyword adjusted from 'salud perros guía' (contaminated by perros guía/ONCE) to 'cuidados salud perro'."
@@ -903,7 +903,7 @@ clusters:
       title: "Salud y cuidados del gato: guía completa"
       target_keyword: "cuidados salud gato"
       slug: "guia-completa-salud-bienestar-gatos"
-      status: "human-review"
+      status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-salud-bienestar-gatos"
       notes: "Published 2026-04-04. Pillar page with 12+ internal links to cluster pages. URL: /cuidados/guia-completa-salud-bienestar-gatos/. PAA: regla 3-3-3 gatos (included in FAQs)."
