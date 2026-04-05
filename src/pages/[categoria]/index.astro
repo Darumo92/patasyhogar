@@ -220,8 +220,8 @@ const breadcrumbSchema = {
               Guías destacadas
             </h2>
             <div class="articles-grid">
-              {destacados.map(articulo => (
-                <ArticleCard articulo={articulo} />
+              {destacados.map((articulo, i) => (
+                <ArticleCard articulo={articulo} eager={i < 2} />
               ))}
             </div>
           </div>

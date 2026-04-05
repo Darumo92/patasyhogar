@@ -42,8 +42,8 @@ const breadcrumbSchema = {
     </nav>
 
     <div class="articles-grid">
-      {actualizados.map(a => (
-        <ArticleCard articulo={a} />
+      {actualizados.map((a, i) => (
+        <ArticleCard articulo={a} eager={i < 2} />
       ))}
     </div>
   </div>

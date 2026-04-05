@@ -82,8 +82,8 @@ const breadcrumbSchema = {
     </div>
 
     <div class="articles-grid">
-      {articulosOrdenados.map(a => (
-        <ArticleCard articulo={a} headingLevel={2} />
+      {articulosOrdenados.map((a, i) => (
+        <ArticleCard articulo={a} headingLevel={2} eager={i < 2} />
       ))}
     </div>
   </div>

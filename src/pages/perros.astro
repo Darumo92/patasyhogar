@@ -93,7 +93,7 @@ const collectionSchema = {
           Guías más populares
         </h2>
         <div class="articles-grid">
-          {destacados.map(a => <ArticleCard articulo={a} />)}
+          {destacados.map((a, i) => <ArticleCard articulo={a} eager={i < 2} />)}
         </div>
       </div>
     )}

@@ -247,8 +247,8 @@ const categorias = [
         <h2 class="section-title reveal">Guías destacadas</h2>
         <p class="section-subtitle reveal">Nuestros análisis más completos y populares</p>
         <div class="articles-grid reveal-group">
-          {destacados.map(articulo => (
-            <ArticleCard articulo={articulo} />
+          {destacados.map((articulo, i) => (
+            <ArticleCard articulo={articulo} eager={i < 2} />
           ))}
         </div>
       </div>
