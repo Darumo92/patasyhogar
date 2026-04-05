@@ -166,8 +166,12 @@ const currentPath = Astro.url.pathname;
       })();
     </script>
 
-    <!-- GA4: load after page is interactive -->
+    <!-- GA4: initialize gtag early so events queue, load script deferred -->
     <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+
       window.addEventListener('load', function() {
         setTimeout(function() {
           var s = document.createElement('script');
@@ -175,16 +179,13 @@ const currentPath = Astro.url.pathname;
           s.async = true;
           document.head.appendChild(s);
           s.onload = function() {
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
             gtag('js', new Date());
             gtag('config', 'G-NNXGD8G7GC');
           };
         }, 2000);
       });
 
-      // Track affiliate clicks (works even before GA loads, queues events)
+      // Track affiliate clicks — events queue in dataLayer even before GA4 loads
       document.addEventListener('click', function(e) {
         var link = e.target.closest('a[rel*="sponsored"]');
         if (!link) return;
@@ -193,14 +194,12 @@ const currentPath = Astro.url.pathname;
         if (href.includes('amazon.')) tienda = 'amazon';
         else if (href.includes('zooplus.')) tienda = 'zooplus';
         else if (href.includes('tiendanimal.')) tienda = 'tiendanimal';
-        if (typeof gtag === 'function') {
-          gtag('event', 'affiliate_click', {
-            event_category: 'afiliados',
-            event_label: tienda,
-            link_url: href,
-            page_path: window.location.pathname
-          });
-        }
+        gtag('event', 'affiliate_click', {
+          event_category: 'afiliados',
+          event_label: tienda,
+          link_url: href,
+          page_path: window.location.pathname
+        });
       });
     </script>
   </body>

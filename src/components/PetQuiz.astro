@@ -1,20 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
-
-const articulos = await getCollection('articulos');
-
-// Build a lookup of articles by category + animal for the quiz results
-const quizData = articulos.map(a => ({
-  slug: a.slug,
-  titulo: a.data.titulo,
-  descripcion: a.data.descripcion,
-  categoria: a.data.categoria,
-  animal: a.data.animal,
-  tipo: a.data.tipo || 'comparativa',
-  imagen: a.data.imagen,
-  tags: a.data.tags || [],
-  url: a.data.tipo === 'informativo' ? `/cuidados/${a.slug}/` : `/${a.data.categoria}/${a.slug}/`,
-}));
+// Quiz data loaded on-demand from /quiz-data.json to keep homepage HTML small
 ---
 
 <div class="quiz" id="pet-quiz">
@@ -75,76 +60,89 @@ const quizData = articulos.map(a => ({
   </div>
 </div>
 
-<script is:inline define:vars={{ quizData }}>
+<script is:inline>
 (function() {
-  const quiz = document.getElementById('pet-quiz');
+  var quiz = document.getElementById('pet-quiz');
   if (!quiz) return;
 
-  const answers = {};
-  const steps = quiz.querySelectorAll('.quiz-step');
-  const dots = quiz.querySelectorAll('.quiz-progress-dot');
-  const resultsEl = document.getElementById('quiz-results');
-  const restartBtn = document.getElementById('quiz-restart');
+  var quizData = null;
+  var dataPromise = null;
+  var answers = {};
+  var steps = quiz.querySelectorAll('.quiz-step');
+  var dots = quiz.querySelectorAll('.quiz-progress-dot');
+  var resultsEl = document.getElementById('quiz-results');
+  var restartBtn = document.getElementById('quiz-restart');
+
+  function loadData() {
+    if (!dataPromise) {
+      dataPromise = fetch('/quiz-data.json').then(function(r) { return r.json(); }).then(function(d) {
+        quizData = d;
+      });
+    }
+    return dataPromise;
+  }
 
   function goToStep(n) {
-    steps.forEach(s => s.classList.remove('quiz-step--active'));
-    dots.forEach(d => d.classList.remove('quiz-progress-dot--active'));
-    const step = quiz.querySelector(`[data-step="${n}"]`);
+    steps.forEach(function(s) { s.classList.remove('quiz-step--active'); });
+    dots.forEach(function(d) { d.classList.remove('quiz-progress-dot--active'); });
+    var step = quiz.querySelector('[data-step="' + n + '"]');
     if (step) step.classList.add('quiz-step--active');
-    for (let i = 1; i <= n; i++) {
-      const dot = quiz.querySelector(`[data-dot="${i}"]`);
+    for (var i = 1; i <= n; i++) {
+      var dot = quiz.querySelector('[data-dot="' + i + '"]');
       if (dot) dot.classList.add('quiz-progress-dot--active');
     }
   }
 
   function showResults() {
-    if (!resultsEl) return;
-    const animal = answers.animal;
-    const cat = answers.categoria;
+    if (!resultsEl || !quizData) return;
+    var animal = answers.animal;
+    var cat = answers.categoria;
 
-    let results = quizData.filter(a =>
-      (a.animal === animal || a.animal === 'ambos') &&
-      (cat === 'cuidados' ? a.tipo === 'informativo' : a.categoria === cat)
-    );
+    var results = quizData.filter(function(r) {
+      return (r.a === animal || r.a === 'ambos') &&
+        (cat === 'cuidados' ? r.p === 'informativo' : r.c === cat);
+    });
 
     if (results.length === 0) {
-      results = quizData.filter(a => a.animal === animal || a.animal === 'ambos').slice(0, 5);
+      results = quizData.filter(function(r) { return r.a === animal || r.a === 'ambos'; }).slice(0, 5);
     }
 
     results = results.slice(0, 5);
 
-    resultsEl.innerHTML = results.map(a => `
-      <a href="${a.url}" class="quiz-result-card">
-        ${a.imagen ? `<img src="${a.imagen}" alt="" width="80" height="45" loading="lazy" />` : ''}
-        <div>
-          <strong>${a.titulo}</strong>
-          <span>${a.descripcion.slice(0, 80)}${a.descripcion.length > 80 ? '...' : ''}</span>
-        </div>
-      </a>
-    `).join('');
+    resultsEl.innerHTML = results.map(function(r) {
+      return '<a href="' + r.u + '" class="quiz-result-card">' +
+        (r.i ? '<img src="' + r.i + '" alt="" width="80" height="45" loading="lazy" />' : '') +
+        '<div><strong>' + r.t + '</strong>' +
+        '<span>' + r.d + '</span></div></a>';
+    }).join('');
 
     goToStep(3);
   }
 
-  quiz.querySelectorAll('.quiz-option').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const field = btn.dataset.field;
-      const value = btn.dataset.value;
+  quiz.querySelectorAll('.quiz-option').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var field = btn.dataset.field;
+      var value = btn.dataset.value;
       answers[field] = value;
 
-      btn.closest('.quiz-options').querySelectorAll('.quiz-option').forEach(b => b.classList.remove('quiz-option--selected'));
+      btn.closest('.quiz-options').querySelectorAll('.quiz-option').forEach(function(b) { b.classList.remove('quiz-option--selected'); });
       btn.classList.add('quiz-option--selected');
 
-      setTimeout(() => {
+      // Start loading data on first interaction
+      loadData();
+
+      setTimeout(function() {
         if (field === 'animal') goToStep(2);
-        else if (field === 'categoria') showResults();
+        else if (field === 'categoria') {
+          loadData().then(showResults);
+        }
       }, 200);
     });
   });
 
-  restartBtn?.addEventListener('click', () => {
-    Object.keys(answers).forEach(k => delete answers[k]);
-    quiz.querySelectorAll('.quiz-option--selected').forEach(b => b.classList.remove('quiz-option--selected'));
+  restartBtn && restartBtn.addEventListener('click', function() {
+    Object.keys(answers).forEach(function(k) { delete answers[k]; });
+    quiz.querySelectorAll('.quiz-option--selected').forEach(function(b) { b.classList.remove('quiz-option--selected'); });
     goToStep(1);
   });
 })();
