@@ -35,8 +35,20 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
-    { '@type': 'ListItem', position: 2, name: 'Perros' },
+    { '@type': 'ListItem', position: 2, name: 'Perros', item: `${siteUrl}/perros/` },
   ],
+};
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Guías y comparativas para perros',
+  numberOfItems: articulosOrdenados.length,
+  itemListElement: articulosOrdenados.map((a, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: a.data.tipo === 'informativo' ? `${siteUrl}/cuidados/${a.slug}` : `${siteUrl}/${a.data.categoria}/${a.slug}`,
+    name: a.data.titulo,
+  })),
 };
 const collectionSchema = {
   '@context': 'https://schema.org',
@@ -54,6 +66,7 @@ const collectionSchema = {
   description="Todas las guías de compra y comparativas de productos para perros: pienso, camas, juguetes, higiene, transporte y más. Análisis honestos para elegir lo mejor."
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(collectionSchema)} slot="head" />
 
   <div class="category-page-header">
