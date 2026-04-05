@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-05 12:00
+**Action:** Created new informativo article "Cómo evitar que tu perro coma cosas del suelo"
+**Files:** src/content/articulos/evitar-perro-coma-cosas-suelo.mdx, public/images/articulos/evitar-perro-coma-cosas-suelo.webp, .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/topic-clusters.yaml
+**Summary:** New how-to article in tc_salud_comportamiento_perros cluster. Covers causes (curiosity, boredom, anxiety, nutritional deficits, pica), danger levels, step-by-step "déjalo" training, walk strategies, muzzle guidance, and vet criteria. ~2200 words, 4 FAQs from PAA, 3 internal links. SERP intent: informational. Cannibalization check passed (complements por-que-perros-comen-hierba). Hero image from Pexels (Ar kay).
+**Triggered by:** user
+
 ## 2026-04-04 23:30
 **Action:** Created pillar pages for salud/comportamiento perros and salud/comportamiento gatos clusters
 **Files:** src/content/articulos/guia-completa-salud-bienestar-perros.mdx, src/content/articulos/guia-completa-salud-bienestar-gatos.mdx, .seo-engine/data/topic-clusters.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/content-map.yaml

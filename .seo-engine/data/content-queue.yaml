@@ -1,4 +1,4 @@
-last_updated: "2026-04-04"
+last_updated: "2026-04-05"
 
 queue:
   # === PILLAR PAGES (high priority) ===
@@ -528,3 +528,24 @@ queue:
     depends_on: []
     internal_link_targets:
       - "ansiedad-separacion-perros"
+
+  - id: "q_022"
+    title: "Cómo evitar que tu perro coma cosas del suelo"
+    blog_type: "how_to"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    animal: "perro"
+    target_keywords: ["evitar perro coma cosas suelo", "perro come cosas del suelo", "pica en perros", "perro come basura paseo"]
+    unique_angle: "Guía práctica con diagnóstico diferencial de causas (compulsión vs aburrimiento vs déficit nutricional), adiestramiento paso a paso del 'déjalo', y criterios claros de cuándo es emergencia veterinaria. Basado en experiencia real con Kira."
+    priority: "medium"
+    priority_reason: "Common behavioral problem. Complements existing cluster articles (hierba, ansiedad). PAA rich topic."
+    status: "published"
+    actual_word_count: 2200
+    serp_analyzed: true
+    cannibalization_check: "passed — complementa por-que-perros-comen-hierba (diferente enfoque: prevención vs explicación)"
+    notes: "Tipo: informativo. Creado 2026-04-05. Aprobado 2026-04-05. SERP intent informacional. Slug: evitar-perro-coma-cosas-suelo. URL: /cuidados/evitar-perro-coma-cosas-suelo/. 3 internal links (ansiedad, hierba, pillar salud)."
+    depends_on: []
+    internal_link_targets:
+      - "ansiedad-separacion-perros"
+      - "por-que-perros-comen-hierba"
+      - "guia-completa-salud-bienestar-perros"
