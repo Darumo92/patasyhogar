@@ -1,5 +1,36 @@
-last_updated: '2026-04-04'
+last_updated: '2026-04-05'
 blogs:
+- slug: evitar-perro-coma-cosas-suelo
+  title: "Cómo evitar que tu perro coma cosas del suelo"
+  file_path: src/content/articulos/evitar-perro-coma-cosas-suelo.mdx
+  status: published
+  published_date: '2026-04-05'
+  last_updated: ''
+  blog_type: how_to
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: "evitar perro coma cosas suelo"
+    search_volume: 0
+    is_primary: true
+  - keyword: "perro come cosas del suelo"
+    search_volume: 0
+    is_primary: false
+  - keyword: "pica en perros"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - ansiedad-separacion-perros
+  - por-que-perros-comen-hierba
+  - guia-completa-salud-bienestar-perros
+  internal_links_from: []
+  word_count: 2200
+  has_eeat_signals: true
+  notes: "Guía práctica how-to sobre cómo evitar que el perro coma cosas del suelo en paseos. Cubre causas (curiosidad, aburrimiento, ansiedad, déficit nutricional, pica), peligros por nivel, adiestramiento del 'déjalo' paso a paso, estrategias de paseo, bozal anti ingestas, y cuándo ir al veterinario. E-E-A-T: experiencia con Kira, veterinaria Laura, ubicaciones Valencia."
+  needs_update_reason: ''
 - slug: guia-completa-salud-bienestar-perros
   title: "Salud y cuidados del perro: guía completa"
   file_path: src/content/articulos/guia-completa-salud-bienestar-perros.mdx

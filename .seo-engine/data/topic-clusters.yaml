@@ -864,6 +864,11 @@ clusters:
         slug: "cuanto-ejercicio-necesita-perro"
         status: "published"
         blog_slug: "cuanto-ejercicio-necesita-perro"
+      - title: "Cómo evitar que tu perro coma cosas del suelo"
+        target_keyword: "evitar perro coma cosas suelo"
+        slug: "evitar-perro-coma-cosas-suelo"
+        status: "published"
+        blog_slug: "evitar-perro-coma-cosas-suelo"
       # Planned pages
       - title: "Primeros auxilios para perros: guía de emergencia"
         target_keyword: "primeros auxilios perro emergencia"
