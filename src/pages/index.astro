@@ -274,7 +274,8 @@ const categorias = [
   )}
 
   <!-- Trust / Social proof -->
-  <section class="trust-section">
+  <section class="trust-section" aria-labelledby="trust-heading">
+    <h2 id="trust-heading" class="sr-only">Por qué confiar en Patas y Hogar</h2>
     <div class="container">
       <div class="trust-grid reveal-group">
         <div class="trust-card">
@@ -316,9 +317,11 @@ const categorias = [
         class="newsletter-form newsletter-form-hero"
         id="newsletter-form-hero"
       >
+        <label for="newsletter-email-hero" class="sr-only">Tu email</label>
         <input
           type="email"
           name="email"
+          id="newsletter-email-hero"
           placeholder="tu@email.com"
           required
           aria-label="Tu email"
