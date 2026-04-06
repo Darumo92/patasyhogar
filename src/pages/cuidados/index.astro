@@ -34,7 +34,7 @@ const itemListSchema = {
   itemListElement: articulosOrdenados.map((a, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `${siteUrl}/cuidados/${a.slug}`,
+    url: `${siteUrl}/cuidados/${a.slug}/`,
     name: a.data.titulo,
   })),
 };
@@ -46,6 +46,11 @@ const collectionSchema = {
   url: `${siteUrl}/cuidados/`,
   numberOfItems: articulosOrdenados.length,
   inLanguage: 'es',
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Patas y Hogar',
+    url: siteUrl,
+  },
 };
 ---
 

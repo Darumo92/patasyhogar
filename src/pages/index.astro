@@ -44,10 +44,7 @@ const organizationSchema = {
     availableLanguage: 'es',
   },
   foundingDate: '2026',
-  areaServed: {
-    '@type': 'Country',
-    name: 'ES',
-  },
+  areaServed: 'ES',
   availableLanguage: 'es',
 };
 
@@ -59,7 +56,7 @@ const itemListSchema = {
   itemListElement: recientes.map((a, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `${siteUrl}/${a.data.tipo === 'informativo' ? 'cuidados' : a.data.categoria}/${a.slug}`,
+    url: `${siteUrl}/${a.data.tipo === 'informativo' ? 'cuidados' : a.data.categoria}/${a.slug}/`,
     name: a.data.titulo,
   })),
 };

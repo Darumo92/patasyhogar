@@ -130,8 +130,16 @@
 /comportamiento/por-que-perro-ladra-noche/ /cuidados/por-que-perro-ladra-noche/ 301
 /comportamiento/por-que-perros-comen-hierba/ /cuidados/por-que-perros-comen-hierba/ 301
 /comportamiento/razas-perro-piso-pequeno/ /cuidados/razas-perro-piso-pequeno/ 301
-/comportamiento/cachorro-primeras-semanas-casa/ /hogar/cachorro-primeras-semanas-casa/ 301
-/comportamiento/gato-maulla-mucho-noche-causas/ /hogar/gato-maulla-mucho-noche-causas/ 301
-/comportamiento/perro-miedo-petardos-fuegos-artificiales/ /hogar/perro-miedo-petardos-fuegos-artificiales/ 301
+/comportamiento/cachorro-primeras-semanas-casa/ /cuidados/cachorro-primeras-semanas-casa/ 301
+/comportamiento/gato-maulla-mucho-noche-causas/ /cuidados/gato-maulla-mucho-noche-causas/ 301
+/comportamiento/perro-miedo-petardos-fuegos-artificiales/ /cuidados/perro-miedo-petardos-fuegos-artificiales/ 301
 /comportamiento/como-adiestrar-gato-tecnicas/ /cuidados/como-adiestrar-gato-tecnicas/ 301
 /comportamiento/enriquecimiento-ambiental-gato-interior/ /cuidados/enriquecimiento-ambiental-gato-interior/ 301
+
+# Redirect wrong-category URLs (detected in Ahrefs audit Apr 2026)
+/hogar/cachorro-primeras-semanas-casa/ /cuidados/cachorro-primeras-semanas-casa/ 301
+/hogar/gato-maulla-mucho-noche-causas/ /cuidados/gato-maulla-mucho-noche-causas/ 301
+/hogar/perro-miedo-petardos-fuegos-artificiales/ /cuidados/perro-miedo-petardos-fuegos-artificiales/ 301
+/cuidados/como-limpiar-oidos-perro/ /higiene/como-limpiar-oidos-perro/ 301
+/paseo/mejores-bolsas-caca-perro-biodegradables/ /higiene/mejores-bolsas-caca-perro-biodegradables/ 301
+/paseo/mejor-dispensador-bolsas-caca-perro/ /higiene/mejor-dispensador-bolsas-caca-perro/ 301
