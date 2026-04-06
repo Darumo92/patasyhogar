@@ -529,6 +529,32 @@ queue:
     internal_link_targets:
       - "ansiedad-separacion-perros"
 
+  - id: "q_023"
+    title: "Tecnología para mascotas 2026: lo que funciona de verdad"
+    blog_type: "thought_leadership"
+    content_type: "cluster"
+    cluster_id: ""
+    animal: "ambos"
+    target_keywords: ["tecnología mascotas 2026", "gadgets mascotas 2026", "tendencias mascotas 2026", "novedades tecnología mascotas"]
+    unique_angle: "Perspectiva desde 2+ años probando gadgets con Kira y Mango. Evaluación crítica de qué funciona vs qué es marketing. Enlaces a comparativas detalladas."
+    priority: "medium"
+    priority_reason: "Informational content gap. Complements existing product comparativas with editorial perspective. Cross-cluster article."
+    status: "published"
+    actual_word_count: 2100
+    serp_analyzed: true
+    cannibalization_check: "passed — ángulo editorial/tendencias complementa comparativas existentes de productos"
+    notes: "Tipo: informativo. Creado 2026-04-06. SERP intent informacional (loimportamos, galicia.pet, ambito.com). Slug: tecnologia-mascotas-2026. URL: /cuidados/tecnologia-mascotas-2026/. 8 internal links a comparativas existentes."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-comedero-automatico-wifi-gatos"
+      - "mejor-comedero-automatico-perros-app"
+      - "mejor-gps-perro"
+      - "collar-gps-gato"
+      - "mejor-camara-vigilar-mascotas"
+      - "mejor-fuente-agua-gatos-silenciosa"
+      - "dejar-gato-solo-fin-de-semana"
+      - "guia-completa-hogar-seguro-mascotas"
+
   - id: "q_022"
     title: "Cómo evitar que tu perro coma cosas del suelo"
     blog_type: "how_to"

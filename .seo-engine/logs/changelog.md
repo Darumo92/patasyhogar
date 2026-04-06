@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-06 10:00
+**Action:** Created new informativo article "Tecnología para mascotas 2026: lo que funciona de verdad"
+**Files:** src/content/articulos/tecnologia-mascotas-2026.mdx, .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/seo-keywords.csv
+**Summary:** Thought leadership article about pet technology trends in 2026. Unique angle: personal experience testing gadgets with Kira and Mango over 2+ years, critical evaluation of what works vs hype. Covers smart feeders, GPS, AI cameras, health wearables, smart litter boxes, vet telemedicine, subscription fatigue. ~2100 words, 4 FAQs from PAA, 8 internal links to existing comparativas. Cross-cluster standalone article (hogar category). SERP intent: informational. Cannibalization check passed (complements existing product comparativas with editorial perspective).
+**Triggered by:** user
+
 ## 2026-04-05 12:00
 **Action:** Created new informativo article "Cómo evitar que tu perro coma cosas del suelo"
 **Files:** src/content/articulos/evitar-perro-coma-cosas-suelo.mdx, public/images/articulos/evitar-perro-coma-cosas-suelo.webp, .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/topic-clusters.yaml
