@@ -3,7 +3,9 @@ Allow: /
 Disallow: /404
 Disallow: /api/
 Disallow: /buscar/
-Disallow: /tags/
+# /tags/ NO se bloquea aquí — usan meta noindex.
+# Si se bloquea con Disallow, Google no puede leer el noindex
+# y las indexa como páginas vacías, desperdiciando crawl budget.
 
 # AI search bots — permitir explícitamente el rastreo
 User-agent: GPTBot
