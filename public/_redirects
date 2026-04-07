@@ -1,6 +1,12 @@
 # Sobre nosotros → Sobre mí
 /sobre-nosotros/ /sobre-mi/ 301
 
+# Fix 404s: non-trailing-slash variants that Google discovered
+/alimentacion/mejor-bebedero-portatil-perros /alimentacion/mejor-bebedero-perros-guia/ 301
+/comportamiento/como-adiestrar-gato-tecnicas /cuidados/como-adiestrar-gato-tecnicas/ 301
+/comportamiento/mejor-repelente-gatos-muebles /hogar/mejor-repelente-gatos-muebles/ 301
+/comportamiento/mejor-rascador-gato-grande /juguetes/mejor-rascador-gatos-guia/ 301
+
 # Redirect old category paths to new ones (301 permanent)
 /descanso/ /hogar/ 301
 /comportamiento/ /juguetes/ 301
