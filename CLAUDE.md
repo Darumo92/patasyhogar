@@ -415,20 +415,30 @@ When analyzing SERP data (whether from user-provided Google results or SEO MCP t
 a) Read all data files
 b) Pick topic: from queue (highest priority "planned") or user request
 c) **Cannibalization check** — scan content-map for overlapping keywords. If conflict: recommend update. If proceeding: document why in queue.
-d) **SERP Analysis — CRITICAL RULE:**
+d) **Keyword Surfer validation — OBLIGATORIO antes de escribir:**
+   - Antes de pedir datos SERP, pedir al usuario que verifique la keyword objetivo en Keyword Surfer:
+     ```
+     Antes de escribir, necesito verificar la keyword objetivo.
+     Por favor busca en Google con Keyword Surfer activo: "{keyword}"
+     Dime:
+     1. Volumen de la keyword exacta
+     2. Pantallazo de las "Keyword ideas" de Keyword Surfer (para ver volúmenes reales de variantes)
+     ```
+   - WAIT for response. Si la keyword tiene 0 vol, analizar las variantes del pantallazo y proponer la keyword con más volumen como objetivo principal.
+   - Actualizar seo-keywords.csv con los datos reales antes de proceder.
+e) **SERP Analysis — CRITICAL RULE:**
    - **DO NOT use your built-in web search tool for SERP research.** Your web search does not provide search volume, keyword difficulty, People Also Ask layout, or the actual SERP format Google shows. It gives generic results that lead to generic content.
    - IF a dedicated SEO MCP tool is connected (like Semrush, Ahrefs MCP) → use that tool for structured keyword data
-   - In ALL other cases → ask the user to manually search Google and provide real SERP data:
+   - In ALL other cases → ask the user to manually search Google and provide real SERP data (usando la keyword validada en el paso anterior):
      ```
-     Antes de escribir, necesito datos SERP reales para: "{keyword}"
-     Por favor busca esto en Google y proporciona:
+     Ahora necesito datos SERP reales para: "{keyword validada}"
+     Por favor proporciona:
      1. Top 3-5 páginas posicionadas (título + URL)
      2. Preguntas de "Otras preguntas de los usuarios" (4-6)
      3. Búsquedas relacionadas del pie de Google
-     4. Keywords relacionadas de tus herramientas SEO como Ahrefs, SEMrush, Ubersuggest (opcional)
      ```
    - WAIT for response before proceeding. Do NOT proceed without SERP data. Do NOT substitute your own web search.
-e) **Define unique angle** from SERP data gaps. 1 sentence. If no genuine gap found, tell user.
+f) **Define unique angle** from SERP data gaps. 1 sentence. If no genuine gap found, tell user.
 
 **STEP 2: Draft** (sub-agents for long blog sections)
 

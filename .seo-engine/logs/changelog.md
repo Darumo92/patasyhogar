@@ -1,5 +1,23 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-08 12:00
+**Action:** Complete keyword audit with Keyword Surfer — verified ALL remaining keywords with 0 volume
+**Files:** .seo-engine/data/seo-keywords.csv
+**Summary:** Verified 30+ keywords with real Keyword Surfer data. Updated all entries with confirmed volumes and related keyword notes. Added 17 new high-volume keywords discovered: parque para perros (9900), transportín perro (6600), gps para perros (5400), jugar con gatitos (4400), collar antiparasitario perros (3600), dieta barf perros (3600), piensos hipoalergénicos perros (2900), perros no sueltan pelo (2400), juguetes para perros (2400), malta para gatos (1900), cómo llevar perro en coche (1300), como educar un gato (1000), gatos que no dan alergia (1000), mejores piensos perros ocu (880), limpieza dental perros (880), tabla cantidad comida perro (880), comedero automatico perro (720). Identified dead keywords (0 vol, no ideas): pasear perro guía completa, perro miedo ruidos fuertes, cuidados perro primavera, presupuesto mascota mensual, proteger casa gato, preparar casa mascota.
+**Triggered by:** user — Keyword Surfer extension installed
+
+## 2026-04-07 18:00
+**Action:** Major keyword data update — replaced SEMrush estimates with real KeywordSurfer ES volumes
+**Files:** .seo-engine/data/seo-keywords.csv
+**Summary:** Updated 20+ existing keywords with real search volumes from KeywordSurfer (Spain). SEMrush free plan was severely underreporting (e.g. "mejor pienso perro" showed 40 vol vs real 1,600). Added 8 new high-volume informational keyword gaps: diarrea en perros (3,600), mi perro vomita (1,900), cortar uñas perro (1,600), golpe de calor perros (1,300), por qué mi gato muerde (880), mi gato bebe mucha agua (720), cada cuánto bañar perro (480), mi gato no come (390). Key finding: informational health keywords have 3-10x more volume than commercial product keywords. Top 5 content gaps total ~9,300 vol/month with no existing articles.
+**Triggered by:** user — GSC analysis comparing patasyhogar vs tuespaciodetrabajo performance
+
+## 2026-04-07 17:00
+**Action:** Fixed indexation issues — removed /tags/ from robots.txt + added 4 missing redirect rules
+**Files:** public/robots.txt, public/_redirects
+**Summary:** GSC analysis revealed only 27 of 133 articles actually indexed. Root cause: 42 tag pages indexed as empty pages (robots.txt blocked Google from reading noindex meta). Fix: removed /tags/ Disallow so Google can crawl and see noindex. Also added 4 non-trailing-slash redirect rules for URLs returning 404. Expected impact: ~42 tag pages desindexed over 2-4 weeks, freeing crawl budget for real articles.
+**Triggered by:** user — GSC indexation data analysis
+
 ## 2026-04-06 10:00
 **Action:** Created new informativo article "Tecnología para mascotas 2026: lo que funciona de verdad"
 **Files:** src/content/articulos/tecnologia-mascotas-2026.mdx, .seo-engine/data/content-map.yaml, .seo-engine/data/content-queue.yaml, .seo-engine/data/seo-keywords.csv
