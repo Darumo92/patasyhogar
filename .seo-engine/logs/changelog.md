@@ -1,5 +1,17 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-09 15:00
+**Action:** Coverage audit FINAL batch — 10 keywords (last unmapped articles)
+**Files:** seo-keywords.csv
+**Summary:** Mapped 10, 2 dead. Stars: gps para perros (5400!), comida húmeda para gatos (2400), cortar uñas gato (1600), gps para gato (1300), limpiar dientes perro (720), pienso para perro esterilizado (590), limpiar orejas perro (590). Low vol: perro sobrepeso (140). Dead: residencias mascotas (0 — local intent only), snacks naturales gatos (0 — brand Churu dominates). Total new volume: ~12,740. SESSION TOTAL: ~87,000+ volume mapped across ~67 new keyword entries. Coverage went from 50% to ~90%+.
+**Triggered by:** user
+
+## 2026-04-09 14:30
+**Action:** Coverage audit batch 5 — 10 keywords (alimentación + hogar)
+**Files:** seo-keywords.csv
+**Summary:** Mapped 12 entries (some with retargets). Stars: jaula para perros (4400!), comida húmeda para perros (1900), pienso urinary gato (880 — retarget from 'pienso gato urinario' 0 vol), manta refrescante para perros (880 — retarget from 'alfombrilla refrigerante' 0 vol). Also: comida húmeda perros (590), snacks gatos (170), pienso cachorro gato (140), muda pelo perro (110). Dead: pienso gato pelo largo (0), pienso perro diabético (0 — niche medical), edad gato (0 — no ideas). Total new volume: ~9,970. Running total: ~74,000+.
+**Triggered by:** user
+
 ## 2026-04-09 14:00
 **Action:** Coverage audit batch 4 — 10 keywords (mix products + informativos)
 **Files:** seo-keywords.csv
