@@ -140,8 +140,8 @@ queue:
     blog_type: "tutorial"
     content_type: "pillar"
     cluster_id: "tc_juguetes_enriquecimiento"
-    target_keywords: ["enriquecimiento ambiental perros", "juguetes enriquecimiento mascotas", "estimulación mental mascotas", "ideas enriquecimiento DIY"]
-    unique_angle: "Única guía que cubre enriquecimiento para perros Y gatos juntos. Incluye ideas DIY con coste cero, rutina semanal de enriquecimiento canino, y tabla de juguetes por temperamento. SERP dominado por artículos solo de perros."
+    target_keywords: ["juguetes para perros", "juegos con perros", "juguetes gatos", "enriquecimiento ambiental perros"]
+    unique_angle: "RETARGETED 2026-04-09. Única guía que cubre enriquecimiento para perros Y gatos juntos. Incluye ideas DIY con coste cero, rutina semanal de enriquecimiento canino, y tabla de juguetes por temperamento. Target: 'juguetes para perros' (2400)."
     priority: "high"
     priority_reason: "Pillar page for juguetes cluster (11 published articles)."
     status: "published"
@@ -170,8 +170,8 @@ queue:
     cluster_id: "tc_hogar_mascotas"
     target_keywords: ["preparar casa mascota", "hogar seguro perros gatos", "preparar hogar mascota nueva", "llegada cachorro casa"]
     unique_angle: "Va más allá de la llegada: cubre seguridad, organización por zonas, convivencia multiespecie y mantenimiento continuo del hogar. Competidores son artículos superficiales de 5-7 tips (Purina, Idealista, El Mueble)."
-    priority: "high"
-    priority_reason: "Pillar page for hogar cluster (13 published articles)."
+    priority: "medium"
+    priority_reason: "DEPRIORITIZED 2026-04-09. ALL keywords confirmed 0 vol. 'seguro' = insurance intent. Pillar serves as INTERNAL LINKING HUB only — no SEO traffic expected. Cluster product pages carry the organic traffic."
     status: "published"
     actual_word_count: 3500
     serp_analyzed: true
@@ -516,10 +516,10 @@ queue:
     content_type: "cluster"
     cluster_id: "tc_hogar_mascotas"
     animal: "ambos"
-    target_keywords: ["mejor cámara vigilar mascotas", "cámara vigilancia mascotas", "cámara para perros", "pet camera", "cámara interior WiFi", "vigilar mascota en casa"]
+    target_keywords: ["cámaras para perros", "cámara para mascotas", "cámara vigilancia mascotas", "cámara para vigilar mascotas"]
     unique_angle: "Comparativa enfocada exclusivamente en funciones útiles para mascotas (detección de ladridos, audio bidireccional, seguimiento automático), no solo specs genéricas de cámara de seguridad."
-    priority: "high"
-    priority_reason: "High commercial intent keyword (~1600 vol). Pet cameras gaining popularity in Spain."
+    priority: "medium"
+    priority_reason: "RETARGETED 2026-04-09. 'mejor cámara vigilar mascotas' = 0 vol (was estimated 1600). Best real keyword: 'cámaras para perros' = 390."
     status: "human-review"
     actual_word_count: 2800
     serp_analyzed: false
@@ -537,8 +537,8 @@ queue:
     animal: "ambos"
     target_keywords: ["tecnología mascotas 2026", "gadgets mascotas 2026", "tendencias mascotas 2026", "novedades tecnología mascotas"]
     unique_angle: "Perspectiva desde 2+ años probando gadgets con Kira y Mango. Evaluación crítica de qué funciona vs qué es marketing. Enlaces a comparativas detalladas."
-    priority: "medium"
-    priority_reason: "Informational content gap. Complements existing product comparativas with editorial perspective. Cross-cluster article."
+    priority: "low"
+    priority_reason: "DEPRIORITIZED 2026-04-09. All keywords confirmed 0 vol with no KW ideas. Brand content only, not SEO-driven."
     status: "published"
     actual_word_count: 2100
     serp_analyzed: true
@@ -575,3 +575,69 @@ queue:
       - "ansiedad-separacion-perros"
       - "por-que-perros-comen-hierba"
       - "guia-completa-salud-bienestar-perros"
+
+  - id: "q_026"
+    title: "Plantas tóxicas para gatos: cuáles evitar y alternativas seguras"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_hogar_mascotas"
+    animal: "gato"
+    target_keywords: ["plantas tóxicas para gatos", "plantas no tóxicas para gatos", "plantas venenosas para gatos", "plantas aptas para gatos"]
+    unique_angle: "Lista completa con fotos de las plantas más comunes en hogares españoles que son tóxicas, síntomas de intoxicación, qué hacer si tu gato come una, y alternativas seguras que puedes tener. Experiencia real con Mango."
+    priority: "high"
+    priority_reason: "From KW Surfer audit 2026-04-09. 'plantas tóxicas para gatos' = 1600 — HIGHEST volume informational keyword in hogar cluster. Also covers 'no tóxicas' (1000) and 'venenosas' (720)."
+    status: "planned"
+    estimated_word_count: 2500
+    serp_analyzed: false
+    cannibalization_check: "passed — only alimentos-toxicos-gatos exists (food, not plants)"
+    notes: "Tipo: informativo. Cross-links to alimentos-toxicos-gatos. Strong cluster page for hogar pillar which has no SEO keyword of its own."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-hogar-seguro-mascotas"
+      - "alimentos-toxicos-gatos"
+      - "enriquecimiento-ambiental-gato-interior"
+
+  # === NEW ITEMS FROM KW SURFER AUDIT 2026-04-09 ===
+
+  - id: "q_024"
+    title: "Juegos con perros: ideas para estimulación mental y física"
+    blog_type: "tutorial"
+    content_type: "cluster"
+    cluster_id: "tc_juguetes_enriquecimiento"
+    animal: "perro"
+    target_keywords: ["juegos con perros", "juegos inteligencia perros", "juegos olfativos para perros", "juegos mentales para perros"]
+    unique_angle: "Ideas prácticas organizadas por tipo (olfato, inteligencia, físicos, sociales) con nivel de dificultad. Diferencia juegos que necesitan juguetes vs juegos gratis. Experiencia real con Kira."
+    priority: "medium"
+    priority_reason: "Added from KW Surfer audit. 'juegos con perros' = 1000 vol. Fills gap between product comparativas and enrichment pillar."
+    status: "planned"
+    estimated_word_count: 2500
+    serp_analyzed: false
+    cannibalization_check: "passed — pillar covers overview, this goes deep into games specifically"
+    notes: "Tipo: informativo. KW Surfer data: 'juegos con perros' = 1000, 'juegos inteligencia perros' = 260, 'juegos olfativos para perros' = 140."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-juguetes-enriquecimiento-mascotas"
+      - "mejor-juguete-mental-perros-guia"
+      - "alfombras-olfato-perros"
+      - "mejor-circuito-agilidad-perros"
+
+  - id: "q_025"
+    title: "Mejor collar antiparasitario para perros 2026"
+    blog_type: "listicle"
+    content_type: "cluster"
+    cluster_id: "tc_higiene_perros"
+    animal: "perro"
+    target_keywords: ["mejor collar antiparasitario perros", "collar antiparasitario perros", "collares antiparasitarios para perro", "mejor collar antiparasitario perro"]
+    unique_angle: "Comparamos químicos (Seresto, Scalibor) Y naturales — somos los únicos que cubren ambos en una misma comparativa. Incluye tabla de duración, espectro de protección, y combinaciones seguras."
+    priority: "high"
+    priority_reason: "PIVOTED from 'collar antipulgas natural perro' (0 vol). 'mejor collar antiparasitario perros' = 590, parent 'collar antiparasitario perros' = 3600. High commercial intent."
+    status: "planned"
+    estimated_word_count: 3000
+    serp_analyzed: false
+    cannibalization_check: "passed — replaces collar-antipulgas-natural-perro (will be redirected)"
+    notes: "Tipo: comparativa. Replaces old natural-only article. Old slug collar-antipulgas-natural-perro needs 301 redirect."
+    depends_on: []
+    internal_link_targets:
+      - "mejor-antiparasitario-perros-guia"
+      - "garrapatas-perros-prevenir-extraer"
+      - "guia-completa-higiene-grooming-perros"

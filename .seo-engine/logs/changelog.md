@@ -1,5 +1,59 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-09 14:00
+**Action:** Coverage audit batch 4 — 10 keywords (mix products + informativos)
+**Files:** seo-keywords.csv
+**Summary:** Mapped 7 with volume, 3 dead (gato solo fin de semana, presentar perro gato, cepillo pelo perro sofá). Stars: piscina para perro (5400!), rampa para perros (2900 — hidden behind 'escalera perro' 1300), bebederos para perros (2400), porque amasan los gatos (1900). Also: protector almohadillas perro (590), dispensador bolsas perro (170). 'perro ladra noche' = 0 exact (best alt: 'mi perro ladra por la noche' = 170). Total new volume: ~13,360. Running total: ~64,000+.
+**Triggered by:** user
+
+## 2026-04-09 13:30
+**Action:** Coverage audit batch 3 — 10 more product keywords (paseo + higiene)
+**Files:** seo-keywords.csv
+**Summary:** All 10 have volume! Mapped: chubasquero perro (2900), correa extensible perro (1000), abrigo perro (1000), chaleco salvavidas perro (720), bolsas caca perro (590), cepillo gatos (590), toallitas perros (390), collar luminoso perro (390), secador perros (210), comedero antihormigas (210). Total new volume: ~8,000. Running total today: ~51,000+ volume mapped across 30 articles.
+**Triggered by:** user
+
+## 2026-04-09 13:00
+**Action:** Coverage audit batch 2 — 10 more product keywords mapped
+**Files:** seo-keywords.csv
+**Summary:** KEY FINDING: product nouns without "mejor" have massive volume. Mapped: cama perro (8100!), collares antiladridos (4400), fuente para gatos (2900), comedero para perro (2900), limpiador enzimático (2400), comederos para gatos (1300), cortauñas perro (880), manta para perros (880), collar antiladridos perro (590), snacks perros (390). 'limpiador enzimático mascotas' = 0 but generic 'limpiador enzimático' = 2400. 'protector sofá mascotas' = 0, best alt 'funda sofá antiarañazos' = 210 (very low). Total new volume: ~24,650. Running total today: ~43,000+ volume mapped.
+**Triggered by:** user
+
+## 2026-04-09 12:30
+**Action:** Coverage audit — mapped 10 unmapped articles with real keywords
+**Files:** seo-keywords.csv
+**Summary:** KEY INSIGHT: "mejor X" pattern has 0 vol in KW Surfer — users search the product noun directly. Mapped 9 existing articles (1 dead): transportín gato (5400!), correas perro (3600), bozal perro (2900), arnés para gatos (1900), areneros para gatos (1300), champú perros (1300), aspirador pelo perro (720), peine para perro (590), corta pelo perros (480). 'mejores empapadores perros' dead (0 vol, no ideas). Total new volume mapped: ~18,390. Still ~60 unmapped articles to go.
+**Triggered by:** user
+
+## 2026-04-09 12:00
+**Action:** Hogar pillar resolution + plantas tóxicas gatos (1600 vol)
+**Files:** seo-keywords.csv, content-queue.yaml, topic-clusters.yaml
+**Summary:** Verified 5 alternative keywords for hogar pillar — all dead except 'gatera para gatos' (720, already has article) and 'plantas tóxicas gatos' (260 exact, but 'plantas tóxicas para gatos' = 1600!). Decision: pillar stays as internal linking hub with no SEO keyword. New cluster article q_026 'plantas tóxicas para gatos' (1600 vol) added — highest volume informational keyword in the entire hogar cluster. Also covers 'plantas no tóxicas para gatos' (1000) and 'plantas venenosas para gatos' (720). Added to topic-clusters + content-queue. Hogar pillar deprioritized to medium.
+**Triggered by:** user
+
+## 2026-04-09 11:30
+**Action:** Strategic keyword pivots — collar antiparasitario, juguetes pillar, new cluster articles
+**Files:** seo-keywords.csv, content-queue.yaml, topic-clusters.yaml
+**Summary:** (1) Collar antipulgas natural → pivoted to 'mejor collar antiparasitario perros' (590 vol, parent 3600). New q_025 in queue. Slug will change from collar-antipulgas-natural-perro to mejor-collar-antiparasitario-perros (needs 301 redirect). (2) Juguetes pillar retargeted to 'juguetes para perros' (2400). (3) New cluster article: 'juegos con perros' (1000 vol) added as q_024. (4) Cámara article deprioritized (high→medium, 1600→390 real vol). (5) Tech 2026 deprioritized to low.
+**Triggered by:** user — strategic decision session
+
+## 2026-04-09 11:00
+**Action:** Keyword Surfer verification — batch 3 (10 keywords: costes perro + antiparasitarios + enriquecimiento/hogar)
+**Files:** .seo-engine/data/seo-keywords.csv
+**Summary:** All 10 confirmed at 0 vol. Key findings: (1) Costes perro cluster fully dead — 'gastos mensuales perro España' and 'presupuesto perro' have NO keyword ideas. (2) Antiparasitarios: 'natural' niche has 0 vol but KW ideas reveal massive market — 'collar antiparasitario perros' = 3600, 'seresto' = 9900. Article should consider pivoting to general comparison. 'antipulgas natural perro' → 'remedios caseros para pulgas' = 390 best alt. (3) Enriquecimiento pillar: 'juegos con perros' = 1000 is best retarget (from 'estimulación mental mascotas'). (4) CRITICAL: 'hogar seguro perros gatos' maps to PET INSURANCE intent ('seguro perro' = 5400) — Google misinterprets 'seguro' as insurance, not safety. Entire hogar pillar has no viable keywords.
+**Triggered by:** user
+
+## 2026-04-09 10:30
+**Action:** Keyword Surfer verification — batch 2 (9 keywords: costes gato + ansiedad perros)
+**Files:** .seo-engine/data/seo-keywords.csv
+**Summary:** All 9 confirmed at 0 vol. Costes gato cluster (5 kw): all 0, KW ideas off-intent (buying/medical, not monthly costs) — all demoted to low priority. 'cuánto cuesta desparasitar a un gato' gets 260 as variant from parent 'desparasitar gatos' (1600). Ansiedad perros secondaries (4 kw): all 0, KW ideas loop back to parent 'ansiedad por separación en perros' (1600). 'ansiedad separación perros adoptados' and 'regla 3-3-3 ansiedad canina' are completely dead (no KW ideas). All demoted to low priority.
+**Triggered by:** user
+
+## 2026-04-09 10:00
+**Action:** Keyword Surfer verification — priority batch 1 (8 keywords)
+**Files:** .seo-engine/data/seo-keywords.csv
+**Summary:** Verified 8 high-priority keywords. 3 confirmed with real volume: 'garrapatas en perros' (6600), 'quitar garrapata perro' (1300), 'ansiedad por separación en perros' (1600). Retargeted 3: 'mejor cámara vigilar mascotas' → 'cámaras para perros' (390), 'mejor comedero automatico perros' → 'comedero automático perros' (720), 'dispensador comida perros app' → 'dispensador comida perros' (390). Confirmed 0-vol for 'cuánto cuesta mantener perro/gato al mes' (intent valid but no exact-match volume). 'tecnología mascotas 2026' confirmed dead (0 vol, no keyword ideas). Updated 16 lines total including secondaries. Also updated 'enfermedades garrapatas perro' to 390 and 'comedero automático perros grandes' to 210.
+**Triggered by:** user
+
 ## 2026-04-08 12:00
 **Action:** Complete keyword audit with Keyword Surfer — verified ALL remaining keywords with 0 volume
 **Files:** .seo-engine/data/seo-keywords.csv

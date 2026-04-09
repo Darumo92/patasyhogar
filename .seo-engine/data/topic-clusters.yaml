@@ -365,11 +365,12 @@ clusters:
         slug: "garrapatas-perros-prevenir-extraer"
         status: "published"
         blog_slug: "garrapatas-perros-prevenir-extraer"
-      - title: "Mejor collar antipulgas natural para perros"
-        target_keyword: "collar antipulgas natural perro"
-        slug: "collar-antipulgas-natural-perro"
-        status: "human-review"
-        blog_slug: "collar-antipulgas-natural-perro"
+      - title: "Mejor collar antiparasitario para perros"
+        target_keyword: "mejor collar antiparasitario perros"
+        slug: "mejor-collar-antiparasitario-perros"
+        status: "planned"
+        blog_slug: ""
+        notes: "PIVOTED 2026-04-09. 'collar antipulgas natural perro' = 0 vol. New target: 'mejor collar antiparasitario perros' = 590. Parent: 'collar antiparasitario perros' = 3600. Angle: comparamos químicos Y naturales."
       # Planned pages
       - title: "Cómo bañar a tu perro en casa paso a paso"
         target_keyword: "cómo bañar perro casa"
@@ -616,12 +617,12 @@ clusters:
     description: "Juguetes, rascadores, estimulación mental, y enriquecimiento ambiental para perros y gatos"
     pillar:
       title: "Guía completa de juguetes y enriquecimiento para mascotas"
-      target_keyword: "juguetes enriquecimiento mascotas"
+      target_keyword: "juguetes para perros"
       slug: "guia-completa-juguetes-enriquecimiento-mascotas"
       status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-juguetes-enriquecimiento-mascotas"
-      notes: "SERP informacional (Purina, ExpertAnimal, Tiendanimal). Ángulo: única guía que cubre perros Y gatos. Sección DIY coste cero + rutina semanal enriquecimiento."
+      notes: "RETARGETED 2026-04-09: 'juguetes enriquecimiento mascotas' = 0 vol. New target: 'juguetes para perros' = 2400. SERP informacional (Purina, ExpertAnimal, Tiendanimal). Ángulo: única guía que cubre perros Y gatos."
     cluster_pages:
       # Published pages
       - title: "Mejor juguete para cachorros"
@@ -680,6 +681,13 @@ clusters:
         status: "published"
         blog_slug: "como-adiestrar-gato-tecnicas"
       # Planned pages
+      - title: "Juegos con perros: ideas para estimulación mental y física"
+        target_keyword: "juegos con perros"
+        slug: "juegos-con-perros-estimulacion"
+        status: "planned"
+        serp_analyzed: false
+        blog_slug: ""
+        notes: "Added 2026-04-09. KW Surfer: 'juegos con perros' = 1000. Related: 'juegos inteligencia perros' = 260, 'juegos olfativos para perros' = 140."
       - title: "Mejores juguetes para perros grandes"
         target_keyword: "juguetes perro grande"
         slug: "mejores-juguetes-perros-grandes"
@@ -714,7 +722,7 @@ clusters:
       status: "published"
       serp_analyzed: true
       blog_slug: "guia-completa-hogar-seguro-mascotas"
-      notes: "SERP informacional (Purina, RSCE, Idealista, El Mueble). Ángulo: profundidad vs tips superficiales. Cubre seguridad, zonas, multiespecie, clima, ausencias. Búsquedas relacionadas: introducir gato con perros."
+      notes: "NO VIABLE KEYWORD (2026-04-09 audit: all variants 0 vol, 'seguro' = insurance intent). Pillar serves as INTERNAL LINKING HUB only — organic traffic comes from cluster product pages (camas 4400, gatera 2400, parque perros 9900). Do not invest SEO effort in pillar keyword."
     cluster_pages:
       # Published pages
       - title: "Mejor cama para perros"
@@ -793,6 +801,13 @@ clusters:
         status: "published"
         blog_slug: "cuanto-cuesta-mantener-un-perro-al-mes"
       # Planned pages
+      - title: "Plantas tóxicas para gatos: cuáles evitar y alternativas seguras"
+        target_keyword: "plantas tóxicas para gatos"
+        slug: "plantas-toxicas-gatos"
+        status: "planned"
+        serp_analyzed: false
+        blog_slug: ""
+        notes: "Added 2026-04-09 from KW audit. 'plantas tóxicas para gatos' = 1600. Related: 'plantas no tóxicas para gatos' = 1000, 'plantas venenosas para gatos' = 720, 'plantas aptas para gatos' = 480. HIGHEST VOL informational keyword in hogar cluster."
       - title: "Cómo proteger tu casa para un gato"
         target_keyword: "proteger casa gato seguridad"
         slug: "como-proteger-casa-gato"
@@ -810,6 +825,7 @@ clusters:
       - "Pillar MUST link to all published cluster pages"
       - "Cross-link cama <-> manta <-> protector sofá"
       - "Cross-link puerta seguridad <-> cachorro primeras semanas"
+      - "plantas-toxicas-gatos <-> alimentos-toxicos-gatos (cross-cluster link)"
 
   - cluster_id: "tc_salud_comportamiento_perros"
     name: "Salud y comportamiento de perros"
