@@ -13,10 +13,12 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
     Todos <span class="animal-filter-count">{totalCount}</span>
   </button>
   <button class="animal-filter-btn" data-filter="perro" role="tab" aria-selected="false">
-    🐶 Perros <span class="animal-filter-count">{perroCount}</span>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/></svg>
+    Perros <span class="animal-filter-count">{perroCount}</span>
   </button>
   <button class="animal-filter-btn" data-filter="gato" role="tab" aria-selected="false">
-    🐱 Gatos <span class="animal-filter-count">{gatoCount}</span>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.1 6.95-.33a4.52 4.52 0 0 1 .18 6.58L12 21 2.87 11.51a4.52 4.52 0 0 1 .18-6.58c1.92-1.77 5.17-1.67 6.95.33.65-.17 1.33-.26 2-.26z"/></svg>
+    Gatos <span class="animal-filter-count">{gatoCount}</span>
   </button>
 </div>
 
