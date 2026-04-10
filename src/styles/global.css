@@ -302,7 +302,7 @@ a:hover {
   font-size: 0.85rem;
   font-weight: 500;
   color: var(--color-text-muted);
-  transition: all var(--transition);
+  transition: background-color var(--transition), color var(--transition);
 }
 
 .nav-link:hover {
@@ -481,7 +481,7 @@ a:hover {
   font-size: 1.05rem;
   padding: 0.875rem 2rem;
   border-radius: var(--radius-md);
-  transition: all 0.25s ease;
+  transition: background-color var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
   text-decoration: none;
   letter-spacing: -0.01em;
 }
@@ -551,7 +551,7 @@ a:hover {
   border-radius: var(--radius-sm);
   text-decoration: none;
   color: var(--color-text);
-  transition: all 0.2s ease;
+  transition: box-shadow var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out);
 }
 
 .seasonal-item:hover {
@@ -702,7 +702,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  transition: all 0.25s ease, background-color 0.3s ease;
+  transition: border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), background-color var(--duration-slow) var(--ease-out);
   color: var(--color-text);
 }
 
@@ -732,7 +732,7 @@ a:hover {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   color: var(--color-text-muted);
-  transition: all 0.3s ease;
+  transition: background-color var(--duration-slow) var(--ease-out), color var(--duration-slow) var(--ease-out), transform var(--duration-normal) var(--ease-out);
 }
 
 .category-info h3 {
@@ -763,7 +763,7 @@ a:hover {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   overflow: hidden;
-  transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0.3s ease;
+  transition: box-shadow var(--duration-slow) var(--ease-out), transform var(--duration-slow) var(--ease-out), border-color var(--duration-slow) var(--ease-out), background-color var(--duration-slow) var(--ease-out);
   display: flex;
   flex-direction: column;
 }
@@ -1092,7 +1092,7 @@ a:hover {
   font-size: 0.9rem;
   padding: 0.7rem 1.4rem;
   border-radius: 100px;
-  transition: all 0.25s ease;
+  transition: background-color var(--duration-normal) var(--ease-out), transform var(--duration-fast) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
   text-decoration: none;
   letter-spacing: -0.01em;
   white-space: nowrap;
@@ -1767,7 +1767,7 @@ button:focus-visible,
   font-weight: 500;
   color: var(--color-text);
   text-decoration: none;
-  transition: all var(--transition);
+  transition: background-color var(--transition), color var(--transition);
 }
 
 .nav-dropdown-item:hover {
