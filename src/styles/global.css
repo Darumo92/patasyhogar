@@ -370,37 +370,11 @@ a:hover {
    ========================================= */
 
 .hero {
-  background:
-    radial-gradient(circle, color-mix(in srgb, var(--color-primary) 6%, transparent) 1px, transparent 1px),
-    var(--color-bg);
-  background-size: 28px 28px;
-  padding: 4.5rem 0 3.5rem;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--color-primary) 4%, var(--color-bg)) 0%, color-mix(in srgb, var(--color-primary) 8%, var(--color-bg)) 50%, color-mix(in srgb, var(--color-secondary) 5%, var(--color-bg)) 100%);
+  padding: 4rem 0;
   text-align: center;
   border-bottom: 1px solid var(--color-border);
   position: relative;
-  overflow: hidden;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -20%;
-  width: 60%;
-  height: 200%;
-  background: radial-gradient(ellipse, rgba(5, 150, 105, 0.07) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  bottom: -50%;
-  right: -20%;
-  width: 60%;
-  height: 200%;
-  background: radial-gradient(ellipse, rgba(249, 115, 22, 0.06) 0%, transparent 70%);
-  pointer-events: none;
 }
 
 .hero-title {
@@ -615,6 +589,56 @@ a:hover {
 
   .seasonal-item {
     min-width: auto;
+  }
+}
+
+/* =========================================
+   TRUST BAR
+   ========================================= */
+
+.trust-bar {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.trust-bar-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.trust-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text);
+}
+
+.trust-bar-item svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.trust-bar-item span {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.trust-bar-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--color-border);
+}
+
+@media (max-width: 640px) {
+  .trust-bar-inner {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .trust-bar-divider {
+    display: none;
   }
 }
 
