@@ -2002,7 +2002,7 @@ button:focus-visible,
 @keyframes reveal-up {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(12px);
   }
   to {
     opacity: 1;
@@ -2015,7 +2015,7 @@ button:focus-visible,
 }
 
 .reveal.revealed {
-  animation: reveal-up 0.5s ease forwards;
+  animation: reveal-up 0.4s var(--ease-out) forwards;
 }
 
 /* Stagger children in grids */
@@ -2031,7 +2031,7 @@ button:focus-visible,
 }
 
 .reveal-group.revealed > * {
-  animation: reveal-up 0.5s ease forwards;
+  animation: reveal-up 0.4s var(--ease-out) forwards;
 }
 
 /* Respect reduced motion */
