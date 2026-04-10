@@ -93,6 +93,13 @@
   --container-padding: 1.5rem;
 }
 
+html.theme-transitioning,
+html.theme-transitioning *,
+html.theme-transitioning *::before,
+html.theme-transitioning *::after {
+  transition: background-color 300ms var(--ease-out), color 300ms var(--ease-out), border-color 300ms var(--ease-out), box-shadow 300ms var(--ease-out) !important;
+}
+
 /* Dark mode */
 [data-theme="dark"] {
   --color-bg: #121220;
