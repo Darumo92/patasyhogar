@@ -173,7 +173,7 @@ function tiendas(p: Producto) {
     const stars = starData(p.valoracion);
     return (
       <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={p.precio} data-price-num={parseFloat((p.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.'))} data-rating={p.valoracion} data-original-index={i}>
-        {i === 0 && <span class="comp-badge">🏆 Mejor opción</span>}
+        {i === 0 && <span class="comp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Mejor opción</span>}
 
         <div class="comp-header">
           {p.imagen && (
@@ -465,16 +465,34 @@ function tiendas(p: Producto) {
 }
 
 .comp-price-row:hover {
-  background: var(--color-border);
+  background: color-mix(in srgb, var(--store-color, var(--color-primary)) 12%, var(--color-bg-muted));
   color: var(--color-text);
   transform: translateX(2px);
 }
 
 /* Store color indicators */
-.comp-price-row[href*="amazon"] { --store-color: #b56e00; }
-.comp-price-row[href*="zooplus"] { --store-color: #2d6e1f; }
-.comp-price-row[href*="tiendanimal"] { --store-color: #00632E; }
-.comp-price-row[href*="ikhnaie.me"] { --store-color: #00632E; }
+.comp-price-row[href*="amazon"] {
+  --store-color: #FF9900;
+  background: #fff8f0;
+  border-left-color: #ffe4c4;
+}
+.comp-price-row[href*="amazon"] .comp-price-amount { color: #c2410c; }
+
+.comp-price-row[href*="zooplus"] {
+  --store-color: #00473e;
+  background: #f0fdf8;
+  border-left-color: #d1fae5;
+}
+.comp-price-row[href*="zooplus"] .comp-price-amount { color: #00473e; }
+
+.comp-price-row[href*="tiendanimal"],
+.comp-price-row[href*="ikhnaie.me"] {
+  --store-color: #00632E;
+  background: #f0fdf4;
+  border-left-color: #bbf7d0;
+}
+.comp-price-row[href*="tiendanimal"] .comp-price-amount,
+.comp-price-row[href*="ikhnaie.me"] .comp-price-amount { color: #00632E; }
 
 .comp-price-row--best {
   background: color-mix(in srgb, var(--store-color) 10%, var(--color-bg-muted));
