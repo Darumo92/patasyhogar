@@ -36,8 +36,8 @@ const currentPath = Astro.url.pathname;
     <!-- Preload critical font (latin covers all Spanish chars: á é í ó ú ñ ü) -->
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
 
-    <!-- Display font for headings (self-hosted, not preloaded — non-critical for FCP) -->
-    <link rel="prefetch" href="/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Display font for headings (self-hosted, preloaded — used above fold in hero/headings) -->
+    <link rel="preload" href="/fonts/plus-jakarta-sans-800.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Preconnect for resources loaded on article pages -->
     <link rel="dns-prefetch" href="https://m.media-amazon.com" />
