@@ -7,41 +7,37 @@ interface Props {
 const { tienda, size = 16 } = Astro.props;
 ---
 
-{/* Amazon: smile arrow */}
 {tienda === 'amazon' && (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M4 16c4-2 10-2 16 0" />
-    <path d="M18 13.5l2.5 2.5-2 1" />
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.7-3.182v.685zm3.186 7.705a.66.66 0 0 1-.753.077c-1.06-.881-1.247-1.289-1.829-2.126-1.748 1.783-2.985 2.316-5.249 2.316C6.786 18.062 5 16.585 5 13.77c0-2.186 1.184-3.674 2.872-4.404 1.465-.644 3.51-.759 5.086-.936v-.349c0-.642.049-1.401-.328-1.955-.329-.498-.958-.704-1.514-.704-1.028 0-1.945.527-2.17 1.621-.046.244-.223.483-.466.495l-2.611-.282c-.22-.049-.463-.224-.4-.557C6.074 3.851 8.585 3 10.845 3c1.16 0 2.677.309 3.593 1.187.462.44.866 1.11 1.126 1.907.173.538.207 1.064.207 1.638v4.403c0 .66.267 1.296.819 1.784.189.162.412.366.5.492a.473.473 0 0 1-.044.673l-1.41 1.248-.492.463z"/>
+    <path d="M21.63 19.683C19.132 21.504 15.387 22.5 12.145 22.5c-4.568 0-8.681-1.689-11.792-4.5-.244-.221-.026-.522.268-.351 3.358 1.954 7.511 3.13 11.8 3.13 2.896 0 6.076-.6 9.004-1.845.442-.189.812.29.205.749z"/>
+    <path d="M22.688 18.381c-.333-.427-2.208-.202-3.049-.102-.256.031-.295-.192-.064-.353 1.493-1.049 3.942-.746 4.227-.395.287.354-.075 2.808-1.477 3.978-.215.18-.42.084-.325-.154.315-.786 1.022-2.548.688-2.974z"/>
   </svg>
 )}
 
-{/* Zooplus: stylized eyes (their brand icon) */}
 {tienda === 'zooplus' && (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-    <ellipse cx="7.5" cy="12" rx="4.5" ry="5" fill="none" stroke="currentColor" stroke-width="2" />
-    <circle cx="8.5" cy="12" r="2" />
-    <ellipse cx="16.5" cy="12" rx="4.5" ry="5" fill="none" stroke="currentColor" stroke-width="2" />
-    <circle cx="17.5" cy="12" r="2" />
+    <ellipse cx="12" cy="15" rx="3.5" ry="3"/>
+    <ellipse cx="6" cy="11.5" rx="2.2" ry="2.8" transform="rotate(-10 6 11.5)"/>
+    <ellipse cx="18" cy="11.5" rx="2.2" ry="2.8" transform="rotate(10 18 11.5)"/>
+    <ellipse cx="8.5" cy="5.5" rx="2" ry="2.5" transform="rotate(-5 8.5 5.5)"/>
+    <ellipse cx="15.5" cy="5.5" rx="2" ry="2.5" transform="rotate(5 15.5 5.5)"/>
   </svg>
 )}
 
-{/* Tiendanimal: paw print */}
 {tienda === 'tiendanimal' && (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-    <ellipse cx="7" cy="6.5" rx="2" ry="2.5" />
-    <ellipse cx="12" cy="5" rx="2" ry="2.5" />
-    <ellipse cx="17" cy="6.5" rx="2" ry="2.5" />
-    <ellipse cx="5" cy="12" rx="1.8" ry="2.3" />
-    <ellipse cx="19" cy="12" rx="1.8" ry="2.3" />
-    <path d="M8 16.5c0-2.5 2-4.5 4-4.5s4 2 4 4.5c0 2-1.5 3.5-4 3.5s-4-1.5-4-3.5z" />
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/>
+    <path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/>
+    <path d="M8 14v.5"/><path d="M16 14v.5"/>
+    <path d="M11.25 16.25h1.5L12 17l-.75-.75z"/>
+    <path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/>
   </svg>
 )}
 
-{/* Default: shopping cart */}
 {tienda === 'default' && (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <circle cx="9" cy="21" r="1" />
-    <circle cx="20" cy="21" r="1" />
-    <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+    <circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/>
+    <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
   </svg>
 )}
