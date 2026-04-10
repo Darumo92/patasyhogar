@@ -1625,17 +1625,17 @@ button:focus-visible,
 
 [data-theme="dark"] .hero {
   background:
-    radial-gradient(circle, color-mix(in srgb, var(--color-primary) 8%, transparent) 1px, transparent 1px),
+    radial-gradient(circle, color-mix(in srgb, var(--color-primary) 6%, transparent) 1px, transparent 1px),
     var(--color-bg);
   background-size: 28px 28px;
 }
 
 [data-theme="dark"] .hero::before {
-  background: radial-gradient(ellipse, rgba(107, 196, 160, 0.08) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(52, 211, 153, 0.06) 0%, transparent 70%);
 }
 
 [data-theme="dark"] .hero::after {
-  background: radial-gradient(ellipse, rgba(249, 115, 22, 0.06) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(249, 115, 22, 0.04) 0%, transparent 70%);
 }
 
 [data-theme="dark"] .category-page-header {
