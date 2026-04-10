@@ -494,6 +494,27 @@ function tiendas(p: Producto) {
 .comp-price-row[href*="tiendanimal"] .comp-price-amount,
 .comp-price-row[href*="ikhnaie.me"] .comp-price-amount { color: #00632E; }
 
+/* Dark mode store price rows */
+:global([data-theme="dark"]) .comp-price-row[href*="amazon"] {
+  background: rgba(255, 153, 0, 0.1);
+  border-left-color: rgba(255, 153, 0, 0.3);
+}
+:global([data-theme="dark"]) .comp-price-row[href*="amazon"] .comp-price-amount { color: #fbbf24; }
+
+:global([data-theme="dark"]) .comp-price-row[href*="zooplus"] {
+  background: rgba(0, 71, 62, 0.15);
+  border-left-color: rgba(94, 234, 212, 0.2);
+}
+:global([data-theme="dark"]) .comp-price-row[href*="zooplus"] .comp-price-amount { color: #5eead4; }
+
+:global([data-theme="dark"]) .comp-price-row[href*="tiendanimal"],
+:global([data-theme="dark"]) .comp-price-row[href*="ikhnaie.me"] {
+  background: rgba(0, 99, 46, 0.15);
+  border-left-color: rgba(134, 239, 172, 0.2);
+}
+:global([data-theme="dark"]) .comp-price-row[href*="tiendanimal"] .comp-price-amount,
+:global([data-theme="dark"]) .comp-price-row[href*="ikhnaie.me"] .comp-price-amount { color: #86efac; }
+
 .comp-price-row--best {
   background: color-mix(in srgb, var(--store-color) 10%, var(--color-bg-muted));
   border: 1px solid color-mix(in srgb, var(--store-color) 25%, transparent);

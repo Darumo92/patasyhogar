@@ -1652,14 +1652,43 @@ button:focus-visible,
   color: var(--color-text-muted);
 }
 
+[data-theme="dark"] .affiliate-button {
+  box-shadow: none;
+}
+
 [data-theme="dark"] .affiliate-button.amazon {
-  background: #d48800;
+  background: #FF9900;
   color: #0f1111;
 }
 
 [data-theme="dark"] .affiliate-button.amazon:hover {
-  background: #b87600;
+  background: #ffad33;
   color: #0f1111;
+  box-shadow: 0 6px 20px rgba(255, 153, 0, 0.25);
+}
+
+[data-theme="dark"] .affiliate-button.zooplus {
+  background: rgba(0, 71, 62, 0.25);
+  color: #5eead4;
+  border: 1px solid rgba(94, 234, 212, 0.25);
+}
+
+[data-theme="dark"] .affiliate-button.zooplus:hover {
+  background: rgba(0, 71, 62, 0.4);
+  color: #5eead4;
+  box-shadow: 0 6px 20px rgba(94, 234, 212, 0.15);
+}
+
+[data-theme="dark"] .affiliate-button.tiendanimal {
+  background: rgba(0, 99, 46, 0.25);
+  color: #86efac;
+  border: 1px solid rgba(134, 239, 172, 0.25);
+}
+
+[data-theme="dark"] .affiliate-button.tiendanimal:hover {
+  background: rgba(0, 99, 46, 0.4);
+  color: #86efac;
+  box-shadow: 0 6px 20px rgba(134, 239, 172, 0.15);
 }
 
 [data-theme="dark"] mark {
