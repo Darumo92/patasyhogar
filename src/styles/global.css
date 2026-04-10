@@ -460,7 +460,7 @@ a:hover {
 }
 
 .hero-cta-dog {
-  background: var(--color-dog);
+  background: var(--color-dog-dark);
   color: #fff;
 }
 
@@ -1331,7 +1331,7 @@ a:hover {
   padding-top: 1.5rem;
   text-align: center;
   font-size: 0.8rem;
-  color: var(--color-text-light);
+  color: var(--color-text-muted);
 }
 
 .footer-newsletter {
@@ -1394,7 +1394,7 @@ a:hover {
   padding: 0.6rem 1.25rem;
   border-radius: 100px;
   border: none;
-  background: var(--color-primary);
+  background: var(--color-primary-dark);
   color: #fff;
   font-weight: 600;
   font-size: 0.85rem;
@@ -2032,9 +2032,9 @@ button:focus-visible,
   align-items: center;
   gap: 0.15rem;
   padding: 0.3rem 0.5rem;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  color: var(--color-text-muted);
+  color: var(--color-text);
   text-decoration: none;
   transition: color var(--duration-fast) var(--ease-out), transform var(--duration-instant) var(--ease-out);
   -webkit-tap-highlight-color: transparent;

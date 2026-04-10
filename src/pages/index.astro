@@ -235,10 +235,15 @@ const categorias = [
         <h2 class="section-title reveal">Guías destacadas</h2>
         <p class="section-subtitle reveal">Nuestros análisis más completos y populares</p>
         <div class="articles-grid reveal-group">
-          {destacados.map((articulo, i) => (
+          {destacados.slice(0, 6).map((articulo, i) => (
             <ArticleCard articulo={articulo} eager={i < 2} />
           ))}
         </div>
+        {destacados.length > 6 && (
+          <div class="text-center" style="margin-top: 1.5rem;">
+            <a href="/articulos/" class="section-link">Ver todas las guías →</a>
+          </div>
+        )}
       </div>
     </section>
   )}
