@@ -12,9 +12,9 @@ const articulosOrdenados = articulos.sort(
 const destacados = articulosOrdenados.filter(a => a.data.destacado).slice(0, 3);
 
 const grupos = [
-  { id: 'perros', nombre: 'Cuidados para perros', icono: '🐶', articulos: articulosOrdenados.filter(a => a.data.animal === 'perro') },
-  { id: 'gatos', nombre: 'Cuidados para gatos', icono: '🐱', articulos: articulosOrdenados.filter(a => a.data.animal === 'gato') },
-  { id: 'ambos', nombre: 'Para perros y gatos', icono: '🐾', articulos: articulosOrdenados.filter(a => a.data.animal === 'ambos') },
+  { id: 'perros', nombre: 'Cuidados para perros', animal: 'perro', articulos: articulosOrdenados.filter(a => a.data.animal === 'perro') },
+  { id: 'gatos', nombre: 'Cuidados para gatos', animal: 'gato', articulos: articulosOrdenados.filter(a => a.data.animal === 'gato') },
+  { id: 'ambos', nombre: 'Para perros y gatos', animal: 'ambos', articulos: articulosOrdenados.filter(a => a.data.animal === 'ambos') },
 ].filter(g => g.articulos.length > 0);
 
 const siteUrl = 'https://patasyhogar.com';
@@ -64,7 +64,7 @@ const collectionSchema = {
 
   <div class="category-page-header">
     <div class="container">
-      <div class="category-icon-large" aria-hidden="true">📖</div>
+      <div class="category-icon-large" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg></div>
       <h1>Cuidados y consejos</h1>
       <p>{articulosOrdenados.length} guías informativas para el bienestar de tu mascota</p>
 
@@ -72,7 +72,11 @@ const collectionSchema = {
         <nav class="subcat-nav" aria-label="Filtrar por animal">
           {grupos.map(g => (
             <a href={`#${g.id}`} class="subcat-nav-link">
-              <span aria-hidden="true">{g.icono}</span>
+              <span aria-hidden="true">
+                {g.animal === 'perro' && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/></svg>}
+                {g.animal === 'gato' && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.1 6.95-.33a4.52 4.52 0 0 1 .18 6.58L12 21 2.87 11.51a4.52 4.52 0 0 1 .18-6.58c1.92-1.77 5.17-1.67 6.95.33.65-.17 1.33-.26 2-.26z"/></svg>}
+                {g.animal === 'ambos' && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="8" r="2"/><circle cx="2" cy="16" r="2"/><path d="M15.8 13.3a1.5 1.5 0 0 0-2.2-.8 6 6 0 0 1-6.2 0 1.5 1.5 0 0 0-2.2.8l-.7 1.4A2 2 0 0 0 6.3 17h11.4a2 2 0 0 0 1.8-2.7Z"/></svg>}
+              </span>
               <span>{g.nombre}</span>
               <span class="subcat-nav-count">{g.articulos.length}</span>
             </a>
@@ -112,7 +116,11 @@ const collectionSchema = {
         {grupos.map(g => (
           <section id={g.id} class="subcat-section">
             <h2 class="subcat-heading">
-              <span class="subcat-heading-icon" aria-hidden="true">{g.icono}</span>
+              <span class="subcat-heading-icon" aria-hidden="true">
+                {g.animal === 'perro' && <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/></svg>}
+                {g.animal === 'gato' && <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.1 6.95-.33a4.52 4.52 0 0 1 .18 6.58L12 21 2.87 11.51a4.52 4.52 0 0 1 .18-6.58c1.92-1.77 5.17-1.67 6.95.33.65-.17 1.33-.26 2-.26z"/></svg>}
+                {g.animal === 'ambos' && <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="8" r="2"/><circle cx="2" cy="16" r="2"/><path d="M15.8 13.3a1.5 1.5 0 0 0-2.2-.8 6 6 0 0 1-6.2 0 1.5 1.5 0 0 0-2.2.8l-.7 1.4A2 2 0 0 0 6.3 17h11.4a2 2 0 0 0 1.8-2.7Z"/></svg>}
+              </span>
               {g.nombre}
               <span class="subcat-heading-count">
                 {g.articulos.length} {g.articulos.length === 1 ? 'artículo' : 'artículos'}
@@ -126,7 +134,7 @@ const collectionSchema = {
       </>
     ) : (
       <div class="text-center" style="padding: 4rem 0;">
-        <p style="font-size: 3rem; margin-bottom: 1rem;">📖</p>
+        <div style="margin-bottom: 1rem;" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-text-muted);"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg></div>
         <h2 style="margin-bottom: 0.5rem;">Próximamente</h2>
         <p class="text-muted">Estamos preparando las primeras guías de cuidados.</p>
         <a href="/" class="affiliate-button" style="margin-top: 1.5rem; display: inline-flex;">
