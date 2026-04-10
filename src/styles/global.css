@@ -510,6 +510,11 @@ a:hover {
   box-shadow: 0 8px 24px color-mix(in srgb, var(--color-cat) 35%, transparent);
 }
 
+.hero-cta-btn:active {
+  transform: scale(0.97);
+  box-shadow: none;
+}
+
 .hero-meta {
   font-size: 0.85rem;
   color: var(--color-text-light);
@@ -559,6 +564,11 @@ a:hover {
   border-color: var(--seasonal-color, var(--color-primary));
   color: var(--color-text);
   transform: translateY(-1px);
+}
+
+.seasonal-item:active {
+  transform: scale(0.98);
+  box-shadow: none;
 }
 
 .seasonal-icon {
@@ -713,6 +723,11 @@ a:hover {
   color: var(--color-text);
 }
 
+.category-card:active {
+  transform: scale(0.98);
+  box-shadow: var(--shadow-sm);
+}
+
 .category-card:hover .category-icon {
   background: color-mix(in srgb, var(--color-primary) 12%, var(--color-bg));
   color: var(--color-primary);
@@ -772,6 +787,11 @@ a:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
   transform: translateY(-3px);
   border-color: color-mix(in srgb, var(--color-primary) 25%, var(--color-border));
+}
+
+.article-card:active {
+  transform: scale(0.98);
+  box-shadow: var(--shadow-sm);
 }
 
 .article-card-image {
@@ -1103,6 +1123,11 @@ a:hover {
   color: #fff;
   transform: translateY(-1px);
   box-shadow: 0 6px 20px rgba(45, 106, 79, 0.3);
+}
+
+.affiliate-button:active {
+  transform: scale(0.95);
+  box-shadow: none;
 }
 
 .affiliate-button.amazon {
@@ -1866,6 +1891,11 @@ button:focus-visible,
   box-shadow: var(--shadow-md);
 }
 
+.trust-card:active {
+  transform: scale(0.98);
+  box-shadow: none;
+}
+
 .trust-card:nth-child(2) {
   border-top-color: var(--color-secondary);
 }
@@ -1939,13 +1969,17 @@ button:focus-visible,
   font-weight: 600;
   color: var(--color-text-muted);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color var(--duration-fast) var(--ease-out), transform var(--duration-instant) var(--ease-out);
   -webkit-tap-highlight-color: transparent;
 }
 
-.bottom-nav-item:hover,
+.bottom-nav-item:hover {
+  color: var(--color-primary);
+}
+
 .bottom-nav-item:active {
   color: var(--color-primary);
+  transform: scale(0.92);
 }
 
 .bottom-nav-active {
