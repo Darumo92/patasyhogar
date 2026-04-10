@@ -1,0 +1,35 @@
+---
+interface Props {
+  category: string;
+  size?: number;
+  class?: string;
+}
+
+const { category, size = 24, class: className = '' } = Astro.props;
+
+const icons: Record<string, string> = {
+  alimentacion: `<path d="M15 11h.01"/><path d="M11 15h.01"/><path d="M16 16c1-1.5 3-2 4-3.5 2-3 .5-7-3-7.5"/><path d="M5 16c-1-1.5-3-2-4-3.5-2-3-.5-7 3-7.5"/><path d="M8.5 2c2 0 3 1 3.5 2"/><path d="M15.5 2c-2 0-3 1-3.5 2"/><path d="M3 21c0-3.5 2.5-6 5.5-7"/><path d="M21 21c0-3.5-2.5-6-5.5-7"/>`,
+  higiene: `<path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/>`,
+  paseo: `<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>`,
+  juguetes: `<line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/>`,
+  hogar: `<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>`,
+  cuidados: `<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>`,
+};
+
+const svgContent = icons[category] || icons['cuidados'];
+---
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class={className}
+  aria-hidden="true"
+  set:html={svgContent}
+/>
