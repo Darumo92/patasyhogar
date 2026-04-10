@@ -11,19 +11,18 @@ const { articulo, headingLevel = 3, eager = false } = Astro.props;
 const Heading = `h${headingLevel}` as any;
 const { titulo, descripcion, categoria, animal, fecha, actualizadoEn, imagen, tipo } = articulo.data;
 
-const animalEmoji = animal === 'perro' ? '🐶' : animal === 'gato' ? '🐱' : '🐾';
 const esInformativo = tipo === 'informativo';
 
-const categoriasInfo: Record<string, { nombre: string; icono: string }> = {
-  alimentacion: { nombre: 'Alimentación', icono: '🥣' },
-  higiene: { nombre: 'Higiene', icono: '🪮' },
-  paseo: { nombre: 'Paseo', icono: '🦮' },
-  juguetes: { nombre: 'Juguetes', icono: '🧸' },
-  hogar: { nombre: 'Hogar', icono: '🏠' },
+const categoriasInfo: Record<string, { nombre: string }> = {
+  alimentacion: { nombre: 'Alimentación' },
+  higiene: { nombre: 'Higiene' },
+  paseo: { nombre: 'Paseo' },
+  juguetes: { nombre: 'Juguetes' },
+  hogar: { nombre: 'Hogar' },
 };
 
 const info = esInformativo
-  ? { nombre: 'Cuidados', icono: '📖' }
+  ? { nombre: 'Cuidados' }
   : categoriasInfo[categoria];
 const url = esInformativo
   ? `/cuidados/${articulo.slug}/`
@@ -53,7 +52,11 @@ const esActualizado = !!actualizadoEn;
       <img src={imagen} alt={titulo} width="400" height="225" loading={eager ? "eager" : "lazy"} decoding={eager ? "sync" : "async"} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px" fetchpriority={eager ? "high" : "low"} />
     ) : (
       <div class="article-card-image-placeholder" aria-hidden="true">
-        {info.icono}
+        {animal === 'gato' ? (
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.3;"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.1 6.95-.33a4.52 4.52 0 0 1 .18 6.58L12 21 2.87 11.51a4.52 4.52 0 0 1 .18-6.58c1.92-1.77 5.17-1.67 6.95.33.65-.17 1.33-.26 2-.26z"/></svg>
+        ) : (
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.3;"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/></svg>
+        )}
       </div>
     )}
   </a>
@@ -64,7 +67,13 @@ const esActualizado = !!actualizadoEn;
         {info.nombre}
       </span>
       <span class="article-card-animal" aria-label={animal === 'perro' ? 'Para perros' : animal === 'gato' ? 'Para gatos' : 'Para perros y gatos'}>
-        {animalEmoji}
+        {animal === 'gato' ? (
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.1 6.95-.33a4.52 4.52 0 0 1 .18 6.58L12 21 2.87 11.51a4.52 4.52 0 0 1 .18-6.58c1.92-1.77 5.17-1.67 6.95.33.65-.17 1.33-.26 2-.26z"/></svg>
+        ) : animal === 'perro' ? (
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/></svg>
+        ) : (
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/></svg>
+        )}
       </span>
     </div>
 
