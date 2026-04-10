@@ -16,9 +16,9 @@ const year = new Date().getFullYear();
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="/" class="logo" style="color: #fff;">
+        <a href="/" class="logo">
           <LogoIcon size={28} />
-          Patas y <span style="color: #6bc4a0">Hogar</span>
+          Patas y <span style="color: var(--color-primary)">Hogar</span>
         </a>
         <p>
           Guías de compra y comparativas de productos para perros y gatos.
@@ -39,14 +39,14 @@ const year = new Date().getFullYear();
         <nav aria-label="Explorar">
           <p class="footer-heading">Explorar</p>
           <ul class="footer-links" role="list">
-            <li><a href="/perros/">🐶 Guías para perros</a></li>
-            <li><a href="/gatos/">🐱 Guías para gatos</a></li>
-            <li><a href="/cuidados/">📖 Cuidados y consejos</a></li>
-            <li><a href="/buscar/">🔍 Buscar artículos</a></li>
-            <li><a href="/articulos/">📚 Todos los artículos</a></li>
-            <li><a href="/tags/">🏷️ Temas</a></li>
-            <li><a href="/actualizaciones/">🔄 Actualizaciones</a></li>
-            <li><a href="/rss.xml">📡 RSS Feed</a></li>
+            <li><a href="/perros/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/></svg> Guías para perros</a></li>
+            <li><a href="/gatos/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.1 6.95-.33a4.52 4.52 0 0 1 .18 6.58L12 21 2.87 11.51a4.52 4.52 0 0 1 .18-6.58c1.92-1.77 5.17-1.67 6.95.33.65-.17 1.33-.26 2-.26z"/></svg> Guías para gatos</a></li>
+            <li><a href="/cuidados/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg> Cuidados y consejos</a></li>
+            <li><a href="/buscar/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg> Buscar artículos</a></li>
+            <li><a href="/articulos/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M8 7h6"/><path d="M8 11h8"/></svg> Todos los artículos</a></li>
+            <li><a href="/tags/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg> Temas</a></li>
+            <li><a href="/actualizaciones/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 16h5v5"/></svg> Actualizaciones</a></li>
+            <li><a href="/rss.xml"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg> RSS Feed</a></li>
             <li><a href="/sobre-mi/">Sobre mí</a></li>
             <li><a href="/contacto/">Contacto</a></li>
           </ul>
@@ -63,8 +63,8 @@ const year = new Date().getFullYear();
     </div>
 
     <div class="footer-newsletter">
-      <p class="footer-heading">📬 Newsletter</p>
-      <p style="font-size: 0.85rem; color: #a0a0b8; margin-bottom: 0.75rem;">
+      <p class="footer-heading"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:inline;vertical-align:-2px;margin-right:0.35rem"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>Newsletter</p>
+      <p class="footer-newsletter-desc">
         Ofertas, nuevos artículos y los mejores consejos. Una vez por semana, directo a tu bandeja.
       </p>
       <form
@@ -85,14 +85,15 @@ const year = new Date().getFullYear();
         />
         <button type="submit" class="newsletter-btn">Suscribirme</button>
       </form>
-      <p id="newsletter-msg-footer" style="font-size: 0.8rem; color: #a0a0b8; margin-top: 0.5rem;"></p>
+      <p id="newsletter-msg-footer" class="newsletter-msg"></p>
     </div>
 
     <div class="footer-affiliate-notice">
-      ⚠️ <strong>Aviso de afiliados:</strong> Patasyhogar.com participa en el
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0;margin-top:1px"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+      <span><strong>Aviso de afiliados:</strong> Patasyhogar.com participa en el
       Programa de Afiliados de Amazon EU y otros programas de afiliación. Cuando
       compras a través de nuestros enlaces podemos recibir una comisión sin coste
-      adicional para ti. Esto nos ayuda a mantener el sitio gratuito.
+      adicional para ti. Esto nos ayuda a mantener el sitio gratuito.</span>
     </div>
 
     <div class="footer-bottom">

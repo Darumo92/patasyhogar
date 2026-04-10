@@ -1247,9 +1247,10 @@ a:hover {
    ========================================= */
 
 .footer {
-  background: #1a1a2e;
-  color: #a0a0b8;
-  padding: 3.5rem 0 2rem;
+  background: var(--color-bg-muted);
+  border-top: 2px solid var(--color-border);
+  color: var(--color-text);
+  padding: 3rem 0 1.5rem;
   margin-top: 3rem;
 }
 
@@ -1273,7 +1274,7 @@ a:hover {
 }
 
 .footer-heading {
-  color: #f0eff4;
+  color: var(--color-text);
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -1289,28 +1290,32 @@ a:hover {
 }
 
 .footer-links a {
-  color: #8e8ea6;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-text-muted);
   font-size: 0.875rem;
   transition: color var(--transition);
 }
 
 .footer-links a:hover {
-  color: var(--color-primary-light);
+  color: var(--color-primary);
 }
 
 .footer-bottom {
-  border-top: 1px solid #2e2e48;
+  border-top: 1px solid var(--color-border);
   padding-top: 1.5rem;
   text-align: center;
   font-size: 0.8rem;
+  color: var(--color-text-light);
 }
 
 .footer-newsletter {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--color-bg-card);
   border-radius: var(--radius-md);
   padding: 1.25rem;
   margin-bottom: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--color-border);
 }
 
 .newsletter-form {
@@ -1339,14 +1344,26 @@ a:hover {
   border-color: var(--color-primary);
 }
 
+.footer-newsletter-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.newsletter-msg {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
 .footer-newsletter .newsletter-input {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.15);
-  color: #f0eff4;
+  background: var(--color-bg);
+  border-color: var(--color-border);
+  color: var(--color-text);
 }
 
 .footer-newsletter .newsletter-input::placeholder {
-  color: #8e8ea6;
+  color: var(--color-text-light);
 }
 
 .newsletter-btn {
@@ -1376,12 +1393,17 @@ a:hover {
 }
 
 .footer-affiliate-notice {
-  background: rgba(255, 255, 255, 0.05);
+  background: color-mix(in srgb, var(--color-primary) 6%, var(--color-bg-muted));
+  border: 1px solid color-mix(in srgb, var(--color-primary) 15%, var(--color-border));
   border-radius: var(--radius-sm);
   padding: 0.75rem 1rem;
   font-size: 0.8rem;
   margin-bottom: 1rem;
   line-height: 1.5;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
 /* =========================================
@@ -1600,10 +1622,6 @@ button:focus-visible,
   background: var(--color-bg-muted);
 }
 
-[data-theme="dark"] .footer {
-  background: #0e0e1a;
-}
-
 [data-theme="dark"] .affiliate-disclaimer {
   background: color-mix(in srgb, var(--color-secondary) 10%, var(--color-bg));
   border-color: color-mix(in srgb, var(--color-secondary) 20%, var(--color-bg));
@@ -1635,14 +1653,6 @@ button:focus-visible,
 
 [data-theme="dark"] .category-icon {
   background: var(--color-bg);
-}
-
-[data-theme="dark"] .footer a {
-  color: #b0b0c8;
-}
-
-[data-theme="dark"] .footer a:hover {
-  color: #f0eff4;
 }
 
 /* Dark mode toggle button */
