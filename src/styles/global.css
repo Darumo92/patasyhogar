@@ -43,39 +43,39 @@
 }
 
 :root {
-  --color-primary: #2d6a4f;
-  --color-primary-dark: #1b4332;
-  --color-primary-light: #52b788;
-  --color-secondary: #f4a261;
-  --color-accent: #e76f51;
-  --color-dog: #c95a3c;
-  --color-dog-dark: #b04a2e;
-  --color-cat: #4f46e5;
-  --color-cat-dark: #4338ca;
+  --color-primary: #059669;
+  --color-primary-dark: #047857;
+  --color-primary-light: #34d399;
+  --color-secondary: #f97316;
+  --color-accent: #f97316;
+  --color-dog: #ea580c;
+  --color-dog-dark: #c2410c;
+  --color-cat: #7c3aed;
+  --color-cat-dark: #6d28d9;
 
-  --color-bg: #faf8f5;
+  --color-bg: #fafaf9;
   --color-bg-card: #ffffff;
-  --color-bg-muted: #f0ece6;
+  --color-bg-muted: #f5f5f4;
 
-  --color-text: #1a1a2e;
-  --color-text-muted: #4a4a5a;
-  --color-text-light: #6b6b7b;
+  --color-text: #1c1917;
+  --color-text-muted: #57534e;
+  --color-text-light: #78716c;
 
-  --color-border: #e2ddd5;
-  --color-border-dark: #d4cec5;
+  --color-border: #e7e5e4;
+  --color-border-dark: #d6d3d1;
 
   --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.1);
 
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 14px;
-  --radius-xl: 16px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
 
   --transition: 200ms var(--ease-out);
 
@@ -102,31 +102,20 @@ html.theme-transitioning *::after {
 
 /* Dark mode */
 [data-theme="dark"] {
-  --color-bg: #121220;
-  --color-bg-card: #1a1a2e;
-  --color-bg-muted: #22223a;
+  --color-bg: #0c0a09;
+  --color-bg-card: #1c1917;
+  --color-bg-muted: #292524;
 
-  --color-text: #f0eff4;
-  --color-text-muted: #a0a0b8;
-  --color-text-light: #70708a;
+  --color-text: #fafaf9;
+  --color-text-muted: #a8a29e;
+  --color-text-light: #78716c;
 
-  --color-border: #2e2e48;
-  --color-border-dark: #3a3a55;
+  --color-border: #292524;
+  --color-border-dark: #44403c;
 
-  --color-primary: #6bc4a0;
-  --color-primary-dark: #52b788;
-  --color-primary-light: #95d5be;
-  --color-secondary: #f4a261;
-  --color-accent: #e76f51;
-  --color-dog: #c95a3c;
-  --color-dog-dark: #b04a2e;
-  --color-cat: #6366f1;
-  --color-cat-dark: #4f46e5;
-
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  --color-primary: #34d399;
+  --color-primary-dark: #059669;
+  --color-primary-light: #065f46;
 }
 
 *,
@@ -401,7 +390,7 @@ a:hover {
   left: -20%;
   width: 60%;
   height: 200%;
-  background: radial-gradient(ellipse, rgba(45, 106, 79, 0.07) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(5, 150, 105, 0.07) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -412,7 +401,7 @@ a:hover {
   right: -20%;
   width: 60%;
   height: 200%;
-  background: radial-gradient(ellipse, rgba(244, 162, 97, 0.06) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(249, 115, 22, 0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -1134,7 +1123,7 @@ a:hover {
   background: var(--color-primary-dark);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(45, 106, 79, 0.3);
+  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.3);
 }
 
 .affiliate-button:active {
@@ -1154,14 +1143,14 @@ a:hover {
 }
 
 .affiliate-button.zooplus {
-  background: #2d6e1f;
+  background: #00473e;
   color: #fff;
 }
 
 .affiliate-button.zooplus:hover {
-  background: #245a19;
+  background: #003d35;
   color: #fff;
-  box-shadow: 0 6px 20px rgba(57, 137, 39, 0.35);
+  box-shadow: 0 6px 20px rgba(0, 71, 62, 0.35);
 }
 
 .affiliate-button.tiendanimal {
@@ -1570,7 +1559,7 @@ button:focus-visible,
 .affiliate-button:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
-  box-shadow: 0 0 0 4px rgba(45, 106, 79, 0.2);
+  box-shadow: 0 0 0 4px rgba(5, 150, 105, 0.2);
 }
 
 .article-card:focus-within {
@@ -1583,7 +1572,7 @@ button:focus-visible,
    ========================================= */
 
 [data-theme="dark"] .header {
-  background: rgba(18, 18, 32, 0.85);
+  background: rgba(12, 10, 9, 0.85);
 }
 
 [data-theme="dark"] .nav {
@@ -1602,7 +1591,7 @@ button:focus-visible,
 }
 
 [data-theme="dark"] .hero::after {
-  background: radial-gradient(ellipse, rgba(244, 162, 97, 0.06) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(249, 115, 22, 0.06) 0%, transparent 70%);
 }
 
 [data-theme="dark"] .category-page-header {
