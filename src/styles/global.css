@@ -170,6 +170,11 @@ a:hover {
 :focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
 }
 
 /* =========================================
@@ -1563,9 +1568,14 @@ mark {
 
 button:focus-visible,
 .affiliate-button:focus-visible {
-  outline: 2px solid var(--color-primary);
-  outline-offset: 2px;
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
   box-shadow: 0 0 0 4px rgba(45, 106, 79, 0.2);
+}
+
+.article-card:focus-within {
+  box-shadow: 0 0 0 2px var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 /* =========================================
