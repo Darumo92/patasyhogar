@@ -329,10 +329,16 @@ a:hover {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.625rem;
   color: var(--color-text);
   font-size: 1.5rem;
   line-height: 1;
+}
+
+.nav-toggle:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
 }
 
 @media (max-width: 768px) {
@@ -1335,6 +1341,12 @@ a:hover {
   color: var(--color-primary);
 }
 
+.footer-links a:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 .footer-bottom {
   border-top: 1px solid var(--color-border);
   padding-top: 1.5rem;
@@ -1717,6 +1729,36 @@ button:focus-visible,
   background: var(--color-bg);
 }
 
+[data-theme="dark"] .badge-alimentacion {
+  background: rgba(160, 90, 44, 0.2);
+  color: #f5b879;
+}
+
+[data-theme="dark"] .badge-higiene {
+  background: rgba(27, 94, 58, 0.2);
+  color: #6ee7a8;
+}
+
+[data-theme="dark"] .badge-paseo {
+  background: rgba(46, 74, 122, 0.2);
+  color: #93b4e8;
+}
+
+[data-theme="dark"] .badge-juguetes {
+  background: rgba(176, 74, 50, 0.2);
+  color: #f5a08a;
+}
+
+[data-theme="dark"] .badge-hogar {
+  background: rgba(90, 52, 136, 0.2);
+  color: #c4a5e8;
+}
+
+[data-theme="dark"] .badge-cuidados {
+  background: rgba(27, 67, 50, 0.2);
+  color: #6ee7a8;
+}
+
 /* Dark mode toggle button */
 .theme-toggle {
   background: none;
@@ -1917,7 +1959,7 @@ button:focus-visible,
   }
 
   .nav-dropdown-item {
-    padding: 0.6rem 1rem;
+    padding: 0.75rem 1rem;
     font-size: 0.85rem;
   }
 
@@ -2040,7 +2082,7 @@ button:focus-visible,
   flex-direction: column;
   align-items: center;
   gap: 0.15rem;
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--color-text);
@@ -2064,6 +2106,12 @@ button:focus-visible,
 
 .bottom-nav-active svg {
   stroke-width: 2.5;
+}
+
+.bottom-nav-item:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -2px;
+  border-radius: var(--radius-sm);
 }
 
 .bottom-nav-item svg {
