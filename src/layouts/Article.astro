@@ -325,6 +325,24 @@ const breadcrumbSchema = {
       </section>
     )}
 
+    {related.length > 0 && (
+      <section style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--color-border);">
+        <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem;">
+          Artículos relacionados
+        </h2>
+        <div class="articles-grid reveal-group">
+          {related.map(a => (
+            <ArticleCard articulo={a} />
+          ))}
+        </div>
+        <div style="text-align: center; margin-top: 1.5rem;">
+          <a href={esInformativo ? '/cuidados/' : `/${categoria}/`} class="affiliate-button" style="display: inline-flex; font-size: 0.9rem; padding: 0.65rem 1.5rem;">
+            <CategoryIcon categoria={catInfo.cat} size={14} /> Ver más en {catInfo.nombre} →
+          </a>
+        </div>
+      </section>
+    )}
+
     <div class="article-newsletter">
       <p class="article-newsletter-title">¿Te avisamos cuando actualicemos esta guía?</p>
       <p class="article-newsletter-desc">Actualizamos precios y productos regularmente. Suscríbete y te avisaremos de los cambios en esta guía y otras similares.</p>
@@ -347,24 +365,6 @@ const breadcrumbSchema = {
       </form>
       <p id="newsletter-msg-article" style="font-size: 0.8rem; margin-top: 0.5rem;"></p>
     </div>
-
-    {related.length > 0 && (
-      <section style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--color-border);">
-        <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem;">
-          Artículos relacionados
-        </h2>
-        <div class="articles-grid reveal-group">
-          {related.map(a => (
-            <ArticleCard articulo={a} />
-          ))}
-        </div>
-        <div style="text-align: center; margin-top: 1.5rem;">
-          <a href={esInformativo ? '/cuidados/' : `/${categoria}/`} class="affiliate-button" style="display: inline-flex; font-size: 0.9rem; padding: 0.65rem 1.5rem;">
-            <CategoryIcon categoria={catInfo.cat} size={14} /> Ver más en {catInfo.nombre} →
-          </a>
-        </div>
-      </section>
-    )}
 
     <div class="back-to-top-wrap">
       <a href="#main-content" class="back-to-top-link">↑ Volver arriba</a>
@@ -578,7 +578,7 @@ const breadcrumbSchema = {
       gap: 0.4rem;
       font-size: 0.78rem;
       font-weight: 600;
-      color: #8a5a1e;
+      color: var(--color-text);
       background: color-mix(in srgb, var(--color-secondary) 12%, var(--color-bg));
       padding: 0.35rem 0.75rem;
       border-radius: 100px;
@@ -592,7 +592,7 @@ const breadcrumbSchema = {
         gap: 0.375rem;
       }
       .trust-item {
-        font-size: 0.72rem;
+        font-size: 0.75rem;
         padding: 0.3rem 0.6rem;
       }
     }

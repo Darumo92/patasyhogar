@@ -1115,7 +1115,9 @@ a:hover {
   border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 0.95rem;
-  min-width: 400px;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .prose th {
