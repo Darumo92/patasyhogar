@@ -1,6 +1,7 @@
 ---
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
+import CookieBanner from '@/components/CookieBanner.astro';
 import globalStyles from '@/styles/global.css?inline';
 
 interface Props {
@@ -166,24 +167,11 @@ const currentPath = Astro.url.pathname;
       })();
     </script>
 
-    <!-- GA4: initialize gtag early so events queue, load script deferred -->
+    <!-- GA4: initialize gtag early so events queue, load script via cookie consent -->
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       window.gtag = gtag;
-
-      window.addEventListener('load', function() {
-        setTimeout(function() {
-          var s = document.createElement('script');
-          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-NNXGD8G7GC';
-          s.async = true;
-          document.head.appendChild(s);
-          s.onload = function() {
-            gtag('js', new Date());
-            gtag('config', 'G-NNXGD8G7GC');
-          };
-        }, 2000);
-      });
 
       // Track affiliate clicks — events queue in dataLayer even before GA4 loads
       document.addEventListener('click', function(e) {
@@ -202,5 +190,7 @@ const currentPath = Astro.url.pathname;
         });
       });
     </script>
+
+    <CookieBanner />
   </body>
 </html>

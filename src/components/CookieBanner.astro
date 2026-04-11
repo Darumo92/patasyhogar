@@ -1,0 +1,54 @@
+---
+// No props needed — self-contained component
+---
+
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Consentimiento de cookies" aria-describedby="cookie-desc">
+  <div class="cookie-banner-inner">
+    <p id="cookie-desc" class="cookie-text">
+      Usamos cookies propias y de terceros (Google Analytics) para analizar el tráfico y mejorar tu experiencia.
+      <a href="/cookies/">Más información</a>
+    </p>
+    <div class="cookie-actions">
+      <button class="cookie-btn cookie-btn-reject" id="cookie-reject" type="button">Rechazar</button>
+      <button class="cookie-btn cookie-btn-accept" id="cookie-accept" type="button">Aceptar</button>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+(function() {
+  var consent = localStorage.getItem('cookie_consent');
+  if (consent === 'accepted') {
+    loadGA4();
+    return;
+  }
+  if (consent === 'rejected') return;
+
+  var banner = document.getElementById('cookie-banner');
+  if (banner) banner.style.display = 'block';
+
+  document.getElementById('cookie-accept')?.addEventListener('click', function() {
+    localStorage.setItem('cookie_consent', 'accepted');
+    banner.style.display = 'none';
+    loadGA4();
+  });
+
+  document.getElementById('cookie-reject')?.addEventListener('click', function() {
+    localStorage.setItem('cookie_consent', 'rejected');
+    banner.style.display = 'none';
+  });
+
+  function loadGA4() {
+    if (window.__ga4Loaded) return;
+    window.__ga4Loaded = true;
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-NNXGD8G7GC';
+    s.async = true;
+    document.head.appendChild(s);
+    s.onload = function() {
+      gtag('js', new Date());
+      gtag('config', 'G-NNXGD8G7GC');
+    };
+  }
+})();
+</script>
