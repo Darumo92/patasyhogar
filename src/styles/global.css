@@ -193,6 +193,15 @@ a:hover {
   font-size: 1.05rem;
 }
 
+.section-link {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.section-link:hover {
+  color: var(--color-text);
+}
+
 /* =========================================
    HEADER
    ========================================= */
@@ -2041,16 +2050,16 @@ button:focus-visible,
 }
 
 .bottom-nav-item:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 .bottom-nav-item:active {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
   transform: scale(0.92);
 }
 
 .bottom-nav-active {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 .bottom-nav-active svg {
