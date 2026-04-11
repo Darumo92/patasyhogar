@@ -416,6 +416,14 @@ function tiendas(p: Producto) {
   fill: var(--color-secondary);
 }
 
+:global([data-theme="dark"]) .comp-star--empty path {
+  fill: var(--color-text-light);
+}
+
+:global([data-theme="dark"]) .comp-star-empty-bg {
+  fill: var(--color-text-light);
+}
+
 .comp-rating-num {
   font-size: 0.82rem;
   font-weight: 700;
@@ -540,10 +548,10 @@ function tiendas(p: Producto) {
 }
 
 .comp-price-best-tag {
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   font-weight: 700;
-  background: var(--store-color);
-  color: #fff;
+  background: var(--color-text);
+  color: var(--color-bg);
   padding: 0.15rem 0.5rem;
   border-radius: 100px;
   text-transform: uppercase;

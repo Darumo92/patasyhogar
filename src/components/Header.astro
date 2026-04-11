@@ -142,6 +142,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
   function closeNav() {
     nav?.classList.remove('open');
     toggle?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
     closeDropdown();
   }
 
@@ -152,6 +153,7 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
     } else {
       nav?.classList.add('open');
       toggle.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
     }
   });
 
@@ -189,7 +191,11 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
     const idx = items.indexOf(active);
 
     if (e.key === 'Escape') {
-      closeDropdown();
+      if (nav?.classList.contains('open')) {
+        closeNav();
+      } else {
+        closeDropdown();
+      }
       dropdownTrigger?.focus();
       e.preventDefault();
     } else if (e.key === 'ArrowDown') {
@@ -222,6 +228,13 @@ const isSectionActive = [...comparativaLinks, ...infoLinks].some(l => currentPat
       const firstItem = dropdownMenu?.querySelector('[role="menuitem"]') as HTMLElement;
       firstItem?.focus();
       e.preventDefault();
+    }
+  });
+
+  // Close mobile menu on resize past breakpoint
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768 && nav?.classList.contains('open')) {
+      closeNav();
     }
   });
 
