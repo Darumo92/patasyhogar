@@ -218,6 +218,15 @@ const breadcrumbSchema = {
   <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(collectionSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="/">Inicio</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">{info.nombre}</span>
+    </nav>
+  </div>
+
   <div class="category-page-header">
     <div class="container">
       <div class="category-icon-large" aria-hidden="true">
