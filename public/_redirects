@@ -149,3 +149,6 @@
 /cuidados/como-limpiar-oidos-perro/ /higiene/como-limpiar-oidos-perro/ 301
 /paseo/mejores-bolsas-caca-perro-biodegradables/ /higiene/mejores-bolsas-caca-perro-biodegradables/ 301
 /paseo/mejor-dispensador-bolsas-caca-perro/ /higiene/mejor-dispensador-bolsas-caca-perro/ 301
+
+# Redirect individual tag pages (removed to save crawl budget)
+/tags/:tag/ /articulos/ 301
