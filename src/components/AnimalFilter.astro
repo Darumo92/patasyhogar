@@ -1,4 +1,6 @@
 ---
+import IconCategory from '@/components/IconCategory.astro';
+
 interface Props {
   perroCount: number;
   gatoCount: number;
@@ -13,11 +15,11 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
     Todos <span class="animal-filter-count">{totalCount}</span>
   </button>
   <button class="animal-filter-btn" data-filter="perro" role="tab" aria-selected="false">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5h2"/><path d="M19 12c-.667 5.333-2.333 8-5 8h-4c-2.667 0-4.333-2.667-5-8"/><path d="M11 16c0 .667.333 1 1 1s1-.333 1-1h-2"/><path d="M12 18v2"/><path d="M10 11v.01"/><path d="M14 11v.01"/><path d="M5 4l6 .97-6.238 6.688a1.021 1.021 0 0 1-1.41.111.953.953 0 0 1-.327-.954l1.975-6.815"/><path d="M19 4l-6 .97 6.238 6.688c.358.408.989.458 1.41.111a.953.953 0 0 0 .327-.954l-1.975-6.815"/></svg>
+    <IconCategory category="perro" size={14} />
     Perros <span class="animal-filter-count">{perroCount}</span>
   </button>
   <button class="animal-filter-btn" data-filter="gato" role="tab" aria-selected="false">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 3v10a8 8 0 1 1-16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568-1.432c1.769 0 3.403.574 4.728 1.546l3.272-3.546"/><path d="M2 16h5l-4 4"/><path d="M22 16h-5l4 4"/><path d="M11 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0"/><path d="M9 11v.01"/><path d="M15 11v.01"/></svg>
+    <IconCategory category="gato" size={14} />
     Gatos <span class="animal-filter-count">{gatoCount}</span>
   </button>
 </div>
@@ -63,11 +65,12 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
 
   .animal-filter-btn {
     padding: 0.5rem 1rem;
-    border: 1.5px solid var(--color-border);
-    border-radius: 99px;
-    background: var(--color-bg);
-    color: var(--color-text-muted);
-    font-size: 0.875rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    background: var(--neutral-50);
+    color: var(--neutral-500);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s;
@@ -82,31 +85,31 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
   }
 
   .animal-filter-btn[data-filter="perro"]:hover {
-    border-color: var(--color-dog);
-    color: var(--color-dog);
+    border-color: var(--dog-color);
+    color: var(--dog-color);
   }
 
   .animal-filter-btn[data-filter="gato"]:hover {
-    border-color: var(--color-cat);
-    color: var(--color-cat);
+    border-color: var(--cat-color);
+    color: var(--cat-color);
   }
 
   .animal-filter-btn.active {
-    background: var(--color-primary-dark);
-    border-color: var(--color-primary-dark);
+    background: var(--green-800);
+    border-color: var(--green-800);
     color: white;
   }
 
   .animal-filter-btn.active[data-filter="perro"] {
-    background: var(--color-dog-dark);
-    border-color: var(--color-dog-dark);
-    color: white;
+    background: var(--dog-bg);
+    border-color: var(--dog-color);
+    color: var(--dog-color);
   }
 
   .animal-filter-btn.active[data-filter="gato"] {
-    background: var(--color-cat-dark);
-    border-color: var(--color-cat-dark);
-    color: white;
+    background: var(--cat-bg);
+    border-color: var(--cat-color);
+    color: var(--cat-color);
   }
 
   .animal-filter-count {

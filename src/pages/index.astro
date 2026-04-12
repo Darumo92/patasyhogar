@@ -1,32 +1,44 @@
 ---
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
-import AnimalFilter from '@/components/AnimalFilter.astro';
-import CategoryIcon from '@/components/CategoryIcon.astro';
-import PetQuiz from '@/components/PetQuiz.astro';
-import TrustBar from '@/components/TrustBar.astro';
+import IconCategory from '@/components/IconCategory.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos');
 
-const destacados = articulos
+// Featured article (most recent with destacado: true)
+const featuredArticle = articulos
   .filter(a => a.data.destacado)
+  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())[0];
+
+// Split by tipo
+const comparativas = articulos
+  .filter(a => a.data.tipo !== 'informativo')
   .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime());
 
-const recientes = articulos
-  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
-  .slice(0, 4);
+const informativos = articulos
+  .filter(a => a.data.tipo === 'informativo')
+  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime());
 
-const perroCount = recientes.filter(a => a.data.animal === 'perro' || a.data.animal === 'ambos').length;
-const gatoCount = recientes.filter(a => a.data.animal === 'gato' || a.data.animal === 'ambos').length;
+// Category counts (comparativas only)
+const catCounts: Record<string, number> = {};
+for (const a of articulos) {
+  if (a.data.tipo !== 'informativo') {
+    catCounts[a.data.categoria] = (catCounts[a.data.categoria] || 0) + 1;
+  }
+}
 
-const comparativas = articulos.filter(a => a.data.tipo !== 'informativo');
-const totalProductos = comparativas.reduce((sum, a) => {
-  const matches = a.body?.match(/nombre:\s*"/g);
-  return sum + (matches ? matches.length : 0);
-}, 0);
+const categorias = [
+  { slug: 'alimentacion', nombre: 'Alimentación' },
+  { slug: 'higiene',      nombre: 'Higiene' },
+  { slug: 'paseo',        nombre: 'Paseo' },
+  { slug: 'juguetes',     nombre: 'Juguetes' },
+  { slug: 'hogar',        nombre: 'Hogar' },
+];
 
 const siteUrl = 'https://patasyhogar.com';
+
+const recientes = comparativas.slice(0, 6);
 
 const organizationSchema = {
   '@context': 'https://schema.org',
@@ -57,87 +69,16 @@ const itemListSchema = {
   itemListElement: recientes.map((a, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `${siteUrl}/${a.data.tipo === 'informativo' ? 'cuidados' : a.data.categoria}/${a.slug}/`,
+    url: `${siteUrl}/${a.data.categoria}/${a.slug}/`,
     name: a.data.titulo,
   })),
 };
 
-// Seasonal content: find articles tagged with current season topics
-const now = new Date();
-const month = now.getMonth() + 1; // 1-12
-
-type SeasonalConfig = { tags: string[]; titulo: string; icono: string; color: string };
-const seasonalMap: SeasonalConfig[] = [];
-
-// Spring (March-May): procesionaria, allergies
-if (month >= 3 && month <= 5) {
-  seasonalMap.push({ tags: ['procesionaria', 'primavera', 'alergia'], titulo: 'Temporada de procesionaria', icono: '⚠️', color: '#dc2626' });
-  seasonalMap.push({ tags: ['garrapatas', 'antiparasitarios', 'pulgas'], titulo: 'Protege contra parásitos', icono: '🛡️', color: '#047857' });
+function articleUrl(a: typeof articulos[0]) {
+  return a.data.tipo === 'informativo'
+    ? `/cuidados/${a.slug}/`
+    : `/${a.data.categoria}/${a.slug}/`;
 }
-// Summer (June-August): heat, hydration
-if (month >= 6 && month <= 8) {
-  seasonalMap.push({ tags: ['golpe de calor', 'verano', 'hidratacion'], titulo: 'Protege del calor', icono: '☀️', color: '#d97706' });
-  seasonalMap.push({ tags: ['viaje', 'transportin', 'coche'], titulo: 'Viajar con mascotas', icono: '🚗', color: '#2563eb' });
-}
-// Autumn (Sept-Nov): cold prep
-if (month >= 9 && month <= 11) {
-  seasonalMap.push({ tags: ['frio', 'ropa perro', 'abrigo'], titulo: 'Prepara el invierno', icono: '🧥', color: '#7c3aed' });
-}
-// Winter (Dec-Feb): cold, gifts
-if (month === 12 || month <= 2) {
-  seasonalMap.push({ tags: ['navidad', 'regalo', 'juguete'], titulo: 'Regalos para mascotas', icono: '🎁', color: '#dc2626' });
-  seasonalMap.push({ tags: ['frio', 'ropa perro', 'manta'], titulo: 'Mantén caliente a tu mascota', icono: '❄️', color: '#2563eb' });
-}
-
-// Find matching seasonal articles
-const seasonalArticles: { articulo: typeof articulos[0]; config: SeasonalConfig }[] = [];
-for (const config of seasonalMap) {
-  const match = articulos.find(a =>
-    a.data.tags?.some(t => config.tags.some(st => t.toLowerCase().includes(st)))
-  );
-  if (match && !seasonalArticles.some(s => s.articulo.slug === match.slug)) {
-    seasonalArticles.push({ articulo: match, config });
-  }
-}
-
-const categorias = [
-  {
-    slug: 'alimentacion',
-    nombre: 'Alimentación',
-    descripcion: 'Pienso, húmeda, snacks, fuentes y comederos para perros y gatos',
-    count: articulos.filter(a => a.data.categoria === 'alimentacion').length,
-  },
-  {
-    slug: 'higiene',
-    nombre: 'Higiene',
-    descripcion: 'Arena, areneros, cepillos, champús y cuidado diario',
-    count: articulos.filter(a => a.data.categoria === 'higiene').length,
-  },
-  {
-    slug: 'paseo',
-    nombre: 'Paseo y Transporte',
-    descripcion: 'Arneses, correas, transportines, ropa y accesorios de viaje',
-    count: articulos.filter(a => a.data.categoria === 'paseo').length,
-  },
-  {
-    slug: 'juguetes',
-    nombre: 'Juguetes',
-    descripcion: 'Juguetes interactivos, rascadores, mordedores y estimulación mental',
-    count: articulos.filter(a => a.data.categoria === 'juguetes').length,
-  },
-  {
-    slug: 'hogar',
-    nombre: 'Hogar y Descanso',
-    descripcion: 'Camas, mantas, protectores y accesorios para casa',
-    count: articulos.filter(a => a.data.categoria === 'hogar').length,
-  },
-  {
-    slug: 'cuidados',
-    nombre: 'Cuidados',
-    descripcion: 'Guías sobre salud, comportamiento y bienestar de tu mascota',
-    count: articulos.filter(a => a.data.tipo === 'informativo').length,
-  },
-];
 ---
 
 <Base
@@ -146,158 +87,151 @@ const categorias = [
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(organizationSchema)} slot="head" />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
-  <!-- Hero -->
+
+  <!-- 1. Hero -->
   <section class="hero">
     <div class="container">
-      <h1 class="hero-title">
-        Lo mejor para tu <span>perro y tu gato</span>,<br />
-        sin perder tiempo buscando
-      </h1>
-      <p class="hero-subtitle">
-        Analizamos productos en Amazon, Zooplus y Tiendanimal para que tú solo tengas que elegir.
-      </p>
-      <div class="hero-cta">
-        <a href="/perros/" class="hero-cta-btn hero-cta-dog">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5h2"/><path d="M19 12c-.667 5.333-2.333 8-5 8h-4c-2.667 0-4.333-2.667-5-8"/><path d="M11 16c0 .667.333 1 1 1s1-.333 1-1h-2"/><path d="M12 18v2"/><path d="M10 11v.01"/><path d="M14 11v.01"/><path d="M5 4l6 .97-6.238 6.688a1.021 1.021 0 0 1-1.41.111.953.953 0 0 1-.327-.954l1.975-6.815"/><path d="M19 4l-6 .97 6.238 6.688c.358.408.989.458 1.41.111a.953.953 0 0 0 .327-.954l-1.975-6.815"/></svg>
-          Guías para perros
-        </a>
-        <a href="/gatos/" class="hero-cta-btn hero-cta-cat">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 3v10a8 8 0 1 1-16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568-1.432c1.769 0 3.403.574 4.728 1.546l3.272-3.546"/><path d="M2 16h5l-4 4"/><path d="M22 16h-5l4 4"/><path d="M11 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0"/><path d="M9 11v.01"/><path d="M15 11v.01"/></svg>
-          Guías para gatos
-        </a>
+      <p class="hero-label">Guías y comparativas para mascotas</p>
+      <h1 class="hero-title">Lo mejor para tu perro y tu gato</h1>
+      <p class="hero-subtitle">Analizamos productos en Amazon, Zooplus y Tiendanimal para que tú solo tengas que elegir.</p>
+      <div class="hero-ctas">
+        <a href="/perros/" class="hero-cta dog"><IconCategory category="perro" size={18} /> Guías para perros</a>
+        <a href="/gatos/" class="hero-cta cat"><IconCategory category="gato" size={18} /> Guías para gatos</a>
       </div>
-      <p class="hero-meta">
-        Precios actualizados en marzo 2026 · Comparados en 3 tiendas
-      </p>
     </div>
   </section>
 
-  <TrustBar />
-
-  <!-- Quiz: ¿Qué necesita mi mascota? -->
-  <section class="section" style="padding: 3rem 0;">
-    <div class="container" style="max-width: 600px;">
-      <PetQuiz />
-    </div>
-  </section>
-
-  <!-- Seasonal Banner -->
-  {seasonalArticles.length > 0 && (
-    <section class="seasonal-banner">
+  <!-- 2. Featured Article -->
+  {featuredArticle && (
+    <section class="featured">
       <div class="container">
-        <div class="seasonal-items">
-          {seasonalArticles.slice(0, 2).map(({ articulo: sa, config }) => {
-            const saUrl = `/${sa.data.tipo === 'informativo' ? 'cuidados' : sa.data.categoria}/${sa.slug}/`;
-            return (
-              <a href={saUrl} class="seasonal-item" style={`--seasonal-color: ${config.color}`}>
-                <span class="seasonal-icon">{config.icono}</span>
-                <div class="seasonal-text">
-                  <strong>{config.titulo}</strong>
-                  <span>{sa.data.titulo}</span>
-                </div>
-                <span class="seasonal-arrow">→</span>
-              </a>
-            );
-          })}
-        </div>
+        <a href={articleUrl(featuredArticle)} class="featured-card">
+          <div class="featured-img">
+            {featuredArticle.data.imagen ? (
+              <img
+                src={featuredArticle.data.imagen}
+                alt={featuredArticle.data.imagenAlt || featuredArticle.data.titulo}
+                width="800"
+                height="500"
+                loading="eager"
+              />
+            ) : (
+              <div class="featured-placeholder"></div>
+            )}
+          </div>
+          <div class="featured-body">
+            <span class="featured-badge">Artículo destacado</span>
+            <h2>{featuredArticle.data.titulo}</h2>
+            <p>{featuredArticle.data.descripcion}</p>
+            <span class="featured-link">Leer artículo →</span>
+          </div>
+        </a>
       </div>
     </section>
   )}
 
-  <!-- Categorías -->
-  <section class="section" style="background: var(--color-bg-muted); border-bottom: 1px solid var(--color-border);">
+  <!-- 3. Categories -->
+  <section class="categories">
     <div class="container">
-      <h2 class="section-title">Explora por categoría</h2>
-      <p class="section-subtitle">Encuentra exactamente lo que buscas para tu mascota</p>
-      <div class="categories-grid reveal-group">
+      <div class="section-header">
+        <h2>Categorías</h2>
+        <a href="/articulos/">Ver todo →</a>
+      </div>
+      <div class="categories-grid">
         {categorias.map(cat => (
-          <a href={`/${cat.slug}/`} class="category-card">
-            <span class="category-icon" aria-hidden="true"><CategoryIcon categoria={cat.slug} size={24} /></span>
-            <div class="category-info">
-              <h3>{cat.nombre}</h3>
-              <p>{cat.descripcion}</p>
-              {cat.count > 0 && (
-                <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--color-primary); font-weight: 600;">
-                  {cat.count} {cat.count === 1 ? 'artículo' : 'artículos'}
-                </p>
-              )}
-            </div>
+          <a href={`/${cat.slug}/`} class="cat-card">
+            <div class="cat-icon"><IconCategory category={cat.slug} size={28} /></div>
+            <h3>{cat.nombre}</h3>
+            <span>{catCounts[cat.slug] || 0} guías</span>
           </a>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- Guías destacadas -->
-  {destacados.length > 0 && (
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title reveal">Guías destacadas</h2>
-        <p class="section-subtitle reveal">Nuestros análisis más completos y populares</p>
-        <div class="articles-grid reveal-group">
-          {destacados.slice(0, 6).map((articulo, i) => (
-            <ArticleCard articulo={articulo} eager={i < 2} />
-          ))}
-        </div>
-        {destacados.length > 6 && (
-          <div class="text-center" style="margin-top: 1.5rem;">
-            <a href="/articulos/" class="section-link">Ver todas las guías →</a>
-          </div>
-        )}
-      </div>
-    </section>
-  )}
-
-  <!-- Artículos recientes -->
+  <!-- 4. Latest Comparativas -->
   {recientes.length > 0 && (
-    <section class="section">
+    <section class="articles">
       <div class="container">
-        <h2 class="section-title reveal">Últimos análisis</h2>
-        <p class="section-subtitle reveal">Los artículos más recientes del blog</p>
-        {perroCount > 0 && gatoCount > 0 && (
-          <AnimalFilter perroCount={perroCount} gatoCount={gatoCount} totalCount={recientes.length} />
-        )}
-        <div class="articles-grid reveal-group">
-          {recientes.map(articulo => (
-            <ArticleCard articulo={articulo} />
+        <div class="section-header">
+          <h2>Últimas comparativas</h2>
+          <a href="/articulos/">Ver todas →</a>
+        </div>
+        <div class="articles-grid">
+          {recientes.map((articulo, i) => (
+            <ArticleCard articulo={articulo} headingLevel={3} eager={i < 2} />
           ))}
         </div>
       </div>
     </section>
   )}
 
-  <!-- Newsletter (home: lead magnet) -->
-  <section class="section newsletter-section">
-    <div class="container text-center">
-      <h2 class="newsletter-section-title reveal">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:inline-block;vertical-align:middle;margin-right:0.4rem;color:var(--color-primary)"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect width="6" height="4" x="9" y="3" rx="1"/><path d="m9 12 2 2 4-4"/></svg>
-        Checklist gratis: lo esencial para tu mascota
-      </h2>
-      <p class="newsletter-section-desc">
-        Descarga nuestra guía con el equipamiento imprescindible para perros y gatos.
-        Además, recibirás nuestras mejores comparativas y alertas de bajadas de precio.
-      </p>
-      <form
-        action="/api/subscribe"
-        method="post"
-        class="newsletter-form newsletter-form-hero"
-        id="newsletter-form-hero"
-      >
-        <label for="newsletter-email-hero" class="sr-only">Tu email</label>
-        <input
-          type="email"
-          name="email"
-          id="newsletter-email-hero"
-          placeholder="tu@email.com"
-          required
-          aria-label="Tu email"
-          class="newsletter-input"
-        />
-        <button type="submit" class="newsletter-btn">Quiero la guía</button>
+  <!-- 5. Guides (Informativos) -->
+  {informativos.length > 0 && (
+    <section class="guides">
+      <div class="container">
+        <div class="section-header">
+          <h2>Guías de cuidados</h2>
+          <a href="/cuidados/">Ver todas →</a>
+        </div>
+        <div class="guides-grid">
+          {informativos.slice(0, 6).map(guide => (
+            <a href={`/cuidados/${guide.slug}/`} class="guide-card">
+              <div class="guide-icon">📖</div>
+              <div class="guide-info">
+                <h3>{guide.data.titulo}</h3>
+                <span>{guide.data.animal === 'perro' ? 'Perros' : guide.data.animal === 'gato' ? 'Gatos' : 'Perros y gatos'}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 6. Newsletter -->
+  <section class="container">
+    <div class="newsletter">
+      <h2>No te pierdas nada</h2>
+      <p>Recibe las últimas guías y ofertas en tu email. Sin spam, solo contenido útil.</p>
+      <form class="newsletter-form" id="newsletter-form">
+        <input type="email" name="email" placeholder="tu@email.com" required aria-label="Tu email" />
+        <button type="submit">Suscribirme</button>
       </form>
-      <p class="newsletter-section-privacy" id="newsletter-msg-hero">
-        Gratis y sin spam. Puedes darte de baja cuando quieras.
-      </p>
+      <p class="newsletter-msg" id="newsletter-msg" style="margin-top:0.75rem;font-size:0.8rem;display:none;"></p>
     </div>
   </section>
+
+  <script is:inline>
+  (function(){
+    var f=document.getElementById('newsletter-form');
+    var m=document.getElementById('newsletter-msg');
+    if(!f||!m)return;
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var email=f.querySelector('input[name="email"]').value;
+      if(!email)return;
+      var btn=f.querySelector('button');
+      btn.disabled=true;btn.textContent='Enviando...';
+      fetch('/api/subscribe',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({email:email})
+      }).then(function(r){
+        if(r.ok){
+          m.style.display='block';m.style.color='var(--green-600)';
+          m.textContent='¡Suscripción confirmada! Revisa tu email.';
+          f.reset();
+        }else{
+          throw new Error('Error');
+        }
+      }).catch(function(){
+        m.style.display='block';m.style.color='var(--color-text-muted)';
+        m.textContent='Hubo un error. Inténtalo de nuevo.';
+      }).finally(function(){
+        btn.disabled=false;btn.textContent='Suscribirme';
+      });
+    });
+  })();
+  </script>
 </Base>

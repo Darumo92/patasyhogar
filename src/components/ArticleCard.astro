@@ -1,4 +1,5 @@
 ---
+import IconCategory from '@/components/IconCategory.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -46,49 +47,34 @@ const fechaFormateada = fechaMostrar.toLocaleDateString('es-ES', {
 const esActualizado = !!actualizadoEn;
 ---
 
-<article class="article-card" data-animal={animal} data-tipo={esInformativo ? 'informativo' : 'comparativa'}>
-  <a href={url} class="article-card-image" aria-hidden="true" tabindex="-1">
+<a href={url} class="article-card" data-animal={animal} data-tipo={esInformativo ? 'informativo' : 'comparativa'}>
+  <div class="article-card-image">
     {imagen ? (
       <img src={imagen} alt={titulo} width="400" height="225" loading={eager ? "eager" : "lazy"} decoding={eager ? "sync" : "async"} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px" fetchpriority={eager ? "high" : "low"} />
     ) : (
-      <div class="article-card-image-placeholder" aria-hidden="true">
+      <div class="article-card-image-placeholder" aria-hidden="true" style="opacity: 0.3;">
         {animal === 'gato' ? (
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.3;"><path d="M20 3v10a8 8 0 1 1-16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568-1.432c1.769 0 3.403.574 4.728 1.546l3.272-3.546"/><path d="M2 16h5l-4 4"/><path d="M22 16h-5l4 4"/><path d="M11 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0"/><path d="M9 11v.01"/><path d="M15 11v.01"/></svg>
+          <IconCategory category="gato" size={48} />
         ) : (
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.3;"><path d="M11 5h2"/><path d="M19 12c-.667 5.333-2.333 8-5 8h-4c-2.667 0-4.333-2.667-5-8"/><path d="M11 16c0 .667.333 1 1 1s1-.333 1-1h-2"/><path d="M12 18v2"/><path d="M10 11v.01"/><path d="M14 11v.01"/><path d="M5 4l6 .97-6.238 6.688a1.021 1.021 0 0 1-1.41.111.953.953 0 0 1-.327-.954l1.975-6.815"/><path d="M19 4l-6 .97 6.238 6.688c.358.408.989.458 1.41.111a.953.953 0 0 0 .327-.954l-1.975-6.815"/></svg>
+          <IconCategory category="perro" size={48} />
         )}
       </div>
     )}
-  </a>
+    <span class={`article-card-animal${animal === 'perro' ? ' dog' : animal === 'gato' ? ' cat' : ''}`} title={animal === 'perro' ? 'Para perros' : animal === 'gato' ? 'Para gatos' : 'Para perros y gatos'}>
+      {animal === 'gato' ? 'Gato' : animal === 'perro' ? 'Perro' : 'Perro y gato'}
+    </span>
+  </div>
 
   <div class="article-card-body">
-    <div class="article-card-badges">
-      <span class={`article-card-category badge badge-${categoria}`}>
-        {info.nombre}
-      </span>
-      <span class="article-card-animal" title={animal === 'perro' ? 'Para perros' : animal === 'gato' ? 'Para gatos' : 'Para perros y gatos'}>
-        {animal === 'gato' ? (
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M20 3v10a8 8 0 1 1-16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568-1.432c1.769 0 3.403.574 4.728 1.546l3.272-3.546"/><path d="M2 16h5l-4 4"/><path d="M22 16h-5l4 4"/><path d="M11 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0"/><path d="M9 11v.01"/><path d="M15 11v.01"/></svg>
-        ) : animal === 'perro' ? (
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M11 5h2"/><path d="M19 12c-.667 5.333-2.333 8-5 8h-4c-2.667 0-4.333-2.667-5-8"/><path d="M11 16c0 .667.333 1 1 1s1-.333 1-1h-2"/><path d="M12 18v2"/><path d="M10 11v.01"/><path d="M14 11v.01"/><path d="M5 4l6 .97-6.238 6.688a1.021 1.021 0 0 1-1.41.111.953.953 0 0 1-.327-.954l1.975-6.815"/><path d="M19 4l-6 .97 6.238 6.688c.358.408.989.458 1.41.111a.953.953 0 0 0 .327-.954l-1.975-6.815"/></svg>
-        ) : (
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M11 5h2"/><path d="M19 12c-.667 5.333-2.333 8-5 8h-4c-2.667 0-4.333-2.667-5-8"/><path d="M11 16c0 .667.333 1 1 1s1-.333 1-1h-2"/><path d="M12 18v2"/><path d="M10 11v.01"/><path d="M14 11v.01"/><path d="M5 4l6 .97-6.238 6.688a1.021 1.021 0 0 1-1.41.111.953.953 0 0 1-.327-.954l1.975-6.815"/><path d="M19 4l-6 .97 6.238 6.688c.358.408.989.458 1.41.111a.953.953 0 0 0 .327-.954l-1.975-6.815"/></svg>
-        )}
-      </span>
-    </div>
-
-    <a href={url}>
-      <Heading class="article-card-title">{titulo}</Heading>
-    </a>
-
+    <span class="article-card-cat">{info.nombre}</span>
+    <Heading class="article-card-title">{titulo}</Heading>
     <p class="article-card-excerpt">{descripcion}</p>
 
     <div class="article-card-meta">
       <time datetime={fechaMostrar.toISOString().split('T')[0]}>
-        {esActualizado ? `Actualizado: ${fechaFormateada}` : fechaFormateada}
+        {esActualizado ? `Act. ${fechaFormateada}` : fechaFormateada}
       </time>
-      <span class="article-card-reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" style="vertical-align:-2px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> {minutosLectura} min</span>
-      <a href={url} class="article-card-link" aria-label={`Leer más sobre ${titulo}`}>Leer más →</a>
+      <span class="article-card-reading-time">{minutosLectura} min</span>
     </div>
   </div>
-</article>
+</a>

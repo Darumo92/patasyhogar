@@ -2,6 +2,7 @@
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import SmoothScroll from '@/components/SmoothScroll.astro';
+import IconCategory from '@/components/IconCategory.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos', ({ data }) => data.tipo === 'informativo');
@@ -73,9 +74,9 @@ const collectionSchema = {
           {grupos.map(g => (
             <a href={`#${g.id}`} class="subcat-nav-link">
               <span aria-hidden="true">
-                {g.animal === 'perro' && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5h2"/><path d="M19 12c-.667 5.333-2.333 8-5 8h-4c-2.667 0-4.333-2.667-5-8"/><path d="M11 16c0 .667.333 1 1 1s1-.333 1-1h-2"/><path d="M12 18v2"/><path d="M10 11v.01"/><path d="M14 11v.01"/><path d="M5 4l6 .97-6.238 6.688a1.021 1.021 0 0 1-1.41.111.953.953 0 0 1-.327-.954l1.975-6.815"/><path d="M19 4l-6 .97 6.238 6.688c.358.408.989.458 1.41.111a.953.953 0 0 0 .327-.954l-1.975-6.815"/></svg>}
-                {g.animal === 'gato' && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 3v10a8 8 0 1 1-16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568-1.432c1.769 0 3.403.574 4.728 1.546l3.272-3.546"/><path d="M2 16h5l-4 4"/><path d="M22 16h-5l4 4"/><path d="M11 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0"/><path d="M9 11v.01"/><path d="M15 11v.01"/></svg>}
-                {g.animal === 'ambos' && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="8" r="2"/><circle cx="2" cy="16" r="2"/><path d="M15.8 13.3a1.5 1.5 0 0 0-2.2-.8 6 6 0 0 1-6.2 0 1.5 1.5 0 0 0-2.2.8l-.7 1.4A2 2 0 0 0 6.3 17h11.4a2 2 0 0 0 1.8-2.7Z"/></svg>}
+                {g.animal === 'perro' && <IconCategory category="perro" size={14} />}
+                {g.animal === 'gato' && <IconCategory category="gato" size={14} />}
+                {g.animal === 'ambos' && <IconCategory category="perro" size={14} />}
               </span>
               <span>{g.nombre}</span>
               <span class="subcat-nav-count">{g.articulos.length}</span>
@@ -117,9 +118,9 @@ const collectionSchema = {
           <section id={g.id} class="subcat-section">
             <h2 class="subcat-heading">
               <span class="subcat-heading-icon" aria-hidden="true">
-                {g.animal === 'perro' && <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5h2"/><path d="M19 12c-.667 5.333-2.333 8-5 8h-4c-2.667 0-4.333-2.667-5-8"/><path d="M11 16c0 .667.333 1 1 1s1-.333 1-1h-2"/><path d="M12 18v2"/><path d="M10 11v.01"/><path d="M14 11v.01"/><path d="M5 4l6 .97-6.238 6.688a1.021 1.021 0 0 1-1.41.111.953.953 0 0 1-.327-.954l1.975-6.815"/><path d="M19 4l-6 .97 6.238 6.688c.358.408.989.458 1.41.111a.953.953 0 0 0 .327-.954l-1.975-6.815"/></svg>}
-                {g.animal === 'gato' && <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 3v10a8 8 0 1 1-16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568-1.432c1.769 0 3.403.574 4.728 1.546l3.272-3.546"/><path d="M2 16h5l-4 4"/><path d="M22 16h-5l4 4"/><path d="M11 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0"/><path d="M9 11v.01"/><path d="M15 11v.01"/></svg>}
-                {g.animal === 'ambos' && <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="8" r="2"/><circle cx="2" cy="16" r="2"/><path d="M15.8 13.3a1.5 1.5 0 0 0-2.2-.8 6 6 0 0 1-6.2 0 1.5 1.5 0 0 0-2.2.8l-.7 1.4A2 2 0 0 0 6.3 17h11.4a2 2 0 0 0 1.8-2.7Z"/></svg>}
+                {g.animal === 'perro' && <IconCategory category="perro" size={18} />}
+                {g.animal === 'gato' && <IconCategory category="gato" size={18} />}
+                {g.animal === 'ambos' && <IconCategory category="perro" size={18} />}
               </span>
               {g.nombre}
               <span class="subcat-heading-count">
