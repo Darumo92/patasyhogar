@@ -150,5 +150,51 @@
 /paseo/mejores-bolsas-caca-perro-biodegradables/ /higiene/mejores-bolsas-caca-perro-biodegradables/ 301
 /paseo/mejor-dispensador-bolsas-caca-perro/ /higiene/mejor-dispensador-bolsas-caca-perro/ 301
 
+# Redirect informativo articles from old category path to /cuidados/
+/alimentacion/alimentos-prohibidos-perros/ /cuidados/alimentos-prohibidos-perros/ 301
+/alimentacion/alimentos-toxicos-gatos/ /cuidados/alimentos-toxicos-gatos/ 301
+/alimentacion/cuantas-veces-dia-debe-comer-perro/ /cuidados/cuantas-veces-dia-debe-comer-perro/ 301
+/alimentacion/cuanto-debe-comer-gato-adulto/ /cuidados/cuanto-debe-comer-gato-adulto/ 301
+/alimentacion/diferencia-pienso-grain-free-normal/ /cuidados/diferencia-pienso-grain-free-normal/ 301
+/alimentacion/gato-vomita-causas-soluciones/ /cuidados/gato-vomita-causas-soluciones/ 301
+/alimentacion/guia-alimentacion-perros/ /cuidados/guia-alimentacion-perros/ 301
+/alimentacion/guia-completa-alimentacion-gatos/ /cuidados/guia-completa-alimentacion-gatos/ 301
+/alimentacion/perro-no-quiere-comer-causas/ /cuidados/perro-no-quiere-comer-causas/ 301
+/alimentacion/perro-sobrepeso-dieta-ejercicio/ /cuidados/perro-sobrepeso-dieta-ejercicio/ 301
+/higiene/alergia-primaveral-perros-gatos-sintomas-tratamiento/ /cuidados/alergia-primaveral-perros-gatos-sintomas-tratamiento/ 301
+/higiene/como-banar-gato/ /cuidados/como-banar-gato/ 301
+/higiene/como-cortar-unas-gato/ /cuidados/como-cortar-unas-gato/ 301
+/higiene/como-eliminar-pulgas-perro-casa/ /cuidados/como-eliminar-pulgas-perro-casa/ 301
+/higiene/como-limpiar-dientes-perro/ /cuidados/como-limpiar-dientes-perro/ 301
+/higiene/garrapatas-perros-prevenir-extraer/ /cuidados/garrapatas-perros-prevenir-extraer/ 301
+/higiene/guia-completa-higiene-cuidado-gatos/ /cuidados/guia-completa-higiene-cuidado-gatos/ 301
+/higiene/guia-completa-higiene-grooming-perros/ /cuidados/guia-completa-higiene-grooming-perros/ 301
+/higiene/muda-pelo-gatos-guia-cuidados/ /cuidados/muda-pelo-gatos-guia-cuidados/ 301
+/higiene/muda-pelo-perros-guia-cuidados/ /cuidados/muda-pelo-perros-guia-cuidados/ 301
+/higiene/procesionaria-pino-perros-peligros-primeros-auxilios/ /cuidados/procesionaria-pino-perros-peligros-primeros-auxilios/ 301
+/hogar/ansiedad-separacion-perros/ /cuidados/ansiedad-separacion-perros/ 301
+/hogar/como-presentar-perro-gato/ /cuidados/como-presentar-perro-gato/ 301
+/hogar/como-saber-edad-gato/ /cuidados/como-saber-edad-gato/ 301
+/hogar/cuanto-cuesta-mantener-un-gato-al-mes/ /cuidados/cuanto-cuesta-mantener-un-gato-al-mes/ 301
+/hogar/cuanto-cuesta-mantener-un-perro-al-mes/ /cuidados/cuanto-cuesta-mantener-un-perro-al-mes/ 301
+/hogar/dejar-gato-solo-fin-de-semana/ /cuidados/dejar-gato-solo-fin-de-semana/ 301
+/hogar/guia-completa-hogar-seguro-mascotas/ /cuidados/guia-completa-hogar-seguro-mascotas/ 301
+/hogar/guia-completa-salud-bienestar-gatos/ /cuidados/guia-completa-salud-bienestar-gatos/ 301
+/hogar/guia-completa-salud-bienestar-perros/ /cuidados/guia-completa-salud-bienestar-perros/ 301
+/hogar/por-que-gatos-amasan/ /cuidados/por-que-gatos-amasan/ 301
+/hogar/por-que-perro-ladra-noche/ /cuidados/por-que-perro-ladra-noche/ 301
+/hogar/razas-perro-piso-pequeno/ /cuidados/razas-perro-piso-pequeno/ 301
+/hogar/residencias-mascotas-verano/ /cuidados/residencias-mascotas-verano/ 301
+/hogar/senales-estres-gatos/ /cuidados/senales-estres-gatos/ 301
+/hogar/tecnologia-mascotas-2026/ /cuidados/tecnologia-mascotas-2026/ 301
+/juguetes/como-adiestrar-gato-tecnicas/ /cuidados/como-adiestrar-gato-tecnicas/ 301
+/juguetes/enriquecimiento-ambiental-gato-interior/ /cuidados/enriquecimiento-ambiental-gato-interior/ 301
+/juguetes/guia-completa-juguetes-enriquecimiento-mascotas/ /cuidados/guia-completa-juguetes-enriquecimiento-mascotas/ 301
+/paseo/como-socializar-cachorro/ /cuidados/como-socializar-cachorro/ 301
+/paseo/cuanto-ejercicio-necesita-perro/ /cuidados/cuanto-ejercicio-necesita-perro/ 301
+/paseo/evitar-perro-coma-cosas-suelo/ /cuidados/evitar-perro-coma-cosas-suelo/ 301
+/paseo/guia-completa-paseo-viaje-perros/ /cuidados/guia-completa-paseo-viaje-perros/ 301
+/paseo/por-que-perros-comen-hierba/ /cuidados/por-que-perros-comen-hierba/ 301
+
 # Redirect individual tag pages (removed to save crawl budget)
 /tags/:tag/ /articulos/ 301
