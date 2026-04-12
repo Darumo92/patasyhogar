@@ -1,6 +1,7 @@
 ---
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
+import IconCategory from '@/components/IconCategory.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos');
@@ -28,11 +29,11 @@ for (const a of articulos) {
 }
 
 const categorias = [
-  { slug: 'alimentacion', nombre: 'Alimentación', emoji: '🍖' },
-  { slug: 'higiene',      nombre: 'Higiene',      emoji: '🛁' },
-  { slug: 'paseo',        nombre: 'Paseo',         emoji: '🚶' },
-  { slug: 'juguetes',     nombre: 'Juguetes',      emoji: '🎾' },
-  { slug: 'hogar',        nombre: 'Hogar',         emoji: '🏠' },
+  { slug: 'alimentacion', nombre: 'Alimentación' },
+  { slug: 'higiene',      nombre: 'Higiene' },
+  { slug: 'paseo',        nombre: 'Paseo' },
+  { slug: 'juguetes',     nombre: 'Juguetes' },
+  { slug: 'hogar',        nombre: 'Hogar' },
 ];
 
 const siteUrl = 'https://patasyhogar.com';
@@ -139,7 +140,7 @@ function articleUrl(a: typeof articulos[0]) {
       <div class="categories-grid">
         {categorias.map(cat => (
           <a href={`/${cat.slug}/`} class="cat-card">
-            <div class="cat-icon">{cat.emoji}</div>
+            <div class="cat-icon"><IconCategory category={cat.slug} size={28} /></div>
             <h3>{cat.nombre}</h3>
             <span>{catCounts[cat.slug] || 0} guías</span>
           </a>

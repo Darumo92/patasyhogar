@@ -300,15 +300,15 @@ a:hover {
 }
 
 .logo {
-  font-size: 1rem; font-weight: 800; letter-spacing: -0.03em;
+  font-size: 1.15rem; font-weight: 800; letter-spacing: -0.03em;
   color: var(--color-text); text-decoration: none;
 }
 .logo span { color: var(--neutral-400); }
 
-.nav-links { display: flex; align-items: center; gap: 0.25rem; }
+.nav-links { display: flex; align-items: center; gap: 0.35rem; }
 
 .nav-link {
-  font-size: 0.8rem; font-weight: 600; padding: 0.4rem 0.75rem;
+  font-size: 0.875rem; font-weight: 600; padding: 0.45rem 0.85rem;
   border-radius: var(--radius-pill); text-decoration: none;
   color: var(--neutral-700); transition: all var(--duration-fast) var(--ease-out);
 }
@@ -448,7 +448,7 @@ a:hover {
   transition: all var(--duration-normal) var(--ease-out);
 }
 .cat-card:hover { border-color: var(--green-400); background: var(--green-50); transform: translateY(-2px); box-shadow: var(--shadow-md); }
-.cat-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.cat-icon { color: var(--color-primary); margin-bottom: 0.5rem; display: flex; justify-content: center; }
 .cat-card h3 { font-size: 0.8rem; font-weight: 700; margin-bottom: 0.15rem; }
 .cat-card span { font-size: 0.7rem; color: var(--neutral-400); }
 
