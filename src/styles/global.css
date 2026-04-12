@@ -1183,21 +1183,9 @@ button:focus-visible,
 /* =========================================
    DARK MODE OVERRIDES
    ========================================= */
-
-
-[data-theme="dark"] .category-page-header {
-  background: var(--color-bg-muted);
-}
-
-[data-theme="dark"] .article-card-image-placeholder {
-  background: var(--color-bg-muted);
-}
-
-[data-theme="dark"] .affiliate-disclaimer {
-  background: color-mix(in srgb, var(--color-secondary) 10%, var(--color-bg));
-  border-color: color-mix(in srgb, var(--color-secondary) 20%, var(--color-bg));
-  color: var(--color-text-muted);
-}
+/* Note: most colors cascade automatically from :root[data-theme="dark"] token
+   remapping. Only add overrides here for components with hardcoded hex values
+   or special dark-mode treatments that tokens can't express alone. */
 
 [data-theme="dark"] .affiliate-button {
   box-shadow: none;
@@ -1242,11 +1230,6 @@ button:focus-visible,
   background: #5a4a10;
 }
 
-[data-theme="dark"] .category-intro {
-  background: var(--color-bg-muted);
-  border-color: var(--color-border);
-}
-
 [data-theme="dark"] .badge-alimentacion {
   background: rgba(160, 90, 44, 0.2);
   color: #f5b879;
@@ -1276,6 +1259,10 @@ button:focus-visible,
   background: rgba(27, 67, 50, 0.2);
   color: #6ee7a8;
 }
+
+/* Hero CTA hover — base has hardcoded light-mode backgrounds */
+[data-theme="dark"] .hero-cta.dog:hover { background: var(--dog-bg); }
+[data-theme="dark"] .hero-cta.cat:hover { background: var(--cat-bg); }
 
 
 /* =========================================
