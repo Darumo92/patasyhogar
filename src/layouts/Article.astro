@@ -293,14 +293,11 @@ const breadcrumbSchema = {
       <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border);">
         <strong style="font-size: 0.85rem; color: var(--color-text-muted);">Etiquetas:</strong>
         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem;">
-          {tags.map(tag => {
-            const tagSlug = tag.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9áéíóúñü-]/g, '');
-            return (
-              <a href={`/tags/${tagSlug}/`} class="badge" style="background: var(--color-bg-muted); color: var(--color-text-muted); text-decoration: none;">
-                {tag}
-              </a>
-            );
-          })}
+          {tags.map(tag => (
+            <span class="badge" style="background: var(--color-bg-muted); color: var(--color-text-muted);">
+              {tag}
+            </span>
+          ))}
         </div>
       </div>
     )}
