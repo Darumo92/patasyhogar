@@ -186,10 +186,11 @@ const breadcrumbSchema = {
   }
   .animal-filter-btn, .cat-filter-btn, .tipo-filter-btn {
     padding: 0.4rem 0.85rem;
-    border: 1.5px solid var(--color-border);
-    border-radius: 99px;
-    background: var(--color-bg);
-    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    background: var(--neutral-50);
+    color: var(--neutral-500);
+    font-family: var(--font-sans);
     font-size: 0.8rem;
     font-weight: 600;
     cursor: pointer;
@@ -202,10 +203,28 @@ const breadcrumbSchema = {
     border-color: var(--color-primary);
     color: var(--color-primary);
   }
+  .animal-filter-btn[data-filter="perro"]:hover {
+    border-color: var(--dog-color);
+    color: var(--dog-color);
+  }
+  .animal-filter-btn[data-filter="gato"]:hover {
+    border-color: var(--cat-color);
+    color: var(--cat-color);
+  }
   .animal-filter-btn.active, .cat-filter-btn.active, .tipo-filter-btn.active {
-    background: var(--color-primary);
-    border-color: var(--color-primary);
+    background: var(--green-800);
+    border-color: var(--green-800);
     color: white;
+  }
+  .animal-filter-btn.active[data-filter="perro"] {
+    background: var(--dog-bg);
+    border-color: var(--dog-color);
+    color: var(--dog-color);
+  }
+  .animal-filter-btn.active[data-filter="gato"] {
+    background: var(--cat-bg);
+    border-color: var(--cat-color);
+    color: var(--cat-color);
   }
   .animal-filter-count {
     font-size: 0.7rem;

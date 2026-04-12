@@ -63,11 +63,12 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
 
   .animal-filter-btn {
     padding: 0.5rem 1rem;
-    border: 1.5px solid var(--color-border);
-    border-radius: 99px;
-    background: var(--color-bg);
-    color: var(--color-text-muted);
-    font-size: 0.875rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    background: var(--neutral-50);
+    color: var(--neutral-500);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s;
@@ -82,31 +83,31 @@ const { perroCount, gatoCount, totalCount } = Astro.props;
   }
 
   .animal-filter-btn[data-filter="perro"]:hover {
-    border-color: var(--color-dog);
-    color: var(--color-dog);
+    border-color: var(--dog-color);
+    color: var(--dog-color);
   }
 
   .animal-filter-btn[data-filter="gato"]:hover {
-    border-color: var(--color-cat);
-    color: var(--color-cat);
+    border-color: var(--cat-color);
+    color: var(--cat-color);
   }
 
   .animal-filter-btn.active {
-    background: var(--color-primary-dark);
-    border-color: var(--color-primary-dark);
+    background: var(--green-800);
+    border-color: var(--green-800);
     color: white;
   }
 
   .animal-filter-btn.active[data-filter="perro"] {
-    background: var(--color-dog-dark);
-    border-color: var(--color-dog-dark);
-    color: white;
+    background: var(--dog-bg);
+    border-color: var(--dog-color);
+    color: var(--dog-color);
   }
 
   .animal-filter-btn.active[data-filter="gato"] {
-    background: var(--color-cat-dark);
-    border-color: var(--color-cat-dark);
-    color: white;
+    background: var(--cat-bg);
+    border-color: var(--cat-color);
+    color: var(--cat-color);
   }
 
   .animal-filter-count {
