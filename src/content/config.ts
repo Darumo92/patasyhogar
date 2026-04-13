@@ -25,50 +25,30 @@ const articulos = defineCollection({
   }),
 });
 
-const quizOpcion = z.object({
-  texto: z.string(),
-  tags: z.record(z.union([z.string(), z.number()])),
-});
-
-const quizPregunta = z.object({
+const producto = z.object({
   id: z.string(),
-  texto: z.string(),
-  tipo: z.enum(['single']).default('single'),
-  opciones: z.array(quizOpcion).min(2),
-});
-
-const quizProducto = z.object({
   nombre: z.string(),
+  marca: z.string().optional(),
   imagen: z.string().optional(),
   precio: z.string(),
-  precioAmazon: z.string().optional(),
-  precioZooplus: z.string().optional(),
-  precioTiendanimal: z.string().optional(),
-  enlaceAmazon: z.string().optional(),
-  enlaceZooplus: z.string().optional(),
-  enlaceTiendanimal: z.string().optional(),
+  precioAmazon: z.string().optional().nullable(),
+  precioZooplus: z.string().optional().nullable(),
+  precioTiendanimal: z.string().optional().nullable(),
+  enlaceAmazon: z.string().optional().nullable(),
+  enlaceZooplus: z.string().optional().nullable(),
+  enlaceTiendanimal: z.string().optional().nullable(),
+  categoria: z.enum(CATEGORIAS),
+  subcategoria: z.string(),
+  animal: z.enum(ANIMALES),
   articuloSlug: z.string(),
   descripcionCorta: z.string(),
-  filtros: z.record(z.array(z.string())),
-  pesos: z.record(z.number()),
+  filtros: z.record(z.array(z.string())).default({}),
+  afinidad: z.record(z.number()).default({}),
 });
 
-const quizzes = defineCollection({
+const productos = defineCollection({
   type: 'data',
-  schema: z.object({
-    slug: z.string(),
-    titulo: z.string(),
-    descripcion: z.string(),
-    animal: z.enum(ANIMALES),
-    imagen: z.string().optional(),
-    imagenAlt: z.string().optional(),
-    preguntas: z.array(quizPregunta).min(1),
-    productos: z.array(quizProducto).min(1),
-    faqs: z.array(z.object({
-      pregunta: z.string(),
-      respuesta: z.string(),
-    })).optional(),
-  }),
+  schema: z.array(producto),
 });
 
-export const collections = { articulos, quizzes };
+export const collections = { articulos, productos };
