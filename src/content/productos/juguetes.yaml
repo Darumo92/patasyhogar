@@ -1,0 +1,1338 @@
+# =============================================
+# JUGUETES CACHORRO - mejor-juguete-cachorro
+# =============================================
+- id: kong-classic-rellenable-s
+  nombre: "Kong Classic Rellenable (S)"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/61CT7VZTqQL._AC_SL300_.jpg"
+  precio: "~6€"
+  precioAmazon: "8,78€"
+  precioZooplus: "5,99€"
+  precioTiendanimal: "5,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0002AR15U"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/kong/139584"
+  enlaceTiendanimal: "https://www.tiendanimal.es/kong-classic-portagolosinas-rojo-para-perros/KONKOT3E_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-cachorro
+  descripcionCorta: "Goma natural resistente, rellenable con comida, pasta de cacahuete o pienso. El juguete rellenable más recomendado por veterinarios."
+  filtros:
+    tamano: [pequeno, mediano]
+    etapa: [cachorro, adulto]
+  afinidad:
+    juego_morder: 4
+    juego_mental: 5
+    presupuesto_economico: 5
+
+- id: kong-tug-toy-elastico
+  nombre: "Kong Tug Toy Elástico"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/61y8appsCVL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "19,15€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000FEN1NO"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-cachorro
+  descripcionCorta: "Caucho natural con cuerda elástica para tira y afloja. Resistente a mordiscos e ideal para juego interactivo entre dueño y cachorro."
+  filtros:
+    etapa: [cachorro]
+  afinidad:
+    juego_morder: 4
+    juego_fisico: 4
+    presupuesto_economico: 3
+
+- id: west-paw-zogoflex-hurley
+  nombre: "West Paw Zogoflex Hurley"
+  marca: "West Paw"
+  imagen: "https://m.media-amazon.com/images/I/71HRNsMYhTL._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "27,23€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00A3NS3EE"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-cachorro
+  descripcionCorta: "Material Zogoflex resistente y seguro, flota en el agua, apto para lavavajillas. Garantía de reposición si se rompe."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [cachorro, adulto]
+  afinidad:
+    juego_morder: 3
+    juego_fisico: 4
+    presupuesto_economico: 2
+
+- id: outward-hound-hide-a-squirrel
+  nombre: "Outward Hound Hide-A-Squirrel"
+  marca: "Outward Hound"
+  imagen: "https://m.media-amazon.com/images/I/7107+Nbp1ZL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "15,28€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000NV8940"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-cachorro
+  descripcionCorta: "Tronco de peluche con ardillas que el cachorro saca y mete. Estimulación mental del instinto de caza de forma segura."
+  filtros:
+    etapa: [cachorro]
+  afinidad:
+    juego_mental: 4
+    juego_morder: 2
+    presupuesto_economico: 4
+
+- id: chuckit-ultra-ball-cachorro
+  nombre: "Chuckit Ultra Ball"
+  marca: "Chuckit"
+  imagen: "https://m.media-amazon.com/images/I/714HUsBpO+L._AC_SL300_.jpg"
+  precio: "~10€"
+  precioAmazon: "10,90€"
+  precioTiendanimal: "10,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000F4AVPA"
+  enlaceTiendanimal: "https://www.tiendanimal.es/chuckit-ultra-pelota-de-caucho-para-perros/CHU170015_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-cachorro
+  descripcionCorta: "Goma natural muy resistente, bota más alto que una pelota de tenis. No astilla. Compatible con lanzador Chuckit."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [cachorro, adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_morder: 2
+    presupuesto_economico: 4
+
+# =============================================
+# JUGUETES ESTIMULACIÓN MENTAL - mejor-juguete-mental-perros-guia
+# =============================================
+- id: kong-classic-s-mental
+  nombre: "KONG Classic S"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/61CT7VZTqQL._AC_SL300_.jpg"
+  precio: "~6€"
+  precioAmazon: "8,78€"
+  precioZooplus: "5,99€"
+  precioTiendanimal: "5,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0002AR15U"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/kong/139584"
+  enlaceTiendanimal: "https://www.tiendanimal.es/kong-classic-portagolosinas-rojo-para-perros/KONKOT3E_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "El juguete rellenable más versátil. Rellénalo, congélalo y mantén a tu perro entretenido hasta una hora. Caucho rojo duradero en 6 tallas."
+  filtros:
+    tamano: [pequeno, mediano]
+    etapa: [adulto, senior]
+  afinidad:
+    juego_mental: 5
+    juego_morder: 3
+    presupuesto_economico: 5
+
+- id: kong-extreme-m-mental
+  nombre: "KONG Extreme M"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/616UIXeYlbL._AC_SL300_.jpg"
+  precio: "~13€"
+  precioAmazon: "13,48€"
+  precioZooplus: "12,19€"
+  precioTiendanimal: "12,19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000GUDZO2"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/139585"
+  enlaceTiendanimal: "https://www.tiendanimal.es/kong-extreme-juguete-para-perros/KONKOK2E_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "Versión ultra resistente en caucho negro para masticadores potentes. Rellenable con comida. Varias tallas disponibles."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 5
+    juego_morder: 5
+    presupuesto_economico: 4
+
+- id: west-paw-toppl-l
+  nombre: "West Paw Toppl L"
+  marca: "West Paw"
+  imagen: "https://m.media-amazon.com/images/I/71u8rMvErhL._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "26,95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00N54E9MI"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "Forma ancha y abierta ideal para principiantes. Se encajan dos tamaños para mayor dificultad. Material Zogoflex reciclable."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 4
+    juego_morder: 2
+    presupuesto_economico: 2
+
+- id: kong-wobbler-l
+  nombre: "KONG Wobbler L"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/61rszHw5N5L._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "24,40€"
+  precioZooplus: "20,49€"
+  precioTiendanimal: "20,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003ALMW0M"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/interactivo/183608"
+  enlaceTiendanimal: "https://www.tiendanimal.es/kong-wobbler-portagolosinas-para-perros/KONKOKWP1E_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "Dispensador oscilante para croquetas. Se desmonta en dos piezas para limpieza fácil. Ideal como comedero lento."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 4
+    juego_fisico: 3
+    presupuesto_economico: 3
+
+- id: nina-ottosson-dog-brick
+  nombre: "Nina Ottosson Dog Brick"
+  marca: "Nina Ottosson"
+  imagen: "https://m.media-amazon.com/images/I/81Fyb8B0YtL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "21,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0711Y9XTF"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "Puzzle nivel 2 con 22 compartimentos, bloques deslizantes y conos. La referencia en puzzles cognitivos. Lavable en lavavajillas."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 5
+    presupuesto_economico: 3
+
+- id: nina-ottosson-dog-tornado
+  nombre: "Nina Ottosson Dog Tornado"
+  marca: "Nina Ottosson"
+  imagen: "https://m.media-amazon.com/images/I/61NYhDBRLZL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "21,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07239T47Y"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "Puzzle nivel 2 con discos giratorios que esconden premios. Plástico resistente sin BPA. Ideal para perros intermedios."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 5
+    presupuesto_economico: 3
+
+- id: nina-ottosson-dog-casino
+  nombre: "Nina Ottosson Dog Casino"
+  marca: "Nina Ottosson"
+  imagen: "https://m.media-amazon.com/images/I/81e8AScMfhL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "22,26€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0719Q89XH"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "Puzzle nivel 3 con discos giratorios y bloqueos. El más desafiante de la gama Nina Ottosson."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 5
+    presupuesto_economico: 3
+
+- id: lickimat-classic-perro
+  nombre: "LickiMat Classic"
+  marca: "LickiMat"
+  imagen: "https://m.media-amazon.com/images/I/81vSOHfNkTL._AC_SL300_.jpg"
+  precio: "~12€"
+  precioAmazon: "12€"
+  enlaceAmazon: "https://www.amazon.es/dp/B072PTSRZ3"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "Alfombrilla de lamido con textura. El lamido libera endorfinas y calma al perro. Úntala con paté o yogur. Congelable."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    juego_mental: 4
+    presupuesto_economico: 4
+
+- id: nobleza-alfombra-olfativa-70x70-mental
+  nombre: "Nobleza Alfombra Olfativa 70x70"
+  marca: "Nobleza"
+  imagen: "https://m.media-amazon.com/images/I/61DpaENoSTL._AC_SL300_.jpg"
+  precio: "~20€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B6N5L1P9"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-mental-perros-guia
+  descripcionCorta: "5 zonas diferentes para esconder premios. Lavable en lavadora. Portátil y plegable. Efecto calmante por olfateo."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto, senior]
+  afinidad:
+    juego_mental: 4
+    presupuesto_economico: 3
+
+# =============================================
+# JUGUETES RESISTENTES - mejor-juguete-resistente-perros-guia
+# =============================================
+- id: kong-ball-extreme
+  nombre: "Kong Ball Extreme M/L"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/61BTLH0tsGL._AC_SL300_.jpg"
+  precio: "~13€"
+  precioAmazon: "17,39€"
+  precioZooplus: "13,19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B004VBC0SY"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/327171"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "Caucho natural negro ultra-resistente. Bote irregular impredecible. El clásico indestructible. Disponible en 3 tamaños."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_morder: 5
+    presupuesto_economico: 4
+
+- id: chuckit-ultra-ball-resistente
+  nombre: "Chuckit! Ultra Ball M"
+  marca: "Chuckit"
+  imagen: "https://m.media-amazon.com/images/I/714HUsBpO+L._AC_SL300_.jpg"
+  precio: "~5€"
+  precioAmazon: "10,90€"
+  precioZooplus: "4,69€"
+  precioTiendanimal: "7,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000F4AVPA"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/pelotas/pelotas_clasicas/456484"
+  enlaceTiendanimal: "https://www.tiendanimal.es/chuckit-ultra-pelota-de-caucho-para-perros/CHU170015_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "Caucho de alta densidad, bote alto y consistente. Compatible con lanzadores Chuckit. Flota en agua. Muy visible."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_morder: 2
+    presupuesto_economico: 5
+
+- id: west-paw-jive-s
+  nombre: "West Paw Jive S"
+  marca: "West Paw"
+  imagen: "https://m.media-amazon.com/images/I/61jswQKx7rL._AC_SL300_.jpg"
+  precio: "~25€"
+  precioAmazon: "25,35€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0070S6248"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "Zogoflex resistente con garantía de por vida. Bote alto e impredecible. Flota. Colores brillantes. 100% reciclable."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_morder: 3
+    presupuesto_economico: 2
+
+- id: goughnuts-ball
+  nombre: "Goughnuts Ball"
+  marca: "Goughnuts"
+  imagen: "https://m.media-amazon.com/images/I/61Ad-hZz6wS._AC_SL300_.jpg"
+  precio: "~79€"
+  precioAmazon: "79,47€"
+  enlaceAmazon: "https://www.amazon.es/dp/B093QGJB2R"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "La más resistente del mercado. Indicador de seguridad rojo interior. Caucho de grado industrial. Programa de reemplazo."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 4
+    juego_morder: 5
+    presupuesto_economico: 1
+
+- id: kong-extreme-m-resistente
+  nombre: "Kong Extreme M"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/616UIXeYlbL._AC_SL300_.jpg"
+  precio: "~13€"
+  precioAmazon: "13,48€"
+  precioZooplus: "12,19€"
+  precioTiendanimal: "12,19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000GUDZO2"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/139585"
+  enlaceTiendanimal: "https://www.tiendanimal.es/kong-extreme-juguete-para-perros/KONKOK2E_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "Caucho negro ultra resistente. Rellenable con comida. Rebota de forma impredecible. Prácticamente indestructible para masticadores potentes."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_morder: 5
+    juego_mental: 4
+    presupuesto_economico: 4
+
+- id: atopo-mordedor-hueso-goma
+  nombre: "Atopo Mordedor Hueso Goma"
+  marca: "Atopo"
+  imagen: "https://m.media-amazon.com/images/I/71MVjd+yZfL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "18,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07CZ8X6KT"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "Goma resistente con superficie convexa texturizada. Forma de hueso ergonómica. Apto para perros pequeños, medianos y grandes."
+  filtros:
+    tamano: [pequeno, mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_morder: 4
+    presupuesto_economico: 3
+
+- id: asta-de-ciervo-natural
+  nombre: "Asta de Ciervo Natural"
+  imagen: "https://m.media-amazon.com/images/I/71fDF9ERgKL._AC_SL300_.jpg"
+  precio: "~12€"
+  precioAmazon: "11,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XVTB7DJ"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "100% natural, sin aditivos. Dura meses. No astilla. Rica en minerales. Se desgasta gradualmente sin romperse."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_morder: 5
+    presupuesto_economico: 4
+
+- id: kong-goodie-bone-extreme-m
+  nombre: "Kong Goodie Bone Extreme M"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/61xe5UJQARL._AC_SL300_.jpg"
+  precio: "~11€"
+  precioAmazon: "23,98€"
+  precioZooplus: "11,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0115C7BL2"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/kong/extreme/154785"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "Mismo caucho negro que el Kong Extreme. Forma de hueso con dos extremos rellenables. Ideal para mantener al perro ocupado."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_morder: 5
+    juego_mental: 4
+    presupuesto_economico: 4
+
+- id: chuckit-sport-12m-launcher
+  nombre: "Chuckit! Sport 12M Launcher"
+  marca: "Chuckit"
+  imagen: "https://m.media-amazon.com/images/I/71VeMle0XOL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "9,40€"
+  precioZooplus: "8,49€"
+  precioTiendanimal: "13,90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000PKWKMQ"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/pelotas/pelotas_pero_lanzador/456557"
+  enlaceTiendanimal: "https://www.tiendanimal.es/chuckit-sport-lanzador-de-pelotas-para-perros/CHU06800_M.html"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: perro
+  articuloSlug: mejor-juguete-resistente-perros-guia
+  descripcionCorta: "Versión compacta (30cm) con mango ergonómico de goma. Compatible con pelotas estándar. Ideal para parques urbanos y viajes."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    presupuesto_economico: 5
+
+# =============================================
+# JUGUETES GATOS - mejor-juguete-gatos-guia
+# =============================================
+- id: pawaboo-cana-retractil-plumas
+  nombre: "Pawaboo Caña Retráctil con Plumas"
+  marca: "Pawaboo"
+  imagen: "https://m.media-amazon.com/images/I/61hnjG7gKcL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B085HDMC6D"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Caña interactiva retráctil con plumas de pez y libélula. Estimula el instinto de caza. Vara telescópica práctica para guardar."
+  filtros: {}
+  afinidad:
+    juego_cazar: 5
+    juego_interactivo: 5
+    presupuesto_economico: 3
+
+- id: trixie-cana-raton-plumas
+  nombre: "Trixie Caña con Ratón y Plumas"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/41j-6FFzG0L._AC_SL300_.jpg"
+  precio: "~6€"
+  precioAmazon: "5,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B001BYMNH2"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "La más económica. Ratón de peluche + plumas. Ideal como primera caña. Cuerda larga de 50 cm."
+  filtros: {}
+  afinidad:
+    juego_cazar: 4
+    juego_interactivo: 4
+    presupuesto_economico: 5
+
+- id: catit-senses-play-circuit
+  nombre: "Catit Senses Play Circuit"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/61pxZBdII5L._AC_SL300_.jpg"
+  precio: "~16€"
+  precioAmazon: "18,99€"
+  precioZooplus: "16,19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00D3NI5YO"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/juguetes_gatos/juguetes_interactivos_e_inteligencia/juguetes_interactivos/321318"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Circuito modular con bola iluminada. Se puede configurar en distintas formas. Sin pilas. Silencioso. Duradero."
+  filtros: {}
+  afinidad:
+    juego_cazar: 4
+    juego_interactivo: 3
+    presupuesto_economico: 4
+
+- id: petsafe-slimcat-dispensador
+  nombre: "PetSafe SlimCat Dispensador"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/71o4tgJisoL._AC_SL300_.jpg"
+  precio: "~11€"
+  precioAmazon: "10,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0018CG40O"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Bola dispensadora de pienso. Dificultad ajustable. Estimula el instinto de caza. Económico y eficaz."
+  filtros: {}
+  afinidad:
+    juego_cazar: 4
+    juego_interactivo: 3
+    presupuesto_economico: 5
+
+- id: nina-ottosson-buggin-out
+  nombre: "Nina Ottosson Buggin Out"
+  marca: "Nina Ottosson"
+  imagen: "https://m.media-amazon.com/images/I/81L-L+1YmwL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0872J3XV9"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Diseño de insectos muy original. Dificultad ajustable. Piezas deslizantes y giratorias. Estimula el instinto cazador."
+  filtros: {}
+  afinidad:
+    juego_cazar: 4
+    juego_interactivo: 5
+    presupuesto_economico: 3
+
+- id: catit-senses-food-maze
+  nombre: "Catit Senses Food Maze"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/71pd7ZsEe5L._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "17,69€"
+  enlaceAmazon: "https://www.amazon.es/dp/B004G9L1H2"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Comedero puzzle vertical. El gato empuja el pienso por un laberinto. Ralentiza la alimentación. Diseño compacto."
+  filtros: {}
+  afinidad:
+    juego_interactivo: 4
+    juego_cazar: 3
+    presupuesto_economico: 3
+
+- id: doc-phoebe-indoor-hunting-feeder
+  nombre: "Doc & Phoebe's Indoor Hunting Feeder"
+  marca: "Doc & Phoebe"
+  imagen: "https://m.media-amazon.com/images/I/81c4QNvqSIL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "22,01€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07HFKDJF8"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Sistema de caza interior con ratones dispensadores. Simula la caza natural. Reduce problemas de comportamiento. Diseñado por veterinarios."
+  filtros: {}
+  afinidad:
+    juego_cazar: 5
+    juego_interactivo: 4
+    presupuesto_economico: 3
+
+- id: pawz-road-tunel-donut
+  nombre: "PAWZ Road Túnel Donut"
+  marca: "PAWZ Road"
+  imagen: "https://m.media-amazon.com/images/I/61SmiiY0ipL._AC_SL300_.jpg"
+  precio: "~24€"
+  precioAmazon: "23,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08CDSPYNW"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Forma circular innovadora. Parte central desmontable. Se puede usar como túnel recto o cerrado en anillo. Muy versátil."
+  filtros: {}
+  afinidad:
+    juego_cazar: 4
+    juego_fisico: 5
+    presupuesto_economico: 3
+
+- id: trixie-hierba-gatera-bandeja
+  nombre: "Trixie Hierba Gatera con Bandeja"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/816Cncuj5EL._AC_SL300_.jpg"
+  precio: "~4€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000OM1B7U"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Kit completo con bandeja y semillas de cebada/trigo. Crece en 5-7 días. Ayuda a purgar bolas de pelo."
+  filtros: {}
+  afinidad:
+    juego_interactivo: 2
+    presupuesto_economico: 5
+
+- id: kong-naturals-catnip-premium
+  nombre: "KONG Naturals Catnip Premium"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/81O6nfO59aL._AC_SL300_.jpg"
+  precio: "~18€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0018N1DRW"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Catnip seco premium cultivado en Norteamérica. Alta concentración de nepetalactona. Bote de 56 g. Ideal para espolvorear sobre rascadores."
+  filtros: {}
+  afinidad:
+    juego_cazar: 3
+    presupuesto_economico: 3
+
+- id: petstages-dental-banana-catnip
+  nombre: "Petstages Dental Banana con Catnip"
+  marca: "Petstages"
+  imagen: "https://m.media-amazon.com/images/I/71bBTVqNODL._AC_SL300_.jpg"
+  precio: "~6€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0787KRMXC"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Juguete con forma de plátano relleno de catnip. Malla que limpia los dientes al morder. Rellenable cuando el catnip pierde efecto."
+  filtros: {}
+  afinidad:
+    juego_cazar: 3
+    juego_interactivo: 3
+    presupuesto_economico: 5
+
+- id: matatabi-silvervine-sticks
+  nombre: "Matatabi Silvervine Sticks"
+  marca: "Matatabi"
+  imagen: "https://m.media-amazon.com/images/I/91qotYJGU-L._AC_SL300_.jpg"
+  precio: "~13€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07C92QHWM"
+  categoria: juguetes
+  subcategoria: juguete
+  animal: gato
+  articuloSlug: mejor-juguete-gatos-guia
+  descripcionCorta: "Pack de sticks de silvervine natural. Funciona en gatos que no responden al catnip. Ayuda a la higiene dental al masticar."
+  filtros: {}
+  afinidad:
+    juego_cazar: 3
+    juego_interactivo: 3
+    presupuesto_economico: 4
+
+# =============================================
+# RASCADORES - mejor-rascador-gatos-guia
+# =============================================
+- id: trixie-alicante-142cm
+  nombre: "Trixie Árbol Rascador Alicante 142 cm"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61zIWPFmj7L._AC_SL300_.jpg"
+  precio: "~91€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000ND6ZP8"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/rascadores_muebles/rascadores_medianos/rascadores_medianos_160cm/55844"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Árbol completo con 2 cuevas, plataformas acolchadas y postes de sisal. 142 cm de alto. Base estable de 44x44 cm."
+  filtros: {}
+  afinidad:
+    juego_trepar: 5
+    espacio_medio: 4
+    espacio_grande: 5
+    presupuesto_economico: 2
+
+- id: feandrea-arbol-rascador-143cm
+  nombre: "Feandrea Árbol Rascador 143 cm"
+  marca: "Feandrea"
+  imagen: "https://m.media-amazon.com/images/I/71OxqahqESL._AC_SL300_.jpg"
+  precio: "~43€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08XTMNMMZ"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "El más vendido en Amazon. 143 cm con cueva, hamaca y plataformas. Postes de sisal. Montaje sencillo. Precio imbatible."
+  filtros: {}
+  afinidad:
+    juego_trepar: 4
+    espacio_medio: 5
+    espacio_grande: 4
+    presupuesto_economico: 4
+
+- id: riijk-rascador-carton-catnip
+  nombre: "riijk Rascador Cartón con Catnip"
+  marca: "riijk"
+  imagen: "https://m.media-amazon.com/images/I/91jB2CbGaML._AC_SL300_.jpg"
+  precio: "~22€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07VYN5KM2"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Cartón ondulado de alta densidad. Doble cara (se le da la vuelta cuando se desgasta). Incluye hierba gatera. El mejor complemento económico."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 4
+
+- id: amazon-basics-rascador-carton
+  nombre: "Amazon Basics Rascador Cartón"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/61Ga8n3C22S._AC_SL300_.jpg"
+  precio: "~27€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07G3T7DVM"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Cartón ondulado resistente. Diseño compacto para interior. Rascador horizontal complementario. Buena relación calidad-precio."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 3
+
+- id: rhrquality-maine-coon-lounge
+  nombre: "RHRQuality Maine Coon Lounge"
+  marca: "RHRQuality"
+  imagen: "https://m.media-amazon.com/images/I/81yZpMFb9fL._AC_SL300_.jpg"
+  precio: "~169€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07DKF94F9"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Para gatos XXL. Postes de 20 cm de diámetro. Plataforma de 60x43 cm. Base de 60x60 cm. Hasta 40 kg de carga."
+  filtros: {}
+  afinidad:
+    juego_trepar: 5
+    espacio_grande: 5
+    presupuesto_economico: 1
+
+- id: trixie-nikolai-xxl
+  nombre: "Trixie Nikolai XXL"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71ghtd3fHBL._AC_SL300_.jpg"
+  precio: "~229€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07XJYSCRG"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "170 cm de alto. Postes reforzados 11 cm. Cueva grande. Plataformas acolchadas. Marca reconocida. Hasta 8 kg por gato."
+  filtros: {}
+  afinidad:
+    juego_trepar: 5
+    espacio_grande: 5
+    presupuesto_economico: 1
+
+- id: feandrea-arbol-xxl
+  nombre: "Feandrea Árbol XXL"
+  marca: "Feandrea"
+  imagen: "https://m.media-amazon.com/images/I/811x6T68HCL._AC_SL300_.jpg"
+  precio: "~90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08MPV5Y7G"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Gran relación calidad-precio. 154 cm. Postes de sisal. Cueva grande. Plataformas amplias. Fácil montaje."
+  filtros: {}
+  afinidad:
+    juego_trepar: 4
+    espacio_grande: 5
+    presupuesto_economico: 2
+
+- id: natural-paradise-magnolia-xl
+  nombre: "Natural Paradise Magnolia XL"
+  marca: "Natural Paradise"
+  imagen: "/images/productos/natural-paradise-magnolia-xl.webp"
+  precio: "~153€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/rascadores_muebles/natural_paradise/380764"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Exclusiva de Zooplus. 175 cm. Postes de 12 cm. Plataformas extragrandes Oeko-Tex. Excelente estabilidad. Probado con Maine Coons."
+  filtros: {}
+  afinidad:
+    juego_trepar: 5
+    espacio_grande: 5
+    presupuesto_economico: 1
+
+- id: navaris-rascador-esquina-sisal
+  nombre: "Navaris Rascador Esquina Sisal"
+  marca: "Navaris"
+  imagen: "https://m.media-amazon.com/images/I/91KcRS1VtDL._AC_SL300_.jpg"
+  precio: "~36€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07NF165CP"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Sisal natural de buena densidad. 80 cm alto. 2 paneles angulares que cubren toda la esquina. Montaje sólido con tornillos."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 4
+    espacio_medio: 4
+    presupuesto_economico: 3
+
+- id: fukumaru-rascador-esquina-l
+  nombre: "FUKUMARU Rascador Esquina L"
+  marca: "FUKUMARU"
+  imagen: "https://m.media-amazon.com/images/I/71u0UFQwvWL._AC_SL300_.jpg"
+  precio: "~30€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B2NKLVCS"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Sisal + felpa. 100 cm alto. Plataforma superior de descanso. Ideal para gatos grandes. El más completo de esquina."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 3
+    espacio_medio: 5
+    presupuesto_economico: 4
+
+- id: gibz-rascador-sisal-esquina-sofa
+  nombre: "GIBZ Rascador Sisal Esquina Sofá"
+  marca: "GIBZ"
+  imagen: "https://m.media-amazon.com/images/I/61H4PlqVmFL._AC_SL300_.jpg"
+  precio: "~16€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BJ8W5XBK"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Sisal natural. Protector de esquina de sofá y silla. Fácil colocación. Muy económico. Ideal como complemento."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 5
+
+- id: trixie-tabla-rascadora-sisal
+  nombre: "Trixie Tabla Rascadora Sisal"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/617EGoPEJkL._AC_SL300_.jpg"
+  precio: "~12€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000WFDPV4"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Sisal natural. 60x11 cm. Montaje con tornillos. Muy resistente y duradero. Marca fiable. Precio mínimo."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 5
+
+- id: fukumaru-rascador-pared-madera
+  nombre: "FUKUMARU Rascador Pared Madera"
+  marca: "FUKUMARU"
+  imagen: "https://m.media-amazon.com/images/I/716SeoyQVyS._AC_SL300_.jpg"
+  precio: "~28€"
+  enlaceAmazon: "https://www.amazon.es/dp/B087LR5LWP"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "Diseño minimalista en madera maciza y sisal. Se integra en cualquier decoración. Sólido y estable."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 3
+
+- id: miuzmore-rascador-pared-73cm
+  nombre: "MIUZMORE Rascador Pared 73 cm"
+  marca: "MIUZMORE"
+  imagen: "https://m.media-amazon.com/images/I/615owW5BTFL._AC_SL300_.jpg"
+  precio: "~32€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D1XWDXH9"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: mejor-rascador-gatos-guia
+  descripcionCorta: "73 cm de alto para gatos grandes. Sisal natural grueso. Marco metálico de doble fijación. El más alto de pared."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 3
+
+# =============================================
+# RASCADORES COMPACTOS - arbol-rascador-pequeno-pisos
+# =============================================
+- id: catit-vesper-v-base
+  nombre: "Catit Vesper V-Base"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/71yFjGySeIL._AC_SL300_.jpg"
+  precio: "~131€"
+  precioAmazon: "~131€"
+  precioTiendanimal: "130,74€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00TOK58UO"
+  enlaceTiendanimal: "https://www.tiendanimal.es/catit-vesper-high-base-de-color-roble-para-gatos/MRK000211218_M.html"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: arbol-rascador-pequeno-pisos
+  descripcionCorta: "Mueble rascador de madera con cueva inferior y mirador superior. Postes de algas marinas. Cojines viscoelásticos lavables. 56x56 cm de base, 84 cm de alto."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 4
+    espacio_medio: 5
+    juego_trepar: 4
+    presupuesto_economico: 1
+
+- id: trixie-poste-baza
+  nombre: "Trixie Poste Baza"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71geCZOcs+L._AC_SL300_.jpg"
+  precio: "~50€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0027IVL6K"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: arbol-rascador-pequeno-pisos
+  descripcionCorta: "Poste de sisal con hamaca de peluche (50 cm). Base de 41x41 cm. Juguete en banda elástica. Económico y compacto."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 3
+
+- id: amazon-basics-rascador-arbol
+  nombre: "Amazon Basics Rascador Árbol"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/813Cq0ZDWrL._AC_SL300_.jpg"
+  precio: "~29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07GL45JHQ"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: arbol-rascador-pequeno-pisos
+  descripcionCorta: "Dos niveles. Cueva inferior. Plataforma con borde acolchado. 40x40 cm de base. 50 cm de alto."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    presupuesto_economico: 4
+
+- id: fukumaru-rascador-pared-escalones
+  nombre: "FUKUMARU Rascador Pared"
+  marca: "FUKUMARU"
+  imagen: "https://m.media-amazon.com/images/I/71u0UFQwvWL._AC_SL300_.jpg"
+  precio: "~26€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B2NKLVCS"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: arbol-rascador-pequeno-pisos
+  descripcionCorta: "Se fija a la pared. Cero espacio en suelo. Escalones + plataforma de descanso. Sisal natural."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 5
+    juego_trepar: 4
+    presupuesto_economico: 4
+
+- id: feandrea-rascador-84cm
+  nombre: "Feandrea Rascador 84 cm"
+  marca: "Feandrea"
+  imagen: "https://m.media-amazon.com/images/I/816isHv9j0L._AC_SL300_.jpg"
+  precio: "~50€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07M8CMHZ9"
+  categoria: juguetes
+  subcategoria: rascador
+  animal: gato
+  articuloSlug: arbol-rascador-pequeno-pisos
+  descripcionCorta: "84 cm de alto. 2 cuevas, plataforma grande y bola colgante. Para gatos hasta 7 kg. Postes de sisal. Buena estabilidad."
+  filtros: {}
+  afinidad:
+    espacio_pequeno: 4
+    espacio_medio: 5
+    juego_trepar: 4
+    presupuesto_economico: 3
+
+# =============================================
+# ALFOMBRAS DE OLFATO - alfombras-olfato-perros
+# =============================================
+- id: trixie-alfombra-olfatear
+  nombre: "TRIXIE Alfombra para Olfatear"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71JYOfdV6ML._AC_SL300_.jpg"
+  precio: "~35€"
+  precioAmazon: "~35€"
+  precioZooplus: "25,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B076BMCMB1"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/alfombra_olfativa/alfombras/676007"
+  categoria: juguetes
+  subcategoria: alfombra-olfato
+  animal: perro
+  articuloSlug: alfombras-olfato-perros
+  descripcionCorta: "Marca reconocida. Base antideslizante. Múltiples escondites de distinta dificultad. Lavable a máquina. 50x34 cm."
+  filtros:
+    tamano: [pequeno, mediano]
+    etapa: [adulto, senior]
+  afinidad:
+    juego_mental: 5
+    presupuesto_economico: 3
+
+- id: nobleza-alfombra-olfativa-70x70
+  nombre: "Nobleza Alfombra Olfativa 70x70cm"
+  marca: "Nobleza"
+  imagen: "https://m.media-amazon.com/images/I/61DpaENoSTL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "~20€"
+  precioTiendanimal: "16,14€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B6N5L1P9"
+  enlaceTiendanimal: "https://www.tiendanimal.es/nobleza-alfombra-olfativa-juego-de-inteligencia-para-perros/MRK000224901_M.html"
+  categoria: juguetes
+  subcategoria: alfombra-olfato
+  animal: perro
+  articuloSlug: alfombras-olfato-perros
+  descripcionCorta: "Tamaño grande (70x70 cm). Cinco tipos de escondite distintos. Base antideslizante Oxford. Asa y hebilla para guardar. Lavable."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto, senior]
+  afinidad:
+    juego_mental: 5
+    presupuesto_economico: 4
+
+- id: patio-plus-alfombra-olfativa-90x90
+  nombre: "PATIO PLUS Alfombra Olfativa 90x90cm"
+  marca: "PATIO PLUS"
+  imagen: "https://m.media-amazon.com/images/I/81oy40iE3UL._AC_SL300_.jpg"
+  precio: "~21€"
+  precioAmazon: "~21€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07V8GDZRG"
+  categoria: juguetes
+  subcategoria: alfombra-olfato
+  animal: perro
+  articuloSlug: alfombras-olfato-perros
+  descripcionCorta: "La más grande (90x90 cm). Flecos largos y densos. Base antideslizante. Lavable a máquina. Ideal para perros grandes y razas de trabajo."
+  filtros:
+    tamano: [grande]
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 5
+    presupuesto_economico: 3
+
+- id: edipets-alfombra-olfativa
+  nombre: "Edipets Alfombra Olfativa"
+  marca: "Edipets"
+  imagen: "https://m.media-amazon.com/images/I/71nzVlVzI5S._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "~19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B097BXYNXH"
+  categoria: juguetes
+  subcategoria: alfombra-olfato
+  animal: perro
+  articuloSlug: alfombras-olfato-perros
+  descripcionCorta: "Fieltro ecológico 100% seguro. Base antideslizante. Diseño original con múltiples escondites. Apta para cachorros y adultos."
+  filtros:
+    tamano: [pequeno, mediano]
+    etapa: [cachorro, adulto]
+  afinidad:
+    juego_mental: 4
+    presupuesto_economico: 4
+
+- id: trixie-snack-snake
+  nombre: "Trixie Snack Snake"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/51BT+h06mLL._AC_SL300_.jpg"
+  precio: "~8€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07CXMKQ8M"
+  categoria: juguetes
+  subcategoria: alfombra-olfato
+  animal: perro
+  articuloSlug: alfombras-olfato-perros
+  descripcionCorta: "Formato serpiente portátil. Se enrolla. Ideal para viajes. Lavable. 42 cm de largo."
+  filtros:
+    tamano: [pequeno, mediano]
+    etapa: [adulto]
+  afinidad:
+    juego_mental: 3
+    presupuesto_economico: 5
+
+# =============================================
+# FEROMONAS - mejor-difusor-feromonas-gatos
+# =============================================
+- id: feliway-classic-difusor
+  nombre: "Feliway Classic Difusor"
+  marca: "Feliway"
+  imagen: "https://m.media-amazon.com/images/I/81nBIE6y8YL._AC_SL300_.jpg"
+  precio: "~26€"
+  precioAmazon: "26,30€"
+  precioZooplus: "26,49€"
+  precioTiendanimal: "29,09€"
+  enlaceAmazon: "https://www.amazon.es/dp/B019FO2U5Y"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/higiene_cuidados_gatos/feliway_feliscratch/feliway/174361"
+  enlaceTiendanimal: "https://www.tiendanimal.es/feliway-classic-difusor-y%2Fo-recambio-tranquilizante-para-gatos/CEVC23850I_M.html"
+  categoria: juguetes
+  subcategoria: feromonas
+  animal: gato
+  articuloSlug: mejor-difusor-feromonas-gatos
+  descripcionCorta: "La referencia mundial. Feromona facial F3. Reduce marcaje, arañazos y estrés. Recambio mensual. Cubre 70m²."
+  filtros: {}
+  afinidad:
+    feromona_estres: 5
+    feromona_marcaje: 5
+    presupuesto_economico: 3
+
+- id: feliway-friends-difusor
+  nombre: "Feliway Friends Difusor"
+  marca: "Feliway"
+  imagen: "https://m.media-amazon.com/images/I/81ZzWYKIWRL._AC_SL300_.jpg"
+  precio: "~26€"
+  precioAmazon: "26,75€"
+  precioZooplus: "26,49€"
+  precioTiendanimal: "29,09€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01I9GDDJ6"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/higiene_cuidados_gatos/feliway_feliscratch/feliway/568644"
+  enlaceTiendanimal: "https://www.tiendanimal.es/feliway-friends-difusor-para-gatos/CEVD89420E_M.html"
+  categoria: juguetes
+  subcategoria: feromonas
+  animal: gato
+  articuloSlug: mejor-difusor-feromonas-gatos
+  descripcionCorta: "Feromona apaciguadora materna. Para hogares con varios gatos. Reduce conflictos y agresividad entre gatos."
+  filtros: {}
+  afinidad:
+    feromona_agresividad: 5
+    feromona_estres: 4
+    presupuesto_economico: 3
+
+- id: feliway-optimum-difusor
+  nombre: "Feliway Optimum Difusor"
+  marca: "Feliway"
+  imagen: "https://m.media-amazon.com/images/I/817Y1Uc6zaL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,73€"
+  precioZooplus: "32,49€"
+  precioTiendanimal: "32,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08F7RFMDH"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/higiene_cuidados_gatos/feliway_feliscratch/feliway/985586"
+  enlaceTiendanimal: "https://www.tiendanimal.es/feliway-optimum-difusor-tranquilizante-para-gatos/CEVD92110E_M.html"
+  categoria: juguetes
+  subcategoria: feromonas
+  animal: gato
+  articuloSlug: mejor-difusor-feromonas-gatos
+  descripcionCorta: "Última generación. Complejo de feromonas mejorado. Eficaz contra más signos de estrés. El más completo."
+  filtros: {}
+  afinidad:
+    feromona_estres: 5
+    feromona_marcaje: 5
+    feromona_agresividad: 5
+    presupuesto_economico: 2
+
+- id: beaphar-catcomfort-difusor
+  nombre: "Beaphar CatComfort Difusor"
+  marca: "Beaphar"
+  imagen: "https://m.media-amazon.com/images/I/81NtlBLWCtL._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "27,99€"
+  precioZooplus: "17,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07SS586BW"
+  enlaceZooplus: "https://www.zooplus.es/shop/dieta_veterinaria/pienso_veterinario_gatos/estres_gatos/beaphar/768379"
+  categoria: juguetes
+  subcategoria: feromonas
+  animal: gato
+  articuloSlug: mejor-difusor-feromonas-gatos
+  descripcionCorta: "Alternativa económica a Feliway. Feromona facial F3. Difusor + recambio 30 días. Mucho más barato en Zooplus."
+  filtros: {}
+  afinidad:
+    feromona_estres: 4
+    feromona_marcaje: 4
+    presupuesto_economico: 4
+
+- id: pet-remedy-difusor-natural
+  nombre: "Pet Remedy Difusor Natural"
+  marca: "Pet Remedy"
+  imagen: "https://m.media-amazon.com/images/I/71PLTu3sOlL._AC_SL300_.jpg"
+  precio: "~43€"
+  precioAmazon: "43€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0043QPL4W"
+  categoria: juguetes
+  subcategoria: feromonas
+  animal: gato
+  articuloSlug: mejor-difusor-feromonas-gatos
+  descripcionCorta: "Fórmula de valeriana y vetiver (no feromonas). Funciona en gatos, perros y conejos. Alternativa herbal. Necesita adaptador de enchufe."
+  filtros: {}
+  afinidad:
+    feromona_estres: 4
+    presupuesto_economico: 1
+
+# =============================================
+# AGILIDAD - mejor-circuito-agilidad-perros
+# =============================================
+- id: trixie-dog-activity-agility-set
+  nombre: "Trixie Dog Activity Agility Set"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/51nhIh37KpL._AC_SL300_.jpg"
+  precio: "~45€"
+  precioAmazon: "44,53€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07D7YF9X8"
+  categoria: juguetes
+  subcategoria: agilidad
+  animal: perro
+  articuloSlug: mejor-circuito-agilidad-perros
+  descripcionCorta: "Kit completo con túnel, slalom, salto y valla. Plegable con bolsa de transporte. Para todas las razas."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_mental: 5
+    presupuesto_economico: 3
+
+- id: pawhut-circuito-agility-5-piezas
+  nombre: "PawHut Circuito Agility 5 piezas"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/61ZtPo-al5L._AC_SL300_.jpg"
+  precio: "~36€"
+  precioAmazon: "35,90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C1Y5K31T"
+  categoria: juguetes
+  subcategoria: agilidad
+  animal: perro
+  articuloSlug: mejor-circuito-agilidad-perros
+  descripcionCorta: "5 obstáculos variados con altura regulable. Construcción muy estable ideal para jardín. Buena relación calidad-precio."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_mental: 4
+    presupuesto_economico: 4
+
+- id: trixie-tunel-agility-5m
+  nombre: "Trixie Túnel Agility 5m"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/51vBafPVktL._AC_SL300_.jpg"
+  precio: "~63€"
+  precioAmazon: "72,41€"
+  precioZooplus: "62,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000OLWW92"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/agility/tuneles/57404"
+  categoria: juguetes
+  subcategoria: agilidad
+  animal: perro
+  articuloSlug: mejor-circuito-agilidad-perros
+  descripcionCorta: "Túnel de 5 metros con 60 cm de diámetro. Plegable muy compacto. Incluye piquetas de fijación al suelo."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_mental: 3
+    presupuesto_economico: 2
+
+- id: jmmpoo-kit-agility-60-piezas
+  nombre: "JMMPOO Kit Agility 60 Piezas"
+  marca: "JMMPOO"
+  imagen: "https://m.media-amazon.com/images/I/71YGO7PuYgL._AC_SL300_.jpg"
+  precio: "~100€"
+  precioAmazon: "99,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BW5KQW9D"
+  categoria: juguetes
+  subcategoria: agilidad
+  animal: perro
+  articuloSlug: mejor-circuito-agilidad-perros
+  descripcionCorta: "60 piezas: túnel, vallas, postes y conos. Vallas con altura regulable. Bolsa de transporte incluida."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 5
+    juego_mental: 5
+    presupuesto_economico: 1
+
+- id: froadp-set-vallas-agility
+  nombre: "Froadp Set Vallas Agility"
+  marca: "Froadp"
+  imagen: "https://m.media-amazon.com/images/I/61-X2Xd0ozL._AC_SL300_.jpg"
+  precio: "~68€"
+  precioAmazon: "67,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BKVN6BC4"
+  categoria: juguetes
+  subcategoria: agilidad
+  animal: perro
+  articuloSlug: mejor-circuito-agilidad-perros
+  descripcionCorta: "Vallas con altura ajustable. Ligero y portátil para interior y exterior. Opción para empezar con el agility."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    juego_fisico: 4
+    presupuesto_economico: 2
