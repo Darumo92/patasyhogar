@@ -1,18 +1,16 @@
 ---
 interface Props {
-  slug: string;
   titulo?: string;
   descripcion?: string;
 }
 
 const {
-  slug,
   titulo = '¿No sabes cuál elegir?',
-  descripcion = 'Nuestro selector te recomienda uno en menos de un minuto.',
+  descripcion = 'Te ayudamos a encontrar el producto ideal en menos de un minuto.',
 } = Astro.props;
 ---
 
-<a href={`/selector/${slug}/`} class="quiz-cta">
+<a href="/elegir/" class="quiz-cta">
   <span class="quiz-cta-icon" aria-hidden="true">
     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="m9 14 2 2 4-4"/></svg>
   </span>

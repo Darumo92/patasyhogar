@@ -1,44 +1,74 @@
 ---
 interface Opcion {
   texto: string;
-  tags: Record<string, string | number>;
+  valor?: string;
+  tags?: Record<string, number>;
+}
+
+interface Pregunta {
+  id: string;
+  texto: string;
+  textoGato?: string;
+  filtro?: string | null;
+  opciones: Opcion[];
+  opcionesGato?: Opcion[];
 }
 
 interface Props {
-  id: string;
-  texto: string;
-  opciones: Opcion[];
-  stepIndex: number;
+  preguntas: Record<string, Pregunta>;
 }
 
-const { id, texto, opciones, stepIndex } = Astro.props;
+const { preguntas } = Astro.props;
 ---
 
-<div
-  class="quiz-step"
-  data-step={stepIndex}
-  data-question-id={id}
-  role="radiogroup"
-  aria-labelledby={`q-${id}`}
->
-  <h2 id={`q-${id}`} class="quiz-question-text">{texto}</h2>
-  <div class="quiz-options">
-    {opciones.map((opt, i) => (
-      <button
-        type="button"
-        class="quiz-option"
-        role="radio"
-        aria-checked="false"
-        data-option-index={i}
-        data-tags={JSON.stringify(opt.tags)}
-      >
-        {opt.texto}
-      </button>
-    ))}
+{Object.entries(preguntas).map(([id, q]) => (
+  <div
+    class="quiz-step"
+    data-step="pregunta"
+    data-question-id={id}
+    role="radiogroup"
+    aria-labelledby={`q-${id}`}
+    style="display:none;"
+  >
+    {/* Perro version */}
+    <h2 id={`q-${id}`} class="quiz-question-text" data-texto-perro={q.texto} data-texto-gato={q.textoGato || q.texto}>
+      {q.texto}
+    </h2>
+    <div class="quiz-options" data-variant="perro">
+      {q.opciones.map((opt, i) => (
+        <button
+          type="button"
+          class="quiz-option"
+          role="radio"
+          aria-checked="false"
+          data-option-index={i}
+          data-valor={opt.valor || ''}
+          data-tags={JSON.stringify(opt.tags || {})}
+          data-filtro={q.filtro || ''}
+        >
+          {opt.texto}
+        </button>
+      ))}
+    </div>
+    {/* Gato version (hidden, swapped by JS if animal is gato and opcionesGato exists) */}
+    {q.opcionesGato && (
+      <div class="quiz-options" data-variant="gato" style="display:none;">
+        {q.opcionesGato.map((opt, i) => (
+          <button
+            type="button"
+            class="quiz-option"
+            role="radio"
+            aria-checked="false"
+            data-option-index={i}
+            data-valor={opt.valor || ''}
+            data-tags={JSON.stringify(opt.tags || {})}
+            data-filtro={q.filtro || ''}
+          >
+            {opt.texto}
+          </button>
+        ))}
+      </div>
+    )}
+    <button type="button" class="quiz-back-btn" data-action="back">← Volver</button>
   </div>
-  {stepIndex > 0 && (
-    <button type="button" class="quiz-back-btn" data-action="back">
-      ← Volver
-    </button>
-  )}
-</div>
+))}

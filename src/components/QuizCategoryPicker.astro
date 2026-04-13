@@ -1,0 +1,87 @@
+---
+import IconCategory from './IconCategory.astro';
+
+interface Subcategoria {
+  id: string;
+  nombre: string;
+  descripcion: string;
+  soloAnimal?: string;
+  count: number;
+}
+
+interface Categoria {
+  id: string;
+  nombre: string;
+  descripcion: string;
+  icono: string;
+  subcategorias: Subcategoria[];
+  totalProducts: number;
+}
+
+interface Props {
+  categorias: Categoria[];
+}
+
+const { categorias } = Astro.props;
+---
+
+{/* Step 1: Category selection */}
+<div class="quiz-step quiz-step--active" data-step="categoria" id="quiz-step-categoria">
+  <h2 class="quiz-question-text">¿Qué estás buscando para tu mascota?</h2>
+  <div class="quiz-category-grid">
+    {categorias.map(cat => (
+      <button
+        type="button"
+        class="quiz-category-card"
+        data-categoria={cat.id}
+      >
+        <span class="quiz-category-icon" aria-hidden="true">
+          <IconCategory category={cat.id} size={32} />
+        </span>
+        <span class="quiz-category-name">{cat.nombre}</span>
+        <span class="quiz-category-desc">{cat.descripcion}</span>
+        <span class="quiz-category-count">{cat.totalProducts} productos</span>
+      </button>
+    ))}
+  </div>
+</div>
+
+{/* Step 2: Subcategory selection (one set per category, hidden by default) */}
+{categorias.map(cat => (
+  <div class="quiz-step" data-step="subcategoria" data-for-categoria={cat.id}>
+    <h2 class="quiz-question-text">¿Qué tipo de producto necesitas?</h2>
+    <div class="quiz-options">
+      {cat.subcategorias.map(sub => (
+        <button
+          type="button"
+          class="quiz-option quiz-option--with-desc"
+          data-subcategoria={sub.id}
+          data-solo-animal={sub.soloAnimal || ''}
+        >
+          <span class="quiz-option-main">
+            <strong>{sub.nombre}</strong>
+            <span class="quiz-option-desc">{sub.descripcion}</span>
+          </span>
+          <span class="quiz-option-count">{sub.count}</span>
+        </button>
+      ))}
+    </div>
+    <button type="button" class="quiz-back-btn" data-action="back">← Volver</button>
+  </div>
+))}
+
+{/* Step 3: Animal selection (conditional — hidden by default, shown by JS if needed) */}
+<div class="quiz-step" data-step="animal" id="quiz-step-animal">
+  <h2 class="quiz-question-text">¿Para quién es?</h2>
+  <div class="quiz-options quiz-options--animal">
+    <button type="button" class="quiz-option quiz-option--animal" data-animal="perro">
+      <span class="quiz-option-animal-icon" aria-hidden="true"><IconCategory category="perro" size={28} /></span>
+      Perro
+    </button>
+    <button type="button" class="quiz-option quiz-option--animal" data-animal="gato">
+      <span class="quiz-option-animal-icon" aria-hidden="true"><IconCategory category="gato" size={28} /></span>
+      Gato
+    </button>
+  </div>
+  <button type="button" class="quiz-back-btn" data-action="back">← Volver</button>
+</div>
