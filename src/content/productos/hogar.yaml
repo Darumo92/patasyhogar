@@ -1,0 +1,1173 @@
+# =============================================
+# CAMA PERRO
+# =============================================
+- id: bedsure-ortopedica-principal
+  nombre: "Bedsure Cama Ortopédica para Perros"
+  marca: "Bedsure"
+  imagen: "https://m.media-amazon.com/images/I/714QScIqOfL._AC_SL300_.jpg"
+  precio: "~50€"
+  precioAmazon: "49,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08NC88YD7"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Memory foam de 10 cm, funda lavable a máquina, funda interior impermeable y base antideslizante. Disponible en 5 tallas (S-XXL)."
+  filtros:
+    tamano: [pequeno, mediano, grande, extragrande]
+  afinidad:
+    cama_colchon: 4
+    cama_ortopedica: 5
+    presupuesto_medio: 5
+
+- id: trixie-vital-bed
+  nombre: "Trixie Vital Bed"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71VxYjKhV2L._AC_SL300_.jpg"
+  precio: "~38€"
+  precioAmazon: "37,60€"
+  enlaceAmazon: "https://www.amazon.es/dp/B096MTYMHD"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Diseño con lados acolchados bajos para facilitar la entrada a perros mayores, relleno ortopédico de alta densidad, funda lavable. Fabricado en Europa."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    cama_colchon: 3
+    cama_ortopedica: 4
+    presupuesto_economico: 4
+
+- id: joyelf-ortopedica-grande
+  nombre: "JOYELF Cama Ortopédica Grande"
+  marca: "JOYELF"
+  imagen: "https://m.media-amazon.com/images/I/61cCGmQ2-pL._AC_SL300_.jpg"
+  precio: "~90€"
+  precioAmazon: "89,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XQ492N8"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Memory foam de alta densidad con bordes acolchados tipo sofá, funda lavable a máquina, base antideslizante de goma. Incluye juguete chirriante."
+  filtros:
+    tamano: [grande, extragrande]
+  afinidad:
+    cama_colchon: 3
+    cama_ortopedica: 5
+    presupuesto_premium: 4
+
+- id: donwei-donut-50cm
+  nombre: "DONWEI Cama Donut 50cm"
+  marca: "DONWEI"
+  imagen: "https://m.media-amazon.com/images/I/71sbOVaE-JL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "18,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BW8QP6CD"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Cama donut con bordes altos de felpa suave, fondo antideslizante. Ideal para perros pequeños y medianos que buscan contención."
+  filtros:
+    tamano: [pequeno, mediano]
+  afinidad:
+    cama_nido: 5
+    cama_colchon: 2
+    presupuesto_economico: 5
+
+- id: ksiia-antiansiedad-90x60
+  nombre: "KSIIA Cama Antiansiedad 90x60cm"
+  marca: "KSIIA"
+  imagen: "https://m.media-amazon.com/images/I/61azGm7BWUL._AC_SL300_.jpg"
+  precio: "~23€"
+  precioAmazon: "22,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BVY2K2JV"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Formato rectangular amplio (90x60 cm) con bordes elevados para apoyar la cabeza. Lavable a máquina, fondo antideslizante."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    cama_nido: 4
+    cama_colchon: 3
+    presupuesto_economico: 5
+
+- id: hanhan-donut-xl
+  nombre: "HANHAN Donut Ortopédico XL"
+  marca: "HANHAN"
+  imagen: "https://m.media-amazon.com/images/I/71NVfub7sQL._AC_SL300_.jpg"
+  precio: "~66€"
+  precioAmazon: "66,24€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08JHP1BZV"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Extra grande para razas XL. Bordes elevados envolventes, pelo largo suave. Efecto calmante y ortopédico. Lavable."
+  filtros:
+    tamano: [grande, extragrande]
+  afinidad:
+    cama_nido: 5
+    cama_ortopedica: 3
+    presupuesto_medio: 4
+
+- id: amazon-basics-elevada-l
+  nombre: "Amazon Basics Cama Elevada Refrescante L"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/71gw2oWnStS._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "26,95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B076VXVB2L"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Cama elevada tipo catre con malla transpirable y marco de acero. Soporta hasta 100 kg. Ideal para verano y perros con artrosis."
+  filtros:
+    tamano: [mediano, grande, extragrande]
+  afinidad:
+    cama_elevada: 5
+    cama_colchon: 1
+    presupuesto_economico: 5
+
+- id: pawhut-elevada-portatil
+  nombre: "PawHut Cama Elevada Portátil"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/610CP0qv4gL._AC_SL300_.jpg"
+  precio: "~30€"
+  precioAmazon: "29,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01M02ETHA"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Cama elevada ultraligera y plegable con malla transpirable resistente al agua. Ideal para camping y viajes. Montaje sin herramientas."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    cama_elevada: 4
+    cama_colchon: 1
+    presupuesto_economico: 4
+
+- id: yuma-spazio-antimordeduras
+  nombre: "Yuma Spazio Antimordeduras"
+  marca: "Yuma"
+  imagen: "https://m.media-amazon.com/images/I/914OqYyPh5L._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "22,15€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BHKMZTM7"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Cama con tejido resistente a mordiscos. Cojín lavable. Ideal para perros medianos y pequeños que destrozan camas convencionales."
+  filtros:
+    tamano: [pequeno, mediano]
+  afinidad:
+    cama_colchon: 3
+    cama_ortopedica: 1
+    presupuesto_economico: 5
+
+- id: bedsure-lavable-ortopedica
+  nombre: "Bedsure Cama Lavable Ortopédica"
+  marca: "Bedsure"
+  imagen: "https://m.media-amazon.com/images/I/81jqNoOi-BL._AC_SL300_.jpg"
+  precio: "~38€"
+  precioAmazon: "37,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B085XRZY59"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Memory foam con funda lavable a máquina y funda interior impermeable. Base antideslizante. Ideal para perros grandes."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    cama_colchon: 4
+    cama_ortopedica: 4
+    presupuesto_economico: 4
+
+- id: knuffelwuff-oxford
+  nombre: "Knuffelwuff Oxford"
+  marca: "Knuffelwuff"
+  imagen: "https://m.media-amazon.com/images/I/512AX5egOQL._AC_SL300_.jpg"
+  precio: "~59€"
+  precioAmazon: "58,95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BRQLKL83"
+  categoria: hogar
+  subcategoria: cama
+  animal: perro
+  articuloSlug: mejor-cama-perro-guia
+  descripcionCorta: "Oxford impermeable exterior, base antideslizante, relleno lavable. Diseño sobrio apto para cualquier decoración."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    cama_colchon: 4
+    cama_ortopedica: 3
+    presupuesto_medio: 4
+
+# =============================================
+# CAMA GATO
+# =============================================
+- id: hulg-cueva-2en1
+  nombre: "HULG Cueva 2 en 1"
+  marca: "HULG"
+  imagen: "https://m.media-amazon.com/images/I/61xfyFFFCUL._AC_SL300_.jpg"
+  precio: "~26€"
+  precioAmazon: "25,88€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09K7378KQ"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Cama convertible 2 en 1: cueva cerrada o cama abierta. Cojín de felpa extraíble, base antideslizante, lavable a máquina."
+  afinidad:
+    cama_cueva: 5
+    cama_donut: 3
+    presupuesto_economico: 5
+
+- id: galatee-iglu-felpa
+  nombre: "Galatée Cueva Iglú de Felpa"
+  marca: "Galatée"
+  imagen: "https://m.media-amazon.com/images/I/71Tmp+PjIuL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "46,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09HKHGLP5"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Cueva de felpa súper suave con cojín extraíble lavable. Talla L para gatos grandes. Fondo antideslizante."
+  afinidad:
+    cama_cueva: 5
+    cama_donut: 2
+    presupuesto_medio: 4
+
+- id: catit-vesper-cubo
+  nombre: "Catit Vesper Cubo"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/71yFjGySeIL._AC_SL300_.jpg"
+  precio: "~109€"
+  precioAmazon: "108,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00TOK58UO"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Mueble felino con cueva inferior y plataforma superior. Cojín de memory foam. Rascador de sisal integrado. Diseño moderno."
+  afinidad:
+    cama_cueva: 4
+    cama_colchon: 3
+    presupuesto_premium: 5
+
+- id: trixie-cueva-minou
+  nombre: "Trixie Cueva Minou"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71rTYABMooL._AC_SL300_.jpg"
+  precio: "~26€"
+  precioAmazon: "43,69€"
+  precioZooplus: "26,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000VBPEMW"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/camas_cojines_gatos/cuevas/cuevas_tela/56203"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Cueva de felpa suave (41x35x26 cm) con cojín mullido extraíble. Lavable a 30°C. Mejor precio en Zooplus."
+  afinidad:
+    cama_cueva: 4
+    cama_donut: 2
+    presupuesto_economico: 4
+
+- id: cama-donut-redonda-gato
+  nombre: "Cama Donut Redonda"
+  imagen: "https://m.media-amazon.com/images/I/81k1yplpDoL._AC_SL300_.jpg"
+  precio: "~9€"
+  precioAmazon: "8,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08YKFDZHW"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Cama donut redonda con borde alto tipo nido. Felpa suave, fondo antideslizante. Ideal para gatos que duermen enroscados."
+  afinidad:
+    cama_donut: 5
+    cama_cueva: 2
+    presupuesto_economico: 5
+
+- id: trixie-hamaca-radiador
+  nombre: "Trixie Hamaca Radiador"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/51ZyhJQS9jL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "46,99€"
+  precioTiendanimal: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B076PQ866P"
+  enlaceTiendanimal: "https://www.tiendanimal.es/hamaca-para-el-radiador-trixie-para-gatos-color-beige/MRK000028674_M.html"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Hamaca que se engancha al radiador para aprovechar el calor. Funda extraíble lavable. Estructura metálica. Hasta 5 kg."
+  afinidad:
+    cama_hamaca: 5
+    cama_colchon: 2
+    presupuesto_economico: 4
+
+- id: riijk-hamaca-ventana
+  nombre: "riijk Hamaca Extra Estable"
+  marca: "riijk"
+  imagen: "https://m.media-amazon.com/images/I/91iNk1HpsVL._AC_SL300_.jpg"
+  precio: "~38€"
+  precioAmazon: "37,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08PC52YTG"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Hamaca de ventana con ventosas reforzadas con palanca. Capacidad hasta 23 kg. Marco de acero, funda lavable."
+  afinidad:
+    cama_hamaca: 5
+    cama_colchon: 2
+    presupuesto_economico: 3
+
+- id: oster-sunny-seat
+  nombre: "Oster Sunny Seat"
+  marca: "Oster"
+  imagen: "https://m.media-amazon.com/images/I/81bEhg1KcdL._AC_SL300_.jpg"
+  precio: "~28€"
+  precioAmazon: "27,88€"
+  enlaceAmazon: "https://www.amazon.es/dp/B005AUM8U0"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Hamaca de ventana clásica con ventosas industriales (hasta 22 kg). Funda Oxford lavable. Marco resistente a arañazos."
+  afinidad:
+    cama_hamaca: 4
+    cama_colchon: 2
+    presupuesto_economico: 4
+
+- id: dracarys-hamaca-ventana
+  nombre: "Dracarys Hamaca Ventana"
+  marca: "Dracarys"
+  imagen: "https://m.media-amazon.com/images/I/71cj0o7c5RL._AC_SL300_.jpg"
+  precio: "~24€"
+  precioAmazon: "23,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09M84R4WF"
+  categoria: hogar
+  subcategoria: cama
+  animal: gato
+  articuloSlug: mejor-cama-gato-guia
+  descripcionCorta: "Hamaca de ventana con ventosas reforzadas (hasta 20 kg). Diseño amplio para gatos grandes. Precio contenido."
+  afinidad:
+    cama_hamaca: 4
+    cama_colchon: 1
+    presupuesto_economico: 5
+
+# =============================================
+# MANTA PERRO
+# =============================================
+- id: feandrea-manta-impermeable
+  nombre: "Feandrea Manta Impermeable Reversible"
+  marca: "Feandrea"
+  imagen: "https://m.media-amazon.com/images/I/81QoG7fu8mL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DWXB136K"
+  categoria: hogar
+  subcategoria: manta
+  animal: perro
+  articuloSlug: mejor-manta-perros
+  descripcionCorta: "Manta doble cara con capa impermeable reversible. Protege sofás y camas de líquidos. Lavable a máquina sin perder impermeabilidad."
+  afinidad:
+    presupuesto_economico: 5
+
+- id: luciphia-manta-impermeable
+  nombre: "Luciphia Manta Impermeable Lavable"
+  marca: "Luciphia"
+  imagen: "https://m.media-amazon.com/images/I/719sA8NiBeL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D8SVGC39"
+  categoria: hogar
+  subcategoria: manta
+  animal: perro
+  articuloSlug: mejor-manta-perros
+  descripcionCorta: "Manta impermeable lavable a buen precio. Ideal para perros medianos. Protección completa contra líquidos."
+  afinidad:
+    presupuesto_economico: 5
+
+- id: bedsure-manta-sherpa
+  nombre: "Bedsure Manta Sofá Reversible"
+  marca: "Bedsure"
+  imagen: "https://m.media-amazon.com/images/I/81cGq1bNqUL._AC_SL300_.jpg"
+  precio: "~33€"
+  precioAmazon: "32,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09NVH2S1X"
+  categoria: hogar
+  subcategoria: manta
+  animal: perro
+  articuloSlug: mejor-manta-perros
+  descripcionCorta: "Reversible franela y sherpa, muy suave y cálida. Tamaño generoso 130x150 cm. Lavable a máquina."
+  afinidad:
+    presupuesto_medio: 4
+
+- id: trixie-barney-polar
+  nombre: "Trixie Barney Manta Polar"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71mb-ozyNZL._AC_SL300_.jpg"
+  precio: "~9€"
+  precioAmazon: "9,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000QC552K"
+  categoria: hogar
+  subcategoria: manta
+  animal: perro
+  articuloSlug: mejor-manta-perros
+  descripcionCorta: "Manta polar suave y cálida (150x100 cm). Marca alemana de confianza. Ideal para sofá, cama o transportín."
+  afinidad:
+    presupuesto_economico: 5
+
+# =============================================
+# PROTECTOR SOFÁ
+# =============================================
+- id: petcute-funda-impermeable
+  nombre: "Petcute Funda Impermeable Acolchada"
+  marca: "Petcute"
+  imagen: "https://m.media-amazon.com/images/I/71ClEoOkF6L._AC_SL300_.jpg"
+  precio: "~35-45€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07PWPYV59"
+  categoria: hogar
+  subcategoria: protector-sofa
+  animal: ambos
+  articuloSlug: protector-sofa-mascotas
+  descripcionCorta: "Funda acolchada impermeable con correas antideslizantes. Disponible en 1, 2 y 3 plazas. Lavable a máquina."
+  afinidad:
+    presupuesto_medio: 5
+
+- id: ameritex-protector-reversible
+  nombre: "Ameritex Protector Sofá Reversible"
+  marca: "Ameritex"
+  imagen: "https://m.media-amazon.com/images/I/816VQhOQBwL._AC_SL300_.jpg"
+  precio: "~28-38€"
+  enlaceAmazon: "https://www.amazon.es/dp/B082K4X4V6"
+  categoria: hogar
+  subcategoria: protector-sofa
+  animal: ambos
+  articuloSlug: protector-sofa-mascotas
+  descripcionCorta: "Reversible en dos colores. Impermeable con acolchado grueso. Correas elásticas de anclaje."
+  afinidad:
+    presupuesto_economico: 4
+
+- id: granbest-funda-premium
+  nombre: "Granbest Funda Sofá Gruesa Premium"
+  marca: "Granbest"
+  imagen: "https://m.media-amazon.com/images/I/6134sYOGAXL._AC_SL300_.jpg"
+  precio: "~33€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08QZGLTN7"
+  categoria: hogar
+  subcategoria: protector-sofa
+  animal: ambos
+  articuloSlug: protector-sofa-mascotas
+  descripcionCorta: "Tejido jacquard grueso y elástico, muy resistente al desgaste. Aspecto elegante, no parece un protector."
+  afinidad:
+    presupuesto_medio: 4
+
+# =============================================
+# GATERA
+# =============================================
+- id: sureflap-microchip-cat-flap
+  nombre: "SureFlap Microchip Cat Flap"
+  marca: "SureFlap"
+  imagen: "https://m.media-amazon.com/images/I/41eqicFxAiL._AC_SL300_.jpg"
+  precio: "~93€"
+  precioAmazon: "96,99€"
+  precioZooplus: "92,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003EGIM3O"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/redes_gateras_gatos/gatera_electronica_gato/chip_gatera/138557"
+  categoria: hogar
+  subcategoria: gatera
+  animal: gato
+  articuloSlug: mejor-gatera-puerta-gato
+  descripcionCorta: "Gatera con microchip que lee el chip del veterinario. Hasta 32 gatos registrados. Cierre selectivo anti-intrusos."
+  afinidad:
+    gatera_chip: 5
+    gatera_magnetica: 0
+    gatera_manual: 0
+    presupuesto_medio: 4
+
+- id: sureflap-microchip-xl
+  nombre: "SureFlap Microchip Pet Door (XL)"
+  marca: "SureFlap"
+  imagen: "https://m.media-amazon.com/images/I/61pjlvzBA1L._AC_SL300_.jpg"
+  precio: "~160€"
+  precioAmazon: "159,99€"
+  precioZooplus: "204,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009NH6NR0"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/redes_gateras_gatos/gatera_electronica_gato/chip_gatera/334234"
+  categoria: hogar
+  subcategoria: gatera
+  animal: gato
+  articuloSlug: mejor-gatera-puerta-gato
+  descripcionCorta: "Versión XL para gatos grandes y perros pequeños. Apertura 17x17 cm. Misma tecnología microchip que el modelo estándar."
+  afinidad:
+    gatera_chip: 5
+    gatera_magnetica: 0
+    gatera_manual: 0
+    presupuesto_premium: 5
+
+- id: petsafe-staywell-4-posiciones
+  nombre: "PetSafe Staywell 4 posiciones"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/61P+XenHM2L._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,91€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00B17ETPI"
+  categoria: hogar
+  subcategoria: gatera
+  animal: gato
+  articuloSlug: mejor-gatera-puerta-gato
+  descripcionCorta: "Gatera manual de 4 modos (abierta/entrada/salida/cerrada). Económica, fiable y de fácil instalación."
+  afinidad:
+    gatera_chip: 0
+    gatera_magnetica: 0
+    gatera_manual: 5
+    presupuesto_economico: 5
+
+- id: cat-mate-electromagnetic
+  nombre: "Cat Mate Electromagnetic"
+  marca: "Cat Mate"
+  imagen: "https://m.media-amazon.com/images/I/51C+nnLgxpL._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "29,21€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0002DHN6Y"
+  categoria: hogar
+  subcategoria: gatera
+  animal: gato
+  articuloSlug: mejor-gatera-puerta-gato
+  descripcionCorta: "Se activa con collar magnético incluido. Impide entrada de otros gatos. Alternativa económica al microchip."
+  afinidad:
+    gatera_chip: 0
+    gatera_magnetica: 5
+    gatera_manual: 2
+    presupuesto_economico: 5
+
+- id: trixie-gatera-4vias-tunel
+  nombre: "Trixie Gatera 4 Vías con Túnel"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61mDanSO0iL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "25,79€"
+  precioZooplus: "19,29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07VFLTFCT"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/redes_gateras_gatos/gatera_manual/gateras_sistema_cierre_4_vias/56244"
+  categoria: hogar
+  subcategoria: gatera
+  animal: gato
+  articuloSlug: mejor-gatera-puerta-gato
+  descripcionCorta: "Gatera manual de 4 posiciones con túnel incluido. Silenciosa, cierre magnético. Mejor precio en Zooplus."
+  afinidad:
+    gatera_chip: 0
+    gatera_magnetica: 1
+    gatera_manual: 5
+    presupuesto_economico: 5
+
+# =============================================
+# PUERTA DE SEGURIDAD
+# =============================================
+- id: pawhut-barrera-extensible-145
+  nombre: "PawHut Barrera Extensible 75-145 cm"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/61A4K-q-LCL._AC_SL300_.jpg"
+  precio: "~46€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CCNLJPLH"
+  categoria: hogar
+  subcategoria: puerta-seguridad
+  animal: perro
+  articuloSlug: mejor-puerta-seguridad-perros
+  descripcionCorta: "Barrera a presión extensible de 75 a 145 cm con 3 extensiones incluidas. Doble bloqueo, cierre automático."
+  afinidad:
+    puerta_presion: 5
+    puerta_tornillos: 0
+    presupuesto_medio: 4
+
+- id: pawhut-barrera-puerta-gatos
+  nombre: "PawHut Barrera 75-103 cm con Puerta"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/61UlGYmXVIL._AC_SL300_.jpg"
+  precio: "~52€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09K6WTPTC"
+  categoria: hogar
+  subcategoria: puerta-seguridad
+  animal: perro
+  articuloSlug: mejor-puerta-seguridad-perros
+  descripcionCorta: "Barrera a presión con puerta pequeña integrada para gatos. 2 extensiones. Doble bloqueo, cierre automático."
+  afinidad:
+    puerta_presion: 5
+    puerta_tornillos: 0
+    presupuesto_medio: 4
+
+- id: trixie-barrera-tornillos
+  nombre: "Trixie Barrera Perro"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/5130Y1i7VbL._AC_SL300_.jpg"
+  precio: "~138€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01LW4Z99D"
+  categoria: hogar
+  subcategoria: puerta-seguridad
+  animal: perro
+  articuloSlug: mejor-puerta-seguridad-perros
+  descripcionCorta: "Barrera fijada con tornillos, 95 cm de altura. Puerta abatible con pestillo. Ideal para perros grandes y escaleras."
+  afinidad:
+    puerta_presion: 0
+    puerta_tornillos: 5
+    presupuesto_premium: 4
+
+- id: bettacare-premium-alta
+  nombre: "Bettacare Premium Alta 104 cm"
+  marca: "Bettacare"
+  imagen: "https://m.media-amazon.com/images/I/41GDo4eVCWL._AC_.jpg"
+  precio: "~87€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07P64LK8K"
+  categoria: hogar
+  subcategoria: puerta-seguridad
+  animal: perro
+  articuloSlug: mejor-puerta-seguridad-perros
+  descripcionCorta: "Barrera a presión de 104 cm de alto. Doble bloqueo ultra seguro. Extensible hasta 147 cm. Apertura con una mano."
+  afinidad:
+    puerta_presion: 5
+    puerta_tornillos: 0
+    presupuesto_medio: 4
+
+- id: nordlinger-pro-stop-fix
+  nombre: "Nordlinger Pro Stop Fix"
+  marca: "Nordlinger"
+  imagen: "https://m.media-amazon.com/images/I/71r7sFCSOdL._AC_SL300_.jpg"
+  precio: "~20€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XPYLC65"
+  categoria: hogar
+  subcategoria: puerta-seguridad
+  animal: perro
+  articuloSlug: mejor-puerta-seguridad-perros
+  descripcionCorta: "Barrera de metal y madera fijada con tornillos. Cierre magnético silencioso. Diseño elegante a precio ajustado."
+  afinidad:
+    puerta_presion: 0
+    puerta_tornillos: 5
+    presupuesto_economico: 5
+
+# =============================================
+# CÁMARA
+# =============================================
+- id: tapo-c225
+  nombre: "TP-Link Tapo C225"
+  marca: "TP-Link"
+  imagen: "https://m.media-amazon.com/images/I/71PBEdXg96L._AC_SL300_.jpg"
+  precio: "~50€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BN4BQ1DM"
+  categoria: hogar
+  subcategoria: camara
+  animal: ambos
+  articuloSlug: mejor-camara-vigilar-mascotas
+  descripcionCorta: "Cámara 2K con detección IA de mascotas, sensor Starlight para visión nocturna a color, giro 360°. Sin suscripción."
+  afinidad:
+    presupuesto_medio: 5
+
+- id: furbo-360-dog-camera
+  nombre: "Furbo 360° Dog Camera"
+  marca: "Furbo"
+  imagen: "https://m.media-amazon.com/images/I/71pB18Tl4CL._AC_SL300_.jpg"
+  precio: "~159€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09GDQZLD1"
+  categoria: hogar
+  subcategoria: camara
+  animal: ambos
+  articuloSlug: mejor-camara-vigilar-mascotas
+  descripcionCorta: "Cámara específica para perros con lanzador de premios, alerta de ladridos y seguimiento automático 360°."
+  afinidad:
+    presupuesto_premium: 5
+
+- id: eufy-indoor-cam-s350
+  nombre: "eufy Security Indoor Cam S350"
+  marca: "eufy"
+  imagen: "https://m.media-amazon.com/images/I/41o3hXKv8OL._AC_SL300_.jpg"
+  precio: "~80€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CDPJJRKB"
+  categoria: hogar
+  subcategoria: camara
+  animal: ambos
+  articuloSlug: mejor-camara-vigilar-mascotas
+  descripcionCorta: "Doble cámara 4K UHD con zoom óptico 8×. Detección de mascotas por IA. PTZ 360°. Sin suscripción."
+  afinidad:
+    presupuesto_medio: 4
+
+- id: xiaomi-camera-c500-pro
+  nombre: "Xiaomi Smart Camera C500 Pro"
+  marca: "Xiaomi"
+  imagen: "https://m.media-amazon.com/images/I/41w0gI8TqbL._AC_SL300_.jpg"
+  precio: "~60€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CT1NZD6V"
+  categoria: hogar
+  subcategoria: camara
+  animal: ambos
+  articuloSlug: mejor-camara-vigilar-mascotas
+  descripcionCorta: "Resolución 3K con HDR, giro 360°, WiFi 6 dual band. Integración con ecosistema Xiaomi."
+  afinidad:
+    presupuesto_medio: 4
+
+- id: tapo-c220
+  nombre: "TP-Link Tapo C220"
+  marca: "TP-Link"
+  imagen: "https://m.media-amazon.com/images/I/61va3wa7gUL._AC_SL300_.jpg"
+  precio: "~28€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CDCL6FLC"
+  categoria: hogar
+  subcategoria: camara
+  animal: ambos
+  articuloSlug: mejor-camara-vigilar-mascotas
+  descripcionCorta: "Cámara 2K QHD con detección IA de mascotas a precio imbatible. Visión nocturna, audio bidireccional. Sin suscripción."
+  afinidad:
+    presupuesto_economico: 5
+
+- id: enabot-ebo-se
+  nombre: "Enabot EBO SE"
+  marca: "Enabot"
+  imagen: "https://m.media-amazon.com/images/I/619BkgEoP1L._AC_SL300_.jpg"
+  precio: "~119€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C4P1MF8V"
+  categoria: hogar
+  subcategoria: camara
+  animal: ambos
+  articuloSlug: mejor-camara-vigilar-mascotas
+  descripcionCorta: "Robot móvil con cámara 1080p que se desplaza por la casa. Patrulla automática y se carga solo."
+  afinidad:
+    presupuesto_premium: 3
+
+# =============================================
+# REFRIGERACIÓN
+# =============================================
+- id: pecute-alfombrilla-gel
+  nombre: "Pecute Alfombrilla Gel"
+  marca: "Pecute"
+  imagen: "https://m.media-amazon.com/images/I/51ZKJB5JdQL._AC_SL300_.jpg"
+  precio: "~36€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XJXKLTG"
+  categoria: hogar
+  subcategoria: refrigeracion
+  animal: perro
+  articuloSlug: alfombrilla-refrigerante-perros
+  descripcionCorta: "Gel autorefrigerante activado por presión, reduce 5-8 grados. No tóxico, resistente a arañazos. Varios tamaños."
+  filtros:
+    tamano: [pequeno, mediano, grande]
+  afinidad:
+    presupuesto_medio: 4
+
+- id: navaris-esterilla-refrigerante
+  nombre: "Navaris Esterilla Refrigerante"
+  marca: "Navaris"
+  imagen: "https://m.media-amazon.com/images/I/71yAvMPFSxL._AC_SL300_.jpg"
+  precio: "~10€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CN1CWWBV"
+  categoria: hogar
+  subcategoria: refrigeracion
+  animal: perro
+  articuloSlug: alfombrilla-refrigerante-perros
+  descripcionCorta: "Esterilla de gel plegable. No tóxico. Se limpia con un paño. De S a XXL. Excelente relación calidad-precio."
+  filtros:
+    tamano: [pequeno, mediano, grande, extragrande]
+  afinidad:
+    presupuesto_economico: 5
+
+- id: trixie-cool-dreamer
+  nombre: "Trixie Cool Dreamer"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/41qZ1XNisVL._AC_SL300_.jpg"
+  precio: "~23€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0108SAUDK"
+  categoria: hogar
+  subcategoria: refrigeracion
+  animal: perro
+  articuloSlug: alfombrilla-refrigerante-perros
+  descripcionCorta: "Alfombrilla de gel autorefrigerante de marca reconocida. Se puede meter dentro de la cama habitual del perro."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    presupuesto_economico: 4
+
+- id: amazon-basics-elevada-xl-refrigeracion
+  nombre: "Amazon Basics Cama Elevada XL"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/81qTi+9aGOL._AC_SL300_.jpg"
+  precio: "~40€"
+  enlaceAmazon: "https://www.amazon.es/dp/B076VSDH8Z"
+  categoria: hogar
+  subcategoria: refrigeracion
+  animal: perro
+  articuloSlug: alfombrilla-refrigerante-perros
+  descripcionCorta: "Cama elevada tipo hamaca con malla transpirable. El aire circula por debajo. Interior y exterior. Tamaño XL."
+  filtros:
+    tamano: [grande, extragrande]
+  afinidad:
+    presupuesto_medio: 4
+
+- id: nobleza-alfombrilla-xl
+  nombre: "Nobleza Alfombrilla XL"
+  marca: "Nobleza"
+  imagen: "https://m.media-amazon.com/images/I/71OG13fcIYL._AC_SL300_.jpg"
+  precio: "~36€"
+  precioAmazon: "~36€"
+  precioTiendanimal: "~59€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09RZCK9MX"
+  enlaceTiendanimal: "https://www.tiendanimal.es/nobleza-alfombrilla-refrescante--auto-refrigerante-para-mascotas-grandes/MRK000206018_M.html"
+  categoria: hogar
+  subcategoria: refrigeracion
+  animal: perro
+  articuloSlug: alfombrilla-refrigerante-perros
+  descripcionCorta: "Alfombrilla extra grande (110x70 cm) ideal para razas grandes. Gel no tóxico activado por presión."
+  filtros:
+    tamano: [grande, extragrande]
+  afinidad:
+    presupuesto_medio: 4
+
+# =============================================
+# PISCINA
+# =============================================
+- id: gostock-piscina-160cm
+  nombre: "GoStock Piscina Plegable 160cm"
+  marca: "GoStock"
+  imagen: "https://m.media-amazon.com/images/I/71ujtNehy7L._AC_SL300_.jpg"
+  precio: "~28€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09R1YRDST"
+  categoria: hogar
+  subcategoria: piscina
+  animal: perro
+  articuloSlug: mejor-piscina-perros
+  descripcionCorta: "Piscina plegable de 160x30 cm de PVC resistente con válvula de drenaje. Se despliega sin inflado. Mejor relación calidad-precio."
+  filtros:
+    tamano: [grande, extragrande]
+  afinidad:
+    presupuesto_economico: 5
+
+- id: vidaxl-piscina-120cm
+  nombre: "vidaXL Piscina Plegable 120cm"
+  marca: "vidaXL"
+  imagen: "https://m.media-amazon.com/images/I/512oCa899ZL._AC_SL300_.jpg"
+  precio: "~36€"
+  enlaceAmazon: "https://www.amazon.es/dp/B084RD4J3V"
+  enlaceTiendanimal: "https://www.tiendanimal.es/vidaxl-piscina-refrescante-rojo-para-perros/MRK000031313_M.html"
+  categoria: hogar
+  subcategoria: piscina
+  animal: perro
+  articuloSlug: mejor-piscina-perros
+  descripcionCorta: "Piscina plegable de 120x30 cm en PVC resistente. Varios tamaños y colores. Buena opción para perros medianos."
+  filtros:
+    tamano: [mediano]
+  afinidad:
+    presupuesto_economico: 4
+
+- id: pawhut-piscina-140cm
+  nombre: "PawHut Piscina Plegable 140cm"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/71J+L6fP9kL._AC_SL300_.jpg"
+  precio: "~42€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06W2JN57R"
+  enlaceTiendanimal: "https://www.tiendanimal.es/pawhut-piscina-plegable-de-pwc-rojo-para-mascotas/MRK000027666_M.html"
+  categoria: hogar
+  subcategoria: piscina
+  animal: perro
+  articuloSlug: mejor-piscina-perros
+  descripcionCorta: "Piscina plegable de 140x30 cm con PVC antideslizante y tablillas interiores para más rigidez. Con tapón de drenaje."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    presupuesto_medio: 4
+
+- id: yaheetech-piscina-xxl
+  nombre: "Yaheetech Piscina Plegable XXL"
+  marca: "Yaheetech"
+  imagen: "https://m.media-amazon.com/images/I/714Hj1JPobL._AC_SL300_.jpg"
+  precio: "~50€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08X6DKPS3"
+  categoria: hogar
+  subcategoria: piscina
+  animal: perro
+  articuloSlug: mejor-piscina-perros
+  descripcionCorta: "Piscina plegable de 160x30 cm en PVC reforzado. Soporta perros grandes sin deformarse. Estructura robusta."
+  filtros:
+    tamano: [grande, extragrande]
+  afinidad:
+    presupuesto_medio: 4
+
+- id: trixie-piscina-perros
+  nombre: "Trixie Piscina para Perros"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/51WgxA0lRAL._AC_SL300_.jpg"
+  precio: "~60€"
+  enlaceAmazon: "https://www.amazon.es/dp/B015KEBAZO"
+  enlaceTiendanimal: "https://www.tiendanimal.es/trixie-piscina-azul-azul-oscuro-para-perros/MRK000054069_M.html"
+  categoria: hogar
+  subcategoria: piscina
+  animal: perro
+  articuloSlug: mejor-piscina-perros
+  descripcionCorta: "Piscina de lona robusta con borde reforzado. Plegable. Marca alemana de confianza. Disponible en 3 tamaños."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    presupuesto_medio: 3
+
+# =============================================
+# JAULA
+# =============================================
+- id: amazon-basics-jaula-91cm
+  nombre: "Amazon Basics Jaula Metálica Doble Puerta (91cm)"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/81um0gokt5L._AC_SL300_.jpg"
+  precio: "~57€"
+  precioAmazon: "57,09€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09G48LHVX"
+  categoria: hogar
+  subcategoria: jaula
+  animal: perro
+  articuloSlug: jaula-perro-casa-coche
+  descripcionCorta: "Jaula metálica plegable con doble puerta y bandeja extraíble. 91x58x64 cm. Ideal para perros de 15-25 kg."
+  filtros:
+    tamano: [mediano]
+  afinidad:
+    jaula_casa: 5
+    jaula_coche: 2
+    presupuesto_medio: 5
+
+- id: amazon-basics-jaula-122cm
+  nombre: "Amazon Basics Jaula XL (122cm)"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/91K5uLGProL._AC_SL300_.jpg"
+  precio: "~90€"
+  precioAmazon: "89,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09G4FD9GP"
+  categoria: hogar
+  subcategoria: jaula
+  animal: perro
+  articuloSlug: jaula-perro-casa-coche
+  descripcionCorta: "Jaula metálica plegable doble puerta y bandeja extraíble. 122x76x83 cm. Para perros de 30-45 kg."
+  filtros:
+    tamano: [grande, extragrande]
+  afinidad:
+    jaula_casa: 5
+    jaula_coche: 2
+    presupuesto_medio: 4
+
+- id: ferplast-atlas-car
+  nombre: "Ferplast Atlas Car"
+  marca: "Ferplast"
+  imagen: "https://m.media-amazon.com/images/I/61ZDcwE5eKL._AC_SL300_.jpg"
+  precio: "~71€"
+  precioAmazon: "89,99€"
+  precioZooplus: "70,99€"
+  precioTiendanimal: "136,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00F5ZSSWM"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/transportines_viajes/transportines_coche/transportines_coche/433230"
+  enlaceTiendanimal: "https://www.tiendanimal.es/ferplast-atlas-car-transportin-para-perros/FER73079021_M.html"
+  categoria: hogar
+  subcategoria: jaula
+  animal: perro
+  articuloSlug: jaula-perro-casa-coche
+  descripcionCorta: "Jaula de plástico diseñada para el maletero del coche. Ventilación lateral, cierre de seguridad. Homologada."
+  afinidad:
+    jaula_casa: 1
+    jaula_coche: 5
+    presupuesto_medio: 4
+
+- id: trixie-jaula-aluminio
+  nombre: "Trixie Jaula Aluminio"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71qaMfP5ebL._AC_SL300_.jpg"
+  precio: "~200€"
+  precioAmazon: "501,95€"
+  precioZooplus: "199,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B008JWSDWI"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/casetas_perros/jaulas_para_perros/jaulas_inclinadas/248406"
+  categoria: hogar
+  subcategoria: jaula
+  animal: perro
+  articuloSlug: jaula-perro-casa-coche
+  descripcionCorta: "Jaula de aluminio ligero y muy resistente. Antiescape. Ideal para perros destructores y transporte en coche."
+  afinidad:
+    jaula_casa: 2
+    jaula_coche: 5
+    presupuesto_premium: 5
+
+- id: petsfit-soft-crate
+  nombre: "Petsfit Soft Crate"
+  marca: "Petsfit"
+  imagen: "https://m.media-amazon.com/images/I/71KUq0jZOQL._AC_SL300_.jpg"
+  precio: "~109€"
+  precioAmazon: "108,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08SJ7XBJN"
+  categoria: hogar
+  subcategoria: jaula
+  animal: perro
+  articuloSlug: jaula-perro-casa-coche
+  descripcionCorta: "Jaula de tela Oxford resistente. Plegable y muy ligera (3 kg). 3 entradas. Ideal para viajes y perros tranquilos."
+  afinidad:
+    jaula_casa: 3
+    jaula_coche: 3
+    presupuesto_premium: 3
+
+# =============================================
+# RAMPA
+# =============================================
+- id: rampa-plegable-madera-ajustable
+  nombre: "Rampa Plegable Madera Ajustable"
+  imagen: "https://m.media-amazon.com/images/I/61IEZMn7i8L._AC_SL300_.jpg"
+  precio: "~58€"
+  precioAmazon: "57,75€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09NN5VYY6"
+  categoria: hogar
+  subcategoria: rampa
+  animal: perro
+  articuloSlug: mejor-escalera-rampa-perros
+  descripcionCorta: "Rampa de madera plegable con altura ajustable 30-40 cm. Superficie antideslizante. Para sofá, cama y coche."
+  afinidad:
+    rampa_sofa: 5
+    rampa_coche: 3
+    presupuesto_medio: 5
+
+- id: petsafe-solvit-telescopica
+  nombre: "PetSafe Solvit Rampa Telescópica"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/713Enlm2lDL._AC_SL300_.jpg"
+  precio: "~230€"
+  precioAmazon: "229,89€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000RUJEUU"
+  categoria: hogar
+  subcategoria: rampa
+  animal: perro
+  articuloSlug: mejor-escalera-rampa-perros
+  descripcionCorta: "Rampa de aluminio telescópica extensible de 99 a 183 cm. Soporta hasta 180 kg. Guías laterales. Ideal para coche y SUV."
+  afinidad:
+    rampa_sofa: 2
+    rampa_coche: 5
+    presupuesto_premium: 5
+
+- id: trixie-rampa-petwalk
+  nombre: "TRIXIE Rampa Petwalk Plegable"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61fhMcwJvaL._AC_SL300_.jpg"
+  precio: "~71€"
+  precioAmazon: "70,83€"
+  precioZooplus: "137,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B001RLU772"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/transportines_viajes/rampas_perros/rampas/1772421"
+  categoria: hogar
+  subcategoria: rampa
+  animal: perro
+  articuloSlug: mejor-escalera-rampa-perros
+  descripcionCorta: "Rampa de plástico plegable de 155 cm con superficie antideslizante. Ligera (5 kg), soporta hasta 75 kg. Para coche y hogar."
+  afinidad:
+    rampa_sofa: 4
+    rampa_coche: 4
+    presupuesto_medio: 4
+
+- id: zvonema-escalera-espuma-3pelda
+  nombre: "Zvonema Escalera Espuma 3 Peldaños"
+  marca: "Zvonema"
+  imagen: "https://m.media-amazon.com/images/I/71ExYgVcdAL._AC_SL300_.jpg"
+  precio: "~54€"
+  precioAmazon: "53,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BKPJ946K"
+  categoria: hogar
+  subcategoria: rampa
+  animal: perro
+  articuloSlug: mejor-escalera-rampa-perros
+  descripcionCorta: "Escalera de espuma de alta densidad con 3 peldaños. Funda impermeable y lavable. Base antideslizante. Altura 40 cm. Hasta 25 kg."
+  afinidad:
+    rampa_sofa: 5
+    rampa_coche: 0
+    presupuesto_medio: 4
+
+- id: trixie-escalera-madera-petstair
+  nombre: "TRIXIE Escalera Madera Petstair"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/81tvTcHO2-L._AC_SL300_.jpg"
+  precio: "~94€"
+  precioAmazon: "94,26€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0047EKI3O"
+  categoria: hogar
+  subcategoria: rampa
+  animal: perro
+  articuloSlug: mejor-escalera-rampa-perros
+  descripcionCorta: "Escalera de madera de haya maciza con 3 peldaños y alfombra antideslizante. 40x38x45 cm. Soporta hasta 40 kg."
+  afinidad:
+    rampa_sofa: 5
+    rampa_coche: 0
+    presupuesto_medio: 3
+
+# =============================================
+# REPELENTE GATO
+# =============================================
+- id: feliway-classic-spray
+  nombre: "Feliway Classic Spray"
+  marca: "Feliway"
+  imagen: "https://m.media-amazon.com/images/I/71eAHzEOQAL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "20,29€"
+  precioZooplus: "20,49€"
+  precioTiendanimal: "20,29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00D604FOS"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/higiene_cuidados_gatos/feliway_feliscratch/feliway/337489"
+  enlaceTiendanimal: "https://www.tiendanimal.es/feliway-spray-tranquilizante-para-gatos/CEV281080P_M.html"
+  categoria: hogar
+  subcategoria: repelente
+  animal: gato
+  articuloSlug: mejor-repelente-gatos-muebles
+  descripcionCorta: "Spray de feromonas faciales felinas clínicamente probado. Reduce marcaje y arañazos por estrés. Sin olor perceptible."
+  afinidad:
+    presupuesto_economico: 5
+
+- id: repellshield-spray-gatos
+  nombre: "RepellShield Spray Repelente Gatos"
+  marca: "RepellShield"
+  imagen: "https://m.media-amazon.com/images/I/71sR4dHzouL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BF5W1H5F"
+  categoria: hogar
+  subcategoria: repelente
+  animal: gato
+  articuloSlug: mejor-repelente-gatos-muebles
+  descripcionCorta: "Spray de aceites esenciales naturales (citronela, hierba limón). 250 ml. No mancha. Seguro para niños y mascotas."
+  afinidad:
+    presupuesto_economico: 5
+
+- id: weallin-spray-antiaranazos
+  nombre: "WEALLIN Spray Antiarañazos Gatos"
+  marca: "WEALLIN"
+  imagen: "https://m.media-amazon.com/images/I/81X86zirJaL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "18,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DH2V4J4V"
+  categoria: hogar
+  subcategoria: repelente
+  animal: gato
+  articuloSlug: mejor-repelente-gatos-muebles
+  descripcionCorta: "Spray de 200 ml específico anti-arañazos para proteger sofás y muebles. Para interior y exterior."
+  afinidad:
+    presupuesto_economico: 5
+
+- id: pidsen-cinta-antiaranazos
+  nombre: "Pidsen Cinta Adhesiva Anti-Arañazos"
+  marca: "Pidsen"
+  imagen: "https://m.media-amazon.com/images/I/61eoPrtptyL._AC_SL300_.jpg"
+  precio: "~24€"
+  precioAmazon: "23,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B087Q626CY"
+  categoria: hogar
+  subcategoria: repelente
+  animal: gato
+  articuloSlug: mejor-repelente-gatos-muebles
+  descripcionCorta: "Nano cinta adhesiva transparente 15cmx10m de PVC no tóxico. Barrera física sin residuos. Apta para sofás y superficies duras."
+  afinidad:
+    presupuesto_medio: 4
