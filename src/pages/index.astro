@@ -2,6 +2,7 @@
 import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import IconCategory from '@/components/IconCategory.astro';
+import QuizHomeBanner from '@/components/QuizHomeBanner.astro';
 import { getCollection } from 'astro:content';
 
 const articulos = await getCollection('articulos');
@@ -35,6 +36,9 @@ const categorias = [
   { slug: 'juguetes',     nombre: 'Juguetes' },
   { slug: 'hogar',        nombre: 'Hogar' },
 ];
+
+const productCollections = await getCollection('productos');
+const totalProducts = productCollections.reduce((sum, c) => sum + c.data.length, 0);
 
 const siteUrl = 'https://patasyhogar.com';
 
@@ -165,6 +169,11 @@ function articleUrl(a: typeof articulos[0]) {
         </div>
       </div>
     </section>
+  )}
+
+  {/* 4.5 Quiz CTA Banner */}
+  {totalProducts > 0 && (
+    <QuizHomeBanner totalProducts={totalProducts} totalCategories={5} />
   )}
 
   <!-- 5. Guides (Informativos) -->
