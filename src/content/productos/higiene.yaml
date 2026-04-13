@@ -1,0 +1,1953 @@
+# =============================================
+# CEPILLOS PERRO
+# =============================================
+- id: furminator-deslanador-perro
+  nombre: "FURminator Deslanador Perro"
+  marca: "FURminator"
+  imagen: "https://m.media-amazon.com/images/I/713UmlozGqL._AC_SL300_.jpg"
+  precio: "~28€"
+  precioAmazon: "27,99€"
+  precioZooplus: "27,99€"
+  precioTiendanimal: "27,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07NSNDHH1"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: perro
+  articuloSlug: mejor-cepillo-perro
+  descripcionCorta: "Deslanador profesional con dientes de acero inoxidable. Elimina hasta el 90% del pelo muerto del subpelo."
+  filtros: {}
+  afinidad:
+    pelo_largo: 5
+    pelo_corto: 3
+    presupuesto_medio: 4
+
+- id: chris-christensen-mark-ii
+  nombre: "Chris Christensen Mark II"
+  marca: "Chris Christensen"
+  imagen: "https://m.media-amazon.com/images/I/61UmvZ1hsmL._AC_SL300_.jpg"
+  precio: "~52€"
+  precioAmazon: "51,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000ES6DJ0"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: perro
+  articuloSlug: mejor-cepillo-perro
+  descripcionCorta: "Cepillo de púas profesional de acero inoxidable. El favorito de los groomers profesionales para desenredar y alisar el pelo."
+  filtros: {}
+  afinidad:
+    pelo_largo: 5
+    pelo_duro: 4
+    presupuesto_premium: 4
+
+- id: pakeway-slicker-perro
+  nombre: "PAKEWAY Slicker Autolimpiante"
+  marca: "PAKEWAY"
+  imagen: "https://m.media-amazon.com/images/I/51i0UOGXtQL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B086DM9Q3T"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: perro
+  articuloSlug: mejor-cepillo-perro
+  descripcionCorta: "Cepillo slicker con botón autolimpiante. Retira pelo suelto y elimina enredos. Opción económica y práctica."
+  filtros: {}
+  afinidad:
+    pelo_largo: 3
+    pelo_corto: 4
+    presupuesto_economico: 5
+
+- id: trixie-cepillo-goma-perro
+  nombre: "Trixie Cepillo de Goma"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/81fyf3d8WDL._AC_SL300_.jpg"
+  precio: "~5€"
+  precioAmazon: "4,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003OQGTUM"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: perro
+  articuloSlug: mejor-cepillo-perro
+  descripcionCorta: "Cepillo de goma con masaje integrado. Ideal para razas de pelo corto. Estimula la circulación mientras cepillas."
+  filtros: {}
+  afinidad:
+    pelo_corto: 5
+    pelo_largo: 1
+    presupuesto_economico: 5
+
+- id: safari-dematting-comb-perro
+  nombre: "Safari De-Matting Comb"
+  marca: "Safari"
+  imagen: "https://m.media-amazon.com/images/I/61HdvpkV29L._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "26,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0002ARR2W"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: perro
+  articuloSlug: mejor-cepillo-perro
+  descripcionCorta: "Peine cortanudos de doble fila. Corta y elimina los enredos más difíciles sin tirar del pelo."
+  filtros: {}
+  afinidad:
+    pelo_largo: 5
+    pelo_duro: 3
+    presupuesto_medio: 4
+
+# =============================================
+# CEPILLOS GATO
+# =============================================
+- id: furminator-gatos-pelo-corto
+  nombre: "FURminator Gatos Pelo Corto M/L"
+  marca: "FURminator"
+  imagen: "https://m.media-amazon.com/images/I/61X6znoqoOL._AC_SL300_.jpg"
+  precio: "~23€"
+  precioAmazon: "22,99€"
+  precioZooplus: "22,99€"
+  precioTiendanimal: "22,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07NSNHTTK"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: gato
+  articuloSlug: mejor-cepillo-gatos
+  descripcionCorta: "Deslanador FURminator específico para gatos de pelo corto. Elimina el subpelo muerto y reduce el pelo en el ambiente."
+  filtros: {}
+  afinidad:
+    pelo_corto: 5
+    pelo_largo: 3
+    presupuesto_medio: 4
+
+- id: pakeway-slicker-gato
+  nombre: "PAKEWAY Slicker Autolimpiante"
+  marca: "PAKEWAY"
+  imagen: "https://m.media-amazon.com/images/I/51i0UOGXtQL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B086DM9Q3T"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: gato
+  articuloSlug: mejor-cepillo-gatos
+  descripcionCorta: "Cepillo slicker con botón autolimpiante. Retira pelo suelto y elimina enredos en gatos. Opción económica."
+  filtros: {}
+  afinidad:
+    pelo_largo: 3
+    pelo_corto: 4
+    presupuesto_economico: 5
+
+- id: hertzko-cortanudos-gatos
+  nombre: "Hertzko Cortanudos Gatos"
+  marca: "Hertzko"
+  imagen: "https://m.media-amazon.com/images/I/51ColYSkFGL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "46,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01FQCWTVY"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: gato
+  articuloSlug: mejor-cepillo-gatos
+  descripcionCorta: "Cortanudos profesional para gatos de pelo largo. Cuchillas de acero inoxidable que cortan sin tirar del pelo."
+  filtros: {}
+  afinidad:
+    pelo_largo: 5
+    pelo_corto: 1
+    presupuesto_premium: 3
+
+- id: aumuca-cepillo-gato-autolimpiante
+  nombre: "aumuca Cepillo Gatos Autolimpiante"
+  marca: "aumuca"
+  imagen: "https://m.media-amazon.com/images/I/71qfz1I1S+L._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "14,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B098P6164W"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: gato
+  articuloSlug: mejor-cepillo-gatos
+  descripcionCorta: "Cepillo de dientes finos autolimpiante con botón de vaciado. Diseño ergonómico especial para gatos."
+  filtros: {}
+  afinidad:
+    pelo_corto: 4
+    pelo_largo: 3
+    presupuesto_economico: 4
+
+# =============================================
+# QUITAPELOS SOFA
+# =============================================
+- id: chomchom-roller
+  nombre: "ChomChom Roller"
+  marca: "ChomChom"
+  imagen: "https://m.media-amazon.com/images/I/81gxS8BPgkL._AC_SL300_.jpg"
+  precio: "~67€"
+  precioAmazon: "66,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C2FMZMHP"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: ambos
+  articuloSlug: cepillos-quitar-pelo-perro-sofa
+  descripcionCorta: "Rodillo quitapelos reutilizable sin adhesivos. Recoge pelo de mascotas de telas y tapicería con un movimiento de vaivén."
+  filtros: {}
+  afinidad:
+    pelo_largo: 4
+    pelo_corto: 4
+    presupuesto_medio: 3
+
+- id: guante-quitapelos-delomo
+  nombre: "Guante Quitapelos DELOMO"
+  marca: "DELOMO"
+  imagen: "https://m.media-amazon.com/images/I/61a-PZAnKxL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01N9KSITZ"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: ambos
+  articuloSlug: cepillos-quitar-pelo-perro-sofa
+  descripcionCorta: "Guante de goma con nódulos que recoge pelo de tapicería y también sirve para cepillar a tu mascota."
+  filtros: {}
+  afinidad:
+    pelo_corto: 4
+    pelo_largo: 3
+    presupuesto_medio: 4
+
+- id: dyson-v8-animal-quitapelos
+  nombre: "Dyson V8 Animal"
+  marca: "Dyson"
+  imagen: "https://m.media-amazon.com/images/I/31uW0zgcf0L._AC_SL300_.jpg"
+  precio: "~359€"
+  precioAmazon: "359,36€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07BHCFH3W"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: ambos
+  articuloSlug: cepillos-quitar-pelo-perro-sofa
+  descripcionCorta: "Aspirador sin cable Dyson con mini cepillo motorizado para tapicería. Filro HEPA. 40 min de autonomía."
+  filtros: {}
+  afinidad:
+    pelo_largo: 4
+    pelo_corto: 4
+    presupuesto_premium: 5
+
+- id: rodillo-scotch-brite
+  nombre: "Rodillo Scotch-Brite"
+  marca: "Scotch-Brite"
+  imagen: "https://m.media-amazon.com/images/I/61xD2dzGm9L._AC_SL300_.jpg"
+  precio: "~5€"
+  precioAmazon: "4,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08HN6DMMG"
+  categoria: higiene
+  subcategoria: cepillo
+  animal: ambos
+  articuloSlug: cepillos-quitar-pelo-perro-sofa
+  descripcionCorta: "Rodillo adhesivo clásico para quitar pelo de ropa y tejidos. Económico y disponible en todas partes."
+  filtros: {}
+  afinidad:
+    pelo_corto: 4
+    pelo_largo: 3
+    presupuesto_economico: 5
+
+# =============================================
+# CHAMPÚ PERRO
+# =============================================
+- id: virbac-allermyl-perro
+  nombre: "Virbac Allermyl"
+  marca: "Virbac"
+  imagen: "https://m.media-amazon.com/images/I/511E0LxGusL._AC_SL300_.jpg"
+  precio: "~24€"
+  precioAmazon: "23,99€"
+  precioZooplus: "23,99€"
+  precioTiendanimal: "23,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00O4B8SUA"
+  categoria: higiene
+  subcategoria: champu
+  animal: perro
+  articuloSlug: champu-perros-piel-sensible
+  descripcionCorta: "Champú dermatológico Virbac con ácidos grasos omega-6. Recomendado por veterinarios para pieles atópicas e irritadas."
+  filtros: {}
+  afinidad:
+    piel_sensible: 5
+    antipicores: 4
+    presupuesto_medio: 4
+
+- id: tropiclean-oatmeal-tea-tree
+  nombre: "TropiClean Oatmeal & Tea Tree"
+  marca: "TropiClean"
+  imagen: "https://m.media-amazon.com/images/I/710L2m17mdL._AC_SL300_.jpg"
+  precio: "~28€"
+  precioAmazon: "27,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000WT8REK"
+  categoria: higiene
+  subcategoria: champu
+  animal: perro
+  articuloSlug: champu-perros-piel-sensible
+  descripcionCorta: "Champú con avena coloidal y árbol de té. Calma el picor y suaviza la piel irritada. Sin parabenos."
+  filtros: {}
+  afinidad:
+    piel_sensible: 4
+    antipicores: 5
+    presupuesto_medio: 3
+
+- id: menforsan-aloe-vera-perro
+  nombre: "Menforsan con Aloe Vera"
+  marca: "Menforsan"
+  imagen: "https://m.media-amazon.com/images/I/61gQ-YF7FBL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  precioTiendanimal: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01980UMF0"
+  categoria: higiene
+  subcategoria: champu
+  animal: perro
+  articuloSlug: champu-perros-piel-sensible
+  descripcionCorta: "Champú con aloe vera para perros de piel sensible. Marca española, precio económico. Fórmula suave sin parabenos."
+  filtros: {}
+  afinidad:
+    piel_sensible: 3
+    piel_normal: 4
+    presupuesto_economico: 5
+
+- id: douxo-s3-calm-perro
+  nombre: "Douxo S3 Calm"
+  marca: "Douxo"
+  imagen: "https://m.media-amazon.com/images/I/51j2AHUknTL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "21,99€"
+  precioZooplus: "21,99€"
+  precioTiendanimal: "21,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0883QM8QN"
+  categoria: higiene
+  subcategoria: champu
+  animal: perro
+  articuloSlug: champu-perros-piel-sensible
+  descripcionCorta: "Champú dermatológico Douxo para pieles con picor. Tecnología Ophytrium que restaura la barrera cutánea."
+  filtros: {}
+  afinidad:
+    piel_sensible: 5
+    antipicores: 5
+    presupuesto_medio: 4
+
+- id: beaphar-bio-shampoo-perro
+  nombre: "Beaphar Bio Shampoo"
+  marca: "Beaphar"
+  imagen: "https://m.media-amazon.com/images/I/61DlZcZhGIS._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00OKFHO0U"
+  categoria: higiene
+  subcategoria: champu
+  animal: perro
+  articuloSlug: champu-perros-piel-sensible
+  descripcionCorta: "Champú natural con extractos de plantas. Fórmula suave apta para pieles delicadas. Precio muy accesible."
+  filtros: {}
+  afinidad:
+    piel_sensible: 3
+    piel_normal: 4
+    presupuesto_economico: 5
+
+# =============================================
+# CHAMPÚ GATO
+# =============================================
+- id: virbac-allercalm-gato
+  nombre: "Virbac Allercalm Champú"
+  marca: "Virbac"
+  imagen: "https://m.media-amazon.com/images/I/61BTEG4tZSL._AC_SL300_.jpg"
+  precio: "~35€"
+  precioAmazon: "34,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0761X8LDR"
+  categoria: higiene
+  subcategoria: champu
+  animal: gato
+  articuloSlug: mejor-champu-gato
+  descripcionCorta: "Champú dermatológico veterinario para gatos con piel reactiva. Fórmula suave que reduce el picor y la caspa."
+  filtros: {}
+  afinidad:
+    piel_sensible: 5
+    antipicores: 4
+    presupuesto_premium: 4
+
+- id: john-paul-pet-cat-shampoo
+  nombre: "John Paul Pet Cat Shampoo"
+  marca: "John Paul Pet"
+  imagen: "https://m.media-amazon.com/images/I/61o-UpY8a7L._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000NE5NP0"
+  categoria: higiene
+  subcategoria: champu
+  animal: gato
+  articuloSlug: mejor-champu-gato
+  descripcionCorta: "Champú de lavanda y manzanilla. Sin sulfatos ni parabenos. Muy suave para gatos de piel normal o sensible."
+  filtros: {}
+  afinidad:
+    piel_sensible: 4
+    piel_normal: 4
+    presupuesto_medio: 4
+
+- id: beaphar-shampoo-gato
+  nombre: "Beaphar Shampoo Gato"
+  marca: "Beaphar"
+  imagen: "https://m.media-amazon.com/images/I/41n3TwuNTAL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "14,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00LSXU0IU"
+  categoria: higiene
+  subcategoria: champu
+  animal: gato
+  articuloSlug: mejor-champu-gato
+  descripcionCorta: "Champú clásico Beaphar para gatos. Fórmula suave que no irrita los ojos. Buen precio y disponibilidad."
+  filtros: {}
+  afinidad:
+    piel_normal: 5
+    piel_sensible: 3
+    presupuesto_economico: 4
+
+- id: menforsan-crema-suavizante-gato
+  nombre: "MENFORSAN Crema Suavizante Desenredante"
+  marca: "MENFORSAN"
+  imagen: "https://m.media-amazon.com/images/I/51h+NPNGHbL._AC_SL300_.jpg"
+  precio: "~11€"
+  precioAmazon: "10,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09S12TPPN"
+  categoria: higiene
+  subcategoria: champu
+  animal: gato
+  articuloSlug: mejor-champu-gato
+  descripcionCorta: "Crema acondicionadora y desenredante para gatos de pelo largo. Facilita el cepillado y reduce los enredos."
+  filtros: {}
+  afinidad:
+    piel_normal: 4
+    piel_sensible: 3
+    presupuesto_economico: 5
+
+- id: menforsan-champu-suave-gatos
+  nombre: "MENFORSAN Champú Muy Suave Gatos"
+  marca: "MENFORSAN"
+  imagen: "https://m.media-amazon.com/images/I/61-RY9itt3L._AC_SL300_.jpg"
+  precio: "~6€"
+  precioAmazon: "5,99€"
+  precioTiendanimal: "5,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00Q78SYM0"
+  categoria: higiene
+  subcategoria: champu
+  animal: gato
+  articuloSlug: mejor-champu-gato
+  descripcionCorta: "Champú muy suave especial para gatos. Fórmula hipoalergénica. La opción más económica del mercado."
+  filtros: {}
+  afinidad:
+    piel_sensible: 4
+    piel_normal: 4
+    presupuesto_economico: 5
+
+# =============================================
+# ANTIPARASITARIOS PERRO (GUIA GENERAL)
+# =============================================
+- id: seresto-collar-perro
+  nombre: "Seresto Collar Antiparasitario Perro"
+  marca: "Elanco"
+  imagen: "https://m.media-amazon.com/images/I/61mhYLEyEuL._AC_SL300_.jpg"
+  precio: "~39€"
+  precioZooplus: "39,99€"
+  precioTiendanimal: "39,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perro/collares_antiparasitarios/seresto/301059"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: mejor-antiparasitario-perros-guia
+  descripcionCorta: "Collar antiparasitario Seresto de 8 meses de duración. Protege frente a pulgas y garrapatas. Liberación continua."
+  filtros: {}
+  afinidad:
+    formato_collar: 5
+    presupuesto_medio: 4
+
+- id: advantix-pipeta-perro
+  nombre: "Advantix Pipeta Perro"
+  marca: "Bayer"
+  imagen: "/images/productos/advantix-pipetas-perro.jpg"
+  precio: "~9€"
+  precioZooplus: "9,99€"
+  precioTiendanimal: "9,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perro/pipetas_antiparasitarias/advantix/178977"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: mejor-antiparasitario-perros-guia
+  descripcionCorta: "Pipeta Advantix de aplicación tópica. Protege contra pulgas, garrapatas y mosquitos. Muy extendida en veterinarias."
+  filtros: {}
+  afinidad:
+    formato_pipeta: 5
+    presupuesto_economico: 4
+
+- id: frontline-tri-act-perro
+  nombre: "Frontline Tri-Act Pipeta"
+  marca: "Frontline"
+  imagen: "https://m.media-amazon.com/images/I/611C10o3yIS._AC_SL300_.jpg"
+  precio: "~25€"
+  precioZooplus: "24,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perro/pipetas_antiparasitarias/frontline/294459"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: mejor-antiparasitario-perros-guia
+  descripcionCorta: "Pipeta Frontline Tri-Act con triple acción repelente y acaricida. Protege además de mosquitos y moscas."
+  filtros: {}
+  afinidad:
+    formato_pipeta: 5
+    presupuesto_medio: 3
+
+# =============================================
+# ANTIPARASITARIOS GATO (GUIA GENERAL)
+# =============================================
+- id: frontline-combo-gatos
+  nombre: "Frontline Combo Gatos"
+  marca: "Frontline"
+  imagen: "https://m.media-amazon.com/images/I/71Ch-OB3NVL._AC_SL300_.jpg"
+  precio: "~23€"
+  precioZooplus: "22,99€"
+  precioTiendanimal: "22,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/antiparasitarios_gato/pipetas_antiparasitarias_gato/frontline/77897"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: gato
+  articuloSlug: mejor-antiparasitario-gatos-guia
+  descripcionCorta: "Pipeta Frontline Combo para gatos. Elimina pulgas, huevos y larvas. Una de las más usadas en España."
+  filtros: {}
+  afinidad:
+    formato_pipeta: 5
+    presupuesto_medio: 4
+
+- id: beaphar-combotec-gatos
+  nombre: "Beaphar Combotec Gatos"
+  marca: "Beaphar"
+  imagen: "https://m.media-amazon.com/images/I/81LNI+v-n4L._AC_SL300_.jpg"
+  precio: "~32€"
+  precioAmazon: "31,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B56YGN5Y"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: gato
+  articuloSlug: mejor-antiparasitario-gatos-guia
+  descripcionCorta: "Pipeta antiparasitaria con imidacloprid y permetrina para gatos. Acción prolongada anti-pulgas y piojos."
+  filtros: {}
+  afinidad:
+    formato_pipeta: 4
+    presupuesto_medio: 3
+
+- id: vectra-felis-gatos
+  nombre: "Vectra Felis"
+  marca: "Ceva"
+  imagen: "https://m.media-amazon.com/images/I/51dceR7aP6L._AC_SL300_.jpg"
+  precio: "~21€"
+  precioAmazon: "20,99€"
+  precioTiendanimal: "20,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CTHX49NK"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: gato
+  articuloSlug: mejor-antiparasitario-gatos-guia
+  descripcionCorta: "Pipeta Vectra Felis para gatos. Dinotefurano de acción rápida contra pulgas. Apto para gatos desde 7 semanas."
+  filtros: {}
+  afinidad:
+    formato_pipeta: 5
+    presupuesto_medio: 4
+
+- id: seresto-collar-gatos
+  nombre: "Seresto Collar Antiparasitario Gatos"
+  marca: "Elanco"
+  imagen: "https://m.media-amazon.com/images/I/61C9XtBVLOL._AC_SL300_.jpg"
+  precio: "~39€"
+  precioZooplus: "39,99€"
+  precioTiendanimal: "39,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/antiparasitarios_gato/collar_gatos_antipulgas/seresto/301060"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: gato
+  articuloSlug: mejor-antiparasitario-gatos-guia
+  descripcionCorta: "Collar Seresto de 8 meses para gatos. Protección continua contra pulgas y garrapatas. Fácil de colocar."
+  filtros: {}
+  afinidad:
+    formato_collar: 5
+    presupuesto_medio: 4
+
+# =============================================
+# COLLAR ANTIPARASITARIO PERRO
+# =============================================
+- id: seresto-8-meses-perro
+  nombre: "Seresto 8 Meses Perro"
+  marca: "Elanco"
+  imagen: "https://m.media-amazon.com/images/I/51aTnDEGjzL._AC_SL300_.jpg"
+  precio: "~42€"
+  precioZooplus: "41,99€"
+  precioTiendanimal: "41,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perro/collares_antiparasitarios/seresto/301059"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: mejor-collar-antiparasitario-perro
+  descripcionCorta: "Collar Seresto de 8 meses. La referencia del mercado en collares antiparasitarios. Activo y cómodo."
+  filtros: {}
+  afinidad:
+    formato_collar: 5
+    presupuesto_medio: 4
+
+- id: scalibor-protectorband
+  nombre: "Scalibor Protectorband"
+  marca: "MSD Animal Health"
+  imagen: "https://m.media-amazon.com/images/I/51KGuAUjdfL._AC_SL300_.jpg"
+  precio: "~27€"
+  precioZooplus: "26,99€"
+  precioTiendanimal: "26,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perro/collares_antiparasitarios/scalibor/129505"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: mejor-collar-antiparasitario-perro
+  descripcionCorta: "Collar Scalibor con deltametrina. Especialmente efectivo como repelente de mosquitos portadores de leishmaniasis."
+  filtros: {}
+  afinidad:
+    formato_collar: 4
+    presupuesto_medio: 5
+
+- id: prevendog-collar
+  nombre: "Prevendog Collar"
+  marca: "Prevendog"
+  imagen: "/images/productos/prevendog-collar.jpg"
+  precio: "~20€"
+  precioZooplus: "19,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/antiparasitarios_perro/collares_antiparasitarios/prevendog/178978"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: mejor-collar-antiparasitario-perro
+  descripcionCorta: "Collar antiparasitario Prevendog económico. Protección básica contra pulgas y garrapatas."
+  filtros: {}
+  afinidad:
+    formato_collar: 4
+    presupuesto_economico: 5
+
+# =============================================
+# COLLAR ANTIPULGAS NATURAL
+# =============================================
+- id: menforsan-collar-natural
+  nombre: "Menforsan Collar Natural"
+  marca: "Menforsan"
+  imagen: "https://m.media-amazon.com/images/I/61vodwuIv5L._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08BPMH4Z6"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: collar-antipulgas-natural-perro
+  descripcionCorta: "Collar antipulgas natural con aceite de margosa y citronela. Sin insecticidas químicos. Opción más económica."
+  filtros: {}
+  afinidad:
+    formato_collar: 4
+    presupuesto_economico: 5
+
+- id: stanvet-life-premium
+  nombre: "Stanvet Life Premium"
+  marca: "Stanvet"
+  imagen: "https://m.media-amazon.com/images/I/71j1tOvU-GL._AC_SL300_.jpg"
+  precio: "~16€"
+  precioAmazon: "15,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XYHSZ42"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: collar-antipulgas-natural-perro
+  descripcionCorta: "Collar natural con aceites esenciales de geranio, lavanda y menta. Repelente para pulgas y garrapatas."
+  filtros: {}
+  afinidad:
+    formato_collar: 4
+    presupuesto_economico: 4
+
+- id: disane-natural-collar
+  nombre: "DISANE Natural"
+  marca: "DISANE"
+  imagen: "https://m.media-amazon.com/images/I/711M6rtB4BL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "14,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B079V1845R"
+  categoria: higiene
+  subcategoria: antiparasitario
+  animal: perro
+  articuloSlug: collar-antipulgas-natural-perro
+  descripcionCorta: "Collar antipulgas natural de origen vegetal. Sin productos químicos. Apto para perros sensibles."
+  filtros: {}
+  afinidad:
+    formato_collar: 4
+    presupuesto_economico: 4
+
+# =============================================
+# CORTAPELOS PERROS
+# =============================================
+- id: oneisall-cortapelos-ipx7
+  nombre: "oneisall Cortapelos IPX7"
+  marca: "oneisall"
+  imagen: "https://m.media-amazon.com/images/I/71H1fgRM3BL._AC_SL300_.jpg"
+  precio: "~39€"
+  precioAmazon: "38,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09QFRN3D5"
+  categoria: higiene
+  subcategoria: cortapelos
+  animal: perro
+  articuloSlug: mejor-cortapelos-perros
+  descripcionCorta: "Cortapelos inalámbrico IPX7 con 5 peinillas de guía. Silencioso, recargable y apto para uso húmedo."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 5
+    pelo_largo: 3
+    pelo_corto: 4
+
+- id: moser-max50
+  nombre: "Moser Max50"
+  marca: "Moser"
+  imagen: "https://m.media-amazon.com/images/I/513ar3ldWwL._AC_SL300_.jpg"
+  precio: "~197€"
+  precioAmazon: "196,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00FJ6CMUQ"
+  categoria: higiene
+  subcategoria: cortapelos
+  animal: perro
+  articuloSlug: mejor-cortapelos-perros
+  descripcionCorta: "Cortapelos profesional Moser con motor de alta velocidad. Referencia para grooming profesional de perros."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 4
+    pelo_largo: 5
+    pelo_duro: 4
+
+- id: wahl-km10
+  nombre: "Wahl KM10"
+  marca: "Wahl"
+  imagen: "https://m.media-amazon.com/images/I/51DmDU6fr3L._AC_SL300_.jpg"
+  precio: "~210€"
+  precioAmazon: "209,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00YHGTQW6"
+  categoria: higiene
+  subcategoria: cortapelos
+  animal: perro
+  articuloSlug: mejor-cortapelos-perros
+  descripcionCorta: "Cortapelos profesional Wahl de dos velocidades. Motor potente para pelo denso y duro. El tope de gama."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 5
+    pelo_duro: 5
+    pelo_largo: 4
+
+- id: milea-cortapelos-silencioso
+  nombre: "Milea Cortapelos Silencioso"
+  marca: "Milea"
+  imagen: "https://m.media-amazon.com/images/I/61vZF6T7sCL._AC_SL300_.jpg"
+  precio: "~30€"
+  precioAmazon: "29,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0963LNR9L"
+  categoria: higiene
+  subcategoria: cortapelos
+  animal: perro
+  articuloSlug: mejor-cortapelos-perros
+  descripcionCorta: "Cortapelos ultra silencioso de 45 dB. Ideal para perros nerviosos. Recargable por USB-C."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 4
+    pelo_corto: 4
+    pelo_largo: 3
+
+- id: cortapelos-profesional-inalambrico
+  nombre: "Cortapelos Profesional Inalámbrico"
+  marca: "Genérico"
+  imagen: "https://m.media-amazon.com/images/I/71YSQrKdHBL._AC_SL300_.jpg"
+  precio: "~30€"
+  precioAmazon: "29,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C7KKR469"
+  categoria: higiene
+  subcategoria: cortapelos
+  animal: perro
+  articuloSlug: mejor-cortapelos-perros
+  descripcionCorta: "Cortapelos inalámbrico con motor de precisión y 4 peinillas de guía. Relación calidad-precio equilibrada."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+    pelo_corto: 4
+    pelo_largo: 2
+
+# =============================================
+# CORTAÚÑAS PERROS
+# =============================================
+- id: millers-forge-guillotina
+  nombre: "Millers Forge Profesional"
+  marca: "Millers Forge"
+  imagen: "https://m.media-amazon.com/images/I/61I5gIWuisL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0002ARUKQ"
+  categoria: higiene
+  subcategoria: cortaunas
+  animal: perro
+  articuloSlug: mejor-cortaunas-perros
+  descripcionCorta: "Cortaúñas tipo guillotina de acero inoxidable. La referencia de los groomers. Corte limpio y preciso."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 4
+    presupuesto_medio: 5
+
+- id: resco-original-deluxe
+  nombre: "Resco Original Deluxe"
+  marca: "Resco"
+  imagen: "https://m.media-amazon.com/images/I/61D7+cJ3XJL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0010O7882"
+  categoria: higiene
+  subcategoria: cortaunas
+  animal: perro
+  articuloSlug: mejor-cortaunas-perros
+  descripcionCorta: "Cortaúñas guillotina Resco fabricado en EE.UU desde 1937. Cuchillas recambiables de acero de alta calidad."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+    presupuesto_premium: 3
+
+- id: safari-professional-trimmer
+  nombre: "Safari Professional Trimmer"
+  marca: "Safari"
+  imagen: "https://m.media-amazon.com/images/I/61v2LGljdDL._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "26,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0002ARQV4"
+  categoria: higiene
+  subcategoria: cortaunas
+  animal: perro
+  articuloSlug: mejor-cortaunas-perros
+  descripcionCorta: "Tijeras cortaúñas tipo tijera con tope de seguridad. Ideal para perros que rechazan la guillotina."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 5
+
+- id: eproicks-cortaunas-led
+  nombre: "EPROICKS Cortaúñas con Luz LED"
+  marca: "EPROICKS"
+  imagen: "https://m.media-amazon.com/images/I/61pdA5zsWKL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "14,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09JYGNXSX"
+  categoria: higiene
+  subcategoria: cortaunas
+  animal: perro
+  articuloSlug: mejor-cortaunas-perros
+  descripcionCorta: "Cortaúñas con luz LED integrada para ver el límite del vivo. Ideal para uñas oscuras. Opción económica."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: dremel-pawcontrol-7760
+  nombre: "Dremel PawControl 7760-PGK"
+  marca: "Dremel"
+  imagen: "https://m.media-amazon.com/images/I/51iRYVaKKgL._AC_SL300_.jpg"
+  precio: "~65€"
+  precioAmazon: "64,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C743BSH9"
+  categoria: higiene
+  subcategoria: cortaunas
+  animal: perro
+  articuloSlug: mejor-cortaunas-perros
+  descripcionCorta: "Lima eléctrica inalámbrica Dremel para uñas de perro. Sin riesgo de cortar el vivo. Para perros nerviosos."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 4
+    presupuesto_medio: 3
+
+# =============================================
+# CEPILLO DIENTES PERROS
+# =============================================
+- id: stangest-kit-dental-perro
+  nombre: "Stangest Kit Dental"
+  marca: "Stangest"
+  imagen: "https://m.media-amazon.com/images/I/71hg9Otj5rL._AC_SL300_.jpg"
+  precio: "~14€"
+  precioAmazon: "13,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00EOOO3CO"
+  categoria: higiene
+  subcategoria: dental
+  animal: perro
+  articuloSlug: mejor-cepillo-dientes-perros
+  descripcionCorta: "Kit dental completo con pasta enzimática y dos cepillos de diferente tamaño. Buena relación calidad-precio."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: arm-hammer-fresh-spectrum
+  nombre: "Arm & Hammer Fresh Spectrum Kit"
+  marca: "Arm & Hammer"
+  imagen: "https://m.media-amazon.com/images/I/81USoEaMdrL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "14,99€"
+  precioZooplus: "14,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B085TS9XK9"
+  categoria: higiene
+  subcategoria: dental
+  animal: perro
+  articuloSlug: mejor-cepillo-dientes-perros
+  descripcionCorta: "Kit dental con bicarbonato sódico. Pasta con sabor a vainilla que los perros aceptan bien. Kit con dos cepillos."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: virbac-cet-pasta-enzimatica
+  nombre: "Virbac C.E.T. Pasta Enzimática"
+  marca: "Virbac"
+  imagen: "https://m.media-amazon.com/images/I/61VxiZYBBML._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00RZDXA7K"
+  categoria: higiene
+  subcategoria: dental
+  animal: perro
+  articuloSlug: mejor-cepillo-dientes-perros
+  descripcionCorta: "Pasta dental enzimática veterinaria Virbac. Sistema de doble enzima que destruye las bacterias del biofilm dental."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+
+- id: trixie-set-higiene-dental
+  nombre: "Trixie Set Higiene Dental"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61PBcb2+R7S._AC_SL300_.jpg"
+  precio: "~10€"
+  precioAmazon: "9,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000V9AZUU"
+  categoria: higiene
+  subcategoria: dental
+  animal: perro
+  articuloSlug: mejor-cepillo-dientes-perros
+  descripcionCorta: "Set dental Trixie con pasta y cepillo de dedo. La opción más económica para comenzar con la higiene dental."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: cepillo-dedo-silicona-pack5
+  nombre: "Cepillo de Dedo Silicona Pack 5"
+  marca: "Genérico"
+  imagen: "https://m.media-amazon.com/images/I/31947CUGKAL._AC_SL300_.jpg"
+  precio: "~4€"
+  precioAmazon: "3,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07LCKG51Y"
+  categoria: higiene
+  subcategoria: dental
+  animal: perro
+  articuloSlug: mejor-cepillo-dientes-perros
+  descripcionCorta: "Pack de 5 cepillos de dedo de silicona. Solución económica para perros que no toleran el cepillo tradicional."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+# =============================================
+# LIMPIADOR OÍDOS PERRO
+# =============================================
+- id: virbac-epi-otic
+  nombre: "Virbac Epi-Otic"
+  marca: "Virbac"
+  imagen: "https://m.media-amazon.com/images/I/51MOfjgj4XL._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "17,99€"
+  precioZooplus: "17,99€"
+  precioTiendanimal: "17,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0056EAKUA"
+  categoria: higiene
+  subcategoria: limpieza-oidos
+  animal: perro
+  articuloSlug: como-limpiar-oidos-perro
+  descripcionCorta: "Limpiador auricular veterinario Virbac. pH neutro. Mantiene el canal auditivo seco y limpio. El más recomendado por vets."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+
+- id: otoclean-icf
+  nombre: "Otoclean ICF"
+  marca: "ICF"
+  imagen: "https://m.media-amazon.com/images/I/51OWukBOITL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  precioZooplus: "19,99€"
+  precioTiendanimal: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0089X5KLE"
+  categoria: higiene
+  subcategoria: limpieza-oidos
+  animal: perro
+  articuloSlug: como-limpiar-oidos-perro
+  descripcionCorta: "Solución limpiadora de oídos con acción anticerumen. Elimina el sebo y los depósitos sin irritar."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+- id: beaphar-limpiador-oidos
+  nombre: "Beaphar Limpiador Oídos"
+  marca: "Beaphar"
+  imagen: "https://m.media-amazon.com/images/I/712Jb4keJhL._AC_SL300_.jpg"
+  precio: "~12€"
+  precioAmazon: "11,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00O4B4YSK"
+  categoria: higiene
+  subcategoria: limpieza-oidos
+  animal: perro
+  articuloSlug: como-limpiar-oidos-perro
+  descripcionCorta: "Limpiador de oídos Beaphar con aceite de almendras. Fórmula suave para mantenimiento regular a buen precio."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: tropiclean-ear-wash
+  nombre: "TropiClean Ear Wash"
+  marca: "TropiClean"
+  imagen: "https://m.media-amazon.com/images/I/71FVSzzC5sL._AC_SL300_.jpg"
+  precio: "~16€"
+  precioAmazon: "15,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003DLE5TA"
+  categoria: higiene
+  subcategoria: limpieza-oidos
+  animal: perro
+  articuloSlug: como-limpiar-oidos-perro
+  descripcionCorta: "Limpiador de oídos TropiClean con extracto de hamamelis. Sin alcohol. Elimina el cerumen y los malos olores."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 4
+
+# =============================================
+# SECADOR PERROS
+# =============================================
+- id: metrovac-air-force-commander
+  nombre: "MetroVac Air Force Commander"
+  marca: "MetroVac"
+  imagen: "https://m.media-amazon.com/images/I/61z5SjQJtaL._AC_SL300_.jpg"
+  precio: "~823€"
+  precioAmazon: "822,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00063KHPE"
+  categoria: higiene
+  subcategoria: secador
+  animal: perro
+  articuloSlug: mejor-secador-perros
+  descripcionCorta: "Soplador de alta velocidad profesional de dos motores. El estándar de peluquerías caninas. Seca sin calor."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 5
+    pelo_largo: 5
+    pelo_duro: 5
+
+- id: artero-black-1-motor
+  nombre: "Artero Black 1 Motor"
+  marca: "Artero"
+  imagen: "https://m.media-amazon.com/images/I/51ZN48-HpKS._AC_SL300_.jpg"
+  precio: "~290€"
+  precioAmazon: "289,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07S43VD9M"
+  categoria: higiene
+  subcategoria: secador
+  animal: perro
+  articuloSlug: mejor-secador-perros
+  descripcionCorta: "Soplador de un motor de marca española. Potente, silencioso y más manejable que los modelos de dos motores."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 4
+    pelo_largo: 4
+    pelo_duro: 4
+
+- id: chaolun-high-velocity
+  nombre: "CHAOLUN High Velocity"
+  marca: "CHAOLUN"
+  imagen: "https://m.media-amazon.com/images/I/61CKrUAgDdL._AC_SL300_.jpg"
+  precio: "~212€"
+  precioAmazon: "211,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07QSFC6PM"
+  categoria: higiene
+  subcategoria: secador
+  animal: perro
+  articuloSlug: mejor-secador-perros
+  descripcionCorta: "Soplador de alta velocidad con regulador de temperatura. Buena alternativa a menor precio para uso doméstico."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 3
+    pelo_largo: 4
+
+- id: mxmoonant-2400w
+  nombre: "Mxmoonant 2400W"
+  marca: "Mxmoonant"
+  imagen: "https://m.media-amazon.com/images/I/71VLXO6nLXL._AC_SL300_.jpg"
+  precio: "~114€"
+  precioAmazon: "113,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09BCHDHNK"
+  categoria: higiene
+  subcategoria: secador
+  animal: perro
+  articuloSlug: mejor-secador-perros
+  descripcionCorta: "Secador de dos velocidades con difusor y concentrador. Equilibrio entre potencia y precio. Válido para razas medianas."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 5
+    pelo_largo: 3
+    pelo_corto: 4
+
+- id: pawhut-secador-2800w
+  nombre: "PawHut Secador 2800W"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/61XwDOtVpfL._AC_SL300_.jpg"
+  precio: "~70€"
+  precioAmazon: "69,99€"
+  precioTiendanimal: "69,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CRB9SRVM"
+  categoria: higiene
+  subcategoria: secador
+  animal: perro
+  articuloSlug: mejor-secador-perros
+  descripcionCorta: "Secador de pie de 2800W con soporte regulable en altura. Manos libres para cepillar mientras secas."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 4
+    presupuesto_medio: 4
+    pelo_largo: 3
+
+# =============================================
+# TOALLITAS PERROS
+# =============================================
+- id: pogis-grooming-wipes
+  nombre: "Pogi's Grooming Wipes"
+  marca: "Pogi's"
+  imagen: "https://m.media-amazon.com/images/I/81fA24XNNsL._AC_SL300_.jpg"
+  precio: "~10€"
+  precioAmazon: "9,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B010MVG6ZY"
+  categoria: higiene
+  subcategoria: toallitas
+  animal: perro
+  articuloSlug: mejor-toallitas-perros
+  descripcionCorta: "Toallitas de grooming grandes y húmedas. Sin fragancia. Limpian el cuerpo, las patas y la cara entre baños."
+  filtros: {}
+  afinidad:
+    toallita_hipo: 5
+    toallita_economica: 3
+    presupuesto_economico: 5
+
+- id: earth-rated-toallitas-lavanda
+  nombre: "Earth Rated Toallitas Lavanda"
+  marca: "Earth Rated"
+  imagen: "https://m.media-amazon.com/images/I/611Q8d+YRXL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  precioTiendanimal: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07NHGX19F"
+  categoria: higiene
+  subcategoria: toallitas
+  animal: perro
+  articuloSlug: mejor-toallitas-perros
+  descripcionCorta: "Toallitas con fragancia de lavanda. Gruesas y resistentes. Biodegradables. Buena relación calidad-precio."
+  filtros: {}
+  afinidad:
+    toallita_bio: 4
+    toallita_economica: 4
+    presupuesto_economico: 5
+
+- id: burts-bees-dog-wipes
+  nombre: "Burt's Bees Multipurpose Dog Wipes"
+  marca: "Burt's Bees"
+  imagen: "https://m.media-amazon.com/images/I/71DvFtD0XAL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01524830M"
+  categoria: higiene
+  subcategoria: toallitas
+  animal: perro
+  articuloSlug: mejor-toallitas-perros
+  descripcionCorta: "Toallitas multipropósito con miel y leche de coco. Sin fragancia artificial. Suaves para la piel sensible."
+  filtros: {}
+  afinidad:
+    toallita_hipo: 4
+    presupuesto_medio: 4
+
+- id: inodorina-refresh-talco
+  nombre: "Inodorina Refresh Talco"
+  marca: "Inodorina"
+  imagen: "https://m.media-amazon.com/images/I/910bTkOFZvL._AC_SL300_.jpg"
+  precio: "~6€"
+  precioAmazon: "5,99€"
+  precioTiendanimal: "5,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00O4APJ1W"
+  categoria: higiene
+  subcategoria: toallitas
+  animal: perro
+  articuloSlug: mejor-toallitas-perros
+  descripcionCorta: "Toallitas perfumadas con aroma a talco. Pack económico para limpieza diaria del pelaje entre baños."
+  filtros: {}
+  afinidad:
+    toallita_economica: 5
+    presupuesto_economico: 5
+
+- id: clx-wipes-clorhexidina
+  nombre: "CLX Wipes Clorhexidina"
+  marca: "CLX"
+  imagen: "https://m.media-amazon.com/images/I/61qa-CTqCBL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B006ZN0JSE"
+  categoria: higiene
+  subcategoria: toallitas
+  animal: perro
+  articuloSlug: mejor-toallitas-perros
+  descripcionCorta: "Toallitas con clorhexidina al 0.3%. Acción antiséptica y antibacteriana. Para zonas problemáticas o piel infectada."
+  filtros: {}
+  afinidad:
+    toallita_hipo: 4
+    presupuesto_medio: 3
+
+# =============================================
+# BOLSAS CACA BIODEGRADABLES
+# =============================================
+- id: pogis-bolsas-biodegradables
+  nombre: "Pogi's Bolsas Biodegradables"
+  marca: "Pogi's"
+  imagen: "https://m.media-amazon.com/images/I/71Q0UyeEfML._AC_SL300_.jpg"
+  precio: "~9€"
+  precioAmazon: "8,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00ISBWVT6"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejores-bolsas-caca-perro-biodegradables
+  descripcionCorta: "Bolsas biodegradables perfumadas de lavanda. Extra gruesas (18 micras). Rollo de 120 bolsas."
+  filtros: {}
+  afinidad:
+    bolsa_bio: 4
+    bolsa_economica: 4
+    presupuesto_economico: 5
+
+- id: biobag-bolsas-compostables
+  nombre: "BioBag Bolsas Compostables"
+  marca: "BioBag"
+  imagen: "https://m.media-amazon.com/images/I/61OuglnrnwL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01K1U271S"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejores-bolsas-caca-perro-biodegradables
+  descripcionCorta: "Bolsas 100% compostables certificadas EN 13432. Fabricadas con almidón de maíz. La opción más ecológica."
+  filtros: {}
+  afinidad:
+    bolsa_bio: 5
+    presupuesto_premium: 3
+
+- id: earth-rated-bolsas-eco
+  nombre: "Earth Rated Bolsas Eco"
+  marca: "Earth Rated"
+  imagen: "https://m.media-amazon.com/images/I/711WbFbVgxL._AC_SL300_.jpg"
+  precio: "~5€"
+  precioAmazon: "4,99€"
+  precioTiendanimal: "4,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0088LIINY"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejores-bolsas-caca-perro-biodegradables
+  descripcionCorta: "Bolsas Earth Rated con fragancia de lavanda. La más popular entre dueños de perros. Resistentes y asequibles."
+  filtros: {}
+  afinidad:
+    bolsa_bio: 3
+    bolsa_economica: 5
+    presupuesto_economico: 5
+
+- id: amazon-basics-biodegradables
+  nombre: "Amazon Basics Biodegradables"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/71RhBxKwOWL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00NABTC8M"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejores-bolsas-caca-perro-biodegradables
+  descripcionCorta: "Bolsas biodegradables Amazon Basics sin fragancia. Pack de 270 bolsas. Opción más económica del mercado."
+  filtros: {}
+  afinidad:
+    bolsa_economica: 5
+    presupuesto_economico: 5
+
+- id: doggy-do-good-compostables
+  nombre: "Doggy Do Good Compostables"
+  marca: "Doggy Do Good"
+  imagen: "https://m.media-amazon.com/images/I/71NiXxLOlwL._AC_SL300_.jpg"
+  precio: "~82€"
+  precioAmazon: "81,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01LY7IKBQ"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejores-bolsas-caca-perro-biodegradables
+  descripcionCorta: "Bolsas 100% compostables certificadas en grandes formatos. Para quienes buscan máxima sostenibilidad a granel."
+  filtros: {}
+  afinidad:
+    bolsa_bio: 5
+    presupuesto_premium: 4
+
+# =============================================
+# DISPENSADOR BOLSAS CACA
+# =============================================
+- id: amazon-basics-dispensador
+  nombre: "Amazon Basics Dispensador + 300 bolsas"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/71RhBxKwOWL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "7,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00NABTC8M"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejor-dispensador-bolsas-caca-perro
+  descripcionCorta: "Pack de dispensador con 300 bolsas biodegradables Amazon Basics. Todo en uno, listo para usar desde el primer día."
+  filtros: {}
+  afinidad:
+    bolsa_dispensador: 5
+    bolsa_economica: 5
+    presupuesto_economico: 5
+
+- id: earth-rated-recambios-dispensador
+  nombre: "Earth Rated Recambios Lavanda 120 bolsas"
+  marca: "Earth Rated"
+  imagen: "https://m.media-amazon.com/images/I/711WbFbVgxL._AC_SL300_.jpg"
+  precio: "~4€"
+  precioAmazon: "3,99€"
+  precioZooplus: "3,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0088LIINY"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejor-dispensador-bolsas-caca-perro
+  descripcionCorta: "Recambios Earth Rated lavanda para dispensador. 120 bolsas en formato recambio. Las más usadas en España."
+  filtros: {}
+  afinidad:
+    bolsa_dispensador: 4
+    bolsa_economica: 4
+    presupuesto_economico: 5
+
+- id: pogis-dispensador
+  nombre: "Pogi's Pet Supplies Dispensador"
+  marca: "Pogi's"
+  imagen: "https://m.media-amazon.com/images/I/61VGhNs-aJL._AC_SL300_.jpg"
+  precio: "~4€"
+  precioAmazon: "3,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00J44KLZ2"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejor-dispensador-bolsas-caca-perro
+  descripcionCorta: "Dispensador de bolsas Pogi's compacto y ligero. Diseño de clip para correa. Compatible con rollos estándar."
+  filtros: {}
+  afinidad:
+    bolsa_dispensador: 5
+    presupuesto_economico: 5
+
+- id: biobag-compostables-dispensador
+  nombre: "BioBag Bolsas Compostables"
+  marca: "BioBag"
+  imagen: "https://m.media-amazon.com/images/I/61OuglnrnwL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01K1U271S"
+  categoria: higiene
+  subcategoria: bolsas-caca
+  animal: perro
+  articuloSlug: mejor-dispensador-bolsas-caca-perro
+  descripcionCorta: "Recambios BioBag compostables para dispensador. La opción más ecológica para quienes usan dispensador."
+  filtros: {}
+  afinidad:
+    bolsa_dispensador: 3
+    bolsa_bio: 5
+    presupuesto_premium: 3
+
+# =============================================
+# EMPAPADORES PERROS
+# =============================================
+- id: amazon-basics-empapadores-100
+  nombre: "Amazon Basics Empapadores Pack 100"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/71Co+yjlWAL._AC_SL300_.jpg"
+  precio: "~10€"
+  precioAmazon: "9,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00MW8G3YU"
+  categoria: higiene
+  subcategoria: empapadores
+  animal: perro
+  articuloSlug: mejores-empapadores-perros
+  descripcionCorta: "Empapadores desechables Amazon Basics 60x60 cm. Pack de 100 unidades. La opción más económica del mercado."
+  filtros: {}
+  afinidad:
+    empapador_cachorro: 4
+    empapador_interior: 4
+    presupuesto_economico: 5
+
+- id: simple-solution-premium-100
+  nombre: "Simple Solution Premium Pack 100"
+  marca: "Simple Solution"
+  imagen: "https://m.media-amazon.com/images/I/812jCzLmK5L._AC_SL300_.jpg"
+  precio: "~78€"
+  precioAmazon: "77,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B005F98AYO"
+  categoria: higiene
+  subcategoria: empapadores
+  animal: perro
+  articuloSlug: mejores-empapadores-perros
+  descripcionCorta: "Empapadores premium con 6 capas y atractivo de feromonas. Inducen al cachorro a usarlos. Los más absorbentes."
+  filtros: {}
+  afinidad:
+    empapador_cachorro: 5
+    presupuesto_premium: 4
+
+- id: trixie-home-training
+  nombre: "Trixie Home Training"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61Lcrnx9MqL._AC_SL300_.jpg"
+  precio: "~6€"
+  precioAmazon: "5,99€"
+  precioZooplus: "5,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000WFCF9W"
+  categoria: higiene
+  subcategoria: empapadores
+  animal: perro
+  articuloSlug: mejores-empapadores-perros
+  descripcionCorta: "Empapadores Trixie para entrenamiento. Buen precio y calidad estándar. Disponible en Zooplus."
+  filtros: {}
+  afinidad:
+    empapador_cachorro: 4
+    empapador_interior: 4
+    presupuesto_economico: 5
+
+- id: silverwoof-reutilizable-90x160
+  nombre: "SILVERWOOF Reutilizable 90x160"
+  marca: "SILVERWOOF"
+  imagen: "https://m.media-amazon.com/images/I/71V9FsVZqYL._AC_SL300_.jpg"
+  precio: "~30€"
+  precioAmazon: "29,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C6B4ZVQT"
+  categoria: higiene
+  subcategoria: empapadores
+  animal: perro
+  articuloSlug: mejores-empapadores-perros
+  descripcionCorta: "Empapador reutilizable lavable de 90x160 cm. Absorbente con 4 capas. Para perros seniors o con incontinencia."
+  filtros: {}
+  afinidad:
+    empapador_senior: 5
+    empapador_interior: 4
+    presupuesto_medio: 4
+
+- id: arquivet-pads-xl
+  nombre: "Arquivet Pads XL 90x60 50uds"
+  marca: "Arquivet"
+  imagen: "https://m.media-amazon.com/images/I/71jCEa9EyyL._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "26,99€"
+  precioTiendanimal: "26,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08WD17H1D"
+  categoria: higiene
+  subcategoria: empapadores
+  animal: perro
+  articuloSlug: mejores-empapadores-perros
+  descripcionCorta: "Empapadores XL 90x60 cm Arquivet. Formato grande para razas medianas y grandes. Pack de 50 unidades."
+  filtros: {}
+  afinidad:
+    empapador_cachorro: 3
+    empapador_senior: 4
+    empapador_interior: 4
+    presupuesto_medio: 4
+
+# =============================================
+# ARENEROS GATOS
+# =============================================
+- id: catit-arenero-jumbo-abierto
+  nombre: "Catit Arenero Jumbo Abierto"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/61HlSfNvjCL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "46,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003RQVGKC"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero jumbo abierto con bordes altos y rejilla antigranulos. Espacio grande para gatos de talla media-grande."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+
+- id: iris-usa-open-top-xl
+  nombre: "Iris USA Open Top XL"
+  marca: "Iris USA"
+  imagen: "https://m.media-amazon.com/images/I/71jGv+Ui7UL._AC_SL300_.jpg"
+  precio: "~40€"
+  precioAmazon: "39,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CVZRYCPW"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero abierto con bordes altos de 20 cm. Previene que la arena salga. Diseño limpio y práctico."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+
+- id: yangbaga-acero-inox-xl
+  nombre: "Yangbaga Bandeja Acero Inox XL"
+  marca: "Yangbaga"
+  imagen: "https://m.media-amazon.com/images/I/71K1Xz-mBTL._AC_SL300_.jpg"
+  precio: "~61€"
+  precioAmazon: "60,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08CN3QHZV"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Bandeja de acero inoxidable. No absorbe olores. Más higiénica y duradera que el plástico. Apta para lavavajillas."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+- id: catit-jumbo-cerrado
+  nombre: "Catit Jumbo Arenero Cerrado"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/51f4GisAUfL._AC_SL300_.jpg"
+  precio: "~42€"
+  precioAmazon: "41,99€"
+  precioZooplus: "41,99€"
+  precioTiendanimal: "41,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0057XF6U4"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero cerrado con puerta abatible y filtro de carbón. Retiene el olor y la arena. El más vendido en España."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 5
+
+- id: pawhut-xxl-acero-inox
+  nombre: "PawHut XXL Acero Inox"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/71wQsDLuKVL._AC_SL300_.jpg"
+  precio: "~86€"
+  precioAmazon: "85,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0FN323ZSB"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero cerrado XXL de acero inoxidable con tapa. Sin absorción de olores. Para gatos grandes o múltiples gatos."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+- id: curver-rattan-arenero
+  nombre: "Curver Rattan Arenero"
+  marca: "Curver"
+  imagen: "https://m.media-amazon.com/images/I/51Aa4Y4ctCL._AC_SL300_.jpg"
+  precio: "~43€"
+  precioAmazon: "42,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009UHWQOW"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero con diseño imitación ratán. Estético y discreto para salones donde el arenero no debe desentonar."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+
+- id: petkit-pura-max
+  nombre: "Petkit Pura Max"
+  marca: "Petkit"
+  imagen: "https://m.media-amazon.com/images/I/71kCToDzBUL._AC_SL300_.jpg"
+  precio: "~599€"
+  precioAmazon: "598,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09Q32L24S"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero autolimpiable con app, WiFi y monitorización de salud. El más avanzado del mercado con pantalla OLED."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 5
+
+- id: catit-smartsift
+  nombre: "Catit SmartSift"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/61p7nlT1hRL._AC_SL300_.jpg"
+  precio: "~110€"
+  precioAmazon: "109,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009B83V76"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero autolimpiable manual con sistema de tamizado. Separa la arena limpia de los grumos con una palanca."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+- id: petsafe-scoop-free
+  nombre: "PetSafe ScoopFree"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/71dVJO+3EPS._AC_SL300_.jpg"
+  precio: "~343€"
+  precioZooplus: "342,99€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/areneros_gatos/petsafe/scoop_free/463870"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arenero autolimpiable PetSafe con bandejas desechables de arena de sílice. Se limpia automáticamente."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 3
+
+# =============================================
+# ARENA GATOS
+# =============================================
+- id: cats-best-original
+  nombre: "Cat's Best Original"
+  marca: "Cat's Best"
+  imagen: "https://m.media-amazon.com/images/I/61Xz9KZKdXL._AC_SL300_.jpg"
+  precio: "~12€"
+  precioZooplus: "32,99€"
+  precioTiendanimal: "12,09€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/arena_gatos/cats_best/55809"
+  enlaceTiendanimal: "https://www.tiendanimal.es/cats-best-original-lecho-vegetal-para-gatos/JRS10205_M.html"
+  categoria: higiene
+  subcategoria: arena
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arena vegetal de fibra de madera. Biodegradable. Muy ligera. Mínimo polvo. Puede tirarse al WC."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: ever-clean-total-cover
+  nombre: "Ever Clean Total Cover"
+  marca: "Ever Clean"
+  imagen: "https://m.media-amazon.com/images/I/61uBY2bQVjL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "20,13€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07NC5LM59"
+  categoria: higiene
+  subcategoria: arena
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Bentonita premium con carbón activo y tecnología antimicrobiana. La mejor en control de olor del mercado."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+
+- id: tigerino-canada
+  nombre: "Tigerino Canada"
+  marca: "Tigerino"
+  imagen: "https://m.media-amazon.com/images/I/71Duvx-RfvL._AC_SL300_.jpg"
+  precio: "~24€"
+  precioAmazon: "39,90€"
+  precioZooplus: "23,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B088837PDG"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/arena_gatos/tigerino/tigerino_aglomerante_premium/314265"
+  categoria: higiene
+  subcategoria: arena
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Bentonita canadiense premium de granulado fino y suave. Bajo polvo. Mucho más barata en Zooplus que en Amazon."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+- id: sanicat-clumping
+  nombre: "Sanicat Clumping"
+  marca: "Sanicat"
+  imagen: "https://m.media-amazon.com/images/I/611qO81PP6L._AC_SL300_.jpg"
+  precio: "~15€"
+  precioZooplus: "14,69€"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/arena_gatos/sanicat/arenas_aglomerantes/995329"
+  categoria: higiene
+  subcategoria: arena
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Arena aglomerante Sanicat económica. Marca española ampliamente disponible en supermercados y online."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: ever-clean-aqua-breeze
+  nombre: "Ever Clean Aqua Breeze"
+  marca: "Ever Clean"
+  imagen: "https://m.media-amazon.com/images/I/61kPVpn9J+L._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "29,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00VTMVY9E"
+  categoria: higiene
+  subcategoria: arena
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Bentonita premium anti-polvo. Prácticamente cero partículas al verter. Aglomeración excepcional. Para gatos asmáticos."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+- id: sanicat-diamonds-silice
+  nombre: "Sanicat Diamonds (sílice)"
+  marca: "Sanicat"
+  imagen: "https://m.media-amazon.com/images/I/713sArkDM9L._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "26,90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06WW22T9F"
+  categoria: higiene
+  subcategoria: arena
+  animal: gato
+  articuloSlug: mejor-arenero-arena-gatos
+  descripcionCorta: "Cristales de gel de sílice: cero polvo por definición. Muy absorbente. Dura hasta 1 mes. Ideal para gatos asmáticos."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+# =============================================
+# LIMPIADOR ENZIMÁTICO
+# =============================================
+- id: simple-solution-extreme
+  nombre: "Simple Solution Extreme"
+  marca: "Simple Solution"
+  imagen: "https://m.media-amazon.com/images/I/51SvUUKH8eL._AC_SL300_.jpg"
+  precio: "~9€"
+  precioAmazon: "8,99€"
+  precioZooplus: "8,99€"
+  precioTiendanimal: "8,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01CZNPFCC"
+  categoria: higiene
+  subcategoria: limpiador-enzimatico
+  animal: ambos
+  articuloSlug: mejor-limpiador-enzimatico-mascotas
+  descripcionCorta: "Limpiador enzimático de triple concentración. Elimina manchas y olores de orina, heces y vómito. El más potente."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 5
+
+- id: urine-off-500ml
+  nombre: "Urine Off 500ml"
+  marca: "Urine Off"
+  imagen: "https://m.media-amazon.com/images/I/61FgpCfl2PL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "23,99€"
+  precioZooplus: "14,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B002BRSOFI"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/higiene_y_aseo/limpiadores_manchas/urine_off/61939"
+  categoria: higiene
+  subcategoria: limpiador-enzimatico
+  animal: ambos
+  articuloSlug: mejor-limpiador-enzimatico-mascotas
+  descripcionCorta: "Limpiador enzimático Urine Off con bio-enzimas patentadas. Mucho más barato en Zooplus. Reconocido mundialmente."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+
+- id: bio-chem-enzymreiniger
+  nombre: "Bio-Chem Enzymreiniger"
+  marca: "Bio-Chem"
+  imagen: "https://m.media-amazon.com/images/I/71WqySayi9L._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DWXDRJ2C"
+  categoria: higiene
+  subcategoria: limpiador-enzimatico
+  animal: ambos
+  articuloSlug: mejor-limpiador-enzimatico-mascotas
+  descripcionCorta: "Limpiador enzimático concentrado de origen vegetal. Efectivo contra olores persistentes de orina en alfombras."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 3
+
+# =============================================
+# ASPIRADOR PELO MASCOTAS
+# =============================================
+- id: dyson-v15-detect
+  nombre: "Dyson V15 Detect"
+  marca: "Dyson"
+  imagen: "https://m.media-amazon.com/images/I/41XHfNtRd3L._AC_SL300_.jpg"
+  precio: "~700€"
+  precioAmazon: "699,95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BS1Q7RG5"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-aspirador-pelo-mascotas
+  descripcionCorta: "El aspirador sin cable más potente para mascotas. Cepillo anti-enredo motorizado, láser detector y filtro HEPA sellado."
+  filtros: {}
+  afinidad:
+    pelo_largo: 5
+    pelo_corto: 5
+    presupuesto_premium: 5
+
+- id: dyson-v8-animal-aspirador
+  nombre: "Dyson V8 Animal"
+  marca: "Dyson"
+  imagen: "https://m.media-amazon.com/images/I/31uW0zgcf0L._AC_SL300_.jpg"
+  precio: "~359€"
+  precioAmazon: "359,36€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07BHCFH3W"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-aspirador-pelo-mascotas
+  descripcionCorta: "Calidad Dyson a precio razonable. Mini cepillo motorizado para sofás incluido. Filtro HEPA. 40 min autonomía."
+  filtros: {}
+  afinidad:
+    pelo_largo: 4
+    pelo_corto: 4
+    presupuesto_premium: 4
+
+- id: dreame-z30
+  nombre: "Dreame Z30"
+  marca: "Dreame"
+  imagen: "https://m.media-amazon.com/images/I/71FPkHahclL._AC_SL300_.jpg"
+  precio: "~320€"
+  precioAmazon: "319,98€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D6ZB7CMY"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-aspirador-pelo-mascotas
+  descripcionCorta: "Alternativa premium a Dyson. 310AW, cepillo anti-enredo, 90 min autonomía y filtro HEPA H14. Mejor relación calidad-precio."
+  filtros: {}
+  afinidad:
+    pelo_largo: 5
+    pelo_corto: 4
+    presupuesto_premium: 3
+
+- id: rowenta-x-force-flex-animal
+  nombre: "Rowenta X-Force Flex Animal"
+  marca: "Rowenta"
+  imagen: "https://m.media-amazon.com/images/I/61jzSMCLtlL._AC_SL300_.jpg"
+  precio: "~159€"
+  precioAmazon: "158,75€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08D4D1B3M"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-aspirador-pelo-mascotas
+  descripcionCorta: "Tubo flexible 180° para aspirar debajo de muebles. Marca europea con buen servicio técnico en España."
+  filtros: {}
+  afinidad:
+    pelo_corto: 4
+    pelo_largo: 3
+    presupuesto_medio: 4
+
+- id: xiaomi-g20-max
+  nombre: "Xiaomi G20 Max"
+  marca: "Xiaomi"
+  imagen: "https://m.media-amazon.com/images/I/41SndA5UO4L._AC_SL300_.jpg"
+  precio: "~237€"
+  precioAmazon: "237,20€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DHSFGRWD"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-aspirador-pelo-mascotas
+  descripcionCorta: "La opción económica. 180AW, cepillo para mascotas incluido de serie y pantalla LED. Ligero y manejable."
+  filtros: {}
+  afinidad:
+    pelo_corto: 4
+    pelo_largo: 2
+    presupuesto_medio: 5
+
+# =============================================
+# PROTECTOR PATAS PERRO
+# =============================================
+- id: trixie-walker-care-crema
+  nombre: "Trixie Walker Care Crema"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61+LyjTKsXL._AC_SL300_.jpg"
+  precio: "~9€"
+  precioAmazon: "8,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0009585W6"
+  categoria: higiene
+  subcategoria: protector-patas
+  animal: perro
+  articuloSlug: mejor-protector-patas-perro
+  descripcionCorta: "Crema con cera de abejas y aloe vera. Hidrata y protege las almohadillas. Ideal para mantenimiento diario."
+  filtros: {}
+  afinidad:
+    patas_calor: 2
+    patas_frio: 2
+    presupuesto_economico: 5
+
+- id: pawz-dog-boots-caucho
+  nombre: "Pawz Dog Boots (caucho natural)"
+  marca: "Pawz"
+  imagen: "https://m.media-amazon.com/images/I/71yIkngB7WL._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "17,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B001J1Y9VA"
+  categoria: higiene
+  subcategoria: protector-patas
+  animal: perro
+  articuloSlug: mejor-protector-patas-perro
+  descripcionCorta: "Botas desechables de caucho. Impermeables, sin velcro y se ponen como un globo. Pack de 12. Ideales para pata vendada."
+  filtros: {}
+  afinidad:
+    patas_calor: 4
+    patas_frio: 4
+    presupuesto_economico: 4
+
+- id: pawz-maxwax-200g
+  nombre: "Pawz MaxWax 200g"
+  marca: "Pawz"
+  imagen: "https://m.media-amazon.com/images/I/71cLAWZK07L._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "28,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B019YRMTNA"
+  categoria: higiene
+  subcategoria: protector-patas
+  animal: perro
+  articuloSlug: mejor-protector-patas-perro
+  descripcionCorta: "Cera 100% natural con cera de abejas, lanolina y vitamina E. Protege del asfalto caliente, nieve y sal. Dura meses."
+  filtros: {}
+  afinidad:
+    patas_calor: 5
+    patas_frio: 4
+    patas_montana: 3
+    presupuesto_medio: 4
+
+- id: qumy-botas-impermeables
+  nombre: "QUMY Botas Impermeables"
+  marca: "QUMY"
+  imagen: "https://m.media-amazon.com/images/I/71b+9frY2UL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09M3WTXDM"
+  categoria: higiene
+  subcategoria: protector-patas
+  animal: perro
+  articuloSlug: mejor-protector-patas-perro
+  descripcionCorta: "Botas impermeables con suela antideslizante y velcro reflectante. Buena relación calidad-precio para uso urbano."
+  filtros: {}
+  afinidad:
+    patas_calor: 3
+    patas_frio: 5
+    presupuesto_medio: 5
+
+- id: ruffwear-grip-trex
+  nombre: "Ruffwear Grip Trex"
+  marca: "Ruffwear"
+  imagen: "https://m.media-amazon.com/images/I/71UjxrO1vLL._AC_SL300_.jpg"
+  precio: "~69€"
+  precioAmazon: "68,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09MSLPSZL"
+  categoria: higiene
+  subcategoria: protector-patas
+  animal: perro
+  articuloSlug: mejor-protector-patas-perro
+  descripcionCorta: "Botas técnicas con suela Vibram. Para senderismo y terreno extremo. Las más duraderas y con mejor agarre."
+  filtros: {}
+  afinidad:
+    patas_montana: 5
+    patas_calor: 4
+    patas_frio: 4
+    presupuesto_premium: 4
