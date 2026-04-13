@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/optimize-images.mjs && astro build && node scripts/update-csp-hashes.mjs",
-    "preview": "astro preview",
-    "ping-sitemap": "curl -s 'https://www.google.com/ping?sitemap=https://patasyhogar.com/sitemap-index.xml' > /dev/null && echo 'Sitemap pinged successfully'"
+    "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.0",

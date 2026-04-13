@@ -22,6 +22,12 @@
 /buscar.json
   Cache-Control: public, max-age=86400
 
+# Sitemap y RSS: cache 1 hora (Google re-lee según su propio schedule)
+/sitemap*.xml
+  Cache-Control: public, max-age=3600
+/rss.xml
+  Cache-Control: public, max-age=3600
+
 # Páginas HTML: cache corto + revalidar (Cloudflare siempre sirve la última versión tras deploy)
 /*
   Cache-Control: public, max-age=0, must-revalidate
