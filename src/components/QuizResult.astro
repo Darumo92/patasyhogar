@@ -1,0 +1,179 @@
+---
+import StoreIcon from './StoreIcon.astro';
+
+interface Producto {
+  nombre: string;
+  imagen?: string;
+  precio: string;
+  precioAmazon?: string;
+  precioZooplus?: string;
+  precioTiendanimal?: string;
+  enlaceAmazon?: string;
+  enlaceZooplus?: string;
+  enlaceTiendanimal?: string;
+  articuloSlug: string;
+  descripcionCorta: string;
+  filtros: Record<string, string[]>;
+  pesos: Record<string, number>;
+}
+
+interface FAQ {
+  pregunta: string;
+  respuesta: string;
+}
+
+interface Props {
+  productos: Producto[];
+  faqs?: FAQ[];
+}
+
+const { productos, faqs } = Astro.props;
+
+const AMAZON_TAG = 'patasyhogar-21';
+const WEBGAINS_CAMPAIGN = '1746742';
+const WEBGAINS_PROGRAM = '9507';
+
+function amazonHref(url: string): string {
+  if (url.includes('tag=')) return url;
+  return `${url}${url.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`;
+}
+
+function tiendanimalHref(url: string): string {
+  return `https://assets.ikhnaie.me/click.html?wgcampaignid=${WEBGAINS_CAMPAIGN}&wgprogramid=${WEBGAINS_PROGRAM}&wgtarget=${encodeURIComponent(url)}`;
+}
+
+function optimizeImg(url?: string): string | undefined {
+  return url?.replace(/\._AC_SL\d+_/, '._AC_SL300_');
+}
+
+function buildStores(p: Producto) {
+  const stores: { nombre: string; clase: string; precio: string; href: string }[] = [];
+  if (p.enlaceAmazon) stores.push({ nombre: 'Amazon', clase: 'amazon', precio: p.precioAmazon || p.precio, href: amazonHref(p.enlaceAmazon) });
+  if (p.enlaceZooplus) stores.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus });
+  if (p.enlaceTiendanimal) stores.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal) });
+  return stores;
+}
+
+function articuloUrl(slug: string): string {
+  return `/alimentacion/${slug}/`;
+}
+---
+
+<div class="quiz-result" id="quiz-result">
+  <div class="quiz-shared-notice" id="quiz-shared-notice" style="display:none;">
+    Resultado basado en respuestas compartidas.
+    <a href="#" id="quiz-shared-redo">¿Quieres hacer el test tú?</a>
+  </div>
+
+  <h2 class="quiz-result-title">Tu pienso ideal es...</h2>
+  <p class="quiz-result-summary" id="quiz-result-summary"></p>
+
+  {/* Main recommendation — one per product, JS shows the winner */}
+  {productos.map((p, i) => {
+    const stores = buildStores(p);
+    return (
+      <div class="quiz-rec-main" data-product-index={i} style="display:none;">
+        <span class="quiz-rec-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Nuestra recomendación
+        </span>
+        <div class="quiz-rec-body">
+          {p.imagen && (
+            <img
+              src={optimizeImg(p.imagen)}
+              alt={p.nombre}
+              width="130"
+              height="130"
+              class="quiz-rec-img"
+              loading="lazy"
+              decoding="async"
+            />
+          )}
+          <div class="quiz-rec-info">
+            <p class="quiz-rec-name">{p.nombre}</p>
+            <p class="quiz-rec-desc">{p.descripcionCorta}</p>
+            <p class="quiz-rec-price">{p.precio}</p>
+            <div class="quiz-rec-stores">
+              {stores.map(s => (
+                <a
+                  href={s.href}
+                  class={`affiliate-button ${s.clase}`}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer sponsored"
+                >
+                  <StoreIcon tienda={s.clase as any} size={15} />
+                  {s.nombre} — {s.precio}
+                </a>
+              ))}
+            </div>
+            <a href={articuloUrl(p.articuloSlug)} class="quiz-rec-article-link">
+              Lee nuestro análisis completo →
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  })}
+
+  {/* Alternative cards — also one per product, JS shows #2 and #3 */}
+  <div id="quiz-alts-container" style="display:none;">
+    <p class="quiz-alts-title">Otras buenas opciones</p>
+    {productos.map((p, i) => {
+      const stores = buildStores(p);
+      return (
+        <div class="quiz-alt-card" data-product-index={i} style="display:none;">
+          {p.imagen && (
+            <img
+              src={optimizeImg(p.imagen)}
+              alt={p.nombre}
+              width="80"
+              height="80"
+              class="quiz-alt-img"
+              loading="lazy"
+              decoding="async"
+            />
+          )}
+          <div class="quiz-alt-info">
+            <p class="quiz-alt-name">{p.nombre}</p>
+            <p class="quiz-alt-desc">{p.descripcionCorta}</p>
+            <p class="quiz-alt-price">{p.precio}</p>
+            <div class="quiz-alt-stores">
+              {stores.map(s => (
+                <a
+                  href={s.href}
+                  class={`affiliate-button ${s.clase}`}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer sponsored"
+                  style="font-size:0.8rem;padding:0.45rem 0.85rem;"
+                >
+                  <StoreIcon tienda={s.clase as any} size={13} />
+                  {s.nombre} — {s.precio}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+
+  {/* Actions */}
+  <div class="quiz-actions">
+    <button type="button" class="quiz-restart-btn" id="quiz-restart">
+      ↻ Volver a empezar
+    </button>
+  </div>
+
+  {/* FAQs */}
+  {faqs && faqs.length > 0 && (
+    <div class="quiz-faqs">
+      <h2>Preguntas frecuentes</h2>
+      {faqs.map(faq => (
+        <div class="quiz-faq-item">
+          <h3>{faq.pregunta}</h3>
+          <p>{faq.respuesta}</p>
+        </div>
+      ))}
+    </div>
+  )}
+</div>

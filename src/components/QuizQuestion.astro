@@ -1,0 +1,44 @@
+---
+interface Opcion {
+  texto: string;
+  tags: Record<string, string | number>;
+}
+
+interface Props {
+  id: string;
+  texto: string;
+  opciones: Opcion[];
+  stepIndex: number;
+}
+
+const { id, texto, opciones, stepIndex } = Astro.props;
+---
+
+<div
+  class="quiz-step"
+  data-step={stepIndex}
+  data-question-id={id}
+  role="radiogroup"
+  aria-labelledby={`q-${id}`}
+>
+  <h2 id={`q-${id}`} class="quiz-question-text">{texto}</h2>
+  <div class="quiz-options">
+    {opciones.map((opt, i) => (
+      <button
+        type="button"
+        class="quiz-option"
+        role="radio"
+        aria-checked="false"
+        data-option-index={i}
+        data-tags={JSON.stringify(opt.tags)}
+      >
+        {opt.texto}
+      </button>
+    ))}
+  </div>
+  {stepIndex > 0 && (
+    <button type="button" class="quiz-back-btn" data-action="back">
+      ← Volver
+    </button>
+  )}
+</div>
