@@ -1,0 +1,2224 @@
+# =============================================
+# PIENSO PERRO - RAZA PEQUEÑA
+# =============================================
+- id: royal-canin-mini-adult
+  nombre: "Royal Canin Mini Adult"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~52€"
+  precioAmazon: "~52€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000T4FWQ4"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-pequena
+  descripcionCorta: "Pienso Royal Canin formulado específicamente para perros adultos de razas pequeñas."
+  filtros:
+    tamano: [pequeno]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: orijen-small-breed
+  nombre: "Orijen Small Breed"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71zK0n3WQIL._AC_SL300_.jpg"
+  precio: "~52€"
+  precioAmazon: "~52€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08LRFRVQS"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-pequena
+  descripcionCorta: "Pienso Orijen sin cereales con 85% de ingredientes de origen animal para razas pequeñas."
+  filtros:
+    tamano: [pequeno]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: taste-wild-appalachian-valley
+  nombre: "Taste of the Wild Appalachian Valley Small Breed"
+  marca: "Taste of the Wild"
+  imagen: "https://m.media-amazon.com/images/I/81K8vxDZYZL._AC_SL300_.jpg"
+  precio: "~59€"
+  precioAmazon: "~59€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01L1TCJZW"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-pequena
+  descripcionCorta: "Pienso grain-free con ciervo y judías para perros adultos de razas pequeñas."
+  filtros:
+    tamano: [pequeno]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: advance-mini-adult-pollo
+  nombre: "Advance Mini Adult Pollo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "~19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00388REL4"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-pequena
+  descripcionCorta: "Pienso Advance con pollo para perros adultos de razas mini, buena relación calidad-precio."
+  filtros:
+    tamano: [pequeno]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: acana-adult-small-breed
+  nombre: "Acana Adult Small Breed"
+  marca: "Acana"
+  imagen: "https://m.media-amazon.com/images/I/71ZNzC7KXML._AC_SL300_.jpg"
+  precio: "~42€"
+  precioAmazon: "~42€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01C6TJXAA"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-pequena
+  descripcionCorta: "Pienso Acana biológicamente apropiado para perros adultos de razas pequeñas."
+  filtros:
+    tamano: [pequeno]
+    etapa: [adulto]
+  afinidad: {}
+
+# =============================================
+# PIENSO PERRO - RAZA MEDIANA
+# =============================================
+- id: orijen-original-mediana
+  nombre: "Orijen Original"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~83€"
+  precioAmazon: "~83€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XNBWL48"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-adulto-raza-mediana
+  descripcionCorta: "Pienso Orijen Original con 85% ingredientes animales para perros adultos de raza mediana."
+  filtros:
+    tamano: [mediano]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: acana-adult-dog
+  nombre: "Acana Adult Dog"
+  marca: "Acana"
+  imagen: "https://m.media-amazon.com/images/I/71ZNzC7KXML._AC_SL300_.jpg"
+  precio: "~75€"
+  precioAmazon: "~75€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01C6TXKZ4"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-adulto-raza-mediana
+  descripcionCorta: "Pienso Acana para perros adultos de raza mediana, alto contenido en proteína animal."
+  filtros:
+    tamano: [mediano]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: royal-canin-medium-adult
+  nombre: "Royal Canin Medium Adult"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~68€"
+  precioAmazon: "~68€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000VJW2GA"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-adulto-raza-mediana
+  descripcionCorta: "Pienso Royal Canin Medium Adult para perros adultos de razas medianas (11-25 kg)."
+  filtros:
+    tamano: [mediano]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: eukanuba-adult-medium-pollo
+  nombre: "Eukanuba Adult Medium Pollo"
+  marca: "Eukanuba"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~50€"
+  precioAmazon: "~50€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01DPD81W2"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-adulto-raza-mediana
+  descripcionCorta: "Pienso Eukanuba con pollo para perros adultos de raza mediana."
+  filtros:
+    tamano: [mediano]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: advance-medium-adult-pollo
+  nombre: "Advance Medium Adult Pollo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~48€"
+  precioAmazon: "~48€"
+  enlaceAmazon: "https://www.amazon.es/dp/B008TOWNQ8"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-adulto-raza-mediana
+  descripcionCorta: "Pienso Advance con pollo para perros adultos de raza mediana, buena relación calidad-precio."
+  filtros:
+    tamano: [mediano]
+    etapa: [adulto]
+  afinidad: {}
+
+# =============================================
+# PIENSO PERRO - RAZA GRANDE
+# =============================================
+- id: royal-canin-maxi-adult
+  nombre: "Royal Canin Maxi Adult"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~83€"
+  precioAmazon: "~83€"
+  precioZooplus: "68,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B007WIUS3M"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-grande
+  descripcionCorta: "Pienso Royal Canin Maxi Adult para perros adultos de razas grandes (26-44 kg)."
+  filtros:
+    tamano: [grande]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: orijen-original-grande
+  nombre: "Orijen Original"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~83€"
+  precioAmazon: "~83€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XNBWL48"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-grande
+  descripcionCorta: "Pienso Orijen Original con 85% ingredientes animales para perros adultos de raza grande."
+  filtros:
+    tamano: [grande]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: taste-wild-high-prairie
+  nombre: "Taste of the Wild High Prairie"
+  marca: "Taste of the Wild"
+  imagen: "https://m.media-amazon.com/images/I/81K8vxDZYZL._AC_SL300_.jpg"
+  precio: "~87€"
+  precioAmazon: "~87€"
+  enlaceAmazon: "https://www.amazon.es/dp/B019Q0FJHS"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-grande
+  descripcionCorta: "Pienso grain-free con bisonte y venado para perros adultos de raza grande."
+  filtros:
+    tamano: [grande]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: eukanuba-large-adult-pollo
+  nombre: "Eukanuba Large Adult Pollo"
+  marca: "Eukanuba"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~55€"
+  precioAmazon: "~55€"
+  precioZooplus: "45,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0015Q0ZQW"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-grande
+  descripcionCorta: "Pienso Eukanuba con pollo para perros adultos de razas grandes."
+  filtros:
+    tamano: [grande]
+    etapa: [adulto]
+  afinidad: {}
+
+- id: acana-pacifica-perro
+  nombre: "Acana Pacifica Perro"
+  marca: "Acana"
+  imagen: "https://m.media-amazon.com/images/I/71ZNzC7KXML._AC_SL300_.jpg"
+  precio: "~54€"
+  precioAmazon: "~54€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01MUBS05M"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-raza-grande
+  descripcionCorta: "Pienso Acana con pescado del Pacífico para perros adultos de raza grande."
+  filtros:
+    tamano: [grande]
+    etapa: [adulto]
+  afinidad: {}
+
+# =============================================
+# PIENSO PERRO - CACHORRO RAZA GRANDE
+# =============================================
+- id: royal-canin-maxi-puppy
+  nombre: "Royal Canin Maxi Puppy"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~74€"
+  precioAmazon: "~74€"
+  enlaceAmazon: "https://www.amazon.es/dp/B007WIHE1G"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-cachorro-raza-grande
+  descripcionCorta: "Pienso Royal Canin para cachorros de razas grandes hasta 15 meses."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: purina-proplan-puppy-large-robust
+  nombre: "Purina Pro Plan Puppy Large Robust"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~54€"
+  precioAmazon: "~54€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00Y9SSWOU"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-cachorro-raza-grande
+  descripcionCorta: "Pienso Purina Pro Plan con pollo para cachorros de razas grandes."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: eukanuba-puppy-large-breed
+  nombre: "Eukanuba Puppy Large Breed"
+  marca: "Eukanuba"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "~47€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0FDLC6PHH"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-cachorro-raza-grande
+  descripcionCorta: "Pienso Eukanuba para cachorros de razas grandes con DHA para desarrollo cerebral."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: orijen-puppy-large
+  nombre: "Orijen Puppy Large"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71zK0n3WQIL._AC_SL300_.jpg"
+  precio: "~88€"
+  precioAmazon: "~88€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XFZFQDG"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-cachorro-raza-grande
+  descripcionCorta: "Pienso Orijen sin cereales para cachorros de razas grandes con alto contenido proteico."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: advance-puppy-maxi
+  nombre: "Advance Puppy Maxi"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~48€"
+  precioAmazon: "~48€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01G7G902Y"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-cachorro-raza-grande
+  descripcionCorta: "Pienso Advance para cachorros de razas maxi, buena relación calidad-precio."
+  filtros:
+    tamano: [mediano, grande]
+    etapa: [cachorro]
+  afinidad: {}
+
+# =============================================
+# PIENSO PERRO - SENIOR
+# =============================================
+- id: royal-canin-maxi-ageing-8
+  nombre: "Royal Canin Maxi Ageing 8+"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~32€"
+  precioAmazon: "~32€"
+  enlaceAmazon: "https://www.amazon.es/dp/B007ZYR6LA"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-senior
+  descripcionCorta: "Pienso Royal Canin para perros senior de razas grandes a partir de 8 años."
+  filtros:
+    etapa: [senior]
+  afinidad: {}
+
+- id: eukanuba-senior-medium-pollo
+  nombre: "Eukanuba Senior Medium Pollo"
+  marca: "Eukanuba"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~79€"
+  precioAmazon: "~79€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00CGOSQ5Y"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-senior
+  descripcionCorta: "Pienso Eukanuba con pollo para perros senior de razas medianas."
+  filtros:
+    etapa: [senior]
+  afinidad: {}
+
+- id: orijen-senior
+  nombre: "Orijen Senior"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71zK0n3WQIL._AC_SL300_.jpg"
+  precio: "~86€"
+  precioAmazon: "~86€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XFSRQ9M"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-senior
+  descripcionCorta: "Pienso Orijen sin cereales especialmente formulado para perros senior."
+  filtros:
+    etapa: [senior]
+  afinidad: {}
+
+- id: advance-senior-vitality-7
+  nombre: "Advance Senior Vitality 7+"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "~19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00388MZ8G"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-senior
+  descripcionCorta: "Pienso Advance con vitaminas y antioxidantes para perros senior a partir de 7 años."
+  filtros:
+    etapa: [senior]
+  afinidad: {}
+
+# =============================================
+# PIENSO PERRO - ESTERILIZADO
+# =============================================
+- id: royal-canin-medium-sterilised
+  nombre: "Royal Canin Medium Sterilised"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "~29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B005K7HYS4"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-esterilizado
+  descripcionCorta: "Pienso Royal Canin formulado para perros esterilizados de razas medianas."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 5
+
+- id: purina-proplan-sterilised-cordero
+  nombre: "Purina Pro Plan Light/Sterilised Cordero"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~63€"
+  precioAmazon: "~63€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CSKRMBHK"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-esterilizado
+  descripcionCorta: "Pienso Purina Pro Plan con cordero para perros esterilizados con control de peso."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 5
+
+- id: orijen-fit-trim
+  nombre: "Orijen Fit & Trim"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71zK0n3WQIL._AC_SL300_.jpg"
+  precio: "~89€"
+  precioAmazon: "~89€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XFZ9383"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-esterilizado
+  descripcionCorta: "Pienso Orijen bajo en carbohidratos para perros esterilizados con tendencia al sobrepeso."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 5
+
+- id: advance-medium-adult-pollo-esterilizado
+  nombre: "Advance Medium Adult Pollo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~48€"
+  precioAmazon: "~48€"
+  enlaceAmazon: "https://www.amazon.es/dp/B008TOWNQ8"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-esterilizado
+  descripcionCorta: "Pienso Advance con pollo para perros adultos esterilizados de raza mediana."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 4
+
+# =============================================
+# PIENSO PERRO - HIPOALERGÉNICO
+# =============================================
+- id: royal-canin-hypoallergenic
+  nombre: "Royal Canin Hypoallergenic"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "~22€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0041TS3DC"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-hipoalergenico-perro
+  descripcionCorta: "Dieta veterinaria Royal Canin con proteínas hidrolizadas para perros con alergias alimentarias."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    alergias: 5
+
+- id: hills-zd-prescription-diet
+  nombre: "Hill's z/d Prescription Diet"
+  marca: "Hill's"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~67€"
+  precioAmazon: "~67€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0015TLP86"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-hipoalergenico-perro
+  descripcionCorta: "Dieta veterinaria Hill's z/d con proteínas ultra-hidrolizadas para perros con alergias severas."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    alergias: 5
+
+- id: purina-proplan-ha-hypoallergenic
+  nombre: "Purina Pro Plan HA Hypoallergenic"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~37€"
+  precioAmazon: "~37€"
+  enlaceAmazon: "https://www.amazon.es/dp/B012VFK0HO"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-hipoalergenico-perro
+  descripcionCorta: "Dieta veterinaria Purina Pro Plan con proteínas hidrolizadas de soja para perros alérgicos."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    alergias: 5
+
+- id: advance-vet-hypoallergenic
+  nombre: "Advance Veterinary Diets Hypoallergenic"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~65€"
+  precioAmazon: "~65€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0041LXR0E"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-hipoalergenico-perro
+  descripcionCorta: "Dieta veterinaria Advance con ingredientes hidrolizados para perros con intolerancias alimentarias."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    alergias: 5
+
+- id: acana-grass-fed-lamb
+  nombre: "Acana Grass-Fed Lamb"
+  marca: "Acana"
+  imagen: "https://m.media-amazon.com/images/I/71ZNzC7KXML._AC_SL300_.jpg"
+  precio: "~25€"
+  precioAmazon: "~25€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01N4PT3RK"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-hipoalergenico-perro
+  descripcionCorta: "Pienso Acana monoproteíco con cordero de pasto para perros con sensibilidades alimentarias."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    alergias: 4
+
+# =============================================
+# PIENSO PERRO - DIABÉTICO
+# =============================================
+- id: royal-canin-diabetic-ds37
+  nombre: "Royal Canin Diabetic DS37"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~92€"
+  precioAmazon: "~92€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009PZISPA"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-diabetico
+  descripcionCorta: "Dieta veterinaria Royal Canin para perros diabéticos con bajo índice glucémico."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    diabetico: 5
+
+- id: purina-proplan-dm-diabetes
+  nombre: "Purina Pro Plan DM Diabetes Management"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "~29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B015NXJTE6"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-diabetico
+  descripcionCorta: "Dieta veterinaria Purina Pro Plan para el manejo de la diabetes en perros."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    diabetico: 5
+
+- id: advance-vet-diabetes-colitis
+  nombre: "Advance Veterinary Diets Diabetes Colitis"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~60€"
+  precioAmazon: "~60€"
+  enlaceAmazon: "https://www.amazon.es/dp/B004W6PL0M"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: perro
+  articuloSlug: mejor-pienso-perro-diabetico
+  descripcionCorta: "Dieta veterinaria Advance para perros con diabetes y/o colitis con alto contenido en fibra."
+  filtros:
+    etapa: [adulto, senior]
+  afinidad:
+    diabetico: 5
+
+# =============================================
+# PIENSO GATO - CACHORRO
+# =============================================
+- id: royal-canin-kitten
+  nombre: "Royal Canin Kitten"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "~47€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07D4DWRFF"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-cachorro-gato
+  descripcionCorta: "Pienso Royal Canin para gatitos hasta los 12 meses con DHA para desarrollo cerebral."
+  filtros:
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: hills-science-plan-kitten-pollo
+  nombre: "Hill's Science Plan Kitten Pollo"
+  marca: "Hill's"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "~18€"
+  enlaceAmazon: "https://www.amazon.es/dp/B081BGDPGS"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-cachorro-gato
+  descripcionCorta: "Pienso Hill's Science Plan con pollo para gatitos en crecimiento."
+  filtros:
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: purina-proplan-kitten-optistart
+  nombre: "Purina Pro Plan Kitten Optistart"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~28€"
+  precioAmazon: "~28€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07HLF74ZM"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-cachorro-gato
+  descripcionCorta: "Pienso Purina Pro Plan para gatitos con colostrum y proteína de alta calidad."
+  filtros:
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: orijen-cat-kitten-cachorro
+  nombre: "Orijen Cat & Kitten"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71zK0n3WQIL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "~31€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00BXHHMAA"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-cachorro-gato
+  descripcionCorta: "Pienso Orijen sin cereales válido para gatitos y gatos adultos con alto contenido proteico."
+  filtros:
+    etapa: [cachorro]
+  afinidad: {}
+
+- id: advance-kitten-pollo
+  nombre: "Advance Kitten Pollo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~14€"
+  precioAmazon: "~14€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00388MUI6"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-cachorro-gato
+  descripcionCorta: "Pienso Advance con pollo para gatitos, buena relación calidad-precio."
+  filtros:
+    etapa: [cachorro]
+  afinidad: {}
+
+# =============================================
+# PIENSO GATO - ESTERILIZADO
+# =============================================
+- id: royal-canin-sterilised-37
+  nombre: "Royal Canin Sterilised 37"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~26€"
+  precioAmazon: "~26€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0015U0QIK"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-esterilizado
+  descripcionCorta: "Pienso Royal Canin formulado para gatos esterilizados con control de peso y salud urinaria."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 5
+
+- id: hills-science-plan-sterilised-adult-pollo
+  nombre: "Hill's Science Plan Sterilised Adult Pollo"
+  marca: "Hill's"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "~22€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003ZEJI2E"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-esterilizado
+  descripcionCorta: "Pienso Hill's Science Plan para gatos esterilizados con control de peso y pollo."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 5
+
+- id: purina-proplan-sterilised-renal-salmon
+  nombre: "Purina Pro Plan Sterilised Renal Plus Salmón"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~55€"
+  precioAmazon: "~55€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009FYKL6K"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-esterilizado
+  descripcionCorta: "Pienso Purina Pro Plan para gatos esterilizados con salmón y soporte renal."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 5
+
+- id: acana-pacifica-cat
+  nombre: "Acana Pacifica Cat"
+  marca: "Acana"
+  imagen: "https://m.media-amazon.com/images/I/71ZNzC7KXML._AC_SL300_.jpg"
+  precio: "~65€"
+  precioAmazon: "~65€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01LYAD29F"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-esterilizado
+  descripcionCorta: "Pienso Acana sin cereales con pescado del Pacífico para gatos esterilizados."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 4
+
+- id: advance-adult-sterilized-pavo-esterilizado
+  nombre: "Advance Adult Sterilized Pavo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~48€"
+  precioAmazon: "~48€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07K7RLB2Z"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-esterilizado
+  descripcionCorta: "Pienso Advance con pavo para gatos esterilizados adultos."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    esterilizado: 5
+
+# =============================================
+# PIENSO GATO - INDOOR
+# =============================================
+- id: royal-canin-indoor-27
+  nombre: "Royal Canin Indoor 27"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "~29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D4788NXV"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-indoor
+  descripcionCorta: "Pienso Royal Canin Indoor para gatos de interior con menor actividad física."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    indoor: 5
+
+- id: purina-proplan-sterilised-salmon-indoor
+  nombre: "Purina Pro Plan Sterilised Salmón"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~55€"
+  precioAmazon: "~55€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009FYKL6K"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-indoor
+  descripcionCorta: "Pienso Purina Pro Plan con salmón para gatos esterilizados de interior."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    indoor: 4
+    esterilizado: 5
+
+- id: orijen-cat-kitten-indoor
+  nombre: "Orijen Cat & Kitten"
+  marca: "Orijen"
+  imagen: "https://m.media-amazon.com/images/I/71zK0n3WQIL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "~31€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00BXHHMAA"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-indoor
+  descripcionCorta: "Pienso Orijen sin cereales de alta proteína apto para gatos de interior."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    indoor: 3
+
+- id: advance-hairball-sterilized-pavo-indoor
+  nombre: "Advance Hairball Sterilized Pavo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "~47€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01MSLYYV6"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-indoor
+  descripcionCorta: "Pienso Advance para gatos de interior esterilizados con control de bolas de pelo."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    indoor: 5
+    esterilizado: 4
+
+# =============================================
+# PIENSO GATO - PELO LARGO
+# =============================================
+- id: royal-canin-indoor-long-hair
+  nombre: "Royal Canin Indoor Long Hair"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~11€"
+  precioAmazon: "~11€"
+  precioZooplus: "46,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B007G5EQ7A"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-pelo-largo
+  descripcionCorta: "Pienso Royal Canin para gatos de pelo largo de interior con tránsito intestinal optimizado."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    pelolargo: 5
+
+- id: royal-canin-hairball-care
+  nombre: "Royal Canin Hairball Care"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~46€"
+  precioAmazon: "~46€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0015V4HHU"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-pelo-largo
+  descripcionCorta: "Pienso Royal Canin específico para la eliminación de bolas de pelo en gatos."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    pelolargo: 4
+
+- id: royal-canin-persian-adult
+  nombre: "Royal Canin Persian Adult"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~50€"
+  precioAmazon: "~50€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003QPY5NO"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-pelo-largo
+  descripcionCorta: "Pienso Royal Canin formulado específicamente para gatos de raza Persa."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    pelolargo: 5
+
+- id: advance-hairball-sterilized-pavo-pelolargo
+  nombre: "Advance Hairball Sterilized Pavo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "~47€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01MSLYYV6"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-pelo-largo
+  descripcionCorta: "Pienso Advance con pavo para gatos esterilizados con pelo largo, control de hairballs."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    pelolargo: 4
+    esterilizado: 4
+
+# =============================================
+# PIENSO GATO - SENIOR
+# =============================================
+- id: royal-canin-ageing-12
+  nombre: "Royal Canin Ageing 12+"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~30€"
+  precioAmazon: "~30€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0056FJX0W"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-senior
+  descripcionCorta: "Pienso Royal Canin para gatos mayores de 12 años con soporte renal y digestivo."
+  filtros:
+    etapa: [senior]
+  afinidad: {}
+
+- id: purina-proplan-senior-7-pavo
+  nombre: "Purina Pro Plan Sterilised Senior 7+ Pavo"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~23€"
+  precioAmazon: "~23€"
+  enlaceAmazon: "https://www.amazon.es/dp/B015KDIQ5W"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-senior
+  descripcionCorta: "Pienso Purina Pro Plan con pavo para gatos esterilizados senior a partir de 7 años."
+  filtros:
+    etapa: [senior]
+  afinidad:
+    esterilizado: 4
+
+- id: advance-senior-sterilized-pollo
+  nombre: "Advance Senior Sterilized Pollo"
+  marca: "Advance"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~47€"
+  precioAmazon: "~47€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07QDX8NRF"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-senior
+  descripcionCorta: "Pienso Advance con pollo para gatos senior esterilizados."
+  filtros:
+    etapa: [senior]
+  afinidad:
+    esterilizado: 3
+
+- id: ultima-senior-sterilized-pollo
+  nombre: "Ultima Senior Sterilized Pollo"
+  marca: "Ultima"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~45€"
+  precioAmazon: "~45€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DPXGNKHN"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: mejor-pienso-gato-senior
+  descripcionCorta: "Pienso Ultima para gatos senior esterilizados con pollo y arándanos."
+  filtros:
+    etapa: [senior]
+  afinidad:
+    esterilizado: 3
+
+# =============================================
+# PIENSO GATO - PROBLEMAS URINARIOS
+# =============================================
+- id: royal-canin-urinary-so
+  nombre: "Royal Canin Urinary S/O"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "~27€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0041TN666"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: pienso-gato-problemas-urinarios
+  descripcionCorta: "Dieta veterinaria Royal Canin para disolver cálculos urinarios y prevenir su recurrencia."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    urinario: 5
+
+- id: hills-cd-multicare
+  nombre: "Hill's c/d Multicare"
+  marca: "Hill's"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~100€"
+  precioAmazon: "~100€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01MSDL6B1"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: pienso-gato-problemas-urinarios
+  descripcionCorta: "Dieta veterinaria Hill's c/d para la gestión de problemas del tracto urinario inferior."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    urinario: 5
+
+- id: purina-proplan-urinary
+  nombre: "Purina Pro Plan Urinary"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "~22€"
+  enlaceAmazon: "https://www.amazon.es/dp/B015KDPDI0"
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: pienso-gato-problemas-urinarios
+  descripcionCorta: "Pienso Purina Pro Plan para gatos con tendencia a problemas urinarios."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    urinario: 5
+
+- id: specific-crystal-prevention
+  nombre: "Specific Crystal Prevention"
+  marca: "Specific"
+  precio: "~42€"
+  precioZooplus: "~42€"
+  enlaceAmazon: null
+  categoria: alimentacion
+  subcategoria: pienso
+  animal: gato
+  articuloSlug: pienso-gato-problemas-urinarios
+  descripcionCorta: "Dieta veterinaria Specific para prevenir la formación de cristales urinarios en gatos."
+  filtros:
+    etapa: [adulto]
+  afinidad:
+    urinario: 5
+
+# =============================================
+# COMIDA HÚMEDA - PERRO
+# =============================================
+- id: applaws-taste-toppers-pollo-caldo
+  nombre: "Applaws Taste Toppers Pollo en Caldo"
+  marca: "Applaws"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "~22€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09KVCQV71"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: perro
+  articuloSlug: mejor-comida-humeda-perros
+  descripcionCorta: "Topper de comida húmeda Applaws con pollo natural en caldo, sin aditivos artificiales."
+  filtros: {}
+  afinidad: {}
+
+- id: lilys-kitchen-classic-dinners-perro
+  nombre: "Lily's Kitchen Classic Dinners"
+  marca: "Lily's Kitchen"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "~29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009GEH2IY"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: perro
+  articuloSlug: mejor-comida-humeda-perros
+  descripcionCorta: "Comida húmeda Lily's Kitchen con ingredientes naturales para perros adultos."
+  filtros: {}
+  afinidad: {}
+
+- id: purina-proplan-adult-pavo-400g
+  nombre: "Purina Pro Plan Adult Pavo 12x400g"
+  marca: "Purina Pro Plan"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~43€"
+  precioAmazon: "~43€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0GM2JB165"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: perro
+  articuloSlug: mejor-comida-humeda-perros
+  descripcionCorta: "Comida húmeda Purina Pro Plan con pavo en pack de 12 latas para perros adultos."
+  filtros: {}
+  afinidad: {}
+
+- id: animonda-grancarno-original-adult
+  nombre: "Animonda GranCarno Original Adult"
+  marca: "Animonda"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "~17€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00352M8ZA"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: perro
+  articuloSlug: mejor-comida-humeda-perros
+  descripcionCorta: "Comida húmeda Animonda GranCarno con carne real para perros adultos."
+  filtros: {}
+  afinidad: {}
+
+- id: royal-canin-maxi-adult-salsa
+  nombre: "Royal Canin Maxi Adult en Salsa"
+  marca: "Royal Canin"
+  imagen: "https://m.media-amazon.com/images/I/81q7vAKg5sL._AC_SL300_.jpg"
+  precio: "~7€"
+  precioAmazon: "~7€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07LFK664Z"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: perro
+  articuloSlug: mejor-comida-humeda-perros
+  descripcionCorta: "Comida húmeda Royal Canin Maxi Adult en salsa para perros adultos de razas grandes."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# COMIDA HÚMEDA - GATO
+# =============================================
+- id: applaws-caldo-natural-gato
+  nombre: "Applaws en caldo natural 24x70g"
+  marca: "Applaws"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~29€"
+  precioAmazon: "~29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B004FG87G4"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: gato
+  articuloSlug: mejor-comida-humeda-gatos
+  descripcionCorta: "Comida húmeda Applaws en caldo natural para gatos, sin aditivos artificiales."
+  filtros: {}
+  afinidad: {}
+
+- id: cosma-nature-gato
+  nombre: "Cosma Nature"
+  marca: "Cosma"
+  imagen: "/images/productos/zooplus-comida-humeda-gatos-mix.jpg"
+  precio: "~1,10€"
+  precioZooplus: "~1,10€"
+  enlaceAmazon: null
+  enlaceZooplus: null
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: gato
+  articuloSlug: mejor-comida-humeda-gatos
+  descripcionCorta: "Comida húmeda Cosma Nature con ingredientes naturales para gatos, disponible en Zooplus."
+  filtros: {}
+  afinidad: {}
+
+- id: sheba-delicatezze-seleccion-mixta
+  nombre: "Sheba Delicatezze Selección Mixta"
+  marca: "Sheba"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~39€"
+  precioAmazon: "~39€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07CBWJX6T"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: gato
+  articuloSlug: mejor-comida-humeda-gatos
+  descripcionCorta: "Selección mixta de comida húmeda Sheba Delicatezze en salsa para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: lilys-kitchen-pate-sin-cereales-gato
+  nombre: "Lily's Kitchen Paté sin Cereales 32x85g"
+  marca: "Lily's Kitchen"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~45€"
+  precioAmazon: "~45€"
+  enlaceAmazon: "https://www.amazon.es/dp/B071RTL5PK"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: gato
+  articuloSlug: mejor-comida-humeda-gatos
+  descripcionCorta: "Paté sin cereales Lily's Kitchen con ingredientes naturales para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: gourmet-gold-mousse-variado
+  nombre: "Gourmet Gold Mousse Variado 24x85g"
+  marca: "Gourmet"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~13€"
+  precioAmazon: "~13€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07XHC1X9N"
+  categoria: alimentacion
+  subcategoria: comida-humeda
+  animal: gato
+  articuloSlug: mejor-comida-humeda-gatos
+  descripcionCorta: "Mousse variado Gourmet Gold en pack de 24 latas para gatos adultos."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# SNACKS - PERRO
+# =============================================
+- id: rocco-chings-pechuga-pollo
+  nombre: "Rocco Chings pechuga de pollo"
+  marca: "Rocco"
+  precio: "~5€"
+  precioZooplus: "~5€"
+  enlaceAmazon: null
+  enlaceZooplus: null
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: perro
+  articuloSlug: mejores-snacks-naturales-perros
+  descripcionCorta: "Snack natural liofilizado de pechuga de pollo para perros, de Zooplus."
+  filtros: {}
+  afinidad: {}
+
+- id: wolf-wilderness-oreja-conejo
+  nombre: "Wolf of Wilderness oreja de conejo"
+  marca: "Wolf of Wilderness"
+  precio: "~4€"
+  precioZooplus: "~4€"
+  enlaceAmazon: null
+  enlaceZooplus: null
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: perro
+  articuloSlug: mejores-snacks-naturales-perros
+  descripcionCorta: "Orejas de conejo naturales para perros, snack masticable sin aditivos."
+  filtros: {}
+  afinidad: {}
+
+- id: purizon-tiras-pato
+  nombre: "Purizon tiras de pato"
+  marca: "Purizon"
+  imagen: "/images/productos/purizon-snack-pato.jpg"
+  precio: "~4,50€"
+  precioZooplus: "~4,50€"
+  enlaceAmazon: null
+  enlaceZooplus: null
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: perro
+  articuloSlug: mejores-snacks-naturales-perros
+  descripcionCorta: "Tiras de pato Purizon, snack natural sin cereales para perros."
+  filtros: {}
+  afinidad: {}
+
+- id: greenies-original-perro
+  nombre: "Greenies Original"
+  marca: "Greenies"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~68€"
+  precioAmazon: "~68€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07GWXN9LK"
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: perro
+  articuloSlug: mejores-snacks-naturales-perros
+  descripcionCorta: "Snacks dentales Greenies para perros, ayudan a limpiar los dientes y refrescar el aliento."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# SNACKS - GATO
+# =============================================
+- id: trixie-corazones-pollo-liofilizados
+  nombre: "Trixie Corazones de Pollo Liofilizados"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~14€"
+  precioAmazon: "14,13€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D98BVJ99"
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: gato
+  articuloSlug: snacks-naturales-gatos
+  descripcionCorta: "Corazones de pollo liofilizados Trixie, snack natural sin aditivos para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: dokas-corazones-pollo-liofilizados
+  nombre: "Dokas Corazones de Pollo Liofilizados"
+  marca: "Dokas"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~12€"
+  precioAmazon: "11,96€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08H8X4ZZ3"
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: gato
+  articuloSlug: snacks-naturales-gatos
+  descripcionCorta: "Corazones de pollo liofilizados Dokas, snack proteico natural para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: inaba-churu-atun
+  nombre: "INABA Churu Atún"
+  marca: "INABA"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~3€"
+  precioAmazon: "3,25€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08TQPDTN1"
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: gato
+  articuloSlug: snacks-naturales-gatos
+  descripcionCorta: "Snack líquido INABA Churu con atún, muy apetecible para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: purina-dentalife-gato
+  nombre: "Purina Dentalife Gato"
+  marca: "Purina"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~12€"
+  precioAmazon: "12,07€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07SB8DDXZ"
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: gato
+  articuloSlug: snacks-naturales-gatos
+  descripcionCorta: "Snacks dentales Purina Dentalife para gatos, ayudan a reducir el sarro."
+  filtros: {}
+  afinidad: {}
+
+- id: whiskas-sticks-pollo
+  nombre: "Whiskas Sticks Pollo"
+  marca: "Whiskas"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~49€"
+  precioAmazon: "~49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01LTHKZN4"
+  categoria: alimentacion
+  subcategoria: snacks
+  animal: gato
+  articuloSlug: snacks-naturales-gatos
+  descripcionCorta: "Sticks Whiskas con pollo para gatos, pack de 28 unidades."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# COMEDEROS - PERRO (mejor-comedero-perros-guia)
+# =============================================
+- id: amazonbasics-acero-inox-perro
+  nombre: "AmazonBasics Acero Inoxidable"
+  marca: "AmazonBasics"
+  imagen: "https://m.media-amazon.com/images/I/61RRXjUh3uL._AC_SL300_.jpg"
+  precio: "~16€"
+  precioAmazon: "~16€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01DOP5S9K"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Comedero de acero inoxidable AmazonBasics con base antideslizante para perros."
+  filtros: {}
+  afinidad: {}
+
+- id: ruffwear-quencher-bowl
+  nombre: "RUFFWEAR Quencher Bowl"
+  marca: "RUFFWEAR"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~33€"
+  precioAmazon: "~33€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CLB4CV6F"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Comedero plegable RUFFWEAR para perros activos y viaje."
+  filtros: {}
+  afinidad: {}
+
+- id: trixie-elevado-acero-inox-perro
+  nombre: "Trixie Comedero Elevado Acero Inox"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~56€"
+  precioAmazon: "55,63€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000V6DM8A"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Comedero elevado Trixie con cuencos de acero inoxidable para perros de razas grandes."
+  filtros: {}
+  afinidad: {}
+
+- id: outward-hound-fun-feeder
+  nombre: "Outward Hound Fun Feeder Slo-Bowl"
+  marca: "Outward Hound"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~21€"
+  precioAmazon: "~21€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00FPKNRG4"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Comedero lento Outward Hound con laberinto para reducir la velocidad de ingesta."
+  filtros: {}
+  afinidad: {}
+
+- id: kong-wobbler-perro
+  nombre: "Kong Wobbler"
+  marca: "Kong"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "24,30€"
+  precioZooplus: "15,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003ALMW0M"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Juguete dispensador Kong Wobbler que hace trabajar al perro para obtener su comida."
+  filtros: {}
+  afinidad: {}
+
+- id: lickimat-slomo-perro
+  nombre: "LickiMat Slomo"
+  marca: "LickiMat"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~21€"
+  precioAmazon: "~21€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07RLW7ZTZ"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Alfombrilla lameteo LickiMat Slomo para alimentación lenta y enriquecimiento."
+  filtros: {}
+  afinidad: {}
+
+- id: honeyguaridan-doble-5l-perro
+  nombre: "HoneyGuaridan Doble Cuenco 5L"
+  marca: "HoneyGuaridan"
+  imagen: "https://m.media-amazon.com/images/I/71H+D+ZXz1L._AC_SL300_.jpg"
+  precio: "~51€"
+  precioAmazon: "51,43€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CQJQ19W2"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Comedero automático doble HoneyGuaridan con 5L de capacidad para dos mascotas."
+  filtros: {}
+  afinidad: {}
+
+- id: catit-pixi-smart-feeder-perro
+  nombre: "Catit PIXI Smart Feeder"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/51tgQ3jQ10L._AC_SL300_.jpg"
+  precio: "~77€"
+  precioAmazon: "77,49€"
+  precioZooplus: "77,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B093MF7X18"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/bebederos_comedores_gatos/comedero_automatico/otros_comederos_automaticos/1101738"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-perros-guia
+  descripcionCorta: "Comedero automático Catit PIXI Smart con app para programar raciones."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# COMEDEROS - GATO (mejor-comedero-gatos-guia)
+# =============================================
+- id: petkit-cybertail-acero-inox-gato
+  nombre: "PETKIT CYBERTAIL Acero Inox"
+  marca: "PETKIT"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~28€"
+  precioAmazon: "~28€"
+  enlaceAmazon: "https://www.amazon.es/dp/B083DMX4Q4"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-gatos-guia
+  descripcionCorta: "Comedero elevado PETKIT de acero inoxidable con ángulo ergonómico para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: hchlqlz-ceramica-elevado-inclinado
+  nombre: "HCHLQLZ Cerámica Elevado Inclinado"
+  marca: "HCHLQLZ"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~32€"
+  precioAmazon: "~32€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08CGR383Z"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-gatos-guia
+  descripcionCorta: "Comedero elevado inclinado de cerámica para gatos, postura ergonómica."
+  filtros: {}
+  afinidad: {}
+
+- id: catit-senses-digger
+  nombre: "Catit Senses 2.0 Digger"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~14€"
+  precioAmazon: "13,60€"
+  enlaceAmazon: "https://www.amazon.es/dp/B015P13QMM"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-gatos-guia
+  descripcionCorta: "Comedero interactivo Catit Senses 2.0 Digger que estimula el instinto de caza del gato."
+  filtros: {}
+  afinidad: {}
+
+- id: lickimat-kitty-gato
+  nombre: "LickiMat Kitty"
+  marca: "LickiMat"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "14,54€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CKY9WXJR"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-gatos-guia
+  descripcionCorta: "Alfombrilla lameteo LickiMat Kitty para gatos, reduce ansiedad y alimentación lenta."
+  filtros: {}
+  afinidad: {}
+
+- id: northmate-catch-gato
+  nombre: "Northmate Catch"
+  marca: "Northmate"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~25€"
+  precioAmazon: "24,57€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00EB4IV2A"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-gatos-guia
+  descripcionCorta: "Comedero lento Northmate Catch con hierba artificial para alimentación interactiva."
+  filtros: {}
+  afinidad: {}
+
+- id: surefeed-microchip-pet-feeder
+  nombre: "SureFeed Microchip Pet Feeder"
+  marca: "SureFeed"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~151€"
+  precioAmazon: "~151€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00O0UIPTY"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-gatos-guia
+  descripcionCorta: "Comedero con microchip SureFeed que solo se abre para el gato registrado."
+  filtros: {}
+  afinidad: {}
+
+- id: petsafe-5-comidas-programable
+  nombre: "PetSafe 5 Comidas Programable"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/71N6bv6PNTL._AC_SL300_.jpg"
+  precio: "~58€"
+  precioAmazon: "58,10€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000GEWHNS"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-gatos-guia
+  descripcionCorta: "Comedero automático PetSafe con 5 compartimentos programables para gatos."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# COMEDEROS WIFI - GATO (mejor-comedero-automatico-wifi-gatos)
+# =============================================
+- id: petlibro-granary-wifi-5l
+  nombre: "PETLIBRO Granary WiFi 5L"
+  marca: "PETLIBRO"
+  imagen: "https://m.media-amazon.com/images/I/617ca71YbFL._AC_SL300_.jpg"
+  precio: "~110€"
+  precioAmazon: "109,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C2J7JXZ4"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-automatico-wifi-gatos
+  descripcionCorta: "Comedero automático WiFi PETLIBRO 5L con app, bandeja de acero inoxidable y dispensación lenta."
+  filtros: {}
+  afinidad: {}
+
+- id: xiaomi-smart-pet-food-feeder-gato
+  nombre: "Xiaomi Smart Pet Food Feeder"
+  marca: "Xiaomi"
+  imagen: "https://m.media-amazon.com/images/I/41ltQuGILiL._AC_SL300_.jpg"
+  precio: "~108€"
+  precioAmazon: "108,44€"
+  precioTiendanimal: "139,69€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BB4B2SL9"
+  enlaceTiendanimal: "https://www.tiendanimal.es/xiaomi-start-pet-food-comedero-automatico-con-control-app-movil-para-perros-y-gatos/MRK000211880_M.html"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-automatico-wifi-gatos
+  descripcionCorta: "Comedero automático Xiaomi integrado con el ecosistema Xiaomi Home para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: petlibro-polar-refrigerado-wifi
+  nombre: "PETLIBRO Polar Refrigerado WiFi"
+  marca: "PETLIBRO"
+  imagen: "https://m.media-amazon.com/images/I/71o95ABWayL._AC_SL300_.jpg"
+  precio: "~160€"
+  precioAmazon: "159,99€"
+  precioZooplus: "169,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DY18Z91T"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/bebederos_comedores_gatos/comedero_automatico/2184339"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-automatico-wifi-gatos
+  descripcionCorta: "Único comedero automático WiFi con refrigeración para comida húmeda de gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: catit-pixi-smart-feeder-wifi-gato
+  nombre: "Catit PIXI Comedero Inteligente"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/51tgQ3jQ10L._AC_SL300_.jpg"
+  precio: "~77€"
+  precioAmazon: "77,49€"
+  precioZooplus: "77,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B093MF7X18"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/bebederos_comedores_gatos/comedero_automatico/otros_comederos_automaticos/1101738"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-automatico-wifi-gatos
+  descripcionCorta: "Comedero inteligente Catit PIXI con app, compatible con comida húmeda y seca."
+  filtros: {}
+  afinidad: {}
+
+- id: wopet-dispensador-wifi-4l-gato
+  nombre: "WOPET Dispensador WiFi 4L"
+  marca: "WOPET"
+  imagen: "https://m.media-amazon.com/images/I/611vCCTIjbL._AC_SL300_.jpg"
+  precio: "~50€"
+  precioAmazon: "49,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0FQBT27LD"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-automatico-wifi-gatos
+  descripcionCorta: "Comedero WiFi WOPET más económico con app y dispensación lenta para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: honeyguaridan-doble-5l-gato
+  nombre: "HoneyGuaridan Doble 5L"
+  marca: "HoneyGuaridan"
+  imagen: "https://m.media-amazon.com/images/I/71H+D+ZXz1L._AC_SL300_.jpg"
+  precio: "~51€"
+  precioAmazon: "51,43€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CQJQ19W2"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: gato
+  articuloSlug: mejor-comedero-automatico-wifi-gatos
+  descripcionCorta: "Comedero automático doble para dos gatos con cuencos de acero inoxidable."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# COMEDEROS WIFI - PERRO (mejor-comedero-automatico-perros-app)
+# =============================================
+- id: cecotec-pumba-6000-purrfect
+  nombre: "Cecotec Pumba 6000 Purrfect Meal Smart"
+  marca: "Cecotec"
+  imagen: "https://m.media-amazon.com/images/I/41+H4AD8xTL._AC_SL300_.jpg"
+  precio: "~40€"
+  precioAmazon: "45,44€"
+  precioTiendanimal: "39,90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BQ1WQGPK"
+  enlaceTiendanimal: "https://www.tiendanimal.es/cecotec-pumba-6000-purrfect-meal-smart-comedero-automatico-para-perros-y-gatos/CEC9565_M.html"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-automatico-perros-app
+  descripcionCorta: "Comedero automático WiFi Cecotec 6L con app, cuenco de acero inox y pilas de respaldo."
+  filtros: {}
+  afinidad: {}
+
+- id: xiaomi-smart-pet-food-feeder-perro
+  nombre: "Xiaomi Smart Pet Food Feeder"
+  marca: "Xiaomi"
+  imagen: "https://m.media-amazon.com/images/I/41ltQuGILiL._AC_SL300_.jpg"
+  precio: "~108€"
+  precioAmazon: "108,44€"
+  precioTiendanimal: "139,69€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BB4B2SL9"
+  enlaceTiendanimal: "https://www.tiendanimal.es/xiaomi-start-pet-food-comedero-automatico-con-control-app-movil-para-perros-y-gatos/MRK000211880_M.html"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-automatico-perros-app
+  descripcionCorta: "Comedero automático Xiaomi integrado con ecosistema Xiaomi Home para perros."
+  filtros: {}
+  afinidad: {}
+
+- id: petlibro-5g-wifi-doble-cuenco-5l
+  nombre: "PETLIBRO 5G WiFi Doble Cuenco 5L"
+  marca: "PETLIBRO"
+  imagen: "https://m.media-amazon.com/images/I/71EPPyQZRML._AC_SL300_.jpg"
+  precio: "~130€"
+  precioAmazon: "129,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CWKXG6Z8"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-automatico-perros-app
+  descripcionCorta: "Comedero WiFi PETLIBRO doble cuenco para 2 mascotas, WiFi 5G y 2.4G."
+  filtros: {}
+  afinidad: {}
+
+- id: comedero-8l-wifi-camara-1080p
+  nombre: "Comedero 8L WiFi con Cámara 1080P"
+  imagen: "https://m.media-amazon.com/images/I/71eopOkMOpL._AC_SL300_.jpg"
+  precio: "~158€"
+  precioAmazon: "157,54€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DG8SZKQZ"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-automatico-perros-app
+  descripcionCorta: "Comedero automático WiFi de 8L con cámara HD 1080P y visión nocturna para perros grandes."
+  filtros: {}
+  afinidad: {}
+
+- id: petlibro-5g-wifi-camara-1080p
+  nombre: "PETLIBRO 5G WiFi con Cámara 1080P 5L"
+  marca: "PETLIBRO"
+  imagen: "https://m.media-amazon.com/images/I/71IVo1URLxL._AC_SL300_.jpg"
+  precio: "~170€"
+  precioAmazon: "169,99€"
+  precioZooplus: "211,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CKN52YVC"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/bebederos_comedores_gatos/comedero_automatico/2111526"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-automatico-perros-app
+  descripcionCorta: "Comedero premium PETLIBRO con cámara 1080P, audio bidireccional y batería de respaldo."
+  filtros: {}
+  afinidad: {}
+
+- id: wopet-wifi-6l-perro
+  nombre: "WOPET WiFi 6L"
+  marca: "WOPET"
+  imagen: "https://m.media-amazon.com/images/I/61ClYCLCmEL._AC_SL300_.jpg"
+  precio: "~196€"
+  precioAmazon: "196,19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B089GG57QL"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: perro
+  articuloSlug: mejor-comedero-automatico-perros-app
+  descripcionCorta: "Comedero automático WiFi WOPET de 6L para perros con sensor de nivel de alimento."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# COMEDEROS ANTIHORMIGAS (mejor-comedero-antihormigas-mascotas)
+# =============================================
+- id: nayeco-antihormigas-inox
+  nombre: "Nayeco Comedero Antihormigas Inox 1.9L"
+  marca: "Nayeco"
+  imagen: "https://m.media-amazon.com/images/I/41XRS4vr+iL._AC_.jpg"
+  precio: "~21€"
+  precioAmazon: "21,32€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00QX58BF2"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: ambos
+  articuloSlug: mejor-comedero-antihormigas-mascotas
+  descripcionCorta: "Comedero de acero inoxidable con sistema antihormigas integrado de foso de agua."
+  filtros: {}
+  afinidad: {}
+
+- id: grpet-antihormigas
+  nombre: "GRPET Comedero Antihormigas"
+  marca: "GRPET"
+  imagen: "https://m.media-amazon.com/images/I/51a6ZnrZAIL._AC_SL300_.jpg"
+  precio: "~11€"
+  precioAmazon: "11,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DCZK38TK"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: ambos
+  articuloSlug: mejor-comedero-antihormigas-mascotas
+  descripcionCorta: "Comedero antihormigas compacto con barrera de agua perimetral para gatos y perros."
+  filtros: {}
+  afinidad: {}
+
+- id: gp-gp10060-antihormigas
+  nombre: "GP GP10060 Comedero Antihormigas"
+  marca: "GP"
+  imagen: "https://m.media-amazon.com/images/I/61BC3PD+j6L._AC_SL300_.jpg"
+  precio: "~6€"
+  precioAmazon: "6,45€"
+  enlaceAmazon: "https://www.amazon.es/dp/B076DZNW62"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: ambos
+  articuloSlug: mejor-comedero-antihormigas-mascotas
+  descripcionCorta: "Comedero antihormigas económico de plástico con canal de agua perimetral."
+  filtros: {}
+  afinidad: {}
+
+- id: tkpet-antihormigas-inox
+  nombre: "TK-Pet Comedero Antihormigas Inox"
+  marca: "TK-Pet"
+  imagen: "/images/productos/tk-pet-comedero-antihormigas.jpg"
+  precio: "~7€"
+  precioTiendanimal: "6,99€"
+  enlaceAmazon: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/tk-pet-comedero-antihormigas-para-mascotas/TKP26102_M.html"
+  categoria: alimentacion
+  subcategoria: comedero
+  animal: ambos
+  articuloSlug: mejor-comedero-antihormigas-mascotas
+  descripcionCorta: "Comedero antihormigas de acero inoxidable TK-Pet en 6 tamaños, base antideslizante."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# FUENTES DE AGUA - GATO (comparativa-fuentes-agua-gatos)
+# =============================================
+- id: catit-pixi-fountain-inox-2l
+  nombre: "Catit Pixi Fountain Inox 2L"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/81s6XBYJCEL._AC_SL300_.jpg"
+  precio: "~32€"
+  precioAmazon: "36,80€"
+  precioZooplus: "32,49€"
+  precioTiendanimal: "35,69€"
+  enlaceAmazon: "https://www.amazon.es/dp/B016DQU5NQ"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/bebederos_comedores_gatos/fuentes/catit/1205993"
+  enlaceTiendanimal: "https://www.tiendanimal.es/catit-pixi-fuente-bebedero-de-acero-inoxidable-para-gatos/CAI43720_M.html"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: comparativa-fuentes-agua-gatos
+  descripcionCorta: "Fuente de agua Catit Pixi de acero inoxidable, silenciosa y fácil de limpiar para gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: catit-flower-fountain
+  nombre: "Catit Flower Fountain"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/61BhM8Zl27L._AC_SL300_.jpg"
+  precio: "~24€"
+  precioAmazon: "23,99€"
+  precioZooplus: "23,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0146QXOB0"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/bebederos_comedores_gatos/fuentes/catit/623838"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: comparativa-fuentes-agua-gatos
+  descripcionCorta: "Fuente Catit Flower con diseño de flor y 3 configuraciones de flujo, la más popular del mercado."
+  filtros: {}
+  afinidad: {}
+
+- id: petsafe-drinkwell-platinum-5l-gato
+  nombre: "PetSafe Drinkwell Platinum"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/61mDwEspBuL._AC_SL300_.jpg"
+  precio: "~50€"
+  precioAmazon: "49,99€"
+  precioZooplus: "68,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00LBY7TSU"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/comederos/bebedero_perro/drinkwell/146421"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: comparativa-fuentes-agua-gatos
+  descripcionCorta: "Fuente PetSafe Drinkwell Platinum de 5L con chorro ajustable, ideal para varios gatos."
+  filtros: {}
+  afinidad: {}
+
+- id: feelneedy-inox-inalambrica
+  nombre: "FEELNEEDY Inox Inalámbrica"
+  marca: "FEELNEEDY"
+  imagen: "https://m.media-amazon.com/images/I/61jdElnypvL._AC_SL300_.jpg"
+  precio: "~51€"
+  precioAmazon: "51,30€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D1CL8YMB"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: comparativa-fuentes-agua-gatos
+  descripcionCorta: "Fuente de agua inalámbrica de acero inox con batería recargable y sensor de movimiento."
+  filtros: {}
+  afinidad: {}
+
+- id: giotohun-fuente-gatos
+  nombre: "GIOTOHUN Fuente Gatos"
+  marca: "GIOTOHUN"
+  imagen: "https://m.media-amazon.com/images/I/71yoybQZMOL._AC_SL300_.jpg"
+  precio: "~20€"
+  precioAmazon: "19,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BGL2GTTM"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: comparativa-fuentes-agua-gatos
+  descripcionCorta: "Fuente económica para gatos con bomba ultra silenciosa y varios modos de flujo."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# FUENTES SILENCIOSAS - GATO (mejor-fuente-agua-gatos-silenciosa)
+# =============================================
+- id: petkit-eversweet-3-pro
+  nombre: "Petkit Eversweet 3 Pro"
+  marca: "Petkit"
+  imagen: "https://m.media-amazon.com/images/I/61e5C9JEDiL._AC_SL300_.jpg"
+  precio: "~80€"
+  precioAmazon: "79,99€"
+  precioZooplus: "99,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09SHH7TDS"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/bebederos_comedores_gatos/fuentes/otras_marcas/2070512"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: mejor-fuente-agua-gatos-silenciosa
+  descripcionCorta: "Fuente ultra-silenciosa Petkit (menos de 25dB) con bandeja de acero inox y cuádruple filtración."
+  filtros: {}
+  afinidad: {}
+
+- id: catit-pixi-smart-fountain
+  nombre: "Catit Pixi Smart Fountain"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/517Cu2Fv22L._AC_SL300_.jpg"
+  precio: "~91€"
+  precioAmazon: "91,44€"
+  precioTiendanimal: "92,39€"
+  enlaceAmazon: "https://www.amazon.es/dp/B093M57335"
+  enlaceTiendanimal: "https://www.tiendanimal.es/catit-pixi-fuente-bebedero-inteligente-para-gatos/CAI43751_M.html"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: mejor-fuente-agua-gatos-silenciosa
+  descripcionCorta: "Fuente inteligente Catit Pixi Smart con app WiFi, acero inox y esterilización UV-C."
+  filtros: {}
+  afinidad: {}
+
+- id: aonboy-3-2l-inox
+  nombre: "AONBOY 3.2L Inox"
+  marca: "AONBOY"
+  imagen: "https://m.media-amazon.com/images/I/71GOgUeulNL._AC_SL300_.jpg"
+  precio: "~53€"
+  precioAmazon: "52,71€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C6Y3KCCL"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: mejor-fuente-agua-gatos-silenciosa
+  descripcionCorta: "Fuente de acero inoxidable AONBOY de 3.2L con bomba ultra-silenciosa y ventana de nivel."
+  filtros: {}
+  afinidad: {}
+
+- id: petsafe-drinkwell-mini
+  nombre: "PetSafe Drinkwell Mini"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/610wAoSTZ2L._AC_SL300_.jpg"
+  precio: "~50€"
+  precioAmazon: "49,98€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00IYPP1HK"
+  categoria: alimentacion
+  subcategoria: fuente-agua
+  animal: gato
+  articuloSlug: mejor-fuente-agua-gatos-silenciosa
+  descripcionCorta: "Fuente compacta PetSafe Drinkwell Mini de 1.2L, silenciosa y con filtros económicos."
+  filtros: {}
+  afinidad: {}
+
+# =============================================
+# BEBEDEROS - PERRO (mejor-bebedero-perros-guia)
+# =============================================
+- id: amazonbasics-cuenco-acero-inox-bebedero
+  nombre: "AmazonBasics Cuenco Acero Inox"
+  marca: "AmazonBasics"
+  imagen: "https://m.media-amazon.com/images/I/61RRXjUh3uL._AC_SL300_.jpg"
+  precio: "~16€"
+  precioAmazon: "15,74€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01DOP5S9K"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Cuenco de acero inox AmazonBasics con base antideslizante, el bebedero clásico para perros."
+  filtros: {}
+  afinidad: {}
+
+- id: pawhut-elevado-acero-inox
+  nombre: "PawHut Comedero Elevado Acero Inox"
+  marca: "PawHut"
+  imagen: "https://m.media-amazon.com/images/I/61HwADylmJL._AC_SL300_.jpg"
+  precio: "~26€"
+  precioAmazon: "25,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08R85PVPC"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Comedero/bebedero elevado PawHut con 2 cuencos de acero inox para razas grandes y seniors."
+  filtros: {}
+  afinidad: {}
+
+- id: bebedero-jardin-exterior-automatico
+  nombre: "Bebedero de jardín/exterior automático"
+  imagen: "https://m.media-amazon.com/images/I/71K2Z8HMxJL._AC_SL300_.jpg"
+  precio: "~38€"
+  precioAmazon: "37,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0F5MJCZ9Z"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Bebedero automático para jardín conectado a la manguera, nivel constante de agua fresca."
+  filtros: {}
+  afinidad: {}
+
+- id: petsafe-drinkwell-3-7l-inox
+  nombre: "PetSafe Drinkwell 3,7L Inox"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/61DBaFpVUwL._AC_SL300_.jpg"
+  precio: "~60€"
+  precioAmazon: "59,98€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07Y3XDKY3"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Fuente de acero inox PetSafe Drinkwell 3.7L con chorro ajustable y bomba ultra silenciosa."
+  filtros: {}
+  afinidad: {}
+
+- id: eyenimal-smart-bloom-pet-fountain
+  nombre: "EYENIMAL Smart Bloom Pet Fountain"
+  marca: "EYENIMAL"
+  imagen: "https://m.media-amazon.com/images/I/71Q6QRLgdlL._AC_SL300_.jpg"
+  precio: "~58€"
+  precioAmazon: "58,07€"
+  precioTiendanimal: "72,90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07TB37KSR"
+  enlaceTiendanimal: "https://www.tiendanimal.es/fuente-smart-bloom-pet-fountain-para-mascotas-color-blanco-/MRK000040230_M.html"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Fuente inteligente EYENIMAL con diseño elegante y filtro para perros medianos y grandes."
+  filtros: {}
+  afinidad: {}
+
+- id: petkit-eversweet-2s-perro
+  nombre: "Petkit Eversweet 2S"
+  marca: "Petkit"
+  imagen: "https://m.media-amazon.com/images/I/61wmy5X3zsL._AC_SL300_.jpg"
+  precio: "~56€"
+  precioAmazon: "55,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B4W8FDBV"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Fuente compacta Petkit Eversweet 2S de 2.5L con triple filtración y pantalla LED."
+  filtros: {}
+  afinidad: {}
+
+- id: veken-3l-inox-perros
+  nombre: "Veken 3L Inox para perros"
+  marca: "Veken"
+  imagen: "https://m.media-amazon.com/images/I/71GOgUeulNL._AC_SL300_.jpg"
+  precio: "~53€"
+  precioAmazon: "52,93€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CC293L9D"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Fuente de acero inox Veken 3L con 3 modos de flujo y bomba silenciosa para perros."
+  filtros: {}
+  afinidad: {}
+
+- id: petsafe-drinkwell-platinum-5l-perro
+  nombre: "PetSafe Drinkwell Platinum 5L"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/61mDwEspBuL._AC_SL300_.jpg"
+  precio: "~50€"
+  precioAmazon: "49,99€"
+  precioZooplus: "68,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00LBY7TSU"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/comederos/bebedero_perro/drinkwell/146421"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Fuente PetSafe Drinkwell Platinum de 5L para razas grandes o varios perros."
+  filtros: {}
+  afinidad: {}
+
+- id: bonve-pet-3-2l-led
+  nombre: "Bonve Pet 3,2L con LED"
+  marca: "Bonve Pet"
+  imagen: "https://m.media-amazon.com/images/I/71kKgNglNqL._AC_SL300_.jpg"
+  precio: "~37€"
+  precioAmazon: "36,59€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08MW1KX68"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Fuente económica Bonve Pet 3.2L con indicador LED de nivel y triple filtración."
+  filtros: {}
+  afinidad: {}
+
+- id: petkit-eversweet-travel-400ml
+  nombre: "PETKIT Eversweet Travel 400ml"
+  marca: "PETKIT"
+  imagen: "https://m.media-amazon.com/images/I/51r12skhO6L._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B072Q1NFC9"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Bebedero portátil PETKIT 400ml con filtro de carbón y sistema antigoteo para paseos."
+  filtros: {}
+  afinidad: {}
+
+- id: trixie-bebedero-viaje-750ml
+  nombre: "Trixie Bebedero de Viaje 750ml"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71prunGJeWL._AC_SL300_.jpg"
+  precio: "~15€"
+  precioAmazon: "16,99€"
+  precioZooplus: "15,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00YCXWU3G"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/comederos/comederos_bebederos_viaje/otros_comederos_de_viaje/505086"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Bebedero portátil de viaje Trixie 750ml con cuenco integrado y sistema de recuperación de agua."
+  filtros: {}
+  afinidad: {}
+
+- id: cuenco-plegable-silicona-pack2
+  nombre: "Cuenco plegable de silicona (pack 2)"
+  imagen: "https://m.media-amazon.com/images/I/716dAqojvAL._AC_SL300_.jpg"
+  precio: "~11€"
+  precioAmazon: "10,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0C26YJNKD"
+  categoria: alimentacion
+  subcategoria: bebedero
+  animal: perro
+  articuloSlug: mejor-bebedero-perros-guia
+  descripcionCorta: "Pack de 2 cuencos plegables de silicona alimentaria ultraligeros para paseos y viajes."
+  filtros: {}
+  afinidad: {}
