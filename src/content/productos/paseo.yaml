@@ -1,0 +1,1703 @@
+# Productos de categoria: paseo
+# Generado desde 17 articulos comparativos
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: arnes (perro)
+# Articulo: mejor-arnes-perro
+# ──────────────────────────────────────────
+
+- id: julius-k9-idc-powerharness
+  nombre: "Julius-K9 IDC Powerharness"
+  marca: "Julius-K9"
+  imagen: "https://m.media-amazon.com/images/I/81UkNdjGNFL._AC_SL300_.jpg"
+  precio: "~32€"
+  precioAmazon: "40,49€"
+  precioZooplus: "31,99€"
+  precioTiendanimal: "32,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0041VQH8I"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/correas_collares_perros/arnes_perros/julius_k9/476009"
+  enlaceTiendanimal: "https://www.tiendanimal.es/julius-k9-idc-arnes-negro-para-perros/JULJ16007_M.html"
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-perro
+  descripcionCorta: "El arnés más reconocido del mundo. Cierre lateral de velcro ultrarrápido, asa dorsal resistente y parches personalizables."
+  filtros:
+    tamano: [pequeño, mediano, grande, gigante]
+  afinidad:
+    antitirones: 0
+    control: 4
+    confort: 4
+    uso_ciudad: 4
+    uso_campo: 3
+    presupuesto_medio: 3
+
+- id: ruffwear-front-range
+  nombre: "Ruffwear Front Range"
+  marca: "Ruffwear"
+  imagen: "https://m.media-amazon.com/images/I/71W7ujmiM2L._AC_SL300_.jpg"
+  precio: "~44€"
+  precioAmazon: "58,29€"
+  precioZooplus: "43,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CLB5222N"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/correas_collares_perros/arnes_perros/ruffwear/851080"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-perro
+  descripcionCorta: "Acolchado en pecho y vientre, 4 puntos de ajuste, doble enganche frontal y dorsal. Ideal para perros activos y senderismo."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    antitirones: 3
+    control: 4
+    confort: 5
+    uso_ciudad: 4
+    uso_campo: 5
+    presupuesto_premium: 3
+
+- id: kurgo-tru-fit-smart
+  nombre: "Kurgo Tru-Fit Smart"
+  marca: "Kurgo"
+  imagen: "https://m.media-amazon.com/images/I/719KZhF7rnL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00164ZW98"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-perro
+  descripcionCorta: "Homologado crash test para coche. Doble punto de enganche dorsal y frontal, 5 puntos de ajuste."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    antitirones: 2
+    control: 4
+    confort: 3
+    uso_ciudad: 4
+    uso_coche: 5
+    presupuesto_medio: 4
+
+- id: ferplast-agila
+  nombre: "Ferplast Agila"
+  marca: "Ferplast"
+  imagen: "https://m.media-amazon.com/images/I/61CyVo7tY5L._AC_SL300_.jpg"
+  precio: "~11€"
+  precioAmazon: "11,23€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01I9T2K42"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-perro
+  descripcionCorta: "Ligero, transpirable y económico. Excelente relación calidad-precio para paseos diarios."
+  filtros:
+    tamano: [pequeño, mediano]
+  afinidad:
+    antitirones: 0
+    control: 2
+    confort: 3
+    uso_ciudad: 3
+    presupuesto_economico: 5
+
+- id: ezydog-quick-fit
+  nombre: "EzyDog Quick Fit"
+  marca: "EzyDog"
+  imagen: "https://m.media-amazon.com/images/I/61j-06gvPzL._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "18,20€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003XX585I"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-perro
+  descripcionCorta: "Se coloca en menos de 3 segundos. Neopreno suave, reflectante y cómodo para paseos diarios."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    antitirones: 0
+    control: 3
+    confort: 4
+    uso_ciudad: 4
+    presupuesto_medio: 4
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: arnes (antitirones, perro)
+# Articulo: mejor-arnes-antitirones-perro
+# ──────────────────────────────────────────
+
+- id: petsafe-easy-walk
+  nombre: "PetSafe Easy Walk"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/61LBBDgCtHL._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "30,67€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BRNX4QSS"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-antitirones-perro
+  descripcionCorta: "El arnés antitirones más vendido. Enganche frontal que redirige al perro sin forzar. Sistema de colores para colocación fácil."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    antitirones: 5
+    control: 4
+    confort: 3
+    uso_ciudad: 5
+    presupuesto_medio: 4
+
+- id: halti-harness
+  nombre: "Halti Harness"
+  marca: "Halti"
+  imagen: "https://m.media-amazon.com/images/I/81pQc2HuLBL._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "17,79€"
+  enlaceAmazon: "https://www.amazon.es/dp/B004W78GGC"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-antitirones-perro
+  descripcionCorta: "Doble enganche frontal y dorsal con sistema de seguridad con collar incluido. Muy resistente para perros grandes."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    antitirones: 4
+    control: 5
+    confort: 3
+    uso_ciudad: 4
+    presupuesto_economico: 4
+
+- id: rabbitgoo-no-pull-harness
+  nombre: "Rabbitgoo No-Pull Harness"
+  marca: "Rabbitgoo"
+  imagen: "https://m.media-amazon.com/images/I/61x25BTRT6L._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "21,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01M8JT6FT"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes
+  animal: perro
+  articuloSlug: mejor-arnes-antitirones-perro
+  descripcionCorta: "Mejor relación calidad-precio en antitirones. Doble enganche frontal y dorsal, reflectante."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    antitirones: 3
+    control: 3
+    confort: 3
+    uso_ciudad: 4
+    presupuesto_economico: 4
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: arnes-gato (gato)
+# Articulo: mejor-arnes-gato-pasear
+# ──────────────────────────────────────────
+
+- id: rabbitgoo-arnes-gato-antiescape
+  nombre: "Rabbitgoo Arnés Gato Antiescape"
+  marca: "Rabbitgoo"
+  imagen: "https://m.media-amazon.com/images/I/71G5JToJARL._AC_SL300_.jpg"
+  precio: "~19€"
+  precioAmazon: "18,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07TZ3K1TV"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes-gato
+  animal: gato
+  articuloSlug: mejor-arnes-gato-pasear
+  descripcionCorta: "Chaleco tipo malla transpirable antiescape. Doble ajuste en cuello y pecho. Incluye correa de 1.5m. Reflectante."
+  filtros:
+    tamano: [pequeño, mediano]
+  afinidad:
+    seguridad_antiescape: 5
+    confort: 4
+    presupuesto_economico: 5
+
+- id: catit-arnes-ajustable
+  nombre: "Catit Arnés Ajustable"
+  marca: "Catit"
+  imagen: "https://m.media-amazon.com/images/I/81UlzlBjhmL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "21,95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0035HBFKO"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes-gato
+  animal: gato
+  articuloSlug: mejor-arnes-gato-pasear
+  descripcionCorta: "Tipo H ultraligero. Nylon resistente. Para gatos experimentados. Disponible en 6 colores."
+  filtros:
+    tamano: [pequeño, mediano]
+  afinidad:
+    seguridad_antiescape: 2
+    confort: 5
+    presupuesto_medio: 4
+
+- id: petsafe-come-with-me-kitty
+  nombre: "PetSafe Come With Me Kitty"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/71f5bCBcUQL._AC_SL300_.jpg"
+  precio: "~16€"
+  precioAmazon: "16,14€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000OBH1S4"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes-gato
+  animal: gato
+  articuloSlug: mejor-arnes-gato-pasear
+  descripcionCorta: "Diseño antitirón patentado con correa elástica que absorbe tirones. Ideal para gatos nerviosos o asustadizos."
+  filtros:
+    tamano: [pequeño, mediano]
+  afinidad:
+    seguridad_antiescape: 3
+    confort: 4
+    presupuesto_economico: 5
+
+- id: supet-arnes-chaleco-gato
+  nombre: "Supet Arnés Chaleco Gato"
+  marca: "Supet"
+  imagen: "https://m.media-amazon.com/images/I/51u4BpNlMYL._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "17,77€"
+  enlaceAmazon: "https://www.amazon.es/dp/B098KYPL4H"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes-gato
+  animal: gato
+  articuloSlug: mejor-arnes-gato-pasear
+  descripcionCorta: "Chaleco acolchado con velcro y clip de seguridad. Tallas hasta 10 kg para gatos grandes tipo Maine Coon."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    seguridad_antiescape: 4
+    confort: 5
+    presupuesto_economico: 4
+
+- id: fayogoo-arnes-chaleco-antiescape
+  nombre: "FAYOGOO Arnés Chaleco Antiescape"
+  marca: "FAYOGOO"
+  imagen: "https://m.media-amazon.com/images/I/71mkBHBpikL._AC_SL300_.jpg"
+  precio: "~21€"
+  precioAmazon: "20,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B093SRDQYZ"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: arnes-gato
+  animal: gato
+  articuloSlug: mejor-arnes-gato-pasear
+  descripcionCorta: "Velcro reforzado antiescape con clip de seguridad. Malla transpirable y reflectante. Incluye correa de 1.5m."
+  filtros:
+    tamano: [pequeño, mediano]
+  afinidad:
+    seguridad_antiescape: 5
+    confort: 4
+    presupuesto_medio: 4
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: correa (perro)
+# Articulo: mejor-correa-perro
+# ──────────────────────────────────────────
+
+- id: ruffwear-roamer
+  nombre: "Ruffwear Roamer"
+  marca: "Ruffwear"
+  imagen: "https://m.media-amazon.com/images/I/71oNVAc5XDL._AC_SL300_.jpg"
+  precio: "~41€"
+  precioAmazon: "62,90€"
+  precioZooplus: "41,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08R5RVSMX"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/juguetes_deporte_perros/running_canicross_perros/correas/693796"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: mejor-correa-perro
+  descripcionCorta: "La mejor correa para corredores. Extensible 1.8-3m, manos libres, amortiguación de tirones. Para perros activos."
+  afinidad:
+    correa_extensible: 3
+    correa_manos_libres: 5
+    uso_campo: 5
+    presupuesto_medio: 3
+
+- id: julius-k9-correa-neopreno
+  nombre: "Julius-K9 Color & Gray Correa 1,2m"
+  marca: "Julius-K9"
+  imagen: "https://m.media-amazon.com/images/I/71TTztrnV5L._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "16,75€"
+  precioTiendanimal: "21,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01C6O9DXC"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/julius-k9-correa-de-adiestramiento-engomada-negra-para-perros/JUL38689_M.html"
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: mejor-correa-perro
+  descripcionCorta: "Neopreno acolchado que no corta la mano. Mosquetón giratorio, asa corta adicional para control cercano. 1,2m."
+  afinidad:
+    correa_fija: 5
+    uso_ciudad: 5
+    presupuesto_economico: 5
+
+- id: flexi-new-classic-5m
+  nombre: "Flexi New Classic (retráctil 5m)"
+  marca: "Flexi"
+  imagen: "https://m.media-amazon.com/images/I/71yMJBjPgRL._AC_SL300_.jpg"
+  precio: "~12€"
+  precioAmazon: "30,13€"
+  precioZooplus: "11,69€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0748PGNY3"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/correas_collares_perros/correas_extensibles/flexi_classic/541339"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: mejor-correa-perro
+  descripcionCorta: "La retráctil más vendida del mundo. Hasta 5 metros, sistema de bloqueo fácil. Para parques y zonas poco transitadas."
+  afinidad:
+    correa_extensible: 5
+    uso_campo: 4
+    presupuesto_economico: 5
+
+- id: trixie-ramal-tracking-10m
+  nombre: "Trixie Ramal Tracking Adiestramiento 10m"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61lHVdGH3nL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "9,49€"
+  precioTiendanimal: "8,29€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000WFFP7Q"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/trixie-ramal-tracking-correa-de-adiestramiento-para-perros/TRI25190_M.html"
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: mejor-correa-perro
+  descripcionCorta: "10 metros de nylon resistente para adiestramiento de recall y libertad supervisada. Esencial para educación canina."
+  afinidad:
+    correa_larga: 5
+    uso_campo: 5
+    presupuesto_economico: 5
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: correa extensible (perro)
+# Articulo: correa-extensible-perros
+# ──────────────────────────────────────────
+
+- id: flexi-new-classic-tape-l-8m
+  nombre: "Flexi New Classic Tape L (8m, hasta 50 kg)"
+  marca: "Flexi"
+  imagen: "https://m.media-amazon.com/images/I/7176gzxZqyS._AC_SL300_.jpg"
+  precio: "~24€"
+  precioAmazon: "23,99€"
+  precioZooplus: "26,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01HDAX59W"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/correas_collares_perros/correas_extensibles/flexi_classic/625490"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: correa-extensible-perros
+  descripcionCorta: "La extensible más vendida del mundo en versión cinta (más segura que cable). 8 metros, freno ergonómico, para perros hasta 50 kg."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    correa_extensible: 5
+    uso_campo: 5
+    presupuesto_economico: 5
+
+- id: flexi-giant-professional-tape-10m
+  nombre: "Flexi Giant Professional Tape (10m, hasta 50 kg)"
+  marca: "Flexi"
+  imagen: "https://m.media-amazon.com/images/I/81iSX-NNlNL._AC_SL300_.jpg"
+  precio: "~51€"
+  precioAmazon: "50,73€"
+  precioZooplus: "50,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01D1JQ2YY"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/correas_collares_perros/correas_extensibles/flexi_special_linie/296330"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: correa-extensible-perros
+  descripcionCorta: "10 metros de cinta profesional para máxima libertad en campo. Mango robusto con freno de gran superficie."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    correa_extensible: 5
+    uso_campo: 5
+    presupuesto_medio: 3
+
+- id: flexi-new-comfort-cinta-s-5m
+  nombre: "Flexi New Comfort Cinta S (5m, hasta 15 kg)"
+  marca: "Flexi"
+  imagen: "https://m.media-amazon.com/images/I/61+FzOfaXZL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "17,06€"
+  precioTiendanimal: "16,69€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08DMY3PNB"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/flexi-new-comfort-correa-extensible-azul-oscuro-para-perros/FCF10T5251BL_M.html"
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: correa-extensible-perros
+  descripcionCorta: "Cinta de 5 metros con sistema Short-Stop para razas pequeñas hasta 15 kg. Compatible con accesorios Multi Box y LED."
+  filtros:
+    tamano: [pequeño]
+  afinidad:
+    correa_extensible: 4
+    uso_ciudad: 3
+    uso_campo: 4
+    presupuesto_economico: 5
+
+- id: ferplast-amigo-extra-strong-5m
+  nombre: "Ferplast Amigo Extra Strong 5m"
+  marca: "Ferplast"
+  imagen: "https://m.media-amazon.com/images/I/61bAO+KUbTL._AC_SL300_.jpg"
+  precio: "~27€"
+  precioAmazon: "26,95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00SKU8JS2"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: correa-extensible-perros
+  descripcionCorta: "Cinta extra resistente para perros que tiran. Mango ergonómico antideslizante. Sistema de bloqueo sólido."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    correa_extensible: 4
+    uso_campo: 4
+    presupuesto_medio: 4
+
+- id: flexi-new-comfort-cinta-l-8m
+  nombre: "Flexi New Comfort Cinta L (8m, hasta 50 kg)"
+  marca: "Flexi"
+  imagen: "https://m.media-amazon.com/images/I/51zICAq73nL._AC_SL300_.jpg"
+  precio: "~26€"
+  precioAmazon: "41€"
+  precioZooplus: "28,99€"
+  precioTiendanimal: "25,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01H3K2ONK"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/correas_collares_perros/correas_extensibles/flexi_comfort/625565"
+  enlaceTiendanimal: "https://www.tiendanimal.es/flexi-new-comfort-correa-extensible-azul-oscuro-para-perros/FCF10T5251BL_M.html"
+  categoria: paseo
+  subcategoria: correa
+  animal: perro
+  articuloSlug: correa-extensible-perros
+  descripcionCorta: "Cinta reforzada de 8 metros para perros grandes hasta 50 kg. Mango ergonómico ajustable y sistema Short-Stop."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    correa_extensible: 5
+    uso_campo: 5
+    presupuesto_medio: 4
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: collar (luminoso, perro)
+# Articulo: mejor-collar-luminoso-perro
+# ──────────────────────────────────────────
+
+- id: nepfaivy-led-collar
+  nombre: "Nepfaivy LED Collar"
+  marca: "Nepfaivy"
+  imagen: "https://m.media-amazon.com/images/I/71UQ3nIXawL._AC_SL300_.jpg"
+  precio: "~9€"
+  precioAmazon: "8,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B5GYVBDT"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: collar
+  animal: perro
+  articuloSlug: mejor-collar-luminoso-perro
+  descripcionCorta: "Collar LED recargable USB en 45 min. TPU recortable a medida. 3 modos de luz. Resistente al agua. Mejor relación calidad-precio."
+  afinidad:
+    visibilidad_nocturna: 4
+    presupuesto_economico: 5
+
+- id: pceotllar-led-collar-rgb
+  nombre: "Pceotllar LED Collar RGB"
+  marca: "PcEoTllar"
+  imagen: "https://m.media-amazon.com/images/I/71T4FpAm9uL._AC_SL300_.jpg"
+  precio: "~10€"
+  precioAmazon: "9,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DKJJNKKG"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: collar
+  animal: perro
+  articuloSlug: mejor-collar-luminoso-perro
+  descripcionCorta: "7 colores RGB y 8 modos de luz. Recargable USB. Hasta 8h de autonomía. Impermeable."
+  afinidad:
+    visibilidad_nocturna: 4
+    presupuesto_economico: 5
+
+- id: coolzon-collar-luminoso-3-colores
+  nombre: "Coolzon Collar Luminoso 3 Colores"
+  marca: "Coolzon"
+  imagen: "https://m.media-amazon.com/images/I/71+Zoq6QPgL._AC_SL300_.jpg"
+  precio: "~9€"
+  precioAmazon: "8,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DS24RLCP"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: collar
+  animal: perro
+  articuloSlug: mejor-collar-luminoso-perro
+  descripcionCorta: "3 colores cambiables en un solo collar. Recargable USB. Impermeable y ajustable. Sirve también para gatos."
+  afinidad:
+    visibilidad_nocturna: 4
+    presupuesto_economico: 5
+
+- id: pceotllar-collar-led-7-colores-premium
+  nombre: "PcEoTllar Collar LED 7 Colores Recargable"
+  marca: "PcEoTllar"
+  imagen: "https://m.media-amazon.com/images/I/71DJMO54e7L._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "17,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09YTJZSXJ"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: collar
+  animal: perro
+  articuloSlug: mejor-collar-luminoso-perro
+  descripcionCorta: "Versión premium con 7 colores. Materiales de mayor calidad, cierre más robusto. Impermeable real."
+  afinidad:
+    visibilidad_nocturna: 4
+    presupuesto_medio: 4
+
+- id: auauy-collar-led-recargable
+  nombre: "AUAUY Collar LED Recargable USB"
+  marca: "AUAUY"
+  imagen: "https://m.media-amazon.com/images/I/71ogcUqOeVL._AC_SL300_.jpg"
+  precio: "~8€"
+  precioAmazon: "8,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BJD2RP51"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: collar
+  animal: perro
+  articuloSlug: mejor-collar-luminoso-perro
+  descripcionCorta: "La opción más económica. Recargable USB, ajustable e impermeable. Ligero y cómodo para empezar."
+  afinidad:
+    visibilidad_nocturna: 3
+    presupuesto_economico: 5
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: antiladridos (perro)
+# Articulo: collar-antiladridos-perros
+# ──────────────────────────────────────────
+
+- id: masbrill-collar-antiladridos
+  nombre: "MASBRILL Collar Antiladridos"
+  marca: "MASBRILL"
+  imagen: "https://m.media-amazon.com/images/I/41WEVI-Y5xL._AC_SL300_.jpg"
+  precio: "~30€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BYJBKL8Z"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: antiladridos
+  animal: perro
+  articuloSlug: collar-antiladridos-perros
+  descripcionCorta: "3 modos sin descargas (pitido, vibración, combinado). 7 niveles de sensibilidad. Detección en 0,1s. Batería recargable."
+  afinidad:
+    presupuesto_medio: 4
+
+- id: petsafe-spray-citronela
+  nombre: "PetSafe Spray Citronela"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/71EiRNW94qL._AC_SL300_.jpg"
+  precio: "~78€"
+  precioAmazon: "77,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07JC82M6B"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: antiladridos
+  animal: perro
+  articuloSlug: collar-antiladridos-perros
+  descripcionCorta: "Spray de citronela natural. Muy efectivo en perros sensibles a olores. Marca veterinaria de referencia."
+  afinidad:
+    presupuesto_premium: 3
+
+- id: nbju-collar-vibracion-recargable
+  nombre: "NBJU Collar Vibración Recargable"
+  marca: "NBJU"
+  imagen: "https://m.media-amazon.com/images/I/718I6s23FUL._AC_SL300_.jpg"
+  precio: "~26€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08YYP5WKY"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: antiladridos
+  animal: perro
+  articuloSlug: collar-antiladridos-perros
+  descripcionCorta: "Excelente relación calidad-precio. 7 niveles de sensibilidad. USB recargable. Ligero para perros de 3-50 kg."
+  afinidad:
+    presupuesto_economico: 4
+
+- id: petsafe-ultrasonico-collar
+  nombre: "PetSafe Ultrasónico Collar"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/7194WTHeNcL._AC_SL300_.jpg"
+  precio: "~40€"
+  precioAmazon: "39,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00EE12RMU"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: antiladridos
+  animal: perro
+  articuloSlug: collar-antiladridos-perros
+  descripcionCorta: "Ultrasonido sin contacto físico. Marca de confianza. Para perros muy sensibles donde la vibración es excesiva."
+  afinidad:
+    presupuesto_medio: 3
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: bozal (perro)
+# Articulo: mejor-bozal-perro
+# ──────────────────────────────────────────
+
+- id: baskerville-ultra
+  nombre: "Baskerville Ultra"
+  marca: "Baskerville"
+  imagen: "https://m.media-amazon.com/images/I/71TEp-x12DL._AC_SL300_.jpg"
+  precio: "~17€"
+  precioAmazon: "19,49€"
+  precioZooplus: "16,99€"
+  precioTiendanimal: "21,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B005D4O0LS"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/correas_collares_perros/bozales/750353"
+  enlaceTiendanimal: "https://www.tiendanimal.es/baskerville-ultra-muzzle-bozal-tipo-canasta-para-perros/COAMBU01_M.html"
+  categoria: paseo
+  subcategoria: bozal
+  animal: perro
+  articuloSlug: mejor-bozal-perro
+  descripcionCorta: "El bozal de cesta más vendido. Goma termoplástica flexible moldeable. Permite jadear, beber y recibir premios. 6 tallas."
+  filtros:
+    tamano: [pequeño, mediano, grande, gigante]
+  afinidad:
+    confort: 5
+    presupuesto_economico: 5
+
+- id: jafco-muzzle
+  nombre: "Jafco Muzzle"
+  marca: "Jafco"
+  imagen: "https://m.media-amazon.com/images/I/61phb05LG0L._AC_SL300_.jpg"
+  precio: "~18€"
+  precioAmazon: "18,02€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CLP5F3ZX"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: bozal
+  animal: perro
+  articuloSlug: mejor-bozal-perro
+  descripcionCorta: "Plástico transparente ultraligero. Muy ventilado. Visualmente menos intimidante. Fabricado en EEUU."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    confort: 5
+    presupuesto_economico: 5
+
+- id: trixie-bozal-plastico
+  nombre: "Trixie Bozal Plástico"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71+39rVlMNL._AC_SL300_.jpg"
+  precio: "~10€"
+  precioAmazon: "9,59€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000WFJ0XG"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: bozal
+  animal: perro
+  articuloSlug: mejor-bozal-perro
+  descripcionCorta: "Económico y funcional. Plástico rígido con ventilación. Cumple normativa PPP. Buena opción de entrada."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    confort: 3
+    presupuesto_economico: 5
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: transportin (perro)
+# Articulo: mejor-transportin-perros-guia
+# ──────────────────────────────────────────
+
+- id: ferplast-atlas-car-80
+  nombre: "Ferplast Atlas Car 80"
+  marca: "Ferplast"
+  imagen: "https://m.media-amazon.com/images/I/61ZDcwE5eKL._AC_SL300_.jpg"
+  precio: "~90€"
+  precioAmazon: "89,99€"
+  precioZooplus: "95,49€"
+  precioTiendanimal: "95,69€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00F5ZSSWM"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/transportines_viajes/transportines_coche/transportines_coche/433230"
+  enlaceTiendanimal: "https://www.tiendanimal.es/ferplast-atlas-car-transportin-para-perros/FER73079021_M.html"
+  categoria: paseo
+  subcategoria: transportin
+  animal: perro
+  articuloSlug: mejor-transportin-perros-guia
+  descripcionCorta: "Transportín rígido de referencia para perros grandes. Construcción robusta, ventilación excelente. Ideal para coche y homologable para avión."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    transporte_coche: 5
+    transporte_avion: 3
+    presupuesto_medio: 3
+
+- id: petmate-sky-kennel-xl
+  nombre: "Petmate Sky Kennel XL"
+  marca: "Petmate"
+  imagen: "https://m.media-amazon.com/images/I/71HTfabbQ3L._AC_SL300_.jpg"
+  precio: "~226€"
+  precioAmazon: "225,55€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003E6YYYK"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: perro
+  articuloSlug: mejor-transportin-perros-guia
+  descripcionCorta: "Homologación IATA completa con kit de hardware para vuelos. Puerta de acero, ventilación multidireccional. Fabricado en EEUU."
+  filtros:
+    tamano: [grande]
+  afinidad:
+    transporte_coche: 4
+    transporte_avion: 5
+    presupuesto_premium: 3
+
+- id: gulliver-5-plus
+  nombre: "Transportín Gulliver 5 Plus"
+  marca: "Gulliver"
+  imagen: "https://m.media-amazon.com/images/I/51bS+ZaqTJL._AC_.jpg"
+  precio: "~126€"
+  precioAmazon: "126,45€"
+  precioZooplus: "98,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B008NAK9UU"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/transportines_viajes/transportines_perros/transportines_grandes/137116"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: perro
+  articuloSlug: mejor-transportin-perros-guia
+  descripcionCorta: "Compatible con IATA. Bebedero incluido, puerta metálica robusta. Opción de ruedas para aeropuertos."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    transporte_coche: 4
+    transporte_avion: 4
+    presupuesto_premium: 2
+
+- id: petsfit-transportin-avion-plegable
+  nombre: "Petsfit Transportín Avión Plegable"
+  marca: "Petsfit"
+  imagen: "https://m.media-amazon.com/images/I/71DVLz4Xq6L._AC_SL300_.jpg"
+  precio: "~72€"
+  precioAmazon: "71,88€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09N381JHY"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: perro
+  articuloSlug: mejor-transportin-perros-guia
+  descripcionCorta: "Plegable y ligero para cabina de avión. 44,5x26x26cm. Correa de hombro y colchoneta incluidas. Hasta 7 kg."
+  filtros:
+    tamano: [pequeño]
+  afinidad:
+    transporte_avion: 5
+    transporte_pie: 4
+    presupuesto_medio: 3
+
+- id: petcute-transportin-plegable
+  nombre: "PETCUTE Transportín Plegable"
+  marca: "PETCUTE"
+  imagen: "https://m.media-amazon.com/images/I/71b3jPAY6TL._AC_SL300_.jpg"
+  precio: "~53€"
+  precioAmazon: "52,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B08DQWQVS6"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: perro
+  articuloSlug: mejor-transportin-perros-guia
+  descripcionCorta: "Plegable, homologado para cabina hasta 10 kg. Malla transpirable, apto para coche y avión."
+  filtros:
+    tamano: [pequeño, mediano]
+  afinidad:
+    transporte_avion: 5
+    transporte_coche: 3
+    presupuesto_medio: 4
+
+- id: comsle-transportin-avion
+  nombre: "COMSLE Transportín Avión"
+  marca: "COMSLE"
+  imagen: "https://m.media-amazon.com/images/I/81KvbvRGjJL._AC_SL300_.jpg"
+  precio: "~37€"
+  precioAmazon: "36,98€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CQN8BQQ1"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: perro
+  articuloSlug: mejor-transportin-perros-guia
+  descripcionCorta: "La opción más económica para cabina de avión. Malla transpirable, colchón incluido. Hasta 7 kg."
+  filtros:
+    tamano: [pequeño]
+  afinidad:
+    transporte_avion: 4
+    presupuesto_economico: 5
+
+- id: trixie-bolsa-ryan
+  nombre: "TRIXIE Bolsa Ryan"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/81pd0R+xYhL._AC_SL300_.jpg"
+  precio: "~25€"
+  precioAmazon: "24,74€"
+  precioZooplus: "23,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000VBPEEK"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/transportines_viajes/bolsos_perros/bolso_clasico_perro/57092"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: perro
+  articuloSlug: mejor-transportin-perros-guia
+  descripcionCorta: "Marca alemana de confianza. Malla transpirable en tres lados, bolsillo exterior para documentación. La más económica."
+  filtros:
+    tamano: [pequeño]
+  afinidad:
+    transporte_pie: 4
+    presupuesto_economico: 5
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: transportin (gato)
+# Articulo: mejor-transportin-gatos-guia
+# ──────────────────────────────────────────
+
+- id: amazon-basics-2-puertas-58cm-rigido
+  nombre: "Amazon Basics 2 Puertas 58cm (Rígido)"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/71KLUcxRWML._AC_SL300_.jpg"
+  precio: "~44€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00OP6SVJW"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Rígido con apertura superior y frontal. Ideal para veterinario. Espacio generoso para gatos grandes. Fácil de limpiar."
+  afinidad:
+    transporte_coche: 5
+    transporte_avion: 2
+    presupuesto_economico: 5
+
+- id: ferplast-atlas-20
+  nombre: "Ferplast Atlas 20 (Rígido)"
+  marca: "Ferplast"
+  imagen: "https://m.media-amazon.com/images/I/517BY-xJRAL._AC_SL300_.jpg"
+  precio: "~36€"
+  enlaceAmazon: "https://www.amazon.es/dp/B001MZUXUY"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "El clásico. Robusto, económico, homologado IATA para bodega. Rejillas de ventilación amplias. Hasta 8 kg."
+  afinidad:
+    transporte_coche: 4
+    transporte_avion: 4
+    presupuesto_economico: 5
+
+- id: curver-petlife-rigido
+  nombre: "Curver Petlife (Rígido)"
+  marca: "Curver"
+  imagen: "https://m.media-amazon.com/images/I/61cc9bPxQFL._AC_SL300_.jpg"
+  precio: "~53€"
+  enlaceAmazon: "https://www.amazon.es/dp/B009VWD18Q"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Diseño moderno tipo cesta que se integra en el hogar. Apertura superior amplia. Hasta 6 kg."
+  afinidad:
+    transporte_coche: 4
+    presupuesto_medio: 3
+
+- id: trixie-holly-blando
+  nombre: "Trixie Holly (Blando)"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/71JLXUHYhBL._AC_SL300_.jpg"
+  precio: "~60€"
+  enlaceAmazon: "https://www.amazon.es/dp/B008NW3FK4"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Elegante tipo bolso. Malla transpirable en tres paneles. Acolchado interior lavable. Hasta 7 kg."
+  afinidad:
+    transporte_pie: 5
+    presupuesto_medio: 3
+
+- id: allsopets-plegable-blando
+  nombre: "ALLSOPETS Plegable (Blando)"
+  marca: "ALLSOPETS"
+  imagen: "https://m.media-amazon.com/images/I/71tRLp6zBTL._AC_SL300_.jpg"
+  precio: "~41€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09ZSTBV91"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Plegable con cojín extraíble. Homologado cabina avión. Transpirable por 3 lados. Muy ligero."
+  afinidad:
+    transporte_avion: 5
+    transporte_pie: 4
+    presupuesto_economico: 5
+
+- id: amazon-basics-blando-gato
+  nombre: "Amazon Basics Blando"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/71-gz6CjvEL._AC_SL300_.jpg"
+  precio: "~55€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0713T9LHB"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Malla en 3 lados. Base rígida interior. Plegable. Hasta 5 kg. Buena opción de entrada."
+  afinidad:
+    transporte_pie: 4
+    presupuesto_medio: 3
+
+- id: pecute-mochila-expandible
+  nombre: "Pecute Expandible"
+  marca: "Pecute"
+  imagen: "https://m.media-amazon.com/images/I/81JG9pL8AsL._AC_SL300_.jpg"
+  precio: "~40€"
+  enlaceAmazon: "https://www.amazon.es/dp/B086TRPX7Y"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Mochila expandible lateralmente. Ventilación por 3 lados. Hasta 7,5 kg. Base rígida. La más versátil."
+  afinidad:
+    transporte_pie: 5
+    presupuesto_economico: 4
+
+- id: petcute-mochila-burbuja
+  nombre: "PETCUTE Mochila Burbuja"
+  marca: "PETCUTE"
+  imagen: "https://m.media-amazon.com/images/I/71pYTgCGRgL._AC_SL300_.jpg"
+  precio: "~44€"
+  enlaceAmazon: "https://www.amazon.es/dp/B095GLQKVG"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Burbuja transparente con estructura rígida y correa de seguridad interior. Apertura frontal amplia. Hasta 6 kg."
+  afinidad:
+    transporte_pie: 5
+    presupuesto_economico: 4
+
+- id: aukor-mochila-burbuja
+  nombre: "Aukor Mochila Burbuja"
+  marca: "Aukor"
+  imagen: "https://m.media-amazon.com/images/I/71jO-Oz6HvL._AC_SL300_.jpg"
+  precio: "~24€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07PWSWR7C"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "La mochila burbuja más económica. Panel de malla intercambiable. Hasta 6 kg. Buena opción de entrada."
+  afinidad:
+    transporte_pie: 4
+    presupuesto_economico: 5
+
+- id: trixie-mochila-timon
+  nombre: "Trixie Mochila Timon"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/91k8DIeNLFL._AC_SL300_.jpg"
+  precio: "~46€"
+  enlaceAmazon: "https://www.amazon.es/dp/B003TOM430"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: transportin
+  animal: gato
+  articuloSlug: mejor-transportin-gatos-guia
+  descripcionCorta: "Marca reconocida. Estructura rígida, malla ventilada. Correa de seguridad interior. Hasta 6 kg."
+  afinidad:
+    transporte_pie: 4
+    presupuesto_economico: 4
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: gps (perro)
+# Articulo: mejor-gps-perro
+# ──────────────────────────────────────────
+
+- id: tractive-gps-dog-4g
+  nombre: "Tractive GPS Dog 4G"
+  marca: "Tractive"
+  imagen: "https://m.media-amazon.com/images/I/71il4nMReSL._AC_SL300_.jpg"
+  precio: "~48€ + suscripción ~5€/mes"
+  precioAmazon: "48,30€"
+  precioTiendanimal: "48€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D6Z4L6BW"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/tractive-gps-dog-6-marron-rastreador-para-perros/TCTTRDOG6BR_M.html"
+  categoria: paseo
+  subcategoria: gps
+  animal: perro
+  articuloSlug: mejor-gps-perro
+  descripcionCorta: "El GPS para perros más vendido en España. Red 4G, actualización cada 2-3 segundos, app excelente. Solo 35g."
+  afinidad:
+    presupuesto_medio: 3
+
+- id: weenect-xs-perros
+  nombre: "Weenect XS para Perros"
+  marca: "Weenect"
+  imagen: "https://m.media-amazon.com/images/I/71p0+yAK73L._AC_SL300_.jpg"
+  precio: "~31€ + suscripción ~4€/mes"
+  precioAmazon: "31,49€"
+  precioTiendanimal: "31,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CHRSTX64"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/weenect-gps-xs-blanco-para-perros/MRK000217649_M.html"
+  categoria: paseo
+  subcategoria: gps
+  animal: perro
+  articuloSlug: mejor-gps-perro
+  descripcionCorta: "El más pequeño del mercado (27g). Linterna integrada, alertas anti-escape. Garantía de por vida. Ideal para razas pequeñas."
+  afinidad:
+    presupuesto_economico: 4
+
+- id: pitpat-gps
+  nombre: "PitPat GPS"
+  marca: "PitPat"
+  imagen: "https://m.media-amazon.com/images/I/81z4UNWhFcL._AC_SL300_.jpg"
+  precio: "~200€"
+  precioAmazon: "199,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BM6JTJHC"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: gps
+  animal: perro
+  articuloSlug: mejor-gps-perro
+  descripcionCorta: "GPS con monitor de actividad muy detallado. Batería 5-10 días. IP68. App clara. Zonas de seguridad sin coste extra."
+  afinidad:
+    presupuesto_premium: 3
+
+- id: garmin-t5-mini
+  nombre: "Garmin T5 Mini"
+  marca: "Garmin"
+  imagen: "https://m.media-amazon.com/images/I/31zLST326+L._AC_SL300_.jpg"
+  precio: "~590€"
+  precioAmazon: "589,62€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00L3C5EDC"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: gps
+  animal: perro
+  articuloSlug: mejor-gps-perro
+  descripcionCorta: "Radio UHF sin necesidad de red móvil. Rango hasta 9 km. Para caza y zonas rurales sin cobertura. Sin suscripción mensual."
+  afinidad:
+    presupuesto_premium: 4
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: gps (gato)
+# Articulo: collar-gps-gato
+# ──────────────────────────────────────────
+
+- id: tractive-gps-cat
+  nombre: "Tractive GPS Cat"
+  marca: "Tractive"
+  imagen: "https://m.media-amazon.com/images/I/71hJIvr80oL._AC_SL300_.jpg"
+  precio: "~25€"
+  precioAmazon: "24,99€"
+  precioTiendanimal: "24,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BX6PCCWD"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/tractive-localizador-gps-para-gatos/TRA45142_M.html"
+  categoria: paseo
+  subcategoria: gps
+  animal: gato
+  articuloSlug: collar-gps-gato
+  descripcionCorta: "GPS para gatos más completo. Seguimiento en tiempo real, historial de rutas 365 días. 35g, resistente al agua."
+  afinidad:
+    presupuesto_economico: 4
+
+- id: weenect-xs-gato
+  nombre: "Weenect XS GPS Gato"
+  marca: "Weenect"
+  imagen: "https://m.media-amazon.com/images/I/71qtqgtSn4L._AC_SL300_.jpg"
+  precio: "~31€"
+  precioAmazon: "31,49€"
+  precioTiendanimal: "31,49€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CHMVRHD8"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/weenect-gps-xs-negro-para-gatos/MRK000217653_M.html"
+  categoria: paseo
+  subcategoria: gps
+  animal: gato
+  articuloSlug: collar-gps-gato
+  descripcionCorta: "GPS con linterna integrada para búsqueda nocturna. Historial de rutas, zonas de seguridad con alertas."
+  afinidad:
+    presupuesto_economico: 4
+
+- id: kippy-cat-color-gps
+  nombre: "Kippy Cat Color GPS"
+  marca: "Kippy"
+  imagen: "https://m.media-amazon.com/images/I/71NyytMvxvL._AC_SL300_.jpg"
+  precio: "~21€"
+  precioAmazon: "20,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0BH983QRR"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: gps
+  animal: gato
+  articuloSlug: collar-gps-gato
+  descripcionCorta: "GPS + Bluetooth + WiFi + triangulación celular. Diseñado específicamente para gatos. Monitor de salud y actividad."
+  afinidad:
+    presupuesto_economico: 5
+
+- id: tabcat
+  nombre: "Tabcat"
+  marca: "Tabcat"
+  imagen: "https://m.media-amazon.com/images/I/71exoF+4WmL._AC_SL300_.jpg"
+  precio: "~118€"
+  precioAmazon: "117,90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09XF678NT"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: gps
+  animal: gato
+  articuloSlug: collar-gps-gato
+  descripcionCorta: "Radiofrecuencia sin cobertura móvil. Rango hasta 120m. Muy ligero (6g). Kit con 2 tags. Para zonas rurales sin señal."
+  afinidad:
+    presupuesto_medio: 2
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: protector-coche (maletero, perro)
+# Articulo: mejor-protector-maletero-perros
+# ──────────────────────────────────────────
+
+- id: looxmeer-funda-maletero
+  nombre: "Looxmeer Funda Maletero Universal"
+  marca: "Looxmeer"
+  imagen: "https://m.media-amazon.com/images/I/71cyJKXT7hL._AC_SL300_.jpg"
+  precio: "~28€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0FCS3CTF7"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: mejor-protector-maletero-perros
+  descripcionCorta: "Impermeable, antideslizante, protección lateral y antiarañazos. Precio ajustado con buenas prestaciones."
+  afinidad:
+    protector_maletero: 4
+    presupuesto_economico: 5
+
+- id: trixie-protector-maletero-universal
+  nombre: "Trixie Protector Maletero Universal"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/61YJ45DNTwL._AC_SL300_.jpg"
+  precio: "~30€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000QC2ZPK"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/funda-de-maletero-para-perros-color-negro/MRK000039799_M.html"
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: mejor-protector-maletero-perros
+  descripcionCorta: "Nylon impermeable 230x170cm con base antideslizante. Marca alemana de confianza. Fácil de limpiar."
+  afinidad:
+    protector_maletero: 5
+    presupuesto_economico: 5
+
+- id: heldenwerk-protector-maletero
+  nombre: "Heldenwerk Protector Maletero Universal"
+  marca: "Heldenwerk"
+  imagen: "https://m.media-amazon.com/images/I/81GqlTQcMpL._AC_SL300_.jpg"
+  precio: "~35€"
+  enlaceAmazon: "https://www.amazon.es/dp/B074N38P7Z"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: mejor-protector-maletero-perros
+  descripcionCorta: "Protección para el umbral incluida. Instalación rápida. Impermeable. Universal para perros activos."
+  afinidad:
+    protector_maletero: 4
+    presupuesto_economico: 4
+
+- id: toozey-protector-maletero-xl
+  nombre: "Toozey Protector Maletero XL"
+  marca: "Toozey"
+  imagen: "https://m.media-amazon.com/images/I/717LER7qTHL._AC_SL300_.jpg"
+  precio: "~43€"
+  enlaceAmazon: "https://www.amazon.es/dp/B099F5C3C8"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: mejor-protector-maletero-perros
+  descripcionCorta: "208x105cm extra grande. 2 bolsillos y 10 correas de fijación. Impermeable y antideslizante. El más completo."
+  afinidad:
+    protector_maletero: 5
+    presupuesto_medio: 3
+
+- id: petcute-protector-maletero
+  nombre: "PETCUTE Protector Maletero Perros"
+  marca: "PETCUTE"
+  imagen: "https://m.media-amazon.com/images/I/71yC1dMFO0L._AC_SL300_.jpg"
+  precio: "~44€"
+  enlaceAmazon: "https://www.amazon.es/dp/B076J7262S"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: mejor-protector-maletero-perros
+  descripcionCorta: "Protección completa con laterales. Impermeable y resistente. Universal, fácil de instalar y limpiar."
+  afinidad:
+    protector_maletero: 4
+    presupuesto_medio: 3
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: protector-coche (asiento, perro)
+# Articulo: asiento-coche-perro
+# ──────────────────────────────────────────
+
+- id: kurgo-wander-hammock
+  nombre: "Kurgo Wander Hammock"
+  marca: "Kurgo"
+  imagen: "https://m.media-amazon.com/images/I/71K1Hp2-tWL._AC_SL300_.jpg"
+  precio: "~70€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00164SZPQ"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: asiento-coche-perro
+  descripcionCorta: "La hamaca más sólida. Resistente a arañazos, impermeable, con abertura para cinturón y anclajes en 4 puntos. Para perros activos."
+  afinidad:
+    protector_asiento: 5
+    presupuesto_medio: 3
+
+- id: trixie-asiento-elevado
+  nombre: "Trixie Asiento Elevado"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/718QhTnc1ZL._AC_SL300_.jpg"
+  precio: "~53€"
+  precioZooplus: "43,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B000WFBNKY"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_perros/transportines_viajes/cinturones_seguridad_perro/1247912"
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: asiento-coche-perro
+  descripcionCorta: "Asiento elevado booster para perros pequeños hasta 8 kg. Permite ver por la ventanilla. Doble uso coche/cama."
+  filtros:
+    tamano: [pequeño]
+  afinidad:
+    protector_asiento: 4
+    presupuesto_medio: 3
+
+- id: ruffwear-load-up
+  nombre: "Ruffwear Load Up (arnés homologado)"
+  marca: "Ruffwear"
+  imagen: "https://m.media-amazon.com/images/I/81vX0vZ9cvL._AC_SL300_.jpg"
+  precio: "~95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00R36BWCO"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: asiento-coche-perro
+  descripcionCorta: "Arnés homologado con crash test. Se conecta al cinturón de seguridad. Acolchado con doble punto de enganche también para paseo."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    protector_asiento: 5
+    uso_coche: 5
+    presupuesto_premium: 3
+
+- id: 4knines-hammock
+  nombre: "4Knines Hammock"
+  marca: "4Knines"
+  imagen: "https://m.media-amazon.com/images/I/8129RooDuqL._AC_SL300_.jpg"
+  precio: "~65€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00DQFZGZ0"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: asiento-coche-perro
+  descripcionCorta: "Material muy grueso resistente a arañazos, costuras reforzadas, ranura para cinturón. Para perros pesados."
+  afinidad:
+    protector_asiento: 4
+    presupuesto_medio: 3
+
+- id: amazon-basics-hamaca
+  nombre: "Amazon Basics Hamaca"
+  marca: "Amazon Basics"
+  imagen: "https://m.media-amazon.com/images/I/71R2UQWm0jL._AC_SL300_.jpg"
+  precio: "~13€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00QHC041A"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: protector-coche
+  animal: perro
+  articuloSlug: asiento-coche-perro
+  descripcionCorta: "Hamaca estilo convertible, impermeable, bolsillos para correa, ranuras para cinturón. La más económica."
+  afinidad:
+    protector_asiento: 3
+    presupuesto_economico: 5
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: ropa (abrigo, perro)
+# Articulo: mejor-abrigo-perro-invierno
+# ──────────────────────────────────────────
+
+- id: ruffwear-powder-hound
+  nombre: "Ruffwear Powder Hound"
+  marca: "Ruffwear"
+  imagen: "https://m.media-amazon.com/images/I/61EcIn+B6JL._AC_SL300_.jpg"
+  precio: "~131€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0B5B4TN5M"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-abrigo-perro-invierno
+  descripcionCorta: "Abrigo técnico con aislamiento sintético + exterior impermeable sellado. Reflectante. Para perros activos en climas extremos."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    ropa_abrigo: 5
+    presupuesto_premium: 3
+
+- id: hurtta-extreme-warmer
+  nombre: "Hurtta Extreme Warmer"
+  marca: "Hurtta"
+  imagen: "https://m.media-amazon.com/images/I/71vhTJYSKmL._AC_SL300_.jpg"
+  precio: "~80€"
+  precioAmazon: "80€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01IYGE5DY"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-abrigo-perro-invierno
+  descripcionCorta: "Marca finlandesa para frío extremo. Membrana Houndtex impermeable y transpirable. Corte ergonómico para razas grandes."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    ropa_abrigo: 5
+    presupuesto_premium: 2
+
+- id: julius-k9-abrigo-softshell
+  nombre: "Julius-K9 Abrigo Softshell"
+  marca: "Julius-K9"
+  imagen: "https://m.media-amazon.com/images/I/71KadMywRsL._AC_SL300_.jpg"
+  precio: "~53€"
+  precioAmazon: "53€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00ID6OX4M"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-abrigo-perro-invierno
+  descripcionCorta: "Softshell resistente al agua + forro polar. Buena relación calidad-precio. Tallas hasta XXL para razas grandes."
+  filtros:
+    tamano: [mediano, grande, gigante]
+  afinidad:
+    ropa_abrigo: 3
+    presupuesto_medio: 4
+
+- id: geyecete-abrigo-impermeable-galgo
+  nombre: "Geyecete Abrigo Impermeable Galgo"
+  marca: "Geyecete"
+  imagen: "https://m.media-amazon.com/images/I/61HAXkG2j2L._AC_SL300_.jpg"
+  precio: "~36€"
+  precioAmazon: "35,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B09D2VW8VZ"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-abrigo-perro-invierno
+  descripcionCorta: "Exterior impermeable con forro polar. Agujero para arnés. Ideal para galgos, whippets y razas de pecho profundo."
+  afinidad:
+    ropa_abrigo: 4
+    presupuesto_economico: 4
+
+- id: gooby-fleece-vest
+  nombre: "Gooby Fleece Vest"
+  marca: "Gooby"
+  imagen: "https://m.media-amazon.com/images/I/81ttKCvALNL._AC_SL300_.jpg"
+  precio: "~19€"
+  enlaceAmazon: "https://www.amazon.es/dp/B00FJ1E3WG"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-abrigo-perro-invierno
+  descripcionCorta: "Forro polar básico. Muy económico. Para interiores fríos o paseos cortos. Muchos colores disponibles."
+  filtros:
+    tamano: [pequeño, mediano]
+  afinidad:
+    ropa_abrigo: 2
+    presupuesto_economico: 5
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: ropa (chubasquero, perro)
+# Articulo: mejor-chubasquero-perro
+# ──────────────────────────────────────────
+
+- id: hurtta-downpour-suit
+  nombre: "Hurtta Downpour Suit"
+  marca: "Hurtta"
+  imagen: "https://m.media-amazon.com/images/I/61mVSBDe7cL._AC_SL300_.jpg"
+  precio: "~87€"
+  precioAmazon: "86,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B078XT82X2"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chubasquero-perro
+  descripcionCorta: "Mono integral Houndtex impermeable con costuras termoselladas. La mejor protección total para lluvia."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    ropa_chubasquero: 5
+    presupuesto_premium: 2
+
+- id: rukka-pets-raincoat
+  nombre: "Rukka Pets Raincoat"
+  marca: "Rukka"
+  imagen: "https://m.media-amazon.com/images/I/513+nhjmJcL._AC_SL300_.jpg"
+  precio: "~101€"
+  precioAmazon: "101,09€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07L8J3382"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chubasquero-perro
+  descripcionCorta: "Capa impermeable ligera de tejido ripstop con costuras selladas. Abertura para arnés y banda reflectante."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    ropa_chubasquero: 5
+    presupuesto_premium: 3
+
+- id: geyecete-chubasquero-galgo
+  nombre: "Geyecete Chubasquero Galgo"
+  marca: "Geyecete"
+  imagen: "https://m.media-amazon.com/images/I/51N5tvUslZL._AC_SL300_.jpg"
+  precio: "~25€"
+  precioAmazon: "24,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07VPPVYYZ"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chubasquero-perro
+  descripcionCorta: "Diseñado para galgos, lurchers y whippets. Impermeable, reflectante y agujero para arnés."
+  afinidad:
+    ropa_chubasquero: 4
+    presupuesto_economico: 4
+
+- id: trixie-vimy-chubasquero
+  nombre: "Trixie Vimy Chubasquero"
+  marca: "Trixie"
+  imagen: "https://m.media-amazon.com/images/I/81jUKaKy6aL._AC_SL300_.jpg"
+  precio: "~22€"
+  precioAmazon: "21,59€"
+  precioTiendanimal: "30,79€"
+  enlaceAmazon: "https://www.amazon.es/dp/B089ZDWYVZ"
+  enlaceZooplus: null
+  enlaceTiendanimal: "https://www.tiendanimal.es/trixie-impermeable-vimy-rojo-para-perros/MRK000047297_M.html"
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chubasquero-perro
+  descripcionCorta: "Poncho tipo capa de poliéster impermeable. Arnés integrado con cremallera y bandas reflectantes. Ligero."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    ropa_chubasquero: 3
+    presupuesto_economico: 5
+
+- id: zellar-chubasquero-ajustable
+  nombre: "Zellar Chubasquero Ajustable"
+  marca: "Zellar"
+  imagen: "https://m.media-amazon.com/images/I/61wrz1q+r9L._AC_SL300_.jpg"
+  precio: "~33€"
+  precioAmazon: "32,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B06XXLPZW1"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chubasquero-perro
+  descripcionCorta: "Poncho impermeable con capucha y tira reflectante. Poliéster con PU. Orificio para correa."
+  afinidad:
+    ropa_chubasquero: 3
+    presupuesto_medio: 4
+
+# ──────────────────────────────────────────
+# SUBCATEGORIA: ropa (chaleco salvavidas, perro)
+# Articulo: mejor-chaleco-salvavidas-perro
+# ──────────────────────────────────────────
+
+- id: ezydog-dfd
+  nombre: "EzyDog DFD (Dog Flotation Device)"
+  marca: "EzyDog"
+  imagen: "https://m.media-amazon.com/images/I/710byeMO2DL._AC_SL300_.jpg"
+  precio: "~40€"
+  precioAmazon: "39,90€"
+  enlaceAmazon: "https://www.amazon.es/dp/B002SIVQ50"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chaleco-salvavidas-perro
+  descripcionCorta: "Neopreno + espuma flotante. Muy cómodo. Asa robusta integrada en estructura. Sistema de ajuste rápido."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    ropa_chaleco: 5
+    presupuesto_economico: 4
+
+- id: ezydog-x2-boost
+  nombre: "EzyDog X2 Boost"
+  marca: "EzyDog"
+  imagen: "https://m.media-amazon.com/images/I/71HdnAoIsWL._AC_SL300_.jpg"
+  precio: "~52€"
+  precioAmazon: "51,95€"
+  enlaceAmazon: "https://www.amazon.es/dp/B07RMXQS4C"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chaleco-salvavidas-perro
+  descripcionCorta: "Flotabilidad superior para kayak, paddle surf y barco. Asa de rescate de nivel profesional. Reflectante."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    ropa_chaleco: 5
+    presupuesto_medio: 3
+
+- id: vivaglory-ripstop
+  nombre: "Vivaglory Ripstop"
+  marca: "Vivaglory"
+  imagen: "https://m.media-amazon.com/images/I/71B688QW74L._AC_SL300_.jpg"
+  precio: "~35€"
+  precioAmazon: "34,88€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DW7P9YXV"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chaleco-salvavidas-perro
+  descripcionCorta: "Tela ripstop resistente. Doble asa. Flotación extra en la barbilla para razas braquicéfalas."
+  filtros:
+    tamano: [pequeño, mediano, grande]
+  afinidad:
+    ropa_chaleco: 4
+    presupuesto_economico: 4
+
+- id: hurtta-life-savior
+  nombre: "Hurtta Life Savior"
+  marca: "Hurtta"
+  imagen: "https://m.media-amazon.com/images/I/61A+-vTH2fL._AC_SL300_.jpg"
+  precio: "~85€"
+  precioAmazon: "85€"
+  enlaceAmazon: "https://www.amazon.es/dp/B01GZRRDUG"
+  enlaceZooplus: null
+  enlaceTiendanimal: null
+  categoria: paseo
+  subcategoria: ropa
+  animal: perro
+  articuloSlug: mejor-chaleco-salvavidas-perro
+  descripcionCorta: "Marca finlandesa. Diseño ergonómico con alta visibilidad naranja. Asa extragrande para condiciones exigentes."
+  filtros:
+    tamano: [mediano, grande]
+  afinidad:
+    ropa_chaleco: 5
+    presupuesto_premium: 2
