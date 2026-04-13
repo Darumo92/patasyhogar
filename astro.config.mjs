@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import yamlPlugin from '@rollup/plugin-yaml';
 import rehypeTaskListLabels from './src/plugins/rehype-task-list-labels.mjs';
 import { readdirSync, readFileSync } from 'fs';
 
@@ -49,6 +50,7 @@ export default defineConfig({
   ],
   output: 'static',
   vite: {
+    plugins: [yamlPlugin()],
     resolve: {
       alias: {
         '@': '/src',

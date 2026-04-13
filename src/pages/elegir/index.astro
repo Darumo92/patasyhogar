@@ -1,0 +1,471 @@
+---
+import Base from '@/layouts/Base.astro';
+import QuizCategoryPicker from '@/components/QuizCategoryPicker.astro';
+import QuizQuestion from '@/components/QuizQuestion.astro';
+import QuizResult from '@/components/QuizResult.astro';
+import { getCollection } from 'astro:content';
+import quizConfig from '@/data/quiz-config.yaml';
+
+// Load all products from all category files
+const productCollections = await getCollection('productos');
+const allProducts = productCollections.flatMap(c => c.data);
+
+// Load informative articles for suggestions
+const allArticles = await getCollection('articulos');
+const informativeArticles = allArticles
+  .filter(a => a.data.tipo === 'informativo')
+  .map(a => ({
+    slug: a.slug,
+    titulo: a.data.titulo,
+    descripcion: a.data.descripcion,
+    animal: a.data.animal,
+    tags: a.data.tags,
+  }));
+
+// Count products per category and subcategory
+const countByCategoria: Record<string, number> = {};
+const countBySubcategoria: Record<string, Record<string, number>> = {};
+const animalsBySubcategoria: Record<string, Set<string>> = {};
+
+for (const p of allProducts) {
+  countByCategoria[p.categoria] = (countByCategoria[p.categoria] || 0) + 1;
+  if (!countBySubcategoria[p.categoria]) countBySubcategoria[p.categoria] = {};
+  countBySubcategoria[p.categoria][p.subcategoria] = (countBySubcategoria[p.categoria][p.subcategoria] || 0) + 1;
+  const key = `${p.categoria}/${p.subcategoria}`;
+  if (!animalsBySubcategoria[key]) animalsBySubcategoria[key] = new Set();
+  animalsBySubcategoria[key].add(p.animal);
+  if (p.animal === 'ambos') {
+    animalsBySubcategoria[key].add('perro');
+    animalsBySubcategoria[key].add('gato');
+  }
+}
+
+// Build category data for QuizCategoryPicker
+const categoriasForPicker = quizConfig.categorias
+  .filter(cat => countByCategoria[cat.id] > 0)
+  .map(cat => ({
+    ...cat,
+    totalProducts: countByCategoria[cat.id] || 0,
+    subcategorias: cat.subcategorias
+      .filter(sub => (countBySubcategoria[cat.id]?.[sub.id] || 0) > 0)
+      .map(sub => ({
+        ...sub,
+        count: countBySubcategoria[cat.id]?.[sub.id] || 0,
+      })),
+  }));
+
+// Build product data for JS engine (minimal: id, filtros, afinidad, categoria, subcategoria, animal)
+const productsForEngine = allProducts.map(p => ({
+  id: p.id,
+  categoria: p.categoria,
+  subcategoria: p.subcategoria,
+  animal: p.animal,
+  filtros: p.filtros,
+  afinidad: p.afinidad,
+}));
+
+// Build subcategory → questions mapping for JS
+const subcatQuestions: Record<string, { perro: string[]; gato: string[] }> = {};
+for (const cat of quizConfig.categorias) {
+  for (const sub of cat.subcategorias) {
+    const key = `${cat.id}/${sub.id}`;
+    subcatQuestions[key] = {
+      perro: sub.preguntas,
+      gato: sub.preguntasGato || sub.preguntas,
+    };
+  }
+}
+
+// Animals per subcategory for JS (to skip animal step when only one)
+const animalsPerSubcat: Record<string, string[]> = {};
+for (const [key, set] of Object.entries(animalsBySubcategoria)) {
+  animalsPerSubcat[key] = [...set].filter(a => a !== 'ambos');
+}
+
+const siteUrl = 'https://patasyhogar.com';
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Te ayudamos a elegir', item: `${siteUrl}/elegir/` },
+  ],
+};
+
+const webAppSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Te ayudamos a elegir - Patas y Hogar',
+  description: 'Responde unas preguntas sobre tu mascota y te recomendamos el producto ideal.',
+  url: `${siteUrl}/elegir/`,
+  applicationCategory: 'UtilityApplication',
+  operatingSystem: 'All',
+  inLanguage: 'es',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+};
+---
+
+<Base
+  title="Te ayudamos a elegir | Patas y Hogar"
+  description="Responde unas preguntas sobre tu mascota y te recomendamos el producto ideal. Comparamos precios en Amazon, Zooplus y Tiendanimal."
+>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(webAppSchema)} slot="head" />
+
+  <div class="quiz-container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="/">Inicio</a>
+      <span class="breadcrumb-sep" aria-hidden="true">›</span>
+      <span>Te ayudamos a elegir</span>
+    </nav>
+
+    <div class="quiz-tool-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="m9 14 2 2 4-4"/></svg>
+      Herramienta interactiva
+    </div>
+
+    {/* Category + Subcategory + Animal steps */}
+    <QuizCategoryPicker categorias={categoriasForPicker} />
+
+    {/* Dynamic questions (all rendered, JS shows/hides) */}
+    <div id="quiz-questions-area">
+      <div class="quiz-progress" id="quiz-progress" style="display:none;" role="progressbar" aria-valuenow={0} aria-valuemin={0} aria-valuemax={5}>
+        <div class="quiz-progress-fill" id="quiz-progress-fill" style="width:0%"></div>
+      </div>
+      <QuizQuestion preguntas={quizConfig.preguntas} />
+    </div>
+
+    {/* Results */}
+    <QuizResult productos={allProducts} articulos={informativeArticles} />
+  </div>
+
+  {/* Data for JS engine */}
+  <script type="application/json" id="quiz-engine-data" set:html={JSON.stringify({
+    products: productsForEngine,
+    subcatQuestions,
+    animalsPerSubcat,
+    articuloTagMap: quizConfig.articuloTagMap || {},
+  })} />
+
+  {/* JS Engine */}
+  <script is:inline>
+  (function() {
+    var data = JSON.parse(document.getElementById('quiz-engine-data').textContent);
+    var products = data.products;
+    var subcatQuestions = data.subcatQuestions;
+    var animalsPerSubcat = data.animalsPerSubcat;
+    var articuloTagMap = data.articuloTagMap;
+
+    // State
+    var state = { categoria: null, subcategoria: null, animal: null, questionIds: [], currentQ: 0, answers: {} };
+
+    // DOM refs
+    var stepCategoria = document.getElementById('quiz-step-categoria');
+    var stepAnimal = document.getElementById('quiz-step-animal');
+    var progressEl = document.getElementById('quiz-progress');
+    var progressFill = document.getElementById('quiz-progress-fill');
+    var resultEl = document.getElementById('quiz-result');
+    var summaryEl = document.getElementById('quiz-result-summary');
+    var restartBtn = document.getElementById('quiz-restart');
+    var sharedNotice = document.getElementById('quiz-shared-notice');
+    var sharedRedo = document.getElementById('quiz-shared-redo');
+    var altsContainer = document.getElementById('quiz-alts-container');
+    var articlesContainer = document.getElementById('quiz-articles-container');
+    var allSteps = document.querySelectorAll('.quiz-step');
+    var allQuestionSteps = document.querySelectorAll('[data-step="pregunta"]');
+    var subcatSteps = document.querySelectorAll('[data-step="subcategoria"]');
+
+    function hideAllSteps() {
+      allSteps.forEach(function(s) { s.classList.remove('quiz-step--active'); s.style.display = 'none'; });
+      progressEl.style.display = 'none';
+      resultEl.classList.remove('quiz-result--visible');
+    }
+
+    function showStep(el) {
+      hideAllSteps();
+      if (el) { el.style.display = ''; el.classList.add('quiz-step--active'); }
+    }
+
+    // Step 1: Category
+    function showCategoria() {
+      showStep(stepCategoria);
+    }
+
+    stepCategoria.querySelectorAll('.quiz-category-card').forEach(function(card) {
+      card.addEventListener('click', function() {
+        state.categoria = card.dataset.categoria;
+        showSubcategoria();
+      });
+    });
+
+    // Step 2: Subcategory
+    function showSubcategoria() {
+      var target = document.querySelector('[data-step="subcategoria"][data-for-categoria="' + state.categoria + '"]');
+      showStep(target);
+    }
+
+    subcatSteps.forEach(function(step) {
+      step.querySelectorAll('.quiz-option').forEach(function(opt) {
+        opt.addEventListener('click', function() {
+          state.subcategoria = opt.dataset.subcategoria;
+          var soloAnimal = opt.dataset.soloAnimal;
+          if (soloAnimal) {
+            state.animal = soloAnimal;
+            startQuestions();
+          } else {
+            checkAnimalStep();
+          }
+        });
+      });
+    });
+
+    // Step 3: Animal (conditional)
+    function checkAnimalStep() {
+      var key = state.categoria + '/' + state.subcategoria;
+      var animals = animalsPerSubcat[key] || [];
+      if (animals.length <= 1) {
+        state.animal = animals[0] || 'perro';
+        startQuestions();
+      } else {
+        showStep(stepAnimal);
+      }
+    }
+
+    stepAnimal.querySelectorAll('[data-animal]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        state.animal = btn.dataset.animal;
+        setTimeout(function() { startQuestions(); }, 200);
+      });
+    });
+
+    // Steps 4-N: Questions
+    function startQuestions() {
+      var key = state.categoria + '/' + state.subcategoria;
+      var qMap = subcatQuestions[key];
+      state.questionIds = qMap ? (state.animal === 'gato' ? qMap.gato : qMap.perro) : [];
+      state.currentQ = 0;
+      state.answers = {};
+
+      // Swap text/options for gato if needed
+      if (state.animal === 'gato') {
+        allQuestionSteps.forEach(function(step) {
+          var heading = step.querySelector('.quiz-question-text');
+          if (heading && heading.dataset.textoGato) heading.textContent = heading.dataset.textoGato;
+          var perroOpts = step.querySelector('[data-variant="perro"]');
+          var gatoOpts = step.querySelector('[data-variant="gato"]');
+          if (gatoOpts) {
+            if (perroOpts) perroOpts.style.display = 'none';
+            gatoOpts.style.display = '';
+          }
+        });
+      } else {
+        allQuestionSteps.forEach(function(step) {
+          var heading = step.querySelector('.quiz-question-text');
+          if (heading && heading.dataset.textoPerro) heading.textContent = heading.dataset.textoPerro;
+          var perroOpts = step.querySelector('[data-variant="perro"]');
+          var gatoOpts = step.querySelector('[data-variant="gato"]');
+          if (perroOpts) perroOpts.style.display = '';
+          if (gatoOpts) gatoOpts.style.display = 'none';
+        });
+      }
+
+      showQuestion(0);
+    }
+
+    function showQuestion(idx) {
+      state.currentQ = idx;
+      if (idx >= state.questionIds.length) { showResult(); return; }
+      var qId = state.questionIds[idx];
+      var step = document.querySelector('[data-question-id="' + qId + '"]');
+      showStep(step);
+      progressEl.style.display = '';
+      var pct = ((idx + 1) / state.questionIds.length * 100).toFixed(0);
+      progressFill.style.width = pct + '%';
+      progressEl.setAttribute('aria-valuenow', idx + 1);
+      progressEl.setAttribute('aria-valuemax', state.questionIds.length);
+    }
+
+    // Option click handlers for question steps
+    allQuestionSteps.forEach(function(step) {
+      step.querySelectorAll('.quiz-option').forEach(function(opt) {
+        opt.addEventListener('click', function() {
+          var qId = step.dataset.questionId;
+          // Store answer
+          var filtro = opt.dataset.filtro;
+          var valor = opt.dataset.valor;
+          var tags = JSON.parse(opt.dataset.tags || '{}');
+          state.answers[qId] = { filtro: filtro, valor: valor, tags: tags, text: opt.textContent.trim() };
+
+          // Visual feedback
+          var parent = opt.closest('.quiz-options');
+          parent.querySelectorAll('.quiz-option').forEach(function(o) {
+            o.classList.remove('quiz-option--selected');
+            o.setAttribute('aria-checked', 'false');
+          });
+          opt.classList.add('quiz-option--selected');
+          opt.setAttribute('aria-checked', 'true');
+
+          // Auto-advance
+          setTimeout(function() { showQuestion(state.currentQ + 1); }, 300);
+        });
+      });
+    });
+
+    // Back buttons
+    document.querySelectorAll('[data-action="back"]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var step = btn.closest('.quiz-step');
+        var stepType = step.dataset.step;
+        if (stepType === 'subcategoria') { showCategoria(); }
+        else if (stepType === 'animal') { showSubcategoria(); }
+        else if (stepType === 'pregunta') {
+          if (state.currentQ > 0) showQuestion(state.currentQ - 1);
+          else {
+            var key = state.categoria + '/' + state.subcategoria;
+            var animals = animalsPerSubcat[key] || [];
+            if (animals.length > 1) { showStep(stepAnimal); }
+            else { showSubcategoria(); }
+          }
+        }
+      });
+    });
+
+    // Result
+    function showResult() {
+      // Collect filters and tags from answers
+      var hardFilters = {};
+      var softTags = {};
+      for (var qId in state.answers) {
+        var a = state.answers[qId];
+        if (a.filtro && a.valor) hardFilters[a.filtro] = a.valor;
+        for (var t in a.tags) softTags[t] = a.tags[t];
+      }
+
+      // Phase 1: Filter by categoria + subcategoria + animal + hard filters
+      var candidates = products.filter(function(p) {
+        if (p.categoria !== state.categoria) return false;
+        if (p.subcategoria !== state.subcategoria) return false;
+        if (p.animal !== state.animal && p.animal !== 'ambos') return false;
+        for (var fk in hardFilters) {
+          if (p.filtros[fk] && p.filtros[fk].indexOf(hardFilters[fk]) === -1) return false;
+        }
+        return true;
+      });
+
+      // Fallback: relax hard filters if 0 candidates
+      if (candidates.length === 0) {
+        candidates = products.filter(function(p) {
+          return p.categoria === state.categoria && p.subcategoria === state.subcategoria &&
+            (p.animal === state.animal || p.animal === 'ambos');
+        });
+      }
+      if (candidates.length === 0) {
+        candidates = products.filter(function(p) {
+          return p.categoria === state.categoria && (p.animal === state.animal || p.animal === 'ambos');
+        });
+      }
+
+      // Phase 2: Score
+      candidates.forEach(function(p) {
+        var score = 0;
+        for (var tag in softTags) {
+          score += (softTags[tag] || 0) * (p.afinidad[tag] || 0);
+        }
+        p._score = score;
+      });
+      candidates.sort(function(a, b) { return b._score !== a._score ? b._score - a._score : 0; });
+
+      // Build summary
+      var parts = [];
+      for (var i = 0; i < state.questionIds.length; i++) {
+        var ans = state.answers[state.questionIds[i]];
+        if (ans) parts.push(ans.text.toLowerCase());
+      }
+      var animalText = state.animal === 'perro' ? 'perro' : 'gato';
+      summaryEl.innerHTML = parts.length > 0
+        ? 'Para tu <strong>' + animalText + '</strong>, ' + parts.join(', ') + ':'
+        : '';
+
+      // Show main recommendation
+      hideAllSteps();
+      var mainCards = resultEl.querySelectorAll('.quiz-rec-main');
+      mainCards.forEach(function(c) { c.style.display = 'none'; });
+      if (candidates.length > 0) {
+        var mainCard = resultEl.querySelector('.quiz-rec-main[data-product-id="' + candidates[0].id + '"]');
+        if (mainCard) mainCard.style.display = '';
+      }
+
+      // Show alternatives
+      var altCards = resultEl.querySelectorAll('.quiz-alt-card');
+      altCards.forEach(function(c) { c.style.display = 'none'; });
+      var hasAlts = false;
+      for (var a = 1; a < Math.min(3, candidates.length); a++) {
+        var altCard = resultEl.querySelector('.quiz-alt-card[data-product-id="' + candidates[a].id + '"]');
+        if (altCard) { altCard.style.display = ''; hasAlts = true; }
+      }
+      altsContainer.style.display = hasAlts ? '' : 'none';
+
+      // Show informative articles
+      var articleEls = resultEl.querySelectorAll('.quiz-article-suggestion');
+      articleEls.forEach(function(el) { el.style.display = 'none'; });
+      var shownArticles = 0;
+      var allTags = Object.keys(softTags);
+      if (allTags.length > 0) {
+        var matchTags = [];
+        for (var tg in softTags) {
+          if (articuloTagMap[tg]) matchTags = matchTags.concat(articuloTagMap[tg]);
+        }
+        if (matchTags.length > 0) {
+          articleEls.forEach(function(el) {
+            if (shownArticles >= 2) return;
+            var aAnimal = el.dataset.articleAnimal;
+            if (aAnimal !== state.animal && aAnimal !== 'ambos') return;
+            var aTags = JSON.parse(el.dataset.articleTags || '[]');
+            var matched = aTags.some(function(t) {
+              return matchTags.some(function(mt) { return t.toLowerCase().indexOf(mt.toLowerCase()) >= 0; });
+            });
+            if (matched) { el.style.display = ''; shownArticles++; }
+          });
+        }
+      }
+      articlesContainer.style.display = shownArticles > 0 ? '' : 'none';
+
+      resultEl.classList.add('quiz-result--visible');
+    }
+
+    // Restart
+    restartBtn.addEventListener('click', function() {
+      state = { categoria: null, subcategoria: null, animal: null, questionIds: [], currentQ: 0, answers: {} };
+      // Reset all option selections
+      document.querySelectorAll('.quiz-option--selected').forEach(function(o) {
+        o.classList.remove('quiz-option--selected');
+        o.setAttribute('aria-checked', 'false');
+      });
+      // Reset question text to perro default
+      allQuestionSteps.forEach(function(step) {
+        var heading = step.querySelector('.quiz-question-text');
+        if (heading && heading.dataset.textoPerro) heading.textContent = heading.dataset.textoPerro;
+        var perroOpts = step.querySelector('[data-variant="perro"]');
+        var gatoOpts = step.querySelector('[data-variant="gato"]');
+        if (perroOpts) perroOpts.style.display = '';
+        if (gatoOpts) gatoOpts.style.display = 'none';
+      });
+      sharedNotice.style.display = 'none';
+      history.replaceState(null, '', window.location.pathname);
+      showCategoria();
+    });
+
+    // Shared redo
+    if (sharedRedo) {
+      sharedRedo.addEventListener('click', function(e) {
+        e.preventDefault();
+        restartBtn.click();
+      });
+    }
+
+    // Init
+    showCategoria();
+  })();
+  </script>
+</Base>
