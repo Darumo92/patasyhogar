@@ -387,13 +387,22 @@ const webAppSchema = {
         ? 'Para tu <strong>' + animalText + '</strong>, ' + parts.join(', ') + ':'
         : '';
 
+      // Activate lazy images: move data-src to src
+      function activateImages(el) {
+        if (!el) return;
+        el.querySelectorAll('img[data-src]').forEach(function(img) {
+          img.src = img.dataset.src;
+          img.removeAttribute('data-src');
+        });
+      }
+
       // Show main recommendation
       hideAllSteps();
       var mainCards = resultEl.querySelectorAll('.quiz-rec-main');
       mainCards.forEach(function(c) { c.style.display = 'none'; });
       if (candidates.length > 0) {
         var mainCard = resultEl.querySelector('.quiz-rec-main[data-product-id="' + candidates[0].id + '"]');
-        if (mainCard) mainCard.style.display = '';
+        if (mainCard) { mainCard.style.display = ''; activateImages(mainCard); }
       }
 
       // Show alternatives
@@ -402,7 +411,7 @@ const webAppSchema = {
       var hasAlts = false;
       for (var a = 1; a < Math.min(3, candidates.length); a++) {
         var altCard = resultEl.querySelector('.quiz-alt-card[data-product-id="' + candidates[a].id + '"]');
-        if (altCard) { altCard.style.display = ''; hasAlts = true; }
+        if (altCard) { altCard.style.display = ''; activateImages(altCard); hasAlts = true; }
       }
       altsContainer.style.display = hasAlts ? '' : 'none';
 

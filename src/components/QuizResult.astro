@@ -51,7 +51,14 @@ function tiendanimalHref(url: string): string {
 }
 
 function optimizeImg(url?: string | null): string | undefined {
-  return url?.replace(/\._AC_SL\d+_/, '._AC_SL300_') ?? undefined;
+  if (!url) return undefined;
+  // Normalize Amazon images: ensure _SL300_ size suffix
+  let optimized = url.replace(/\._AC_SL\d+_/, '._AC_SL300_');
+  // Handle images with _AC_ but no _SL size (e.g., _AC_.jpg)
+  if (optimized.includes('._AC_.')) {
+    optimized = optimized.replace('._AC_.', '._AC_SL300_.');
+  }
+  return optimized;
 }
 
 function buildStores(p: Producto) {
@@ -83,7 +90,7 @@ function buildStores(p: Producto) {
         </span>
         <div class="quiz-rec-body">
           {p.imagen && (
-            <img src={optimizeImg(p.imagen)} alt={p.nombre} width="130" height="130" class="quiz-rec-img" loading="lazy" decoding="async" />
+            <img data-src={optimizeImg(p.imagen)} alt={p.nombre} width="130" height="130" class="quiz-rec-img" loading="lazy" decoding="async" />
           )}
           <div class="quiz-rec-info">
             <p class="quiz-rec-name">{p.nombre}</p>
@@ -114,7 +121,7 @@ function buildStores(p: Producto) {
       return (
         <div class="quiz-alt-card" data-product-id={p.id} style="display:none;">
           {p.imagen && (
-            <img src={optimizeImg(p.imagen)} alt={p.nombre} width="80" height="80" class="quiz-alt-img" loading="lazy" decoding="async" />
+            <img data-src={optimizeImg(p.imagen)} alt={p.nombre} width="80" height="80" class="quiz-alt-img" loading="lazy" decoding="async" />
           )}
           <div class="quiz-alt-info">
             <p class="quiz-alt-name">{p.nombre}</p>
