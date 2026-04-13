@@ -1,0 +1,675 @@
+# =============================================================================
+# QUIZ CONFIG — Categories, subcategories, and question pool
+# =============================================================================
+
+categorias:
+  - id: alimentacion
+    nombre: "Alimentación"
+    descripcion: "Pienso, comida húmeda, snacks y comederos"
+    icono: alimentacion
+    subcategorias:
+      - id: pienso
+        nombre: "Pienso seco"
+        descripcion: "El alimento principal del día a día"
+        preguntas: [tamano, edad, condicion, actividad, presupuesto]
+        preguntasGato: [edad, condicion_gato, estilo_vida, presupuesto]
+      - id: comida-humeda
+        nombre: "Comida húmeda"
+        descripcion: "Latas y sobres para complementar o alimentar"
+        preguntas: [tamano, edad, presupuesto]
+        preguntasGato: [edad, presupuesto]
+      - id: snacks
+        nombre: "Snacks y premios"
+        descripcion: "Para entrenar, premiar o complementar"
+        preguntas: [tamano, presupuesto]
+        preguntasGato: [presupuesto]
+      - id: comedero
+        nombre: "Comedero"
+        descripcion: "Estándar, elevado, antiengulle o automático"
+        preguntas: [tipo_comedero, presupuesto]
+        preguntasGato: [tipo_comedero_gato, presupuesto]
+      - id: fuente-agua
+        nombre: "Fuente de agua"
+        descripcion: "Agua fresca y filtrada siempre disponible"
+        soloAnimal: gato
+        preguntas: [prioridad_fuente, presupuesto]
+      - id: bebedero
+        nombre: "Bebedero"
+        descripcion: "Cuencos y fuentes para hidratación"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+
+  - id: higiene
+    nombre: "Higiene y cuidado"
+    descripcion: "Cepillos, champús, antiparasitarios y limpieza"
+    icono: higiene
+    subcategorias:
+      - id: cepillo
+        nombre: "Cepillo"
+        descripcion: "Para el pelaje de tu mascota"
+        preguntas: [tipo_pelo, presupuesto]
+      - id: champu
+        nombre: "Champú"
+        descripcion: "Baño y cuidado de la piel"
+        preguntas: [condicion_piel, presupuesto]
+      - id: antiparasitario
+        nombre: "Antiparasitario"
+        descripcion: "Protección contra pulgas y garrapatas"
+        preguntas: [tamano, formato_antiparasitario, presupuesto]
+        preguntasGato: [formato_antiparasitario, presupuesto]
+      - id: cortapelos
+        nombre: "Cortapelos"
+        descripcion: "Para recortar el pelo en casa"
+        soloAnimal: perro
+        preguntas: [tipo_pelo, presupuesto]
+      - id: cortaunas
+        nombre: "Cortaúñas"
+        descripcion: "Para mantener las uñas a raya"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: dental
+        nombre: "Higiene dental"
+        descripcion: "Cepillos de dientes y limpiadores de oídos"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: secador
+        nombre: "Secador"
+        descripcion: "Para secar después del baño"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: toallitas
+        nombre: "Toallitas"
+        descripcion: "Para limpieza rápida entre baños"
+        soloAnimal: perro
+        preguntas: [prioridad_toallitas, presupuesto]
+      - id: bolsas-caca
+        nombre: "Bolsas y dispensador"
+        descripcion: "Para recoger en el paseo"
+        soloAnimal: perro
+        preguntas: [prioridad_bolsas, presupuesto]
+      - id: empapadores
+        nombre: "Empapadores"
+        descripcion: "Para cachorros, senior o interior"
+        soloAnimal: perro
+        preguntas: [uso_empapador, presupuesto]
+      - id: arenero
+        nombre: "Arenero y arena"
+        descripcion: "Arenero y tipo de arena para tu gato"
+        soloAnimal: gato
+        preguntas: [tipo_arenero, presupuesto]
+      - id: limpiador
+        nombre: "Limpiador enzimático"
+        descripcion: "Elimina manchas y olores de orina"
+        preguntas: [presupuesto]
+      - id: aspirador
+        nombre: "Aspirador pelo mascotas"
+        descripcion: "Para eliminar pelo de sofás y alfombras"
+        preguntas: [presupuesto]
+      - id: protector-patas
+        nombre: "Protector de almohadillas"
+        descripcion: "Ceras y botas para asfalto y nieve"
+        soloAnimal: perro
+        preguntas: [uso_protector_patas, presupuesto]
+      - id: quitapelos
+        nombre: "Quitapelos sofá"
+        descripcion: "Rodillos y cepillos para muebles"
+        soloAnimal: perro
+        preguntas: [presupuesto]
+
+  - id: paseo
+    nombre: "Paseo y viaje"
+    descripcion: "Arneses, transportines, GPS y accesorios"
+    icono: paseo
+    subcategorias:
+      - id: arnes
+        nombre: "Arnés"
+        descripcion: "Para pasear cómodo y seguro"
+        preguntas: [tamano, tira, uso_arnes, presupuesto]
+      - id: arnes-gato
+        nombre: "Arnés para gato"
+        descripcion: "Para pasear con tu gato de forma segura"
+        soloAnimal: gato
+        preguntas: [presupuesto]
+      - id: correa
+        nombre: "Correa"
+        descripcion: "Fija, extensible o de entrenamiento"
+        soloAnimal: perro
+        preguntas: [tamano, tipo_correa, presupuesto]
+      - id: collar
+        nombre: "Collar luminoso"
+        descripcion: "Para paseos nocturnos con visibilidad"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: bozal
+        nombre: "Bozal"
+        descripcion: "Seguro, cómodo y bien ventilado"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: transportin
+        nombre: "Transportín"
+        descripcion: "Para viajes y visitas al veterinario"
+        preguntas: [tamano, medio_transporte, presupuesto]
+      - id: gps
+        nombre: "GPS y localizador"
+        descripcion: "Para no perder nunca a tu mascota"
+        preguntas: [presupuesto]
+      - id: protector-coche
+        nombre: "Protector de coche"
+        descripcion: "Fundas de maletero y asiento"
+        soloAnimal: perro
+        preguntas: [tipo_protector_coche, presupuesto]
+      - id: ropa
+        nombre: "Ropa para perro"
+        descripcion: "Abrigos, chubasqueros y chalecos"
+        soloAnimal: perro
+        preguntas: [tamano, tipo_ropa, presupuesto]
+      - id: antiladridos
+        nombre: "Collar antiladridos"
+        descripcion: "Sin descargas: vibración, ultrasonido o spray"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+
+  - id: juguetes
+    nombre: "Juguetes y diversión"
+    descripcion: "Juguetes, rascadores y enriquecimiento"
+    icono: juguetes
+    subcategorias:
+      - id: juguete
+        nombre: "Juguete"
+        descripcion: "Para jugar, morder y entretenerse"
+        preguntas: [tamano, edad, tipo_juego, presupuesto]
+        preguntasGato: [tipo_juego_gato, presupuesto]
+      - id: rascador
+        nombre: "Rascador"
+        descripcion: "Postes, árboles y rascadores de pared"
+        soloAnimal: gato
+        preguntas: [espacio, presupuesto]
+      - id: alfombra-olfato
+        nombre: "Alfombra de olfato"
+        descripcion: "Estimulación mental a través del olfato"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: feromonas
+        nombre: "Difusor de feromonas"
+        descripcion: "Para reducir estrés y marcaje"
+        soloAnimal: gato
+        preguntas: [problema_feromonas, presupuesto]
+      - id: agilidad
+        nombre: "Circuito de agilidad"
+        descripcion: "Túneles, vallas y slalom para entrenar"
+        soloAnimal: perro
+        preguntas: [espacio, presupuesto]
+
+  - id: hogar
+    nombre: "Hogar y confort"
+    descripcion: "Camas, mantas, protectores y seguridad"
+    icono: hogar
+    subcategorias:
+      - id: cama
+        nombre: "Cama"
+        descripcion: "Para descansar cómodo"
+        preguntas: [tamano, tipo_cama, presupuesto]
+        preguntasGato: [tipo_cama_gato, presupuesto]
+      - id: manta
+        nombre: "Manta"
+        descripcion: "Para abrigarse y proteger el sofá"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: protector-sofa
+        nombre: "Protector de sofá"
+        descripcion: "Impermeables y antiarañazos"
+        preguntas: [presupuesto]
+      - id: gatera
+        nombre: "Gatera"
+        descripcion: "Puertas para gatos con chip o magnéticas"
+        soloAnimal: gato
+        preguntas: [tipo_gatera, presupuesto]
+      - id: puerta-seguridad
+        nombre: "Puerta de seguridad"
+        descripcion: "Barreras para escaleras y pasillos"
+        soloAnimal: perro
+        preguntas: [tipo_instalacion, presupuesto]
+      - id: camara
+        nombre: "Cámara de vigilancia"
+        descripcion: "Para vigilar a tu mascota cuando no estás"
+        preguntas: [presupuesto]
+      - id: refrigeracion
+        nombre: "Alfombrilla refrigerante"
+        descripcion: "Para combatir el calor en verano"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: piscina
+        nombre: "Piscina"
+        descripcion: "Plegables y resistentes a uñas"
+        soloAnimal: perro
+        preguntas: [tamano, presupuesto]
+      - id: jaula
+        nombre: "Jaula / crate"
+        descripcion: "Para casa y coche"
+        soloAnimal: perro
+        preguntas: [tamano, uso_jaula, presupuesto]
+      - id: rampa
+        nombre: "Rampa o escalera"
+        descripcion: "Acceso seguro al sofá, cama o coche"
+        soloAnimal: perro
+        preguntas: [tamano, uso_rampa, presupuesto]
+      - id: repelente
+        nombre: "Repelente para muebles"
+        descripcion: "Sprays para evitar arañazos y marcaje"
+        soloAnimal: gato
+        preguntas: [presupuesto]
+
+# =============================================================================
+# QUESTION POOL — Reusable question definitions
+# =============================================================================
+
+preguntas:
+  tamano:
+    texto: "¿Qué tamaño tiene tu perro?"
+    textoGato: "¿Tu gato es de raza grande o estándar?"
+    filtro: tamano
+    opciones:
+      - texto: "Pequeño (menos de 10 kg)"
+        valor: pequeno
+      - texto: "Mediano (10-25 kg)"
+        valor: mediano
+      - texto: "Grande (25-45 kg)"
+        valor: grande
+      - texto: "Gigante (más de 45 kg)"
+        valor: grande
+    opcionesGato:
+      - texto: "Estándar"
+        valor: estandar
+      - texto: "Raza grande (Maine Coon, Ragdoll...)"
+        valor: grande
+
+  edad:
+    texto: "¿Qué edad tiene?"
+    filtro: etapa
+    opciones:
+      - texto: "Cachorro (menos de 1 año)"
+        valor: cachorro
+      - texto: "Adulto (1-7 años)"
+        valor: adulto
+      - texto: "Senior (más de 7 años)"
+        valor: senior
+
+  condicion:
+    texto: "¿Tiene alguna necesidad especial?"
+    filtro: null
+    opciones:
+      - texto: "Esterilizado o castrado"
+        tags: { esterilizado: 1 }
+      - texto: "Sobrepeso o tendencia a engordar"
+        tags: { sobrepeso: 1 }
+      - texto: "Piel sensible o alergias"
+        tags: { piel_sensible: 1 }
+      - texto: "Problemas digestivos"
+        tags: { digestivo: 1 }
+      - texto: "Diabético"
+        tags: { diabetico: 1 }
+      - texto: "Ninguna en particular"
+        tags: {}
+
+  condicion_gato:
+    texto: "¿Tiene alguna necesidad especial?"
+    filtro: null
+    opciones:
+      - texto: "Esterilizado o castrada"
+        tags: { esterilizado: 1 }
+      - texto: "Problemas urinarios"
+        tags: { urinario: 1 }
+      - texto: "Pelo largo (bolas de pelo)"
+        tags: { pelo_largo: 1 }
+      - texto: "Piel sensible o alergias"
+        tags: { piel_sensible: 1 }
+      - texto: "Ninguna en particular"
+        tags: {}
+
+  estilo_vida:
+    texto: "¿Tu gato sale a la calle?"
+    filtro: null
+    opciones:
+      - texto: "Vive solo en interior"
+        tags: { indoor: 1 }
+      - texto: "Sale al exterior"
+        tags: { outdoor: 1 }
+
+  actividad:
+    texto: "¿Cuánta actividad diaria hace?"
+    filtro: null
+    opciones:
+      - texto: "Poca (paseos cortos)"
+        tags: { actividad_baja: 1 }
+      - texto: "Moderada (1-2 horas de paseo)"
+        tags: { actividad_moderada: 1 }
+      - texto: "Alta (deporte, campo, trabajo)"
+        tags: { actividad_alta: 1 }
+
+  presupuesto:
+    texto: "¿Qué presupuesto manejas?"
+    filtro: null
+    opciones:
+      - texto: "Económico (lo más barato que funcione)"
+        tags: { presupuesto_economico: 1 }
+      - texto: "Medio (buena relación calidad-precio)"
+        tags: { presupuesto_medio: 1 }
+      - texto: "Premium (lo mejor, sin límite)"
+        tags: { presupuesto_premium: 1 }
+
+  tira:
+    texto: "¿Tu perro tira mucho de la correa?"
+    filtro: null
+    opciones:
+      - texto: "Sí, bastante"
+        tags: { antitirones: 1 }
+      - texto: "Normal, pero quiero control"
+        tags: { control: 1 }
+      - texto: "No, es tranquilo"
+        tags: { confort: 1 }
+
+  uso_arnes:
+    texto: "¿Para qué lo vas a usar principalmente?"
+    filtro: null
+    opciones:
+      - texto: "Paseo diario por ciudad"
+        tags: { uso_ciudad: 1 }
+      - texto: "Senderismo o campo"
+        tags: { uso_campo: 1 }
+      - texto: "Viajes en coche"
+        tags: { uso_coche: 1 }
+
+  tipo_juego:
+    texto: "¿Qué tipo de juego le gusta más?"
+    filtro: null
+    opciones:
+      - texto: "Morder y destrozar cosas"
+        tags: { juego_morder: 1 }
+      - texto: "Juegos mentales y olfato"
+        tags: { juego_mental: 1 }
+      - texto: "Perseguir y traer"
+        tags: { juego_fisico: 1 }
+      - texto: "Un poco de todo"
+        tags: {}
+
+  tipo_juego_gato:
+    texto: "¿Qué tipo de juego le gusta más?"
+    filtro: null
+    opciones:
+      - texto: "Cazar y perseguir"
+        tags: { juego_cazar: 1 }
+      - texto: "Trepar y esconderse"
+        tags: { juego_trepar: 1 }
+      - texto: "Juego interactivo contigo"
+        tags: { juego_interactivo: 1 }
+
+  medio_transporte:
+    texto: "¿Cómo lo vas a transportar?"
+    filtro: null
+    opciones:
+      - texto: "En coche"
+        tags: { transporte_coche: 1 }
+      - texto: "En avión (cabina)"
+        tags: { transporte_avion: 1 }
+      - texto: "A pie o transporte público"
+        tags: { transporte_pie: 1 }
+
+  espacio:
+    texto: "¿Cuánto espacio tienes?"
+    filtro: null
+    opciones:
+      - texto: "Piso pequeño, poco espacio"
+        tags: { espacio_pequeno: 1 }
+      - texto: "Espacio normal"
+        tags: { espacio_medio: 1 }
+      - texto: "Mucho espacio (casa, jardín)"
+        tags: { espacio_grande: 1 }
+
+  tipo_pelo:
+    texto: "¿Qué tipo de pelo tiene?"
+    filtro: null
+    opciones:
+      - texto: "Pelo corto y liso"
+        tags: { pelo_corto: 1 }
+      - texto: "Pelo largo o semilargo"
+        tags: { pelo_largo: 1 }
+      - texto: "Pelo duro o rizado"
+        tags: { pelo_duro: 1 }
+
+  condicion_piel:
+    texto: "¿Tiene algún problema de piel?"
+    filtro: null
+    opciones:
+      - texto: "Piel sensible o atópica"
+        tags: { piel_sensible: 1 }
+      - texto: "Parásitos o picores"
+        tags: { antipicores: 1 }
+      - texto: "Piel normal, baño de mantenimiento"
+        tags: { piel_normal: 1 }
+
+  formato_antiparasitario:
+    texto: "¿Qué formato prefieres?"
+    filtro: null
+    opciones:
+      - texto: "Collar (protección continua)"
+        tags: { formato_collar: 1 }
+      - texto: "Pipeta (aplicación mensual)"
+        tags: { formato_pipeta: 1 }
+      - texto: "Pastilla (vía oral)"
+        tags: { formato_pastilla: 1 }
+      - texto: "No tengo preferencia"
+        tags: {}
+
+  tipo_cama:
+    texto: "¿Qué tipo de cama prefieres?"
+    filtro: null
+    opciones:
+      - texto: "Colchón o colchoneta"
+        tags: { cama_colchon: 1 }
+      - texto: "Cama con bordes (nido)"
+        tags: { cama_nido: 1 }
+      - texto: "Cama elevada o hamaca"
+        tags: { cama_elevada: 1 }
+      - texto: "Ortopédica (perro mayor o con dolores)"
+        tags: { cama_ortopedica: 1 }
+
+  tipo_cama_gato:
+    texto: "¿Qué tipo de cama prefieres?"
+    filtro: null
+    opciones:
+      - texto: "Cueva o iglú"
+        tags: { cama_cueva: 1 }
+      - texto: "Cama donut (acurrucarse)"
+        tags: { cama_donut: 1 }
+      - texto: "Hamaca de ventana"
+        tags: { cama_hamaca: 1 }
+      - texto: "Cama clásica o colchón"
+        tags: { cama_colchon: 1 }
+
+  tipo_comedero:
+    texto: "¿Qué tipo de comedero buscas?"
+    filtro: null
+    opciones:
+      - texto: "Automático con WiFi y app"
+        tags: { comedero_automatico: 1 }
+      - texto: "Antiengulle (come muy rápido)"
+        tags: { comedero_lento: 1 }
+      - texto: "Elevado (mejor postura)"
+        tags: { comedero_elevado: 1 }
+      - texto: "Estándar o básico"
+        tags: {}
+
+  tipo_comedero_gato:
+    texto: "¿Qué tipo de comedero buscas?"
+    filtro: null
+    opciones:
+      - texto: "Automático con WiFi y app"
+        tags: { comedero_automatico: 1 }
+      - texto: "Estándar elevado o inclinado"
+        tags: { comedero_elevado: 1 }
+      - texto: "Antihormigas"
+        tags: { comedero_antihormigas: 1 }
+
+  prioridad_fuente:
+    texto: "¿Qué es lo más importante para ti?"
+    filtro: null
+    opciones:
+      - texto: "Que sea silenciosa"
+        tags: { fuente_silenciosa: 1 }
+      - texto: "Que sea fácil de limpiar"
+        tags: { fuente_facil: 1 }
+      - texto: "Que tenga gran capacidad"
+        tags: { fuente_grande: 1 }
+
+  tipo_correa:
+    texto: "¿Qué tipo de correa buscas?"
+    filtro: null
+    opciones:
+      - texto: "Extensible (más libertad)"
+        tags: { correa_extensible: 1 }
+      - texto: "Fija corta (más control)"
+        tags: { correa_fija: 1 }
+      - texto: "Larga de entrenamiento"
+        tags: { correa_larga: 1 }
+
+  tipo_protector_coche:
+    texto: "¿Qué quieres proteger?"
+    filtro: null
+    opciones:
+      - texto: "El maletero"
+        tags: { protector_maletero: 1 }
+      - texto: "El asiento trasero"
+        tags: { protector_asiento: 1 }
+
+  tipo_ropa:
+    texto: "¿Qué necesitas?"
+    filtro: null
+    opciones:
+      - texto: "Abrigo para invierno"
+        tags: { ropa_abrigo: 1 }
+      - texto: "Chubasquero para lluvia"
+        tags: { ropa_chubasquero: 1 }
+      - texto: "Chaleco salvavidas (playa/piscina)"
+        tags: { ropa_chaleco: 1 }
+
+  tipo_arenero:
+    texto: "¿Qué tipo de arenero prefieres?"
+    filtro: null
+    opciones:
+      - texto: "Cerrado (menos olor)"
+        tags: { arenero_cerrado: 1 }
+      - texto: "Abierto (más accesible)"
+        tags: { arenero_abierto: 1 }
+      - texto: "Autolimpiable"
+        tags: { arenero_auto: 1 }
+
+  tipo_gatera:
+    texto: "¿Qué tipo de gatera necesitas?"
+    filtro: null
+    opciones:
+      - texto: "Con microchip (solo tu gato entra)"
+        tags: { gatera_chip: 1 }
+      - texto: "Magnética"
+        tags: { gatera_magnetica: 1 }
+      - texto: "Manual básica"
+        tags: { gatera_manual: 1 }
+
+  problema_feromonas:
+    texto: "¿Qué problema quieres tratar?"
+    filtro: null
+    opciones:
+      - texto: "Estrés general o mudanza"
+        tags: { feromona_estres: 1 }
+      - texto: "Marcaje con orina"
+        tags: { feromona_marcaje: 1 }
+      - texto: "Agresividad entre gatos"
+        tags: { feromona_agresividad: 1 }
+
+  uso_empapador:
+    texto: "¿Para qué lo vas a usar?"
+    filtro: null
+    opciones:
+      - texto: "Cachorro en aprendizaje"
+        tags: { empapador_cachorro: 1 }
+      - texto: "Perro senior o incontinente"
+        tags: { empapador_senior: 1 }
+      - texto: "Perro de interior"
+        tags: { empapador_interior: 1 }
+
+  prioridad_toallitas:
+    texto: "¿Qué es lo más importante?"
+    filtro: null
+    opciones:
+      - texto: "Hipoalergénicas (piel sensible)"
+        tags: { toallita_hipo: 1 }
+      - texto: "Biodegradables"
+        tags: { toallita_bio: 1 }
+      - texto: "Lo más económicas"
+        tags: { toallita_economica: 1 }
+
+  prioridad_bolsas:
+    texto: "¿Qué prefieres?"
+    filtro: null
+    opciones:
+      - texto: "Biodegradables / compostables"
+        tags: { bolsa_bio: 1 }
+      - texto: "Con dispensador para correa"
+        tags: { bolsa_dispensador: 1 }
+      - texto: "Lo más barato"
+        tags: { bolsa_economica: 1 }
+
+  uso_protector_patas:
+    texto: "¿Para qué situación?"
+    filtro: null
+    opciones:
+      - texto: "Asfalto caliente en verano"
+        tags: { patas_calor: 1 }
+      - texto: "Nieve o frío extremo"
+        tags: { patas_frio: 1 }
+      - texto: "Terreno abrasivo (montaña)"
+        tags: { patas_montana: 1 }
+
+  tipo_instalacion:
+    texto: "¿Cómo la quieres instalar?"
+    filtro: null
+    opciones:
+      - texto: "A presión (sin agujeros)"
+        tags: { puerta_presion: 1 }
+      - texto: "Con tornillos (más segura)"
+        tags: { puerta_tornillos: 1 }
+
+  uso_jaula:
+    texto: "¿Para qué la vas a usar?"
+    filtro: null
+    opciones:
+      - texto: "En casa (crate training)"
+        tags: { jaula_casa: 1 }
+      - texto: "Para el coche"
+        tags: { jaula_coche: 1 }
+      - texto: "Ambos usos"
+        tags: {}
+
+  uso_rampa:
+    texto: "¿Para acceder a dónde?"
+    filtro: null
+    opciones:
+      - texto: "Al sofá o la cama"
+        tags: { rampa_sofa: 1 }
+      - texto: "Al coche"
+        tags: { rampa_coche: 1 }
+
+# =============================================================================
+# ARTICLE TAG MAP — Quiz tags → article tags for informative suggestions
+# =============================================================================
+
+articuloTagMap:
+  piel_sensible: ["piel sensible", "alergias", "dermatitis", "atopia"]
+  esterilizado: ["esterilizado", "castrado", "esterilización"]
+  sobrepeso: ["sobrepeso", "obesidad", "dieta", "peso"]
+  diabetico: ["diabetes", "diabético"]
+  digestivo: ["digestión", "problemas digestivos", "estómago"]
+  urinario: ["urinario", "cistitis", "cálculos"]
+  pelo_largo: ["pelo largo", "bolas de pelo"]
+  indoor: ["gato interior", "indoor", "gato de interior"]
+  antitirones: ["tirones", "paseo", "tira de la correa"]
+  piel_sensible: ["piel sensible", "champú suave", "dermatitis"]
