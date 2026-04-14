@@ -109,6 +109,7 @@
 
   --container-width: 1140px;
   --container-padding: 1.5rem;
+  --bp-small: 480px;
 }
 
 html.theme-transitioning,
@@ -161,6 +162,13 @@ html.theme-transitioning *::after {
   --color-text-light: var(--neutral-400);
   --color-border: var(--neutral-200);
   --color-border-dark: var(--neutral-300);
+}
+
+/* Mobile: reduce container padding on small screens */
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 1rem;
+  }
 }
 
 *,
@@ -222,7 +230,7 @@ a:hover {
 }
 
 .section {
-  padding-block: 3.5rem;
+  padding-block: clamp(2rem, 5vw, 3.5rem);
 }
 
 .section-title {
