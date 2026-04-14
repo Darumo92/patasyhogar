@@ -515,23 +515,24 @@ body.menu-open { overflow: hidden; }
   .categories-grid { grid-template-columns: repeat(3, 1fr); }
   .guides-grid { grid-template-columns: 1fr; }
   .newsletter-form { flex-direction: column; }
+
+  /* Mobile restructure: hide redundant/excessive content */
+  .hero-ctas { display: none; } /* Bottom nav already has Perros/Gatos */
+  .articles-grid > :nth-child(n+5) { display: none; } /* Show 4 cards, not 6 */
+  .guides-grid > :nth-child(n+4) { display: none; } /* Show 3 guides, not 6 */
+  .newsletter { display: none; } /* Low mobile engagement, saves ~200px */
 }
 
 @media (max-width: 480px) {
   .hero { padding: 2.5rem 0 1.5rem; }
   .hero-title { letter-spacing: -0.03em; }
   .hero-subtitle { font-size: 0.95rem; }
-  .hero-ctas { flex-direction: column; align-items: center; }
-  .hero-cta { width: 100%; justify-content: center; padding: 0.75rem 1.5rem; }
   .featured-body { padding: 1.25rem; }
   .featured-body h2 { font-size: 1.25rem; }
   .categories-grid { grid-template-columns: repeat(2, 1fr); }
   .cat-card { padding: 1rem 0.75rem; }
   .cat-card h3 { font-size: 0.78rem; }
   .cat-card span { font-size: 0.72rem; }
-  .newsletter { padding: 1.75rem 1.25rem; }
-  .newsletter-form input { padding: 0.75rem 1rem; font-size: 1rem; }
-  .newsletter-form button { padding: 0.75rem 1.5rem; font-size: 0.85rem; min-height: 44px; }
 }
 
 /* =========================================
