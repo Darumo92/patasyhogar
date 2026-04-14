@@ -327,8 +327,6 @@ a:hover {
 .nav-link.cat:hover { background: var(--cat-bg); }
 .nav-link[aria-current="page"] { font-weight: 700; }
 
-.nav-sep { width: 1px; height: 20px; background: var(--color-border); margin: 0 0.25rem; }
-
 .nav-icon {
   width: 44px; height: 44px; border-radius: 50%;
   display: inline-flex; align-items: center; justify-content: center;
@@ -337,6 +335,7 @@ a:hover {
   transition: all var(--duration-fast) var(--ease-out);
 }
 .nav-icon:hover { background: var(--color-bg-muted); color: var(--color-text); }
+.header-actions { display: flex; align-items: center; gap: 0.15rem; }
 
 /* Theme toggle icons */
 [data-theme="dark"] .icon-sun { display: none; }
