@@ -154,6 +154,11 @@ function articleUrl(a: typeof articulos[0]) {
     </div>
   </section>
 
+  {/* Quiz CTA Banner — after categories, before articles */}
+  {totalProducts > 0 && (
+    <QuizHomeBanner totalProducts={totalProducts} totalCategories={5} />
+  )}
+
   <!-- 4. Latest Comparativas -->
   {recientes.length > 0 && (
     <section class="articles">
@@ -169,11 +174,6 @@ function articleUrl(a: typeof articulos[0]) {
         </div>
       </div>
     </section>
-  )}
-
-  {/* 4.5 Quiz CTA Banner */}
-  {totalProducts > 0 && (
-    <QuizHomeBanner totalProducts={totalProducts} totalCategories={5} />
   )}
 
   <!-- 5. Guides (Informativos) -->
