@@ -1352,9 +1352,9 @@ button:focus-visible,
   color: #6ee7a8;
 }
 
-/* Hero CTA hover — base has hardcoded light-mode backgrounds */
-[data-theme="dark"] .hero-cta.dog:hover { background: var(--dog-bg); }
-[data-theme="dark"] .hero-cta.cat:hover { background: var(--cat-bg); }
+/* Hero CTA hover — provide visual feedback in dark mode */
+[data-theme="dark"] .hero-cta.dog:hover { background: #3d2a1a; box-shadow: var(--shadow-md); }
+[data-theme="dark"] .hero-cta.cat:hover { background: #352842; box-shadow: var(--shadow-md); }
 
 
 /* =========================================
@@ -1819,10 +1819,21 @@ button:focus-visible,
 
 .quiz-start-btn:hover {
   background: var(--color-primary-dark);
+  color: #fff;
 }
 
 .quiz-start-btn:active {
   transform: scale(0.97);
+}
+
+[data-theme="dark"] .quiz-start-btn {
+  background: var(--green-600);
+  color: #fff;
+}
+
+[data-theme="dark"] .quiz-start-btn:hover {
+  background: var(--green-700);
+  color: #fff;
 }
 
 /* Progress bar */
