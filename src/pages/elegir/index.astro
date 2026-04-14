@@ -184,7 +184,13 @@ const webAppSchema = {
 
     function showStep(el) {
       hideAllSteps();
-      if (el) { el.style.display = ''; el.classList.add('quiz-step--active'); }
+      if (el) {
+        el.style.display = '';
+        el.classList.add('quiz-step--active');
+        setTimeout(function() {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 300);
+      }
     }
 
     // Step 1: Category
@@ -441,6 +447,9 @@ const webAppSchema = {
       articlesContainer.style.display = shownArticles > 0 ? '' : 'none';
 
       resultEl.classList.add('quiz-result--visible');
+      setTimeout(function() {
+        resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 300);
     }
 
     // Restart
