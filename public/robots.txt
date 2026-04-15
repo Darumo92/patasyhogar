@@ -33,3 +33,4 @@ Allow: /
 # para que Google pueda leer el noindex y desindexarlas correctamente.
 
 Sitemap: https://patasyhogar.com/sitemap-index.xml
+Sitemap: https://patasyhogar.com/sitemap-0.xml
