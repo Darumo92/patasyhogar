@@ -1,6 +1,19 @@
 # Sobre nosotros → Sobre mí
 /sobre-nosotros/ /sobre-mi/ 301
 
+# Force trailing slash on category/listing pages (Google crawls both versions)
+/alimentacion /alimentacion/ 301
+/higiene /higiene/ 301
+/paseo /paseo/ 301
+/juguetes /juguetes/ 301
+/hogar /hogar/ 301
+/perros /perros/ 301
+/gatos /gatos/ 301
+/cuidados /cuidados/ 301
+/articulos /articulos/ 301
+/contacto /contacto/ 301
+/sobre-mi /sobre-mi/ 301
+
 # Fix 404s: non-trailing-slash variants that Google discovered
 /alimentacion/mejor-bebedero-portatil-perros /alimentacion/mejor-bebedero-perros-guia/ 301
 /comportamiento/como-adiestrar-gato-tecnicas /cuidados/como-adiestrar-gato-tecnicas/ 301
