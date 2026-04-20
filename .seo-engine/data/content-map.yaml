@@ -1,5 +1,47 @@
-last_updated: '2026-04-05'
+last_updated: '2026-04-20'
 blogs:
+- slug: seguro-mascotas-espana-guia-2026
+  title: "Seguro para mascotas en España: guía completa 2026"
+  file_path: src/content/articulos/seguro-mascotas-espana-guia-2026.mdx
+  status: human-review
+  published_date: '2026-04-20'
+  last_updated: ''
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_hogar
+  is_pillar: false
+  target_keywords:
+  - keyword: "seguro mascotas"
+    search_volume: 5400
+    is_primary: true
+  - keyword: "seguro perro"
+    search_volume: 5400
+    is_primary: false
+  - keyword: "seguro obligatorio para perros"
+    search_volume: 5400
+    is_primary: false
+  - keyword: "seguro para perro"
+    search_volume: 4400
+    is_primary: false
+  - keyword: "seguro veterinario perros"
+    search_volume: 1900
+    is_primary: false
+  - keyword: "seguros para gatos"
+    search_volume: 1000
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - guia-completa-salud-bienestar-perros
+  - guia-completa-salud-bienestar-gatos
+  - cuanto-cuesta-mantener-un-perro-al-mes
+  - cuanto-cuesta-mantener-un-gato-al-mes
+  - mejor-bozal-perro
+  internal_links_from: []
+  word_count: 3100
+  has_eeat_signals: true
+  notes: "Plan v7 artículo #11. Guía editorial independiente (no vende pólizas): tipos RC vs salud, obligatoriedad por CCAA + Ley 7/2023, PPP (RD 287/2002), rango precios 2026, comparativa aseguradoras (Santévet, Mutua, Santalucía, Sanitas, AXA, ASISA, La Caixa, Línea Directa), análisis honesto merece la pena vs fondo emergencia, exclusiones/carencias/franquicia. E-E-A-T: experiencia Daniel con Kira (RC obligatorio CV) + Mango, vet Laura referencia. No Amazon — tráfico AdSense."
+  needs_update_reason: ''
 - slug: evitar-perro-coma-cosas-suelo
   title: "Cómo evitar que tu perro coma cosas del suelo"
   file_path: src/content/articulos/evitar-perro-coma-cosas-suelo.mdx

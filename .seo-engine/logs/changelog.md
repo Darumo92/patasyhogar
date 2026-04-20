@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-04-20 10:00
+**Action:** Article #11 plan v7 — seguro mascotas España guía 2026
+**Files:** src/content/articulos/seguro-mascotas-espana-guia-2026.mdx, .seo-engine/data/content-map.yaml, public/images/articulos/seguro-mascotas-espana-guia-2026.webp
+**Summary:** Guía editorial independiente sobre seguros mascotas España. KW principal "seguro mascotas" (5400) + variantes validadas KW Surfer: seguro perro 5400, seguro obligatorio perros 5400, seguro para perro 4400, seguro veterinario perros 1900, seguros para gatos 1000. ~3100 palabras. Ángulo único: análisis honesto sin vender pólizas, obligatoriedad por CCAA + Ley 7/2023 + PPP, comparativa neutral 8 aseguradoras (Santévet, Mutua, Santalucía, Sanitas, AXA, ASISA, La Caixa, Línea Directa), fondo emergencia como alternativa. SERP intent blended (aseguradoras + comparador + blog). Status: human-review. No Amazon — play AdSense.
+**Triggered by:** user
+
 ## 2026-04-09 15:00
 **Action:** Coverage audit FINAL batch — 10 keywords (last unmapped articles)
 **Files:** seo-keywords.csv
