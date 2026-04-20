@@ -51,18 +51,33 @@ const organizationSchema = {
   url: siteUrl,
   logo: {
     '@type': 'ImageObject',
-    url: `${siteUrl}/favicon.svg`,
+    url: `${siteUrl}/favicon-512.png`,
+    width: 512,
+    height: 512,
   },
+  image: `${siteUrl}/favicon-512.png`,
   description: 'Guías de compra y comparativas de productos para perros y gatos',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'contacto@patasyhogar.com',
     contactType: 'customer service',
     availableLanguage: 'es',
+    areaServed: 'ES',
+  },
+  founder: {
+    '@type': 'Person',
+    name: 'Daniel Ruiz',
+    url: `${siteUrl}/sobre-mi/`,
   },
   foundingDate: '2026',
   areaServed: 'ES',
   availableLanguage: 'es',
+  knowsAbout: [
+    'productos para perros',
+    'productos para gatos',
+    'alimentación de mascotas',
+    'higiene y cuidado de mascotas',
+  ],
 };
 
 const itemListSchema = {

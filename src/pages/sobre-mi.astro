@@ -24,7 +24,27 @@ const aboutPageSchema = {
     url: `${siteUrl}/sobre-mi/`,
     jobTitle: 'Fundador de Patas y Hogar',
     description: 'Amante de los animales afincado en Valencia. Creador de guías de compra y comparativas de productos para perros y gatos.',
-    knowsAbout: ['productos para perros', 'productos para gatos', 'nutrición animal', 'cuidado de mascotas'],
+    knowsAbout: [
+      'productos para perros',
+      'productos para gatos',
+      'nutrición animal',
+      'higiene y cuidado de mascotas',
+      'comportamiento canino y felino',
+    ],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Patas y Hogar',
+      url: siteUrl,
+      logo: `${siteUrl}/favicon-512.png`,
+    },
+    homeLocation: {
+      '@type': 'Place',
+      name: 'Valencia, España',
+    },
+    nationality: {
+      '@type': 'Country',
+      name: 'España',
+    },
   },
 };
 ---

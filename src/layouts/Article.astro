@@ -3,6 +3,7 @@ import Base from './Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import CategoryIcon from '@/components/CategoryIcon.astro';
 import IconCategory from '@/components/IconCategory.astro';
+import AuthorBox from '@/components/AuthorBox.astro';
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 
@@ -117,6 +118,23 @@ const articleSchema = {
     name: 'Daniel Ruiz',
     url: `${siteUrl}/sobre-mi/`,
     jobTitle: 'Fundador de Patas y Hogar',
+    description: 'Creador de Patas y Hogar. Analiza y prueba productos para perros y gatos desde Valencia, España.',
+    knowsAbout: [
+      'productos para perros',
+      'productos para gatos',
+      'nutrición animal',
+      'higiene y cuidado de mascotas',
+      'comportamiento canino y felino',
+    ],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Patas y Hogar',
+      url: siteUrl,
+    },
+    homeLocation: {
+      '@type': 'Place',
+      name: 'Valencia, España',
+    },
   },
   publisher: {
     '@type': 'Organization',
@@ -124,7 +142,9 @@ const articleSchema = {
     url: siteUrl,
     logo: {
       '@type': 'ImageObject',
-      url: `${siteUrl}/favicon.svg`,
+      url: `${siteUrl}/favicon-512.png`,
+      width: 512,
+      height: 512,
     },
   },
   isPartOf: {
@@ -322,6 +342,8 @@ const breadcrumbSchema = {
         </div>
       </section>
     )}
+
+    <AuthorBox />
 
     {related.length > 0 && (
       <section style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--color-border);">
