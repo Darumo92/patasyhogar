@@ -1612,6 +1612,50 @@ blogs:
   word_count: 2924
   has_eeat_signals: true
   needs_update_reason: ''
+- slug: mejor-arenero-autolimpiable-gatos
+  title: "Mejor arenero autolimpiable para gatos 2026: comparativa"
+  file_path: src/content/articulos/mejor-arenero-autolimpiable-gatos.mdx
+  status: published
+  published_date: '2026-04-22'
+  last_updated: ''
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: tc_higiene_gatos
+  is_pillar: false
+  target_keywords:
+  - keyword: "arenero autolimpiable"
+    search_volume: 3600
+    is_primary: true
+  - keyword: "arenero automatico"
+    search_volume: 6600
+    is_primary: false
+  - keyword: "arenero cecotec"
+    search_volume: 4400
+    is_primary: false
+  - keyword: "arenero gato autolimpiable"
+    search_volume: 1000
+    is_primary: false
+  - keyword: "arenero autolimpiable xiaomi"
+    search_volume: 590
+    is_primary: false
+  - keyword: "arenero autolimpiable barato"
+    search_volume: 480
+    is_primary: false
+  features_mentioned:
+  - CATLINK Arenero Autolimpiable WiFi
+  - Neakasa M1
+  - HHOLOVE TYPro
+  - PETKIT Pura MAX 2
+  - PetSafe ScoopFree 2ª Generación
+  competitors_mentioned: []
+  internal_links_to:
+  - mejor-arenero-arena-gatos
+  - guia-completa-higiene-cuidado-gatos
+  internal_links_from: []
+  word_count: 2700
+  has_eeat_signals: true
+  notes: "Comparativa autolimpiables. SERP intent blended (Amazon + MediaMarkt + blogs). KW primaria 3600. E-E-A-T con Laura (vet) + experiencia con Mango rechazando cerrado + vecina con 3 gatos usando CATLINK. 6 FAQs desde PAA."
+  needs_update_reason: ''
 - slug: mejor-arnes-antitirones-perro
   title: "Mejor arnés antitirones para perros: comparativa 2026"
   file_path: src/content/articulos/mejor-arnes-antitirones-perro.mdx

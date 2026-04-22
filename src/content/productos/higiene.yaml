@@ -1574,6 +1574,96 @@
   afinidad:
     presupuesto_premium: 5
 
+# =============================================
+# ARENEROS AUTOLIMPIABLES GATOS
+# =============================================
+- id: catlink-autolimpiable-wifi
+  nombre: "CATLINK Arenero Autolimpiable WiFi 12L"
+  marca: "CATLINK"
+  imagen: "https://m.media-amazon.com/images/I/71bPNn0hY7L._AC_SL300_.jpg"
+  precio: "~250€"
+  precioAmazon: "249,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0GTYCSCWT"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-autolimpiable-gatos
+  descripcionCorta: "Autolimpiable con entrada superior, WiFi 5 GHz, app completa y compatible con cualquier arena aglomerante. Mejor relación calidad-precio."
+  filtros: {}
+  afinidad:
+    arenero_auto: 5
+    presupuesto_medio: 5
+
+- id: neakasa-m1-autolimpiable
+  nombre: "Neakasa M1"
+  marca: "Neakasa"
+  imagen: "https://m.media-amazon.com/images/I/81cM3ZZ0gzL._AC_SL300_.jpg"
+  precio: "~380€"
+  precioAmazon: "379,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0CSKBWBF6"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-autolimpiable-gatos
+  descripcionCorta: "Único autolimpiable con diseño abierto (no globo). Capacidad XXL. Ideal para gatos grandes o que rechazan espacios cerrados."
+  filtros: {}
+  afinidad:
+    arenero_auto: 5
+    presupuesto_medio: 4
+
+- id: hholove-typro-autolimpiable
+  nombre: "HHOLOVE TYPro"
+  marca: "HHOLOVE"
+  imagen: "https://m.media-amazon.com/images/I/61hDK-l-POL._AC_SL300_.jpg"
+  precio: "~300€"
+  precioAmazon: "299,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DZHTGRZH"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-autolimpiable-gatos
+  descripcionCorta: "Gama media con app y bolsas de recambio incluidas. Modo multigato y sistema de seguridad multicapa."
+  filtros: {}
+  afinidad:
+    arenero_auto: 5
+    presupuesto_medio: 4
+
+- id: petkit-pura-max-2
+  nombre: "PETKIT Pura MAX 2 (76L)"
+  marca: "Petkit"
+  imagen: "https://m.media-amazon.com/images/I/61LSN9Hwj4L._AC_SL300_.jpg"
+  precio: "~549€"
+  precioAmazon: "549,00€"
+  precioZooplus: "547,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0D9QGW2M6"
+  enlaceZooplus: "https://www.zooplus.es/shop/tienda_gatos/areneros_gatos/cubiertos/2071541"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-autolimpiable-gatos
+  descripcionCorta: "Modelo premium con 76L, xSecure anti-fugas, eliminación de olores activa y app avanzada. Para hogares con varios gatos o ausencias largas."
+  filtros: {}
+  afinidad:
+    arenero_auto: 5
+    presupuesto_premium: 5
+
+- id: petsafe-scoopfree-gen2
+  nombre: "PetSafe ScoopFree 2ª Generación"
+  marca: "PetSafe"
+  imagen: "https://m.media-amazon.com/images/I/71b0-fy3AiL._AC_SL300_.jpg"
+  precio: "~162€"
+  precioAmazon: "162,06€"
+  enlaceAmazon: "https://www.amazon.es/dp/B097PYYFZ1"
+  categoria: higiene
+  subcategoria: arenero
+  animal: gato
+  articuloSlug: mejor-arenero-autolimpiable-gatos
+  descripcionCorta: "Autolimpiable de entrada con cristales de sílice. Mecánico, fiable y con control de olores superior. Sin app, sin complicaciones."
+  filtros: {}
+  afinidad:
+    arenero_auto: 5
+    presupuesto_bajo: 4
+
 - id: catit-smartsift
   nombre: "Catit SmartSift"
   marca: "Catit"
