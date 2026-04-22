@@ -311,3 +311,15 @@
 - `.seo-engine/data/seo-keywords.csv` — añadidas 3 keywords: "muda pelo gatos", "gato suelta mucho pelo", "bolas pelo gato"
 **Summary:** Artículo evaluado con 8.5/10. Mejoras aplicadas: experiencia personal E-E-A-T en intro, enlaces externos a Cornell y AVEPA, anchor text variado en links internos repetidos, keyword tracking y asignación a cluster.
 **Triggered by:** user
+
+## 2026-04-22 10:30
+**Action:** Publish new article (#12 v7 plan) — mejor-arenero-autolimpiable-gatos
+**Files:**
+- `src/content/articulos/mejor-arenero-autolimpiable-gatos.mdx` (created, 2700 words, status human-review)
+- `src/content/productos/higiene.yaml` — añadidos 5 productos autolimpiables (CATLINK, Neakasa M1, HHOLOVE TYPro, PETKIT Pura MAX 2, PetSafe ScoopFree Gen 2) con subcategoria `arenero-autolimpiable`
+- `.seo-engine/data/content-map.yaml` — nuevo entry slug mejor-arenero-autolimpiable-gatos en cluster tc_higiene_gatos
+- `.seo-engine/data/seo-keywords.csv` — añadida KW `arenero autolimpiable` (3600 vol) + variantes
+- `.seo-engine/data/topic-clusters.yaml` — añadido a tc_higiene_gatos
+- `public/images/articulos/mejor-arenero-autolimpiable-gatos.webp` (Pexels, Kindel Media)
+**Summary:** Comparativa autolimpiables 5 modelos 162€-549€. SERP intent blended. E-E-A-T: Laura (vet) + experiencia Mango rechazando cerrado + vecina con 3 gatos usando CATLINK. TopPick: CATLINK (250€). 6 FAQs desde PAA. Enlaza a pillar higiene gatos + guía arenero existente. Cross-link hacia futuro artículo #30 (merece la pena autolimpiable).
+**Triggered by:** user (plan v7 #12)
