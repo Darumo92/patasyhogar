@@ -40,7 +40,19 @@ export default defineConfig({
         !page.includes('/politica-privacidad/') &&
         !page.includes('/buscar/') &&
         !page.includes('/tags') &&
-        !page.includes('/actualizaciones/'),
+        !page.includes('/actualizaciones/') &&
+        // Hubs temporalmente fuera del sitemap hasta ≥5 artículos de cada hub indexados.
+        // Dominio <3 meses + 0 backlinks: Google marca hubs como thin/duplicado y bloquea indexación del cluster.
+        // Re-incluir uno a uno tras primer tráfico orgánico estable.
+        page !== 'https://patasyhogar.com/articulos/' &&
+        page !== 'https://patasyhogar.com/perros/' &&
+        page !== 'https://patasyhogar.com/gatos/' &&
+        page !== 'https://patasyhogar.com/alimentacion/' &&
+        page !== 'https://patasyhogar.com/higiene/' &&
+        page !== 'https://patasyhogar.com/paseo/' &&
+        page !== 'https://patasyhogar.com/juguetes/' &&
+        page !== 'https://patasyhogar.com/hogar/' &&
+        page !== 'https://patasyhogar.com/cuidados/',
       serialize(item) {
         const lastmod = dateMap.get(item.url);
         if (lastmod) item.lastmod = lastmod;
