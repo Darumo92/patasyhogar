@@ -4925,3 +4925,48 @@ blogs:
   has_eeat_signals: true
   notes: "Thought leadership article on pet technology trends 2026. Unique angle: personal experience testing gadgets with Kira and Mango. Cross-cluster standalone (hogar category). 8 internal links to existing comparativas. SERP intent: informational. 4 FAQs from PAA."
   needs_update_reason: ''
+
+- slug: plantas-toxicas-gatos-guia-hogar
+  title: "Plantas tóxicas para gatos: guía por habitación 2026"
+  file_path: src/content/articulos/plantas-toxicas-gatos-guia-hogar.mdx
+  status: human-review
+  published_date: '2026-04-24'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_hogar_mascotas
+  is_pillar: false
+  target_keywords:
+  - keyword: "plantas tóxicas para gatos"
+    search_volume: 1600
+    is_primary: true
+  - keyword: "plantas no tóxicas para gatos"
+    search_volume: 1000
+    is_primary: false
+  - keyword: "plantas venenosas para gatos"
+    search_volume: 720
+    is_primary: false
+  - keyword: "plantas seguras para gatos"
+    search_volume: 480
+    is_primary: false
+  - keyword: "plantas aptas para gatos"
+    search_volume: 480
+    is_primary: false
+  - keyword: "sansevieria gatos"
+    search_volume: 0
+    is_primary: false
+  - keyword: "eucalipto gatos"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - guia-completa-hogar-seguro-mascotas
+  - alimentos-toxicos-gatos
+  - enriquecimiento-ambiental-gato-interior
+  - senales-estres-gatos
+  internal_links_from: []
+  word_count: 2821
+  has_eeat_signals: true
+  notes: "Plan v7 #13. SERP informational (Kiwoko, Purina, Hill's). Unique angle: niveles de gravedad + auditoría por habitación + protocolo emergencia vet Laura + 15 plantas seguras. Resuelve microbúsquedas virales (sansevieria, eucalipto, orquídea, potus). Valencia mención (adelfa). Cross-cluster link with alimentos-toxicos-gatos. 5 FAQs from PAA/related searches. Intro pattern: dato sorprendente (5 hojas lirio = fallo renal)."
+  needs_update_reason: ''

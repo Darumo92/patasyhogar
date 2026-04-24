@@ -577,25 +577,26 @@ queue:
       - "guia-completa-salud-bienestar-perros"
 
   - id: "q_026"
-    title: "Plantas tóxicas para gatos: cuáles evitar y alternativas seguras"
+    title: "Plantas tóxicas para gatos: guía por habitación 2026"
     blog_type: "tutorial"
     content_type: "cluster"
     cluster_id: "tc_hogar_mascotas"
     animal: "gato"
-    target_keywords: ["plantas tóxicas para gatos", "plantas no tóxicas para gatos", "plantas venenosas para gatos", "plantas aptas para gatos"]
-    unique_angle: "Lista completa con fotos de las plantas más comunes en hogares españoles que son tóxicas, síntomas de intoxicación, qué hacer si tu gato come una, y alternativas seguras que puedes tener. Experiencia real con Mango."
+    target_keywords: ["plantas tóxicas para gatos", "plantas no tóxicas para gatos", "plantas venenosas para gatos", "plantas aptas para gatos", "sansevieria gatos", "eucalipto gatos"]
+    unique_angle: "Lista por nivel de gravedad + auditoría por habitación (salón, cocina, dormitorio, balcón) + protocolo emergencia veterinario + 15 alternativas seguras. Resuelve micro-búsquedas virales (sansevieria, eucalipto, potus, orquídea)."
     priority: "high"
     priority_reason: "From KW Surfer audit 2026-04-09. 'plantas tóxicas para gatos' = 1600 — HIGHEST volume informational keyword in hogar cluster. Also covers 'no tóxicas' (1000) and 'venenosas' (720)."
-    status: "planned"
-    estimated_word_count: 2500
-    serp_analyzed: false
+    status: "published"
+    actual_word_count: 2821
+    serp_analyzed: true
     cannibalization_check: "passed — only alimentos-toxicos-gatos exists (food, not plants)"
-    notes: "Tipo: informativo. Cross-links to alimentos-toxicos-gatos. Strong cluster page for hogar pillar which has no SEO keyword of its own."
+    notes: "Published 2026-04-24 (plan v7 #13). Slug: plantas-toxicas-gatos-guia-hogar. URL: /cuidados/plantas-toxicas-gatos-guia-hogar/. Cross-links to alimentos-toxicos-gatos, hogar-seguro-mascotas, enriquecimiento-ambiental, senales-estres-gatos."
     depends_on: []
     internal_link_targets:
       - "guia-completa-hogar-seguro-mascotas"
       - "alimentos-toxicos-gatos"
       - "enriquecimiento-ambiental-gato-interior"
+      - "senales-estres-gatos"
 
   # === NEW ITEMS FROM KW SURFER AUDIT 2026-04-09 ===
 

@@ -323,3 +323,15 @@
 - `public/images/articulos/mejor-arenero-autolimpiable-gatos.webp` (Pexels, Kindel Media)
 **Summary:** Comparativa autolimpiables 5 modelos 162€-549€. SERP intent blended. E-E-A-T: Laura (vet) + experiencia Mango rechazando cerrado + vecina con 3 gatos usando CATLINK. TopPick: CATLINK (250€). 6 FAQs desde PAA. Enlaza a pillar higiene gatos + guía arenero existente. Cross-link hacia futuro artículo #30 (merece la pena autolimpiable).
 **Triggered by:** user (plan v7 #12)
+
+## 2026-04-24 — Publish new article (#13 v7 plan) — plantas-toxicas-gatos-guia-hogar
+**Action:** Publish new informational article
+**Files:**
+- `src/content/articulos/plantas-toxicas-gatos-guia-hogar.mdx` (created, 2821 words, status human-review)
+- `.seo-engine/data/content-map.yaml` — nuevo entry slug plantas-toxicas-gatos-guia-hogar en cluster tc_hogar_mascotas
+- `.seo-engine/data/seo-keywords.csv` — updated KW `plantas tóxicas para gatos` (1600) de planned a published
+- `.seo-engine/data/content-queue.yaml` — q_026 de planned a published con título/ángulo/notas actualizados
+- `.seo-engine/data/topic-clusters.yaml` — cluster tc_hogar_mascotas actualizado con nuevo slug
+- `public/images/articulos/plantas-toxicas-gatos-guia-hogar.webp` (Pexels, Ludovic Delot)
+**Summary:** Guía informativa plantas tóxicas/seguras por habitación. SERP intent informacional pura (Kiwoko, Purina, Hill's). Unique angle: niveles de gravedad + auditoría por zona (salón, cocina, dormitorio, balcón, otros) + protocolo emergencia con vet Laura + 15 plantas seguras como alternativas. Resuelve microbúsquedas virales (sansevieria, eucalipto, orquídea, potus). Mención Valencia (adelfa mediterránea). Coherencia canon: referenciada anécdota Kira-potos (hogar-seguro-mascotas) + nueva anécdota Mango al adoptarlo (retiró plantas antes). E-E-A-T: Laura veterinaria + INToxicología + hábito hierba gatera Mango. 5 FAQs desde PAA. Cross-cluster link con alimentos-toxicos-gatos. Cubre KW 1600 + laterales ~2960 vol adicional.
+**Triggered by:** user (plan v7 #13, lookup calendario 2026-04-24)

@@ -805,14 +805,14 @@ clusters:
         slug: "cuanto-cuesta-mantener-un-perro-al-mes"
         status: "published"
         blog_slug: "cuanto-cuesta-mantener-un-perro-al-mes"
-      # Planned pages
-      - title: "Plantas tóxicas para gatos: cuáles evitar y alternativas seguras"
+      - title: "Plantas tóxicas para gatos: guía por habitación 2026"
         target_keyword: "plantas tóxicas para gatos"
-        slug: "plantas-toxicas-gatos"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
-        notes: "Added 2026-04-09 from KW audit. 'plantas tóxicas para gatos' = 1600. Related: 'plantas no tóxicas para gatos' = 1000, 'plantas venenosas para gatos' = 720, 'plantas aptas para gatos' = 480. HIGHEST VOL informational keyword in hogar cluster."
+        slug: "plantas-toxicas-gatos-guia-hogar"
+        status: "human-review"
+        serp_analyzed: true
+        blog_slug: "plantas-toxicas-gatos-guia-hogar"
+        notes: "Published 2026-04-24 (plan v7 #13). Cubre KW 1600 + no tóxicas 1000 + venenosas 720 + seguras 480 + aptas 480 + microbúsquedas virales (sansevieria, eucalipto, orquidea, potus). 2821 palabras. Estructura diferenciada: niveles de gravedad + auditoría por habitación + protocolo emergencia vet + 15 alternativas seguras."
+      # Planned pages
       - title: "Cómo proteger tu casa para un gato"
         target_keyword: "proteger casa gato seguridad"
         slug: "como-proteger-casa-gato"
