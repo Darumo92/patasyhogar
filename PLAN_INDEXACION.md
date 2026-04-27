@@ -1,7 +1,7 @@
 # Plan de recuperación de indexación — patasyhogar.com
 
 Creado: 2026-04-23
-Última revisión: 2026-04-23
+Última revisión: 2026-04-27
 
 ## Diagnóstico (resumen)
 
@@ -139,10 +139,16 @@ Orden sugerido (por volumen tráfico esperado): `/alimentacion/` → `/higiene/`
 
 ## KPIs a vigilar (GSC semanal)
 
-| Métrica | Baseline 2026-04-20 | Objetivo 2026-05-14 | Objetivo 2026-06-15 |
-|---|---:|---:|---:|
-| URLs indexadas | 62 | 85 | 130 |
-| URLs "Rastreada sin indexar" | 102 | 70 | 40 |
-| Impresiones/día | ~3 | ~20 | ~100 |
+| Métrica | Baseline 2026-04-20 | 2026-04-27 (sem 1) | Objetivo 2026-05-14 | Objetivo 2026-06-15 |
+|---|---:|---:|---:|---:|
+| URLs indexadas | 62 | 62 (=) | 85 | 130 |
+| URLs "Rastreada sin indexar" | 102 | 102 (=) | 70 | 40 |
+| Impresiones/día | ~3 | 0 | ~20 | ~100 |
+
+### Lectura 2026-04-27 (semana 1)
+- **Sin cambios** en indexadas ni "Rastreada sin indexar". 0 impresiones.
+- Esperable: sólo 4 días desde Ola 1 (sitemap-hubs eliminado 2026-04-23) + goteo tipo apenas iniciado (5 art/día desde 2026-04-23). Google necesita 2-3 semanas para reflejar.
+- Continuar plan: NO precipitar. Mantener goteo + indexación manual GSC + Reddit.
+- Próxima revisión: lunes 2026-05-04.
 
 Revisar cada lunes. Si no hay mejora tras 2 semanas de Ola 1+2, revisitar hipótesis H2/H6 con inspección manual por URL.
