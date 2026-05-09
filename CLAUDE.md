@@ -14,6 +14,20 @@ Cualquier instrucción persistente que el usuario pida guardar (reglas de compor
 
 **Al inicio de cada sesión / tarea relevante:** leer `docs/agent-context/README.md` y los archivos de `feedback/` que apliquen. Ver `docs/agent-context/README.md` para detalles.
 
+## Setup en máquina nueva
+
+Repo self-contained. En un Mac o Linux nuevo:
+
+```bash
+git clone git@github.com:Darumo92/patasyhogar.git
+cd patasyhogar
+bash claude-environment/setup.sh
+```
+
+Eso copia las 40 skills, hooks, statusline y settings.json a `~/.claude/`. Luego en Claude Code instalar plugins manualmente (`/plugin install superpowers ui-ux-pro-max everything-claude-code caveman`).
+
+Ver `claude-environment/README.md` para detalles y mantenimiento.
+
 ## Humanizer obligatorio en todo texto publicable
 
 **Regla:** antes de presentar al usuario cualquier texto destinado a publicación, ejecutar la skill `humanizer` sobre el borrador y entregar la versión humanizada.
