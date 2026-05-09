@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-07
+Última actualización: 2026-05-09
 
 ---
 
@@ -106,6 +106,9 @@ Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualiz
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-09 r/mascotas: Shih tzu camina mal (1t42z4p) — segunda opinión traumatólogo veterinario, luxación rótula común raza pequeña, alfombras suelo liso, no saltar muebles. Día 13 Fase A. Humanizer aplicado.
+- 2026-05-09 r/mascotas: Gato llora bienvenida (1t7d72j) — refuerzo intermitente, ignorar 5-10 min llegada, juego caña pre-cena, revisar estímulos patio. Día 13 Fase A. Humanizer aplicado.
+- 2026-05-09 r/GatosArgentinos: Gata muerde cola obsesivamente (1t6tpx2) — hiperestesia felina o compulsivo, vet revisar lumbar/cola, juego caña 2-3x/día, interrumpir bucle sin regañar. Día 13 Fase A. Humanizer aplicado.
 - 2026-05-07 r/mascotas: Reply a helena_voss en gatito no acepta gatita (8 meses) — pivot a coexistencia separada, duplicar recursos, etóloga si agresión activa. Día 11 Fase A
 - 2026-05-07 r/GatosArgentinos: Reply a olivialittlefeet en alimentos castradas — aclarar pienso=alimento balanceado seco. Día 11 Fase A
 - 2026-05-04 r/mascotas: Reply a youboycer en Kisa muerde cobija — anécdota Mango manta vieja por suya. Día 8 Fase A
