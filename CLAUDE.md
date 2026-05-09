@@ -2,6 +2,44 @@
 
 Web de guias y comparativas de productos para perros y gatos con monetizacion por afiliados (Amazon, Zooplus, Tiendanimal) y publicidad (AdSense futuro).
 
+## Regla de instrucciones (meta)
+
+Cualquier instrucción persistente que el usuario pida guardar (reglas de comportamiento, preferencias de redacción, workflows nuevos, etc.) debe guardarse en el repo, NO en memoria local de Claude Code. Razón: el repo se sincroniza entre ordenadores; la memoria local no.
+
+**Dónde guardar cada cosa:**
+- Reglas de comportamiento, correcciones de usuario, workflows nuevos → `docs/agent-context/feedback/<slug>.md`
+- Estado del proyecto (planes, calendarios, tracking) → `docs/agent-context/project-state/<slug>.md`
+- Métodos técnicos validados → `docs/agent-context/reference/<slug>.md`
+- Reglas globales de proyecto que aplican siempre y son cortas → este `CLAUDE.md`
+
+**Al inicio de cada sesión / tarea relevante:** leer `docs/agent-context/README.md` y los archivos de `feedback/` que apliquen. Ver `docs/agent-context/README.md` para detalles.
+
+## Humanizer obligatorio en todo texto publicable
+
+**Regla:** antes de presentar al usuario cualquier texto destinado a publicación, ejecutar la skill `humanizer` sobre el borrador y entregar la versión humanizada.
+
+**Aplica a:**
+- Artículos MDX nuevos (cuerpo, intros, FAQs, descripciones meta)
+- Reescrituras o ediciones de artículos existentes
+- Pillar pages
+- Comentarios y posts en Reddit
+- Captions Pinterest, social copy, email
+- Meta titles y meta descriptions
+
+**No aplica a:**
+- Mensajes conversacionales en el chat con el usuario
+- Código, commits, PRs
+- Frontmatter técnico (slugs, tags, categorías)
+
+**Por qué:** Google está rechazando contenido por calidad (Helpful Content + SpamBrain). Patrones AI son trigger directo. Reddit tampoco quiere texto que huela a IA. La skill `humanizer` cataloga 29 patrones AI y obliga a hacer pasada anti-tells.
+
+**Cómo aplicar:**
+1. Redactar borrador
+2. Antes de presentarlo, invocar `Skill humanizer`
+3. Aplicar reescritura siguiendo la guía (rule of three, em dashes, copula avoidance, vocabulario AI, etc.)
+4. Hacer pasada audit: "¿qué hace que esto suene AI?" y corregir tells residuales
+5. Presentar versión final humanizada al usuario
+
 ## Stack tecnico
 
 - **Framework:** Astro 5 (static output)

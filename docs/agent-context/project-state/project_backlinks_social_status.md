@@ -1,0 +1,251 @@
+# Backlinks + Social Status (Patas y Hogar)
+
+Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
+
+Última actualización: 2026-05-07
+
+---
+
+## 1. Pinterest
+
+### Cuenta
+- **URL perfil:** https://www.pinterest.com/patasyhogar/
+- **Tipo:** Business account (gratis)
+- **Email:** contacto@patasyhogar.com
+- **Verificación dominio:** completada via DNS TXT en Cloudflare
+  - Registro TXT: `pinterest-site-verification=893b63f38a557656d114459afe5c2ee2`
+- **Meta tag verificación:** añadido en `src/layouts/Base.astro`
+  ```html
+  <meta name="p:domain_verify" content="893b63f38a557656d114459afe5c2ee2" />
+  ```
+- **sameAs en schemas:** añadido en Organization (index), Person (sobre-mi + Article), publisher (Article). Commit 75288d0.
+
+### Tableros (5)
+| # | Nombre | Descripción |
+|---|--------|-------------|
+| 1 | Cuidado de perros | Guías, trucos y consejos para cuidar a tu perro: alimentación, higiene, paseos, salud y bienestar |
+| 2 | Cuidado de gatos | Todo sobre gatos: alimentación, arena, areneros, fuentes de agua, juguetes y cuidados en casa |
+| 3 | Comida para mascotas | Comparativas de pienso, comida húmeda, snacks y fuentes para perros y gatos |
+| 4 | Juguetes y enriquecimiento | Juguetes mentales, alfombras olfato, rascadores y accesorios |
+| 5 | Paseo y viaje con mascotas | Arneses, correas, transportines, GPS y accesorios de coche |
+
+### Pines publicados (13 — día 1: 10 + día 5: 3)
+| # | Artículo | Tablero | Archivo local |
+|---|----------|---------|---------------|
+| 1 | Mejores camas para perros | Cuidado de perros | `/tmp/pin-mejor-cama-perro.png` |
+| 2 | Mejor arnés perro | Paseo y viaje con mascotas | `/tmp/pin-mejor-arnes-perro.png` |
+| 3 | Mejor pienso perro | Comida para mascotas | `/tmp/pin-mejor-pienso-perro.png` |
+| 4 | Mejor fuente agua gatos | Comida para mascotas | `/tmp/pin-mejor-fuente-agua-gatos-silenciosa.png` |
+| 5 | Mejor arena aglomerante gato | Cuidado de gatos | `/tmp/pin-mejor-arena-aglomerante-gatos.png` |
+| 6 | Mejor rascador gatos | Juguetes y enriquecimiento | `/tmp/pin-mejor-rascador-gatos-guia.png` |
+| 7 | Mejor antiparasitario perros | Cuidado de perros | `/tmp/pin-mejor-antiparasitario-perros-guia.png` |
+| 8 | Mejor comedero auto WiFi gato | Comida para mascotas | `/tmp/pin-mejor-comedero-automatico-wifi-gatos.png` |
+| 9 | Mejor transportín gato | Paseo y viaje con mascotas | `/tmp/pin-mejor-transportin-gatos-guia.png` |
+| 10 | Mejor champú piel sensible perro | Cuidado de perros | `/tmp/pin-mejor-champu-perros-piel-sensible.png` |
+| 11 | Mejor arenero autolimpiable gatos | Cuidado de gatos | `/tmp/pin-mejor-arenero-autolimpiable-gatos.png` (día 5) |
+| 12 | Mejor GPS perro | Paseo y viaje con mascotas | `/tmp/pin-mejor-gps-perro.png` (día 5) |
+| 13 | Mejor juguete mental perros | Juguetes y enriquecimiento | `/tmp/pin-mejor-juguete-mental-perros-guia.png` (día 5) |
+
+### Generación de pines
+- Script: `scripts/generate-pin.mjs` (1 pin) y `scripts/generate-pins-batch.mjs` (batch)
+- Formato: 1000×1500 PNG, hero image con overlay oscuro + título + `patasyhogar.com`
+- Sharp compone el SVG con el hero WebP del artículo.
+
+### Estado tráfico (2026-04-22)
+- **0 impresiones** tras primeras 24-48h. Normal: sandbox cuenta nueva Pinterest (2-4 semanas).
+- Rich Pins se auto-activan con OG tags correctos (ya los tenemos). Pinterest retiró debugger público 2024.
+- Claim dominio toma 24-72h adicionales tras verificación DNS.
+
+### Comentarios en pines ajenos (día 5 - 2026-04-24)
+| Pin | Cuenta | Tema |
+|---|---|---|
+| PawHut 72L arenero autolimpiable | Aosom.es | Arenero gato grande |
+| NICREW 2.4L fuente | tiposdegatos | Fuente gato silenciosa |
+| Tractive GPS | blogdeuma | GPS Tractive batería |
+| Dispensador golosinas | Brandmelab | Juguete mental Kong |
+| Adoptar gatos pequeños | elgatofeliz_pinterest | Adopción gatito pequeño |
+
+### Cuentas seguidas (día 5 - 2026-04-24)
+- tiposdegatos
+- elgatofeliz_pinterest
+- blogdeuma
+- Aosomes
+- Brandmelab
+
+### Plan Pinterest
+- **No** subir 10 pines de golpe y abandonar. Postea **2-3/día consistente** para evitar flag abandono.
+- Follow 20-30 cuentas grandes del nicho (perros, gatos, hogar, mascotas).
+- Repinea 5-10 pines ajenos relevantes/día.
+- Comenta 3-5 pines ajenos/día.
+- Esperar 2-6 semanas para primer tráfico real.
+
+---
+
+## 2. Reddit
+
+### Cuenta
+- **Usuario:** u/Pristine_Review5630
+- **URL perfil:** https://www.reddit.com/user/Pristine_Review5630/
+- **Email:** contacto@patasyhogar.com
+- **Verificación email:** sí
+- **Estado:** sin shadowban. 6 comentarios visibles públicamente.
+
+### Perfil
+- Nombre mostrar: "Daniel (patasyhogar)"
+- Bio: "Daniel, desde Valencia. Vivo con Kira (mestiza adoptada) y Mango (gato naranja). Escribo sobre productos y cuidados de mascotas."
+- Avatar: logo verde patasyhogar (favicon-512.png)
+- Enlaces redes sociales configurados:
+  - https://www.pinterest.com/patasyhogar/
+  - https://patasyhogar.com
+
+### Subs unidos
+- r/gatos, r/mascotas, r/AdoptaUnPerro, r/espanol, r/AskEspanol, r/Valencia
+- (r/perros estaba baneado por unmoderated)
+
+### Comentarios publicados (acumulado)
+Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
+
+Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-07 r/mascotas: Reply a helena_voss en gatito no acepta gatita (8 meses) — pivot a coexistencia separada, duplicar recursos, etóloga si agresión activa. Día 11 Fase A
+- 2026-05-07 r/GatosArgentinos: Reply a olivialittlefeet en alimentos castradas — aclarar pienso=alimento balanceado seco. Día 11 Fase A
+- 2026-05-04 r/mascotas: Reply a youboycer en Kisa muerde cobija — anécdota Mango manta vieja por suya. Día 8 Fase A
+- 2026-05-04 r/mascotas: Reply a Shot-Market-8980 en Apoquel barato — matiz Wallapop conocidos vs desconocidos, pregunta seguro. Día 8 Fase A
+- 2026-05-04 r/mascotas: Apoquel barato — evitar Wallapop, comparar Zooplus/Tiendanimal, genérico oclacitinib. Día 8 Fase A
+- 2026-05-04 r/GatosArgentinos: Comederos automáticos dos michis — PETLIBRO, depósito 3-4L, dos separados si dietas distintas. Día 8 Fase A
+- 2026-05-04 r/mascotas: Kisa muerde cobija — destete temprano, ritual confort, anécdota Mango manta propia. Día 8 Fase A
+- 2026-05-03 r/GatosArgentinos: Reply a nomueraspolilla en Vainilla/canillas ("Normal asustarse, me alegra que esté bien. Bebedero de circulación lo soluciona"). Día 7 Fase A
+- 2026-05-03 r/GatosArgentinos: Vecina gatos escapan — hablar con vecina ya por gatito en árbol + conversación de fondo antes de que pase algo malo. Día 7 Fase A
+- 2026-05-03 r/mascotas: Nombre nueva integrante familia (Luna, Canela, Chispa). Día 7 Fase A
+- 2026-05-03 r/GatosArgentinos: Vainilla descubrió canillas — instinto agua movimiento + señales alarma + anécdota Mango bebedero. Día 7 Fase A
+- 2026-05-02 r/GatosArgentinos: Pica/cordones operación (etóloga sí + compañero con precaución + red balcón urgente + juego activo caza). Día 6 Fase A
+- 2026-05-02 r/GatosArgentinos: Alimento gato castrado Livra vs Royal Canin (Livra OK, RC formulación bajó, taurina suplemento si comida casera). Día 6 Fase A
+- 2026-05-01 r/mascotas: Recomendaciones gato orinándose camas (FIC recurrente + limpiador enzimático no lavandina + Feliway + anécdota Mango arenero movido obras). Día 5 Fase A
+- 2026-05-01 r/GatosArgentinos: Titi trayendo ratones (regañar no asocia + complementar luna_swet juego predatorio + cascabel ligero reduce éxito caza). Día 5 Fase A
+- 2026-04-30 r/mascotas: Historial médico 3 perros (carpeta física + foto cartilla + Sheets fechas). Día 4 Fase A
+- 2026-04-30 r/GatosArgentinos: Hierba gatera no reacción (catnip 30% no responde, valeriana, matatabi). Día 4 Fase A
+- 2026-04-30 r/mascotas: Pequeño gigante 40kg gente entrometida (filtro consejos + sesión puntual adiestrador refuerzo positivo). Día 4 Fase A
+- 2026-04-30 r/mascotas: Reply a YaTocaCambiar en hilo pequeño gigante (descartar pisar patas + adiestrador solo si problema concreto)
+- 2026-04-29 r/mascotas: Cachorro Coco no come (papilla croqueta + 5 tomas + parásitos internos). Día 3 Fase A
+- 2026-04-29 r/GatosArgentinos: Cono Michael Jackson (anécdota Mango ligera). Día 3 Fase A
+- 2026-04-29 r/mascotas: Gato perdido 8 años (búsqueda nocturna + arenero usado + Mango armario escobas). Día 3 Fase A
+- 2026-04-28 r/mascotas: Chuby celo 6 años. Día 2 Fase A
+- 2026-04-28 r/GatosArgentinos: Manta eléctrica reply
+- 2026-04-28 r/GatosArgentinos: Motita reply
+- 2026-04-28 r/GatosArgentinos: Castrar gata embarazada
+- 2026-04-27 r/GatosArgentinos: Manta eléctrica gatos (+10 años) — anécdota Mango cable mordido + almohadilla autocalentable + bolsa agua. Día 1 Fase A
+- 2026-04-27 r/GatosArgentinos: Motita adopción
+- 2026-04-27 r/mascotas: Malassezia Schnauzer (cuidado remedios caseros)
+- 2026-04-26 r/mascotas: Seresto antiparasitario
+- 2026-04-26 r/mascotas: empatía mascotas
+- 2026-04-26 r/mascotas: tratar 3 a la vez antiparasitario
+- 2026-04-26 r/mascotas: Oscar/Kira anécdota
+- 2026-04-25 r/mascotas: Mango pulgas parking
+- 2026-04-24 r/GatosArgentinos: adopción Mango bebé
+- 2026-04-23 r/GatosArgentinos: GPS vs chip
+- 2026-04-21 r/GatosArgentinos: torre comedero perros
+- 2026-04-21 r/mascotas: Excellent pienso
+- 2026-04-20 r/GatosArgentinos: Mango 2 meses traumatizado
+- 2026-04-20 r/GatosArgentinos: gatos memoria asociativa
+- 2026-04-20 r/mascotas: Kira protectora 8 meses
+- 2026-04-20 r/mascotas: Luna/Canela nombre
+
+Posts antiguos día 1-2 originales (referencia histórica):
+- r/mascotas: Nombre gatita adoptada, socializar perro arisco, alimento 4 gatos Purina
+- r/GatosArgentinos: gatos olvidan, adoptar arisco, torre rascador ventana
+
+### Posts propios publicados (1 — día 3)
+- r/mascotas: "¿Vuestros gatos también ignoran el cuenco y solo beben de la fuente?"
+- **Feedback:** demasiado básico para alguien que se presenta como experto. Siguientes posts deben mostrar experiencia (comparativas propias, datos, anécdotas con conclusiones).
+
+### Estadísticas cuenta
+- Karma comentarios: 0
+- Karma post: 1
+- Total karma: 1
+- Creada: 2026-04-20
+
+### Estrategia futura posts propios (NO novato)
+
+Patrón: experiencia detallada + conclusión técnica + pregunta específica al final.
+
+**Ejemplos aprobados:**
+
+1. **Comparativa personal con dato**
+   ```
+   Comparé 5 fuentes de agua para gatos durante 4 meses. Esto es lo que aprendí
+   [experiencia real, mediciones, conclusión, pregunta técnica concreta al final]
+   ```
+
+2. **Historia + aprendizaje**
+   ```
+   Llevé a mi perra al vet con 40€ de arnés roto. La respuesta del veterinario me sorprendió
+   [anécdota, giro, conclusión útil, pregunta específica]
+   ```
+
+3. **Dato contraintuitivo**
+   ```
+   Dato raro: mi gato NO usa el arenero desde que lo cambié de sitio. ¿Es tan sensible el feline?
+   [experimento, marcas, conclusión, pregunta sobre estudios/evidencia]
+   ```
+
+### Reglas Reddit
+- **Mínimo 30-45 min entre comentarios** primera semana (mejor 1h). Cuenta nueva + rapidez = shadowban.
+- **Nunca link a patasyhogar.com** en posts/comentarios hasta karma >50 y cuenta >1 mes.
+- **Chequear shadowban:** copiar URL comentario → abrir en incógnito. Si no aparece → shadowban.
+- Comprobar karma via API pública: `curl https://www.reddit.com/user/Pristine_Review5630/about.json`
+- Cross-post mínimo 48h tras post original.
+- NO repetir mismo post en varios subs.
+
+### Subs ES mascotas activos
+- r/mascotas (~ES+LATAM mixto, más fotos que text)
+- r/GatosArgentinos (más activo, text posts frecuentes)
+- r/AdoptaUnPerro
+- r/Dogtraining_Spanish
+- r/Valencia (local, uso futuro)
+
+### Subs no-útiles (muertos/fotos only)
+- r/perros: baneado por unmoderated
+- r/gatos: portugués (no ES)
+- r/espanol / r/AskEspanol: casi nada de mascotas
+
+### Próximos pasos Reddit
+- **Día 4-5:** 3-5 comentarios más + primer post propio **tipo experiencia/comparativa** (no novato)
+- **Día 7-10:** Si karma >30 → primer drop contextual de enlace ("lo analicé aquí: patasyhogar.com/[slug]")
+- **Semana 2-3:** Incorporar 1 post propio/semana + 10-15 comentarios útiles
+
+---
+
+## 3. Canales pendientes (no iniciados)
+
+### Quora ES (prioridad media)
+- Abrir cuenta `es.quora.com` con email contacto
+- 5 respuestas largas (200-400 palabras) a preguntas reales
+- Enlace contextual 1× tras experiencia ("lo analicé aquí: patasyhogar.com/[slug]")
+- Nofollow pero Google indexa + tráfico referral
+
+### Comentarios blogs mascotas ES (prioridad baja-media)
+- hogarmania.com/mascotas
+- 20minutos.es (artículos mascotas)
+- consumer.es/mascotas
+- hola.com/mascotas
+
+### Grupos Facebook ES mascotas (prioridad baja)
+- Sin backlink SEO. Tráfico directo si se referencia sitio.
+
+### Foros evaluados y descartados
+- mundoanimalia.com → ahora es marketplace, no foro
+- mascotadomestica.com → blog WordPress sin foro
+- mascotalia.com → caído
+- foro.mascotaking.com → caído
+- animalesmascotas.com → blog sin foro
+
+---
+
+## 4. Checklist para nueva sesión
+
+Cuando retomar esto en sesión nueva:
+
+1. Leer este archivo para contexto
+2. Verificar karma/shadowban Reddit via curl about.json
+3. Escanear posts nuevos subs ES (`scripts/generate-pins-batch.mjs` pattern para batch)
+4. Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual)
+5. Continuar plan según día actual
