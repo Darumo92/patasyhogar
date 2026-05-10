@@ -106,6 +106,10 @@ Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualiz
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-10 r/mascotas: Limpieza orejas perro (1t8janw) — limpiador específico Otoclean/Epi-Otic, masaje base oreja, no bastoncillos, ácaros Otodectes si cera oscura, frecuencia según raza, no agua oxigenada/alcohol. Día 14 Fase A. Humanizer aplicado.
+- 2026-05-10 r/GatosArgentinos: Encías inflamadas gata 1 mes (1t76idv) — limpieza dental anestesia + radiografía, descartar reabsorción dental raíz, test calicivirus FIV FeLV, derivar odontólogo veterinario, comida húmeda templada. Día 14 Fase A. Humanizer aplicado.
+- 2026-05-10 r/mascotas: Reply a Roby1414 en gato llora bienvenida (1t7d72j) — validar + cierre, aguantar primeros días sin ceder, cambio en 10-15 días. Día 14 Fase A.
+- 2026-05-10 r/GatosArgentinos: Reply a SmokedOutSoul_ en gata muerde cola (1t6tpx2) — validar + cierre, hiperestesia tiene manejo, ánimo. Día 14 Fase A.
 - 2026-05-09 r/mascotas: Shih tzu camina mal (1t42z4p) — segunda opinión traumatólogo veterinario, luxación rótula común raza pequeña, alfombras suelo liso, no saltar muebles. Día 13 Fase A. Humanizer aplicado.
 - 2026-05-09 r/mascotas: Gato llora bienvenida (1t7d72j) — refuerzo intermitente, ignorar 5-10 min llegada, juego caña pre-cena, revisar estímulos patio. Día 13 Fase A. Humanizer aplicado.
 - 2026-05-09 r/GatosArgentinos: Gata muerde cola obsesivamente (1t6tpx2) — hiperestesia felina o compulsivo, vet revisar lumbar/cola, juego caña 2-3x/día, interrumpir bucle sin regañar. Día 13 Fase A. Humanizer aplicado.
