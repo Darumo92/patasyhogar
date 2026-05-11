@@ -13,7 +13,7 @@ Contexto persistente para Claude Code. Todo lo que el agente debe recordar entre
 Al inicio de cualquier tarea relevante:
 
 1. Leer `feedback/` entero — son reglas que ya están en vigor.
-2. Leer `project-state/` que aplique a la tarea (ej: `project_seo_daily_routine.md` para tareas SEO diarias, `project_plan_v7_calendario.md` para artículo del día).
+2. Leer `project-state/` que aplique a la tarea (ej: `project_seo_daily_routine.md` para rutina SEO diaria, `project_outreach_plan_2026-05-11.md` para plan outreach autoridad 6 meses, `project_backlinks_social_status.md` para estado vivo Reddit/Pinterest).
 3. Consultar `reference/` cuando se necesite el método validado correspondiente.
 
 ## Mantenimiento
