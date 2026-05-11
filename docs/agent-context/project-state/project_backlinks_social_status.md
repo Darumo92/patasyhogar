@@ -229,11 +229,17 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## 3. Canales pendientes (no iniciados)
 
-### Quora ES (prioridad media)
-- Abrir cuenta `es.quora.com` con email contacto
-- 5 respuestas largas (200-400 palabras) a preguntas reales
-- Enlace contextual 1× tras experiencia ("lo analicé aquí: patasyhogar.com/[slug]")
-- Nofollow pero Google indexa + tráfico referral
+### Quora ES
+- **Cuenta:** creada 2026-05-11 con identidad editorial Patas y Hogar
+- **Credencial usada:** "Redacción de Patas y Hogar sobre perros y gatos"
+- **Estado:** iniciado
+- **Regla cuenta nueva:** primeras 1-2 respuestas sin enlace para evitar patrón promocional
+- **Nofollow pero Google indexa + tráfico referral**
+
+#### Respuestas publicadas
+| Fecha | Pregunta | URL | Link | Notas |
+|---|---|---|---|---|
+| 2026-05-11 | "Cuál es el pienso más sabroso y bueno para un gato delicado, esterilizado y de más de 10 años" | https://es.quora.com/unanswered/Cuál-es-el-pienso-más-sabroso-y-bueno-para-un-gato-delicado-esterilizado-y-de-más-de-10-años | No | Primera respuesta cuenta nueva. Humanizer aplicado. Tema gato senior esterilizado, revisión veterinaria previa, transición lenta, comida húmeda. |
 
 ### Comentarios blogs mascotas ES (prioridad baja-media)
 - hogarmania.com/mascotas

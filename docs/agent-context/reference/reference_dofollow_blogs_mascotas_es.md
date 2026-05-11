@@ -42,21 +42,21 @@ Lista para prospección. **NO comentar sin validar DoFollow primero.**
 |---|---|---|---|---|---|
 | 1 | Expertoanimal | expertoanimal.com | 80+ | ❓ | Tráfico gigante. Comentarios cerrados en muchos artículos. |
 | 2 | Mis Animales | misanimales.com | 75+ | ❓ | Comentarios abiertos. Verificar. |
-| 3 | Wakyma | wakyma.com | 50+ | ❓ | Blog mascotas + lifestyle. |
+| 3 | Wakyma | wakyma.com | 50+ | ❌ NoFollow | Validado 2026-05-11: acepta comentarios, pero links aprobados salen `rel="ugc external nofollow"`. Útil solo como mención/referral. |
 | 4 | Hogarmania mascotas | hogarmania.com/mascotas | 80+ | ❓ | Sección mascotas. Posible Disqus. |
 | 5 | Bekia mascotas | bekia.es/mascotas | 60+ | ❓ | Comentarios activos. |
 | 6 | El blog de tus mascotas | elblogdetusmascotas.com | 30+ | ❓ | Blog independiente nicho. |
 | 7 | Tiendanimal blog | blog.tiendanimal.es | 65+ | ❓ | Probable NoFollow (tienda). |
 | 8 | Zooplus magazine | zooplus.es/magazine | 70+ | ❓ | Probable NoFollow (tienda). |
 | 9 | Soy de Perros | soydeperros.com | 35+ | ❓ | Blog independiente perros. |
-| 10 | Soy de Gatos | soydegatos.com | 30+ | ❓ | Blog independiente gatos. |
-| 11 | Mundogatos | mundogatos.com | 30+ | ❓ | Nicho gatos. |
-| 12 | Mundo Animalia | mundoanimalia.com | 40+ | ❓ | Histórico, verificar si activo. |
-| 13 | Notas de mascotas | notasdemascotas.com | 25+ | ❓ | |
-| 14 | Curio Sfera mascotas | curiosfera-animales.com | 40+ | ❓ | |
+| 10 | Soy de Gatos | soydegatos.com | 30+ | ❌ Descartado | Validado 2026-05-11: WordPress con campo website, pero sitio abandonado desde 2022 y señal demasiado débil. Descartado por decisión usuario. |
+| 11 | Mundogatos | mundogatos.com | 30+ | ❌ Sin comentarios útiles | Validado 2026-05-11: no se detecta WordPress/comment form; enlaces sociales nofollow. |
+| 12 | Mundo Animalia | mundoanimalia.com | 40+ | ❌ No aplica | Validado 2026-05-11: ahora marketplace/Next.js, no blog con comentarios validable. |
+| 13 | Notas de mascotas | notasdemascotas.com | 25+ | ❓ Bloqueado | Validado 2026-05-11: Cloudflare/JS challenge impide inspección por HTML. Revisar manual si interesa. |
+| 14 | Curio Sfera mascotas | curiosfera-animales.com | 40+ | ⚠️ Comentarios activos antiguos | Validado 2026-05-11: feed de comentarios activo hasta 2023; falta validar artículo concreto con campo website y `rel`. |
 | 15 | Mis Mascotas | mismascotas.es | 30+ | ❓ | |
-| 16 | Vetersalud blog | vetersalud.es | 35+ | ❓ | Red veterinarios España. |
-| 17 | El blog de Mascoteros | mascoteros.com | 30+ | ❓ | |
+| 16 | Vetersalud blog | vetersalud.es | 35+ | ❌ NoFollow/noindex | Validado 2026-05-11: ruta blog devuelve `robots noindex, nofollow`. |
+| 17 | El blog de Mascoteros | mascoteros.com | 30+ | ❌ Descartado | Validado 2026-05-11: HTML contiene spam/casino, no usar. |
 | 18 | Periódico digital mascotas (varios) | varios | variable | ❓ | Buscar nicho con comentarios activos. |
 | 19 | Animales y Mascotas | animalesymascotas.es | 25+ | ❓ | |
 | 20 | Adopta un peludo | adoptaunpeludo.com | 35+ | ❓ | Adopción nicho. |
