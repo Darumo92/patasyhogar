@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-09
+Última actualización: 2026-05-11
 
 ---
 
@@ -103,9 +103,15 @@ Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualiz
 - (r/perros estaba baneado por unmoderated)
 
 ### Comentarios publicados (acumulado)
+Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05-04). Sano.
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-11 r/mascotas: Reply a Marianabananamar en orejas perro (1t8janw) — confusión vídeos tratamiento vs prevención, limpiador sirve para ambas, 1x/mes basta perro sano. Día 1 plan outreach. Humanizer aplicado.
+- 2026-05-11 r/mascotas: Reply a Recent-Garage7968 (OP) en AYUDA URGENTE (1t9xeg1) — info crítica: microchip a nombre ella + juicios previos + amenaza suicidio. Reply: patrón juega a favor OP, microchip no equivale propiedad legal absoluta, documentar pruebas cesión hecho, 024 línea suicidio ES, no responder amenaza, denuncia coacción, consulta abogado primera gratuita. Día 1 plan outreach. Humanizer aplicado.
+- 2026-05-11 r/GatosArgentinos: Gatito asma felina (1t9a69s) — pinta asma sí, AeroKat cámara espaciadora gato clave inhalador, descartar cardiopatía hipertrófica con ecocardio cardiólogo veterinario, 2da opinión internista felino vs clínica general, triggers ambientales (arena polvorienta, humo, ambientadores, velas), castración no provocó coincidencia temporal. Día 1 plan outreach. Humanizer aplicado.
+- 2026-05-11 r/GatosArgentinos: Gato hiperactivo post-castración (1t9axsw) — testosterona baja 6-8 sem no de golpe, energía sin canalizar, sesiones caña 2-3x/día caza-mata-come, sesión larga pre-cena, premios escondidos casa, arañazo es sobreestimulación post-op no agresividad, anécdota Mango. Día 1 plan outreach. Humanizer aplicado.
+- 2026-05-11 r/mascotas: AYUDA URGENTE adopción perrita conflictiva (1t9xeg1) — no llevar protectora (mes y medio apego), verificar microchip 20-40€, regularizar si caducado, bloqueo número/WhatsApp/Instagram + capturas previas, denuncia preventiva acoso sin abogado, abogado plan B primera consulta gratuita ES, anécdota Kira protectora. Día 1 plan outreach. Humanizer aplicado.
 - 2026-05-10 r/mascotas: Limpieza orejas perro (1t8janw) — limpiador específico Otoclean/Epi-Otic, masaje base oreja, no bastoncillos, ácaros Otodectes si cera oscura, frecuencia según raza, no agua oxigenada/alcohol. Día 14 Fase A. Humanizer aplicado.
 - 2026-05-10 r/GatosArgentinos: Encías inflamadas gata 1 mes (1t76idv) — limpieza dental anestesia + radiografía, descartar reabsorción dental raíz, test calicivirus FIV FeLV, derivar odontólogo veterinario, comida húmeda templada. Día 14 Fase A. Humanizer aplicado.
 - 2026-05-10 r/mascotas: Reply a Roby1414 en gato llora bienvenida (1t7d72j) — validar + cierre, aguantar primeros días sin ceder, cambio en 10-15 días. Día 14 Fase A.
