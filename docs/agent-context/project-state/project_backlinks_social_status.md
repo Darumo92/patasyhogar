@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-11
+Última actualización: 2026-05-12
 
 ---
 
@@ -107,6 +107,13 @@ Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-12 r/AskSpain: Post propio "¿Cuánto os cuesta al mes tener perro o gato en España, sin contar caprichos?" (1tayoo3) — pregunta de coste mensual real mascotas en España, sin link, para conversación en sub grande ES. URL: https://www.reddit.com/r/askspain/comments/1tayoo3/cuánto_os_cuesta_al_mes_tener_perro_o_gato_en/ Día 2 plan outreach. Humanizer aplicado.
+- 2026-05-12 r/mascotas: Reply a MiriMix13 en artrosis labrador senior (1taftjo) — validar dificultad emocional de limitar paseos, explicar UCM/hospital universitario con supervisión, sugerir llamar y preguntar por dolor crónico + rehabilitación + revisión medicación/calidad de vida, llevar historial de tratamientos. Día 2 plan outreach. Humanizer aplicado.
+- 2026-05-12 r/mascotas: Reply a HearingSoft250 en gato llora al llegar a casa (1t7d72j) — confirmar estimulación activa/caza dirigida y matizar que si cambio brusco o maullido distinto conviene vet para descartar dolor dental, tiroides o cistitis. Día 2 plan outreach. Humanizer aplicado.
+- 2026-05-12 r/GatosArgentinos: Reply a tom_varela en gato hiperactivo post-castración (1t9axsw) — caña con captura final, evitar frustración si nunca alcanza presa. Día 2 plan outreach. Humanizer aplicado.
+- 2026-05-12 r/GatosArgentinos: Reply a Useful-Addendum7593 en asma felina (1t9a69s) — llevar registro de episodios con hora, duración y contexto antes de consulta vet. Día 2 plan outreach. Humanizer aplicado.
+- 2026-05-12 r/mascotas: Reply a Marianabananamar en orejas perro (1t8janw) — cierre corto tras agradecimiento, sin olor/rojez y sin meter nada profundo va bien. Día 2 plan outreach. Humanizer aplicado.
+- 2026-05-12 r/mascotas: Artrosis en perrete (1taftjo) — recomendar unidad dolor/rehabilitación, hospital veterinario en Madrid, paseos cortos antes del umbral, alfombras antideslizantes, control peso labrador senior. Día 2 plan outreach. Humanizer aplicado.
 - 2026-05-11 r/mascotas: Reply a Marianabananamar en orejas perro (1t8janw) — confusión vídeos tratamiento vs prevención, limpiador sirve para ambas, 1x/mes basta perro sano. Día 1 plan outreach. Humanizer aplicado.
 - 2026-05-11 r/mascotas: Reply a Recent-Garage7968 (OP) en AYUDA URGENTE (1t9xeg1) — info crítica: microchip a nombre ella + juicios previos + amenaza suicidio. Reply: patrón juega a favor OP, microchip no equivale propiedad legal absoluta, documentar pruebas cesión hecho, 024 línea suicidio ES, no responder amenaza, denuncia coacción, consulta abogado primera gratuita. Día 1 plan outreach. Humanizer aplicado.
 - 2026-05-11 r/GatosArgentinos: Gatito asma felina (1t9a69s) — pinta asma sí, AeroKat cámara espaciadora gato clave inhalador, descartar cardiopatía hipertrófica con ecocardio cardiólogo veterinario, 2da opinión internista felino vs clínica general, triggers ambientales (arena polvorienta, humo, ambientadores, velas), castración no provocó coincidencia temporal. Día 1 plan outreach. Humanizer aplicado.
@@ -224,6 +231,9 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 - **Día 4-5:** 3-5 comentarios más + primer post propio **tipo experiencia/comparativa** (no novato)
 - **Día 7-10:** Si karma >30 → primer drop contextual de enlace ("lo analicé aquí: patasyhogar.com/[slug]")
 - **Semana 2-3:** Incorporar 1 post propio/semana + 10-15 comentarios útiles
+
+### Decisiones operativas Reddit/outreach
+- 2026-05-12: No buscar menciones en foros como tarea diaria. Mantener foco en Reddit/Quora/blogs según indique el usuario, pero no proponer "mentions foros" por defecto aunque aparezcan en el plan original.
 
 ---
 
