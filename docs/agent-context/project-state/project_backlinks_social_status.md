@@ -107,6 +107,7 @@ Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-12 r/AskSpain: Reply a Mamaun30 en post propio coste mascotas España (1tayoo3) — destacar que mucha gente calcula con gato joven/sano y la vejez cambia el coste real; caso >200€/mes incluso con seguro. Día 2 plan outreach. Humanizer aplicado.
 - 2026-05-12 r/AskSpain: Post propio "¿Cuánto os cuesta al mes tener perro o gato en España, sin contar caprichos?" (1tayoo3) — pregunta de coste mensual real mascotas en España, sin link, para conversación en sub grande ES. URL: https://www.reddit.com/r/askspain/comments/1tayoo3/cuánto_os_cuesta_al_mes_tener_perro_o_gato_en/ Día 2 plan outreach. Humanizer aplicado.
 - 2026-05-12 r/mascotas: Reply a MiriMix13 en artrosis labrador senior (1taftjo) — validar dificultad emocional de limitar paseos, explicar UCM/hospital universitario con supervisión, sugerir llamar y preguntar por dolor crónico + rehabilitación + revisión medicación/calidad de vida, llevar historial de tratamientos. Día 2 plan outreach. Humanizer aplicado.
 - 2026-05-12 r/mascotas: Reply a HearingSoft250 en gato llora al llegar a casa (1t7d72j) — confirmar estimulación activa/caza dirigida y matizar que si cambio brusco o maullido distinto conviene vet para descartar dolor dental, tiroides o cistitis. Día 2 plan outreach. Humanizer aplicado.
@@ -234,7 +235,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ### Decisiones operativas Reddit/outreach
 - 2026-05-12: No buscar menciones en foros como tarea diaria. Mantener foco en Reddit/Quora/blogs según indique el usuario, pero no proponer "mentions foros" por defecto aunque aparezcan en el plan original.
-- 2026-05-12 17:37 CEST: Repaso final post propio r/AskSpain `1tayoo3`. Estado público: score 8, 38 comentarios, upvote ratio 1.0. Cuenta: total karma 45 (comment 40, link 5). Se respondieron las cadenas prioritarias: Puzzleheaded-Sun7418, teh_adry, Blackterial, xCrossFaith, HistoricalTackle5049, TuMadreTeCago, pleasedlurker, Weomir, y replies directas posteriores de Puzzleheaded/Historical. Recomendación: no seguir contestando ahora salvo reply directo nuevo; hacer una pasada ligera por la noche. No enlazar patasyhogar todavía.
+- 2026-05-12 17:37 CEST: Repaso final post propio r/AskSpain `1tayoo3`. Estado público: score 8, 38 comentarios, upvote ratio 1.0. Cuenta: total karma 45 (comment 40, link 5). Se respondieron las cadenas prioritarias: Puzzleheaded-Sun7418, teh_adry, Blackterial, xCrossFaith, HistoricalTackle5049, TuMadreTeCago, pleasedlurker, Weomir, Mamaun30, y replies directas posteriores de Puzzleheaded/Historical. Recomendación: no seguir contestando ahora salvo reply directo nuevo; hacer una pasada ligera por la noche. No enlazar patasyhogar todavía.
 
 ---
 
