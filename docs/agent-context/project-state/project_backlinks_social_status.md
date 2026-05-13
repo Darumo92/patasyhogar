@@ -103,6 +103,7 @@ Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualiz
 - (r/perros estaba baneado por unmoderated)
 
 ### Comentarios publicados (acumulado)
+Karma 2026-05-13 21:00 CEST: comment=45, link=6, total=51. Sano. Ya supera karma 50, pero la cuenta aún no tiene 1 mes (creada 2026-04-20), así que mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
 Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05-04). Sano.
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
@@ -239,6 +240,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 ### Decisiones operativas Reddit/outreach
 - 2026-05-12: No buscar menciones en foros como tarea diaria. Mantener foco en Reddit/Quora/blogs según indique el usuario, pero no proponer "mentions foros" por defecto aunque aparezcan en el plan original.
 - 2026-05-12 17:37 CEST: Repaso final post propio r/AskSpain `1tayoo3`. Estado público: score 8, 38 comentarios, upvote ratio 1.0. Cuenta: total karma 45 (comment 40, link 5). Se respondieron las cadenas prioritarias: Puzzleheaded-Sun7418, teh_adry, Blackterial, xCrossFaith, HistoricalTackle5049, TuMadreTeCago, pleasedlurker, Weomir, Mamaun30, y replies directas posteriores de Puzzleheaded/Historical. Recomendación: no seguir contestando ahora salvo reply directo nuevo; hacer una pasada ligera por la noche. No enlazar patasyhogar todavía.
+- 2026-05-13 21:00 CEST: Revisión inbox público/replies. Últimos 50 comentarios del usuario tienen `replies=0`, sin replies directas pendientes. Post propio r/AskSpain `1tayoo3`: score 12, 58 comentarios, upvote ratio 0.93. Hay 5 comentarios nuevos de primer nivel desde la última pasada (Iron_Gal, noxss, ColleenDi, PLS_PM_ME_YOUR_B0OBS, OrangeOk729). Recomendación: responder como mucho 1-2 si se quiere mantener presencia; prioridad Iron_Gal por leishmania + Librela y ColleenDi por perro senior cardiaco. No responder todos. No enlazar patasyhogar todavía.
 
 ---
 
