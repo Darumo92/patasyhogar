@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-12
+Última actualización: 2026-05-13
 
 ---
 
@@ -107,6 +107,9 @@ Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-13 r/mascotas: Ayuda pezón morado/inflamado con quistes mamarios (1tbi0kk) — recomendar veterinario cuanto antes, señales de urgencia, no manipular/drenar, llamar clínicas para foto/pago fraccionado si hay problema de disponibilidad o dinero. Día 3 plan outreach. Humanizer aplicado.
+- 2026-05-13 r/GatosArgentinos: Edad castración hembras gatita 5 meses pequeña con riesgo patio (1tbfygv) — no estirar sin vet, decidir por peso/estado general, riesgo celo/escape/machos, consulta ya. Día 3 plan outreach. Humanizer aplicado.
+- 2026-05-13 r/GatosArgentinos: Mordida juego vs estrés en gato (1tb2p7c) — diferenciar juego pasado de rosca vs enojo por lenguaje corporal, evitar manos como juguete, redirigir a caña/presa, anécdota Mango pequeño. Día 3 plan outreach. Humanizer aplicado.
 - 2026-05-12 r/AskSpain: Reply a Mamaun30 en post propio coste mascotas España (1tayoo3) — destacar que mucha gente calcula con gato joven/sano y la vejez cambia el coste real; caso >200€/mes incluso con seguro. Día 2 plan outreach. Humanizer aplicado.
 - 2026-05-12 r/AskSpain: Post propio "¿Cuánto os cuesta al mes tener perro o gato en España, sin contar caprichos?" (1tayoo3) — pregunta de coste mensual real mascotas en España, sin link, para conversación en sub grande ES. URL: https://www.reddit.com/r/askspain/comments/1tayoo3/cuánto_os_cuesta_al_mes_tener_perro_o_gato_en/ Día 2 plan outreach. Humanizer aplicado.
 - 2026-05-12 r/mascotas: Reply a MiriMix13 en artrosis labrador senior (1taftjo) — validar dificultad emocional de limitar paseos, explicar UCM/hospital universitario con supervisión, sugerir llamar y preguntar por dolor crónico + rehabilitación + revisión medicación/calidad de vida, llevar historial de tratamientos. Día 2 plan outreach. Humanizer aplicado.
@@ -241,6 +244,16 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## 3. Canales pendientes (no iniciados)
 
+### Medium
+- **Cuenta:** https://medium.com/@patasyhogar
+- **Estado:** iniciado 2026-05-13
+- **Regla:** usar import/canonical o canonical manual hacia patasyhogar.com. Evitar comparativas afiliadas puras; priorizar informativos y piezas editoriales.
+
+#### Artículos publicados
+| Fecha | Título | URL | Canonical | Notas |
+|---|---|---|---|---|
+| 2026-05-13 | "Cuánto cuesta tener un perro en España: números reales de 2026" | https://medium.com/@patasyhogar/cu%C3%A1nto-cuesta-tener-un-perro-en-espa%C3%B1a-n%C3%BAmeros-reales-de-2026-2d816a1e6a29 | https://patasyhogar.com/cuidados/cuanto-cuesta-mantener-un-perro-al-mes/ | Primer artículo Medium del plan outreach. Importado/adaptado desde Patas y Hogar, imagen hero convertida a JPG para preview, topics: Pets, Dogs, Spain, Pet Care, Personal Finance. |
+
 ### Quora ES
 - **Cuenta:** creada 2026-05-11 con identidad editorial Patas y Hogar
 - **Credencial usada:** "Redacción de Patas y Hogar sobre perros y gatos"
@@ -251,6 +264,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 #### Respuestas publicadas
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-05-13 | "Cuánto cuesta tener un perro pequeño o un gato durante un mes? Cuánto costaría mantenerlo cada uno" | https://qr.ae/pFv67q | No | Segunda respuesta cuenta nueva. Comparativa perro pequeño vs gato en España: rangos mensuales, partidas recurrentes, primer año y fondo de emergencias. Sin link para evitar patrón promocional temprano. Humanizer aplicado. |
 | 2026-05-11 | "Cuál es el pienso más sabroso y bueno para un gato delicado, esterilizado y de más de 10 años" | https://es.quora.com/unanswered/Cuál-es-el-pienso-más-sabroso-y-bueno-para-un-gato-delicado-esterilizado-y-de-más-de-10-años | No | Primera respuesta cuenta nueva. Humanizer aplicado. Tema gato senior esterilizado, revisión veterinaria previa, transición lenta, comida húmeda. |
 
 ### Comentarios blogs mascotas ES (prioridad baja-media)

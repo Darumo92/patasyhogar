@@ -7,6 +7,7 @@ node_modules/
 .astro/
 .indexnow-state.json
 .superpowers/
+medium-assets/
 
 .claude/settings.local.json
 .claude/worktrees/
