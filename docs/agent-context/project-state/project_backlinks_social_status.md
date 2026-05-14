@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-13
+Última actualización: 2026-05-14
 
 ---
 
@@ -108,6 +108,10 @@ Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-14 r/GatosArgentinos: Cómo hacer que mi gato deje de irse a pelear? (1tbzgy8) — explicar que no conviene esperar a que se pase solo si ya vuelve lastimado, transición a interior con arenero grande/arena sin perfume/redes, posible gato nuevo/territorio, vigilar mordidas y abscesos. Día 4 plan outreach. Humanizer aplicado. Sin link.
+- 2026-05-14 r/mascotas: líneas aéreas que viajen con perros medianos en cabina? 18 kilos (1tceiza) — advertir que con 18 kg cabina es muy difícil por límites de peso+transportín y espacio bajo asiento, no asumir soporte emocional, llamar antes de comprar y pedir confirmación por escrito/caso, valorar alternativas si viajará frecuente. Día 4 plan outreach. Humanizer aplicado. Sin link.
+- 2026-05-14 r/mascotas: Es normal que duerma tanto cuando llegan a cierta edad? (1tcn778) — validar que perros senior duermen más, distinguir cambio gradual vs brusco, señales para veterinario (levantarse, beber más, peso, desorientación, dolor articular), cierre natural. Día 4 plan outreach. Humanizer aplicado. Sin link.
+- 2026-05-14 r/mascotas: Adaptación entre gato y perros (1tcksq8) — recomendar pausar encuentros directos tras susto/ataque, habitación segura para gatito bebé, intercambio de olores, sesiones con barrera, perra joven con correa y corte si fija demasiado, especial cuidado con perra ciega, no forzar premios si hay tensión. Día 4 plan outreach. Humanizer aplicado. Sin link.
 - 2026-05-13 r/mascotas: Ayuda pezón morado/inflamado con quistes mamarios (1tbi0kk) — recomendar veterinario cuanto antes, señales de urgencia, no manipular/drenar, llamar clínicas para foto/pago fraccionado si hay problema de disponibilidad o dinero. Día 3 plan outreach. Humanizer aplicado.
 - 2026-05-13 r/GatosArgentinos: Edad castración hembras gatita 5 meses pequeña con riesgo patio (1tbfygv) — no estirar sin vet, decidir por peso/estado general, riesgo celo/escape/machos, consulta ya. Día 3 plan outreach. Humanizer aplicado.
 - 2026-05-13 r/GatosArgentinos: Mordida juego vs estrés en gato (1tb2p7c) — diferenciar juego pasado de rosca vs enojo por lenguaje corporal, evitar manos como juguete, redirigir a caña/presa, anécdota Mango pequeño. Día 3 plan outreach. Humanizer aplicado.
@@ -266,6 +270,8 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 #### Respuestas publicadas
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-05-14 | "Por qué mi perro duerme mucho por el día?" | https://es.quora.com/Por-qué-mi-perro-duerme-mucho-por-el-día | No | Tercera respuesta cuenta. Explica horas normales de sueño por edad, diferencia sueño normal vs apatía, señales veterinarias y rutina/estimulación. Sin link. Humanizer aplicado. |
+| 2026-05-14 | "Cuál es la mejor forma de viajar con perros grandes en avión?" | https://es.quora.com/Cuál-es-la-mejor-forma-de-viajar-con-perros-grandes-en-avión | No | Cuarta respuesta cuenta. Cabina vs bodega/carga, llamada previa a aerolínea, transportín rígido, preparación gradual, no sedar salvo veterinario, alternativas si perro senior/braquicéfalo/ansioso. Sin link. Humanizer aplicado. |
 | 2026-05-13 | "Cuánto cuesta tener un perro pequeño o un gato durante un mes? Cuánto costaría mantenerlo cada uno" | https://qr.ae/pFv67q | No | Segunda respuesta cuenta nueva. Comparativa perro pequeño vs gato en España: rangos mensuales, partidas recurrentes, primer año y fondo de emergencias. Sin link para evitar patrón promocional temprano. Humanizer aplicado. |
 | 2026-05-11 | "Cuál es el pienso más sabroso y bueno para un gato delicado, esterilizado y de más de 10 años" | https://es.quora.com/unanswered/Cuál-es-el-pienso-más-sabroso-y-bueno-para-un-gato-delicado-esterilizado-y-de-más-de-10-años | No | Primera respuesta cuenta nueva. Humanizer aplicado. Tema gato senior esterilizado, revisión veterinaria previa, transición lenta, comida húmeda. |
 
