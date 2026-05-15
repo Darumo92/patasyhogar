@@ -10,6 +10,7 @@ client_secret*.json
 oauth-client.json
 .credentials/
 .DS_Store
+.idea/
 .astro/
 .indexnow-state.json
 .superpowers/
