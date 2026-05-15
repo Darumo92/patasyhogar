@@ -1,0 +1,14 @@
+# Plugins deseados por herramienta.
+# No todos los clientes tienen el mismo sistema de plugins; este archivo es inventario canonico.
+
+[claude-code]
+superpowers
+ui-ux-pro-max
+everything-claude-code
+caveman
+
+[opencode]
+# Actualmente sin plugin opencode obligatorio. Skills y MCP quedan gestionados por setup.sh.
+
+[codex]
+# Actualmente sin plugin Codex obligatorio. Skills y MCP quedan gestionados por setup.sh.

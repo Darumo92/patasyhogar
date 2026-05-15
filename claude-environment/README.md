@@ -2,7 +2,19 @@
 
 Entorno Claude Code replicable para este proyecto. Versionado para que cualquier máquina (macOS o Linux) reproduzca las mismas skills, hooks y settings tras `git pull`.
 
-## Uso en máquina nueva
+## Uso recomendado en máquina nueva
+
+Para sincronizar skills entre Claude Code, Codex CLI, opencode y `~/.agents`, usa la capa comun:
+
+```bash
+git clone git@github.com:Darumo92/patasyhogar.git
+cd patasyhogar
+bash agent-environment/setup.sh --force
+```
+
+`agent-environment/setup.sh` crea enlaces simbolicos hacia `claude-environment/skills/` en vez de copiar skills a cada cliente.
+
+## Uso legacy solo Claude Code
 
 ```bash
 git clone git@github.com:Darumo92/patasyhogar.git
