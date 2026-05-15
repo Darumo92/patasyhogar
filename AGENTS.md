@@ -162,14 +162,14 @@ Antes de presentar al usuario cualquier texto destinado a publicación, aplicar 
 **Nunca adivinar datos:**
 
 - Nunca adivinar precios, URLs, imágenes, ASINs ni specs de productos.
-- Si no se puede verificar un dato, preguntar al usuario inmediatamente.
-- Amazon bloquea scraping con CAPTCHA — pedir al usuario precio E imagen juntos para cada producto.
+- Usar primero `scripts/amazon-api.mjs` para verificar Amazon: título, ASIN, precio, disponibilidad, imagen, URL, features/descripción y reseñas si la API las devuelve. Ver `docs/agent-context/reference/reference_amazon_api_workflow.md`.
+- Si la API no devuelve un dato, preguntar al usuario solo por ese dato faltante o verificar por otra fuente permitida.
 
 **Al cambiar un producto/ASIN, actualizar TODO sin excepción:**
 
 1. `nombre` — debe coincidir con el producto real en Amazon.
-2. `imagen` — pedir al usuario la URL de Amazon (`m.media-amazon.com`).
-3. `precio` — verificado por el usuario.
+2. `imagen` — usar la URL devuelta por Amazon API (`m.media-amazon.com`) si está disponible.
+3. `precio` — usar el precio devuelto por Amazon API si está disponible.
 4. `puntosFuertes` — describir el producto real, no el anterior.
 5. Texto del artículo — análisis, tablas comparativas, FAQs, resumen.
 6. Verificar que el producto encaja en la temática del artículo.
@@ -178,14 +178,14 @@ Antes de presentar al usuario cualquier texto destinado a publicación, aplicar 
 
 - CSP solo permite imágenes de `'self'` y `m.media-amazon.com` — nunca usar URLs de otros dominios directamente.
 - Imágenes de Zooplus/Tiendanimal no funcionan (hotlinking bloqueado) — descargar a `public/images/productos/`.
-- Pedir al usuario precio E imagen en la misma petición.
+- Pedir al usuario precio o imagen solo si Amazon API no los devuelve.
 - Antes de commit, verificar que **todos** los productos en `ComparisonTable` tienen campo `imagen`.
 - Imágenes hero de Pexels: comprobar duplicados por hash con `md5 -r public/images/articulos/*.webp | sort | awk '{print $1}' | uniq -d`.
 - **Imágenes Amazon optimizadas:** usar siempre `_AC_SL300_` en las URLs (no `_AC_SL1500_`). Las imágenes se muestran a 120-160px; 300px cubre 2x retina.
 
 **Búsqueda en tiendas (obligatorio):**
 
-- Buscar cada producto individualmente en Amazon, Zooplus y Tiendanimal antes de escribir.
+- Buscar/verificar cada producto individualmente en Amazon con `scripts/amazon-api.mjs` antes de escribir; después buscar Zooplus y Tiendanimal.
 - Buscar por nombre exacto: `site:zooplus.es "[nombre producto]"` y `site:tiendanimal.es "[nombre producto]"`.
 - Si el nombre no funciona, buscar también por marca.
 - Verificar cada URL — confirmar que es el producto correcto, no una página genérica.
@@ -200,10 +200,17 @@ Antes de presentar al usuario cualquier texto destinado a publicación, aplicar 
 
 - Si un producto es `TopPick` Y está en `ComparisonTable`, ambos deben tener los mismos enlaces de tiendas.
 
+**Auditoría recurrente:**
+
+- Ejecutar `npm run audit:amazon` una vez al mes para revisar todos los productos Amazon.
+- Ejecutar `npm run update:amazon-cache` una vez al mes para refrescar precio, imagen y disponibilidad en `src/data/amazon-products.json` sin retocar artículos MDX.
+- Ejecutar una muestra semanal con `node scripts/audit-amazon-products.mjs --limit 10 --stdout` o por artículo con `--article <slug>`.
+- El auditor genera reporte, no modifica artículos.
+
 ### 3. Checklist obligatorio para artículos nuevos
 
 1. **Verificar que el tema no existe ya** — buscar en `src/content/articulos/` y proponer ampliar el existente si lo hay.
-2. **URLs y productos Amazon reales** — buscar en Amazon.es, nunca inventar ASINs/URLs/imágenes. Si un producto no existe, buscar reemplazo equivalente.
+2. **URLs y productos Amazon reales** — usar `scripts/amazon-api.mjs` para buscar/verificar productos Amazon; nunca inventar ASINs/URLs/imágenes. Si un producto no existe, buscar reemplazo equivalente.
 3. **Contenido extenso y de calidad SEO** — mínimo ~2000-3000 palabras por comparativa, introducción, H2/H3, comparativas, guía de compra, FAQs.
 4. **Imagen única** — verificar duplicados con `md5sum public/images/articulos/*.jpg | sort | awk '{print $1}' | uniq -d`. Especifica y representativa, no genérica.
 5. **Campos correctos en `ComparisonTable`:**
@@ -235,8 +242,8 @@ Cuando se revisa un artículo existente, aplicar checklist completo:
 
 **Productos y datos:**
 
-1. Verificar todos los ASINs — pasar enlaces al usuario para precio + imagen.
-2. Si precio difiere: actualizar. Si no disponible: reemplazar o eliminar.
+1. Verificar todos los ASINs con `scripts/amazon-api.mjs`.
+2. Si precio difiere: actualizar desde la API. Si no disponible: pedir solo el dato faltante, buscar reemplazo o eliminar.
 3. Buscar cada producto en Zooplus y Tiendanimal.
 4. Añadir `precioAmazon`, `precioZooplus`, `precioTiendanimal`.
 5. Precios consistentes en `ComparisonTable`, `TopPick`, texto y tablas markdown.

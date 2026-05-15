@@ -173,7 +173,7 @@ export async function searchItems(keywords, options = {}) {
 
 function formatItem(item) {
   const title = item.itemInfo?.title?.displayValue || '(sin título)';
-  const price = item.offersV2?.listings?.[0]?.price?.displayAmount || '(sin precio)';
+  const price = item.offersV2?.listings?.[0]?.price?.money?.displayAmount || '(sin precio)';
   const image = item.images?.primary?.large?.url
     || item.images?.primary?.medium?.url
     || '(sin imagen)';
@@ -252,7 +252,9 @@ async function main() {
   }
 }
 
-main().catch(err => {
-  console.error(`❌ Error: ${err.message}`);
-  process.exit(1);
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch(err => {
+    console.error(`❌ Error: ${err.message}`);
+    process.exit(1);
+  });
+}

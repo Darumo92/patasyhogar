@@ -1,5 +1,6 @@
 ---
 import StoreIcon from './StoreIcon.astro';
+import { cachedAmazonAvailability, cachedAmazonImage, cachedAmazonPrice, formatAmazonCheckedDate, isAmazonAvailable } from '@/lib/amazon-products';
 
 const AMAZON_TAG = 'patasyhogar-21';
 const WEBGAINS_CAMPAIGN = '1746742';
@@ -45,20 +46,37 @@ const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
 const optimizeImg = (url?: string) =>
   url?.replace(/\._AC_SL\d+_/, '._AC_SL320_') ?? url;
 
-const imagenOpt = optimizeImg(imagen);
+const amazonPrice = cachedAmazonPrice(enlaceAmazon);
+const amazonAvailability = cachedAmazonAvailability(enlaceAmazon);
+const amazonDisponible = isAmazonAvailable(amazonAvailability);
+const displayPrice = amazonPrice || precio;
+const imagenOpt = optimizeImg(cachedAmazonImage(enlaceAmazon) || imagen);
 
-const tiendas: { nombre: string; clase: string; precio: string; href: string; mejor: boolean }[] = [];
-if (amazonFinal) tiendas.push({ nombre: 'Amazon', clase: 'amazon', precio: precioAmazon || precio, href: amazonFinal, mejor: false });
-if (enlaceZooplus) tiendas.push({ nombre: 'Zooplus', clase: 'zooplus', precio: precioZooplus || precio, href: enlaceZooplus, mejor: false });
-if (enlaceTiendanimal) tiendas.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: precioTiendanimal || precio, href: tiendanimalHref(enlaceTiendanimal), mejor: false });
+const tiendas: { nombre: string; clase: string; precio: string; href: string; mejor: boolean; disponible: boolean; estado?: string; revisado?: string | null }[] = [];
+if (amazonFinal) tiendas.push({
+  nombre: 'Amazon',
+  clase: 'amazon',
+  precio: amazonPrice || precioAmazon || precio,
+  href: amazonFinal,
+  mejor: false,
+  disponible: amazonDisponible,
+  estado: amazonDisponible ? undefined : amazonAvailability?.availability || 'Disponibilidad no confirmada',
+  revisado: formatAmazonCheckedDate(amazonAvailability),
+});
+if (enlaceZooplus) tiendas.push({ nombre: 'Zooplus', clase: 'zooplus', precio: precioZooplus || precio, href: enlaceZooplus, mejor: false, disponible: true });
+if (enlaceTiendanimal) tiendas.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: precioTiendanimal || precio, href: tiendanimalHref(enlaceTiendanimal), mejor: false, disponible: true });
 
 if (tiendas.length > 1) {
-  const withNum = tiendas.map(s => ({ ...s, num: parseFloat((s.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.')) }));
-  const min = Math.min(...withNum.map(s => s.num));
-  const cheapest = withNum.filter(s => s.num === min);
-  if (cheapest.length === 1 && new Set(withNum.map(s => s.num)).size > 1) {
-    const idx = tiendas.findIndex(s => s.nombre === cheapest[0].nombre);
-    if (idx >= 0) tiendas[idx].mejor = true;
+  const withNum = tiendas
+    .filter(s => s.disponible && s.precio.match(/\d/))
+    .map(s => ({ ...s, num: parseFloat((s.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.')) }));
+  if (withNum.length >= 2) {
+    const min = Math.min(...withNum.map(s => s.num));
+    const cheapest = withNum.filter(s => s.num === min);
+    if (cheapest.length === 1 && new Set(withNum.map(s => s.num)).size > 1) {
+      const idx = tiendas.findIndex(s => s.nombre === cheapest[0].nombre);
+      if (idx >= 0) tiendas[idx].mejor = true;
+    }
   }
 }
 ---
@@ -74,7 +92,7 @@ if (tiendas.length > 1) {
     <div class="top-pick-info">
       <p class="top-pick-nombre">{nombre}</p>
       <p class="top-pick-desc">{descripcion}</p>
-      <p class="top-pick-precio">{precio}</p>
+      <p class="top-pick-precio">{displayPrice}</p>
       {tiendas.length > 1 ? (
         <div class="tp-price-table">
           {tiendas.map(s => (
@@ -90,22 +108,27 @@ if (tiendas.length > 1) {
               </span>
               <span class="tp-price-amount">{s.precio}</span>
               {s.mejor && <span class="tp-price-best-tag">Mejor precio</span>}
-              <span class="tp-price-go">Ver →</span>
+              {!s.disponible && <span class="tp-stock-tag">{s.estado}</span>}
+              <span class="tp-price-go">{s.disponible ? 'Ver →' : 'Ver disponibilidad →'}</span>
+              {s.revisado && <span class="tp-checked">Rev. {s.revisado}</span>}
             </a>
           ))}
         </div>
       ) : (
         <div class="top-pick-stores">
           {tiendas.map(s => (
-            <a
-              href={s.href}
-              class={`affiliate-button ${s.clase}`}
-              target="_blank"
-              rel="nofollow noopener noreferrer sponsored"
-            >
-              <StoreIcon tienda={s.clase as any} size={15} />
-              {s.nombre} — {s.precio}
-            </a>
+            <>
+              <a
+                href={s.href}
+                class={`affiliate-button ${s.clase}`}
+                target="_blank"
+                rel="nofollow noopener noreferrer sponsored"
+              >
+                <StoreIcon tienda={s.clase as any} size={15} />
+                {s.nombre} — {s.disponible ? s.precio : 'ver disponibilidad'}
+              </a>
+              {!s.disponible && <span class="tp-store-note">{s.estado}{s.revisado ? ` · Rev. ${s.revisado}` : ''}</span>}
+            </>
           ))}
         </div>
       )}
@@ -268,6 +291,21 @@ if (tiendas.length > 1) {
   white-space: nowrap;
 }
 
+.tp-stock-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #991b1b;
+  background: #fee2e2;
+  padding: 0.15rem 0.45rem;
+  border-radius: 100px;
+}
+
+.tp-checked {
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
 .tp-price-go {
   margin-left: auto;
   font-weight: 600;
@@ -287,6 +325,12 @@ if (tiendas.length > 1) {
   font-size: 0.88rem;
   padding: 0.65rem 1.2rem;
   font-weight: 700;
+}
+
+.tp-store-note {
+  align-self: center;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
 }
 
 @media (max-width: 540px) {

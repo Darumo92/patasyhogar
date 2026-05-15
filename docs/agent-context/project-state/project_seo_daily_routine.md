@@ -59,6 +59,49 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 | Sábado | LinkedIn Article 1 + 1 respuesta Quora + 2 comentarios blogs |
 | Domingo | Reddit nicho (3 comentarios) + 1 mention foro + revisar inbox/karma |
 
+## Mantenimiento Amazon productos
+
+El mantenimiento de productos Amazon forma parte del plan operativo, pero no debe convertirse en edición masiva de artículos.
+
+**Regla base:**
+
+- `npm run update:amazon-cache` actualiza precio, imagen y disponibilidad en `src/data/amazon-products.json` sin tocar MDX.
+- `npm run audit:amazon` genera reporte de productos rotos o sospechosos sin modificar artículos.
+- Solo tocar artículos cuando el problema sea editorial: producto no disponible, ASIN que ya no corresponde, TopPick inviable, imagen rota no resuelta por cache o recomendación que queda obsoleta.
+
+**Cadencia mensual:**
+
+- Primer viernes de cada mes: ejecutar auditoría completa con `npm run audit:amazon -- --delay 10000 --retries 5`.
+- Después ejecutar cache completo con `npm run update:amazon-cache -- --delay 10000 --retries 5`.
+- Revisar resumen del reporte y elegir máximo 1 artículo prioritario para corrección editorial si hay problemas graves.
+
+**Cadencia semanal:**
+
+- Viernes: revisar una muestra con `node scripts/audit-amazon-products.mjs --limit 10 --stdout --delay 5000` o auditar 1 artículo tocado recientemente con `--article <slug>`.
+- Si hay producto no disponible o con envío absurdo en un TopPick, añadirlo a cola de corrección.
+- No corregir manualmente diferencias pequeñas de precio: las cubre el cache.
+
+**Distribución por días cuando haya cola editorial Amazon:**
+
+| Día | Acción Amazon si hay pendientes |
+|---|---|
+| Lunes | Revisar 1 artículo con problemas críticos/TopPick inviable y decidir si reemplazar producto. |
+| Miércoles | Corregir 1 artículo priorizado si requiere reemplazo real; verificar Amazon API + Zooplus/Tiendanimal. |
+| Viernes | Ejecutar muestra semanal o mensual según toque; actualizar cache si se tocó producto. |
+
+**Límite de cambios editoriales:**
+
+- Máximo 1-2 artículos por semana salvo bug grave.
+- No hacer tandas grandes de 20+ artículos.
+- Cache sí puede actualizar cientos de productos porque solo cambia datos volátiles centralizados.
+
+**Estado inicial 2026-05-15:**
+
+- Auditoría completa ejecutada: `reports/amazon-products/audit-2026-05-15.md`.
+- Cache completo actualizado: `src/data/amazon-products.json` con 424 ASINs, 0 no encontrados.
+- Resumen cache: 349 con precio, 75 sin precio, 288 en stock, 74 no disponibles/no encontrados, 24 con lead time/fecha futura.
+- Primer artículo recomendado para revisión editorial: `mejor-rascador-gatos-guia` (8 productos no disponibles y varios posibles desajustes de título).
+
 ## Hitos seguimiento
 
 | Fecha | Acción |

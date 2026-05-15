@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-14
+Última actualización: 2026-05-15
 
 ---
 
@@ -302,3 +302,29 @@ Cuando retomar esto en sesión nueva:
 3. Escanear posts nuevos subs ES (`scripts/generate-pins-batch.mjs` pattern para batch)
 4. Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual)
 5. Continuar plan según día actual
+
+---
+
+## 5. Mantenimiento Amazon productos
+
+Integrado en rutina SEO diaria desde 2026-05-15.
+
+### Estado actual
+
+- API Amazon elegible y operativa.
+- Cache central: `src/data/amazon-products.json`.
+- Componentes que usan cache: `ComparisonTable` y `TopPick`.
+- Auditoría completa ejecutada: `reports/amazon-products/audit-2026-05-15.md`.
+- Cache completo actualizado: 424 ASINs, 0 no encontrados.
+
+### Cadencia
+
+- Mensual: `npm run audit:amazon -- --delay 10000 --retries 5` + `npm run update:amazon-cache -- --delay 10000 --retries 5`.
+- Semanal: muestra de 10 artículos o artículo tocado recientemente.
+- Editorial: máximo 1-2 artículos/semana, solo si hay producto roto, no disponible o TopPick inviable.
+
+### Próxima cola editorial sugerida
+
+1. `mejor-rascador-gatos-guia` — 8 productos no disponibles y posibles desajustes de título.
+2. `mejor-arenero-arena-gatos` — 4 productos no disponibles.
+3. `mejor-aspirador-pelo-mascotas` — 4 productos no disponibles.

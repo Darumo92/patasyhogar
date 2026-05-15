@@ -184,9 +184,9 @@ faqs?: [{pregunta, respuesta}]
 - Si existe uno similar, proponer ampliar/mejorar el existente
 
 ### 2. URLs y productos Amazon reales
-- Buscar en Amazon.es los productos reales
+- Usar primero `scripts/amazon-api.mjs` para buscar/verificar productos Amazon reales
 - Nunca inventar ASINs, URLs ni imagenes de productos
-- Usar `fetch_amazon_images.py` como referencia para extraer imagenes reales del HTML de Amazon
+- Usar de la API: titulo real, ASIN, precio, disponibilidad, imagen, URL, features/descripcion y resenas si la API devuelve esos campos
 - Si un producto no existe en Amazon.es, buscar un reemplazo equivalente
 - **Imagenes Amazon optimizadas:** usar siempre `_AC_SL300_` en las URLs de imagenes (no `_AC_SL1500_`). Las imagenes se muestran a 120-160px, y 300px cubre 2x retina. Los componentes TopPick y ComparisonTable tambien hacen replace automatico como fallback.
 
@@ -245,14 +245,14 @@ Antes de dar por terminado un articulo nuevo, verificar SIEMPRE la coherencia co
 
 ### Nunca adivinar datos
 - NUNCA adivinar precios, URLs, imagenes, ASINs ni specs de productos
-- Si no se puede verificar un dato, preguntar al usuario inmediatamente
-- Amazon bloquea scraping con CAPTCHA — pedir al usuario precio E imagen juntos para cada producto
+- Usar primero `scripts/amazon-api.mjs` para verificar Amazon: titulo, ASIN, precio, disponibilidad, imagen, URL, features/descripcion y resenas si la API las devuelve. Ver `docs/agent-context/reference/reference_amazon_api_workflow.md`
+- Si la API no devuelve un dato, preguntar al usuario solo por ese dato faltante o verificar por otra fuente permitida
 
 ### Al cambiar un producto/ASIN
 Actualizar TODO sin excepcion:
 1. nombre — debe coincidir con el producto real en Amazon
-2. imagen — pedir al usuario la URL de Amazon (m.media-amazon.com)
-3. precio — verificado por el usuario
+2. imagen — usar la URL devuelta por Amazon API (m.media-amazon.com) si esta disponible
+3. precio — usar el precio devuelto por Amazon API si esta disponible
 4. puntosFuertes — describir el producto real, no el anterior
 5. Texto del articulo — analisis, tablas comparativas, FAQs, resumen
 6. Verificar que el producto encaja en la tematica del articulo
@@ -260,12 +260,12 @@ Actualizar TODO sin excepcion:
 ### Imagenes de productos
 - CSP solo permite imagenes de `'self'` y `m.media-amazon.com` — NUNCA usar URLs de otros dominios directamente
 - Imagenes de Zooplus/Tiendanimal NO funcionan (hotlinking bloqueado) — descargar a `public/images/productos/`
-- Pedir al usuario precio E imagen en la misma peticion
+- Pedir al usuario precio o imagen solo si Amazon API no los devuelve
 - Antes de commit, verificar que TODOS los productos en ComparisonTable tienen campo `imagen`
 - Imagenes hero de Pexels: comprobar duplicados por hash (`md5 -r public/images/articulos/*.webp | sort | awk '{print $1}' | uniq -d`)
 
 ### Busqueda en tiendas (obligatorio)
-- Buscar CADA producto INDIVIDUALMENTE en Amazon, Zooplus y Tiendanimal ANTES de escribir
+- Buscar/verificar CADA producto INDIVIDUALMENTE en Amazon con `scripts/amazon-api.mjs` ANTES de escribir; despues buscar Zooplus y Tiendanimal
 - Buscar por nombre exacto: `site:zooplus.es "[nombre producto]"` y `site:tiendanimal.es "[nombre producto]"`
 - Si el nombre no funciona, buscar tambien por marca
 - Verificar cada URL con WebFetch — confirmar que es el producto correcto, no una pagina generica
@@ -279,6 +279,12 @@ Actualizar TODO sin excepcion:
 ### TopPick y ComparisonTable sincronizados
 - Si un producto es TopPick Y esta en ComparisonTable, ambos deben tener los mismos enlaces de tiendas
 - Al anadir enlaceZooplus/enlaceTiendanimal a ComparisonTable, copiar tambien al TopPick
+
+### Auditoria recurrente
+- Ejecutar `npm run audit:amazon` una vez al mes para revisar todos los productos Amazon
+- Ejecutar `npm run update:amazon-cache` una vez al mes para refrescar precio, imagen y disponibilidad en `src/data/amazon-products.json` sin retocar articulos MDX
+- Ejecutar una muestra semanal con `node scripts/audit-amazon-products.mjs --limit 10 --stdout` o por articulo con `--article <slug>`
+- El auditor genera reporte, no modifica articulos
 
 ### Calidad sobre velocidad
 - En cambios masivos, procesar pocos articulos a la vez y verificar calidad
@@ -296,8 +302,8 @@ Checklist completo para revisar un articulo existente:
 - Flujo logico y organizacion de secciones
 
 ### Productos y datos
-1. Verificar TODOS los ASINs de Amazon — pasar enlaces completos al usuario para precio + imagen
-2. Si precio difiere: actualizar. Si no disponible: buscar reemplazo o eliminar
+1. Verificar TODOS los ASINs de Amazon con `scripts/amazon-api.mjs`
+2. Si precio difiere: actualizar desde la API. Si no disponible: pedir solo el dato faltante, buscar reemplazo o eliminar
 3. Buscar cada producto en Zooplus y Tiendanimal (ver reglas arriba)
 4. Anadir precios por tienda: precioAmazon, precioZooplus, precioTiendanimal
 5. Precios consistentes en ComparisonTable, TopPick, texto y tablas markdown

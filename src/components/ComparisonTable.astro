@@ -1,5 +1,6 @@
 ---
 import StoreIcon from './StoreIcon.astro';
+import { cachedAmazonAvailability, cachedAmazonImage, cachedAmazonPrice, formatAmazonCheckedDate, isAmazonAvailable } from '@/lib/amazon-products';
 
 interface Producto {
   nombre: string;
@@ -44,17 +45,32 @@ const { productos, titulo } = Astro.props;
 const FALLBACK_IMAGE = '/og-default.jpg';
 const PRICE_VALID_UNTIL = `${new Date().getFullYear() + 1}-12-31`;
 
+type Store = {
+  nombre: string;
+  clase: string;
+  precio: string;
+  href: string;
+  mejor: boolean;
+  disponible: boolean;
+  estado?: string;
+  revisado?: string | null;
+};
+
 function precioNumerico(precio: string): string | null {
   const match = precio.match(/(\d+[.,]?\d*)/);
   return match ? match[1].replace(',', '.') : null;
 }
 
 const productSchemas = productos.map(p => {
-  const price = precioNumerico(p.precio);
+  const amazonPrice = cachedAmazonPrice(p.enlaceAmazon);
+  const amazonAvailability = cachedAmazonAvailability(p.enlaceAmazon);
+  const displayPrice = amazonPrice || p.precioAmazon || p.precio;
+  const displayImage = cachedAmazonImage(p.enlaceAmazon) || p.imagen;
+  const price = precioNumerico(displayPrice);
   return {
     '@type': 'Product',
     name: p.nombre,
-    image: p.imagen || FALLBACK_IMAGE,
+    image: displayImage || FALLBACK_IMAGE,
     description: p.puntosFuertes,
     brand: {
       '@type': 'Brand',
@@ -78,7 +94,7 @@ const productSchemas = productos.map(p => {
         priceCurrency: 'EUR',
         price,
         priceValidUntil: PRICE_VALID_UNTIL,
-        availability: 'https://schema.org/InStock',
+        availability: isAmazonAvailable(amazonAvailability) ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
         ...(p.enlaceAmazon && { url: amazonHref(p.enlaceAmazon) }),
         hasMerchantReturnPolicy: {
           '@type': 'MerchantReturnPolicy',
@@ -129,14 +145,28 @@ function starData(val: number) {
 }
 
 function tiendas(p: Producto) {
-  const list: { nombre: string; clase: string; precio: string; href: string; mejor: boolean }[] = [];
-  if (p.enlaceAmazon) list.push({ nombre: 'Amazon', clase: 'amazon', precio: p.precioAmazon || p.precio, href: amazonHref(p.enlaceAmazon), mejor: false });
-  if (p.enlaceZooplus) list.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus, mejor: false });
-  if (p.enlaceTiendanimal) list.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal), mejor: false });
+  const list: Store[] = [];
+  const amazonAvailability = cachedAmazonAvailability(p.enlaceAmazon);
+  const amazonDisponible = isAmazonAvailable(amazonAvailability);
+  if (p.enlaceAmazon) list.push({
+    nombre: 'Amazon',
+    clase: 'amazon',
+    precio: cachedAmazonPrice(p.enlaceAmazon) || p.precioAmazon || p.precio,
+    href: amazonHref(p.enlaceAmazon),
+    mejor: false,
+    disponible: amazonDisponible,
+    estado: amazonDisponible ? undefined : amazonAvailability?.availability || 'Disponibilidad no confirmada',
+    revisado: formatAmazonCheckedDate(amazonAvailability),
+  });
+  if (p.enlaceZooplus) list.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus, mejor: false, disponible: true });
+  if (p.enlaceTiendanimal) list.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal), mejor: false, disponible: true });
 
   // Mark cheapest store if there are 2+ stores with different prices
   if (list.length > 1) {
-    const withNum = list.map(s => ({ ...s, num: parseFloat((s.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.')) }));
+    const withNum = list
+      .filter(s => s.disponible && s.precio.match(/\d/))
+      .map(s => ({ ...s, num: parseFloat((s.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.')) }));
+    if (withNum.length < 2) return list;
     const min = Math.min(...withNum.map(s => s.num));
     const cheapest = withNum.filter(s => s.num === min);
     if (cheapest.length === 1 && new Set(withNum.map(s => s.num)).size > 1) {
@@ -170,15 +200,17 @@ function tiendas(p: Producto) {
 <div class="comp-grid">
   {productos.map((p, i) => {
     const stores = tiendas(p);
+    const displayPrice = cachedAmazonPrice(p.enlaceAmazon) || p.precio;
+    const displayImage = cachedAmazonImage(p.enlaceAmazon) || p.imagen;
     const stars = starData(p.valoracion);
     return (
-      <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={p.precio} data-price-num={parseFloat((p.precio.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.'))} data-rating={p.valoracion} data-original-index={i}>
+      <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={displayPrice} data-price-num={parseFloat((displayPrice.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.'))} data-rating={p.valoracion} data-original-index={i}>
         {i === 0 && <span class="comp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Mejor opción</span>}
 
         <div class="comp-header">
-          {p.imagen && (
+          {displayImage && (
             <div class="comp-img-wrap">
-              <img src={optimizeImg(p.imagen)} alt={p.nombre} width="150" height="150" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 160px, 150px" />
+              <img src={optimizeImg(displayImage)} alt={p.nombre} width="150" height="150" class="comp-img" loading="lazy" decoding="async" sizes="(max-width: 480px) 160px, 150px" />
             </div>
           )}
           <div class="comp-header-info">
@@ -200,7 +232,7 @@ function tiendas(p: Producto) {
                 ))}
                 <span class="comp-rating-num">{p.valoracion}</span>
               </div>
-              <span class="comp-price">{p.precio}</span>
+              <span class="comp-price">{displayPrice}</span>
             </div>
           </div>
         </div>
@@ -222,22 +254,27 @@ function tiendas(p: Producto) {
                 </span>
                 <span class="comp-price-amount">{s.precio}</span>
                 {s.mejor && <span class="comp-price-best-tag">Mejor precio</span>}
-                <span class="comp-price-go">Ver →</span>
+                {!s.disponible && <span class="comp-stock-tag">{s.estado}</span>}
+                <span class="comp-price-go">{s.disponible ? 'Ver →' : 'Ver disponibilidad →'}</span>
+                {s.revisado && <span class="comp-checked">Rev. {s.revisado}</span>}
               </a>
             ))}
           </div>
         ) : (
           <div class="comp-stores">
             {stores.map(s => (
-              <a
-                href={s.href}
-                class={`affiliate-button ${s.clase}`}
-                target="_blank"
-                rel="nofollow noopener noreferrer sponsored"
-              >
-                <StoreIcon tienda={s.clase as any} size={15} />
-                {s.nombre} — {s.precio}
-              </a>
+              <>
+                <a
+                  href={s.href}
+                  class={`affiliate-button ${s.clase}`}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer sponsored"
+                >
+                  <StoreIcon tienda={s.clase as any} size={15} />
+                  {s.nombre} — {s.disponible ? s.precio : 'ver disponibilidad'}
+                </a>
+                {!s.disponible && <span class="comp-store-note">{s.estado}{s.revisado ? ` · Rev. ${s.revisado}` : ''}</span>}
+              </>
             ))}
           </div>
         )}
@@ -559,6 +596,21 @@ function tiendas(p: Producto) {
   white-space: nowrap;
 }
 
+.comp-stock-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #991b1b;
+  background: #fee2e2;
+  padding: 0.15rem 0.45rem;
+  border-radius: 100px;
+}
+
+.comp-checked {
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
 .comp-price-go {
   margin-left: auto;
   font-weight: 600;
@@ -578,6 +630,12 @@ function tiendas(p: Producto) {
 .comp-stores .affiliate-button {
   font-size: 0.85rem;
   padding: 0.6rem 1.1rem;
+}
+
+.comp-store-note {
+  align-self: center;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
 }
 
 @media (max-width: 480px) {
