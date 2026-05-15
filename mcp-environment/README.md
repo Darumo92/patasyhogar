@@ -84,7 +84,15 @@ Luego reinicia Codex y autentica Cloudflare:
 export CLOUDFLARE_API_TOKEN=tu-token-limitado
 ```
 
-En esta version de Codex, `codex mcp list` marca `Auth: Unsupported` para este MCP remoto, asi que se usa `CLOUDFLARE_API_TOKEN` como bearer token. El token debe poder ver al menos una cuenta: incluye `Account Resources: Read` y limita los recursos/permisos restantes al minimo necesario. Un token limitado solo a zona puede pasar `tokens/verify` pero fallar en el MCP con `invalid_token: no user or account information`.
+En esta version de Codex se usa `CLOUDFLARE_API_TOKEN` como bearer token. El token debe poder ver al menos una cuenta: incluye `Account Resources: Read` y limita los recursos/permisos restantes al minimo necesario. Un token limitado solo a zona puede pasar `tokens/verify` pero fallar en el MCP con `invalid_token: no user or account information`.
+
+Importante: `CLOUDFLARE_API_TOKEN` debe estar en el entorno del proceso que lanza Codex. El archivo correcto depende del sistema y de la shell:
+
+- macOS con zsh: `~/.zshrc` para shells interactivas; `~/.zprofile` si Codex se lanza desde una shell login.
+- Linux con bash: `~/.bashrc` para shells interactivas; `~/.bash_profile` o `~/.profile` deben cargarlo si Codex se lanza desde una shell login.
+- Otros casos: exporta las variables en el perfil de la shell que use el proceso que ejecuta `codex`.
+
+El setup de Codex aplica una defensa adicional: si `CLOUDFLARE_API_TOKEN` esta disponible al ejecutar `bash mcp-environment/setup-codex-mcp.sh`, escribe un header `Authorization` en `~/.codex/config.toml` local (`chmod 600`). No se versiona el token en el repo. Esto evita fallos cuando Codex no hereda variables de shell a tiempo para autenticar MCP remotos.
 
 Para Google Analytics, exporta las mismas variables antes de abrir Codex:
 
@@ -117,11 +125,12 @@ gcloud auth application-default login \
   --scopes=https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/webmasters.readonly,https://www.googleapis.com/auth/cloud-platform
 ```
 
-Variables persistentes en `~/.zshrc`:
+Variables persistentes en el perfil de shell correspondiente a la maquina:
 
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/application_default_credentials.json"
 export GOOGLE_PROJECT_ID="patasyhogar-mcp"
+export CLOUDFLARE_API_TOKEN="..."
 ```
 
 Comprobado el 2026-05-13:

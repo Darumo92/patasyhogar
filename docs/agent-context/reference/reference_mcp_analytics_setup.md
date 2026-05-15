@@ -77,12 +77,18 @@ La organizacion `darumo092-org` bloquea service account keys con `iam.disableSer
   - `https://www.googleapis.com/auth/webmasters.readonly`
   - `https://www.googleapis.com/auth/cloud-platform`
 
-Variables persistidas en `~/.zshrc`:
+Variables persistidas en el perfil de shell correspondiente a la maquina:
+
+- macOS con zsh: `~/.zshrc` para shells interactivas; `~/.zprofile` si Codex se lanza desde una shell login.
+- Linux con bash: `~/.bashrc` para shells interactivas; `~/.bash_profile` o `~/.profile` deben cargarlo si Codex se lanza desde una shell login.
 
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/application_default_credentials.json"
 export GOOGLE_PROJECT_ID="patasyhogar-mcp"
+export CLOUDFLARE_API_TOKEN="..."
 ```
+
+Nota Codex: si `CLOUDFLARE_API_TOKEN` esta disponible al ejecutar `bash mcp-environment/setup-codex-mcp.sh`, el setup escribe un header `Authorization` local en `~/.codex/config.toml` (`chmod 600`) para evitar fallos de herencia de entorno en MCP remotos. El token no se guarda en archivos versionados.
 
 Verificacion:
 
