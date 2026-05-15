@@ -1,5 +1,6 @@
 ---
 import StoreIcon from './StoreIcon.astro';
+import { cachedAmazonAvailability, cachedAmazonImage, cachedAmazonPrice, formatAmazonCheckedDate, isAmazonAvailable } from '@/lib/amazon-products';
 
 interface Producto {
   id: string;
@@ -62,11 +63,29 @@ function optimizeImg(url?: string | null): string | undefined {
 }
 
 function buildStores(p: Producto) {
-  const stores: { nombre: string; clase: string; precio: string; href: string }[] = [];
-  if (p.enlaceAmazon) stores.push({ nombre: 'Amazon', clase: 'amazon', precio: p.precioAmazon || p.precio, href: amazonHref(p.enlaceAmazon) });
-  if (p.enlaceZooplus) stores.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus });
-  if (p.enlaceTiendanimal) stores.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal) });
+  const stores: { nombre: string; clase: string; precio: string; href: string; disponible: boolean; estado?: string; revisado?: string | null }[] = [];
+  const amazonAvailability = cachedAmazonAvailability(p.enlaceAmazon);
+  const amazonDisponible = isAmazonAvailable(amazonAvailability);
+  if (p.enlaceAmazon) stores.push({
+    nombre: 'Amazon',
+    clase: 'amazon',
+    precio: cachedAmazonPrice(p.enlaceAmazon) || p.precioAmazon || p.precio,
+    href: amazonHref(p.enlaceAmazon),
+    disponible: amazonDisponible,
+    estado: amazonDisponible ? undefined : amazonAvailability?.availability || 'Disponibilidad no confirmada',
+    revisado: formatAmazonCheckedDate(amazonAvailability),
+  });
+  if (p.enlaceZooplus) stores.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus, disponible: true });
+  if (p.enlaceTiendanimal) stores.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal), disponible: true });
   return stores;
+}
+
+function displayPrice(p: Producto) {
+  return cachedAmazonPrice(p.enlaceAmazon) || p.precio;
+}
+
+function displayImage(p: Producto) {
+  return cachedAmazonImage(p.enlaceAmazon) || p.imagen;
 }
 ---
 
@@ -82,6 +101,7 @@ function buildStores(p: Producto) {
   {/* One main recommendation card per product — JS shows the winner */}
   {productos.map((p, i) => {
     const stores = buildStores(p);
+    const image = displayImage(p);
     return (
       <div class="quiz-rec-main" data-product-id={p.id} style="display:none;">
         <span class="quiz-rec-badge">
@@ -89,19 +109,22 @@ function buildStores(p: Producto) {
           Recomendado para ti
         </span>
         <div class="quiz-rec-body">
-          {p.imagen && (
-            <img data-src={optimizeImg(p.imagen)} alt={p.nombre} width="130" height="130" class="quiz-rec-img" loading="lazy" decoding="async" />
+          {image && (
+            <img data-src={optimizeImg(image)} alt={p.nombre} width="130" height="130" class="quiz-rec-img" loading="lazy" decoding="async" />
           )}
           <div class="quiz-rec-info">
             <p class="quiz-rec-name">{p.nombre}</p>
             <p class="quiz-rec-desc">{p.descripcionCorta}</p>
-            <p class="quiz-rec-price">{p.precio}</p>
+            <p class="quiz-rec-price">{displayPrice(p)}</p>
             <div class="quiz-rec-stores">
               {stores.map(s => (
-                <a href={s.href} class={`affiliate-button ${s.clase}`} target="_blank" rel="nofollow noopener noreferrer sponsored">
-                  <StoreIcon tienda={s.clase as any} size={15} />
-                  {s.nombre} — {s.precio}
-                </a>
+                <>
+                  <a href={s.href} class={`affiliate-button ${s.clase}`} target="_blank" rel="nofollow noopener noreferrer sponsored">
+                    <StoreIcon tienda={s.clase as any} size={15} />
+                    {s.nombre} — {s.disponible ? s.precio : 'ver disponibilidad'}
+                  </a>
+                  {!s.disponible && <span class="quiz-store-note">{s.estado}{s.revisado ? ` · Rev. ${s.revisado}` : ''}</span>}
+                </>
               ))}
             </div>
             <a href={`/${p.categoria}/${p.articuloSlug}/`} class="quiz-rec-article-link">
@@ -118,21 +141,25 @@ function buildStores(p: Producto) {
     <p class="quiz-alts-title">Otras buenas opciones</p>
     {productos.map((p, i) => {
       const stores = buildStores(p);
+      const image = displayImage(p);
       return (
         <div class="quiz-alt-card" data-product-id={p.id} style="display:none;">
-          {p.imagen && (
-            <img data-src={optimizeImg(p.imagen)} alt={p.nombre} width="80" height="80" class="quiz-alt-img" loading="lazy" decoding="async" />
+          {image && (
+            <img data-src={optimizeImg(image)} alt={p.nombre} width="80" height="80" class="quiz-alt-img" loading="lazy" decoding="async" />
           )}
           <div class="quiz-alt-info">
             <p class="quiz-alt-name">{p.nombre}</p>
             <p class="quiz-alt-desc">{p.descripcionCorta}</p>
-            <p class="quiz-alt-price">{p.precio}</p>
+            <p class="quiz-alt-price">{displayPrice(p)}</p>
             <div class="quiz-alt-stores">
               {stores.map(s => (
-                <a href={s.href} class={`affiliate-button ${s.clase}`} target="_blank" rel="nofollow noopener noreferrer sponsored" style="font-size:0.8rem;padding:0.45rem 0.85rem;">
-                  <StoreIcon tienda={s.clase as any} size={13} />
-                  {s.nombre} — {s.precio}
-                </a>
+                <>
+                  <a href={s.href} class={`affiliate-button ${s.clase}`} target="_blank" rel="nofollow noopener noreferrer sponsored" style="font-size:0.8rem;padding:0.45rem 0.85rem;">
+                    <StoreIcon tienda={s.clase as any} size={13} />
+                    {s.nombre} — {s.disponible ? s.precio : 'ver disponibilidad'}
+                  </a>
+                  {!s.disponible && <span class="quiz-store-note quiz-store-note--small">{s.estado}{s.revisado ? ` · Rev. ${s.revisado}` : ''}</span>}
+                </>
               ))}
             </div>
           </div>

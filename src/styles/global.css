@@ -1990,6 +1990,16 @@ button:focus-visible,
   margin-bottom: 0.75rem;
 }
 
+.quiz-store-note {
+  align-self: center;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.quiz-store-note--small {
+  font-size: 0.7rem;
+}
+
 .quiz-rec-article-link {
   display: inline-flex;
   align-items: center;
