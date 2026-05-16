@@ -33,9 +33,7 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 | Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Mantener cuota actual (karma sube sano: 32 total 2026-05-11). |
 | Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona) | 2-3 posts/sem | Mismo usuario. Posts contextual sin link hasta karma >50. |
 | Quora ES | 3 respuestas largas/sem | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
-| Medium / Substack / LinkedIn Articles | 1 artículo/sem repurposed | Versión adaptada de comparativas o informativos con backlink canonical patasyhogar. |
-| Foros grandes ES (forocoches, mediavida, burbuja) | 3-5 mentions contextual/sem | Hilos relevantes mascotas/lifestyle. Mention marca o link si encaja. |
-| Comentarios DoFollow blogs mascotas ES | 5-10/sem | Lista validada en `reference_dofollow_blogs_mascotas_es.md`. Comentario útil con link contextual. |
+| Medium | 1 artículo/sem repurposed | Versión adaptada de informativos con backlink/canonical hacia patasyhogar. |
 
 **Total estimado:** 1.5-2h/día.
 
@@ -51,13 +49,13 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 
 | Día | Foco |
 |---|---|
-| Lunes | Reddit nicho (3 comentarios) + 1 respuesta Quora + scan blogs DoFollow (3 comentarios) |
-| Martes | Reddit subs grandes (1 post) + 2 mentions foros + 2 comentarios blogs |
-| Miércoles | Medium/Substack 1 artículo (repurposed) + Reddit nicho (3 comentarios) |
-| Jueves | 2 respuestas Quora + 2 mentions foros + 2 comentarios blogs |
+| Lunes | Reddit nicho (3 comentarios) + 1 respuesta Quora |
+| Martes | Reddit subs grandes (1 post) + 1 respuesta Quora |
+| Miércoles | Medium 1 artículo repurposed + Reddit nicho (3 comentarios) |
+| Jueves | 2 respuestas Quora + revisar replies Reddit |
 | Viernes | Reddit subs grandes (1 post) + Reddit nicho (3 comentarios) |
-| Sábado | LinkedIn Article 1 + 1 respuesta Quora + 2 comentarios blogs |
-| Domingo | Reddit nicho (3 comentarios) + 1 mention foro + revisar inbox/karma |
+| Sábado | 1 respuesta Quora + preparar/publicar Medium si no se hizo el miércoles |
+| Domingo | Reddit nicho (3 comentarios) + revisar inbox/karma |
 
 ## Mantenimiento Amazon productos
 
@@ -136,5 +134,4 @@ Calculadora coste mantenimiento mascotas mensual ES. Build planificado sem 2 (`/
 
 - `project_outreach_plan_2026-05-11.md` — plan detallado canales
 - `reference_quora_es_workflow.md` — método respuestas Quora
-- `reference_dofollow_blogs_mascotas_es.md` — lista blogs comentarios validados
 - `project_backlinks_social_status.md` — estado vivo cuentas + tracking

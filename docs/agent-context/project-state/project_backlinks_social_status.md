@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-15
+Última actualización: 2026-05-16 10:20 CEST
 
 ---
 
@@ -103,12 +103,16 @@ Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualiz
 - (r/perros estaba baneado por unmoderated)
 
 ### Comentarios publicados (acumulado)
+Karma 2026-05-16: comment=50, link=6, total=56. Sano. Ya supera karma 50, pero la cuenta aún no tiene 1 mes (creada 2026-04-20), así que mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
 Karma 2026-05-13 21:00 CEST: comment=45, link=6, total=51. Sano. Ya supera karma 50, pero la cuenta aún no tiene 1 mes (creada 2026-04-20), así que mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
 Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05-04). Sano.
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-16 r/AskSpain: Replies en post propio "¿Os han puesto pegas para alquilar piso por tener perro o gato?" (1tduofk) — responder a boo-was-taken sobre dificultad de demostrar mascota y riesgo práctico de no decirlo, y a IzzyReptilia sobre seguro RC + cláusula de responsabilidad por daños como forma sensata de reducir fricción con casero. Sin link.
+- 2026-05-16 r/mascotas: Mi gato ha chupado un poco de pastillas de paracetamol (1temyc7) — recomendar llamar a veterinario/urgencias de inmediato, no esperar síntomas, no inducir vómito ni medicar en casa, guardar blíster/caja y datos de hora, dosis y peso. Sin link.
 - 2026-05-14 r/GatosArgentinos: Cómo hacer que mi gato deje de irse a pelear? (1tbzgy8) — explicar que no conviene esperar a que se pase solo si ya vuelve lastimado, transición a interior con arenero grande/arena sin perfume/redes, posible gato nuevo/territorio, vigilar mordidas y abscesos. Día 4 plan outreach. Humanizer aplicado. Sin link.
+- 2026-05-15 r/AskSpain: Post propio "¿Os han puesto pegas para alquilar piso por tener perro o gato?" (1tduofk) — conversación sobre alquiler con mascotas en España, sin link, no republicado/crossposteado. URL: https://www.reddit.com/r/askspain/comments/1tduofk/os_han_puesto_pegas_para_alquilar_piso_por_tener/ Día 5 plan outreach. Humanizer aplicado.
 - 2026-05-14 r/mascotas: líneas aéreas que viajen con perros medianos en cabina? 18 kilos (1tceiza) — advertir que con 18 kg cabina es muy difícil por límites de peso+transportín y espacio bajo asiento, no asumir soporte emocional, llamar antes de comprar y pedir confirmación por escrito/caso, valorar alternativas si viajará frecuente. Día 4 plan outreach. Humanizer aplicado. Sin link.
 - 2026-05-14 r/mascotas: Es normal que duerma tanto cuando llegan a cierta edad? (1tcn778) — validar que perros senior duermen más, distinguir cambio gradual vs brusco, señales para veterinario (levantarse, beber más, peso, desorientación, dolor articular), cierre natural. Día 4 plan outreach. Humanizer aplicado. Sin link.
 - 2026-05-14 r/mascotas: Adaptación entre gato y perros (1tcksq8) — recomendar pausar encuentros directos tras susto/ataque, habitación segura para gatito bebé, intercambio de olores, sesiones con barrera, perra joven con correa y corte si fija demasiado, especial cuidado con perra ciega, no forzar premios si hay tensión. Día 4 plan outreach. Humanizer aplicado. Sin link.
@@ -248,7 +252,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ---
 
-## 3. Canales pendientes (no iniciados)
+## 3. Canales activos
 
 ### Medium
 - **Cuenta:** https://medium.com/@patasyhogar
@@ -270,16 +274,18 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 #### Respuestas publicadas
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-05-16 | "Cuánto cuesta tener un gato" | https://es.quora.com/Cu%C3%A1nto-cuesta-tener-un-gato/answer/Patas-y-Hogar?ch=10&oid=1477743907708847&share=7e87327c&srid=5DHwyB&target_type=answer | Sí | Sexta respuesta cuenta. Coste mensual gato en España, comida, arena, veterinario, primer año y fondo de urgencias. Enlace a coste mensual gato. Humanizer aplicado. |
+| 2026-05-16 | "Cuánto cuesta tener un perro" | https://es.quora.com/Cu%C3%A1nto-cuesta-tener-un-perro/answer/Patas-y-Hogar?ch=10&oid=1477743907707585&share=1ccbb8e7&srid=5DHwyB&target_type=answer | Sí | Quinta respuesta cuenta. Coste mensual perro en España por tamaño, alimentación, veterinario, accesorios y primer año. Enlace a coste mensual perro. Humanizer aplicado. |
 | 2026-05-14 | "Por qué mi perro duerme mucho por el día?" | https://es.quora.com/Por-qué-mi-perro-duerme-mucho-por-el-día | No | Tercera respuesta cuenta. Explica horas normales de sueño por edad, diferencia sueño normal vs apatía, señales veterinarias y rutina/estimulación. Sin link. Humanizer aplicado. |
 | 2026-05-14 | "Cuál es la mejor forma de viajar con perros grandes en avión?" | https://es.quora.com/Cuál-es-la-mejor-forma-de-viajar-con-perros-grandes-en-avión | No | Cuarta respuesta cuenta. Cabina vs bodega/carga, llamada previa a aerolínea, transportín rígido, preparación gradual, no sedar salvo veterinario, alternativas si perro senior/braquicéfalo/ansioso. Sin link. Humanizer aplicado. |
 | 2026-05-13 | "Cuánto cuesta tener un perro pequeño o un gato durante un mes? Cuánto costaría mantenerlo cada uno" | https://qr.ae/pFv67q | No | Segunda respuesta cuenta nueva. Comparativa perro pequeño vs gato en España: rangos mensuales, partidas recurrentes, primer año y fondo de emergencias. Sin link para evitar patrón promocional temprano. Humanizer aplicado. |
 | 2026-05-11 | "Cuál es el pienso más sabroso y bueno para un gato delicado, esterilizado y de más de 10 años" | https://es.quora.com/unanswered/Cuál-es-el-pienso-más-sabroso-y-bueno-para-un-gato-delicado-esterilizado-y-de-más-de-10-años | No | Primera respuesta cuenta nueva. Humanizer aplicado. Tema gato senior esterilizado, revisión veterinaria previa, transición lenta, comida húmeda. |
 
-### Comentarios blogs mascotas ES (prioridad baja-media)
-- hogarmania.com/mascotas
-- 20minutos.es (artículos mascotas)
-- consumer.es/mascotas
-- hola.com/mascotas
+### Canales descartados
+
+- LinkedIn: descartado. El usuario no tiene ni tendrá este canal para Patas y Hogar.
+- Comentarios blogs mascotas ES: descartado. No proponer prospección ni comentarios en blogs.
+- Foros: no proponer por defecto; solo si el usuario lo pide.
 
 ### Grupos Facebook ES mascotas (prioridad baja)
 - Sin backlink SEO. Tráfico directo si se referencia sitio.
@@ -301,7 +307,7 @@ Cuando retomar esto en sesión nueva:
 2. Verificar karma/shadowban Reddit via curl about.json
 3. Escanear posts nuevos subs ES (`scripts/generate-pins-batch.mjs` pattern para batch)
 4. Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual)
-5. Continuar plan según día actual
+5. Continuar plan según día actual, limitado a Reddit, Quora y Medium
 
 ---
 

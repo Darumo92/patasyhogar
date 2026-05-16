@@ -13,7 +13,7 @@ type: project
 
 Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenido ni autor). Ambos sitios David (patasyhogar ficticio + tuespaciodetrabajo real) sufren mismo blackout → variable común = dominio fresh sin backlinks pre-launch.
 
-Único camino: construir señales externas mediante 6 canales aprobados, sin email outreach a 3ros.
+Único camino: construir señales externas mediante los canales aprobados, sin email outreach a 3ros.
 
 ## Canales — detalle por canal
 
@@ -54,13 +54,9 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
   - Cierre: 1 link contextual a `patasyhogar.com/[slug]` SOLO si añade valor real
 - **Ver:** `reference_quora_es_workflow.md`
 
-### 4. Medium / Substack / LinkedIn Articles
+### 4. Medium
 
-- **Plataformas:** elegir 1 inicial, expandir si funciona
-  - **Medium** (mejor SEO histórico, easy publish)
-  - **Substack** (newsletter built-in, comunidad)
-  - **LinkedIn Articles** (autoridad profesional, alcance B2C limitado)
-- **Recomendación inicial:** Medium primero (DR>90, indexa rápido)
+- **Plataforma activa:** Medium
 - **Cuota:** 1 artículo/sem
 - **Formato:**
   - Versión adaptada (no copia) de artículo patasyhogar
@@ -68,30 +64,11 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
   - Link contextual 2-3 a patasyhogar dentro cuerpo
 - **Target temas:** informativos `/cuidados/` (no comparativas afiliadas — Medium hostil a affiliate)
 
-### 5. Foros grandes ES
+### Canales descartados
 
-- **Foros target:**
-  - **forocoches.com** — subforo Mascotas + ZP general
-  - **mediavida.com** — subforo Cuidado mascotas
-  - **burbuja.info** — secundario, audiencia distinta
-  - **enfemenino.com** foros — público femenino + mascotas
-- **Cuota:** 3-5 mentions contextual/sem (1/día día activo)
-- **Reglas:**
-  - Cuentas separadas por foro (no reciclar usuario Reddit)
-  - 20-30 posts útiles SIN link primero (warming)
-  - Después: mention contextual link solo si encaja naturalmente
-  - Nunca primer post = link drop
-
-### 6. Comentarios DoFollow blogs mascotas ES
-
-- **Cuota:** 5-10 comentarios/sem
-- **Método:**
-  - Lista blogs validados en `reference_dofollow_blogs_mascotas_es.md`
-  - Comentario aporte real (4-8 líneas mínimo)
-  - Link a artículo patasyhogar relacionado si suma al hilo
-  - Nombre comentario: "Patas y Hogar" o variante coherente
-  - Email: contacto@patasyhogar.com
-- **Validar DoFollow:** Inspeccionar HTML link comentario aprobado anterior. Si `rel="nofollow"` ausente → DoFollow.
+- LinkedIn Articles: descartado por decisión del usuario el 2026-05-16.
+- Comentarios en blogs: descartado por decisión del usuario el 2026-05-16.
+- Foros: no proponer por defecto; solo retomarlos si el usuario lo pide explícitamente.
 
 ## Free tool — Calculadora coste mascotas
 
@@ -130,7 +107,7 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 
 ## Reglas operativas globales
 
-- **No empezar canales fuera lista aprobada** sin discusión
+- **No empezar canales fuera de Reddit, Quora y Medium** sin discusión
 - **No emails outreach** (sin prensa, HARO, guest posts, bloggers)
 - **No identidad real David expuesta** en patasyhogar
 - **No fotos IA**
