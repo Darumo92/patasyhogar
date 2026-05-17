@@ -103,12 +103,16 @@ Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualiz
 - (r/perros estaba baneado por unmoderated)
 
 ### Comentarios publicados (acumulado)
-Karma 2026-05-16: comment=50, link=6, total=56. Sano. Ya supera karma 50, pero la cuenta aún no tiene 1 mes (creada 2026-04-20), así que mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
+Karma 2026-05-17: comment=54, link=6, total=60. Sano. Cuenta cumple 1 mes el 2026-05-20 → empezar a drop links contextuales a patasyhogar a partir de esa fecha.
+Karma 2026-05-16: comment=50, link=6, total=56. Sano.
 Karma 2026-05-13 21:00 CEST: comment=45, link=6, total=51. Sano. Ya supera karma 50, pero la cuenta aún no tiene 1 mes (creada 2026-04-20), así que mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
 Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05-04). Sano.
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-17 r/mascotas: GPS para mascotas (1tf8hmx) — recomendar Tractive GPS vs AirTag vs TKSTAR, cuota mensual 5-7€, AirTag inútil en zona rural, chip+placa como alternativa barata, preguntar tamaño perro. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tf8hmx/gps_para_mascotas/
+- 2026-05-17 r/GatosArgentinos: Gatito trans — marcaje post-castración (1tfeoyl) — preguntar tiempo desde castración, limpieza enzimática marcas, separación temporal si agresión con agarre, bloquear vista si marca por gatos exteriores, anécdota Mango manta post-castración. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tfeoyl/gatito_trans/
+- 2026-05-17 r/GatosArgentinos: Busca cuevitas/cama para gato (1teaqu1) — advertir que fotos de página no coinciden con producto real, recomendar cama iglú polar (ML/AliExpress 8-15k), sleeping bag gato, y caja cartón+manta (anécdota Mango tiró cama de 20€ y se quedó con caja), sugerir mirar medidas y comentarios compradores. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1teaqu1/estoy_buscando_estas_cuevitas/
 - 2026-05-16 r/AskSpain: Replies en post propio "¿Os han puesto pegas para alquilar piso por tener perro o gato?" (1tduofk) — responder a boo-was-taken sobre dificultad de demostrar mascota y riesgo práctico de no decirlo, y a IzzyReptilia sobre seguro RC + cláusula de responsabilidad por daños como forma sensata de reducir fricción con casero. Sin link.
 - 2026-05-16 r/mascotas: Mi gato ha chupado un poco de pastillas de paracetamol (1temyc7) — recomendar llamar a veterinario/urgencias de inmediato, no esperar síntomas, no inducir vómito ni medicar en casa, guardar blíster/caja y datos de hora, dosis y peso. Sin link.
 - 2026-05-14 r/GatosArgentinos: Cómo hacer que mi gato deje de irse a pelear? (1tbzgy8) — explicar que no conviene esperar a que se pase solo si ya vuelve lastimado, transición a interior con arenero grande/arena sin perfume/redes, posible gato nuevo/territorio, vigilar mordidas y abscesos. Día 4 plan outreach. Humanizer aplicado. Sin link.
