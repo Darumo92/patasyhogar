@@ -2599,17 +2599,17 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B08XTMNMMZ
 - Imagen: https://m.media-amazon.com/images/I/71OxqahqESL._AC_SL1500_.jpg
 
-**3. Catit Vesper Rocket**
-- URL Amazon: https://www.amazon.es/dp/B085X2YY3Z
-- Imagen: https://m.media-amazon.com/images/I/81ecOlhnegL._AC_SL1500_.jpg
+**3. EHEYCIGA Rascador Cartón Vertical 68cm**
+- URL Amazon: https://www.amazon.es/dp/B0DHX6PW4J
+- Imagen: https://m.media-amazon.com/images/I/41jStDPMEdL._AC_SL1500_.jpg
 
 **4. FUKUMARU Rascador de Pared**
 - URL Amazon: https://www.amazon.es/dp/B0B2NKLVCS
 - Imagen: https://m.media-amazon.com/images/I/71u0UFQwvWL._AC_SL1500_.jpg
 
-**5. Navaris Rascador Cartón XL**
-- URL Amazon: https://www.amazon.es/dp/B07NGH6MCL
-- Imagen: https://m.media-amazon.com/images/I/71IirjEwVAL._AC_SL1200_.jpg
+**5. Amazon Basics Rascador Cartón 4 Unidades**
+- URL Amazon: https://www.amazon.es/dp/B0DS2S1LFG
+- Imagen: https://m.media-amazon.com/images/I/41+Nhw84KIL._AC_SL1500_.jpg
 
 ---
 
@@ -2617,18 +2617,18 @@ Para cada producto haz lo siguiente en Amazon.es:
 *Archivo: mejor-rascador-gato-grande*
 
 ### TopPick
-**RHRQuality Maine Coon Fantasy**
-- URL Amazon: https://www.amazon.es/dp/B01GU4B2B0
-- Imagen: https://m.media-amazon.com/images/I/91k3U7a92HL._AC_SL1500_.jpg
+**Heybly Árbol para Gatos Grandes 180cm**
+- URL Amazon: https://www.amazon.es/dp/B0F8MT9BBB
+- Imagen: https://m.media-amazon.com/images/I/41qGkbu+j9L._AC_SL1500_.jpg
 
 ### Comparativa
-**1. RHRQuality Maine Coon Fantasy**
-- URL Amazon: https://www.amazon.es/dp/B01GU4B2B0
-- Imagen: https://m.media-amazon.com/images/I/91k3U7a92HL._AC_SL1500_.jpg
+**1. Heybly Árbol para Gatos Grandes 180cm**
+- URL Amazon: https://www.amazon.es/dp/B0F8MT9BBB
+- Imagen: https://m.media-amazon.com/images/I/41qGkbu+j9L._AC_SL1500_.jpg
 
-**2. Trixie Nikolai XXL**
-- URL Amazon: 
-- Imagen: 
+**2. Trixie Lucano XXL 110cm**
+- URL Amazon: https://www.amazon.es/dp/B0FXMCHD71
+- Imagen: https://m.media-amazon.com/images/I/41z0NXyc4RL._AC_SL1500_.jpg 
 
 **3. Feandrea Árbol XXL**
 - URL Amazon: https://www.amazon.es/dp/B08MPV5Y7G
