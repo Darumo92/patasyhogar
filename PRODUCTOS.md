@@ -1200,21 +1200,21 @@ Para cada producto haz lo siguiente en Amazon.es:
 - URL Amazon: https://www.amazon.es/dp/B0BS1Q7RG5
 - Imagen: https://m.media-amazon.com/images/I/41XHfNtRd3L._AC_SX679_.jpg
 
-**2. Dyson V8 Animal**
-- URL Amazon: https://www.amazon.es/dp/B07BHCFH3W
-- Imagen: https://m.media-amazon.com/images/I/51EdARXkhHL._AC_SX644_CB1169409_QL70_.jpg
+**2. Dyson V8 Advanced**
+- URL Amazon: https://www.amazon.es/dp/B0DCGLPW84
+- Imagen: https://m.media-amazon.com/images/I/31S6FjJxx0L._AC_SL300_.jpg
 
-**3. Dreame T30**
-- URL Amazon: https://www.amazon.es/dp/B08Z7931J6
-- Imagen: https://m.media-amazon.com/images/I/51yZwlAL7oL._AC_SL1000_.jpg
+**3. Dreame Z30**
+- URL Amazon: https://www.amazon.es/dp/B0D6ZB7CMY
+- Imagen: https://m.media-amazon.com/images/I/71FPkHahclL._AC_SL300_.jpg
 
-**4. Rowenta X-Force Flex Animal**
-- URL Amazon: https://www.amazon.es/dp/B08D4D1B3M
-- Imagen: https://m.media-amazon.com/images/I/61jzSMCLtlL._AC_SL1500_.jpg
+**4. Rowenta X-Pert 6.80 Animal Flex**
+- URL Amazon: https://www.amazon.es/dp/B0GSVRWSHD
+- Imagen: https://m.media-amazon.com/images/I/41byn1pHonL._AC_SL300_.jpg
 
-**5. Xiaomi G11**
-- URL Amazon: https://www.amazon.es/dp/B09VZP1J94
-- Imagen: https://m.media-amazon.com/images/I/31PGgdpbL3L._AC_SL1500_.jpg
+**5. Xiaomi G20 Max**
+- URL Amazon: https://www.amazon.es/dp/B0DHSFGRWD
+- Imagen: https://m.media-amazon.com/images/I/41SndA5UO4L._AC_SL300_.jpg
 
 ---
 
