@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-05-18 13:25
+**Action:** Created free tool — calculadora coste mascotas
+**Files:** src/pages/calculadora-coste-mascotas.astro, src/components/Footer.astro, public/_headers, dist/
+**Summary:** Added `/calculadora-coste-mascotas/` as a shareable WebApplication with monthly cost ranges for dogs and cats in Spain, URL parameters, JSON-LD WebApplication/FAQ/Breadcrumb schema, responsive styling and discovery links from footer, header and home. Redesign pass changed the UI to a receipt/ticket metaphor, removed the misleading calculate button and fixed broken food-comparison links. Build passed and regenerated CSP hashes.
+**Triggered by:** user / outreach plan week 2
+
 ## 2026-04-20 10:00
 **Action:** Article #11 plan v7 — seguro mascotas España guía 2026
 **Files:** src/content/articulos/seguro-mascotas-espana-guia-2026.mdx, .seo-engine/data/content-map.yaml, public/images/articulos/seguro-mascotas-espana-guia-2026.webp

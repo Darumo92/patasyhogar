@@ -235,6 +235,23 @@ function articleUrl(a: typeof articulos[0]) {
     <QuizHomeBanner totalProducts={totalProducts} totalCategories={5} />
   )}
 
+  <section class="cost-home-section">
+    <div class="container">
+      <a class="cost-home-card" href="/calculadora-coste-mascotas/">
+        <div class="cost-home-copy">
+          <span>Herramienta nueva</span>
+          <h2>¿Cuánto te costará realmente vivir con perro o gato?</h2>
+          <p>Calcula comida, veterinario, higiene, accesorios y seguro en menos de un minuto.</p>
+        </div>
+        <div class="cost-home-ticket" aria-hidden="true">
+          <small>Ticket mensual</small>
+          <strong>40€ - 190€</strong>
+          <em>según mascota y ciudad</em>
+        </div>
+      </a>
+    </div>
+  </section>
+
   <!-- 5. Latest Comparativas -->
   {recientes.length > 0 && (
     <section class="articles">
@@ -376,6 +393,81 @@ function articleUrl(a: typeof articulos[0]) {
     @media (max-width: 560px) {
       .essential-guides-grid {
         grid-template-columns: 1fr;
+      }
+    }
+    .cost-home-section {
+      padding: 0 0 4rem;
+    }
+    .cost-home-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 1.5rem;
+      align-items: center;
+      padding: 1.5rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      background: linear-gradient(135deg, var(--green-50), var(--color-bg-card));
+      color: var(--color-text);
+      text-decoration: none;
+      transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    }
+    .cost-home-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--color-primary);
+      box-shadow: var(--shadow-md);
+      color: var(--color-text);
+    }
+    .cost-home-copy span {
+      display: inline-flex;
+      margin-bottom: 0.55rem;
+      color: var(--color-primary-dark);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .cost-home-copy h2 {
+      max-width: 560px;
+      margin-bottom: 0.45rem;
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+    }
+    .cost-home-copy p {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+    }
+    .cost-home-ticket {
+      padding: 1rem;
+      border: 1px dashed var(--color-border-dark);
+      border-radius: var(--radius-lg);
+      background: var(--color-bg-card);
+      transform: rotate(1deg);
+    }
+    .cost-home-ticket small,
+    .cost-home-ticket em {
+      display: block;
+      color: var(--color-text-muted);
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 700;
+    }
+    .cost-home-ticket strong {
+      display: block;
+      margin: 0.25rem 0;
+      color: var(--color-primary-dark);
+      font-size: 1.45rem;
+      font-weight: 900;
+      letter-spacing: -0.04em;
+    }
+    @media (max-width: 680px) {
+      .cost-home-card {
+        grid-template-columns: 1fr;
+      }
+      .cost-home-ticket {
+        transform: none;
       }
     }
   </style>

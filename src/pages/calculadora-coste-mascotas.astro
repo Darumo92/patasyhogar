@@ -1,0 +1,908 @@
+---
+import Base from '@/layouts/Base.astro';
+
+const siteUrl = 'https://patasyhogar.com';
+const canonicalUrl = `${siteUrl}/calculadora-coste-mascotas/`;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Calculadora de coste de mascotas', item: canonicalUrl },
+  ],
+};
+
+const webAppSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Calculadora de coste de mascotas',
+  description: 'Calcula cuánto cuesta mantener un perro o un gato al mes en España, con comida, veterinario, higiene, accesorios y seguro.',
+  url: canonicalUrl,
+  applicationCategory: 'FinanceApplication',
+  operatingSystem: 'All',
+  inLanguage: 'es',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: '¿Cuánto cuesta mantener un perro al mes en España?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Un perro suele costar entre 55 y 190 euros al mes en España, según tamaño, edad, ciudad, alimentación, veterinario y seguro. Los perros grandes y senior suelen estar en la parte alta del rango.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Cuánto cuesta mantener un gato al mes?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Un gato adulto suele costar entre 40 y 125 euros al mes. La comida, la arena y el veterinario preventivo son las partidas recurrentes principales.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿La calculadora sustituye a un presupuesto veterinario?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. La calculadora da una estimación orientativa para planificar gastos. Las enfermedades, cirugías, tratamientos crónicos o urgencias pueden cambiar mucho el coste real.',
+      },
+    },
+  ],
+};
+---
+
+<Base
+  title="Calculadora de coste de mascotas | Patas y Hogar"
+  description="Calcula cuánto cuesta mantener un perro o un gato al mes en España. Estimación con comida, veterinario, higiene, accesorios y seguro."
+  canonical={canonicalUrl}
+>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(webAppSchema)} slot="head" />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+
+  <section class="budget-page">
+    <div class="container">
+      <nav class="breadcrumb budget-breadcrumb" aria-label="Migas de pan">
+        <a href="/">Inicio</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span>Calculadora de coste</span>
+      </nav>
+
+      <div class="budget-hero">
+        <div class="budget-hero-copy">
+          <p class="budget-kicker">Coste mensual realista</p>
+          <h1>El presupuesto antes de traerlo a casa</h1>
+          <p>
+            La adopción empieza con ganas. El mes siguiente llegan el pienso, el veterinario, la arena, el seguro y esos recambios pequeños que nunca parecen gasto hasta que los sumas.
+          </p>
+          <p class="budget-hero-sub">España, perros y gatos, 1 minuto</p>
+        </div>
+
+        <div class="budget-hero-panel" aria-hidden="true">
+          <p class="budget-panel-label">Lo que entra</p>
+          <div class="budget-panel-main">
+            <span>Rangos mensuales, no promesas exactas.</span>
+          </div>
+          <div class="budget-panel-row"><span>01</span><b>Comida según tamaño y edad</b></div>
+          <div class="budget-panel-row"><span>02</span><b>Veterinario ajustado por ciudad</b></div>
+          <div class="budget-panel-row"><span>03</span><b>Higiene, arena y reposición</b></div>
+          <p class="budget-panel-note">La URL se actualiza sola para que puedas guardar tu caso.</p>
+        </div>
+      </div>
+
+      <div class="budget-board">
+        <form class="budget-form" id="cost-calculator">
+          <div class="budget-form-head">
+            <p class="budget-kicker">Ajustes</p>
+            <h2>Tu caso concreto</h2>
+            <span>Cambia un dato y mira cómo se mueve el total.</span>
+          </div>
+
+          <fieldset class="budget-segment" aria-label="Tipo de mascota">
+            <legend>Tipo de mascota</legend>
+            <label>
+              <input type="radio" name="especie" value="perro" checked />
+              <span>Perro</span>
+            </label>
+            <label>
+              <input type="radio" name="especie" value="gato" />
+              <span>Gato</span>
+            </label>
+          </fieldset>
+
+          <fieldset class="budget-segment" aria-label="Tamaño">
+            <legend>Tamaño</legend>
+            <label><input type="radio" name="tamano" value="pequeno" /><span>Pequeño</span></label>
+            <label><input type="radio" name="tamano" value="mediano" checked /><span>Mediano</span></label>
+            <label><input type="radio" name="tamano" value="grande" /><span>Grande</span></label>
+          </fieldset>
+
+          <fieldset class="budget-segment" aria-label="Edad">
+            <legend>Edad</legend>
+            <label><input type="radio" name="edad" value="cachorro" /><span>Cachorro</span></label>
+            <label><input type="radio" name="edad" value="adulto" checked /><span>Adulto</span></label>
+            <label><input type="radio" name="edad" value="senior" /><span>Senior</span></label>
+          </fieldset>
+
+          <fieldset class="budget-segment budget-segment--city" aria-label="Ciudad o zona">
+            <legend>Ciudad o zona</legend>
+            <label><input type="radio" name="ciudad" value="madrid" /><span>Madrid</span></label>
+            <label><input type="radio" name="ciudad" value="barcelona" /><span>Barcelona</span></label>
+            <label><input type="radio" name="ciudad" value="valencia" checked /><span>Valencia</span></label>
+            <label><input type="radio" name="ciudad" value="sevilla" /><span>Sevilla</span></label>
+            <label><input type="radio" name="ciudad" value="zaragoza" /><span>Zaragoza</span></label>
+            <label><input type="radio" name="ciudad" value="malaga" /><span>Málaga</span></label>
+            <label><input type="radio" name="ciudad" value="murcia" /><span>Murcia</span></label>
+            <label><input type="radio" name="ciudad" value="palma" /><span>Palma</span></label>
+            <label><input type="radio" name="ciudad" value="bilbao" /><span>Bilbao</span></label>
+            <label><input type="radio" name="ciudad" value="alicante" /><span>Alicante</span></label>
+            <label><input type="radio" name="ciudad" value="otra" /><span>Otra</span></label>
+          </fieldset>
+
+          <label class="budget-toggle">
+            <input type="checkbox" name="seguro" value="si" checked />
+            <span>
+              <strong>Incluir seguro o fondo veterinario</strong>
+              <small>Útil si no tienes un colchón separado para sustos veterinarios.</small>
+            </span>
+          </label>
+        </form>
+
+        <aside class="budget-result" id="cost-result" aria-live="polite">
+          <div class="budget-result-top">
+            <div>
+              <p class="budget-kicker">Estimación mensual</p>
+              <h2>Total mensual</h2>
+            </div>
+            <span>Cambia en directo</span>
+          </div>
+
+          <div class="budget-result-total">
+            <span>Rango orientativo</span>
+            <strong><b id="cost-total-min">74</b>€ - <b id="cost-total-max">138</b>€</strong>
+          </div>
+
+          <p class="budget-result-note" id="cost-result-text">
+            Para un perro mediano adulto en Valencia, este es un presupuesto razonable incluyendo seguro o fondo veterinario.
+          </p>
+
+          <div class="budget-breakdown" id="cost-breakdown"></div>
+
+          <div class="budget-result-actions">
+            <button class="budget-copy" id="cost-copy" type="button">Copiar este presupuesto</button>
+            <a class="budget-food-link" id="cost-food-link" href="/alimentacion/mejor-pienso-perro-adulto-raza-mediana/">Ver piensos adecuados</a>
+          </div>
+          <p class="budget-copy-msg" id="cost-copy-msg" hidden>Enlace copiado.</p>
+        </aside>
+      </div>
+
+      <section class="budget-explain" aria-labelledby="budget-explain-title">
+        <div>
+          <p class="budget-kicker">Notas de bolsillo</p>
+          <h2 id="budget-explain-title">El mes tranquilo no es el problema. El raro sí.</h2>
+        </div>
+        <div class="budget-explain-grid">
+          <article>
+            <span>01</span>
+            <h3>El tamaño se nota en el saco</h3>
+            <p>Un perro grande no come "un poco más" que uno pequeño. El salto mensual se nota, sobre todo si usas pienso de gama media decente.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>El veterinario va a saltos</h3>
+            <p>Vacunas y revisiones son previsibles. Analíticas, alergias, limpiezas dentales o medicación crónica cambian la foto.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>El gato también tiene gasto fijo</h3>
+            <p>La arena, la comida húmeda y el veterinario preventivo pesan más de lo que parece cuando haces el cálculo anual.</p>
+          </article>
+        </div>
+      </section>
+
+      <div class="budget-links">
+        <a href="/cuidados/cuanto-cuesta-mantener-un-perro-al-mes/">Ver guía de coste de perro</a>
+        <a href="/cuidados/cuanto-cuesta-mantener-un-gato-al-mes/">Ver guía de coste de gato</a>
+        <a href="/elegir/">Elegir productos con el recomendador</a>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+  (function() {
+    var form = document.getElementById('cost-calculator');
+    var resultText = document.getElementById('cost-result-text');
+    var totalMin = document.getElementById('cost-total-min');
+    var totalMax = document.getElementById('cost-total-max');
+    var breakdown = document.getElementById('cost-breakdown');
+    var copyBtn = document.getElementById('cost-copy');
+    var copyMsg = document.getElementById('cost-copy-msg');
+    var foodLink = document.getElementById('cost-food-link');
+
+    var base = {
+      perro: {
+        pequeno: { comida: [22, 45], veterinario: [12, 25], higiene: [8, 18], accesorios: [6, 14], seguro: [12, 28] },
+        mediano: { comida: [35, 70], veterinario: [15, 30], higiene: [10, 24], accesorios: [8, 18], seguro: [16, 35] },
+        grande: { comida: [55, 105], veterinario: [18, 38], higiene: [14, 32], accesorios: [10, 24], seguro: [20, 45] }
+      },
+      gato: {
+        pequeno: { comida: [18, 38], veterinario: [10, 22], higiene: [9, 18], accesorios: [5, 12], seguro: [10, 24] },
+        mediano: { comida: [22, 45], veterinario: [10, 24], higiene: [10, 22], accesorios: [5, 12], seguro: [12, 26] },
+        grande: { comida: [26, 55], veterinario: [12, 26], higiene: [11, 24], accesorios: [6, 14], seguro: [14, 30] }
+      }
+    };
+
+    var cityFactor = { madrid: 1.18, barcelona: 1.18, valencia: 1, sevilla: 0.95, zaragoza: 0.95, malaga: 1.02, murcia: 0.92, palma: 1.16, bilbao: 1.08, alicante: 0.98, otra: 0.95 };
+    var cityNames = { madrid: 'Madrid', barcelona: 'Barcelona', valencia: 'Valencia', sevilla: 'Sevilla', zaragoza: 'Zaragoza', malaga: 'Málaga', murcia: 'Murcia', palma: 'Palma', bilbao: 'Bilbao', alicante: 'Alicante', otra: 'otra ciudad' };
+    var sizeNames = { pequeno: 'pequeño', mediano: 'mediano', grande: 'grande' };
+    var labels = { comida: 'Comida', veterinario: 'Veterinario preventivo', higiene: 'Higiene y arena', accesorios: 'Accesorios y reposición', seguro: 'Seguro o fondo veterinario' };
+
+    function currentState() {
+      var data = new FormData(form);
+      return {
+        especie: data.get('especie') || 'perro',
+        tamano: data.get('tamano') || 'mediano',
+        edad: data.get('edad') || 'adulto',
+        ciudad: data.get('ciudad') || 'valencia',
+        seguro: data.get('seguro') === 'si'
+      };
+    }
+
+    function adjustRange(range, key, state) {
+      var min = range[0];
+      var max = range[1];
+      if (key === 'veterinario' || key === 'higiene' || key === 'seguro') {
+        min *= cityFactor[state.ciudad] || 1;
+        max *= cityFactor[state.ciudad] || 1;
+      }
+      if (state.edad === 'cachorro') {
+        if (key === 'veterinario') { min *= 1.25; max *= 1.35; }
+        if (key === 'accesorios') { min *= 1.2; max *= 1.35; }
+      }
+      if (state.edad === 'senior') {
+        if (key === 'veterinario') { min *= 1.45; max *= 1.75; }
+        if (key === 'seguro') { min *= 1.25; max *= 1.55; }
+      }
+      return [Math.round(min), Math.round(max)];
+    }
+
+    function updateUrl(state) {
+      var params = new URLSearchParams();
+      params.set('especie', state.especie);
+      params.set('tamano', state.tamano);
+      params.set('edad', state.edad);
+      params.set('ciudad', state.ciudad);
+      params.set('seguro', state.seguro ? 'si' : 'no');
+      history.replaceState(null, '', window.location.pathname + '?' + params.toString());
+    }
+
+    function foodHref(state) {
+      if (state.especie === 'gato') {
+        if (state.edad === 'cachorro') return '/alimentacion/mejor-pienso-cachorro-gato/';
+        if (state.edad === 'senior') return '/alimentacion/mejor-pienso-gato-senior/';
+        return '/alimentacion/mejor-pienso-gato-esterilizado/';
+      }
+      if (state.edad === 'cachorro' && state.tamano === 'grande') return '/alimentacion/mejor-pienso-cachorro-raza-grande/';
+      if (state.edad === 'senior') return '/alimentacion/mejor-pienso-perro-senior/';
+      if (state.tamano === 'pequeno') return '/alimentacion/mejor-pienso-perro-raza-pequena/';
+      if (state.tamano === 'grande') return '/alimentacion/mejor-pienso-perro-raza-grande/';
+      return '/alimentacion/mejor-pienso-perro-adulto-raza-mediana/';
+    }
+
+    function render() {
+      var state = currentState();
+      var selected = base[state.especie][state.tamano];
+      var rows = [];
+      var minTotal = 0;
+      var maxTotal = 0;
+
+      Object.keys(selected).forEach(function(key) {
+        if (key === 'seguro' && !state.seguro) return;
+        var adjusted = adjustRange(selected[key], key, state);
+        minTotal += adjusted[0];
+        maxTotal += adjusted[1];
+        rows.push({ label: labels[key], min: adjusted[0], max: adjusted[1] });
+      });
+
+      totalMin.textContent = minTotal;
+      totalMax.textContent = maxTotal;
+      resultText.textContent = 'Para un ' + state.especie + ' ' + sizeNames[state.tamano] + ' ' + state.edad + ' en ' + cityNames[state.ciudad] + ', este es un presupuesto mensual razonable' + (state.seguro ? ' incluyendo seguro o fondo veterinario.' : ' sin incluir seguro veterinario.');
+      breakdown.innerHTML = rows.map(function(row) {
+        var pct = Math.min(100, Math.max(12, Math.round(row.max / maxTotal * 100)));
+        return '<div class="budget-breakdown-row"><div><span>' + row.label + '</span><strong>' + row.min + '€ - ' + row.max + '€</strong></div><i style="--w:' + pct + '%"></i></div>';
+      }).join('');
+      foodLink.href = foodHref(state);
+      foodLink.textContent = state.especie === 'gato' ? 'Ver piensos para gato' : 'Ver piensos para perro';
+      updateUrl(state);
+    }
+
+    function applyParams() {
+      var params = new URLSearchParams(window.location.search);
+      ['especie', 'tamano', 'edad', 'ciudad'].forEach(function(key) {
+        var value = params.get(key);
+        if (value && form.elements[key]) form.elements[key].value = value;
+      });
+      var seguro = params.get('seguro');
+      if (seguro) form.elements.seguro.checked = seguro !== 'no';
+    }
+
+    form.addEventListener('change', render);
+    copyBtn.addEventListener('click', function() {
+      var text = window.location.href;
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(showCopyMessage).catch(showCopyMessage);
+      } else {
+        showCopyMessage();
+      }
+    });
+
+    function showCopyMessage() {
+      copyMsg.hidden = false;
+      setTimeout(function() { copyMsg.hidden = true; }, 2200);
+    }
+
+    applyParams();
+    render();
+  })();
+  </script>
+
+  <style>
+    .budget-page {
+      --budget-bg: oklch(97.2% 0.012 155);
+      --budget-bg-2: oklch(93.5% 0.018 150);
+      --budget-surface: oklch(98.8% 0.008 155);
+      --budget-surface-strong: oklch(18% 0.045 155);
+      --budget-ink: oklch(16% 0.04 155);
+      --budget-muted: oklch(42% 0.03 155);
+      --budget-line: oklch(80% 0.03 155);
+      --budget-accent: oklch(48% 0.12 155);
+      --budget-accent-soft: oklch(92% 0.04 155);
+      --budget-focus: oklch(55% 0.14 155);
+      position: relative;
+      isolation: isolate;
+      padding: 1.35rem 0 4.75rem;
+      overflow: hidden;
+      color: var(--budget-ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 10% 8%, color-mix(in oklch, var(--budget-accent-soft) 54%, transparent), transparent 20rem),
+        radial-gradient(circle at 88% 20%, color-mix(in oklch, var(--green-100) 42%, transparent), transparent 24rem),
+        linear-gradient(145deg, var(--budget-bg), var(--budget-bg-2));
+    }
+:global(:root[data-theme="dark"]) .budget-page {
+      --budget-bg: oklch(15% 0.02 155);
+      --budget-bg-2: oklch(12% 0.018 155);
+      --budget-surface: oklch(17% 0.02 155);
+      --budget-surface-strong: oklch(90% 0.01 155);
+      --budget-ink: oklch(93% 0.008 155);
+      --budget-muted: oklch(68% 0.02 155);
+      --budget-line: oklch(30% 0.025 155);
+      --budget-accent: oklch(72% 0.12 155);
+      --budget-accent-soft: oklch(24% 0.06 155);
+      --budget-focus: oklch(72% 0.14 155);
+    }
+    .budget-page::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      opacity: 0.26;
+      background:
+        linear-gradient(90deg, transparent 0 23px, color-mix(in oklch, var(--budget-line) 55%, transparent) 23px 24px, transparent 24px 100%),
+        linear-gradient(180deg, transparent 0 31px, color-mix(in oklch, var(--budget-line) 42%, transparent) 31px 32px, transparent 32px 100%);
+      background-size: 96px 96px;
+      mask-image: linear-gradient(180deg, var(--budget-ink) 0%, transparent 78%);
+    }
+    .budget-page::after {
+      content: '';
+      position: absolute;
+      top: 7.5rem;
+      right: max(-7rem, -7vw);
+      z-index: -1;
+      width: clamp(15rem, 25vw, 24rem);
+      aspect-ratio: 1;
+      border: 1px solid color-mix(in oklch, var(--budget-accent) 36%, transparent);
+      border-radius: 38% 62% 52% 48%;
+      transform: rotate(18deg);
+    }
+    .budget-breadcrumb {
+      margin-bottom: clamp(1.25rem, 3vw, 2rem);
+    }
+    .budget-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(18rem, 0.72fr);
+      gap: clamp(1.5rem, 5vw, 5.5rem);
+      align-items: end;
+      margin-bottom: clamp(1.75rem, 5vw, 4rem);
+    }
+    .budget-hero-copy {
+      max-width: 59rem;
+      padding-top: clamp(1.25rem, 4vw, 4.5rem);
+    }
+    .budget-kicker {
+      margin-bottom: 0.8rem;
+      color: var(--budget-accent);
+      font-size: 0.7rem;
+      font-weight: 900;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .budget-hero h1 {
+      max-width: 11ch;
+      margin-bottom: 1rem;
+      color: var(--budget-ink);
+      font-size: clamp(2.65rem, 8.4vw, 6.5rem);
+      font-weight: 950;
+      letter-spacing: -0.085em;
+      line-height: 0.86;
+    }
+    .budget-hero-copy > p {
+      max-width: 41rem;
+      color: var(--budget-muted);
+      font-size: clamp(1rem, 1.5vw, 1.2rem);
+      line-height: 1.65;
+    }
+    .budget-hero-sub {
+      margin-top: 1.45rem;
+      color: var(--budget-muted);
+      font-size: 0.92rem;
+      font-weight: 720;
+    }
+    .budget-copy,
+    .budget-food-link,
+    .budget-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius-pill);
+      font: inherit;
+      font-size: 0.9rem;
+      font-weight: 850;
+      text-decoration: none;
+      transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms cubic-bezier(0.16, 1, 0.3, 1), background 180ms cubic-bezier(0.16, 1, 0.3, 1), color 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .budget-copy {
+      border: 1px solid color-mix(in oklch, var(--budget-ink) 88%, transparent);
+      background: var(--budget-ink);
+      color: var(--budget-surface);
+      cursor: pointer;
+      box-shadow: 0 18px 30px color-mix(in oklch, var(--budget-ink) 16%, transparent);
+    }
+    .budget-copy:hover {
+      background: var(--budget-accent);
+      border-color: var(--budget-accent);
+      color: var(--budget-surface);
+    }
+    .budget-copy:active,
+    .budget-food-link:active,
+    .budget-links a:active {
+      transform: translateY(1px) scale(0.985);
+    }
+    .budget-hero-panel {
+      position: relative;
+      padding: 1.1rem;
+      border: 1px solid var(--budget-line);
+      border-radius: 28px;
+      background: color-mix(in oklch, var(--budget-surface) 92%, transparent);
+      box-shadow: 0 24px 52px color-mix(in oklch, var(--budget-ink) 9%, transparent);
+      transform: translateY(1.25rem) rotate(2deg);
+      animation: budgetFloatIn 620ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .budget-panel-label {
+      margin-bottom: 0.75rem;
+      color: var(--budget-muted);
+      font-size: 0.78rem;
+      font-weight: 880;
+    }
+    .budget-panel-main {
+      padding: 0.9rem 1rem;
+      border-radius: 20px;
+      background: var(--budget-accent-soft);
+    }
+    .budget-panel-main span {
+      display: block;
+      color: var(--budget-ink);
+      font-size: 0.95rem;
+      font-weight: 850;
+      line-height: 1.35;
+    }
+    .budget-panel-row {
+      display: grid;
+      grid-template-columns: 2.35rem 1fr;
+      gap: 0.8rem;
+      align-items: baseline;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid color-mix(in oklch, var(--budget-line) 62%, transparent);
+    }
+    .budget-panel-row span {
+      color: var(--budget-accent);
+      font-size: 0.7rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+    .budget-panel-row b {
+      color: var(--budget-ink);
+      font-size: 0.9rem;
+      line-height: 1.35;
+    }
+    .budget-panel-note {
+      margin-top: 0.9rem;
+      color: var(--budget-muted);
+      font-size: 0.84rem;
+      line-height: 1.45;
+    }
+    .budget-board {
+      display: grid;
+      grid-template-columns: minmax(22rem, 0.92fr) minmax(0, 1.08fr);
+      grid-template-areas: "result form";
+      gap: clamp(1rem, 3vw, 2rem);
+      align-items: start;
+      margin-bottom: clamp(2.5rem, 6vw, 5rem);
+    }
+    .budget-form,
+    .budget-result {
+      border: 1px solid var(--budget-line);
+      background: color-mix(in oklch, var(--budget-surface) 94%, transparent);
+      box-shadow: 0 18px 38px color-mix(in oklch, var(--budget-ink) 7%, transparent);
+    }
+    .budget-form {
+      grid-area: form;
+      padding: clamp(1.05rem, 2.4vw, 1.65rem);
+      border-radius: 14px 36px 36px 36px;
+    }
+    .budget-result {
+      grid-area: result;
+      position: sticky;
+      top: 5rem;
+      padding: clamp(1.1rem, 3vw, 1.8rem);
+      border-radius: 36px 36px 14px 36px;
+      background:
+        linear-gradient(145deg, color-mix(in oklch, var(--budget-surface) 90%, var(--budget-accent-soft)), var(--budget-surface));
+    }
+    .budget-form-head,
+    .budget-result-top {
+      margin-bottom: 1.1rem;
+    }
+    .budget-form-head h2,
+    .budget-result-top h2 {
+      margin: 0;
+      color: var(--budget-ink);
+      font-size: clamp(1.25rem, 2vw, 1.65rem);
+      font-weight: 930;
+      letter-spacing: -0.04em;
+    }
+    .budget-form-head span,
+    .budget-result-top > span {
+      display: block;
+      margin-top: 0.35rem;
+      color: var(--budget-muted);
+      font-size: 0.86rem;
+      line-height: 1.45;
+    }
+    .budget-segment {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6rem;
+      margin-bottom: 1.1rem;
+      border: 0;
+    }
+    .budget-segment--city {
+      grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr));
+    }
+    .budget-segment legend,
+    .budget-select-grid label,
+    .budget-select-full {
+      color: var(--budget-ink);
+      font-size: 0.82rem;
+      font-weight: 850;
+    }
+    .budget-segment legend {
+      grid-column: 1 / -1;
+      margin-bottom: 0.2rem;
+    }
+    .budget-segment input {
+      position: absolute;
+      opacity: 0;
+    }
+    .budget-segment span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0.65rem 0.9rem;
+      border: 1px solid var(--budget-line);
+      border-radius: 14px;
+      background: color-mix(in oklch, var(--budget-surface) 76%, transparent);
+      color: var(--budget-muted);
+      font-weight: 900;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms cubic-bezier(0.16, 1, 0.3, 1), background 180ms cubic-bezier(0.16, 1, 0.3, 1), color 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .budget-segment input:checked + span {
+      border-color: var(--budget-accent);
+      background: color-mix(in oklch, var(--budget-accent-soft) 55%, var(--budget-surface));
+      color: var(--budget-ink);
+    }
+    .budget-segment span:active { transform: translateY(1px) scale(0.985); }
+    .budget-toggle {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.8rem;
+      align-items: start;
+      padding: 1rem;
+      border: 1px solid color-mix(in oklch, var(--budget-accent) 34%, var(--budget-line));
+      border-radius: 20px;
+      background: color-mix(in oklch, var(--budget-accent-soft) 38%, var(--budget-surface));
+      cursor: pointer;
+    }
+    .budget-toggle input { margin-top: 0.25rem; accent-color: var(--budget-accent); }
+    .budget-toggle strong,
+    .budget-toggle small { display: block; }
+    .budget-toggle strong { color: var(--budget-ink); font-size: 0.92rem; }
+    .budget-toggle small {
+      margin-top: 0.2rem;
+      color: var(--budget-muted);
+      font-size: 0.8rem;
+      line-height: 1.45;
+    }
+    .budget-result-top {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .budget-result-top > span {
+      max-width: 9rem;
+      text-align: right;
+    }
+    .budget-result-total {
+      position: relative;
+      margin-bottom: 1rem;
+      padding: clamp(1.1rem, 3vw, 1.55rem);
+      overflow: hidden;
+      border-radius: 30px;
+      background: var(--budget-ink);
+      color: var(--budget-surface);
+    }
+    .budget-result-total::after {
+      content: '';
+      position: absolute;
+      right: -2.5rem;
+      bottom: -3rem;
+      width: 10rem;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background: color-mix(in oklch, var(--budget-accent) 45%, transparent);
+      filter: blur(6px);
+      opacity: 0.55;
+    }
+    .budget-result-total span,
+    .budget-result-total strong {
+      position: relative;
+      z-index: 1;
+    }
+    .budget-result-total span {
+      display: block;
+      margin-bottom: 0.45rem;
+      color: color-mix(in oklch, var(--budget-surface) 65%, transparent);
+      font-size: 0.78rem;
+      font-weight: 880;
+    }
+    .budget-result-total strong {
+      display: block;
+      color: var(--budget-surface);
+      font-size: clamp(2.35rem, 5.2vw, 4.25rem);
+      font-weight: 950;
+      letter-spacing: -0.075em;
+      line-height: 0.92;
+      white-space: nowrap;
+    }
+    .budget-result-note {
+      margin-bottom: 1rem;
+      color: var(--budget-muted);
+      font-size: 0.92rem;
+      line-height: 1.58;
+    }
+    .budget-breakdown {
+      display: grid;
+      gap: 0;
+      margin-bottom: 1.25rem;
+      border-top: 1px solid var(--budget-line);
+    }
+    .budget-breakdown-row {
+      padding: 0.78rem 0;
+      border-bottom: 1px solid var(--budget-line);
+      font-size: 0.9rem;
+    }
+    .budget-breakdown-row div {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.52rem;
+    }
+    .budget-breakdown-row span { color: var(--budget-muted); }
+    .budget-breakdown-row strong { color: var(--budget-ink); white-space: nowrap; }
+    .budget-breakdown-row i {
+      display: block;
+      width: 100%;
+      height: 0.45rem;
+      overflow: hidden;
+      border-radius: var(--radius-pill);
+      background: color-mix(in oklch, var(--budget-line) 48%, transparent);
+    }
+    .budget-breakdown-row i::before {
+      content: '';
+      display: block;
+      width: var(--w);
+      height: 100%;
+      border-radius: inherit;
+      background: var(--budget-accent);
+      transform-origin: left center;
+      animation: budgetBarIn 520ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .budget-result-actions {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+    }
+    .budget-food-link,
+    .budget-links a {
+      border: 1px solid var(--budget-line);
+      background: color-mix(in oklch, var(--budget-surface) 76%, transparent);
+      color: var(--budget-ink);
+    }
+    .budget-food-link:hover,
+    .budget-links a:hover {
+      border-color: var(--budget-accent);
+      color: var(--budget-accent);
+    }
+    .budget-copy-msg {
+      margin-top: 0.65rem;
+      color: var(--budget-accent);
+      font-size: 0.82rem;
+      font-weight: 850;
+    }
+.budget-copy:focus-visible,
+    .budget-food-link:focus-visible,
+    .budget-links a:focus-visible,
+    .budget-hero-actions a:focus-visible,
+    .budget-segment input:focus-visible + span {
+      outline: 3px solid color-mix(in oklch, var(--budget-focus) 55%, transparent);
+      outline-offset: 3px;
+    }
+    .budget-explain {
+      display: grid;
+      grid-template-columns: minmax(16rem, 0.78fr) minmax(0, 1.22fr);
+      gap: clamp(1.5rem, 4vw, 3rem);
+      align-items: start;
+      margin-top: 0;
+    }
+    .budget-explain h2 {
+      max-width: 13ch;
+      color: var(--budget-ink);
+      font-size: clamp(1.8rem, 4.5vw, 3.8rem);
+      font-weight: 950;
+      letter-spacing: -0.07em;
+      line-height: 0.92;
+    }
+    .budget-explain-grid {
+      display: grid;
+      gap: 0;
+      border-top: 1px solid var(--budget-line);
+    }
+    .budget-explain article {
+      display: grid;
+      grid-template-columns: 3.5rem minmax(10rem, 0.72fr) minmax(0, 1fr);
+      gap: clamp(0.75rem, 2vw, 1.35rem);
+      align-items: start;
+      padding: 1.1rem 0;
+      border-bottom: 1px solid var(--budget-line);
+    }
+    .budget-explain article span {
+      color: var(--budget-accent);
+      font-size: 0.72rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+    .budget-explain h3 {
+      color: var(--budget-ink);
+      font-size: clamp(1rem, 1.8vw, 1.25rem);
+      font-weight: 900;
+      letter-spacing: -0.035em;
+      line-height: 1.08;
+    }
+    .budget-explain p {
+      margin: 0;
+      color: var(--budget-muted);
+      font-size: 0.9rem;
+      line-height: 1.56;
+    }
+    .budget-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.75rem;
+    }
+    @keyframes budgetFloatIn {
+      from { opacity: 0; transform: translateY(2.25rem) rotate(-1deg); }
+      to { opacity: 1; transform: translateY(1.25rem) rotate(2deg); }
+    }
+    @keyframes budgetBarIn {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .budget-hero-panel,
+      .budget-breakdown-row i::before { animation: none; }
+      .budget-hero-actions a,
+      .budget-copy,
+      .budget-food-link,
+      .budget-links a,
+      .budget-segment span { transition: none; }
+    }
+    @media (max-width: 920px) {
+      .budget-hero,
+      .budget-board,
+      .budget-explain {
+        grid-template-columns: 1fr;
+      }
+      .budget-board {
+        grid-template-areas:
+          "form"
+          "result";
+      }
+      .budget-hero-panel {
+        max-width: 28rem;
+        transform: none;
+      }
+      .budget-result {
+        position: relative;
+        top: auto;
+      }
+      @keyframes budgetFloatIn {
+        from { opacity: 0; transform: translateY(1rem); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    }
+    @media (max-width: 640px) {
+      .budget-page { padding-top: 1.1rem; }
+      .budget-hero h1 { font-size: clamp(2.55rem, 16vw, 4.4rem); }
+      .budget-segment:not(.budget-segment--city) {
+        grid-template-columns: 1fr;
+      }
+      .budget-form,
+      .budget-result {
+        padding: 1rem;
+        border-radius: 24px;
+      }
+      .budget-result-top {
+        display: block;
+      }
+      .budget-result-top > span {
+        max-width: none;
+        text-align: left;
+      }
+      .budget-result-total strong {
+        white-space: normal;
+      }
+      .budget-explain article {
+        grid-template-columns: 2.75rem 1fr;
+      }
+      .budget-explain article p {
+        grid-column: 2;
+      }
+      .budget-links {
+        flex-direction: column;
+      }
+    }
+  </style>
+</Base>

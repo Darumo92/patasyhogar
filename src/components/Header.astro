@@ -11,6 +11,7 @@ const isActive = (path: string) => currentPath.startsWith(path);
       <a class="nav-link cat" href="/gatos/" aria-current={isActive('/gatos/') ? 'page' : undefined}>Gatos</a>
       <a class="nav-link" href="/cuidados/" aria-current={isActive('/cuidados/') ? 'page' : undefined}>Cuidados</a>
       <a class="nav-link nav-link--tool" href="/elegir/" aria-current={isActive('/elegir/') ? 'page' : undefined}>Te ayudamos a elegir</a>
+      <a class="nav-link nav-link--tool" href="/calculadora-coste-mascotas/" aria-current={isActive('/calculadora-coste-mascotas/') ? 'page' : undefined}>Calculadora</a>
     </nav>
     <div class="header-actions">
       <a class="nav-icon" href="/buscar/" aria-label="Buscar">
@@ -27,6 +28,7 @@ const isActive = (path: string) => currentPath.startsWith(path);
   </div>
   <nav class="mobile-menu" id="mobile-menu" aria-label="Menú móvil">
     <a class="mobile-link mobile-link--tool" href="/elegir/">Te ayudamos a elegir</a>
+    <a class="mobile-link mobile-link--tool" href="/calculadora-coste-mascotas/">Calculadora de coste</a>
     <div class="mobile-sep"></div>
     <a class="mobile-link dog" href="/perros/">Perros</a>
     <a class="mobile-link cat" href="/gatos/">Gatos</a>

@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-17 22:00 CEST
+Última actualización: 2026-05-18 CEST
 
 ---
 
@@ -103,6 +103,7 @@ Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualiz
 - (r/perros estaba baneado por unmoderated)
 
 ### Comentarios publicados (acumulado)
+Karma 2026-05-18: comment=60, link=6, total=66. Sano. Se publicaron 4 comentarios en r/mascotas sin link; mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
 Karma 2026-05-17 22:00 CEST: comment=57, link=6, total=63. Sano. Cuenta cumple 1 mes el 2026-05-20 → empezar a drop links contextuales a patasyhogar a partir de esa fecha.
 Karma 2026-05-17 mañana: comment=54, link=6, total=60. Sano.
 Karma 2026-05-16: comment=50, link=6, total=56. Sano.
@@ -111,6 +112,10 @@ Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-18 r/mascotas: Nueva gatita conoce a mi gatita de casa (1tggmmc) — introducción lenta entre gata joven sociable y gata adulta tímida, recomendar no decidir en 2 semanas salvo señales graves, volver a intercambio de olores y no interpretar bufidos como mala intención. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tggmmc/nueva_gatita_conoce_a_mi_gatita_de_casa/
+- 2026-05-18 r/mascotas: Necesito su ayuda (1tg644r) — chihuahua con problema de piel/sarna de 1 año, recomendar dermatólogo veterinario, ordenar pruebas previas, confirmar diagnóstico con raspado/citología/cultivo y evitar remedios al azar con piel abierta. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tg644r/necesito_su_ayuda/
+- 2026-05-18 r/mascotas: Hace dos días me siguió desde muy lejos, se llamará Pulgoso (1tg7kmt) — perro rescatado, recomendar revisión veterinaria, chip, desparasitación, comida gradual, rutina tranquila y placa con teléfono. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tg7kmt/hace_dos_días_me_sigui%C3%B3_desde_muy_lejos_se/
+- 2026-05-18 r/mascotas: Qué recomiendan para las pulgas (1tg89zd) — recomendar antiparasitario veterinario por peso/especie, tratar entorno, evitar remedios caseros irritantes y pedir edad/peso/especie antes de concretar. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tg89zd/que_recomiendan_para_las_pulgas/
 - 2026-05-17 r/mascotas: GPS para mascotas (1tf8hmx) — recomendar Tractive GPS vs AirTag vs TKSTAR, cuota mensual 5-7€, AirTag inútil en zona rural, chip+placa como alternativa barata, preguntar tamaño perro. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tf8hmx/gps_para_mascotas/
 - 2026-05-17 r/GatosArgentinos: Gatito trans — marcaje post-castración (1tfeoyl) — preguntar tiempo desde castración, limpieza enzimática marcas, separación temporal si agresión con agarre, bloquear vista si marca por gatos exteriores, anécdota Mango manta post-castración. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tfeoyl/gatito_trans/
 - 2026-05-17 r/GatosArgentinos: Busca cuevitas/cama para gato (1teaqu1) — advertir que fotos de página no coinciden con producto real, recomendar cama iglú polar (ML/AliExpress 8-15k), sleeping bag gato, y caja cartón+manta (anécdota Mango tiró cama de 20€ y se quedó con caja), sugerir mirar medidas y comentarios compradores. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1teaqu1/estoy_buscando_estas_cuevitas/
