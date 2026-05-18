@@ -23,6 +23,13 @@ const categorias = [
   { slug: 'cuidados', nombre: 'Cuidados' },
 ];
 
+const guiasBase = [
+  { href: '/cuidados/guia-completa-alimentacion-gatos/', label: 'Guía de alimentación para gatos' },
+  { href: '/cuidados/guia-completa-higiene-cuidado-gatos/', label: 'Higiene y cuidado del gato' },
+  { href: '/cuidados/guia-completa-salud-bienestar-gatos/', label: 'Salud y bienestar felino' },
+  { href: '/cuidados/guia-completa-juguetes-enriquecimiento-mascotas/', label: 'Juguetes y enriquecimiento' },
+];
+
 const porCategoria = categorias.map(cat => ({
   ...cat,
   articulos: articulosOrdenados.filter(a =>
@@ -104,6 +111,11 @@ const collectionSchema = {
 
     <div class="category-intro">
       <p>Hemos analizado decenas de productos para gatos en España: desde el mejor pienso según la edad y necesidades de tu gato, hasta areneros autolimpiables, rascadores, juguetes interactivos y antiparasitarios. Cada guía incluye comparativa de precios entre tiendas para que encuentres la mejor oferta.</p>
+      <div class="pillar-links" aria-label="Guías principales para gatos">
+        {guiasBase.map(guia => (
+          <a href={guia.href}>{guia.label}</a>
+        ))}
+      </div>
     </div>
 
     {/* Destacados */}
@@ -155,6 +167,27 @@ const collectionSchema = {
     color: var(--color-text-muted);
     line-height: 1.7;
     margin: 0;
+  }
+  .pillar-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .pillar-links a {
+    display: inline-flex;
+    padding: 0.45rem 0.75rem;
+    border-radius: 99px;
+    background: var(--color-bg-card);
+    color: var(--color-primary);
+    border: 1px solid var(--color-border);
+    font-size: 0.84rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .pillar-links a:hover {
+    border-color: var(--color-primary);
+    background: var(--green-50);
   }
   .subcat-nav {
     display: flex;

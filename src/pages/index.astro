@@ -37,6 +37,45 @@ const categorias = [
   { slug: 'hogar',        nombre: 'Hogar' },
 ];
 
+const guiasEsenciales = [
+  {
+    href: '/cuidados/guia-alimentacion-perros/',
+    titulo: 'Alimentación para perros',
+    descripcion: 'Pienso, raciones, comida húmeda y criterios para elegir según edad, tamaño y salud.',
+    animal: 'Perros',
+  },
+  {
+    href: '/cuidados/guia-completa-alimentacion-gatos/',
+    titulo: 'Alimentación para gatos',
+    descripcion: 'Bases de nutrición felina, hidratación, pienso, húmeda y errores habituales.',
+    animal: 'Gatos',
+  },
+  {
+    href: '/cuidados/guia-completa-higiene-grooming-perros/',
+    titulo: 'Higiene del perro',
+    descripcion: 'Baño, cepillado, oídos, uñas, dientes y antiparasitarios en una rutina realista.',
+    animal: 'Perros',
+  },
+  {
+    href: '/cuidados/guia-completa-higiene-cuidado-gatos/',
+    titulo: 'Higiene del gato',
+    descripcion: 'Arena, areneros, cepillado, uñas, bolas de pelo y limpieza sin estrés.',
+    animal: 'Gatos',
+  },
+  {
+    href: '/cuidados/guia-completa-salud-bienestar-perros/',
+    titulo: 'Salud y bienestar canino',
+    descripcion: 'Señales de alerta, prevención, ejercicio, peso y cuidados diarios.',
+    animal: 'Perros',
+  },
+  {
+    href: '/cuidados/guia-completa-salud-bienestar-gatos/',
+    titulo: 'Salud y bienestar felino',
+    descripcion: 'Cambios de conducta, prevención, estrés, alimentación y visitas al veterinario.',
+    animal: 'Gatos',
+  },
+];
+
 const productCollections = await getCollection('productos');
 const totalProducts = productCollections.reduce((sum, c) => sum + c.data.length, 0);
 
@@ -172,12 +211,31 @@ function articleUrl(a: typeof articulos[0]) {
     </div>
   </section>
 
+  <!-- 4. Essential Guides -->
+  <section class="essential-guides">
+    <div class="container">
+      <div class="section-header">
+        <h2>Guías esenciales</h2>
+        <a href="/cuidados/">Ver cuidados →</a>
+      </div>
+      <div class="essential-guides-grid">
+        {guiasEsenciales.map(guia => (
+          <a href={guia.href} class="essential-guide-card">
+            <span class="essential-guide-animal">{guia.animal}</span>
+            <h3>{guia.titulo}</h3>
+            <p>{guia.descripcion}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
   {/* Quiz CTA Banner — after categories, before articles */}
   {totalProducts > 0 && (
     <QuizHomeBanner totalProducts={totalProducts} totalCategories={5} />
   )}
 
-  <!-- 4. Latest Comparativas -->
+  <!-- 5. Latest Comparativas -->
   {recientes.length > 0 && (
     <section class="articles">
       <div class="container">
@@ -194,7 +252,7 @@ function articleUrl(a: typeof articulos[0]) {
     </section>
   )}
 
-  <!-- 5. Guides (Informativos) -->
+  <!-- 6. Guides (Informativos) -->
   {informativos.length > 0 && (
     <section class="guides">
       <div class="container">
@@ -217,7 +275,7 @@ function articleUrl(a: typeof articulos[0]) {
     </section>
   )}
 
-  <!-- 6. Newsletter -->
+  <!-- 7. Newsletter -->
   <section class="container">
     <div class="newsletter">
       <h2>No te pierdas nada</h2>
@@ -262,4 +320,63 @@ function articleUrl(a: typeof articulos[0]) {
     });
   })();
   </script>
+
+  <style>
+    .essential-guides {
+      padding: 3rem 0;
+      background: var(--color-bg-muted);
+    }
+    .essential-guides-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+    .essential-guide-card {
+      display: block;
+      padding: 1.25rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      background: var(--color-bg-card);
+      text-decoration: none;
+      color: var(--color-text);
+      transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+    }
+    .essential-guide-card:hover {
+      border-color: var(--color-primary);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .essential-guide-animal {
+      display: inline-flex;
+      margin-bottom: 0.65rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: var(--radius-pill);
+      background: var(--green-100);
+      color: var(--color-primary-dark);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    .essential-guide-card h3 {
+      margin-bottom: 0.45rem;
+      font-size: 1rem;
+    }
+    .essential-guide-card p {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+    @media (max-width: 900px) {
+      .essential-guides-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 560px) {
+      .essential-guides-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </Base>

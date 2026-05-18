@@ -30,7 +30,7 @@
 
 # Páginas HTML: cache corto + revalidar (Cloudflare siempre sirve la última versión tras deploy)
 /*
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, s-maxage=3600, must-revalidate
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin

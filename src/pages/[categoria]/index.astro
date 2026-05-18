@@ -153,8 +153,29 @@ const subcategoriasConfig: Record<string, { id: string; nombre: string; keywords
   ],
 };
 
+const pillarLinksByCategoria: Record<string, { href: string; label: string }[]> = {
+  alimentacion: [
+    { href: '/cuidados/guia-alimentacion-perros/', label: 'Guía de alimentación para perros' },
+    { href: '/cuidados/guia-completa-alimentacion-gatos/', label: 'Guía de alimentación para gatos' },
+  ],
+  higiene: [
+    { href: '/cuidados/guia-completa-higiene-grooming-perros/', label: 'Higiene y grooming de perros' },
+    { href: '/cuidados/guia-completa-higiene-cuidado-gatos/', label: 'Higiene y cuidado de gatos' },
+  ],
+  paseo: [
+    { href: '/cuidados/guia-completa-paseo-viaje-perros/', label: 'Guía de paseo y viaje con perros' },
+  ],
+  juguetes: [
+    { href: '/cuidados/guia-completa-juguetes-enriquecimiento-mascotas/', label: 'Guía de juguetes y enriquecimiento' },
+  ],
+  hogar: [
+    { href: '/cuidados/guia-completa-hogar-seguro-mascotas/', label: 'Guía de hogar seguro para mascotas' },
+  ],
+};
+
 const info = categoriasInfo[categoria as string];
 const subcats = subcategoriasConfig[categoria as string] || [];
+const pillarLinks = pillarLinksByCategoria[categoria as string] || [];
 
 // Excluir informativos de las páginas de categoría (van en /cuidados/)
 const articulos = await getCollection('articulos', ({ data }) =>
@@ -277,6 +298,13 @@ const breadcrumbSchema = {
     <!-- Intro SEO -->
     <div class="category-intro">
       <p>{info.intro}</p>
+      {pillarLinks.length > 0 && (
+        <div class="pillar-links" aria-label={`Guías principales de ${info.nombre}`}>
+          {pillarLinks.map(link => (
+            <a href={link.href}>{link.label}</a>
+          ))}
+        </div>
+      )}
     </div>
 
     {articulosOrdenados.length > 0 ? (
@@ -377,6 +405,27 @@ const breadcrumbSchema = {
     color: var(--color-text-muted);
     line-height: 1.7;
     margin: 0;
+  }
+  .pillar-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .pillar-links a {
+    display: inline-flex;
+    padding: 0.45rem 0.75rem;
+    border-radius: 99px;
+    background: var(--color-bg-card);
+    color: var(--color-primary);
+    border: 1px solid var(--color-border);
+    font-size: 0.84rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .pillar-links a:hover {
+    border-color: var(--color-primary);
+    background: var(--green-50);
   }
 
   /* Navegación rápida subcategorías (dentro del banner) */
