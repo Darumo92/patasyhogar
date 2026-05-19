@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# agent-environment/setup.sh — enlaza skills/config comun a Claude, Codex, opencode y ~/.agents.
+# agent-environment/setup.sh — instala skills, plugins, MCP y config para opencode (y otros agentes).
+# Ejecutar en cualquier maquina nueva: bash agent-environment/setup.sh --force
 
 set -euo pipefail
 
@@ -20,13 +21,19 @@ for arg in "$@"; do
       cat <<EOF
 Uso: bash agent-environment/setup.sh [--force]
 
-Enlaza skills desde claude-environment/skills a:
+Instala el entorno completo de agentes:
+  1. Skills (symlinks desde claude-environment/skills/ a ~/.config/opencode/skills/ etc.)
+  2. Plugin superpowers en opencode.json
+  3. MCP servers (Cloudflare, Google Analytics, Google Search Console)
+  4. Hooks y config de Claude Code
+
+Destinos de skills:
   ~/.claude/skills
   ~/.agents/skills
   ~/.codex/skills
   ~/.config/opencode/skills
 
---force mueve conflictos gestionados a ~/.agent-environment-backups/<timestamp>/.
+--force mueve conflictos a ~/.agent-environment-backups/<timestamp>/.
 EOF
       exit 0
       ;;
@@ -36,6 +43,27 @@ EOF
       ;;
   esac
 done
+
+# --- Verificar dependencias ---
+echo "==> Verificando dependencias..."
+MISSING=""
+command -v node >/dev/null 2>&1 || MISSING="${MISSING} node"
+command -v npm >/dev/null 2>&1 || MISSING="${MISSING} npm"
+command -v npx >/dev/null 2>&1 || MISSING="${MISSING} npx"
+command -v git >/dev/null 2>&1 || MISSING="${MISSING} git"
+
+if [[ -n "${MISSING}" ]]; then
+  echo "ERROR: faltan dependencias:${MISSING}" >&2
+  echo "Instalalas antes de continuar." >&2
+  exit 1
+fi
+
+# pipx es opcional (para google-analytics MCP)
+if ! command -v pipx >/dev/null 2>&1; then
+  echo "WARN: pipx no encontrado — google-analytics MCP no funcionara. Instala con: pip install pipx"
+fi
+
+echo "OK  Dependencias verificadas"
 
 if [[ ! -d "${SKILLS_SRC}" ]]; then
   echo "ERROR: no encuentro ${SKILLS_SRC}" >&2
@@ -199,11 +227,57 @@ if command -v jq >/dev/null 2>&1 && [[ -f "${HOME}/.config/opencode/opencode.jso
   echo "OK  ${HOME}/.config/opencode/opencode.json es JSON valido"
 fi
 
+# --- Plugin superpowers ---
+echo "==> Plugin superpowers (opencode)"
+node <<'EOF'
+const fs = require("fs")
+const path = `${process.env.HOME}/.config/opencode/opencode.json`
+const cfg = JSON.parse(fs.readFileSync(path, "utf8"))
+
+const PLUGIN = "superpowers@git+https://github.com/obra/superpowers.git"
+
+if (!cfg.plugin) {
+  cfg.plugin = [PLUGIN]
+  console.log("ADD  plugin superpowers")
+} else if (!cfg.plugin.includes(PLUGIN)) {
+  cfg.plugin.push(PLUGIN)
+  console.log("ADD  plugin superpowers")
+} else {
+  console.log("OK   plugin superpowers ya presente")
+}
+
+fs.writeFileSync(path, `${JSON.stringify(cfg, null, 2)}\n`, { mode: 0o600 })
+EOF
+
+# --- Instalar dependencias opencode (plugin runtime) ---
+echo "==> Dependencias opencode (npm install)"
+if [[ -f "${HOME}/.config/opencode/package.json" ]]; then
+  (cd "${HOME}/.config/opencode" && npm install --silent 2>/dev/null) && echo "OK  npm install" || echo "WARN npm install fallo (no critico)"
+else
+  mkdir -p "${HOME}/.config/opencode"
+  cat > "${HOME}/.config/opencode/package.json" <<'PKGEOF'
+{
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.14.0"
+  }
+}
+PKGEOF
+  (cd "${HOME}/.config/opencode" && npm install --silent 2>/dev/null) && echo "OK  npm install" || echo "WARN npm install fallo (no critico)"
+fi
+
+# --- Resumen ---
+SKILLS_COUNT=$(find "${SKILLS_SRC}" -maxdepth 1 -mindepth 1 -type d | wc -l)
 cat <<EOF
 
-Bootstrap comun completado.
+=== Setup completado ===
 
-Reinicia Claude Code, Codex y opencode para que recarguen skills, hooks y MCP.
-Si Cloudflare aparece como pendiente en opencode, ejecuta:
+Skills instaladas: ${SKILLS_COUNT}
+Plugin: superpowers
+MCP servers: cloudflare-api, google-analytics, google-search-console
+
+Reinicia opencode para que recargue skills y MCP.
+Si Cloudflare aparece como pendiente, ejecuta:
   opencode mcp auth cloudflare-api
+
+Para verificar: opencode (deberia listar ${SKILLS_COUNT}+ skills disponibles)
 EOF
