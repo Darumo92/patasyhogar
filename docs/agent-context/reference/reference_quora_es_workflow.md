@@ -101,6 +101,38 @@ Si quieres comparar varias marcas con datos concretos de análisis y precio por 
 3. **Preguntas alto tráfico** = >5 respuestas ya = tema popular = mejor distribución
 4. **Preguntas viejas con vistas** > preguntas nuevas sin engagement
 
+### Búsqueda automática desde agente
+
+Validado el 2026-05-19:
+
+- **Preferente:** Brave Search con operador `site:es.quora.com/` funciona desde `webfetch` y devuelve títulos, URLs y snippets suficientes para elegir pregunta.
+- **No usar como primera opción:** Quora search directo (`https://es.quora.com/search?q=...`) devuelve 403/security verification.
+- **Fallback limitado:** DuckDuckGo HTML puede funcionar 1-2 consultas, pero después puede pedir captcha. Google/Bing suelen bloquear o pedir challenge.
+
+Formato recomendado:
+
+```text
+https://search.brave.com/search?q=site%3Aes.quora.com%2F%20gato%20estresado
+```
+
+Ejemplos de queries útiles:
+
+```text
+site:es.quora.com/ gato estresado
+site:es.quora.com/ perro pulgas
+site:es.quora.com/ gato maulla noche
+site:es.quora.com/ pienso gato esterilizado
+site:es.quora.com/ perro no quiere comer
+```
+
+Cómo aplicar:
+
+1. Buscar en Brave con 2-4 variaciones de keyword.
+2. Priorizar preguntas con intención clara y encaje con un artículo existente de Patas y Hogar.
+3. Abrir el resultado manualmente en Quora si hace falta confirmar si permite respuesta nueva; el agente puede no leer Quora directo por 403.
+4. Si Brave devuelve una pregunta con snippet suficiente, preparar respuesta sin depender de leer todo Quora.
+5. No responder preguntas donde el snippet sugiera urgencia veterinaria inmediata salvo para recomendar veterinario y sin link promocional.
+
 ## Métricas seguimiento
 
 Registrar en `project_backlinks_social_status.md` semanalmente:

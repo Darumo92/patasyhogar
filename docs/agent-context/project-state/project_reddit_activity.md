@@ -58,6 +58,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 ### Posts propios publicados (1 — día 3)
 - r/mascotas: "¿Vuestros gatos también ignoran el cuenco y solo beben de la fuente?"
 - **Feedback:** demasiado básico para alguien que se presenta como experto. Siguientes posts deben mostrar experiencia (comparativas propias, datos, anécdotas con conclusiones).
+- 2026-05-19 r/Valencia: "Los que vivís con perro en Valencia: ¿cómo organizáis los paseos cuando empieza el calor fuerte?" — post propio sin link, pregunta de experiencia local sobre horarios, rutas con sombra, botines/chaleco refrescante y zonas a evitar. URL: https://www.reddit.com/r/valencia/comments/1thif2i/los_que_vivís_con_perro_en_valencia_cómo/
 
 ### Próximos pasos Reddit
 - **Día 4-5:** 3-5 comentarios más + primer post propio **tipo experiencia/comparativa** (no novato)
@@ -77,6 +78,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-19 r/Valencia: Mudanza en pareja y gato desde El Carmen (1tgt1r3) — recomendar ampliar búsqueda fuera del centro, zonas Mislata/Nou Moles/Patraix/Benimaclet y pueblos conectados, preparar pack para casero con contrato actual, fotos, seguro/cláusula de daños y preguntar por malla en terraza. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/valencia/comments/1tgt1r3/comment/omn0d2k/
 - 2026-05-19 r/GatosArgentinos: Tips para que no use la planta de baño? (1th5csw) — recomendar cubrir tierra con piedras/piñas/malla rígida, revisar arenero y probar segundo arenero cerca del baño, advertir plantas tóxicas si también muerde. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1th5csw/tips_para_que_no_use_la_planta_de_ba%C3%B1o/
 - 2026-05-18 r/mascotas: Nueva gatita conoce a mi gatita de casa (1tggmmc) — introducción lenta entre gata joven sociable y gata adulta tímida, recomendar no decidir en 2 semanas salvo señales graves, volver a intercambio de olores y no interpretar bufidos como mala intención. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tggmmc/nueva_gatita_conoce_a_mi_gatita_de_casa/
 - 2026-05-18 r/mascotas: Necesito su ayuda (1tg644r) — chihuahua con problema de piel/sarna de 1 año, recomendar dermatólogo veterinario, ordenar pruebas previas, confirmar diagnóstico con raspado/citología/cultivo y evitar remedios al azar con piel abierta. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tg644r/necesito_su_ayuda/
