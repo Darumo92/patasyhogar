@@ -126,9 +126,9 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 - NO YouTube/TikTok (no aprobado en pivot)
 - NO commits al sitio salvo bug fix técnico crítico
 
-## Free tool planificado
+## Free tool publicado
 
-Calculadora coste mantenimiento mascotas mensual ES. Build planificado sem 2 (`/calculadora-coste-mascotas/`). Detalle en `project_outreach_plan_2026-05-11.md`.
+Calculadora coste mantenimiento mascotas mensual ES publicada el 2026-05-18 en `/calculadora-coste-mascotas/`. No volver a proponer "empezar" o "construir" la calculadora; las tareas posibles ahora son promoción, enlaces contextuales o mejoras puntuales.
 
 ## Archivos relacionados
 

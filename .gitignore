@@ -18,3 +18,4 @@ medium-assets/
 
 .claude/settings.local.json
 .claude/worktrees/
+.claude/memory/

@@ -72,7 +72,7 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 
 ## Free tool — Calculadora coste mascotas
 
-**Build:** semana 2 (2026-05-18 onwards)
+**Estado:** publicada el 2026-05-18. Commit `5dea515` añadió `/calculadora-coste-mascotas/` y el commit `8bcc4dc` está por encima en `main`.
 **URL:** `/calculadora-coste-mascotas/`
 **Spec mínimo:**
 - Inputs: especie (perro/gato), tamaño (S/M/L), edad (cachorro/adulto/senior), ciudad (top 10 ES + "otra")
@@ -83,6 +83,8 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 - CTA salida: link a comparativas relevantes (pienso, seguro)
 
 **Razón:** pieza linkable orgánica. Citable. Compartible Reddit/foros sin sonar promo. Sirve también en Bing/Pinterest.
+
+**Uso outreach:** promocionar o enlazar la calculadora solo cuando encaje de forma natural. No repetir el ángulo de post propio "cuánto cuesta tener perro o gato al mes", ya usado en r/AskSpain el 2026-05-12 (`1tayoo3`).
 
 ## KPIs seguimiento mensual
 

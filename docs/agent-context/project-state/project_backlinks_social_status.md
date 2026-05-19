@@ -2,7 +2,7 @@
 
 Estado vivo de las campañas de backlinks y redes para patasyhogar.com. Actualizar tras cada acción.
 
-Última actualización: 2026-05-18 CEST
+Última actualización: 2026-05-19 CEST
 
 ---
 
@@ -112,6 +112,7 @@ Karma 2026-05-11: comment=29, link=3, total=32 (subió +17 comment desde 2026-05
 Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 
 Últimos comentarios (vía /user/.../comments.json):
+- 2026-05-19 r/GatosArgentinos: Tips para que no use la planta de baño? (1th5csw) — recomendar cubrir tierra con piedras/piñas/malla rígida, revisar arenero y probar segundo arenero cerca del baño, advertir plantas tóxicas si también muerde. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1th5csw/tips_para_que_no_use_la_planta_de_ba%C3%B1o/
 - 2026-05-18 r/mascotas: Nueva gatita conoce a mi gatita de casa (1tggmmc) — introducción lenta entre gata joven sociable y gata adulta tímida, recomendar no decidir en 2 semanas salvo señales graves, volver a intercambio de olores y no interpretar bufidos como mala intención. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tggmmc/nueva_gatita_conoce_a_mi_gatita_de_casa/
 - 2026-05-18 r/mascotas: Necesito su ayuda (1tg644r) — chihuahua con problema de piel/sarna de 1 año, recomendar dermatólogo veterinario, ordenar pruebas previas, confirmar diagnóstico con raspado/citología/cultivo y evitar remedios al azar con piel abierta. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tg644r/necesito_su_ayuda/
 - 2026-05-18 r/mascotas: Hace dos días me siguió desde muy lejos, se llamará Pulgoso (1tg7kmt) — perro rescatado, recomendar revisión veterinaria, chip, desparasitación, comida gradual, rutina tranquila y placa con teléfono. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tg7kmt/hace_dos_días_me_sigui%C3%B3_desde_muy_lejos_se/
@@ -258,6 +259,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 - **Semana 2-3:** Incorporar 1 post propio/semana + 10-15 comentarios útiles
 
 ### Decisiones operativas Reddit/outreach
+- 2026-05-19: Descartados dos candidatos tras revisión del usuario: r/AskSpain `1tgy848` por relación demasiado débil con la cuenta Patas y Hogar, y r/mascotas `1thewmz` por tratarse de venta/cría de cachorros, tema sensible y poco alineado con la marca. No proponer comentarios en hilos de venta de animales salvo que el usuario lo pida explícitamente.
 - 2026-05-12: No buscar menciones en foros como tarea diaria. Mantener foco en Reddit/Quora/blogs según indique el usuario, pero no proponer "mentions foros" por defecto aunque aparezcan en el plan original.
 - 2026-05-12 17:37 CEST: Repaso final post propio r/AskSpain `1tayoo3`. Estado público: score 8, 38 comentarios, upvote ratio 1.0. Cuenta: total karma 45 (comment 40, link 5). Se respondieron las cadenas prioritarias: Puzzleheaded-Sun7418, teh_adry, Blackterial, xCrossFaith, HistoricalTackle5049, TuMadreTeCago, pleasedlurker, Weomir, Mamaun30, y replies directas posteriores de Puzzleheaded/Historical. Recomendación: no seguir contestando ahora salvo reply directo nuevo; hacer una pasada ligera por la noche. No enlazar patasyhogar todavía.
 - 2026-05-13 21:00 CEST: Revisión inbox público/replies. Últimos 50 comentarios del usuario tienen `replies=0`, sin replies directas pendientes. Post propio r/AskSpain `1tayoo3`: score 12, 58 comentarios, upvote ratio 0.93. Hay 5 comentarios nuevos de primer nivel desde la última pasada (Iron_Gal, noxss, ColleenDi, PLS_PM_ME_YOUR_B0OBS, OrangeOk729). Recomendación: responder como mucho 1-2 si se quiere mantener presencia; prioridad Iron_Gal por leishmania + Librela y ColleenDi por perro senior cardiaco. No responder todos. No enlazar patasyhogar todavía.
