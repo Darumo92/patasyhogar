@@ -4,23 +4,30 @@ Contexto persistente para agentes (Claude Code, OpenCode, Codex CLI). Todo lo qu
 
 ## Estructura
 
-- `feedback/` — Reglas de comportamiento confirmadas por el usuario. Aplicarlas siempre que la tarea aplique.
-- `project-state/` — Estado activo del proyecto (planes, calendarios, tracking). Cambia con el tiempo.
-- `reference/` — Métodos técnicos validados (workflows Amazon API, Reddit, Quora, etc.).
+- `feedback/` — Reglas consolidadas por tema. Leer solo el archivo relevante.
+  - `feedback-products.md` — verificación productos, Amazon, imágenes, precios
+  - `feedback-content.md` — artículos, review workflow, SEO, publicación
+  - `feedback-reddit.md` — tono, coherencia, audiencia Reddit
+  - `feedback-outreach.md` — canales outreach, Pinterest
+  - `feedback-general.md` — build, analytics, reglas generales
+- `project-state/` — Estado activo del proyecto. Cambia con el tiempo.
+- `reference/` — Métodos técnicos validados (Amazon API, Reddit, Quora, etc.).
 
 ## Cómo usar
 
-Al inicio de tarea relevante:
+Al inicio de tarea relevante, leer SOLO el archivo que aplica:
 
-1. **Leer `feedback/` que aplique** — son reglas en vigor.
-2. **Leer `project-state/` que aplique** a la tarea.
-3. **Consultar `reference/`** cuando se necesite un método validado.
+- Tarea de productos → `feedback-products.md`
+- Escribir/revisar artículo → `feedback-content.md`
+- Reddit → `feedback-reddit.md`
+- Outreach → `feedback-outreach.md`
+- General → `feedback-general.md`
 
-No es necesario leer todo siempre. Leer solo lo relevante a la tarea actual.
+No leer todo. Solo lo relevante.
 
 ## Mantenimiento
 
-- Regla nueva → crear en `feedback/` con frontmatter `name`, `description`, `type: feedback`.
+- Regla nueva → añadir sección `##` al archivo temático correspondiente.
 - Archivo obsoleto → mover a `_archive/`.
 - Fechas absolutas al guardar (`hoy` → `YYYY-MM-DD`).
 

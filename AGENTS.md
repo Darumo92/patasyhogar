@@ -83,7 +83,7 @@ faqs?: [{pregunta, respuesta}]
 ### Humanización obligatoria en texto publicable
 
 Antes de presentar texto destinado a publicación, aplicar la guía de humanización:
-1. Leer `claude-environment/skills/humanizer/SKILL.md` + `.seo-engine/templates/humanization-guide.md`
+1. Invocar skill `humanizer` + leer `.seo-engine/templates/humanization-guide.md`
 2. Reescribir aplicando anti-patterns AI
 3. Pasada audit: "¿qué suena AI?" y corregir
 
