@@ -191,3 +191,30 @@ Antes de presentar al usuario CUALQUIER texto destinado a publicación (comentar
 ### Por qué
 
 El usuario tuvo que pedir explícitamente que se usaran las skills. El AGENTS.md ya dice "Antes de presentar al usuario cualquier texto destinado a publicación, aplicar la guía de humanización", pero en la práctica se saltó este paso en el borrador del reply Reddit. Esta feedback refuerza que las skills deben aplicarse proactivamente, no solo cuando el usuario lo recuerde.
+# Feedback: Content
+
+## Siempre castellano de España
+
+Todo texto publicable de Patas y Hogar debe escribirse SIEMPRE en castellano de España. No usar español latino, argentino, colombiano, mexicano ni voseo, aunque el canal o subreddit sea de Latinoamérica.
+
+Aplica a:
+- Reddit
+- Quora
+- Medium
+- artículos MDX
+- borradores sociales
+- comentarios externos
+- meta titles/descriptions
+
+### Cómo aplicar
+
+- Usar `coche`, no `auto` ni `carro`.
+- Usar `autobús`, no `colectivo`, `camión` ni `buseta`.
+- Usar `puedes`, `tienes`, `cuentas`, no `podés`, `tenés`, `contás`.
+- Usar `enfadarse`, `ponerse nervioso`, `agobiarse`, no giros regionales latinoamericanos.
+- Mantener tuteo natural de España, sin adaptar el dialecto al país del subreddit.
+- Antes de entregar cualquier borrador publicable, hacer una pasada explícita de dialecto para detectar latinismos o mezclas (`auto/coche`, `vos/tú`, `podés/puedes`, etc.).
+
+### Corrección que originó esta regla
+
+El 2026-05-20 se redactaron borradores para Reddit mezclando `autos` y `coches`, y después se pasó a tono argentino en `r/GatosArgentinos`. El usuario corrigió: "Siempre y digo SIEMPRE en castellano de España".

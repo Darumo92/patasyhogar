@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-19 CEST
+Última actualización: 2026-05-20 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -78,6 +78,9 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-20 r/mascotas: Comprale una cama decían (1ti0i3m) — comentario ligero sobre mascotas que rechazan camas, sugerir manta con olor propio o mover la cama al sitio elegido. Humanizer aplicado. Sin link. Score inicial 1. URL: https://www.reddit.com/r/mascotas/comments/1ti0i3m/comprale_una_cama_dec%C3%ADan/omtnot6/
+- 2026-05-20 r/GatosArgentinos: Gatita nueva! (1ti0gqu) — presentación lenta entre gatas, separación unos días más, intercambio de olores, comida cerca de la puerta y encuentros cortos. Humanizer aplicado. Sin link. Score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1ti0gqu/gatita_nueva/omth90l/
+- 2026-05-20 r/GatosArgentinos: Mi gato es infeliz? (1tiaz8y) — explicar que parece sobreestimulación fuera de casa, no infelicidad; evitar soltarlo por riesgo con coches/autobuses/perros y reforzar juego interior. Humanizer aplicado. Sin link. Score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tiaz8y/mi_gato_es_infeliz/omtbznt/
 - 2026-05-19 r/Valencia: Mudanza en pareja y gato desde El Carmen (1tgt1r3) — recomendar ampliar búsqueda fuera del centro, zonas Mislata/Nou Moles/Patraix/Benimaclet y pueblos conectados, preparar pack para casero con contrato actual, fotos, seguro/cláusula de daños y preguntar por malla en terraza. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/valencia/comments/1tgt1r3/comment/omn0d2k/
 - 2026-05-19 r/GatosArgentinos: Tips para que no use la planta de baño? (1th5csw) — recomendar cubrir tierra con piedras/piñas/malla rígida, revisar arenero y probar segundo arenero cerca del baño, advertir plantas tóxicas si también muerde. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1th5csw/tips_para_que_no_use_la_planta_de_ba%C3%B1o/
 - 2026-05-18 r/mascotas: Nueva gatita conoce a mi gatita de casa (1tggmmc) — introducción lenta entre gata joven sociable y gata adulta tímida, recomendar no decidir en 2 semanas salvo señales graves, volver a intercambio de olores y no interpretar bufidos como mala intención. Humanizer aplicado. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tggmmc/nueva_gatita_conoce_a_mi_gatita_de_casa/

@@ -2,7 +2,7 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-05-19 CEST
+Última actualización: 2026-05-20 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
@@ -12,6 +12,7 @@ Tracking de contenido publicado en Medium, Quora y Pinterest.
 
 | Fecha | Título | URL | Canonical | Notas |
 |---|---|---|---|---|
+| 2026-05-20 | "El gasto de tener mascota no está en la comida: está en las sorpresas" | https://medium.com/@patasyhogar/el-gasto-de-tener-mascota-no-est%C3%A1-en-la-comida-est%C3%A1-en-las-sorpresas-95712fa3e0c4 | https://patasyhogar.com/calculadora-coste-mascotas/ | Segundo artículo Medium del plan outreach. Pieza editorial sobre costes reales perro/gato, primer año e imprevistos. Incluye enlaces a artículos de costes perro/gato y calculadora. Imagen JPG creada en `public/images/outreach/coste-mascotas-espana-medium.jpg`. Topics: Pets, Dogs, Cats, Spain, Personal Finance. Humanizer aplicado. |
 | 2026-05-13 | "Cuánto cuesta tener un perro en España: números reales de 2026" | https://medium.com/@patasyhogar/cu%C3%A1nto-cuesta-tener-un-perro-en-espa%C3%B1a-n%C3%BAmeros-reales-de-2026-2d816a1e6a29 | https://patasyhogar.com/cuidados/cuanto-cuesta-mantener-un-perro-al-mes/ | Primer artículo Medium del plan outreach. Importado/adaptado desde Patas y Hogar, imagen hero convertida a JPG para preview, topics: Pets, Dogs, Spain, Pet Care, Personal Finance. |
 
 ---
