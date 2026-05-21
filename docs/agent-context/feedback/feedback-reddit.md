@@ -160,3 +160,20 @@ En comentarios Reddit, NO usar paréntesis aclaratorios para describir mascotas/
 - Cuerpo de artículos cuando hablo de Mango/Kira en primera persona — paréntesis matan voz
 - Posts propios Reddit
 - Comentarios Pinterest
+
+## Reddit/Patas y Hogar — siempre castellano de España
+
+Todos los borradores de Reddit, replies, posts propios y textos sociales para Patas y Hogar deben ir en **castellano de España**, aunque el hilo sea de r/GatosArgentinos u otra comunidad LATAM.
+
+**Regla:** mantener la voz de Daniel/Patas y Hogar. No adaptar el comentario a voseo ni jerga argentina por el subreddit.
+
+**Usar:** tú, puedes, tienes, gato, perro, arenero, comedero, pienso, veterinario, vale.
+
+**Evitar:** vos, tenés, podés, andá, michi como voz por defecto, bandeja para arenero, MELI, laburo, re como intensificador, expresiones argentinas.
+
+**Checklist antes de entregar borrador Reddit:**
+- ¿Está en castellano peninsular?
+- ¿Se coló algún `tenés/podés/vos/michi/bandeja`?
+- ¿Estoy contestando como Daniel desde España, no imitando el registro del OP?
+
+Si el OP usa español LATAM, se puede citar su término si hace falta, pero la respuesta propia debe seguir en castellano de España.

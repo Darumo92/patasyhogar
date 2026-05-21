@@ -51,6 +51,16 @@ If the user provides a writing sample (their own previous writing), analyze it b
 
 3. **When no sample is provided,** fall back to the default behavior (natural, varied, opinionated voice from the PERSONALITY AND SOUL section below).
 
+### Spanish Locale Rule
+
+When writing or humanizing Spanish text for Patas y Hogar, Reddit, Quora, Medium, social posts, article drafts, or any pet-care content from Daniel/Patas y Hogar, always use **castellano de España**.
+
+- Use Spain vocabulary and phrasing: `tú`, `vosotros` if plural is natural, `gato`, `perro`, `arenero`, `comedero`, `pienso`, `veterinario`, `vale`, `genial`.
+- Do not switch to Latin American Spanish just because the subreddit, thread, or OP is from Argentina or LATAM.
+- Avoid voseo and regional LATAM terms: `vos`, `tenés`, `podés`, `andá`, `michi` as default voice, `bandeja` for litter box, `MELI`, `laburo`, `re` as intensifier.
+- If quoting another user, preserve their wording in the quote, but answer in Daniel's Spain Spanish voice.
+- Before returning Spanish social copy, do a final locale pass: "¿suena a castellano de España o se me coló latino?" Fix any LATAM vocabulary before final output.
+
 ### How to provide a sample
 - Inline: "Humanize this text. Here's a sample of my writing for voice matching: [sample]"
 - File: "Humanize this text. Use my writing style from [file path] as a reference."
