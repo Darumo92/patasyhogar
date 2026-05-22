@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-20 CEST
+Última actualización: 2026-05-22 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -78,6 +78,9 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-22 r/mascotas: Cómo hago para que mis perras no ladren tanto? (1tk1bt9) — responder a patio con vista al portón: cortar estímulo visual con malla/cañizo, practicar llamada antes de que exploten y dar trabajo de olfato/mordedor seguro. Sin link por gap tras enlace propio del 2026-05-21. URL: https://www.reddit.com/r/mascotas/comments/1tk1bt9/cómo_hago_para_que_mis_perras_no_ladren_tanto/
+- 2026-05-22 r/mascotas: Una gatita feliz de 2 meses (1tk8q4q) — comentario ligero con nombres Nala/Mía/Lía/Mandarina, tono natural. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tk8q4q/una_gatita_feliz_de_2_meses/
+- 2026-05-22 r/GatosArgentinos: Alimento balanceado (1tk1a24) — recomendar cambio gradual de pienso, priorizar tolerancia/edad/cacas normales y constancia de compra frente a etiquetas. Castellano España aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tk1a24/alimento_balanceado/
 - 2026-05-21 r/mascotas: La gata de mi parcela. Mis caseros no me dejan tener mascotas (1tjf46h) — comentario corto de apoyo: "Es preciosa!!!". Sin link. Score inicial 1. URL: https://www.reddit.com/r/mascotas/comments/1tjf46h/la_gata_de_mi_parcela_mis_caseros_no_me_dejan/on1ncm0/
 - 2026-05-21 r/GatosArgentinos: Que producto o mezcla usan para sacar el olor a pis de gato? (1tir6gf) — recomendar limpiador enzimático, evitar amoníaco/lejía, revisar marcaje/tensión entre gatos/areneros y señales de cistitis o infección. Castellano España aplicado. Sin link. Score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tir6gf/que_producto_o_mezcla_usan_para_sacar_el_olor_a/on1gk8l/
 - 2026-05-21 r/GatosArgentinos: Cómo la calmo? (1tj51zr) — hiperactividad nocturna en gata joven, juego dirigido antes de dormir, cortar interacción si muerde/se sube, no adoptar otro gato solo para calmarla. Castellano España aplicado. Sin link. Score inicial 2. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tj51zr/c%C3%B3mo_la_calmo/on180na/
