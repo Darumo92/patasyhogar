@@ -63,3 +63,46 @@ Esta regla no elimina otros checks obligatorios:
 - GSC muestra rendimiento propio, no reemplaza el análisis de SERP actual de Google para una keyword nueva.
 - La verificación de productos, ASINs, precios e imágenes sigue requiriendo fuentes verificables o confirmación del usuario cuando Amazon/tiendas bloqueen scraping.
 - No usar datos de analytics como única razón para publicar artículos nuevos durante el plan outreach 2026-05-11 -> 2026-11-11; la regla de no publicar contenido nuevo sigue activa salvo confirmación explícita del usuario.
+
+## Nunca adivinar URLs de patasyhogar — verificar slug siempre
+
+SIEMPRE verificar la URL completa de cualquier link a patasyhogar antes de escribirlo. Nunca escribir `patasyhogar.com/[slug]` a ciegas ni construir la URL a partir del título del artículo.
+
+**Por qué:** Las URLs de patasyhogar siguen el patrón `patasyhogar.com/[categoria]/[slug]/` donde `[categoria]` es uno de: `alimentacion`, `higiene`, `paseo`, `juguetes`, `hogar`, `cuidados`. Los slugs además pueden llevar prefijos (`mejor-`, `guia-`) o sufijos (`-guia`) que no son obvios. Adivinar la URL genera links rotos en contenido outreach.
+
+**Cómo aplicar:**
+
+1. Buscar el slug real en el filesystem: `ls src/content/articulos/ | grep -i [termino]`
+2. Confirmar la categoría cruzando con el frontmatter del archivo MDX encontrado.
+3. Construir la URL completa: `patasyhogar.com/[categoria]/[slug-del-archivo-sin-.mdx]/`
+4. Solo entonces escribir el link en el comentario, post o artículo.
+
+**Corrección que originó esta regla:**
+
+El 2026-05-22 se escribió `patasyhogar.com/pienso-gato-indoor/` omitiendo la categoría `alimentacion/` y el prefijo `mejor-` del slug. La URL correcta era `patasyhogar.com/alimentacion/mejor-pienso-gato-indoor/`. Ya había pasado lo mismo el día anterior.
+
+## Gap mínimo entre links propios en Reddit
+
+NO publicar links a patasyhogar.com en días consecutivos. El algoritmo de spam de Reddit rastrea a nivel de dominio (no subreddit), y una cuenta nueva (1 mes, ~66 karma) quecae exactamente en el perfil de spam: mismo dominio, días seguidos, karma bajo.
+
+**Gap mínimo entre links al mismo dominio:**
+
+| Estado cuenta | Gap mínimo entre links propios |
+|---|---|
+| Nueva (<3 meses, <200 karma) | **5-7 días** |
+| Establecida (3+ meses, 500+ karma) | 3-4 días |
+| Alta (2000+, 1+ año) | 2-3 días |
+| Mismo subreddit | **7+ días** siempre |
+
+**Ratio objetivo:** 1 link propio por cada 15-20 interacciones sin link (~5-7% self-promotion). Reddit usa la regla del 10% como mínimo, pero para cuentas nuevas el objetivo es 5-7%.
+
+**Cómo aplicar:**
+
+- Antes de proponer un comentario con link, verificar la fecha del ÚLTIMO link a patasyhogar publicado en Reddit.
+- Si han pasado menos de 5 días desde el último link → no poner link, aunque el contexto encaje.
+- Los comentarios sin link se pueden hacer todos los días sin restricción.
+- Cuando se pone un link, debe ser respuesta directa a una pregunta (no proactivo "también tengo un artículo sobre esto").
+
+**Corrección que originó esta regla:**
+
+El 2026-05-22 se propuso poner un link a patasyhogar el día después de haber puesto otro link (21 mayo en r/GatosArgentinos). Para una cuenta de 1 mes y ~66 karma, eso dispara señales de spam. Se estableció gap mínimo de 5-7 días entre links al mismo dominio.
