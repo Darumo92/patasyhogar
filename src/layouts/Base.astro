@@ -141,13 +141,36 @@ const currentPath = Astro.url.pathname;
       })();
     </script>
 
-    <!-- GA4: initialize gtag early so events queue, load script via cookie consent -->
+    <!-- GA4 Consent Mode v2: set defaults before gtag init -->
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       window.gtag = gtag;
 
-      // Track affiliate clicks — events queue in dataLayer even before GA4 loads
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        functionality_storage: 'denied',
+        personalization_storage: 'denied',
+        security_storage: 'granted',
+        wait_for_update: 500
+      });
+
+      gtag('js', new Date());
+      gtag('config', 'G-NNXGD8G7GC', {
+        send_page_view: true,
+        anonymize_ip: true
+      });
+
+      // Load gtag script immediately (Consent Mode handles what gets sent)
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-NNXGD8G7GC';
+      s.async = true;
+      document.head.appendChild(s);
+
+      // Track affiliate clicks
       document.addEventListener('click', function(e) {
         var link = e.target.closest('a[rel*="sponsored"]');
         if (!link) return;
