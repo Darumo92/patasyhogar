@@ -10,7 +10,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 ## Karma status
 
-Karma 2026-05-25: comment=69, link=9, total=78. Sano; los tres comentarios del 2026-05-24 aparecen públicos en el historial.
+Karma 2026-05-25: comment=69, link=9, total=78. Sano; los tres comentarios del lunes y los tres del 2026-05-24 aparecen públicos en el historial.
 Karma 2026-05-24: comment=68, link=9, total=77. Sano. Cuenta cumple condiciones karma >50 + >1 mes, link dropping habilitado con cuidado.
 Karma 2026-05-18: comment=60, link=6, total=66. Sano. Se publicaron 4 comentarios en r/mascotas sin link; mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
 Karma 2026-05-17 22:00 CEST: comment=57, link=6, total=63. Sano. Cuenta cumple 1 mes el 2026-05-20 → empezar a drop links contextuales a patasyhogar a partir de esa fecha.
@@ -79,6 +79,8 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-25 r/GatosArgentinos: ¿Como evito que mis gatitos se metan en la estufa? (1tmsn66) — recomendar no dejar estufa y gatitos sin supervisión, barrera adicional estable y alejada, evitar bloqueos inflamables, cama cálida alternativa y veterinario ante signos de quemadura. Humanizer aplicado. Castellano España. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tmsn66/como_evito_que_mis_gatitos_se_metan_en_la_estufa/onrmfzz/
+- 2026-05-25 r/GatosArgentinos: AYUDA Gato de casa con patio a departamento (1tmtt5k) — valorar que se quede con la madre si está bien cuidado, no sumar mudanza/avión/pérdida de exterior a un gato muy sensible; si el traslado es inevitable, consulta veterinaria, habituación al transportín y habitación segura inicial. Humanizer aplicado. Castellano España. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tmtt5k/ayuda_gato_de_casa_con_patio_a_departamento/onriija/
 - 2026-05-25 r/mascotas: Consejos para gatos (1tmwsux) — convivencia de seis gatos con acoso al de 7 años; recomendar separación inmediata con recursos propios, distribuir comederos/areneros/refugios, descargar energía de los jóvenes y consultar veterinario/etólogo si ya evita comida o arenero. Humanizer aplicado. Castellano España. Sin link por gap global de dominio. URL: https://www.reddit.com/r/mascotas/comments/1tmwsux/consejos_para_gatos/onrcoxw/
 - 2026-05-24 r/GatosArgentinos: Experiencias con alergia? Gatos hipoalergénicos? (1tkhh8e) — Fel d 1 como alérgeno real (no pelo), siberiano produce menos pero variación individual enorme, importancia probar gato concreto antes de adoptar, cepillado/paño húmedo/HEPA/dormitorio vetado, antihistamínicos + inmunoterapia como vía si alergia fuerte, opción acogida temporal en protectora. Humanizer aplicado. Castellano España. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tkhh8e/experiencias_con_alergia_gatos_hipoalergénicos/onk8kgg/
 - 2026-05-24 r/GatosArgentinos: Ayuda! Por favor — gata parió y abandonó cachorros (1tkwtwy) — protocolo neonatos huérfanos urgente: calor 28-32 °C primeras 2 semanas, leche maternizada KMR/Babycat (no vaca/humana), tomas cada 2-3h, estimulación cloacal post-toma con algodón húmedo, pesar diario (ganar 5-10g/día), señales urgencia veterinario, gestión protectora con gatas lactantes adoptantes como mejor opción. Humanizer aplicado. Castellano España. Sin link. Visible el 2026-05-25. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tkwtwy/ayuda_por_favor/onkdom3/
