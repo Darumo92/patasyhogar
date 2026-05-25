@@ -21,15 +21,16 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 
 - **Usuario:** u/Pristine_Review5630
 - **Subs:** r/mascotas, r/GatosArgentinos
-- **Karma actual (2026-05-11):** comment=29, link=3, total=32
+- **Karma actual (2026-05-25):** comment=69, link=9, total=78
 - **Cuota:** 2-3 comentarios/día + 1 post propio/sem
 - **Reglas:**
-  - Sin link a patasyhogar hasta karma >50
+  - Cuenta ya supera karma >50 y un mes; un link propio solo si responde de forma natural a la consulta
+  - Gap mínimo global de 5-7 días entre enlaces a patasyhogar.com; el último fue el 2026-05-21
   - Mínimo 30-60 min entre comentarios
   - Anécdota Mango/Kira OK (no falsificable)
   - Subs distintos cada acción
   - Aplicar humanizer pre-publicación
-- **Tracking:** `project_backlinks_social_status.md`
+- **Tracking:** `project_reddit_activity.md`
 
 ### 2. Reddit subs grandes ES (nuevo)
 
@@ -39,7 +40,7 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
   - Pregunta genuina lifestyle relacionada mascotas (ej: "¿cuánto cuesta vivir con perro en Madrid?")
   - Hilo experiencia ("Lo que aprendí adoptando un gato en piso pequeño")
   - Dato contraintuitivo (mover discusión)
-- **Reglas:** mismo usuario u/Pristine_Review5630. Sin link hasta karma >50.
+- **Reglas:** mismo usuario u/Pristine_Review5630. Priorizar conversación sin enlace; cualquier enlace cuenta para el gap global de dominio.
 
 ### 3. Quora ES
 
@@ -119,7 +120,7 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 
 ## Tracking diario
 
-Cada acción registrada en `project_backlinks_social_status.md` (estado vivo):
+Cada acción se registra en `project_reddit_activity.md` (Reddit) o `project_outreach_content.md` (Quora/Medium):
 - Fecha + canal + URL acción + tema
 - Karma/upvotes si aplica
 - Backlinks acquired (URL fuente + DR estimado)

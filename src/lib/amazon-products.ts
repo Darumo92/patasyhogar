@@ -38,7 +38,7 @@ export function cachedAmazonAvailability(urlOrAsin?: string | null): AmazonProdu
 
 export function isAmazonAvailable(entry?: AmazonProductCacheEntry | null): boolean {
   if (!entry?.availabilityType) return true;
-  return entry.availabilityType === 'IN_STOCK';
+  return entry.availabilityType === 'IN_STOCK' || entry.availabilityType === 'IN_STOCK_SCARCE';
 }
 
 export function formatAmazonCheckedDate(entry?: AmazonProductCacheEntry | null): string | null {

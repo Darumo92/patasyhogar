@@ -38,9 +38,13 @@ const {
   etiqueta = 'Nuestra elección',
 } = Astro.props;
 
-const amazonFinal = enlaceAmazon && !enlaceAmazon.includes('tag=')
-  ? `${enlaceAmazon}${enlaceAmazon.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`
-  : enlaceAmazon;
+function amazonHref(url: string): string {
+  const amazonUrl = url.startsWith('/dp/') ? `https://www.amazon.es${url}` : url;
+  if (amazonUrl.includes('tag=')) return amazonUrl;
+  return `${amazonUrl}${amazonUrl.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`;
+}
+
+const amazonFinal = enlaceAmazon ? amazonHref(enlaceAmazon) : enlaceAmazon;
 
 /** Resize Amazon product images to save bandwidth (160px display × 2x retina = 320px) */
 const optimizeImg = (url?: string) =>

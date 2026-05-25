@@ -23,8 +23,10 @@ const info = tiendaInfo[tienda];
 const label = texto || info.label;
 
 function buildHref(url: string, store: string): string {
-  if (store === 'amazon' && !url.includes('tag=')) {
-    return `${url}${url.includes('?') ? '&' : '?'}tag=patasyhogar-21`;
+  if (store === 'amazon') {
+    const amazonUrl = url.startsWith('/dp/') ? `https://www.amazon.es${url}` : url;
+    if (amazonUrl.includes('tag=')) return amazonUrl;
+    return `${amazonUrl}${amazonUrl.includes('?') ? '&' : '?'}tag=patasyhogar-21`;
   }
   if (store === 'tiendanimal' || url.includes('tiendanimal.com')) {
     return `https://assets.ikhnaie.me/click.html?wgcampaignid=${WEBGAINS_CAMPAIGN}&wgprogramid=${WEBGAINS_PROGRAM}&wgtarget=${encodeURIComponent(url)}`;

@@ -22,8 +22,9 @@ const WEBGAINS_CAMPAIGN = '1746742';
 const WEBGAINS_PROGRAM = '9507';
 
 function amazonHref(url: string): string {
-  if (url.includes('tag=')) return url;
-  return `${url}${url.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`;
+  const amazonUrl = url.startsWith('/dp/') ? `https://www.amazon.es${url}` : url;
+  if (amazonUrl.includes('tag=')) return amazonUrl;
+  return `${amazonUrl}${amazonUrl.includes('?') ? '&' : '?'}tag=${AMAZON_TAG}`;
 }
 
 function tiendanimalHref(url: string): string {

@@ -979,29 +979,29 @@ Para cada producto haz lo siguiente en Amazon.es:
 
 ### TopPick
 **Virbac Allermyl**
-- URL Amazon: https://www.amazon.es/dp/B009GLXDOE
-- Imagen: https://m.media-amazon.com/images/I/71TcLk4hIdL._AC_SL1500_.jpg
+- URL Amazon: https://www.amazon.es/dp/B0D4DTPKHF
+- Imagen: https://m.media-amazon.com/images/I/11uQvYstC3L._AC_SL300_.jpg
 
 ### Comparativa
 **1. Virbac Allermyl**
-- URL Amazon: https://www.amazon.es/dp/B009GLXDOE
-- Imagen: https://m.media-amazon.com/images/I/71TcLk4hIdL._AC_SL1500_.jpg
+- URL Amazon: https://www.amazon.es/dp/B0D4DTPKHF
+- Imagen: https://m.media-amazon.com/images/I/11uQvYstC3L._AC_SL300_.jpg
 
 **2. TropiClean Oatmeal & Tea Tree**
 - URL Amazon: https://www.amazon.es/dp/B000WT8REK
-- Imagen: https://m.media-amazon.com/images/I/710L2m17mdL._AC_SL1500_.jpg
+- Imagen: https://m.media-amazon.com/images/I/5121h0LVhhL._AC_SL300_.jpg
 
 **3. Menforsan con Aloe Vera**
-- URL Amazon: https://www.amazon.es/dp/B01980UMF0
-- Imagen: https://m.media-amazon.com/images/I/91MvvwHhE-L._AC_SL1500_.jpg
+- URL Amazon: https://www.amazon.es/dp/B00P7QPZSE
+- Imagen: https://m.media-amazon.com/images/I/41VZQKN8K4L._AC_SL300_.jpg
 
 **4. Douxo S3 Calm**
 - URL Amazon: https://www.amazon.es/dp/B0883QM8QN
-- Imagen: https://m.media-amazon.com/images/I/51j2AHUknTL._AC_SL1500_.jpg
+- Imagen: https://m.media-amazon.com/images/I/315F3MuetWL._AC_SL300_.jpg
 
-**5. Beaphar Bio Shampoo**
+**5. Beaphar Champú Alta Cosmética Pieles Sensibles**
 - URL Amazon: https://www.amazon.es/dp/B00OKFHO0U
-- Imagen: https://m.media-amazon.com/images/I/61DlZcZhGIS._AC_SL1500_.jpg
+- Imagen: https://m.media-amazon.com/images/I/31SGlsEJOTS._AC_SL300_.jpg
 
 ---
 

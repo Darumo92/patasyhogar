@@ -9,7 +9,8 @@ type: project
 
 Cada mañana decir "vamos con tareas SEO de hoy" → leer este archivo → ejecutar cuotas del día.
 
-**Hoy es:** 2026-05-11 (día 1 plan outreach)
+**Inicio del plan:** 2026-05-11
+**Última lectura semanal:** 2026-05-25 (lunes, semana 3)
 
 ## Contexto cambio plan (2026-05-11)
 
@@ -30,8 +31,8 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 
 | Canal | Cuota semanal | Cómo |
 |---|---|---|
-| Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Mantener cuota actual (karma sube sano: 32 total 2026-05-11). |
-| Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona) | 2-3 posts/sem | Mismo usuario. Posts contextual sin link hasta karma >50. |
+| Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Karma 78 el 2026-05-25; enlaces solo contextuales y con gap de 5-7 días desde el último enlace propio. |
+| Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona) | 2-3 posts/sem | Mismo usuario. Sin enlace salvo encaje excepcional y respetando gap global de dominio. |
 | Quora ES | 3 respuestas largas/sem | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
 | Medium | 1 artículo/sem repurposed | Versión adaptada de informativos con backlink/canonical hacia patasyhogar. |
 
@@ -105,6 +106,7 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 | Fecha | Acción |
 |---|---|
 | 2026-05-18 | Lectura GSC. Anotar indexadas + impresiones. Sin esperar cambio aún. |
+| 2026-05-25 | Lectura semanal: GSC 18-23 may = 1 impresión, 0 clics (vs 2 impresiones, 0 clics del 11-17 may); sitemap reporta 691 enviadas y 0 indexadas. GA4 18-24 may = 4 sesiones / 4 usuarios / 8 vistas (vs 7 / 5 / 13). Cloudflare zona y Web Analytics activos. Mantener outreach; no hay señal para cambiar estrategia antes del hito del 8 jun. |
 | 2026-06-08 | Re-eval 1 (4 sem). KPI: ≥5 indexadas + ≥10 impresiones. Si igual → revisar mix canales. |
 | 2026-07-13 | Re-eval 2 (9 sem). KPI: ≥15 indexadas + ≥50 imp/sem. Si igual → considerar consolidación sitios. |
 | 2026-08-24 | Re-eval 3 (15 sem). KPI: ≥30 indexadas + ≥200 imp/sem. Decisión continuar o sunset. |
@@ -114,7 +116,7 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 
 - Plan actual outreach 6 meses: **25-40%** recuperación parcial Google
 - Bing seguirá funcionando independiente
-- Reddit/Pinterest pueden generar tráfico directo afiliación mientras Google se mueve
+- Reddit/Quora/Medium pueden generar tráfico directo mientras Google se mueve
 
 ## NO hacer (refuerzo)
 
@@ -134,4 +136,6 @@ Calculadora coste mantenimiento mascotas mensual ES publicada el 2026-05-18 en `
 
 - `project_outreach_plan_2026-05-11.md` — plan detallado canales
 - `reference_quora_es_workflow.md` — método respuestas Quora
-- `project_backlinks_social_status.md` — estado vivo cuentas + tracking
+- `project_reddit_activity.md` — actividad y candidatos Reddit
+- `project_outreach_content.md` — publicaciones Quora y Medium
+- `project_social_accounts.md` — estado de cuentas y canales

@@ -329,11 +329,12 @@
   "B000WT8REK": {
     "asin": "B000WT8REK",
     "title": "TropiClean Champú para Mascotas - Alivio Medicado de la Picazón - Exfolia, Humecta, Alivia la Piel y el Pelo Seco I Para Perros y Gatos I Sin Parabenos, Colorantes, Jabón - Avena y Árbol de Té, 592 ml",
+    "price": "26,67 €",
     "image": "https://m.media-amazon.com/images/I/5121h0LVhhL._AC_SL300_.jpg",
     "url": "https://www.amazon.es/dp/B000WT8REK?tag=patasyhogar-21&linkCode=ogi&th=1&psc=1",
-    "availability": "No disponible.",
-    "availabilityType": "OUT_OF_STOCK",
-    "updatedAt": "2026-05-24T07:14:29.480Z"
+    "availability": "Sólo queda(n) 1 en stock.",
+    "availabilityType": "IN_STOCK_SCARCE",
+    "updatedAt": "2026-05-25T10:21:42.419Z"
   },
   "B0010O7882": {
     "asin": "B0010O7882",
@@ -1284,7 +1285,7 @@
     "url": "https://www.amazon.es/dp/B00OKFHO0U?tag=patasyhogar-21&linkCode=ogi&th=1&psc=1",
     "availability": "En stock",
     "availabilityType": "IN_STOCK",
-    "updatedAt": "2026-05-24T07:14:29.480Z"
+    "updatedAt": "2026-05-25T10:21:42.419Z"
   },
   "B00OP6SVJW": {
     "asin": "B00OP6SVJW",
@@ -1295,6 +1296,16 @@
     "availability": "En stock",
     "availabilityType": "IN_STOCK",
     "updatedAt": "2026-05-24T07:14:29.480Z"
+  },
+  "B00P7QPZSE": {
+    "asin": "B00P7QPZSE",
+    "title": "MENFORSAN Champú Perros Aloe Vera - 300 ML",
+    "price": "6,26 €",
+    "image": "https://m.media-amazon.com/images/I/41VZQKN8K4L._AC_SL300_.jpg",
+    "url": "https://www.amazon.es/dp/B00P7QPZSE?tag=patasyhogar-21&linkCode=ogi&th=1&psc=1",
+    "availability": "En stock",
+    "availabilityType": "IN_STOCK",
+    "updatedAt": "2026-05-25T10:21:42.419Z"
   },
   "B00Q78SYM0": {
     "asin": "B00Q78SYM0",
@@ -1526,12 +1537,12 @@
   "B01980UMF0": {
     "asin": "B01980UMF0",
     "title": "MENFORSAN Champú Aloe Vera para Perros | Hidrata en profundidad | Acción Anti Irritaciones y Anti Eczemas | 100% Natural | Herbácea | 1L",
-    "price": "12,05 €",
+    "price": "11,99 €",
     "image": "https://m.media-amazon.com/images/I/41BXMcES6kL._AC_SL300_.jpg",
     "url": "https://www.amazon.es/dp/B01980UMF0?tag=patasyhogar-21&linkCode=ogi&th=1&psc=1",
     "availability": "En stock",
     "availabilityType": "IN_STOCK",
-    "updatedAt": "2026-05-24T07:14:29.480Z"
+    "updatedAt": "2026-05-25T10:11:38.818Z"
   },
   "B019FO2U5Y": {
     "asin": "B019FO2U5Y",
@@ -2696,7 +2707,7 @@
     "url": "https://www.amazon.es/dp/B0883QM8QN?tag=patasyhogar-21&linkCode=ogi&th=1&psc=1",
     "availability": "En stock",
     "availabilityType": "IN_STOCK",
-    "updatedAt": "2026-05-24T07:14:29.480Z"
+    "updatedAt": "2026-05-25T10:21:42.419Z"
   },
   "B088837PDG": {
     "asin": "B088837PDG",
@@ -3934,6 +3945,16 @@
     "availability": "En stock",
     "availabilityType": "IN_STOCK",
     "updatedAt": "2026-05-24T07:14:29.480Z"
+  },
+  "B0D4DTPKHF": {
+    "asin": "B0D4DTPKHF",
+    "title": "Allermyl Champú para Pieles Sensibles O con Picor, 250ML",
+    "price": "24,98 €",
+    "image": "https://m.media-amazon.com/images/I/11uQvYstC3L._AC_SL300_.jpg",
+    "url": "https://www.amazon.es/dp/B0D4DTPKHF?tag=patasyhogar-21&linkCode=ogi&th=1&psc=1",
+    "availability": "En stock",
+    "availabilityType": "IN_STOCK",
+    "updatedAt": "2026-05-25T10:21:42.419Z"
   },
   "B0D6Z4L6BW": {
     "asin": "B0D6Z4L6BW",

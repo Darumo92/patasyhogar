@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-22 CEST
+Última actualización: 2026-05-25 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -10,6 +10,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 ## Karma status
 
+Karma 2026-05-25: comment=69, link=9, total=78. Sano; los tres comentarios del 2026-05-24 aparecen públicos en el historial.
 Karma 2026-05-24: comment=68, link=9, total=77. Sano. Cuenta cumple condiciones karma >50 + >1 mes, link dropping habilitado con cuidado.
 Karma 2026-05-18: comment=60, link=6, total=66. Sano. Se publicaron 4 comentarios en r/mascotas sin link; mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
 Karma 2026-05-17 22:00 CEST: comment=57, link=6, total=63. Sano. Cuenta cumple 1 mes el 2026-05-20 → empezar a drop links contextuales a patasyhogar a partir de esa fecha.
@@ -24,7 +25,7 @@ Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 ## Reglas Reddit
 
 - **Mínimo 30-45 min entre comentarios** primera semana (mejor 1h). Cuenta nueva + rapidez = shadowban.
-- **Nunca link a patasyhogar.com** en posts/comentarios hasta karma >50 y cuenta >1 mes.
+- **Link propio permitido con cautela:** la cuenta cumple karma >50 y >1 mes, pero debe haber 5-7 días entre enlaces a patasyhogar.com. Último enlace publicado: 2026-05-21; no enlazar antes del 2026-05-26 como mínimo.
 - **Chequear shadowban:** copiar URL comentario → abrir en incógnito. Si no aparece → shadowban.
 - Comprobar karma via API pública: `curl https://www.reddit.com/user/Pristine_Review5630/about.json`
 - Cross-post mínimo 48h tras post original.
@@ -62,9 +63,8 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 - 2026-05-19 r/Valencia: "Los que vivís con perro en Valencia: ¿cómo organizáis los paseos cuando empieza el calor fuerte?" — post propio sin link, pregunta de experiencia local sobre horarios, rutas con sombra, botines/chaleco refrescante y zonas a evitar. URL: https://www.reddit.com/r/valencia/comments/1thif2i/los_que_vivís_con_perro_en_valencia_cómo/
 
 ### Próximos pasos Reddit
-- **Día 4-5:** 3-5 comentarios más + primer post propio **tipo experiencia/comparativa** (no novato)
-- **Día 7-10:** Si karma >30 → primer drop contextual de enlace ("lo analicé aquí: patasyhogar.com/[slug]")
-- **Semana 2-3:** Incorporar 1 post propio/semana + 10-15 comentarios útiles
+- **Semana 3:** mantener 10-15 comentarios útiles y 1 post propio/semana, priorizando r/mascotas cuando haya consultas reales.
+- **Enlaces:** no forzar ningún enlace; próximo hueco temporal a partir del 2026-05-26 y solo si el hilo pide un recurso que encaje.
 
 ---
 
@@ -79,9 +79,10 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-25 r/mascotas: Consejos para gatos (1tmwsux) — convivencia de seis gatos con acoso al de 7 años; recomendar separación inmediata con recursos propios, distribuir comederos/areneros/refugios, descargar energía de los jóvenes y consultar veterinario/etólogo si ya evita comida o arenero. Humanizer aplicado. Castellano España. Sin link por gap global de dominio. URL: https://www.reddit.com/r/mascotas/comments/1tmwsux/consejos_para_gatos/onrcoxw/
 - 2026-05-24 r/GatosArgentinos: Experiencias con alergia? Gatos hipoalergénicos? (1tkhh8e) — Fel d 1 como alérgeno real (no pelo), siberiano produce menos pero variación individual enorme, importancia probar gato concreto antes de adoptar, cepillado/paño húmedo/HEPA/dormitorio vetado, antihistamínicos + inmunoterapia como vía si alergia fuerte, opción acogida temporal en protectora. Humanizer aplicado. Castellano España. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tkhh8e/experiencias_con_alergia_gatos_hipoalergénicos/onk8kgg/
-- 2026-05-24 r/GatosArgentinos: Ayuda! Por favor — gata parió y abandonó cachorros (1tkwtwy) — protocolo neonatos huérfanos urgente: calor 28-32 °C primeras 2 semanas, leche maternizada KMR/Babycat (no vaca/humana), tomas cada 2-3h, estimulación cloacal post-toma con algodón húmedo, pesar diario (ganar 5-10g/día), señales urgencia veterinario, gestión protectora con gatas lactantes adoptantes como mejor opción. Humanizer aplicado. Castellano España. Sin link. URL pendiente confirmación (no aparece en últimos 10 comentarios del usuario al cierre 2026-05-24 — verificar shadowban en incógnito).
-- 2026-05-24 r/GatosArgentinos: Alimento Mon Ami (1tkjtlu) — cambio color/tamaño/avidez = reformulación o cambio lote, cortar nuevo y volver al anterior, transición lenta 7-10d (25/75 → 50/50 → 75/25), dieta blanda pollo+calabaza/arroz 24-48h, probiótico FortiFlora 1/día, retirar leche deslactosada temporal, si persiste 48-72h veterinario, escribir a fabricante con foto lote. Humanizer aplicado. Castellano España. Sin link. URL pendiente confirmación (no aparece en últimos 10 comentarios del usuario al cierre 2026-05-24 — verificar shadowban en incógnito).
+- 2026-05-24 r/GatosArgentinos: Ayuda! Por favor — gata parió y abandonó cachorros (1tkwtwy) — protocolo neonatos huérfanos urgente: calor 28-32 °C primeras 2 semanas, leche maternizada KMR/Babycat (no vaca/humana), tomas cada 2-3h, estimulación cloacal post-toma con algodón húmedo, pesar diario (ganar 5-10g/día), señales urgencia veterinario, gestión protectora con gatas lactantes adoptantes como mejor opción. Humanizer aplicado. Castellano España. Sin link. Visible el 2026-05-25. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tkwtwy/ayuda_por_favor/onkdom3/
+- 2026-05-24 r/GatosArgentinos: Alimento Mon Ami (1tkjtlu) — cambio color/tamaño/avidez = reformulación o cambio lote, cortar nuevo y volver al anterior, transición lenta 7-10d (25/75 → 50/50 → 75/25), dieta blanda pollo+calabaza/arroz 24-48h, probiótico FortiFlora 1/día, retirar leche deslactosada temporal, si persiste 48-72h veterinario, escribir a fabricante con foto lote. Humanizer aplicado. Castellano España. Sin link. Visible el 2026-05-25. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tkjtlu/alimento_mon_ami/onkigvu/
 - 2026-05-22 r/mascotas: Cómo hago para que mis perras no ladren tanto? (1tk1bt9) — responder a patio con vista al portón: cortar estímulo visual con malla/cañizo, practicar llamada antes de que exploten y dar trabajo de olfato/mordedor seguro. Sin link por gap tras enlace propio del 2026-05-21. URL: https://www.reddit.com/r/mascotas/comments/1tk1bt9/cómo_hago_para_que_mis_perras_no_ladren_tanto/
 - 2026-05-22 r/mascotas: Una gatita feliz de 2 meses (1tk8q4q) — comentario ligero con nombres Nala/Mía/Lía/Mandarina, tono natural. Sin link. URL: https://www.reddit.com/r/mascotas/comments/1tk8q4q/una_gatita_feliz_de_2_meses/
 - 2026-05-22 r/GatosArgentinos: Alimento balanceado (1tk1a24) — recomendar cambio gradual de pienso, priorizar tolerancia/edad/cacas normales y constancia de compra frente a etiquetas. Castellano España aplicado. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tk1a24/alimento_balanceado/

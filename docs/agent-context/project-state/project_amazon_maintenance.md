@@ -2,7 +2,7 @@
 
 Integrado en rutina SEO diaria desde 2026-05-15.
 
-Última actualización: 2026-05-21 CEST
+Última actualización: 2026-05-25 CEST
 
 ---
 
@@ -22,7 +22,7 @@ Integrado en rutina SEO diaria desde 2026-05-15.
 
 ## Próxima cola editorial sugerida
 
-1. `champu-perros-piel-sensible` — **DETECTADO 2026-05-24 (muestra semanal).** 3 productos no disponibles: Virbac Allermyl (B00O4B8SUA, 2 menciones), TropiClean Oatmeal & Tea Tree (B000WT8REK). Prioridad alta editorial.
+1. `champu-perros-piel-sensible` — **REVISADO 2026-05-25.** Virbac Allermyl sustituido de B00O4B8SUA a B0D4DTPKHF (250 ml; Amazon 24,98€; Zooplus 26,99€; Tiendanimal 29,69€). TropiClean B000WT8REK ajustado a 592 ml / 26,67€ y figura con stock escaso. Menforsan corregido a la variante de 300 ml B00P7QPZSE (6,26€); Tiendanimal muestra el mismo producto con formato distinto. Beaphar renombrado a Champú Alta Cosmética Pieles Sensibles B00OKFHO0U (250 ml; 9,50€), retirando las afirmaciones de Bio Shampoo que no correspondían al ASIN.
 2. `mejor-arenero-arena-gatos` — REVISADO 2026-05-21. Petkit Pura Max → Pura MAX 2 (B0D9QGW2M6, 549€). Quedan 4 productos no disponibles: Yangbaga acero inox, Ever Clean Total Cover, Tigerino Canada, Ever Clean Aqua Breeze.
 3. `collar-antiladridos-perros` — **DETECTADO 2026-05-24.** MASBRILL Collar (B0BYJBKL8Z) no disponible (2 menciones). Revisar reemplazo.
 4. `mejor-aspirador-pelo-mascotas` — 4 productos no disponibles.
@@ -33,3 +33,4 @@ Integrado en rutina SEO diaria desde 2026-05-15.
 ## Muestras semanales
 
 - 2026-05-24 (domingo, recuperación del viernes 2026-05-22): 10 artículos auditados (`--limit 10 --stdout --delay 5000`). 20 críticos, 14 medios, 9 bajos, 12 OK. Reporte vía stdout (no persistido). Detectados artículos para cola editorial arriba.
+- 2026-05-25 (lunes): `champu-perros-piel-sensible` revisión cerrada. 0 críticos, 1 alto (TropiClean con stock escaso), 0 medios, 0 bajos, 5 OK. Corregido el tratamiento de `IN_STOCK_SCARCE` para que el sitio no presente como agotados los productos que siguen disponibles con pocas unidades. Los componentes Amazon ahora convierten las URLs limpias `/dp/ASIN` de contenido en enlaces externos correctos a `amazon.es`.
