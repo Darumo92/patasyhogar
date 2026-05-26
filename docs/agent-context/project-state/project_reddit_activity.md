@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-25 CEST
+Última actualización: 2026-05-26 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -10,6 +10,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 ## Karma status
 
+Karma 2026-05-26: comment=71, link=9, total=80. Perfil público y actividad reciente visible. Usuario confirma continuar la rutina Reddit; humanización estricta obligatoria en cada post o comentario.
 Karma 2026-05-25: comment=69, link=9, total=78. Sano; los tres comentarios del lunes y los tres del 2026-05-24 aparecen públicos en el historial.
 Karma 2026-05-24: comment=68, link=9, total=77. Sano. Cuenta cumple condiciones karma >50 + >1 mes, link dropping habilitado con cuidado.
 Karma 2026-05-18: comment=60, link=6, total=66. Sano. Se publicaron 4 comentarios en r/mascotas sin link; mantener cero links a patasyhogar hasta 2026-05-20 como mínimo.
@@ -57,10 +58,11 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
    [experimento, marcas, conclusión, pregunta sobre estudios/evidencia]
    ```
 
-### Posts propios publicados (1 — día 3)
+### Posts propios publicados
 - r/mascotas: "¿Vuestros gatos también ignoran el cuenco y solo beben de la fuente?"
 - **Feedback:** demasiado básico para alguien que se presenta como experto. Siguientes posts deben mostrar experiencia (comparativas propias, datos, anécdotas con conclusiones).
 - 2026-05-19 r/Valencia: "Los que vivís con perro en Valencia: ¿cómo organizáis los paseos cuando empieza el calor fuerte?" — post propio sin link, pregunta de experiencia local sobre horarios, rutas con sombra, botines/chaleco refrescante y zonas a evitar. URL: https://www.reddit.com/r/valencia/comments/1thif2i/los_que_vivís_con_perro_en_valencia_cómo/
+- 2026-05-26 r/AskSpain: "Los que tenéis perro y gato, ¿cómo os organizáis cuando no estáis en casa varios días?" — post propio sin link, debate sobre cuidados cuando conviven perro y gato: visitas a domicilio, cuidador en casa o separar soluciones según animal. Visible al publicar, score inicial 1. Humanizer aplicado. URL: https://www.reddit.com/r/askspain/comments/1to4ddp/los_que_tenéis_perro_y_gato_cómo_os_organizáis/
 
 ### Próximos pasos Reddit
 - **Semana 3:** mantener 10-15 comentarios útiles y 1 post propio/semana, priorizando r/mascotas cuando haya consultas reales.

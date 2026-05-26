@@ -31,8 +31,8 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 
 | Canal | Cuota semanal | Cómo |
 |---|---|---|
-| Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Karma 78 el 2026-05-25; enlaces solo contextuales y con gap de 5-7 días desde el último enlace propio. |
-| Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona) | 2-3 posts/sem | Mismo usuario. Sin enlace salvo encaje excepcional y respetando gap global de dominio. |
+| Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Karma 80 el 2026-05-26; enlaces solo contextuales y con gap de 5-7 días desde el último enlace propio. |
+| Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona, r/Valencia) | 2-3 posts/sem | Mismo usuario. Sin enlace salvo encaje excepcional, respetando gap global de dominio y con humanización estricta antes de publicar. |
 | Quora ES | 3 respuestas largas/sem | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
 | Medium | 1 artículo/sem repurposed | Versión adaptada de informativos con backlink/canonical hacia patasyhogar. |
 
@@ -45,6 +45,7 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 - **No identidad real David expuesta en patasyhogar.** David solo en tuespaciodetrabajo.
 - **Mantener Mango/Kira narrativa** (no claim falsificable, suficiente para Bing/Reddit).
 - **No empezar nuevos canales fuera de esta lista** sin discusión previa.
+- **Humanización Reddit obligatoria.** Cada post o comentario debe pasar por `humanizer`, guía de humanización, coherencia de Mango/Kira y castellano de España antes de presentarlo.
 
 ## Cadencia semanal
 

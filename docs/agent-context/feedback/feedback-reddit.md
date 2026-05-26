@@ -1,5 +1,16 @@
 # Feedback: Reddit
 
+## Mantener rutina Reddit con humanización estricta
+
+El usuario confirmó el 2026-05-26 que Reddit sigue formando parte del plan diario y no debe descartarse al preparar tareas. Para posts propios, comentarios y replies, aplicar siempre `humanizer`, `.seo-engine/templates/humanization-guide.md`, la voz del proyecto y pasada final de castellano de España antes de presentar el borrador.
+
+### Cómo aplicar
+
+- No retirar Reddit del plan diario por defecto.
+- Evitar fórmulas repetidas, tono enciclopédico y enlaces forzados.
+- Revisar coherencia con el hilo completo para comentarios y con los posts propios recientes para publicaciones nuevas.
+- Mantener los límites de enlaces propios y el tracking de publicaciones.
+
 ## Reddit ES — priorizar r/mascotas sobre GatosArgentinos
 
 Cuota diaria Reddit Fase A/B: priorizar **r/mascotas** (mixto perros+gatos, peso ES) sobre **r/GatosArgentinos** (público argentino).

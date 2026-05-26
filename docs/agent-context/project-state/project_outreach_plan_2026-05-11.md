@@ -40,7 +40,7 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
   - Pregunta genuina lifestyle relacionada mascotas (ej: "¿cuánto cuesta vivir con perro en Madrid?")
   - Hilo experiencia ("Lo que aprendí adoptando un gato en piso pequeño")
   - Dato contraintuitivo (mover discusión)
-- **Reglas:** mismo usuario u/Pristine_Review5630. Priorizar conversación sin enlace; cualquier enlace cuenta para el gap global de dominio.
+- **Reglas:** mismo usuario u/Pristine_Review5630. Priorizar conversación sin enlace; cualquier enlace cuenta para el gap global de dominio. Aplicar `humanizer`, guía de voz y pasada final de castellano de España a cada borrador.
 
 ### 3. Quora ES
 
