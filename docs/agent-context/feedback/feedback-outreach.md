@@ -1,21 +1,25 @@
 # Feedback: Outreach
 
-## Outreach solo Quora Medium Reddit
+## Outreach solo Quora y Reddit
 
-El usuario confirmó el 2026-05-16 que no tiene ni va a tener LinkedIn ni canal de comentarios en blogs para este proyecto. No volver a proponer LinkedIn Articles ni comentarios en blogs como parte de la rutina diaria o semanal de backlinks.
+El usuario confirmó el 2026-05-16 que no tiene ni va a tener LinkedIn ni canal de comentarios en blogs para este proyecto. El 2026-05-27 decidió pausar Medium tras comprobar en GA4 que los dos artículos publicados desde el 2026-05-13 no habían generado sesiones referidas desde `medium.com`. No volver a proponer LinkedIn Articles, comentarios en blogs ni artículos Medium como parte de la rutina diaria o semanal de backlinks.
 
 ### Canales activos
 
 - Reddit
 - Quora ES
-- Medium
 
 ### Cómo aplicar
 
-- Si el plan diario menciona LinkedIn, sustituirlo por Medium o Quora según toque.
-- Si el plan diario menciona comentarios en blogs, ignorarlo y repartir ese esfuerzo entre Reddit, Quora y Medium.
+- Si el plan diario menciona LinkedIn, Medium o comentarios en blogs, sustituirlo por Quora o Reddit según toque.
 - No incluir prospección de blogs DoFollow en tareas por defecto.
-- Mantener Reddit sin enlaces directos hasta que la cuenta cumpla las reglas de antigüedad/karma registradas en `project_backlinks_social_status.md`.
+- En Reddit, usar enlaces propios solo de forma contextual, respetando el gap global de 5-7 dias y 7+ dias en el mismo subreddit registrado en `project_reddit_activity.md`.
+
+## Medium pausado
+
+- No redactar ni publicar nuevos artículos Medium por defecto.
+- Mantener publicados los dos artículos ya existentes; no requieren retirada.
+- Solo reconsiderar Medium si aparece tráfico referral medible, enlaces indexados con impacto claro o el usuario lo reactiva explícitamente.
 
 ## Pinterest pausado — foco Reddit + foros
 

@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-26 CEST
+Última actualización: 2026-05-27 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -10,6 +10,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 ## Karma status
 
+Karma 2026-05-27: comment=72, link=11, total=83. Perfil público; el comentario en r/mascotas sobre Martina está visible tras publicación.
 Karma 2026-05-26: comment=71, link=9, total=80. Perfil público y actividad reciente visible. Usuario confirma continuar la rutina Reddit; humanización estricta obligatoria en cada post o comentario.
 Karma 2026-05-25: comment=69, link=9, total=78. Sano; los tres comentarios del lunes y los tres del 2026-05-24 aparecen públicos en el historial.
 Karma 2026-05-24: comment=68, link=9, total=77. Sano. Cuenta cumple condiciones karma >50 + >1 mes, link dropping habilitado con cuidado.
@@ -72,6 +73,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Decisiones operativas Reddit/outreach
 
+- 2026-05-27: Revisión del post propio r/AskSpain `1to4ddp`: inicialmente score 8, 35 comentarios, upvote ratio 0.91. Ya se había respondido a `telepattya`; se publicó una única respuesta adicional a `Senrra3195`, por aportar experiencia directa cuidando gatos a domicilio y concretar el tiempo de las visitas. Estado público tras la respuesta: score 9, 36 comentarios, upvote ratio 1.0. No responder en cadena ni reactivar respuestas genéricas o discusiones laterales.
 - 2026-05-19: Descartados dos candidatos tras revisión del usuario: r/AskSpain `1tgy848` por relación demasiado débil con la cuenta Patas y Hogar, y r/mascotas `1thewmz` por tratarse de venta/cría de cachorros, tema sensible y poco alineado con la marca. No proponer comentarios en hilos de venta de animales salvo que el usuario lo pida explícitamente.
 - 2026-05-12: No buscar menciones en foros como tarea diaria. Mantener foco en Reddit/Quora/blogs según indique el usuario, pero no proponer "mentions foros" por defecto aunque aparezcan en el plan original.
 - 2026-05-12 17:37 CEST: Repaso final post propio r/AskSpain `1tayoo3`. Estado público: score 8, 38 comentarios, upvote ratio 1.0. Cuenta: total karma 45 (comment 40, link 5). Se respondieron las cadenas prioritarias: Puzzleheaded-Sun7418, teh_adry, Blackterial, xCrossFaith, HistoricalTackle5049, TuMadreTeCago, pleasedlurker, Weomir, Mamaun30, y replies directas posteriores de Puzzleheaded/Historical. Recomendación: no seguir contestando ahora salvo reply directo nuevo; hacer una pasada ligera por la noche. No enlazar patasyhogar todavía.
@@ -81,6 +83,10 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-27 r/mascotas: Mi perrita ladra demasiado. ¿Qué podría hacer? (1toqb8t) — explicar que Martina parece reaccionar desde el miedo, evitar forzar saludos, trabajar distancia con refuerzo y recomendar educador canino en positivo por tratarse de una conducta mantenida. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/mascotas/comments/1toqb8t/mi_perrita_ladra_demasiado_que_podria_hacer/oo4j5f8/
+- 2026-05-27 r/GatosArgentinos: Llegó mi primer gatita (1too7tk) — responder a la duda sobre Chili escondiéndose y durmiendo bajo las sábanas: darle tiempo, mantener espacios seguros y no forzar el contacto. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1too7tk/llegó_mi_primer_gatita/oo57cjl/
+- 2026-05-27 r/GatosArgentinos: Consejos para ser mamá luchona (1toxlm6) — orientar sobre revisión veterinaria, vacunas/desparasitación, antipulgas adecuado y mejora gradual de alimentación para gato de interior. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1toxlm6/consejos_para_ser_mamá_luchona/oo5jtua/
+- 2026-05-27 r/AskSpain: Reply en post propio sobre perro y gato durante viajes (1to4ddp) — responder solo a `Senrra3195`, agradeciendo la perspectiva de visitas a domicilio y concretando que para Mango encaja una visita diaria que compruebe comida, agua, arenero y estado general, mientras Kira probablemente necesite otra solución. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/askspain/comments/1to4ddp/los_que_tenéis_perro_y_gato_cómo_os_organizáis/oo4k2rr/
 - 2026-05-25 r/GatosArgentinos: ¿Como evito que mis gatitos se metan en la estufa? (1tmsn66) — recomendar no dejar estufa y gatitos sin supervisión, barrera adicional estable y alejada, evitar bloqueos inflamables, cama cálida alternativa y veterinario ante signos de quemadura. Humanizer aplicado. Castellano España. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tmsn66/como_evito_que_mis_gatitos_se_metan_en_la_estufa/onrmfzz/
 - 2026-05-25 r/GatosArgentinos: AYUDA Gato de casa con patio a departamento (1tmtt5k) — valorar que se quede con la madre si está bien cuidado, no sumar mudanza/avión/pérdida de exterior a un gato muy sensible; si el traslado es inevitable, consulta veterinaria, habituación al transportín y habitación segura inicial. Humanizer aplicado. Castellano España. Sin link. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tmtt5k/ayuda_gato_de_casa_con_patio_a_departamento/onriija/
 - 2026-05-25 r/mascotas: Consejos para gatos (1tmwsux) — convivencia de seis gatos con acoso al de 7 años; recomendar separación inmediata con recursos propios, distribuir comederos/areneros/refugios, descargar energía de los jóvenes y consultar veterinario/etólogo si ya evita comida o arenero. Humanizer aplicado. Castellano España. Sin link por gap global de dominio. URL: https://www.reddit.com/r/mascotas/comments/1tmwsux/consejos_para_gatos/onrcoxw/

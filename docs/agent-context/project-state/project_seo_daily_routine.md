@@ -33,10 +33,11 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 |---|---|---|
 | Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Karma 80 el 2026-05-26; enlaces solo contextuales y con gap de 5-7 días desde el último enlace propio. |
 | Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona, r/Valencia) | 2-3 posts/sem | Mismo usuario. Sin enlace salvo encaje excepcional, respetando gap global de dominio y con humanización estricta antes de publicar. |
-| Quora ES | 3 respuestas largas/sem | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
-| Medium | 1 artículo/sem repurposed | Versión adaptada de informativos con backlink/canonical hacia patasyhogar. |
+| Quora ES | 3-4 respuestas largas/sem | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
 
-**Total estimado:** 1.5-2h/día.
+**Medium pausado desde 2026-05-27:** tras 2 artículos publicados, GA4 no registró sesiones desde `medium.com` entre el 2026-05-13 y el 2026-05-27. Mantener piezas existentes, pero no invertir cuota semanal nueva salvo reactivación explícita.
+
+**Total estimado:** 1-1.5h/día.
 
 ## Reglas operativas
 
@@ -53,10 +54,10 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 |---|---|
 | Lunes | Reddit nicho (3 comentarios) + 1 respuesta Quora |
 | Martes | Reddit subs grandes (1 post) + 1 respuesta Quora |
-| Miércoles | Medium 1 artículo repurposed + Reddit nicho (3 comentarios) |
+| Miércoles | Reddit nicho (3 comentarios) + localizar oportunidad contextual de enlace si el gap lo permite |
 | Jueves | 2 respuestas Quora + revisar replies Reddit |
 | Viernes | Reddit subs grandes (1 post) + Reddit nicho (3 comentarios) |
-| Sábado | 1 respuesta Quora + preparar/publicar Medium si no se hizo el miércoles |
+| Sábado | 1 respuesta Quora + revisar replies Reddit |
 | Domingo | Reddit nicho (3 comentarios) + revisar inbox/karma |
 
 ## Mantenimiento Amazon productos
@@ -117,7 +118,7 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 
 - Plan actual outreach 6 meses: **25-40%** recuperación parcial Google
 - Bing seguirá funcionando independiente
-- Reddit/Quora/Medium pueden generar tráfico directo mientras Google se mueve
+- Reddit/Quora pueden generar tráfico directo mientras Google se mueve
 
 ## NO hacer (refuerzo)
 
@@ -138,5 +139,5 @@ Calculadora coste mantenimiento mascotas mensual ES publicada el 2026-05-18 en `
 - `project_outreach_plan_2026-05-11.md` — plan detallado canales
 - `reference_quora_es_workflow.md` — método respuestas Quora
 - `project_reddit_activity.md` — actividad y candidatos Reddit
-- `project_outreach_content.md` — publicaciones Quora y Medium
+- `project_outreach_content.md` — publicaciones Quora y registro histórico Medium
 - `project_social_accounts.md` — estado de cuentas y canales

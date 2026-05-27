@@ -55,15 +55,12 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
   - Cierre: 1 link contextual a `patasyhogar.com/[slug]` SOLO si añade valor real
 - **Ver:** `reference_quora_es_workflow.md`
 
-### 4. Medium
+### 4. Medium — pausado 2026-05-27
 
-- **Plataforma activa:** Medium
-- **Cuota:** 1 artículo/sem
-- **Formato:**
-  - Versión adaptada (no copia) de artículo patasyhogar
-  - Canonical tag → URL original patasyhogar (evita duplicate content)
-  - Link contextual 2-3 a patasyhogar dentro cuerpo
-- **Target temas:** informativos `/cuidados/` (no comparativas afiliadas — Medium hostil a affiliate)
+- **Estado:** pausado por decisión del usuario.
+- **Evidencia:** dos artículos publicados el 2026-05-13 y 2026-05-20; GA4 no registró sesiones con referencia de `medium.com` entre el 2026-05-13 y el 2026-05-27.
+- **Acción:** mantener los dos artículos existentes y sus canonical; no publicar nuevas piezas por defecto.
+- **Reactivación:** solo si aparecen señales medibles o el usuario lo solicita expresamente.
 
 ### Canales descartados
 
@@ -97,7 +94,7 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 | Brand mentions (Google "patasyhogar") | 5 | 25 | 80 |
 | Reddit karma total | 60 | 150 | 300 |
 | Quora respuestas con upvotes | 5 | 25 | 60 |
-| Medium artículos publicados | 4 | 12 | 24 |
+| Medium artículos publicados | Pausado (2 publicados) | - | - |
 
 ## Hitos re-evaluación
 
@@ -110,17 +107,17 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 
 ## Reglas operativas globales
 
-- **No empezar canales fuera de Reddit, Quora y Medium** sin discusión
+- **Canales activos:** Reddit y Quora. No empezar canales nuevos sin discusión.
 - **No emails outreach** (sin prensa, HARO, guest posts, bloggers)
 - **No identidad real David expuesta** en patasyhogar
 - **No fotos IA**
-- **Humanizer obligatorio** en todo contenido publicado externamente (Reddit, Quora, Medium, foros, comentarios)
+- **Humanizer obligatorio** en todo contenido publicado externamente (Reddit, Quora, foros, comentarios)
 - **No commits sitio** salvo bug crítico o build calculadora
 - **No mirar GSC diario** — solo lunes lectura
 
 ## Tracking diario
 
-Cada acción se registra en `project_reddit_activity.md` (Reddit) o `project_outreach_content.md` (Quora/Medium):
+Cada acción se registra en `project_reddit_activity.md` (Reddit) o `project_outreach_content.md` (Quora y registro historico Medium):
 - Fecha + canal + URL acción + tema
 - Karma/upvotes si aplica
 - Backlinks acquired (URL fuente + DR estimado)

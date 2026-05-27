@@ -2,13 +2,15 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-05-26 CEST
+Última actualización: 2026-05-27 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
 ---
 
 ## Medium — Artículos publicados
+
+**Estado:** pausado desde 2026-05-27. GA4 registró 0 sesiones referidas desde `medium.com` entre el 2026-05-13 y el 2026-05-27 tras las dos publicaciones iniciales. Se mantienen online como histórico/canonical, sin nuevas piezas por defecto.
 
 | Fecha | Título | URL | Canonical | Notas |
 |---|---|---|---|---|
