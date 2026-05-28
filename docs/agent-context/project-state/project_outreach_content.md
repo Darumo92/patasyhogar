@@ -2,7 +2,7 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-05-27 CEST
+Última actualización: 2026-05-28 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
@@ -23,6 +23,7 @@ Tracking de contenido publicado en Medium, Quora y Pinterest.
 
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-05-28 | "Cómo eliminar las pulgas de mi colchón y casa" | https://es.quora.com/C%C3%B3mo-eliminar-las-pulgas-de-mi-colch%C3%B3n-y-casa | Sí | Duodécima respuesta cuenta. Pulgas en casa: tratar animal y entorno a la vez, lavado de textiles, aspirado insistente, repetición por ciclo de vida y señal de cuándo llamar a control profesional. Enlace contextual a guía de eliminar pulgas en perro y casa. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-05-26 | "Cuál es la mejor manera de evitar que mi gato arañe la esquina de mi cama" | https://es.quora.com/Cu%C3%A1l-es-la-mejor-manera-de-evitar-que-mi-gato-ara%C3%B1e-la-esquina-de-mi-cama/answer/Patas-y-Hogar?prompt_topic_bio=1 | Sí | Undécima respuesta cuenta. Rascado en cama: proteger temporalmente la esquina, colocar rascador pegado al punto elegido, elegir vertical u horizontal según conducta y reforzar sin castigo. Enlace a guía de rascadores para gatos. Humanizer aplicado. |
 | 2026-05-25 | "Cómo puedo adaptar a mi gato a vivir nuevamente en un apartamento después de haber vivido por meses en una casa con patio" | https://es.quora.com/C%C3%B3mo-puedo-adaptar-a-mi-gato-a-vivir-nuevamente-en-un-apartamento-despu%C3%A9s-de-haber-vivido-por-meses-en-una-casa-con-patio | No | Décima respuesta cuenta. Adaptación de gato acostumbrado a exterior: valorar si conviene moverlo, habitación segura inicial, habituación al transportín, enriquecimiento y señales de estrés. Sin enlace para cortar la secuencia de cinco respuestas consecutivas con link. Humanizer aplicado. |
 | 2026-05-24 | "Los gatos prefieren las cajas de arena abiertas o cerradas?" | https://es.quora.com/Los-gatos-prefieren-las-cajas-de-arena-abiertas-o-cerradas/answer/Patas-y-Hogar?prompt_topic_bio=1 | Sí | Novena respuesta cuenta. Debate clásico arenero abierto vs cerrado: olor amoníaco concentrado, salida única como trampa multigato, tamaño correcto (vez y media largo gato), regla N+1 areneros. Enlace a comparativa areneros y arena. Humanizer aplicado. |

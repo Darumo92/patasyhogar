@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-27 CEST
+Última actualización: 2026-05-28 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -10,6 +10,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 ## Karma status
 
+Karma 2026-05-28: comment=71, link=11, total=82. Perfil público; los dos comentarios publicados hoy aparecen visibles en el historial con score inicial 1. Sin enlaces.
 Karma 2026-05-27: comment=72, link=11, total=83. Perfil público; el comentario en r/mascotas sobre Martina está visible tras publicación.
 Karma 2026-05-26: comment=71, link=9, total=80. Perfil público y actividad reciente visible. Usuario confirma continuar la rutina Reddit; humanización estricta obligatoria en cada post o comentario.
 Karma 2026-05-25: comment=69, link=9, total=78. Sano; los tres comentarios del lunes y los tres del 2026-05-24 aparecen públicos en el historial.
@@ -83,6 +84,8 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-28 r/GatosArgentinos: Ayuda! Tengo tres Gatos y todavía no se adaptaron (1tpfpjr) — desaconsejar dejar la puerta abierta tras ataques previos, reiniciar presentación gradual con intercambio de olores, comida a ambos lados de la puerta, barrera visual/física y sesiones cortas; rotar espacios y repartir recursos para que la gata residente no pierda todo el territorio. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tpfpjr/ayuda_tengo_tres_gatos_y_todav%C3%ADa_no_se_adaptaron/oocv0xg/
+- 2026-05-28 r/mascotas: Perro agresivo(?? (1tppu5t) — explicar que el cambio concreto al moverla de noche puede indicar dolor o asociación negativa, recomendar descartar veterinario, dejar de guiar por collar, crear rutina nocturna con premio/correa sin tensión y acudir a profesional de modificación de conducta o etología si ya hay mordidas. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/mascotas/comments/1tppu5t/perro_agresivo/oocgv2x/
 - 2026-05-27 r/mascotas: Mi perrita ladra demasiado. ¿Qué podría hacer? (1toqb8t) — explicar que Martina parece reaccionar desde el miedo, evitar forzar saludos, trabajar distancia con refuerzo y recomendar educador canino en positivo por tratarse de una conducta mantenida. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/mascotas/comments/1toqb8t/mi_perrita_ladra_demasiado_que_podria_hacer/oo4j5f8/
 - 2026-05-27 r/GatosArgentinos: Llegó mi primer gatita (1too7tk) — responder a la duda sobre Chili escondiéndose y durmiendo bajo las sábanas: darle tiempo, mantener espacios seguros y no forzar el contacto. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1too7tk/llegó_mi_primer_gatita/oo57cjl/
 - 2026-05-27 r/GatosArgentinos: Consejos para ser mamá luchona (1toxlm6) — orientar sobre revisión veterinaria, vacunas/desparasitación, antipulgas adecuado y mejora gradual de alimentación para gato de interior. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1toxlm6/consejos_para_ser_mamá_luchona/oo5jtua/
