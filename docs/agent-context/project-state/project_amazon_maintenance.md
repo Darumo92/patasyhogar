@@ -2,7 +2,7 @@
 
 Integrado en rutina SEO diaria desde 2026-05-15.
 
-Última actualización: 2026-05-25 CEST
+Última actualización: 2026-05-29 CEST
 
 ---
 
@@ -32,5 +32,6 @@ Integrado en rutina SEO diaria desde 2026-05-15.
 
 ## Muestras semanales
 
+- 2026-05-29 (viernes): 10 artículos auditados (`node scripts/audit-amazon-products.mjs --limit 10 --stdout --delay 5000`). 0 críticos, 19 altos, 13 medios, 6 bajos, 16 OK. Reporte vía stdout (no persistido). La mayoría de altos son precios cambiados o ASINs sin precio/no disponibles ya detectables por cache. Sin edición MDX hoy; mantener cola editorial existente y priorizar solo si TopPick queda inviable o producto clave desaparece.
 - 2026-05-24 (domingo, recuperación del viernes 2026-05-22): 10 artículos auditados (`--limit 10 --stdout --delay 5000`). 20 críticos, 14 medios, 9 bajos, 12 OK. Reporte vía stdout (no persistido). Detectados artículos para cola editorial arriba.
 - 2026-05-25 (lunes): `champu-perros-piel-sensible` revisión cerrada. 0 críticos, 1 alto (TropiClean con stock escaso), 0 medios, 0 bajos, 5 OK. Corregido el tratamiento de `IN_STOCK_SCARCE` para que el sitio no presente como agotados los productos que siguen disponibles con pocas unidades. Los componentes Amazon ahora convierten las URLs limpias `/dp/ASIN` de contenido en enlaces externos correctos a `amazon.es`.
