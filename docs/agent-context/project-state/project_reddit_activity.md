@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-28 CEST
+Última actualización: 2026-05-29 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -10,6 +10,9 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 ## Karma status
 
+> El karma numérico NO es leíble por RSS ni ningún endpoint accesible (`about.json`=403, `about.rss`=404). Lo facilita el usuario desde la app. Para shadowban/cuenta viva sí sirve `user/Pristine_Review5630.rss` — ver `reference_reddit_rss_method.md`.
+
+Karma 2026-05-29: total=85 (dato del usuario). Cuenta viva confirmada vía `user.rss` (comentarios del 27-28 visibles en feed público).
 Karma 2026-05-28: comment=71, link=11, total=82. Perfil público; los dos comentarios publicados hoy aparecen visibles en el historial con score inicial 1. Sin enlaces.
 Karma 2026-05-27: comment=72, link=11, total=83. Perfil público; el comentario en r/mascotas sobre Martina está visible tras publicación.
 Karma 2026-05-26: comment=71, link=9, total=80. Perfil público y actividad reciente visible. Usuario confirma continuar la rutina Reddit; humanización estricta obligatoria en cada post o comentario.
@@ -28,7 +31,7 @@ Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 ## Reglas Reddit
 
 - **Mínimo 30-45 min entre comentarios** primera semana (mejor 1h). Cuenta nueva + rapidez = shadowban.
-- **Link propio permitido con cautela:** la cuenta cumple karma >50 y >1 mes, pero debe haber 5-7 días entre enlaces a patasyhogar.com. Último enlace publicado: 2026-05-21; no enlazar antes del 2026-05-26 como mínimo.
+- **Link propio permitido con cautela:** la cuenta cumple karma >50 y >1 mes, pero debe haber 5-7 días entre enlaces a patasyhogar.com. Último enlace publicado: 2026-05-29; no enlazar antes del 2026-06-03 como mínimo.
 - **Chequear shadowban:** copiar URL comentario → abrir en incógnito. Si no aparece → shadowban.
 - Comprobar karma via API pública: `curl https://www.reddit.com/user/Pristine_Review5630/about.json`
 - Cross-post mínimo 48h tras post original.
@@ -84,6 +87,9 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-29 r/AskSpain: Voy a adoptar un gato (1t3o18m) — consejos de adaptación inicial para gato adoptado: habitación tranquila, arenero separado de comida, ventanas/balcón protegidos, compra básica sin sobrecargar y preguntar a protectora por vacunas, chip, castración y comida actual. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/askspain/comments/1t3o18m/voy_a_adoptar_un_gato/ool09rt/
+- 2026-05-29 r/mascotas: es normal? (1tqx2ln) — responder a gato que muerde plástico/cosas filosas: no alarmar por morder, pero retirar plásticos/cortantes, ofrecer alternativas seguras y vigilar si traga trozos, babea, vomita o deja de comer. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/mascotas/comments/1tqx2ln/es_normal/ooktfrb/
+- 2026-05-29 r/AskSpain: ¿Qué seguro veterinario recomendáis en España? (1tfzobj) — advertir por escrito sobre preexistencias y carencias tras ataque de epilepsia, separar RC de seguro veterinario de salud, revisar neurología/pruebas/límite/franquicia/exclusiones/centros concertados y enlazar guía propia de seguros como recurso contextual. Humanizer aplicado. Castellano España. Link propio a `/cuidados/seguro-mascotas-espana-guia-2026/`. Visible en RSS público. URL: https://www.reddit.com/r/askspain/comments/1tfzobj/qu?_seguro_veterinario_recomend?is_en_espa?a/ookj7gj/
 - 2026-05-28 r/GatosArgentinos: Ayuda! Tengo tres Gatos y todavía no se adaptaron (1tpfpjr) — desaconsejar dejar la puerta abierta tras ataques previos, reiniciar presentación gradual con intercambio de olores, comida a ambos lados de la puerta, barrera visual/física y sesiones cortas; rotar espacios y repartir recursos para que la gata residente no pierda todo el territorio. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tpfpjr/ayuda_tengo_tres_gatos_y_todav%C3%ADa_no_se_adaptaron/oocv0xg/
 - 2026-05-28 r/mascotas: Perro agresivo(?? (1tppu5t) — explicar que el cambio concreto al moverla de noche puede indicar dolor o asociación negativa, recomendar descartar veterinario, dejar de guiar por collar, crear rutina nocturna con premio/correa sin tensión y acudir a profesional de modificación de conducta o etología si ya hay mordidas. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/mascotas/comments/1tppu5t/perro_agresivo/oocgv2x/
 - 2026-05-27 r/mascotas: Mi perrita ladra demasiado. ¿Qué podría hacer? (1toqb8t) — explicar que Martina parece reaccionar desde el miedo, evitar forzar saludos, trabajar distancia con refuerzo y recomendar educador canino en positivo por tratarse de una conducta mantenida. Humanizer aplicado. Castellano España. Sin link. Visible tras publicación, score inicial 1. URL: https://www.reddit.com/r/mascotas/comments/1toqb8t/mi_perrita_ladra_demasiado_que_podria_hacer/oo4j5f8/
