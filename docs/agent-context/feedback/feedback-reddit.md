@@ -81,14 +81,26 @@ Antes de proponer un post Reddit para comentar, verificar con el usuario si ya h
 
 **Why:** ocurrió 2026-04-30 día 4 Fase A. Borrador 3 sobre "Mi pequeño gigante vigilando" asumió desde el título que el OP necesitaba consejos sobre articulaciones, dieta y arnés de un perro gigante. El body real iba sobre gente entrometida que le da consejos no pedidos y duda sobre adiestrador. El comentario habría sido irónico (más consejos no pedidos) y fuera de tema. Daniel pidió no volver a comentar "porque sí".
 
+### Ver imagen/media antes de tratar un hilo como serio
+
+Si el hilo de Reddit tiene título ambiguo, humorístico o poco contexto textual, no basta con RSS/body. Muchos posts de r/mascotas dependen de la foto y pueden ser broma aunque el título parezca una consulta.
+
+**Cómo aplicar:**
+- Descartar candidatos con título de meme/broma si no se puede ver la imagen.
+- No proponer como "hilo técnico" posts tipo "mi perro se volvió Lucifer", "qué buscaba", "perro serio" o similares sin inspeccionar la foto/media.
+- Si el RSS no muestra la imagen y el contexto textual no es suficiente, marcarlo como candidato débil o pedir confirmación antes de redactar.
+
+**Corrección que originó esta regla:** el 2026-05-30 se propusieron dos hilos de r/mascotas como candidatos serios, pero ambos eran publicaciones de broma cuya foto cambiaba completamente el sentido.
+
 **How to apply (cada comentario Reddit, sin excepción):**
 
 1. Leer body completo del post (`selftext`), no solo título.
-2. Leer comentarios ya publicados — entender qué se ha dicho ya, qué tono, si hay consenso, si alguien dijo algo que confirmar/matizar.
-3. Identificar la pregunta o necesidad real del OP. Si hay varias preguntas, decidir cuál abordar.
-4. Escribir comentario que **responda a lo que pide**. No meter consejos técnicos no pedidos.
-5. Si el OP se queja de algo (consejos no pedidos, juicios, etc.), no caer en la misma trampa.
-6. Si el ángulo no encaja con experiencia real (Mango/Kira/Daniel Valencia), descartar el hilo y buscar otro.
+2. Verificar si el post depende de imagen/media; si no se puede inspeccionar y el título/body es ambiguo, no tratarlo como consulta seria.
+3. Leer comentarios ya publicados — entender qué se ha dicho ya, qué tono, si hay consenso, si alguien dijo algo que confirmar/matizar.
+4. Identificar la pregunta o necesidad real del OP. Si hay varias preguntas, decidir cuál abordar.
+5. Escribir comentario que **responda a lo que pide**. No meter consejos técnicos no pedidos.
+6. Si el OP se queja de algo (consejos no pedidos, juicios, etc.), no caer en la misma trampa.
+7. Si el ángulo no encaja con experiencia real (Mango/Kira/Daniel Valencia), descartar el hilo y buscar otro.
 
 **Checklist mental antes de pegar borrador:**
 - ¿Qué pregunta el OP exactamente? (1 frase)

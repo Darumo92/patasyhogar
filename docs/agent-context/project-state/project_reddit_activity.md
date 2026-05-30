@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-29 CEST
+Última actualización: 2026-05-30 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -87,6 +87,8 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-30 r/GatosArgentinos: Ayuda dosis de Calcivet Forte (1tqf9r7) — respuesta prudente sobre no recalcular dosis de calcio por Reddit, confirmar pauta exacta con la veterinaria, distinguir suplemento para dieta casera vs pienso completo y evitar improvisar minerales. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tqf9r7/ayuda_dosis_de_calcivet_forte/ooq1eks/
+- 2026-05-30 r/GatosArgentinos: The winter is comming - Consulta abrigo en gatos (1tq2wmx) — explicar que si la gata desconoce a los otros con buzos no conviene insistir, priorizar cuevas/mantas/bolsa de agua caliente envuelta y cautela con pantalla eléctrica; si se prueba ropa, habituación breve y gradual. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tq2wmx/the_winter_is_comming_consulta_abrigo_en_gatos/oopyc2q/
 - 2026-05-29 r/AskSpain: Voy a adoptar un gato (1t3o18m) — consejos de adaptación inicial para gato adoptado: habitación tranquila, arenero separado de comida, ventanas/balcón protegidos, compra básica sin sobrecargar y preguntar a protectora por vacunas, chip, castración y comida actual. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/askspain/comments/1t3o18m/voy_a_adoptar_un_gato/ool09rt/
 - 2026-05-29 r/mascotas: es normal? (1tqx2ln) — responder a gato que muerde plástico/cosas filosas: no alarmar por morder, pero retirar plásticos/cortantes, ofrecer alternativas seguras y vigilar si traga trozos, babea, vomita o deja de comer. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/mascotas/comments/1tqx2ln/es_normal/ooktfrb/
 - 2026-05-29 r/AskSpain: ¿Qué seguro veterinario recomendáis en España? (1tfzobj) — advertir por escrito sobre preexistencias y carencias tras ataque de epilepsia, separar RC de seguro veterinario de salud, revisar neurología/pruebas/límite/franquicia/exclusiones/centros concertados y enlazar guía propia de seguros como recurso contextual. Humanizer aplicado. Castellano España. Link propio a `/cuidados/seguro-mascotas-espana-guia-2026/`. Visible en RSS público. URL: https://www.reddit.com/r/askspain/comments/1tfzobj/qu?_seguro_veterinario_recomend?is_en_espa?a/ookj7gj/

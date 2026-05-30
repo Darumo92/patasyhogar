@@ -11,6 +11,7 @@ Cada mañana decir "vamos con tareas SEO de hoy" → leer este archivo → ejecu
 
 **Inicio del plan:** 2026-05-11
 **Última lectura semanal:** 2026-05-25 (lunes, semana 3)
+**Última actualización operativa:** 2026-05-30 (sábado, semana 3)
 
 ## Contexto cambio plan (2026-05-11)
 
@@ -31,7 +32,7 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 
 | Canal | Cuota semanal | Cómo |
 |---|---|---|
-| Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Karma 80 el 2026-05-26; enlaces solo contextuales y con gap de 5-7 días desde el último enlace propio. |
+| Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Karma 85 el 2026-05-29; enlaces solo contextuales y con gap de 5-7 días desde el último enlace propio. Último enlace: 2026-05-29, no enlazar antes del 2026-06-03 como mínimo. |
 | Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona, r/Valencia) | 2-3 posts/sem | Mismo usuario. Sin enlace salvo encaje excepcional, respetando gap global de dominio y con humanización estricta antes de publicar. |
 | Quora ES | 3-4 respuestas largas/sem | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
 
@@ -109,6 +110,7 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 |---|---|
 | 2026-05-18 | Lectura GSC. Anotar indexadas + impresiones. Sin esperar cambio aún. |
 | 2026-05-25 | Lectura semanal: GSC 18-23 may = 1 impresión, 0 clics (vs 2 impresiones, 0 clics del 11-17 may); sitemap reporta 691 enviadas y 0 indexadas. GA4 18-24 may = 4 sesiones / 4 usuarios / 8 vistas (vs 7 / 5 / 13). Cloudflare zona y Web Analytics activos. Mantener outreach; no hay señal para cambiar estrategia antes del hito del 8 jun. |
+| 2026-05-30 | Ajuste operativo sábado: el último enlace propio en Reddit fue el 2026-05-29 en r/AskSpain, así que el gap global bloquea nuevos enlaces a patasyhogar hasta el 2026-06-03 como mínimo. Hoy priorizar Quora y revisión de replies/actividad Reddit sin enlaces. |
 | 2026-06-08 | Re-eval 1 (4 sem). KPI: ≥5 indexadas + ≥10 impresiones. Si igual → revisar mix canales. |
 | 2026-07-13 | Re-eval 2 (9 sem). KPI: ≥15 indexadas + ≥50 imp/sem. Si igual → considerar consolidación sitios. |
 | 2026-08-24 | Re-eval 3 (15 sem). KPI: ≥30 indexadas + ≥200 imp/sem. Decisión continuar o sunset. |

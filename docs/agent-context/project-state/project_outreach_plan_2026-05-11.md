@@ -21,11 +21,11 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 
 - **Usuario:** u/Pristine_Review5630
 - **Subs:** r/mascotas, r/GatosArgentinos
-- **Karma actual (2026-05-25):** comment=69, link=9, total=78
+- **Karma actual (2026-05-29):** total=85 (dato usuario; breakdown no disponible)
 - **Cuota:** 2-3 comentarios/día + 1 post propio/sem
 - **Reglas:**
   - Cuenta ya supera karma >50 y un mes; un link propio solo si responde de forma natural a la consulta
-  - Gap mínimo global de 5-7 días entre enlaces a patasyhogar.com; el último fue el 2026-05-21
+  - Gap mínimo global de 5-7 días entre enlaces a patasyhogar.com; el último fue el 2026-05-29, así que no enlazar antes del 2026-06-03 como mínimo
   - Mínimo 30-60 min entre comentarios
   - Anécdota Mango/Kira OK (no falsificable)
   - Subs distintos cada acción
