@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-30 CEST
+Última actualización: 2026-05-31 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -77,6 +77,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Decisiones operativas Reddit/outreach
 
+- 2026-05-31: Cierre domingo. Tres comentarios publicados sin enlace y visibles en RSS público: r/mascotas arenero gatito (`oowiqww`), r/mascotas nerviosismo por truenos (`oozjixh`), r/GatosArgentinos mudanza gato callejero (`oozpoil`). Revisión de replies vía RSS de permalinks: hay una respuesta directa de agradecimiento en arenero (`ooxodje`); truenos y mudanza no muestran replies directas visibles. Recomendación: responder solo al agradecimiento con cierre corto, sin añadir teoría nueva ni enlace.
 - 2026-05-27: Revisión del post propio r/AskSpain `1to4ddp`: inicialmente score 8, 35 comentarios, upvote ratio 0.91. Ya se había respondido a `telepattya`; se publicó una única respuesta adicional a `Senrra3195`, por aportar experiencia directa cuidando gatos a domicilio y concretar el tiempo de las visitas. Estado público tras la respuesta: score 9, 36 comentarios, upvote ratio 1.0. No responder en cadena ni reactivar respuestas genéricas o discusiones laterales.
 - 2026-05-19: Descartados dos candidatos tras revisión del usuario: r/AskSpain `1tgy848` por relación demasiado débil con la cuenta Patas y Hogar, y r/mascotas `1thewmz` por tratarse de venta/cría de cachorros, tema sensible y poco alineado con la marca. No proponer comentarios en hilos de venta de animales salvo que el usuario lo pida explícitamente.
 - 2026-05-12: No buscar menciones en foros como tarea diaria. Mantener foco en Reddit/Quora/blogs según indique el usuario, pero no proponer "mentions foros" por defecto aunque aparezcan en el plan original.
@@ -87,6 +88,9 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-05-31 r/GatosArgentinos: Mudanza con gato callejero (1ts7bla) — transición de gato con acceso exterior a vida interior: planificar primeras 3-4 semanas, habitación base, ventanas/balcón protegidos, enriquecimiento interior y no ceder a salidas iniciales para evitar aprendizaje de insistencia/fuga. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1ts7bla/mudanza_con_gato_callejero/oozpoil/
+- 2026-05-31 r/mascotas: Mi perrito sufre nerviosismo SEVERO (1ts6q29) — ansiedad por truenos en perra de 25 kg: separar gestión en tormenta vs trabajo fuera de tormenta, crear zona segura, evitar comprar/mezclar pastillas al azar, consultar veterinario de conducta o etólogo veterinario con vídeos y trabajar desensibilización a volumen muy bajo. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/mascotas/comments/1ts6q29/mi_perrito_sufre_nerviosismo_severo/oozjixh/
+- 2026-05-31 r/mascotas: ¿Cómo puedo efectuar un cambio de sitio para el arenero de mi gatito? (1tscxih) — gatito de 7 semanas: todavía a tiempo de mover el arenero, hacerlo gradualmente o con segundo arenero temporal, mantener misma arena y elegir zona tranquila lejos de comida/paso. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. Reply de OP agradeciendo (`ooxodje`); pendiente/posible cierre corto sin teoría nueva. URL: https://www.reddit.com/r/mascotas/comments/1tscxih/cómo_puedo_efectuar_un_cambio_de_sitio_para_el/oowiqww/
 - 2026-05-30 r/GatosArgentinos: Ayuda dosis de Calcivet Forte (1tqf9r7) — respuesta prudente sobre no recalcular dosis de calcio por Reddit, confirmar pauta exacta con la veterinaria, distinguir suplemento para dieta casera vs pienso completo y evitar improvisar minerales. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tqf9r7/ayuda_dosis_de_calcivet_forte/ooq1eks/
 - 2026-05-30 r/GatosArgentinos: The winter is comming - Consulta abrigo en gatos (1tq2wmx) — explicar que si la gata desconoce a los otros con buzos no conviene insistir, priorizar cuevas/mantas/bolsa de agua caliente envuelta y cautela con pantalla eléctrica; si se prueba ropa, habituación breve y gradual. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tq2wmx/the_winter_is_comming_consulta_abrigo_en_gatos/oopyc2q/
 - 2026-05-29 r/AskSpain: Voy a adoptar un gato (1t3o18m) — consejos de adaptación inicial para gato adoptado: habitación tranquila, arenero separado de comida, ventanas/balcón protegidos, compra básica sin sobrecargar y preguntar a protectora por vacunas, chip, castración y comida actual. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/askspain/comments/1t3o18m/voy_a_adoptar_un_gato/ool09rt/
