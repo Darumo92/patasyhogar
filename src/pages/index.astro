@@ -76,6 +76,45 @@ const guiasEsenciales = [
   },
 ];
 
+const paginasPrioritarias = [
+  {
+    href: '/calculadora-coste-mascotas/',
+    titulo: 'Calculadora de coste',
+    descripcion: 'Comida, veterinario, higiene, accesorios y seguro en un presupuesto mensual orientativo.',
+    etiqueta: 'Herramienta',
+  },
+  {
+    href: '/alimentacion/mejor-pienso-perro-adulto-raza-mediana/',
+    titulo: 'Pienso para perro mediano',
+    descripcion: 'Una comparativa práctica para perros adultos de tamaño medio, sin irse a gamas imposibles.',
+    etiqueta: 'Perros',
+  },
+  {
+    href: '/higiene/mejor-arenero-arena-gatos/',
+    titulo: 'Arenero y arena para gatos',
+    descripcion: 'Qué arenero elegir, qué arena ensucia menos y cuándo merece la pena cambiar de sistema.',
+    etiqueta: 'Gatos',
+  },
+  {
+    href: '/juguetes/mejor-rascador-gatos-guia/',
+    titulo: 'Rascadores para gatos',
+    descripcion: 'Altura, estabilidad, sisal y ubicación: lo que suele marcar la diferencia en casa.',
+    etiqueta: 'Gatos',
+  },
+  {
+    href: '/cuidados/guia-alimentacion-perros/',
+    titulo: 'Alimentación para perros',
+    descripcion: 'Raciones, pienso, húmeda y señales para ajustar la dieta sin volverse loco.',
+    etiqueta: 'Cuidados',
+  },
+  {
+    href: '/cuidados/guia-completa-alimentacion-gatos/',
+    titulo: 'Alimentación para gatos',
+    descripcion: 'Pienso, comida húmeda, hidratación y errores habituales en gatos de interior.',
+    etiqueta: 'Cuidados',
+  },
+];
+
 const productCollections = await getCollection('productos');
 const totalProducts = productCollections.reduce((sum, c) => sum + c.data.length, 0);
 
@@ -249,6 +288,27 @@ function articleUrl(a: typeof articulos[0]) {
           <em>según mascota y ciudad</em>
         </div>
       </a>
+    </div>
+  </section>
+
+  <section class="priority-pages">
+    <div class="container">
+      <div class="section-header">
+        <h2>Empieza por aquí</h2>
+        <a href="/articulos/">Ver todo →</a>
+      </div>
+      <p class="priority-pages-intro">
+        Si estás montando la base para tu perro o tu gato, estas páginas ahorran más vueltas que leer veinte guías sueltas.
+      </p>
+      <div class="priority-pages-grid">
+        {paginasPrioritarias.map(pagina => (
+          <a href={pagina.href} class="priority-page-card">
+            <span>{pagina.etiqueta}</span>
+            <h3>{pagina.titulo}</h3>
+            <p>{pagina.descripcion}</p>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -468,6 +528,71 @@ function articleUrl(a: typeof articulos[0]) {
       }
       .cost-home-ticket {
         transform: none;
+      }
+    }
+    .priority-pages {
+      padding: 0 0 4rem;
+    }
+    .priority-pages-intro {
+      max-width: 620px;
+      margin: -0.75rem 0 1.25rem;
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .priority-pages-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.85rem;
+    }
+    .priority-page-card {
+      display: block;
+      min-height: 100%;
+      padding: 1rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      background: var(--color-bg-card);
+      color: var(--color-text);
+      text-decoration: none;
+      transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+    }
+    .priority-page-card:hover {
+      border-color: var(--color-primary);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      color: var(--color-text);
+    }
+    .priority-page-card span {
+      display: inline-flex;
+      margin-bottom: 0.55rem;
+      padding: 0.12rem 0.48rem;
+      border-radius: var(--radius-pill);
+      background: var(--green-100);
+      color: var(--color-primary-dark);
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .priority-page-card h3 {
+      margin-bottom: 0.4rem;
+      color: var(--color-text);
+      font-size: 0.98rem;
+      line-height: 1.25;
+    }
+    .priority-page-card p {
+      color: var(--color-text-muted);
+      font-size: 0.84rem;
+      line-height: 1.55;
+    }
+    @media (max-width: 840px) {
+      .priority-pages-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 560px) {
+      .priority-pages-grid {
+        grid-template-columns: 1fr;
       }
     }
   </style>

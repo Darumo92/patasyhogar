@@ -211,6 +211,33 @@ const faqSchema = {
         <a href="/cuidados/cuanto-cuesta-mantener-un-gato-al-mes/">Ver guía de coste de gato</a>
         <a href="/elegir/">Elegir productos con el recomendador</a>
       </div>
+
+      <section class="budget-next" aria-labelledby="budget-next-title">
+        <div>
+          <p class="budget-kicker">Siguiente paso</p>
+          <h2 id="budget-next-title">Del presupuesto a la compra útil</h2>
+          <p>
+            El cálculo sirve para poner límites. Después conviene mirar primero lo que más se repite cada mes: comida, arena y descanso.
+          </p>
+        </div>
+        <div class="budget-next-grid">
+          <a href="/alimentacion/mejor-pienso-perro-adulto-raza-mediana/">
+            <span>Perros</span>
+            <strong>Pienso para perro mediano</strong>
+            <small>Para ajustar el gasto principal sin bajar demasiado la calidad.</small>
+          </a>
+          <a href="/higiene/mejor-arenero-arena-gatos/">
+            <span>Gatos</span>
+            <strong>Arenero y arena</strong>
+            <small>La partida fija que más se nota en casa si eliges mal.</small>
+          </a>
+          <a href="/hogar/mejor-cama-perro-guia/">
+            <span>Hogar</span>
+            <strong>Cama para perros</strong>
+            <small>Una compra puntual, pero fácil de repetir si la primera no encaja.</small>
+          </a>
+        </div>
+      </section>
     </div>
   </section>
 
@@ -832,6 +859,74 @@ const faqSchema = {
       gap: 0.75rem;
       margin-top: 1.75rem;
     }
+    .budget-next {
+      display: grid;
+      grid-template-columns: minmax(16rem, 0.78fr) minmax(0, 1.22fr);
+      gap: clamp(1.5rem, 4vw, 3rem);
+      align-items: start;
+      margin-top: clamp(2rem, 5vw, 4rem);
+      padding: clamp(1rem, 3vw, 1.35rem);
+      border: 1px solid var(--budget-line);
+      border-radius: 28px;
+      background: color-mix(in oklch, var(--budget-surface) 86%, transparent);
+    }
+    .budget-next h2 {
+      max-width: 12ch;
+      color: var(--budget-ink);
+      font-size: clamp(1.6rem, 3.5vw, 3rem);
+      font-weight: 950;
+      letter-spacing: -0.06em;
+      line-height: 0.95;
+    }
+    .budget-next p {
+      margin: 0.75rem 0 0;
+      color: var(--budget-muted);
+      font-size: 0.92rem;
+      line-height: 1.58;
+    }
+    .budget-next-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.75rem;
+    }
+    .budget-next-grid a {
+      display: block;
+      padding: 0.95rem;
+      border: 1px solid var(--budget-line);
+      border-radius: 20px;
+      background: var(--budget-surface);
+      color: var(--budget-ink);
+      text-decoration: none;
+      transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .budget-next-grid a:hover {
+      border-color: var(--budget-accent);
+      box-shadow: 0 14px 30px color-mix(in oklch, var(--budget-ink) 8%, transparent);
+      transform: translateY(-2px);
+    }
+    .budget-next-grid span {
+      display: inline-flex;
+      margin-bottom: 0.55rem;
+      color: var(--budget-accent);
+      font-size: 0.68rem;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .budget-next-grid strong {
+      display: block;
+      margin-bottom: 0.4rem;
+      color: var(--budget-ink);
+      font-size: 0.98rem;
+      letter-spacing: -0.02em;
+      line-height: 1.18;
+    }
+    .budget-next-grid small {
+      display: block;
+      color: var(--budget-muted);
+      font-size: 0.8rem;
+      line-height: 1.45;
+    }
     @keyframes budgetFloatIn {
       from { opacity: 0; transform: translateY(2.25rem) rotate(-1deg); }
       to { opacity: 1; transform: translateY(1.25rem) rotate(2deg); }
@@ -852,7 +947,8 @@ const faqSchema = {
     @media (max-width: 920px) {
       .budget-hero,
       .budget-board,
-      .budget-explain {
+      .budget-explain,
+      .budget-next {
         grid-template-columns: 1fr;
       }
       .budget-board {
@@ -899,6 +995,9 @@ const faqSchema = {
       }
       .budget-explain article p {
         grid-column: 2;
+      }
+      .budget-next-grid {
+        grid-template-columns: 1fr;
       }
       .budget-links {
         flex-direction: column;

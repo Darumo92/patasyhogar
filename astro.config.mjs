@@ -25,6 +25,23 @@ for (const file of readdirSync(articlesDir).filter(f => f.endsWith('.mdx'))) {
   }
 }
 
+const staticLastmod = new Map([
+  ['https://patasyhogar.com/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/alimentacion/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/higiene/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/paseo/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/juguetes/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/hogar/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/perros/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/gatos/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/cuidados/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/articulos/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/elegir/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/calculadora-coste-mascotas/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/sobre-mi/', new Date('2026-06-01')],
+  ['https://patasyhogar.com/contacto/', new Date('2026-06-01')],
+]);
+
 export default defineConfig({
   site: 'https://patasyhogar.com',
   trailingSlash: 'always',
@@ -42,7 +59,7 @@ export default defineConfig({
         !page.includes('/tags') &&
         !page.includes('/actualizaciones/'),
       serialize(item) {
-        const lastmod = dateMap.get(item.url);
+        const lastmod = dateMap.get(item.url) || staticLastmod.get(item.url);
         if (lastmod) item.lastmod = lastmod;
         return item;
       },
