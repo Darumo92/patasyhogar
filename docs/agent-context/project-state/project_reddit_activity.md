@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-05-31 CEST
+Última actualización: 2026-06-02 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -12,6 +12,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 > El karma numérico NO es leíble por RSS ni ningún endpoint accesible (`about.json`=403, `about.rss`=404). Lo facilita el usuario desde la app. Para shadowban/cuenta viva sí sirve `user/Pristine_Review5630.rss` — ver `reference_reddit_rss_method.md`.
 
+Karma 2026-06-02: total=92 (dato del usuario). Cuenta viva confirmada vía RSS público con comentarios recientes visibles.
 Karma 2026-05-29: total=85 (dato del usuario). Cuenta viva confirmada vía `user.rss` (comentarios del 27-28 visibles en feed público).
 Karma 2026-05-28: comment=71, link=11, total=82. Perfil público; los dos comentarios publicados hoy aparecen visibles en el historial con score inicial 1. Sin enlaces.
 Karma 2026-05-27: comment=72, link=11, total=83. Perfil público; el comentario en r/mascotas sobre Martina está visible tras publicación.
@@ -68,6 +69,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 - **Feedback:** demasiado básico para alguien que se presenta como experto. Siguientes posts deben mostrar experiencia (comparativas propias, datos, anécdotas con conclusiones).
 - 2026-05-19 r/Valencia: "Los que vivís con perro en Valencia: ¿cómo organizáis los paseos cuando empieza el calor fuerte?" — post propio sin link, pregunta de experiencia local sobre horarios, rutas con sombra, botines/chaleco refrescante y zonas a evitar. URL: https://www.reddit.com/r/valencia/comments/1thif2i/los_que_vivís_con_perro_en_valencia_cómo/
 - 2026-05-26 r/AskSpain: "Los que tenéis perro y gato, ¿cómo os organizáis cuando no estáis en casa varios días?" — post propio sin link, debate sobre cuidados cuando conviven perro y gato: visitas a domicilio, cuidador en casa o separar soluciones según animal. Visible al publicar, score inicial 1. Humanizer aplicado. URL: https://www.reddit.com/r/askspain/comments/1to4ddp/los_que_tenéis_perro_y_gato_cómo_os_organizáis/
+- 2026-06-02 r/AskSpain: "Tener gato en un piso con balcón me ha vuelto paranoico con las ventanas" — post propio sin link, conversación sobre seguridad de ventanas/balcones con gatos en pisos de alquiler: redes, mosquiteras reforzadas, limitadores y cerramientos. Visible en RSS público. Humanizer aplicado. Castellano España. URL: https://www.reddit.com/r/askspain/comments/1tuo7rb/tener_gato_en_un_piso_con_balcón_me_ha_vuelto/
 
 ### Próximos pasos Reddit
 - **Semana 3:** mantener 10-15 comentarios útiles y 1 post propio/semana, priorizando r/mascotas cuando haya consultas reales.
@@ -77,6 +79,8 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Decisiones operativas Reddit/outreach
 
+- 2026-06-02: Cierre martes. Actividad publicada y visible en RSS público: post propio r/AskSpain sobre gato en piso con balcón (`1tuo7rb`) y comentario sin link en r/GatosArgentinos sobre gata perdida (`opayg35`). También se publicó respuesta Quora sobre evitar que una mascota se tire por el balcón, registrada en `project_outreach_content.md`. Karma actual confirmado por usuario: 92 total. Mantener sin nuevos enlaces Reddit hasta al menos 2026-06-03, y solo si el contexto encaja.
+- 2026-06-02: Revisión inicio martes. Cuenta viva confirmada vía RSS público con comentarios visibles del 2026-06-01. Actividad no registrada antes: r/mascotas "Problema Patitas" (`op3xi6s`) y r/GatosArgentinos "Gato de pelo largo + litera cerrada" (`op45oj4`). Último enlace propio sigue siendo 2026-05-29; no enlazar antes del 2026-06-03 como mínimo. Para hoy, priorizar post propio sin enlace en sub grande + 1 respuesta Quora; si se hace comentario Reddit adicional, elegir solo hilos con consulta clara y sin enlace.
 - 2026-05-31: Cierre domingo. Tres comentarios publicados sin enlace y visibles en RSS público: r/mascotas arenero gatito (`oowiqww`), r/mascotas nerviosismo por truenos (`oozjixh`), r/GatosArgentinos mudanza gato callejero (`oozpoil`). Revisión de replies vía RSS de permalinks: hay una respuesta directa de agradecimiento en arenero (`ooxodje`); truenos y mudanza no muestran replies directas visibles. Recomendación: responder solo al agradecimiento con cierre corto, sin añadir teoría nueva ni enlace.
 - 2026-05-27: Revisión del post propio r/AskSpain `1to4ddp`: inicialmente score 8, 35 comentarios, upvote ratio 0.91. Ya se había respondido a `telepattya`; se publicó una única respuesta adicional a `Senrra3195`, por aportar experiencia directa cuidando gatos a domicilio y concretar el tiempo de las visitas. Estado público tras la respuesta: score 9, 36 comentarios, upvote ratio 1.0. No responder en cadena ni reactivar respuestas genéricas o discusiones laterales.
 - 2026-05-19: Descartados dos candidatos tras revisión del usuario: r/AskSpain `1tgy848` por relación demasiado débil con la cuenta Patas y Hogar, y r/mascotas `1thewmz` por tratarse de venta/cría de cachorros, tema sensible y poco alineado con la marca. No proponer comentarios en hilos de venta de animales salvo que el usuario lo pida explícitamente.
@@ -88,6 +92,9 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-06-02 r/GatosArgentinos: Mi Gata no viene hace cinco días (1tuewac) — gata Alicia perdida cinco días en zona rural: no asumir que se fue lejos, búsqueda nocturna sistemática con pausas, pedir a vecinos revisar garajes/cobertizos/patios/coches y difundir foto en grupos locales, veterinarios y protectoras. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tuewac/mi_gata_no_viene_hace_cinco_días/opayg35/
+- 2026-06-01 r/GatosArgentinos: Gato de pelo largo + litera cerrada (1ttc1ev) — comentario visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1ttc1ev/gato_de_pelo_largo_litera_cerrada_qué_les_dio/op45oj4/
+- 2026-06-01 r/mascotas: Problema Patitas (1ttfjy7) — comentario visible en RSS público. URL: https://www.reddit.com/r/mascotas/comments/1ttfjy7/problema_patitas/op3xi6s/
 - 2026-05-31 r/GatosArgentinos: Mudanza con gato callejero (1ts7bla) — transición de gato con acceso exterior a vida interior: planificar primeras 3-4 semanas, habitación base, ventanas/balcón protegidos, enriquecimiento interior y no ceder a salidas iniciales para evitar aprendizaje de insistencia/fuga. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1ts7bla/mudanza_con_gato_callejero/oozpoil/
 - 2026-05-31 r/mascotas: Mi perrito sufre nerviosismo SEVERO (1ts6q29) — ansiedad por truenos en perra de 25 kg: separar gestión en tormenta vs trabajo fuera de tormenta, crear zona segura, evitar comprar/mezclar pastillas al azar, consultar veterinario de conducta o etólogo veterinario con vídeos y trabajar desensibilización a volumen muy bajo. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/mascotas/comments/1ts6q29/mi_perrito_sufre_nerviosismo_severo/oozjixh/
 - 2026-05-31 r/mascotas: ¿Cómo puedo efectuar un cambio de sitio para el arenero de mi gatito? (1tscxih) — gatito de 7 semanas: todavía a tiempo de mover el arenero, hacerlo gradualmente o con segundo arenero temporal, mantener misma arena y elegir zona tranquila lejos de comida/paso. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. Reply de OP agradeciendo (`ooxodje`); pendiente/posible cierre corto sin teoría nueva. URL: https://www.reddit.com/r/mascotas/comments/1tscxih/cómo_puedo_efectuar_un_cambio_de_sitio_para_el/oowiqww/

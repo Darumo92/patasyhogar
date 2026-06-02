@@ -11,7 +11,7 @@ Cada mañana decir "vamos con tareas SEO de hoy" → leer este archivo → ejecu
 
 **Inicio del plan:** 2026-05-11
 **Última lectura semanal:** 2026-06-01 (lunes, semana 4)
-**Última actualización operativa:** 2026-06-01 (lunes, semana 4)
+**Última actualización operativa:** 2026-06-02 (martes, semana 4)
 
 ## Contexto cambio plan (2026-05-11)
 
@@ -112,6 +112,7 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 | 2026-05-25 | Lectura semanal: GSC 18-23 may = 1 impresión, 0 clics (vs 2 impresiones, 0 clics del 11-17 may); sitemap reporta 691 enviadas y 0 indexadas. GA4 18-24 may = 4 sesiones / 4 usuarios / 8 vistas (vs 7 / 5 / 13). Cloudflare zona y Web Analytics activos. Mantener outreach; no hay señal para cambiar estrategia antes del hito del 8 jun. |
 | 2026-05-30 | Ajuste operativo sábado: el último enlace propio en Reddit fue el 2026-05-29 en r/AskSpain, así que el gap global bloquea nuevos enlaces a patasyhogar hasta el 2026-06-03 como mínimo. Hoy priorizar Quora y revisión de replies/actividad Reddit sin enlaces. |
 | 2026-06-01 | Lectura semanal: GSC 25-30 may = 0 impresiones, 0 clics; sitemap sigue con 691 enviadas y 0 indexadas. GA4 25-31 may = 3 sesiones / 3 usuarios / 3 vistas / 2 sesiones con interacción (vs 4 / 4 / 8 / 2 del 18-24 may). Cloudflare 25-31 may = 9.534 requests y 2.499 uniques diarios agregados (vs 11.077 y 2.629 del 18-24 may). Mantener outreach sin cambios hasta re-eval del 2026-06-08. Último enlace propio Reddit 2026-05-29: no enlazar antes del 2026-06-03 como mínimo. |
+| 2026-06-02 | Lectura operativa martes: GSC 26-31 may = 0 impresiones, 0 clics; GA4 26 may-1 jun = 4 sesiones / 3 usuarios / 4 vistas / 4 sesiones con interacción, fuentes principales `chatgpt.com / referral`, `bing / organic` y `copilot.com / (not set)`. Cloudflare GraphQL intentado, pero el wrapper MCP devolvió `Cannot read properties of null (reading 'map')` incluso con query mínima; no usar el endpoint REST antiguo de Zone Analytics. Mantener pauta del martes: post Reddit sub grande sin enlace + 1 respuesta Quora. Último enlace propio Reddit 2026-05-29: no enlazar antes del 2026-06-03 como mínimo. |
 | 2026-06-08 | Re-eval 1 (4 sem). KPI: ≥5 indexadas + ≥10 impresiones. Si igual → revisar mix canales. |
 | 2026-07-13 | Re-eval 2 (9 sem). KPI: ≥15 indexadas + ≥50 imp/sem. Si igual → considerar consolidación sitios. |
 | 2026-08-24 | Re-eval 3 (15 sem). KPI: ≥30 indexadas + ≥200 imp/sem. Decisión continuar o sunset. |
