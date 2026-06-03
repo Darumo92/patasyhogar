@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-06-02 CEST
+Última actualización: 2026-06-03 CEST
 
 > **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
 
@@ -12,6 +12,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 
 > El karma numérico NO es leíble por RSS ni ningún endpoint accesible (`about.json`=403, `about.rss`=404). Lo facilita el usuario desde la app. Para shadowban/cuenta viva sí sirve `user/Pristine_Review5630.rss` — ver `reference_reddit_rss_method.md`.
 
+Karma 2026-06-03: total=112 (dato del usuario). Cuenta viva confirmada vía RSS público con actividad reciente visible.
 Karma 2026-06-02: total=92 (dato del usuario). Cuenta viva confirmada vía RSS público con comentarios recientes visibles.
 Karma 2026-05-29: total=85 (dato del usuario). Cuenta viva confirmada vía `user.rss` (comentarios del 27-28 visibles en feed público).
 Karma 2026-05-28: comment=71, link=11, total=82. Perfil público; los dos comentarios publicados hoy aparecen visibles en el historial con score inicial 1. Sin enlaces.
@@ -73,12 +74,14 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ### Próximos pasos Reddit
 - **Semana 3:** mantener 10-15 comentarios útiles y 1 post propio/semana, priorizando r/mascotas cuando haya consultas reales.
-- **Enlaces:** no forzar ningún enlace; próximo hueco temporal a partir del 2026-05-26 y solo si el hilo pide un recurso que encaje.
+- **Enlaces:** gap temporal cumplido desde el 2026-06-03; no forzar ningún enlace y usarlo solo si el hilo pide un recurso propio que encaje sin romper coherencia con posts recientes.
 
 ---
 
 ## Decisiones operativas Reddit/outreach
 
+- 2026-06-03: Cierre miércoles. Karma confirmado por usuario: 112 total. Se decidió no poner link propio pese a cumplir gap desde el 2026-05-29 porque el enlace a `hogar-seguro-mascotas` quedaba incoherente tras el post propio del 2026-06-02 en r/AskSpain preguntando por ventanas/balcón, y el resto de hilos buenos eran salud/adopción donde el enlace podía sonar forzado. Mantener AskSpain como canal de mayor valor por público España, sin abandonar r/mascotas y r/GatosArgentinos para presencia diaria y karma. RSS público del usuario revisado tras publicar, pero devolvió perfil sin entradas; capturar IDs exactos de comentario cuando vuelva a listar actividad.
+- 2026-06-02: Revisión de replies del post propio r/AskSpain `1tuo7rb` sobre gato en piso con balcón. RSS revisado con 20 replies de terceros ya analizadas: `opbfrqz` Four_beastlings, `opb63fg` helpman1977, `opb55rh` XyrthaPala, `opb5d3u` XyrthaPala, `opb1spm` AnyoneRUIZ, `opbc017` reinadeluniverso, `opb10c2` MCshador, `opayzi1` Few_Loss1472, `opavfrj` CandyFist0, `opavaze` Javs2469, `opb3ggf` MrCobayo, `opb13ps` DrakneiX, `opb8t4b` Javs2469, `opazquz` ErGraf, `opav3hk` Damaneger, `opav34t` aqeloutro, `opav0s6` Constant_Citron4058, `opavb1i` Constant_Citron4058, `opau7jz` JRuizC-VLC-es, `opasir8` No_Entrance_1755. Decisión: contestar solo a `Constant_Citron4058` y `helpman1977`; XyrthaPala pasa a solo upvote tras revisar la foto; resto solo upvote/no tocar según utilidad. En la revisión de esta noche, no volver a proponer respuesta sobre estos replies ya analizados salvo que haya reply directo nuevo, edición relevante o nueva cadena.
 - 2026-06-02: Cierre martes. Actividad publicada y visible en RSS público: post propio r/AskSpain sobre gato en piso con balcón (`1tuo7rb`) y comentario sin link en r/GatosArgentinos sobre gata perdida (`opayg35`). También se publicó respuesta Quora sobre evitar que una mascota se tire por el balcón, registrada en `project_outreach_content.md`. Karma actual confirmado por usuario: 92 total. Mantener sin nuevos enlaces Reddit hasta al menos 2026-06-03, y solo si el contexto encaja.
 - 2026-06-02: Revisión inicio martes. Cuenta viva confirmada vía RSS público con comentarios visibles del 2026-06-01. Actividad no registrada antes: r/mascotas "Problema Patitas" (`op3xi6s`) y r/GatosArgentinos "Gato de pelo largo + litera cerrada" (`op45oj4`). Último enlace propio sigue siendo 2026-05-29; no enlazar antes del 2026-06-03 como mínimo. Para hoy, priorizar post propio sin enlace en sub grande + 1 respuesta Quora; si se hace comentario Reddit adicional, elegir solo hilos con consulta clara y sin enlace.
 - 2026-05-31: Cierre domingo. Tres comentarios publicados sin enlace y visibles en RSS público: r/mascotas arenero gatito (`oowiqww`), r/mascotas nerviosismo por truenos (`oozjixh`), r/GatosArgentinos mudanza gato callejero (`oozpoil`). Revisión de replies vía RSS de permalinks: hay una respuesta directa de agradecimiento en arenero (`ooxodje`); truenos y mudanza no muestran replies directas visibles. Recomendación: responder solo al agradecimiento con cierre corto, sin añadir teoría nueva ni enlace.
@@ -92,6 +95,10 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Comentarios recientes (2026-05-16 en adelante)
 
+- 2026-06-03 r/mascotas: estafa o seguro (1tv30y8) — adopción a distancia con señales sospechosas: pedir videollamada, datos verificables, contrato/cartilla/transportista y desconfiar si todo depende de pagar envío primero. Humanizer aplicado. Castellano España. Sin link. URL hilo: https://www.reddit.com/r/mascotas/comments/1tv30y8/estafa_o_seguro/ · URL exacta comentario pendiente de capturar.
+- 2026-06-03 r/mascotas: Acabo de adoptar a dos gatitas (1tu367i) — revisión veterinaria inicial, calendario de vacunas/castración según edad-peso, dos areneros provisionales, arena sin perfume y limpieza enzimática si orinan fuera. Humanizer aplicado. Castellano España. Sin link por coherencia con post propio AskSpain del 2026-06-02. URL hilo: https://www.reddit.com/r/mascotas/comments/1tu367i/acabo_de_adoptar_a_dos_gatitas/ · URL exacta comentario pendiente de capturar.
+- 2026-06-03 r/GatosArgentinos: Cardiólogo (1tv0pk8) — soplo en gato: explicar que no implica automáticamente peor escenario, recomendar consulta cardiológica/ecocardiografía, no medicar/sedar sin valoración y pedir presupuesto con pruebas incluidas. Humanizer aplicado. Castellano España. Sin link. URL hilo: https://www.reddit.com/r/GatosArgentinos/comments/1tv0pk8/cardiólogo/ · URL exacta comentario pendiente de capturar.
+- 2026-06-03 r/GatosArgentinos: Proteina novel ayuda (1ttxq0v) — diarrea intermitente: prueba dietética ordenada con una sola variable, no mezclar proteínas/premios, hablar con veterinario sobre dieta gastrointestinal/hipoalergénica y registrar comida/heces/peso. Humanizer aplicado. Castellano España. Sin link. URL hilo: https://www.reddit.com/r/GatosArgentinos/comments/1ttxq0v/proteina_novel_ayuda/ · URL exacta comentario pendiente de capturar.
 - 2026-06-02 r/GatosArgentinos: Mi Gata no viene hace cinco días (1tuewac) — gata Alicia perdida cinco días en zona rural: no asumir que se fue lejos, búsqueda nocturna sistemática con pausas, pedir a vecinos revisar garajes/cobertizos/patios/coches y difundir foto en grupos locales, veterinarios y protectoras. Humanizer aplicado. Castellano España. Sin link. Visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1tuewac/mi_gata_no_viene_hace_cinco_días/opayg35/
 - 2026-06-01 r/GatosArgentinos: Gato de pelo largo + litera cerrada (1ttc1ev) — comentario visible en RSS público. URL: https://www.reddit.com/r/GatosArgentinos/comments/1ttc1ev/gato_de_pelo_largo_litera_cerrada_qué_les_dio/op45oj4/
 - 2026-06-01 r/mascotas: Problema Patitas (1ttfjy7) — comentario visible en RSS público. URL: https://www.reddit.com/r/mascotas/comments/1ttfjy7/problema_patitas/op3xi6s/
