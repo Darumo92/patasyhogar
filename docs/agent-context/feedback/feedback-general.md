@@ -14,7 +14,7 @@ NEVER guess or approximate any product data. If I cannot verify a piece of infor
 
 This applies to:
 - Prices on Amazon.es (blocked by CAPTCHA)
-- Prices on Tiendanimal/Zooplus (WebFetch often returns wrong product)
+- Prices on Tiendanimal (WebFetch often returns wrong product)
 - Amazon product image URLs (can't scrape)
 - Product availability/stock status
 - Product specifications (dimensions, weight, etc.)

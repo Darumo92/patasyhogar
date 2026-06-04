@@ -46,7 +46,6 @@ const currentPath = Astro.url.pathname;
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
     <link rel="dns-prefetch" href="https://www.amazon.es" />
-    <link rel="dns-prefetch" href="https://www.zooplus.es" />
     <link rel="dns-prefetch" href="https://www.tiendanimal.es" />
 
     <title>{title}</title>
@@ -177,7 +176,6 @@ const currentPath = Astro.url.pathname;
         var href = link.href || '';
         var tienda = 'otro';
         if (href.includes('amazon.')) tienda = 'amazon';
-        else if (href.includes('zooplus.')) tienda = 'zooplus';
         else if (href.includes('tiendanimal.')) tienda = 'tiendanimal';
         gtag('event', 'affiliate_click', {
           event_category: 'afiliados',

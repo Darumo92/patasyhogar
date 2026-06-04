@@ -1189,7 +1189,7 @@
 - id: cosma-nature-gato
   nombre: "Cosma Nature"
   marca: "Cosma"
-  imagen: "/images/productos/zooplus-comida-humeda-gatos-mix.jpg"
+  imagen: "/images/productos/cosma-nature-comida-humeda-gatos-mix.jpg"
   precio: "~1,10€"
   precioZooplus: "~1,10€"
   enlaceAmazon: null
@@ -1198,7 +1198,7 @@
   subcategoria: comida-humeda
   animal: gato
   articuloSlug: mejor-comida-humeda-gatos
-  descripcionCorta: "Comida húmeda Cosma Nature con ingredientes naturales para gatos, disponible en Zooplus."
+  descripcionCorta: "Comida húmeda Cosma Nature con ingredientes naturales para gatos y textura sencilla."
   filtros: {}
   afinidad: {}
 
@@ -1261,7 +1261,7 @@
   subcategoria: snacks
   animal: perro
   articuloSlug: mejores-snacks-naturales-perros
-  descripcionCorta: "Snack natural liofilizado de pechuga de pollo para perros, de Zooplus."
+  descripcionCorta: "Snack natural liofilizado de pechuga de pollo para perros."
   filtros: {}
   afinidad: {}
 

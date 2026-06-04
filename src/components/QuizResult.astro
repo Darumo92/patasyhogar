@@ -9,10 +9,8 @@ interface Producto {
   imagen?: string;
   precio: string;
   precioAmazon?: string | null;
-  precioZooplus?: string | null;
   precioTiendanimal?: string | null;
   enlaceAmazon?: string | null;
-  enlaceZooplus?: string | null;
   enlaceTiendanimal?: string | null;
   categoria: string;
   subcategoria: string;
@@ -76,7 +74,6 @@ function buildStores(p: Producto) {
     estado: amazonDisponible ? undefined : amazonAvailability?.availability || 'Disponibilidad no confirmada',
     revisado: formatAmazonCheckedDate(amazonAvailability),
   });
-  if (p.enlaceZooplus) stores.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus, disponible: true });
   if (p.enlaceTiendanimal) stores.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal), disponible: true });
   return stores;
 }

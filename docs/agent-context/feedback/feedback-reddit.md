@@ -18,7 +18,7 @@ Cuota diaria Reddit Fase A/B: priorizar **r/mascotas** (mixto perros+gatos, peso
 Distribución ideal: **2 r/mascotas + 1 r/GatosArgentinos** por día (no al revés).
 
 **Why:**
-- Afiliados patasyhogar = Amazon ES + Zooplus ES + Tiendanimal ES (España)
+- Afiliados patasyhogar = Amazon ES + Tiendanimal ES (España)
 - r/GatosArgentinos audiencia AR — productos y compras MercadoLibre/MercadoPago. NO convierte
 - r/mascotas mezcla ES+LATAM con peso ES significativo
 - Posts perro español (bulldog francés, etc) llegan público objetivo real

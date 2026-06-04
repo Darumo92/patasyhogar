@@ -1412,7 +1412,7 @@
   subcategoria: empapadores
   animal: perro
   articuloSlug: mejores-empapadores-perros
-  descripcionCorta: "Empapadores Trixie para entrenamiento. Buen precio y calidad estándar. Disponible en Zooplus."
+  descripcionCorta: "Empapadores Trixie para entrenamiento. Buen precio y calidad estándar para uso puntual o cachorros."
   filtros: {}
   afinidad:
     empapador_cachorro: 4
@@ -1746,7 +1746,7 @@
   subcategoria: arena
   animal: gato
   articuloSlug: mejor-arenero-arena-gatos
-  descripcionCorta: "Bentonita canadiense premium de granulado fino y suave. Bajo polvo. Mucho más barata en Zooplus que en Amazon."
+  descripcionCorta: "Bentonita canadiense premium de granulado fino y suave. Bajo polvo y buena capacidad aglomerante."
   filtros: {}
   afinidad:
     presupuesto_medio: 3
@@ -1833,7 +1833,7 @@
   subcategoria: limpiador-enzimatico
   animal: ambos
   articuloSlug: mejor-limpiador-enzimatico-mascotas
-  descripcionCorta: "Limpiador enzimático Urine Off con bio-enzimas patentadas. Mucho más barato en Zooplus. Reconocido mundialmente."
+  descripcionCorta: "Limpiador enzimático Urine Off con bio-enzimas patentadas. Pensado para manchas y olores persistentes."
   filtros: {}
   afinidad:
     presupuesto_medio: 4

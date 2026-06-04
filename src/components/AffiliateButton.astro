@@ -3,7 +3,7 @@ import StoreIcon from './StoreIcon.astro';
 
 interface Props {
   href: string;
-  tienda?: 'amazon' | 'zooplus' | 'tiendanimal' | 'default';
+  tienda?: 'amazon' | 'tiendanimal' | 'default';
   texto?: string;
 }
 
@@ -14,7 +14,6 @@ const WEBGAINS_PROGRAM = '9507';
 
 const tiendaInfo: Record<string, { label: string }> = {
   amazon: { label: 'Ver en Amazon' },
-  zooplus: { label: 'Ver en Zooplus' },
   tiendanimal: { label: 'Ver en Tiendanimal' },
   default: { label: 'Ver oferta' },
 };

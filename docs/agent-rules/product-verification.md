@@ -20,7 +20,7 @@ Actualizar TODO sin excepción:
 ## Imágenes de productos
 
 - CSP solo permite imágenes de `'self'` y `m.media-amazon.com` — nunca usar URLs de otros dominios directamente.
-- Imágenes de Zooplus/Tiendanimal no funcionan (hotlinking bloqueado) — descargar a `public/images/productos/`.
+- Imágenes de Tiendanimal u otras fuentes no-Amazon no funcionan de forma fiable por hotlinking — descargar a `public/images/productos/`.
 - Pedir al usuario precio o imagen solo si Amazon API no los devuelve.
 - Antes de commit, verificar que TODOS los productos en `ComparisonTable` tienen campo `imagen`.
 - Imágenes hero de Pexels: comprobar duplicados por hash con `md5sum public/images/articulos/*.webp | sort | awk '{print $1}' | uniq -d`.
@@ -28,30 +28,33 @@ Actualizar TODO sin excepción:
 
 ## Búsqueda en tiendas (obligatorio)
 
-- Buscar/verificar cada producto individualmente en Amazon con `scripts/amazon-api.mjs` antes de escribir; después buscar Zooplus y Tiendanimal.
-- Buscar por nombre exacto: `site:zooplus.es "[nombre producto]"` y `site:tiendanimal.es "[nombre producto]"`.
+- Buscar/verificar cada producto individualmente en Amazon con `scripts/amazon-api.mjs` antes de escribir; después buscar Tiendanimal si el producto encaja con esa tienda.
+- Buscar por nombre exacto: `site:tiendanimal.es "[nombre producto]"`.
 - Si el nombre no funciona, buscar también por marca.
 - Verificar cada URL — confirmar que es el producto correcto, no una página genérica.
-- Nunca inventar URLs de Zooplus o Tiendanimal.
-- Orden: primero verificar Amazon → luego buscar Zooplus/Tiendanimal para la lista final.
+- Nunca inventar URLs de Tiendanimal.
+- Orden: primero verificar Amazon → luego buscar Tiendanimal para la lista final.
+- Zooplus está desactivado desde 2026-06-04: no buscar, no añadir y no renderizar salvo instrucción explícita del usuario.
 
 ## Verificar nombres
 
 - No confiar en los nombres del artículo — verificar que cada nombre coincide con su ASIN antes de buscar en otras tiendas.
 
-## TopPick y ComparisonTable sincronizados
+## TopPick y ComparisonTable
 
-- Si un producto es `TopPick` Y está en `ComparisonTable`, ambos deben tener los mismos enlaces de tiendas.
+- `TopPick` no debe renderizar enlaces de tienda. Es un bloque editorial.
+- Si un producto es `TopPick` Y está en `ComparisonTable`, los enlaces de compra deben vivir en `ComparisonTable`.
 
 ## Tiendas soportadas
 
 - **Amazon**: tag `patasyhogar-21` (auto-appended por componentes)
 - **Tiendanimal**: Webgains (`wgcampaignid=1746742`, `wgprogramid=9507`) — auto-appended por componentes
-- **Zooplus**: sin código de afiliado aún (futuro)
+- **Zooplus**: desactivado; no renderizar ni buscar por defecto.
 
 ## Auditoría recurrente
 
 - `npm run audit:amazon` — una vez al mes, revisar todos los productos Amazon.
 - `npm run update:amazon-cache` — una vez al mes, refrescar precio/imagen/disponibilidad en `src/data/amazon-products.json`.
+- `node scripts/check-affiliate-density.mjs` — antes de cerrar cambios que afecten a artículos/componentes afiliados.
 - Muestra semanal: `node scripts/audit-amazon-products.mjs --limit 10 --stdout` o `--article <slug>`.
 - El auditor genera reporte, no modifica artículos.

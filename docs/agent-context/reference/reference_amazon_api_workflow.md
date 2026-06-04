@@ -91,7 +91,7 @@ node scripts/audit-amazon-products.mjs --delay 5000 --retries 5
 - Si el producto existe en web pero la API no devuelve un campo, pedir al usuario solo ese dato faltante o verificar manualmente.
 - Los artículos MDX no deben guardar URLs con `?tag=patasyhogar-21`; usar `/dp/ASIN` o URL limpia.
 - Mantener imágenes de producto en `m.media-amazon.com` y preferir versión optimizada `_AC_SL300_`.
-- Tras verificar Amazon, buscar equivalentes en Zooplus/Tiendanimal según las reglas del proyecto.
+- Tras verificar Amazon, buscar equivalentes en Tiendanimal según las reglas del proyecto.
 
 ## Cadencia recomendada
 

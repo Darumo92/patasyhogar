@@ -277,7 +277,7 @@
   subcategoria: cama
   animal: gato
   articuloSlug: mejor-cama-gato-guia
-  descripcionCorta: "Cueva de felpa suave (41x35x26 cm) con cojín mullido extraíble. Lavable a 30°C. Mejor precio en Zooplus."
+  descripcionCorta: "Cueva de felpa suave (41x35x26 cm) con cojín mullido extraíble. Lavable a 30°C. Formato compacto para gatos que buscan refugio."
   afinidad:
     cama_cueva: 4
     cama_donut: 2
@@ -569,7 +569,7 @@
   subcategoria: gatera
   animal: gato
   articuloSlug: mejor-gatera-puerta-gato
-  descripcionCorta: "Gatera manual de 4 posiciones con túnel incluido. Silenciosa, cierre magnético. Mejor precio en Zooplus."
+  descripcionCorta: "Gatera manual de 4 posiciones con túnel incluido. Silenciosa, con cierre magnético y montaje sencillo."
   afinidad:
     gatera_chip: 0
     gatera_magnetica: 1

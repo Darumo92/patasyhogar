@@ -23,11 +23,11 @@ Reviewing all articles one by one for excellence. **36 done, 73 remaining** (as 
    - If ASIN doesn't exist: find alternative ASIN or remove
 4. **When replacing a product, update EVERYTHING**: ASIN, name, image, price, description, puntosFuertes, and all text mentions
 5. **Verify product images** — ask user for BOTH price AND image in the same request
-6. **Search Zooplus and Tiendanimal** — AFTER finalizing Amazon products. Search EACH product INDIVIDUALLY by name (site:zooplus.es "product name"), never generic category searches
+6. **Search Tiendanimal** — AFTER finalizing Amazon products. Search EACH relevant product INDIVIDUALLY by name (site:tiendanimal.es "product name"), never generic category searches
    - Verify each URL with WebFetch to confirm it's the right product and get the price
    - Only add links that are verified — NEVER invent URLs
-7. **Add per-store pricing** — precioAmazon, precioZooplus, precioTiendanimal in ComparisonTable and TopPick
-8. **Remove redundant AffiliateButton groups** — the ComparisonTable already has buy buttons
+7. **Add per-store pricing** — precioAmazon and precioTiendanimal in ComparisonTable when verified
+8. **Remove redundant AffiliateButton groups** — the ComparisonTable already has buy buttons. TopPick stays editorial and must not render store links.
 9. **Remove AffiliateButton import** if no longer used
 10. **Fix price consistency** — prices must match between ComparisonTable, TopPick, text mentions, and markdown tables
 11. **Check content quality** — products in correct sections, descriptions accurate, SEO, structure
@@ -40,19 +40,19 @@ Reviewing all articles one by one for excellence. **36 done, 73 remaining** (as 
 ### Order of verification:
 - First: ALL Amazon ASINs (batch them, pass as clickable links, ask price + image)
 - Second: Find replacements for unavailable products (ask user for price + image)
-- Third: Search Zooplus/Tiendanimal INDIVIDUALLY for each product in the FINAL lineup
+- Third: Search Tiendanimal INDIVIDUALLY for each relevant product in the FINAL lineup
 - Fourth: Verify each store URL with WebFetch (correct product, not generic page)
 - Fifth: Apply all changes at once
 
 ### Key rules:
 - NEVER guess prices, URLs, or images — always verify or ask user
-- NEVER invent Zooplus/Tiendanimal URLs — only use verified ones
+- NEVER invent Tiendanimal URLs — only use verified ones
 - ALWAYS pass Amazon links as full URLs (https://www.amazon.es/dp/ASIN), not bare ASINs
 - ALWAYS ask for price AND image together
 - ALWAYS search each product individually by name in each store (not generic searches)
 - ALWAYS verify store URLs point to the correct product (not a generic category page)
 - For vet/pharmacy products (antiparasitarios, medicamentos): convert to text descriptions without ComparisonTable if no store links available
-- Image from Zooplus/Tiendanimal is OK if Amazon image not available
+- Image from Tiendanimal or other non-Amazon retailers is OK if Amazon image is not available, but download it locally because direct hotlinking is not reliable
 - When a product isn't available anywhere: remove it, don't leave broken links
 - Check that products are classified in the correct section of the article
 
@@ -126,7 +126,7 @@ Article reviews must be COMPREHENSIVE, not just price/link/image verification. C
 
 ### Products & Data
 - All ASINs verified (price + image from user)
-- Products searched in Zooplus and Tiendanimal
+- Products searched in Tiendanimal when relevant
 - Prices consistent throughout article
 - Images verified by user
 - No invented URLs

@@ -10,10 +10,10 @@ ALWAYS ask the user to verify product images, just like prices. Never assume an 
 - When verifying Amazon ASINs: ask for BOTH price AND image URL in the same request
 - When changing a product: always ask user for the new image URL
 - When a product has no image: ask the user for the image URL right away
-- When using images from non-Amazon sources (Zooplus, Tiendanimal): ask user to provide the image URL
+- When using images from non-Amazon sources (Tiendanimal or other retailers): ask user to provide the image URL
 - Never leave a product without a user-verified image
 - Format: pass the Amazon link and ask "¿Precio e imagen?" so the user can check both at once
-- CSP only allows images from 'self' and m.media-amazon.com — NEVER use image URLs from other domains (Zooplus, Tiendanimal, amascotados, etc.) directly in articles. They will be blocked by CSP.
+- CSP only allows images from 'self' and m.media-amazon.com — NEVER use image URLs from other domains (Tiendanimal, amascotados, etc.) directly in articles. They will be blocked by CSP.
 - For products without Amazon: download the image locally to public/images/productos/ and reference as /images/productos/filename.jpg
 - Always verify that the image actually renders on the live site, not just that the URL returns 200
 - ALWAYS check that EVERY product in the ComparisonTable has an imagen field — never leave a product without image
@@ -53,13 +53,13 @@ MANDATORY checklist for EVERY product in ComparisonTable/TopPick - run through t
 2. ASIN/enlaceAmazon - correct product link
 3. nombre - matches real product
 4. precio - verified from real source (official store, retailer, price comparison)
-5. precioAmazon, precioZooplus, precioTiendanimal - per-store prices where available
+5. precioAmazon, precioTiendanimal - per-store prices where available
 6. puntosFuertes - match real product specs (dimensions, weight capacity, materials)
-7. enlaceZooplus, enlaceTiendanimal - **ALWAYS search all 3 stores for EVERY product** before committing. Ask user to verify prices if scraping fails.
-   - **ORDER OF OPERATIONS**: First verify ALL Amazon ASINs and replace unavailable products. THEN search Zooplus/Tiendanimal for the FINAL product list. This avoids wasting time searching other stores for products that get replaced.
+7. enlaceTiendanimal - search Tiendanimal for products that fit that store before committing. Ask user to verify prices if scraping fails.
+   - **ORDER OF OPERATIONS**: First verify ALL Amazon ASINs and replace unavailable products. THEN search Tiendanimal for the FINAL product list. This avoids wasting time searching other stores for products that get replaced.
 8. All text mentions in article body
 9. Specs table row
-10. **NEVER skip checking Zooplus and Tiendanimal** - this was forgotten multiple times
+10. **NEVER skip checking Tiendanimal when relevant** - this was forgotten multiple times
 
 **Why:** User corrected MULTIPLE TIMES that:
 - Images were missing for products (Ruffwear, 4Knines had no image field at all)
@@ -77,32 +77,33 @@ Al crear o modificar artículos comparativos, SIEMPRE añadir los productos al r
 
 **How to apply:** En el checklist de creación/revisión de artículos, después de verificar productos y hacer build, añadir los productos al YAML correspondiente en `src/content/productos/` con id, datos de tiendas, categoría, subcategoría, animal, articuloSlug, descripcionCorta, filtros y afinidad.
 
-## MANDATORY: search each product in Zooplus and Tiendanimal
+## MANDATORY: search each product in Tiendanimal
 
-MANDATORY STEP: For EVERY article review, ALWAYS search each product individually in Zooplus and Tiendanimal BEFORE committing. This is NOT optional and should NEVER need to be reminded by the user.
+MANDATORY STEP: For EVERY article review, search each product individually in Tiendanimal BEFORE committing when it is a product Tiendanimal plausibly sells. This is not optional for relevant products and should not need to be reminded by the user.
 
-**Why:** The user has had to remind multiple times that products weren't searched in other stores. Products from brands like Feliway, Trixie, Julius-K9, Earth Rated, Moser, etc. are often available in Zooplus/Tiendanimal at different (often better) prices. Missing these links means the reader doesn't see the best price.
+**Why:** The user has had to remind multiple times that products weren't searched in other stores. Products from brands like Feliway, Trixie, Julius-K9, Earth Rated, Moser, etc. are often available in Tiendanimal at different prices. Missing these links means the reader doesn't see another useful buying option.
 
 **How to apply:**
-1. After verifying all Amazon ASINs/prices/images, ALWAYS search each product in Zooplus and Tiendanimal
-2. Search individually by product name: `site:zooplus.es "[product name]"` and `site:tiendanimal.es "[product name]"`
+1. After verifying all Amazon ASINs/prices/images, search each relevant product in Tiendanimal
+2. Search individually by product name: `site:tiendanimal.es "[product name]"`
 3. If search returns a URL, verify with WebFetch to confirm product and get price
 4. Also verify what the product actually IS — don't trust the article's description
 5. Never assume a product isn't available just because a generic category search didn't show it
 6. Search by brand name too if the specific product name doesn't work
 7. This step comes AFTER Amazon verification and BEFORE committing changes
-8. Do NOT ask the user "should I search other stores?" — just DO IT every time
+8. Do NOT ask the user "should I search other stores?" — just do it for Tiendanimal when relevant
+9. Zooplus is disabled from 2026-06-04: do not search, add, or render Zooplus unless the user explicitly reactivates it.
 
-## TopPick must have same store links as ComparisonTable
+## TopPick is editorial, ComparisonTable has store links
 
-The TopPick component must include ALL store links (enlaceZooplus, enlaceTiendanimal, precioZooplus, precioTiendanimal) that the same product has in the ComparisonTable.
+The TopPick component must not render store links. Store links for article products belong in ComparisonTable.
 
-**Why:** The TopPick is the most prominent product on the page. If it only shows Amazon but the ComparisonTable shows 3 stores, it's inconsistent and the user misses the best price option.
+**Why:** The TopPick is the most prominent product on the page. Repeating store buttons there and again in ComparisonTable makes articles feel too affiliate-heavy.
 
 **How to apply:**
-- When adding multi-store links to a product in ComparisonTable, ALWAYS check if the same product is also the TopPick
-- If it is, copy the same enlaceZooplus/enlaceTiendanimal/precioZooplus/precioTiendanimal to the TopPick
-- Before committing, verify TopPick has the same store links as its ComparisonTable counterpart
+- Keep TopPick focused on name, image, description and price.
+- Add verified Amazon/Tiendanimal links to ComparisonTable only.
+- Before committing, run `node scripts/check-affiliate-density.mjs`.
 
 ## Usar Amazon API para productos
 
@@ -131,8 +132,8 @@ When passing ASINs to the user for price/image verification, ALSO ask them to co
 **Why:** Multiple articles had wrong product names for their ASINs. Examples: "Trixie Comedero con Foso" was actually "Nayeco Antihormigas Inox", "Van Ness Anti-Ant" was actually "GP GP10060", "Safari De-matting Comb" was actually "Hertzko Cortanudos". Wrong names mislead readers and hurt credibility.
 
 **How to apply:**
-- BEFORE searching in Zooplus/Tiendanimal, verify ALL product names match their ASINs using WebSearch ("ASIN" amazon.es)
+- BEFORE searching in Tiendanimal, verify ALL product names match their ASINs using WebSearch ("ASIN" amazon.es)
 - Don't rely on the article's product names — verify each one independently
 - When sending ASINs to user for price/image, also verify the name yourself via WebSearch
 - If a name is wrong, fix it immediately in ComparisonTable, TopPick, and all text mentions
-- This step goes AFTER Amazon price verification and BEFORE Zooplus/Tiendanimal search
+- This step goes AFTER Amazon price verification and BEFORE Tiendanimal search

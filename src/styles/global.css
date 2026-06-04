@@ -864,17 +864,6 @@ body.menu-open { overflow: hidden; }
   box-shadow: 0 6px 20px rgba(255, 153, 0, 0.35);
 }
 
-.affiliate-button.zooplus {
-  background: #00473e;
-  color: #fff;
-}
-
-.affiliate-button.zooplus:hover {
-  background: #003d35;
-  color: #fff;
-  box-shadow: 0 6px 20px rgba(0, 71, 62, 0.35);
-}
-
 .affiliate-button.tiendanimal {
   background: #00632E;
   color: #fff;
@@ -1292,18 +1281,6 @@ button:focus-visible,
   box-shadow: 0 6px 20px rgba(255, 153, 0, 0.25);
 }
 
-[data-theme="dark"] .affiliate-button.zooplus {
-  background: rgba(0, 71, 62, 0.25);
-  color: #5eead4;
-  border: 1px solid rgba(94, 234, 212, 0.25);
-}
-
-[data-theme="dark"] .affiliate-button.zooplus:hover {
-  background: rgba(0, 71, 62, 0.4);
-  color: #5eead4;
-  box-shadow: 0 6px 20px rgba(94, 234, 212, 0.15);
-}
-
 [data-theme="dark"] .affiliate-button.tiendanimal {
   background: rgba(0, 99, 46, 0.25);
   color: #86efac;
@@ -1589,7 +1566,6 @@ button:focus-visible,
   #theme-toggle,
   .hamburger,
   .reading-progress,
-  .sticky-cta-bar,
   .cookie-banner {
     display: none !important;
   }

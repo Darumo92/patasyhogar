@@ -33,15 +33,16 @@
 ### Productos y datos
 1. Verificar todos los ASINs con `scripts/amazon-api.mjs`.
 2. Si precio difiere: actualizar desde la API. Si no disponible: pedir solo el dato faltante, buscar reemplazo o eliminar.
-3. Buscar cada producto en Zooplus y Tiendanimal.
-4. Añadir `precioAmazon`, `precioZooplus`, `precioTiendanimal`.
+3. Buscar cada producto en Tiendanimal cuando encaje con esa tienda.
+4. Añadir `precioAmazon` y `precioTiendanimal` cuando estén verificados.
 5. Precios consistentes en `ComparisonTable`, `TopPick`, texto y tablas markdown.
 
 ### SEO y calidad
 - Título ≤ 60, meta ≤ 155, H2/H3 lógica, internal links, FAQs, tags, `imagenAlt`, sin relleno.
 
 ### Limpieza
-- Eliminar imports no usados, grupos de botones redundantes, tablas duplicadas con precios.
+- Eliminar imports no usados, grupos de botones redundantes, barras sticky de compra y tablas duplicadas con precios.
+- No añadir `AffiliateButton` directo en MDX. `TopPick` no debe renderizar enlaces de tienda; los CTAs de compra van en `ComparisonTable`.
 
 ### Reglas de revisión
 - **No** añadir `actualizadoEn` en revisiones masivas — solo cuando hay cambios reales.

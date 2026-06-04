@@ -6,13 +6,11 @@ interface Producto {
   nombre: string;
   precio: string;
   precioAmazon?: string;
-  precioZooplus?: string;
   precioTiendanimal?: string;
   valoracion: number;
   puntosFuertes: string;
   imagen?: string;
   enlaceAmazon?: string;
-  enlaceZooplus?: string;
   enlaceTiendanimal?: string;
   marca?: string;
 }
@@ -159,7 +157,6 @@ function tiendas(p: Producto) {
     estado: amazonDisponible ? undefined : amazonAvailability?.availability || 'Disponibilidad no confirmada',
     revisado: formatAmazonCheckedDate(amazonAvailability),
   });
-  if (p.enlaceZooplus) list.push({ nombre: 'Zooplus', clase: 'zooplus', precio: p.precioZooplus || p.precio, href: p.enlaceZooplus, mejor: false, disponible: true });
   if (p.enlaceTiendanimal) list.push({ nombre: 'Tiendanimal', clase: 'tiendanimal', precio: p.precioTiendanimal || p.precio, href: tiendanimalHref(p.enlaceTiendanimal), mejor: false, disponible: true });
 
   // Mark cheapest store if there are 2+ stores with different prices
@@ -524,13 +521,6 @@ function tiendas(p: Producto) {
 }
 .comp-price-row[href*="amazon"] .comp-price-amount { color: #c2410c; }
 
-.comp-price-row[href*="zooplus"] {
-  --store-color: #00473e;
-  background: #f0fdf8;
-  border-left-color: #d1fae5;
-}
-.comp-price-row[href*="zooplus"] .comp-price-amount { color: #00473e; }
-
 .comp-price-row[href*="tiendanimal"],
 .comp-price-row[href*="ikhnaie.me"] {
   --store-color: #00632E;
@@ -546,12 +536,6 @@ function tiendas(p: Producto) {
   border-left-color: rgba(255, 153, 0, 0.3);
 }
 :global([data-theme="dark"]) .comp-price-row[href*="amazon"] .comp-price-amount { color: #fbbf24; }
-
-:global([data-theme="dark"]) .comp-price-row[href*="zooplus"] {
-  background: rgba(0, 71, 62, 0.15);
-  border-left-color: rgba(94, 234, 212, 0.2);
-}
-:global([data-theme="dark"]) .comp-price-row[href*="zooplus"] .comp-price-amount { color: #5eead4; }
 
 :global([data-theme="dark"]) .comp-price-row[href*="tiendanimal"],
 :global([data-theme="dark"]) .comp-price-row[href*="ikhnaie.me"] {
