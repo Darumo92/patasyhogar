@@ -10,8 +10,8 @@ type: project
 Cada mañana decir "vamos con tareas SEO de hoy" → leer este archivo → ejecutar cuotas del día.
 
 **Inicio del plan:** 2026-05-11
-**Última lectura semanal:** 2026-06-01 (lunes, semana 4)
-**Última actualización operativa:** 2026-06-06 (sábado, semana 4)
+**Última lectura semanal:** 2026-06-09 (martes, semana 5)
+**Última actualización operativa:** 2026-06-09 (martes, semana 5)
 
 ## Contexto cambio plan (2026-05-11)
 
@@ -115,7 +115,7 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 | 2026-06-02 | Lectura operativa martes: GSC 26-31 may = 0 impresiones, 0 clics; GA4 26 may-1 jun = 4 sesiones / 3 usuarios / 4 vistas / 4 sesiones con interacción, fuentes principales `chatgpt.com / referral`, `bing / organic` y `copilot.com / (not set)`. Cloudflare GraphQL intentado, pero el wrapper MCP devolvió `Cannot read properties of null (reading 'map')` incluso con query mínima; no usar el endpoint REST antiguo de Zone Analytics. Mantener pauta del martes: post Reddit sub grande sin enlace + 1 respuesta Quora. Último enlace propio Reddit 2026-05-29: no enlazar antes del 2026-06-03 como mínimo. |
 | 2026-06-04 | Lectura operativa jueves: GSC 28 may-3 jun = 0 impresiones, 0 clics (semana previa 21-27 may = 1 impresión, 0 clics). GA4 28 may-3 jun = 5 sesiones / 3 usuarios / 3 vistas / 3 sesiones con interacción; fuentes: `chatgpt.com / referral`, `es.search.yahoo.com / referral` y `bing / organic`. Cloudflare 28 may-3 jun = 10.024 requests, 3.315 page views y 2.507 uniques diarios agregados (vs 9.811 requests, 3.558 page views y 2.506 uniques diarios agregados del 21-27 may). Diagnóstico sin cambios: Google sigue bloqueado, edge estable. Mantener jueves: 2 respuestas Quora + revisar replies Reddit. Enlace propio permitido por gap desde el 2026-06-03, pero solo si encaja de forma contextual. |
 | 2026-06-06 | Lectura operativa sábado: GSC 30 may-1 jun disponible = 0 impresiones, 0 clics; GSC 23-29 may = 0 impresiones, 0 clics. GA4 30 may-5 jun = 7 sesiones / 4 usuarios / 5 vistas / 5 sesiones con interacción (vs 5 sesiones / 5 usuarios / 9 vistas / 4 sesiones con interacción del 23-29 may). Fuentes actuales: `(direct) / (none)`, `chatgpt.com / referral`, `es.search.yahoo.com / referral` y `bing / organic`. Cloudflare GraphQL sí respondió: 30 may-5 jun = 10.963 requests, 3.134 page views y 2.540 uniques diarios agregados (vs 10.093 requests, 3.870 page views y 2.374 uniques diarios agregados del 23-29 may). Diagnóstico sin cambios: Google sigue a cero; edge estable; mantener sábado con 1 respuesta Quora + revisión ligera de replies Reddit. |
-| 2026-06-08 | Re-eval 1 (4 sem). KPI: ≥5 indexadas + ≥10 impresiones. Si igual → revisar mix canales. |
+| 2026-06-08 | Re-eval 1 (4 sem). KPI fallido según lectura 2026-06-09: GSC 1-7 jun = 0 impresiones, 0 clics; sitemap = 691 enviadas y 0 indexadas. GA4 1-7 jun = 8 sesiones / 5 usuarios / 6 vistas / 5 sesiones con interacción (vs 3 / 2 / 3 / 2 del 25-31 may); fuentes: `chatgpt.com / referral`, `(direct) / (none)`, `es.search.yahoo.com / referral`, `bing / organic`. Cloudflare 1-7 jun = 10.230 requests, 3.172 page views y 2.381 uniques diarios agregados (vs 9.534 / 3.668 / 2.499 del 25-31 may). Decisión: no cambiar contenido ni identidad; ajustar mix dentro de canales aprobados con más Quora/answers evergreen y Reddit sin enlace forzado. |
 | 2026-07-13 | Re-eval 2 (9 sem). KPI: ≥15 indexadas + ≥50 imp/sem. Si igual → considerar consolidación sitios. |
 | 2026-08-24 | Re-eval 3 (15 sem). KPI: ≥30 indexadas + ≥200 imp/sem. Decisión continuar o sunset. |
 | 2026-11-11 | Re-eval final (6 meses). KPI: ≥60 indexadas + tráfico orgánico medible. |
