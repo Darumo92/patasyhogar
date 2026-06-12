@@ -145,9 +145,23 @@ Don't add `actualizadoEn` to articles during structural reviews (removing button
 
 **How to apply:** Skip actualizadoEn during bulk article reviews. Only set it when making significant content changes to individual articles.
 
-## No publicar articulos nuevos durante outreach 6 meses
+## Artículos nuevos retomados con cadencia baja
 
-NO publicar artículos nuevos durante plan outreach 6 meses (2026-05-11 -> 2026-11-11).
+El usuario confirmó el 2026-06-12 que quiere retomar la creación de artículos nuevos pese al bloqueo de indexación en Google, porque Bing sí está indexando las páginas e incluso posiciona algunas búsquedas en top 1. La nueva cadencia objetivo es **mínimo 1 artículo por semana**, en paralelo con Reddit y Quora diarios.
+
+### Cómo aplicar
+
+- Mantener el plan de autoridad externa: Reddit + Quora siguen siendo rutina diaria.
+- Crear artículos nuevos con cadencia baja, no publicación masiva.
+- Seguir el workflow completo de artículos: cannibalization check, pedir SERP real al usuario, verificar productos si aplica, humanización estricta y `npm run build` tras cambios.
+- Priorizar temas con posibilidad de tracción en Bing, long-tail útil y encaje con artículos existentes para enlazado interno.
+- No volver al calendario masivo archivado sin nueva confirmación.
+
+## Regla antigua superada: no publicar articulos nuevos durante outreach 6 meses
+
+Esta regla quedó superada por la decisión del 2026-06-12. Se conserva como histórico para entender el cambio de criterio.
+
+Antes decía: NO publicar artículos nuevos durante plan outreach 6 meses (2026-05-11 -> 2026-11-11).
 
 **Why:** Diagnóstico 2026-05-11 confirmó que problema patasyhogar = falta autoridad externa, no volumen contenido. Evidencia tuespaciodetrabajo (<20 artículos + identidad real David, mismo blackout exacto) confirma. Más artículos = más URLs rechazadas + diluye crawl budget + refuerza señal "site farm" en dominio fresh sin autoridad. Solución única: backlinks externos + brand mentions.
 

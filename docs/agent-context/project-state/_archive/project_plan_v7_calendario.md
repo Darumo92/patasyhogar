@@ -1,6 +1,6 @@
 ---
 name: Calendario v7 — fecha a artículo
-description: Lookup rápido fecha→artículo para cuando el usuario diga "vamos con el artículo de hoy". Leer este archivo al inicio de cada sesión de escritura.
+description: Lookup rápido fecha→artículo para cuando el usuario diga "vamos con el artículo de hoy". Actualizado a v7.1 semanal el 2026-06-12.
 type: project
 originSessionId: 4180d513-c2e0-4547-b54e-ef22e30c67b2
 ---
@@ -8,47 +8,57 @@ originSessionId: 4180d513-c2e0-4547-b54e-ef22e30c67b2
 
 Cuando el usuario diga "vamos con el artículo de hoy" o similar:
 1. Comprobar fecha actual
-2. Buscar en la tabla de abajo si hay un artículo programado para HOY
-3. **Si HOY no toca artículo:** decir "Hoy no toca crear artículo nuevo". Proponer mejoras alternativas (updates SEO a existentes, fixes técnicos, internal linking, etc.). **NO adelantar el siguiente artículo del plan.**
-4. **EXCEPCIÓN:** Si hay artículos de fechas PASADAS sin completar (marcados [ ]), esos SÍ se pueden hacer hoy — son atrasados, no adelantados.
-5. Si hay artículo para hoy: leer la ficha rápida de abajo + `docs/PLAN_EDITORIAL_v7.md` para notas detalladas
-6. Seguir el workflow de escritura del SEO engine (pedir SERP data, etc.)
+2. Buscar la semana correspondiente en la tabla v7.1.
+3. Si la fecha exacta cae en martes-domingo, usar el artículo de esa semana si sigue sin completar. La fecha objetivo es lunes, pero la ejecución puede hacerse cualquier día de esa semana.
+4. No adelantar artículos de semanas futuras salvo confirmación explícita del usuario.
+5. Si hay artículo para esta semana: leer `docs/PLAN_EDITORIAL_v7.md`. Las fichas rápidas de abajo pertenecen al v7 original y sirven solo como referencia histórica.
+6. Seguir el workflow de escritura del SEO engine: cannibalization check, pedir SERP real, humanización, revisión y `npm run build`.
 
-**Días de publicación:** Lunes, Miércoles, Viernes
-**Días sin artículo (martes, jueves, fines de semana):** Dedicar a mejoras, updates, fixes, indexación
+**Cadencia vigente desde 2026-06-12:** 1 artículo nuevo por semana, preferentemente lunes.
+**Canales paralelos:** Reddit + Quora siguen activos a diario.
 
 ## Estado de completado
 
-Marcar con [x] cuando se publique. Artículos 1-10 ya completados (v6).
+Marcar con [x] cuando se publique. Artículos 11-13 del v7 original ya se publicaron. El calendario operativo actual empieza en #34.
 
-## Calendario
+## Calendario operativo v7.1
 
 | # | Fecha | Día | Título | KW principal | Vol | Tipo | Estado |
 |---|-------|-----|--------|-------------|-----|------|--------|
-| — | 2026-04-13 a 17 | S3 | SEMANA DE INDEXACIÓN: ejecutar fixes técnicos + solicitar indexación en GSC | — | — | — | [ ] |
-| 11 | 2026-04-20 | Lun | Seguros para mascotas en España: guía completa 2026 | seguro mascotas | 5400 | Guía | [x] |
-| 12 | 2026-04-22 | Mié | Mejor arenero autolimpiable para gatos 2026 | arenero autolimpiable | 3600 | Comp | [x] |
-| 13 | 2026-04-24 | Vie | Plantas tóxicas para gatos: guía completa para tu hogar | plantas tóxicas para gatos | 1600 | Guía | [x] |
-| 14 | 2026-04-27 | Lun | Cuántas horas duerme un perro según su edad | cuántas horas duerme un perro | 1600 | Guía | [ ] |
-| 15 | 2026-04-29 | Mié | Collares de adiestramiento para perros: guía y comparativa 2026 | collares adiestramiento perros | 2900 | Comp | [ ] |
-| 16 | 2026-05-01 | Vie | Golpe de calor en perros: prevención y primeros auxilios | golpe de calor en perros | 1300 | Guía Est | [ ] |
-| 17 | 2026-05-04 | Lun | Cómo llevar al perro en el coche: normativa DGT 2026 | cómo llevar al perro en el coche | 1300 | Guía | [ ] |
-| 18 | 2026-05-06 | Mié | Qué hacer si encuentras un animal abandonado en España | seprona animales | 1300 | Guía | [ ] |
-| 19 | 2026-05-08 | Vie | Mi perro tiembla: causas y cuándo preocuparse | temblor perros | 880 | Guía | [ ] |
-| 20 | 2026-05-11 | Lun | Por qué mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guía | [ ] |
-| 21 | 2026-05-13 | Mié | Mejor lanzador de pelotas para perros 2026 | lanzador pelotas perro | 880 | Comp | [ ] |
-| 22 | 2026-05-15 | Vie | Zoomies en perros: qué son y por qué corren como locos | zoomies | 1000 | Guía | [ ] |
-| 23 | 2026-05-18 | Lun | Vacunas para perros: calendario, precios y cuáles son obligatorias | vacunas perros precios | 720 | Guía | [ ] |
-| 24 | 2026-05-20 | Mié | Cómo proteger a tu mascota de los petardos de San Juan | proteger mascota petardos | 0 | Guía Est | [ ] |
-| 25 | 2026-05-22 | Vie | Cómo duermen los gatos: posturas, horas y qué significan | gatos durmiendo | 1000 | Guía | [ ] |
-| 26 | 2026-05-25 | Lun | Perros PPP en España: razas, normativa y nueva ley 2026 | perros ppp españa | 720 | Guía | [ ] |
-| 27 | 2026-05-27 | Mié | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | [ ] |
-| 28 | 2026-05-29 | Vie | Lenguaje corporal de los gatos: guía completa para entenderles | lenguaje corporal gatos | 320 | Guía | [ ] |
-| 29 | 2026-06-01 | Lun | Cada cuánto bañar a tu perro: frecuencia ideal por raza | cada cuánto bañar un perro | 480 | Guía | [ ] |
-| 30 | 2026-06-03 | Mié | Arenero autolimpiable: ¿merece la pena? Costes reales | arenero autolimpiable barato | 480 | Guía | [ ] |
-| 31 | 2026-06-05 | Vie | Envenenamiento en perros: síntomas y qué hacer | envenenamiento perros | 390 | Guía | [ ] |
-| 32 | 2026-06-08 | Lun | Primeros auxilios para perros: guía de emergencia | primeros auxilios perros | 110 | Guía | [ ] |
-| 33 | 2026-06-10 | Mié | Gato agresivo: tipos de agresividad felina y cómo actuar | gato agresivo | 210 | Guía | [ ] |
+| 34 | 2026-06-15 | Lun | Cómo llevar al perro en el coche: normativa DGT y seguridad | cómo llevar al perro en el coche | 1300 | Guía Est | [ ] |
+| 35 | 2026-06-22 | Lun | Golpe de calor en perros: síntomas, prevención y primeros auxilios | golpe de calor en perros | 1300 | Guía Est | [ ] |
+| 36 | 2026-06-29 | Lun | Qué hacer si encuentras un animal abandonado en España | seprona animales | 1300 | Guía Est | [ ] |
+| 37 | 2026-07-06 | Lun | Cada cuánto bañar a tu perro: frecuencia por pelo, piel y época del año | cada cuánto bañar un perro | 480 | Guía | [ ] |
+| 38 | 2026-07-13 | Lun | Juegos con perros: ideas para estimularle en casa y fuera | juegos con perros | 1000 | Guía | [ ] |
+| 39 | 2026-07-20 | Lun | Mejor lanzador de pelotas para perros 2026 | lanzador pelotas perro | 880 | Comp | [ ] |
+| 40 | 2026-07-27 | Lun | Arenero autolimpiable: ¿merece la pena? Costes reales y alternativas | arenero autolimpiable barato | 480 | Guía | [ ] |
+| 41 | 2026-08-03 | Lun | Cuántas horas duerme un perro según su edad | cuántas horas duerme un perro | 1600 | Guía | [ ] |
+| 42 | 2026-08-10 | Lun | Cómo duermen los gatos: posturas, horas y qué significan | gatos durmiendo | 1000 | Guía | [ ] |
+| 43 | 2026-08-17 | Lun | Mi perro tiembla: causas normales y señales de alarma | temblor perros | 880 | Guía YMYL | [ ] |
+| 44 | 2026-08-24 | Lun | Por qué mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guía | [ ] |
+| 45 | 2026-08-31 | Lun | Lenguaje corporal de los gatos: cola, orejas, ojos y posturas | lenguaje del gato | 1000 | Guía | [ ] |
+| 46 | 2026-09-07 | Lun | Vacunas para perros: calendario, precios y cuáles son obligatorias | vacuna polivalente perros | 1000 | Guía YMYL | [ ] |
+| 47 | 2026-09-14 | Lun | Perros PPP en España: razas, normativa y nueva ley | perros ppp españa | 720 | Guía Legal | [ ] |
+| 48 | 2026-09-21 | Lun | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | [ ] |
+| 49 | 2026-09-28 | Lun | Gato agresivo: tipos de agresividad felina y cómo actuar | gato agresivo | 390 | Guía YMYL | [ ] |
+| 50 | 2026-10-05 | Lun | Collares de adiestramiento para perros: opciones, riesgos y alternativas | collares adiestramiento perros | 2900 | Guía/Comp | [ ] |
+| 51 | 2026-10-12 | Lun | Envenenamiento en perros: síntomas y qué hacer | envenenamiento perros | 390 | Guía YMYL | [ ] |
+| 52 | 2026-10-19 | Lun | Primeros auxilios para perros: guía de emergencia | primeros auxilios perros | 110 | Guía YMYL | [ ] |
+| 53 | 2026-10-26 | Lun | Mejor pienso para cachorros de raza pequeña | pienso cachorro raza pequeña | 260 | Comp | [ ] |
+| 54 | 2026-11-02 | Lun | Cómo proteger tu casa para un gato: ventanas, cables, plantas y balcones | casa segura gato | 0 | Guía | [ ] |
+| 55 | 2026-11-09 | Lun | Señales de dolor en perros: cómo detectarlas sin alarmarse | señales dolor perro | 0 | Guía YMYL | [ ] |
+
+## Artículos v7 original ya publicados
+
+| # | Fecha | Título | Estado |
+|---|-------|--------|--------|
+| 11 | 2026-04-20 | Seguros para mascotas en España: guía completa 2026 | [x] |
+| 12 | 2026-04-22 | Mejor arenero autolimpiable para gatos 2026 | [x] |
+| 13 | 2026-04-24 | Plantas tóxicas para gatos: guía completa para tu hogar | [x] |
+
+## Artículos v7 original pausados/reordenados
+
+El calendario original de 3 artículos por semana queda histórico. Los artículos no publicados se han reordenado en v7.1 por estacionalidad, riesgo y cadencia semanal. No ejecutar las fechas antiguas de abril-junio.
 
 ## Ficha rápida por artículo
 

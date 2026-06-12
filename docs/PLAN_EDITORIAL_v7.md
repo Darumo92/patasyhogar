@@ -3,10 +3,57 @@
 > Basado en datos reales de Keyword Surfer (abril 2026)
 > Sustituye a PLAN_FINAL_v6_patasyhogar.ods
 > Fecha de creacion: 2026-04-12
+> Actualizado: 2026-06-12 — v7.1 semanal
 
 ---
 
-## Resumen ejecutivo
+## Actualizacion v7.1 — reanudacion semanal desde junio 2026
+
+El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: **1 articulo por semana**, en paralelo con Reddit y Quora. La version original del v7 planificaba 3 articulos por semana hasta junio; esa cadencia queda historica y no debe ejecutarse.
+
+### Criterios v7.1
+
+- 1 articulo nuevo por semana, preferentemente lunes.
+- Priorizar estacionalidad real: verano, vacaciones, calor, abandono y vuelta a rutina.
+- No repetir articulos ya publicados: seguros mascotas, arenero autolimpiable, plantas toxicas, ansiedad separacion y collar antiparasitario ya existen.
+- Evitar publicar comparativas sin verificacion de productos. Las comparativas quedan para semanas concretas y requieren Amazon API + revision de tiendas.
+- Temas legales, veterinarios o YMYL requieren fuentes oficiales/clinicas actualizadas antes de escribir.
+- Antes de cada articulo: cannibalization check, SERP real del usuario, humanizacion y `npm run build`.
+
+### Calendario operativo v7.1
+
+| # | Semana | Fecha objetivo | Titulo | KW principal | Vol | Tipo | Estacionalidad / motivo | Estado |
+|---|--------|----------------|--------|--------------|-----|------|--------------------------|--------|
+| 34 | S1 | 2026-06-15 | Como llevar al perro en el coche: normativa DGT y seguridad | como llevar al perro en el coche | 1300 | Guia | Vacaciones verano, viajes en coche | [x] creado 2026-06-12 |
+| 35 | S2 | 2026-06-22 | Golpe de calor en perros: sintomas, prevencion y primeros auxilios | golpe de calor en perros | 1300 | Guia Est | Pico junio-agosto; publicar ya | [ ] |
+| 36 | S3 | 2026-06-29 | Que hacer si encuentras un animal abandonado en Espana | seprona animales | 1300 | Guia Est | Inicio verano, abandono y vacaciones | [ ] |
+| 37 | S4 | 2026-07-06 | Cada cuanto banar a tu perro: frecuencia por pelo, piel y epoca del ano | cada cuanto banar un perro | 480 | Guia | Calor y mas banos en verano | [ ] |
+| 38 | S5 | 2026-07-13 | Juegos con perros: ideas para estimularle en casa y fuera | juegos con perros | 1000 | Guia | Verano, mas tiempo al aire libre | [ ] |
+| 39 | S6 | 2026-07-20 | Mejor lanzador de pelotas para perros 2026 | lanzador pelotas perro | 880 | Comp | Exterior/verano; requiere productos reales | [ ] |
+| 40 | S7 | 2026-07-27 | Arenero autolimpiable: merece la pena? Costes reales y alternativas | arenero autolimpiable barato | 480 | Guia | Vacaciones, gatos solos, soporte a comparativa | [ ] |
+| 41 | S8 | 2026-08-03 | Cuantas horas duerme un perro segun su edad | cuantas horas duerme un perro | 1600 | Guia | Evergreen; util en verano por letargo/calor | [ ] |
+| 42 | S9 | 2026-08-10 | Como duermen los gatos: posturas, horas y que significan | gatos durmiendo | 1000 | Guia | Evergreen ligero para agosto | [ ] |
+| 43 | S10 | 2026-08-17 | Mi perro tiembla: causas normales y senales de alarma | temblor perros | 880 | Guia YMYL | Evergreen; exige enfoque veterinario prudente | [ ] |
+| 44 | S11 | 2026-08-24 | Por que mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guia | Evergreen comportamiento gato | [ ] |
+| 45 | S12 | 2026-08-31 | Lenguaje corporal de los gatos: cola, orejas, ojos y posturas | lenguaje del gato | 1000 | Guia | Vuelta a rutina, convivencia interior | [ ] |
+| 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacuna polivalente perros | 1000 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [ ] |
+| 47 | S14 | 2026-09-14 | Perros PPP en Espana: razas, normativa y nueva ley | perros ppp espana | 720 | Guia Legal | Evergreen legal; verificar BOE/CCAA | [ ] |
+| 48 | S15 | 2026-09-21 | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [ ] |
+| 49 | S16 | 2026-09-28 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 390 | Guia YMYL | Evergreen; enlaza a estres y comportamiento | [ ] |
+| 50 | S17 | 2026-10-05 | Collares de adiestramiento para perros: opciones, riesgos y alternativas | collares adiestramiento perros | 2900 | Guia/Comp | Alto volumen; enfoque etico, no promover electricos | [ ] |
+| 51 | S18 | 2026-10-12 | Envenenamiento en perros: sintomas y que hacer | envenenamiento perros | 390 | Guia YMYL | Riesgo hogar/exterior; fuentes veterinarias | [ ] |
+| 52 | S19 | 2026-10-19 | Primeros auxilios para perros: guia de emergencia | primeros auxilios perros | 110 | Guia YMYL | Bajo volumen, alto E-E-A-T | [ ] |
+| 53 | S20 | 2026-10-26 | Mejor pienso para cachorros de raza pequena | pienso cachorro raza pequena | 260 | Comp | Gap de cluster alimentacion; requiere productos | [ ] |
+| 54 | S21 | 2026-11-02 | Como proteger tu casa para un gato: ventanas, cables, plantas y balcones | casa segura gato | 0 | Guia | Bajo volumen, pero encaja con Reddit/Quora | [ ] |
+| 55 | S22 | 2026-11-09 | Senales de dolor en perros: como detectarlas sin alarmarse | senales dolor perro | 0 | Guia YMYL | Antes de reevaluacion 2026-11-11 | [ ] |
+
+### Tareas no-articulo derivadas
+
+- Semana del 2026-06-15: actualizar el articulo existente `perro-miedo-petardos-fuegos-artificiales` con bloque especifico San Juan, en lugar de crear un articulo nuevo de petardos con keyword 0 y poco margen.
+- Revisar `mejor-collar-antiparasitario-perro` y `collar-antipulgas-natural-perro` antes de crear nada relacionado con collares antiparasitarios; no duplicar.
+- Sanear `content-queue.yaml` cuando se ejecute cada articulo: hay entradas marcadas como planned que ya estan publicadas.
+
+## Resumen ejecutivo historico v7 original
 
 | Metrica | v6 (anterior) | v7 (actual) |
 |---------|---------------|-------------|
@@ -70,7 +117,7 @@ Estos 10 articulos del v6 original ya estan publicados. Se mantienen como refere
 
 ---
 
-## Plan de articulos nuevos (11-33)
+## Plan original historico de articulos nuevos (11-33)
 
 ### Criterios de inclusion
 

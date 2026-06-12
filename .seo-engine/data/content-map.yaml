@@ -1,5 +1,45 @@
-last_updated: '2026-04-20'
+last_updated: '2026-06-12'
 blogs:
+- slug: como-llevar-perro-coche
+  title: "Cómo llevar al perro en el coche: normativa DGT"
+  file_path: src/content/articulos/como-llevar-perro-coche.mdx
+  status: human-review
+  published_date: '2026-06-15'
+  last_updated: ''
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_paseo_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: "cómo llevar al perro en el coche"
+    search_volume: 1300
+    is_primary: true
+  - keyword: "perros en coche"
+    search_volume: 880
+    is_primary: false
+  - keyword: "arnes perro coche"
+    search_volume: 720
+    is_primary: false
+  - keyword: "asiento coche perro"
+    search_volume: 720
+    is_primary: false
+  - keyword: "como llevar un perro en el coche"
+    search_volume: 390
+    is_primary: false
+  - keyword: "transporte perros coche dgt"
+    search_volume: 260
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - mejor-transportin-perros-guia
+  - asiento-coche-perro
+  - mejor-protector-maletero-perros
+  internal_links_from: []
+  word_count: 2197
+  has_eeat_signals: true
+  notes: "Plan v7.1 semana S1. SERP real aportada por usuario 2026-06-12: DGT, Patitasco, RACE, Purina, BP. Ángulo: guía de decisión legal/práctica por tamaño y sistema (transportín, arnés, maletero/rejilla), con fuentes BOE/DGT/Ley 7/2023 y sin producto concreto para evitar canibalizar comparativas."
+  needs_update_reason: ''
 - slug: seguro-mascotas-espana-guia-2026
   title: "Seguro para mascotas en España: guía completa 2026"
   file_path: src/content/articulos/seguro-mascotas-espana-guia-2026.mdx

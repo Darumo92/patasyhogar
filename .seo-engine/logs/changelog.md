@@ -1,5 +1,22 @@
 # SEO Content Engine — Changelog
 
+## 2026-06-12 13:42
+**Action:** Create weekly article — como-llevar-perro-coche
+**Files:**
+- `src/content/articulos/como-llevar-perro-coche.mdx` (created, 2197 words, status human-review)
+- `public/images/articulos/como-llevar-perro-coche.webp` (Pexels, Robert So)
+- `.seo-engine/data/seo-keywords.csv` — mapped `cómo llevar al perro en el coche` to new guide
+- `.seo-engine/data/topic-clusters.yaml` — updated tc_paseo_perros planned travel page to published
+- `docs/PLAN_EDITORIAL_v7.md` — marked week S1 article as created
+**Summary:** Guía informativa para la keyword 1300 vol `cómo llevar al perro en el coche`. SERP real aportada por usuario: DGT, Patitasco, RACE, Purina, BP. Unique angle: guía de decisión legal/práctica por tamaño y sistema (transportín, arnés, maletero/rejilla), con BOE/DGT/Ley 7/2023 como fuentes y enlaces internos a transportín, asiento/hamaca y protector de maletero.
+**Triggered by:** user (weekly article plan v7.1)
+
+## 2026-06-12 12:00
+**Action:** Reactivacion PLAN_EDITORIAL_v7 como v7.1 semanal
+**Files:** docs/PLAN_EDITORIAL_v7.md, docs/agent-context/project-state/_archive/project_plan_v7_calendario.md, docs/agent-context/feedback/feedback-content.md
+**Summary:** Se sustituyo la cadencia historica de 3 articulos/semana por 1 articulo/semana desde el 2026-06-15 hasta el 2026-11-09, reordenando temas por estacionalidad, riesgo YMYL, duplicados ya publicados y encaje con Reddit/Quora.
+**Triggered by:** user
+
 ## 2026-05-18 13:25
 **Action:** Created free tool — calculadora coste mascotas
 **Files:** src/pages/calculadora-coste-mascotas.astro, src/components/Footer.astro, public/_headers, dist/

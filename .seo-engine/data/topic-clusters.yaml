@@ -593,12 +593,12 @@ clusters:
         status: "published"
         blog_slug: "por-que-perros-comen-hierba"
       # Planned pages
-      - title: "Viajar con perro en coche: guía de seguridad"
-        target_keyword: "viajar perro coche seguridad"
-        slug: "viajar-perro-coche-guia-seguridad"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
+      - title: "Cómo llevar al perro en el coche: normativa DGT"
+        target_keyword: "cómo llevar al perro en el coche"
+        slug: "como-llevar-perro-coche"
+        status: "published"
+        serp_analyzed: true
+        blog_slug: "como-llevar-perro-coche"
       - title: "Normativa sobre perros en España: bozal, correa y PPP"
         target_keyword: "normativa perros España bozal correa"
         slug: "normativa-perros-espana-bozal-correa"

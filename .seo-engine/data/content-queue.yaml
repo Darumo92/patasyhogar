@@ -598,6 +598,28 @@ queue:
       - "enriquecimiento-ambiental-gato-interior"
       - "senales-estres-gatos"
 
+  - id: "q_027"
+    title: "Cómo llevar al perro en el coche: normativa DGT"
+    blog_type: "guide"
+    content_type: "cluster"
+    cluster_id: "tc_paseo_perros"
+    animal: "perro"
+    target_keywords: ["cómo llevar al perro en el coche", "perros en coche", "arnes perro coche", "asiento coche perro", "transporte perros coche dgt"]
+    unique_angle: "Guía de decisión legal/práctica por tamaño y sistema: transportín, arnés de coche, maletero con rejilla y errores que generan multa. No compite como comparativa de accesorios; deriva a las comparativas existentes cuando el lector ya sabe qué sistema necesita."
+    priority: "high"
+    priority_reason: "Plan v7.1 semana S1. Keyword principal validada por Keyword Surfer con 1300 vol en España, estacional por vacaciones de verano y viajes en coche."
+    status: "published"
+    actual_word_count: 2197
+    serp_analyzed: true
+    cannibalization_check: "passed — complementa asiento-coche-perro, mejor-transportin-perros-guia y mejor-protector-maletero-perros; no sustituye las comparativas."
+    notes: "Creado 2026-06-12 con fecha objetivo 2026-06-15. SERP real: DGT, Patitasco, RACE, Purina, BP. Slug: como-llevar-perro-coche. URL: /cuidados/como-llevar-perro-coche/."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-paseo-viaje-perros"
+      - "mejor-transportin-perros-guia"
+      - "asiento-coche-perro"
+      - "mejor-protector-maletero-perros"
+
   # === NEW ITEMS FROM KW SURFER AUDIT 2026-04-09 ===
 
   - id: "q_024"
