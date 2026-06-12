@@ -25,7 +25,7 @@ Marcar con [x] cuando se publique. Artículos 11-13 del v7 original ya se public
 
 | # | Fecha | Día | Título | KW principal | Vol | Tipo | Estado |
 |---|-------|-----|--------|-------------|-----|------|--------|
-| 34 | 2026-06-15 | Lun | Cómo llevar al perro en el coche: normativa DGT y seguridad | cómo llevar al perro en el coche | 1300 | Guía Est | [ ] |
+| 34 | 2026-06-15 | Lun | Cómo llevar al perro en el coche: normativa DGT y seguridad | cómo llevar al perro en el coche | 1300 | Guía Est | [x] creado 2026-06-12 |
 | 35 | 2026-06-22 | Lun | Golpe de calor en perros: síntomas, prevención y primeros auxilios | golpe de calor en perros | 1300 | Guía Est | [ ] |
 | 36 | 2026-06-29 | Lun | Qué hacer si encuentras un animal abandonado en España | seprona animales | 1300 | Guía Est | [ ] |
 | 37 | 2026-07-06 | Lun | Cada cuánto bañar a tu perro: frecuencia por pelo, piel y época del año | cada cuánto bañar un perro | 480 | Guía | [ ] |

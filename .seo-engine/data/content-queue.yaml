@@ -612,7 +612,7 @@ queue:
     actual_word_count: 2197
     serp_analyzed: true
     cannibalization_check: "passed — complementa asiento-coche-perro, mejor-transportin-perros-guia y mejor-protector-maletero-perros; no sustituye las comparativas."
-    notes: "Creado 2026-06-12 con fecha objetivo 2026-06-15. SERP real: DGT, Patitasco, RACE, Purina, BP. Slug: como-llevar-perro-coche. URL: /cuidados/como-llevar-perro-coche/."
+    notes: "Creado y publicado 2026-06-12. Fecha objetivo original del plan: 2026-06-15. SERP real: DGT, Patitasco, RACE, Purina, BP. Slug: como-llevar-perro-coche. URL: /cuidados/como-llevar-perro-coche/."
     depends_on: []
     internal_link_targets:
       - "guia-completa-paseo-viaje-perros"

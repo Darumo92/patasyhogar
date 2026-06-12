@@ -3,8 +3,8 @@ blogs:
 - slug: como-llevar-perro-coche
   title: "Cómo llevar al perro en el coche: normativa DGT"
   file_path: src/content/articulos/como-llevar-perro-coche.mdx
-  status: human-review
-  published_date: '2026-06-15'
+  status: published
+  published_date: '2026-06-12'
   last_updated: ''
   blog_type: guide
   content_type: informativo

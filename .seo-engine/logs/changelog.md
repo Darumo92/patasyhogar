@@ -3,7 +3,7 @@
 ## 2026-06-12 13:42
 **Action:** Create weekly article — como-llevar-perro-coche
 **Files:**
-- `src/content/articulos/como-llevar-perro-coche.mdx` (created, 2197 words, status human-review)
+- `src/content/articulos/como-llevar-perro-coche.mdx` (created/published, 2197 words)
 - `public/images/articulos/como-llevar-perro-coche.webp` (Pexels, Robert So)
 - `.seo-engine/data/seo-keywords.csv` — mapped `cómo llevar al perro en el coche` to new guide
 - `.seo-engine/data/topic-clusters.yaml` — updated tc_paseo_perros planned travel page to published
