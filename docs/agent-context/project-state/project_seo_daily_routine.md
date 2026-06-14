@@ -11,7 +11,7 @@ Cada mañana decir "vamos con tareas SEO de hoy" → leer este archivo → ejecu
 
 **Inicio del plan:** 2026-05-11
 **Última lectura semanal:** 2026-06-09 (martes, semana 5)
-**Última actualización operativa:** 2026-06-09 (martes, semana 5)
+**Última actualización operativa:** 2026-06-14 (domingo, semana 5)
 
 ## Contexto cambio plan (2026-05-11)
 
@@ -60,6 +60,16 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 | Viernes | Reddit subs grandes (1 post) + Reddit nicho (3 comentarios) |
 | Sábado | 1 respuesta Quora + revisar replies Reddit |
 | Domingo | Reddit nicho (3 comentarios) + revisar inbox/karma |
+
+## Contenido nuevo — cadencia baja reactivada
+
+El 2026-06-12 el usuario confirmó retomar artículos nuevos con cadencia baja porque Bing sí indexa y puede generar tracción aunque Google siga bloqueado. La regla actual es:
+
+- 1 artículo nuevo por semana, no calendario masivo.
+- Mantener Reddit + Quora como rutina diaria de autoridad externa.
+- Antes de escribir cada artículo: cannibalization check, SERP real aportada por el usuario, fuentes oficiales si aplica, humanización y `npm run build`.
+- Evitar comparativas nuevas sin verificación completa de productos.
+- Ver `docs/PLAN_EDITORIAL_v7.md` v7.1 para el calendario semanal.
 
 ## Mantenimiento Amazon productos
 
@@ -116,6 +126,8 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 | 2026-06-04 | Lectura operativa jueves: GSC 28 may-3 jun = 0 impresiones, 0 clics (semana previa 21-27 may = 1 impresión, 0 clics). GA4 28 may-3 jun = 5 sesiones / 3 usuarios / 3 vistas / 3 sesiones con interacción; fuentes: `chatgpt.com / referral`, `es.search.yahoo.com / referral` y `bing / organic`. Cloudflare 28 may-3 jun = 10.024 requests, 3.315 page views y 2.507 uniques diarios agregados (vs 9.811 requests, 3.558 page views y 2.506 uniques diarios agregados del 21-27 may). Diagnóstico sin cambios: Google sigue bloqueado, edge estable. Mantener jueves: 2 respuestas Quora + revisar replies Reddit. Enlace propio permitido por gap desde el 2026-06-03, pero solo si encaja de forma contextual. |
 | 2026-06-06 | Lectura operativa sábado: GSC 30 may-1 jun disponible = 0 impresiones, 0 clics; GSC 23-29 may = 0 impresiones, 0 clics. GA4 30 may-5 jun = 7 sesiones / 4 usuarios / 5 vistas / 5 sesiones con interacción (vs 5 sesiones / 5 usuarios / 9 vistas / 4 sesiones con interacción del 23-29 may). Fuentes actuales: `(direct) / (none)`, `chatgpt.com / referral`, `es.search.yahoo.com / referral` y `bing / organic`. Cloudflare GraphQL sí respondió: 30 may-5 jun = 10.963 requests, 3.134 page views y 2.540 uniques diarios agregados (vs 10.093 requests, 3.870 page views y 2.374 uniques diarios agregados del 23-29 may). Diagnóstico sin cambios: Google sigue a cero; edge estable; mantener sábado con 1 respuesta Quora + revisión ligera de replies Reddit. |
 | 2026-06-08 | Re-eval 1 (4 sem). KPI fallido según lectura 2026-06-09: GSC 1-7 jun = 0 impresiones, 0 clics; sitemap = 691 enviadas y 0 indexadas. GA4 1-7 jun = 8 sesiones / 5 usuarios / 6 vistas / 5 sesiones con interacción (vs 3 / 2 / 3 / 2 del 25-31 may); fuentes: `chatgpt.com / referral`, `(direct) / (none)`, `es.search.yahoo.com / referral`, `bing / organic`. Cloudflare 1-7 jun = 10.230 requests, 3.172 page views y 2.381 uniques diarios agregados (vs 9.534 / 3.668 / 2.499 del 25-31 may). Decisión: no cambiar contenido ni identidad; ajustar mix dentro de canales aprobados con más Quora/answers evergreen y Reddit sin enlace forzado. |
+| 2026-06-13 | Lectura operativa sábado: GSC 6-11 jun disponible = 1 impresión, 0 clics (la impresión fue el 2026-06-08; 12 jun aún no aparece). Semana anterior 30 may-5 jun = 0 impresiones, 0 clics. GA4 6-12 jun = 7 sesiones aproximadas por fuentes visibles: Bing organic, Ecosia organic, ChatGPT y directo; páginas vistas aisladas en fuentes de agua para gatos, chaleco salvavidas perro, gato vomita, perro no quiere comer y limpiador enzimático. Cloudflare zona activa. Diagnóstico sin cambios: Google sigue prácticamente bloqueado; mantener autoridad externa y aprovechar señales de Bing/AI. Como el 2026-06-12 se publicó la guía de coche del plan v7.1, hoy no tocaba crear otro artículo. Cierre: Quora sobre perro grande que no quiere subir al coche publicado con link contextual a la guía DGT; Reddit r/mascotas `1u4c1wv` publicado sin enlace sobre rutina para perro joven recién adoptado. |
+| 2026-06-14 | Cierre domingo: rutina Reddit nicho completada con 3 comentarios sin enlace propio. Publicados en r/mascotas `1u561k8` (juguetes tranquilos para gato senior), r/mascotas `1u4vu9b` (herida en patita de gato, consejo prudente veterinario) y r/GatosArgentinos `1u5708z` (segunda opinión por olor fuerte, menor agua y analítica alterada). Humanizer aplicado y castellano España. RSS usuario vacío y Reddit rate-limited con 429 durante la sesión, así que URLs exactas de comentario quedan pendientes de capturar. No hubo cambio técnico ni contenido nuevo hoy. |
 | 2026-07-13 | Re-eval 2 (9 sem). KPI: ≥15 indexadas + ≥50 imp/sem. Si igual → considerar consolidación sitios. |
 | 2026-08-24 | Re-eval 3 (15 sem). KPI: ≥30 indexadas + ≥200 imp/sem. Decisión continuar o sunset. |
 | 2026-11-11 | Re-eval final (6 meses). KPI: ≥60 indexadas + tráfico orgánico medible. |
@@ -129,12 +141,12 @@ El mantenimiento de productos Amazon forma parte del plan operativo, pero no deb
 ## NO hacer (refuerzo)
 
 - NO mirar GSC todos los días (ansiedad → cambios reactivos)
-- NO publicar artículos nuevos hasta hitos cumplidos
+- NO publicar artículos nuevos en masa. Desde 2026-06-12 sí se permite 1 artículo/semana con workflow completo.
 - NO modificar identidad sitio (Daniel/Mango/Kira) — descartado como causa
 - NO fotos IA generadas
 - NO email outreach a nadie
 - NO YouTube/TikTok (no aprobado en pivot)
-- NO commits al sitio salvo bug fix técnico crítico
+- NO commits al sitio salvo artículo semanal aprobado, bug fix técnico crítico o mantenimiento validado.
 
 ## Free tool publicado
 
