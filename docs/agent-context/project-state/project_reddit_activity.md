@@ -2,16 +2,17 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-06-14 CEST
+Última actualización: 2026-06-16 CEST
 
-> **Checklist sesión:** Verificar karma/shadowban via `curl https://www.reddit.com/user/Pristine_Review5630/about.json` · Escanear posts nuevos subs ES · Continuar plan según día actual.
+> **Checklist sesión:** Verificar karma/visibilidad via `old.reddit.com/user/Pristine_Review5630/` · Escanear posts nuevos con `old.reddit.com/r/SUB/new/` y búsquedas internas · Revisar replies en hilos trackeados · Continuar plan según día actual.
 
 ---
 
 ## Karma status
 
-> El karma numérico NO es leíble por RSS ni ningún endpoint accesible (`about.json`=403, `about.rss`=404). Lo facilita el usuario desde la app. Para shadowban/cuenta viva sí sirve `user/Pristine_Review5630.rss` — ver `reference_reddit_rss_method.md`.
+> Desde el 2026-06-16 el karma numérico sí es leíble por HTML público en `old.reddit.com/user/Pristine_Review5630/`. No depender de `about.json` ni `user.rss`: `about.json` sigue bloqueado y `user.rss` puede devolver 429. Ver `reference_reddit_rss_method.md`.
 
+Karma 2026-06-16: post=27, comment=100, total=127. Leído desde `old.reddit.com/user/Pristine_Review5630/`; cuenta visible públicamente. RSS de usuario devolvió 429, pero old.reddit mostró perfil, bio y karma.
 Karma 2026-06-04: total=118 (dato del usuario). Tres comentarios nuevos visibles por RSS en hilos de r/mascotas y r/GatosArgentinos; reply nuevo de AskSpain comentado según usuario pero no visible en RSS al revisar.
 Karma 2026-06-03: total=112 (dato del usuario). Cuenta viva confirmada vía RSS público con actividad reciente visible.
 Karma 2026-06-02: total=92 (dato del usuario). Cuenta viva confirmada vía RSS público con comentarios recientes visibles.

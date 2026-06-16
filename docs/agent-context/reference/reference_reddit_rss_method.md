@@ -5,9 +5,197 @@ type: reference
 originSessionId: 2b260cac-cde4-4145-9f26-25e3d8526f32
 ---
 
-## Resumen rápido (revalidado 2026-05-29)
+## Método preferente v2: old.reddit HTML (validado 2026-06-16)
 
-Reddit responde **HTTP 403** (página "Blocked" ~190 KB) a todo lo que no sea RSS con UA de navegador: `.json`, `old.reddit.com`, WebFetch y los proxies CORS (r.jina.ai, allorigins, corsproxy.io, thingproxy) están todos bloqueados. **Solo pasa el filtro RSS con UA Safari.**
+El 2026-06-16 `www.reddit.com/.../.rss` devolvió `429` de forma intermitente, especialmente para `user/Pristine_Review5630.rss`. Se probó una alternativa más robusta:
+
+- `old.reddit.com/r/SUB/new/` devuelve listados completos en HTML.
+- `old.reddit.com/r/SUB/search?q=...&restrict_sr=1&sort=new&t=week` devuelve búsqueda interna usable.
+- `old.reddit.com/user/Pristine_Review5630/` devuelve karma público exacto.
+- `old.reddit.com/r/SUB/comments/ID/SLUG/` devuelve hilos completos con comentarios, autores, scores, timestamps, `data-replies` y nesting.
+- `.json` sigue bloqueado con 403. No usar como primera opción.
+
+Actualización operativa 2026-06-16, misma sesión: los listados y búsquedas siguieron funcionando, pero varias páginas directas de hilo devolvieron bloqueo de red (`whoa there, pardner` o `You've been blocked by network security`) incluso con UA. En esos casos:
+
+- Usar el listado/búsqueda para extraer título, URL, score, comentarios y, si aparece, `data-cachedhtml` o `search-result-body` con el OP.
+- Probar RSS de hilo y PullPush solo como fallback rápido; para hilos muy recientes puede devolver vacío.
+- Si no se pueden leer comentarios existentes, no marcar el borrador como definitivo. Pasarlo como "revisar comentarios antes de pegar" o elegir otro hilo.
+- Para hilos de búsqueda en subs grandes, el snippet de `search-result-body` puede bastar para priorizar, pero no sustituye la lectura del hilo completo.
+
+### Orden operativo diario
+
+1. Karma / cuenta viva.
+2. Hilos nuevos por sub nicho.
+3. Búsqueda temática en subs grandes.
+4. Revisión de replies en hilos trackeados.
+5. Fallback RSS / Brave solo si old.reddit falla.
+
+UA recomendado:
+
+```bash
+UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+```
+
+### 1. Karma y estado de cuenta
+
+El RSS del usuario puede devolver `429`, pero el HTML antiguo muestra karma:
+
+```bash
+curl -sL -A "$UA" "https://old.reddit.com/user/Pristine_Review5630/" -o /tmp/rd_user.html
+rg -o '<span class="karma[^>]*>[0-9]+</span>|post karma|comment karma|redditor for[^<]*<time title="[^"]+"' /tmp/rd_user.html
+```
+
+Lectura validada 2026-06-16:
+
+- `27` post karma.
+- `100` comment karma.
+- cuenta creada el `Mon Apr 20 11:44:47 2026 UTC`.
+
+Si aparece la caja de perfil con karma, la cuenta está visible públicamente. Si no aparece y el HTTP es 200 con `there doesn't seem to be anything here`, distinguir entre perfil vacío y shadowban revisando cabecera/título. Si devuelve `429`, esperar o usar otro endpoint old.reddit antes de concluir nada.
+
+### 2. Hilos nuevos por subreddit
+
+Para r/mascotas y r/GatosArgentinos:
+
+```bash
+curl -sL -A "$UA" "https://old.reddit.com/r/mascotas/new/" -o /tmp/rd_mascotas_new.html
+curl -sL -A "$UA" "https://old.reddit.com/r/GatosArgentinos/new/" -o /tmp/rd_gatos_new.html
+```
+
+Extraer URLs candidatas:
+
+```bash
+rg -o 'href="https://old\.reddit\.com/r/[^"]+/comments/[a-z0-9]+/[^"]+"' /tmp/rd_mascotas_new.html \
+  | sed 's/^href="//; s/"$//' \
+  | sort -u \
+  | head -30
+```
+
+Para títulos, timestamps, score y número de comentarios, parsear alrededor de cada bloque `thing id-t3_...`. Si el output sale enorme, primero extraer solo URLs + `<time title=...>`:
+
+```bash
+rg -o 'href="https://old\.reddit\.com/r/[^"]+/comments/[a-z0-9]+/[^"]+"|<time title="[^"]+"' /tmp/rd_mascotas_new.html | head -120
+```
+
+### 3. Búsqueda temática en subs grandes
+
+Usar búsqueda interna de old.reddit. Funciona mejor que search RSS cuando queremos hilos de mascotas en subs generales.
+
+```bash
+curl -sL -A "$UA" "https://old.reddit.com/r/AskSpain/search?q=perro+OR+gato+OR+mascota&restrict_sr=1&sort=new&t=week" -o /tmp/rd_ask_pet_search.html
+curl -sL -A "$UA" "https://old.reddit.com/r/valencia/search?q=perro+OR+gato+OR+mascota&restrict_sr=1&sort=new&t=week" -o /tmp/rd_valencia_pet_search.html
+curl -sL -A "$UA" "https://old.reddit.com/r/Madrid/search?q=perro+OR+gato+OR+mascota&restrict_sr=1&sort=new&t=week" -o /tmp/rd_madrid_pet_search.html
+curl -sL -A "$UA" "https://old.reddit.com/r/Spain/search?q=perro+OR+gato+OR+mascota&restrict_sr=1&sort=new&t=week" -o /tmp/rd_spain_pet_search.html
+```
+
+Extraer candidatos:
+
+```bash
+rg -o 'href="https://old\.reddit\.com/r/[^"]+/comments/[a-z0-9]+/[^"]+"|<time title="[^"]+"' /tmp/rd_ask_pet_search.html | head -120
+```
+
+Validado 2026-06-16:
+
+- `r/AskSpain` devolvió candidatos recientes, incluido el post propio `1u0ziy7`.
+- `r/valencia` devolvió candidatos como `alquiler_con_mascota` y abandono de animales.
+- `r/Spain` y `r/Madrid` pueden devolver 0 resultados; eso no es fallo si HTTP 200.
+
+### 4. Leer hilo completo y comentarios existentes
+
+Para cualquier candidato, descargar la página old.reddit del hilo:
+
+```bash
+curl -sL -A "$UA" "https://old.reddit.com/r/SUB/comments/ID/SLUG/" -o /tmp/rd_thread.html
+```
+
+Se puede extraer:
+
+- OP: bloque `thing id-t3_ID`.
+- comentarios: bloques `thing id-t1_...`.
+- autor: `data-author="..."`.
+- score: `score unvoted" title="N"`.
+- hijos: `data-replies="0"` y texto `(N children)`.
+- permalink: `data-permalink="/r/.../COMMENT_ID/"`.
+- texto: bloque `<div class="md">...`.
+
+Comando rápido para autores e IDs:
+
+```bash
+rg -o 'data-author="[^"]+"|data-fullname="t1_[^"]+"|data-permalink="/r/[^"]+"|<time title="[^"]+"' /tmp/rd_thread.html | head -160
+```
+
+RSS del hilo sigue siendo útil como vista limpia de contenido si no hay `429`:
+
+```bash
+curl -sL -A "$UA" "https://old.reddit.com/r/SUB/comments/ID/SLUG/.rss?sort=new" -o /tmp/rd_thread.xml
+rg -n '<entry>|<name>|<title>|<link href|<content' /tmp/rd_thread.xml | head -160
+```
+
+### 5. Revisar replies a nuestra cuenta
+
+No depender del perfil RSS. Flujo recomendado:
+
+1. Leer `docs/agent-context/project-state/project_reddit_activity.md`.
+2. Tomar hilos de los últimos 7-14 días donde se publicó post o comentario.
+3. Descargar cada hilo en `old.reddit`.
+4. Buscar `data-author="Pristine_Review5630"`.
+5. Para cada comentario propio, mirar:
+   - `data-replies`.
+   - si el bloque tiene `<div class="child">` con comentarios posteriores.
+   - si el RSS del hilo contiene respuestas nuevas después del comentario propio.
+
+Ejemplo con post propio AskSpain:
+
+```bash
+curl -sL -A "$UA" "https://old.reddit.com/r/askspain/comments/1u0ziy7/creo_que_he_comprado_m%C3%A1s_trastos_in%C3%BAtiles_para_mi/" -o /tmp/rd_ask_1u0ziy7.html
+rg -n 'data-author="Pristine_Review5630"|data-fullname="t1_|data-replies=|numchildren|<time title=' /tmp/rd_ask_1u0ziy7.html
+```
+
+Limitación importante:
+
+- La página pública `old.reddit.com/user/Pristine_Review5630/comments/` puede mostrar `there doesn't seem to be anything here` aunque el perfil tenga karma y los comentarios existan en hilos. No usarla como fuente única.
+- Para revisar replies de comentarios sueltos, necesitamos que el tracking guarde al menos el `post ID` del hilo. Si falta la URL exacta de comentario, el hilo aún permite localizar comentarios propios por `data-author`.
+
+### 6. Posts propios publicados
+
+La búsqueda por autor en `old.reddit` sirve bien para posts propios:
+
+```bash
+curl -sL -A "$UA" "https://old.reddit.com/r/AskSpain/search?q=author%3APristine_Review5630&restrict_sr=1&sort=new&t=month" -o /tmp/rd_ask_author.html
+rg -o 'href="https://old\.reddit\.com/r/[^"]+/comments/[a-z0-9]+/[^"]+"|<time title="[^"]+"' /tmp/rd_ask_author.html | head -100
+```
+
+Validado 2026-06-16: devolvió posts propios de AskSpain:
+
+- `1u0ziy7` — compras inútiles para perro.
+- `1tuo7rb` — gato en piso con balcón.
+- `1to4ddp` — perro y gato cuando no estás en casa.
+
+### 7. Fallbacks
+
+Orden de fallback:
+
+1. `old.reddit.com` HTML.
+2. `.rss` del subreddit o hilo con UA Safari.
+3. Búsqueda externa:
+   ```text
+   site:reddit.com/r/mascotas perro OR gato
+   site:reddit.com/r/AskSpain perro OR gato OR mascota
+   ```
+4. Pedir datos al usuario solo si fallan todos los métodos anteriores o si hay que confirmar que un comentario se publicó desde la app y aún no aparece en HTML público.
+
+### 8. Qué no usar por defecto
+
+- `https://www.reddit.com/r/SUB/new.json` -> 403 validado 2026-06-16.
+- `user/Pristine_Review5630.rss` -> puede devolver 429 aunque el perfil HTML funcione.
+- `new.rss?limit=N` -> históricamente devuelve feed vacío; usar `/new/.rss` si se usa RSS.
+- Perfil `comments/` como única fuente -> puede mostrar vacío en logged-out.
+
+## Método histórico RSS (revalidado 2026-05-29)
+
+Este bloque queda como histórico. Si contradice el método v2 de 2026-06-16, seguir el método v2.
+
+En la validación del 2026-05-29, Reddit respondía **HTTP 403** (página "Blocked" ~190 KB) a todo lo que no era RSS con UA de navegador: `.json`, `old.reddit.com`, WebFetch y los proxies CORS (r.jina.ai, allorigins, corsproxy.io, thingproxy). En la revalidación del 2026-06-16, `old.reddit.com` volvió a funcionar y pasa a ser preferente.
 
 | Necesidad | Método | Estado |
 |---|---|---|
