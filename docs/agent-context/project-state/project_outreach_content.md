@@ -2,7 +2,7 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-06-13 CEST
+Última actualización: 2026-06-19 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
@@ -21,8 +21,13 @@ Tracking de contenido publicado en Medium, Quora y Pinterest.
 
 ## Quora ES — Respuestas publicadas
 
+**Regla operativa activa (2026-06-23):** en Quora poner enlace contextual a Patas y Hogar por defecto. Solo omitirlo si la pregunta es una urgencia veterinaria inmediata, si el enlace queda claramente forzado o si ya se está cortando una secuencia promocional concreta.
+
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-06-23 | "Por qué mi perro jadea mucho aun teniendo agua, atención y un lugar frío..." | https://es.quora.com/Por-qu%C3%A9-mi-perro-jadea-mucho-aun-teniendo-agua-atenci%C3%B3n-y-un-lugar-fr%C3%ADo-dentro-de-la-casa-tambi%C3%A9n-puede-salir-afuera-libremente-pero-por-qu%C3%A9-est%C3%A1-durante-muchas-horas-as%C3%AD | Sí | Decimoséptima respuesta cuenta. Jadeo persistente en perro: contexto normal tras ejercicio/calor, señales de urgencia, braquicéfalos/sobrepeso/senior, medidas prudentes en casa y cuándo llamar al veterinario. Enlace contextual a alfombrilla refrigerante para perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
+| 2026-06-19 | "Por qué los perros auyan cuando oyen Los fuegos pirotegnicos sonar" | https://es.quora.com/Por-qu%C3%A9-los-perros-auyan-cuando-oyen-Los-fuegos-pirotegnicos-sonar | Sí | Decimosexta respuesta cuenta. Fuegos artificiales y perros: oído sensible, vibración, aprendizaje del miedo, habitación interior, ruido blanco, paseo antes del evento y cuándo consultar al veterinario. Enlace contextual a guía de miedo a petardos y fuegos artificiales. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
+| 2026-06-17 | "Existen parques acuáticos para perros en España? Qué lugares ofrecen este tipo de instalaciones" | https://es.quora.com/Existen-parques-acu%C3%A1ticos-para-perros-en-Espa%C3%B1a-Qu%C3%A9-lugares-ofrecen-este-tipo-de-instalaciones | Sí | Decimoquinta respuesta cuenta. Parques acuáticos caninos en España: formatos habituales, requisitos sanitarios, aforo, separación por tamaño, suelo/sombra/entrada progresiva y alternativa de piscina plegable en casa. Enlace contextual a comparativa de piscina para perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-13 | "Tengo un problema con mi perro, pesa 50 kilos y no se quiere subir al coche..." | https://es.quora.com/Tengo-un-problema-con-mi-perro-pesa-50-kilos-y-no-se-quiere-subir-al-coche-la-comida-no-le-motiva-Qué-puedo-hacer-para-que-suba-Vivo-en-un-sitio-en-el-cual-hay-que-ir-en-coche-a-todas-partes | Sí | Decimocuarta respuesta cuenta. Perro grande que no quiere subir al coche: descartar dolor, trabajar aproximación gradual, usar rampa/alfombrilla antideslizante, microviajes y seguridad dentro del coche. Enlace contextual a guía DGT de llevar perro en coche. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-02 | "Cómo evitar que mi mascota se tire por el balcón" | https://es.quora.com/C%C3%B3mo-evitar-que-mi-mascota-se-tire-por-el-balc%C3%B3n/answer/Patas-y-Hogar?ch=10&oid=1477743909205533&share=7f4f8d70&srid=5DHwyB&target_type=answer | Sí | Decimotercera respuesta cuenta. Seguridad en balcones y ventanas: limitadores, ventanas abatibles, mosquiteras reforzadas, redes/cerramientos y muebles cerca de barandillas. Enlace contextual a guía de preparar casa segura para perros y gatos. Humanizer aplicado. |
 | 2026-05-28 | "Cómo eliminar las pulgas de mi colchón y casa" | https://es.quora.com/C%C3%B3mo-eliminar-las-pulgas-de-mi-colch%C3%B3n-y-casa | Sí | Duodécima respuesta cuenta. Pulgas en casa: tratar animal y entorno a la vez, lavado de textiles, aspirado insistente, repetición por ciclo de vida y señal de cuándo llamar a control profesional. Enlace contextual a guía de eliminar pulgas en perro y casa. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |

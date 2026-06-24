@@ -1,5 +1,47 @@
-last_updated: '2026-06-12'
+last_updated: '2026-06-24'
 blogs:
+- slug: golpe-calor-perros
+  title: "Golpe de calor en perros: síntomas y primeros auxilios"
+  file_path: src/content/articulos/golpe-calor-perros.mdx
+  status: human-review
+  published_date: '2026-06-24'
+  last_updated: ''
+  blog_type: how_to
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: "golpe de calor en perros"
+    search_volume: 1300
+    is_primary: true
+  - keyword: "golpes de calor en perros"
+    search_volume: 1300
+    is_primary: false
+  - keyword: "golpe de calor perro"
+    search_volume: 1300
+    is_primary: false
+  - keyword: "síntomas golpe de calor en perros"
+    search_volume: 260
+    is_primary: false
+  - keyword: "golpe de calor perros tratamiento"
+    search_volume: 260
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - guia-completa-salud-bienestar-perros
+  - mejor-arnes-perro
+  - perro-sobrepeso-dieta-ejercicio
+  - cuanto-ejercicio-necesita-perro
+  - mejor-protector-patas-perro
+  - como-llevar-perro-coche
+  - alfombrilla-refrigerante-perros
+  - mejor-piscina-perros
+  internal_links_from: []
+  word_count: 2293
+  has_eeat_signals: true
+  notes: "Plan v7.1 semana S2. SERP real aportada por usuario 2026-06-24: Vista creada con IA, AniCura/Vets&Clinics, Kivet, Tiendanimal, Kiwoko/Purina; PAA sobre síntomas, cura y duración. Ángulo: protocolo práctico de primeros minutos, errores que evitar y urgencia veterinaria, con prevención para verano en España."
+  needs_update_reason: ''
 - slug: como-llevar-perro-coche
   title: "Cómo llevar al perro en el coche: normativa DGT"
   file_path: src/content/articulos/como-llevar-perro-coche.mdx

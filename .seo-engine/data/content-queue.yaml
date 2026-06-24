@@ -273,6 +273,7 @@ queue:
     notes: "Tipo: informativo. No product comparison needed."
     depends_on: []
     internal_link_targets:
+      - "golpe-calor-perros"
       - "procesionaria-pino-perros-peligros-primeros-auxilios"
       - "alimentos-prohibidos-perros"
       - "alergia-primaveral-perros-gatos-sintomas-tratamiento"
@@ -619,6 +620,31 @@ queue:
       - "mejor-transportin-perros-guia"
       - "asiento-coche-perro"
       - "mejor-protector-maletero-perros"
+
+  - id: "q_028"
+    title: "Golpe de calor en perros: síntomas y primeros auxilios"
+    blog_type: "how_to"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    animal: "perro"
+    target_keywords: ["golpe de calor en perros", "golpes de calor en perros", "golpe de calor perro", "síntomas golpe de calor en perros", "golpe de calor perros tratamiento"]
+    unique_angle: "Guía de urgencia práctica: respuesta directa arriba, protocolo de primeros minutos, errores que evitar, cuándo ir a urgencias y prevención en verano español. Diferencial frente a SERP: más útil para el dueño que necesita actuar, no solo definición."
+    priority: "high"
+    priority_reason: "Plan v7.1 semana S2. Keyword validada por Keyword Surfer España con 1300 vol y pico estacional junio-agosto."
+    status: "human-review"
+    actual_word_count: 2293
+    serp_analyzed: true
+    cannibalization_check: "passed — no existía artículo dedicado; complementa coche, alfombrilla refrigerante, piscina, protector de patas y primer auxilio general futuro."
+    notes: "Creado 2026-06-24. SERP real aportada por usuario: AI Overview, PAA, related searches y competidores AniCura/Vets&Clinics, Kivet, Tiendanimal, Kiwoko/Purina. Slug: golpe-calor-perros. URL: /cuidados/golpe-calor-perros/."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-salud-bienestar-perros"
+      - "como-llevar-perro-coche"
+      - "alfombrilla-refrigerante-perros"
+      - "mejor-piscina-perros"
+      - "mejor-protector-patas-perro"
+      - "cuanto-ejercicio-necesita-perro"
+      - "perro-sobrepeso-dieta-ejercicio"
 
   # === NEW ITEMS FROM KW SURFER AUDIT 2026-04-09 ===
 

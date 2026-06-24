@@ -11,6 +11,17 @@ El usuario confirmó el 2026-05-26 que Reddit sigue formando parte del plan diar
 - Revisar coherencia con el hilo completo para comentarios y con los posts propios recientes para publicaciones nuevas.
 - Mantener los límites de enlaces propios y el tracking de publicaciones.
 
+## Priorizar comentarios frente a post propio si el objetivo es karma
+
+El usuario corrigió el 2026-06-23 que, para farmear karma y mantener actividad natural, prefiere contestar **3-4 posts de Reddit** antes que publicar un post propio, salvo que haya un ángulo de post muy fuerte.
+
+### Cómo aplicar
+
+- En el plan diario, proponer primero 3-4 comentarios en hilos ajenos.
+- Mantener post propio como opción secundaria, no como default de martes/viernes.
+- Elegir hilos donde el comentario pueda ser corto, humano y fácil de upvotear.
+- Seguir pidiendo confirmación de hilos ya comentados antes de redactar, para evitar doble comentario.
+
 ## Reddit ES — priorizar r/mascotas sobre GatosArgentinos
 
 Cuota diaria Reddit Fase A/B: priorizar **r/mascotas** (mixto perros+gatos, peso ES) sobre **r/GatosArgentinos** (público argentino).

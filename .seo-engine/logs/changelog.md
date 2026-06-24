@@ -358,3 +358,17 @@
 - `public/images/articulos/plantas-toxicas-gatos-guia-hogar.webp` (Pexels, Ludovic Delot)
 **Summary:** Guía informativa plantas tóxicas/seguras por habitación. SERP intent informacional pura (Kiwoko, Purina, Hill's). Unique angle: niveles de gravedad + auditoría por zona (salón, cocina, dormitorio, balcón, otros) + protocolo emergencia con vet Laura + 15 plantas seguras como alternativas. Resuelve microbúsquedas virales (sansevieria, eucalipto, orquídea, potus). Mención Valencia (adelfa mediterránea). Coherencia canon: referenciada anécdota Kira-potos (hogar-seguro-mascotas) + nueva anécdota Mango al adoptarlo (retiró plantas antes). E-E-A-T: Laura veterinaria + INToxicología + hábito hierba gatera Mango. 5 FAQs desde PAA. Cross-cluster link con alimentos-toxicos-gatos. Cubre KW 1600 + laterales ~2960 vol adicional.
 **Triggered by:** user (plan v7 #13, lookup calendario 2026-04-24)
+
+## 2026-06-24 12:00
+**Action:** Create new article (#35 v7.1 plan) — golpe-calor-perros
+**Files:**
+- `src/content/articulos/golpe-calor-perros.mdx` (created, 2293 words, status human-review)
+- `public/images/articulos/golpe-calor-perros.webp` (Pexels, gabesdotphotos photographer)
+- `.seo-engine/data/content-map.yaml` — nuevo entry slug golpe-calor-perros en cluster tc_salud_comportamiento_perros
+- `.seo-engine/data/seo-keywords.csv` — updated KW `golpe de calor en perros` (1300) de planned a human-review
+- `.seo-engine/data/content-queue.yaml` — añadido q_028 con SERP real, enlaces internos y estado human-review
+- `.seo-engine/data/features.yaml` — añadido feat_golpe_calor_perros
+- `.seo-engine/data/topic-clusters.yaml` — añadido a tc_salud_comportamiento_perros
+- `docs/PLAN_EDITORIAL_v7.md` — marcada S2 como creada
+**Summary:** Guía informativa de urgencia para golpe de calor en perros. SERP real aportada por usuario: AI Overview, PAA, related searches y competidores AniCura/Vets&Clinics, Kivet, Tiendanimal, Kiwoko/Purina. Ángulo: protocolo de primeros minutos, errores que evitar, urgencia veterinaria y prevención en verano español. E-E-A-T: experiencia Kira en Valencia + fuentes veterinarias externas RSPCA/PDSA. 5 FAQs desde PAA.
+**Triggered by:** user (plan v7.1 #35, SERP aportada por usuario)

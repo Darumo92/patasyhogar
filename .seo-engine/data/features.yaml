@@ -730,6 +730,17 @@ categories:
             tags: ["procesionaria", "primeros auxilios", "urgencia", "perro"]
             notes: "Artículo informativo (tipo: informativo)"
 
+          - id: "feat_golpe_calor_perros"
+            name: "Golpe de calor en perros"
+            description: "Guía de síntomas, primeros auxilios, prevención y urgencia veterinaria ante golpe de calor"
+            status: "human-review"
+            doc_refs:
+              - path: "src/content/articulos/golpe-calor-perros.mdx"
+                section: "full article"
+            blog_refs: ["golpe-calor-perros"]
+            tags: ["golpe de calor", "primeros auxilios", "verano", "urgencia", "perro"]
+            notes: "Artículo informativo (tipo: informativo). SERP real aportada por usuario 2026-06-24."
+
           - id: "feat_muda_pelo_perros"
             name: "Muda de pelo en perros"
             description: "Guía completa de cuidados durante la muda de pelo en perros"

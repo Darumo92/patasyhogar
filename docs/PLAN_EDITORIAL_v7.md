@@ -25,7 +25,7 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 | # | Semana | Fecha objetivo | Titulo | KW principal | Vol | Tipo | Estacionalidad / motivo | Estado |
 |---|--------|----------------|--------|--------------|-----|------|--------------------------|--------|
 | 34 | S1 | 2026-06-15 | Como llevar al perro en el coche: normativa DGT y seguridad | como llevar al perro en el coche | 1300 | Guia | Vacaciones verano, viajes en coche | [x] creado 2026-06-12 |
-| 35 | S2 | 2026-06-22 | Golpe de calor en perros: sintomas, prevencion y primeros auxilios | golpe de calor en perros | 1300 | Guia Est | Pico junio-agosto; publicar ya | [ ] |
+| 35 | S2 | 2026-06-22 | Golpe de calor en perros: sintomas, prevencion y primeros auxilios | golpe de calor en perros | 1300 | Guia Est | Pico junio-agosto; publicar ya | [x] creado 2026-06-24, human-review |
 | 36 | S3 | 2026-06-29 | Que hacer si encuentras un animal abandonado en Espana | seprona animales | 1300 | Guia Est | Inicio verano, abandono y vacaciones | [ ] |
 | 37 | S4 | 2026-07-06 | Cada cuanto banar a tu perro: frecuencia por pelo, piel y epoca del ano | cada cuanto banar un perro | 480 | Guia | Calor y mas banos en verano | [ ] |
 | 38 | S5 | 2026-07-13 | Juegos con perros: ideas para estimularle en casa y fuera | juegos con perros | 1000 | Guia | Verano, mas tiempo al aire libre | [ ] |

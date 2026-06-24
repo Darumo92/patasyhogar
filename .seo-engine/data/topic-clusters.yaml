@@ -875,6 +875,12 @@ clusters:
         slug: "procesionaria-pino-perros-peligros-primeros-auxilios"
         status: "published"
         blog_slug: "procesionaria-pino-perros-peligros-primeros-auxilios"
+      - title: "Golpe de calor en perros: síntomas y primeros auxilios"
+        target_keyword: "golpe de calor en perros"
+        slug: "golpe-calor-perros"
+        status: "human-review"
+        serp_analyzed: true
+        blog_slug: "golpe-calor-perros"
       - title: "Alergia primaveral en perros y gatos"
         target_keyword: "alergia primaveral perros gatos"
         slug: "alergia-primaveral-perros-gatos-sintomas-tratamiento"
