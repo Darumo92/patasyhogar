@@ -2,7 +2,7 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-06-19 CEST
+Última actualización: 2026-06-26 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
@@ -25,6 +25,7 @@ Tracking de contenido publicado en Medium, Quora y Pinterest.
 
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-06-26 | "Qué alimentos nunca jamás en la vida deberías darle a un perro por ser potencialmente tóxicos" | https://es.quora.com/Qu%C3%A9-alimentos-nunca-jam%C3%A1s-en-la-vida-deber%C3%ADas-darle-a-un-perro-por-ser-potencialmente-t%C3%B3xicos | Sí | Decimoctava respuesta cuenta. Alimentos tóxicos/prohibidos para perros: chocolate/cacao, uvas/pasas, cebolla/ajo/puerro/cebollino, xilitol, alcohol/cafeína, huesos cocinados, semillas/huesos de frutas, comida grasa y qué hacer ante ingesta dudosa. Enlace contextual a guía de alimentos prohibidos para perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-23 | "Por qué mi perro jadea mucho aun teniendo agua, atención y un lugar frío..." | https://es.quora.com/Por-qu%C3%A9-mi-perro-jadea-mucho-aun-teniendo-agua-atenci%C3%B3n-y-un-lugar-fr%C3%ADo-dentro-de-la-casa-tambi%C3%A9n-puede-salir-afuera-libremente-pero-por-qu%C3%A9-est%C3%A1-durante-muchas-horas-as%C3%AD | Sí | Decimoséptima respuesta cuenta. Jadeo persistente en perro: contexto normal tras ejercicio/calor, señales de urgencia, braquicéfalos/sobrepeso/senior, medidas prudentes en casa y cuándo llamar al veterinario. Enlace contextual a alfombrilla refrigerante para perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-19 | "Por qué los perros auyan cuando oyen Los fuegos pirotegnicos sonar" | https://es.quora.com/Por-qu%C3%A9-los-perros-auyan-cuando-oyen-Los-fuegos-pirotegnicos-sonar | Sí | Decimosexta respuesta cuenta. Fuegos artificiales y perros: oído sensible, vibración, aprendizaje del miedo, habitación interior, ruido blanco, paseo antes del evento y cuándo consultar al veterinario. Enlace contextual a guía de miedo a petardos y fuegos artificiales. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-17 | "Existen parques acuáticos para perros en España? Qué lugares ofrecen este tipo de instalaciones" | https://es.quora.com/Existen-parques-acu%C3%A1ticos-para-perros-en-Espa%C3%B1a-Qu%C3%A9-lugares-ofrecen-este-tipo-de-instalaciones | Sí | Decimoquinta respuesta cuenta. Parques acuáticos caninos en España: formatos habituales, requisitos sanitarios, aforo, separación por tamaño, suelo/sombra/entrada progresiva y alternativa de piscina plegable en casa. Enlace contextual a comparativa de piscina para perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
