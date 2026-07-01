@@ -26,8 +26,8 @@ Marcar con [x] cuando se publique. Artículos 11-13 del v7 original ya se public
 | # | Fecha | Día | Título | KW principal | Vol | Tipo | Estado |
 |---|-------|-----|--------|-------------|-----|------|--------|
 | 34 | 2026-06-15 | Lun | Cómo llevar al perro en el coche: normativa DGT y seguridad | cómo llevar al perro en el coche | 1300 | Guía Est | [x] creado 2026-06-12 |
-| 35 | 2026-06-22 | Lun | Golpe de calor en perros: síntomas, prevención y primeros auxilios | golpe de calor en perros | 1300 | Guía Est | [ ] |
-| 36 | 2026-06-29 | Lun | Qué hacer si encuentras un animal abandonado en España | seprona animales | 1300 | Guía Est | [ ] |
+| 35 | 2026-06-22 | Lun | Golpe de calor en perros: síntomas, prevención y primeros auxilios | golpe de calor en perros | 1300 | Guía Est | [x] creado 2026-06-24, human-review |
+| 36 | 2026-06-29 | Lun | Qué hacer si encuentras un animal abandonado en España | seprona animales | 1300 | Guía Est | [x] creado 2026-07-01, human-review |
 | 37 | 2026-07-06 | Lun | Cada cuánto bañar a tu perro: frecuencia por pelo, piel y época del año | cada cuánto bañar un perro | 480 | Guía | [ ] |
 | 38 | 2026-07-13 | Lun | Juegos con perros: ideas para estimularle en casa y fuera | juegos con perros | 1000 | Guía | [ ] |
 | 39 | 2026-07-20 | Lun | Mejor lanzador de pelotas para perros 2026 | lanzador pelotas perro | 880 | Comp | [ ] |

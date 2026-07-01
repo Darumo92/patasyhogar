@@ -1,5 +1,19 @@
 # SEO Content Engine — Changelog
 
+## 2026-07-01 12:00
+**Action:** Create weekly article — animal-abandonado-seprona-espana
+**Files:**
+- `src/content/articulos/animal-abandonado-seprona-espana.mdx` (created, 2135 words, status human-review)
+- `public/images/articulos/animal-abandonado-espana.webp` (generated article hero, Pexels unavailable due network approval timeout)
+- `.seo-engine/data/content-map.yaml` — nuevo entry slug `animal-abandonado-seprona-espana`
+- `.seo-engine/data/content-queue.yaml` — nuevo q_029 marcado `human-review`
+- `.seo-engine/data/seo-keywords.csv` — mapped `seprona animales` to new guide
+- `.seo-engine/data/topic-clusters.yaml` — added to `tc_hogar_mascotas`
+- `docs/PLAN_EDITORIAL_v7.md` — marked week S3 article as created
+- `docs/agent-context/project-state/_archive/project_plan_v7_calendario.md` — marked #36 as created
+**Summary:** Guía informativa para `seprona animales` y búsquedas relacionadas de teléfono/denuncia. SERP real aportada por usuario: AI Overview, MITECO, Instagram SEPRONA, Guardia Civil, protectora Kimba y Canal Extremadura. Ángulo único: protocolo práctico de primeros 10 minutos, derivación por situación, microchip, denuncia, casos donde insistir y errores que evitar, con fuentes oficiales MITECO/Guardia Civil/BOE y sin anécdotas ficticias.
+**Triggered by:** user (plan v7.1 #36, SERP aportada por usuario)
+
 ## 2026-06-12 13:42
 **Action:** Create weekly article — como-llevar-perro-coche
 **Files:**

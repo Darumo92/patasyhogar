@@ -812,6 +812,13 @@ clusters:
         serp_analyzed: true
         blog_slug: "plantas-toxicas-gatos-guia-hogar"
         notes: "Published 2026-04-24 (plan v7 #13). Cubre KW 1600 + no tóxicas 1000 + venenosas 720 + seguras 480 + aptas 480 + microbúsquedas virales (sansevieria, eucalipto, orquidea, potus). 2821 palabras. Estructura diferenciada: niveles de gravedad + auditoría por habitación + protocolo emergencia vet + 15 alternativas seguras."
+      - title: "SEPRONA animales: qué hacer ante un abandono"
+        target_keyword: "seprona animales"
+        slug: "animal-abandonado-seprona-espana"
+        status: "human-review"
+        serp_analyzed: true
+        blog_slug: "animal-abandonado-seprona-espana"
+        notes: "Plan v7.1 semana S3. SERP real aportada por usuario 2026-07-01: AI Overview, MITECO, Instagram SEPRONA, Guardia Civil, protectora Kimba y vídeo Canal Extremadura. Ángulo: protocolo práctico de primeros 10 minutos, teléfono/derivación por situación, microchip y denuncia sin convertirlo en guía genérica del SEPRONA."
       # Planned pages
       - title: "Cómo proteger tu casa para un gato"
         target_keyword: "proteger casa gato seguridad"

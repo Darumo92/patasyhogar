@@ -646,6 +646,27 @@ queue:
       - "cuanto-ejercicio-necesita-perro"
       - "perro-sobrepeso-dieta-ejercicio"
 
+  - id: "q_029"
+    title: "Qué hacer si encuentras un animal abandonado en España"
+    blog_type: "guide"
+    content_type: "cluster"
+    cluster_id: "tc_hogar_mascotas"
+    animal: "ambos"
+    target_keywords: ["seprona animales", "seprona", "teléfono del seprona", "que es seprona", "seprona denuncias anónimas", "perro abandonado", "abandono animales"]
+    unique_angle: "Protocolo práctico de los primeros 10 minutos: seguridad, fotos, ubicación, teléfono correcto según situación, microchip, cuándo insistir y qué errores evitar. Diferencial frente a SERP: no solo define el SEPRONA, resuelve qué hacer si tienes el animal delante."
+    priority: "high"
+    priority_reason: "Plan v7.1 semana S3. Keyword estacional por verano y abandono. KW Surfer aportado por usuario: 'seprona' 14800, 'teléfono del seprona' 1900, 'seprona guardia civil' 1300, 'que es seprona' 1000, 'seprona denuncias anónimas' 590."
+    status: "human-review"
+    actual_word_count: 2135
+    serp_analyzed: true
+    cannibalization_check: "passed — no existía artículo dedicado a SEPRONA, abandono animal o protocolo de animal encontrado; complementa residencias, adopción/cachorro y hogar seguro."
+    notes: "Creado 2026-07-01. SERP real aportada por usuario: AI Overview, MITECO, Instagram SEPRONA, Guardia Civil, Kimba y Canal Extremadura. Slug: animal-abandonado-seprona-espana. URL: /cuidados/animal-abandonado-seprona-espana/."
+    depends_on: []
+    internal_link_targets:
+      - "cachorro-primeras-semanas-casa"
+      - "como-presentar-perro-gato"
+      - "cuanto-cuesta-mantener-un-perro-al-mes"
+
   # === NEW ITEMS FROM KW SURFER AUDIT 2026-04-09 ===
 
   - id: "q_024"

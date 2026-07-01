@@ -5052,3 +5052,47 @@ blogs:
   has_eeat_signals: true
   notes: "Plan v7 #13. SERP informational (Kiwoko, Purina, Hill's). Unique angle: niveles de gravedad + auditoría por habitación + protocolo emergencia vet Laura + 15 plantas seguras. Resuelve microbúsquedas virales (sansevieria, eucalipto, orquídea, potus). Valencia mención (adelfa). Cross-cluster link with alimentos-toxicos-gatos. 5 FAQs from PAA/related searches. Intro pattern: dato sorprendente (5 hojas lirio = fallo renal)."
   needs_update_reason: ''
+
+- slug: animal-abandonado-seprona-espana
+  title: "SEPRONA animales: qué hacer ante un abandono"
+  file_path: src/content/articulos/animal-abandonado-seprona-espana.mdx
+  status: human-review
+  published_date: '2026-07-01'
+  last_updated: ''
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_hogar_mascotas
+  is_pillar: false
+  target_keywords:
+  - keyword: "seprona animales"
+    search_volume: 1300
+    is_primary: true
+  - keyword: "seprona"
+    search_volume: 14800
+    is_primary: false
+  - keyword: "teléfono del seprona"
+    search_volume: 1900
+    is_primary: false
+  - keyword: "que es seprona"
+    search_volume: 1000
+    is_primary: false
+  - keyword: "seprona denuncias anónimas"
+    search_volume: 590
+    is_primary: false
+  - keyword: "perro abandonado"
+    search_volume: 720
+    is_primary: false
+  - keyword: "abandono animales"
+    search_volume: 480
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_to:
+  - cachorro-primeras-semanas-casa
+  - como-presentar-perro-gato
+  - cuanto-cuesta-mantener-un-perro-al-mes
+  internal_links_from: []
+  word_count: 2135
+  has_eeat_signals: true
+  notes: "Plan v7.1 semana S3. SERP real aportada por usuario 2026-07-01: AI Overview sobre funciones SEPRONA, MITECO, perfil Instagram SEPRONA, Guardia Civil, protectora Kimba y Canal Extremadura. Ángulo: protocolo de actuación para primeros 10 minutos, a quién llamar según situación, microchip, denuncia, casos donde insistir y errores que evitar. Sin anécdotas ficticias Mango/Kira; autoridad basada en fuentes oficiales MITECO/Guardia Civil/BOE."
+  needs_update_reason: ''
