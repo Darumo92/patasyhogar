@@ -2,7 +2,7 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-06-28 CEST
+Última actualización: 2026-07-01 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
@@ -25,6 +25,7 @@ Tracking de contenido publicado en Medium, Quora y Pinterest.
 
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-07-01 | "Qué deberíamos hacer con los perros que se encuentran en la calle y abandonados" | https://es.quora.com/Qu%C3%A9-deber%C3%ADamos-hacer-con-los-perros-que-se-encuentran-en-la-calle-y-abandonados | No | Vigésima primera respuesta cuenta. Perros encontrados en la calle o abandonados: diferenciar perro perdido/abandonado/callejero, acercamiento prudente, llamada a policía local/Guardia Civil/servicio municipal si hay riesgo o lesión, comprobación de microchip en clínica/protectora, documentación básica y acogida temporal separada hasta revisión veterinaria. Sin enlace propio porque el artículo SEPRONA aún no existe y otros enlaces quedaban forzados. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-29 | "Es normal que un perro pase el día sin comer" | https://es.quora.com/Es-normal-que-un-perro-pase-el-día-sin-comer | Sí | Vigésima respuesta cuenta. Perro que pasa el día sin comer: diferenciar comida saltada puntual de inapetencia con síntomas, calor/estrés/premios, qué probar sin reforzar caprichos, señales veterinarias y cachorros/senior. Enlace contextual a guía de perro no quiere comer. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-28 | "Verter agua sobre su perro es malo o bueno para mantenerlo fresco en el verano" | https://es.quora.com/Verter-agua-sobre-su-perro-es-malo-o-bueno-para-mantenerlo-fresco-en-el-verano | Sí | Decimonovena respuesta cuenta. Mojar a un perro en verano: cuándo ayuda, cómo hacerlo con agua fresca, zonas útiles, ventilación, señales de golpe de calor, errores a evitar y prevención de paseos en horas de calor. Enlace contextual a guía de golpe de calor en perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-06-26 | "Qué alimentos nunca jamás en la vida deberías darle a un perro por ser potencialmente tóxicos" | https://es.quora.com/Qu%C3%A9-alimentos-nunca-jam%C3%A1s-en-la-vida-deber%C3%ADas-darle-a-un-perro-por-ser-potencialmente-t%C3%B3xicos | Sí | Decimoctava respuesta cuenta. Alimentos tóxicos/prohibidos para perros: chocolate/cacao, uvas/pasas, cebolla/ajo/puerro/cebollino, xilitol, alcohol/cafeína, huesos cocinados, semillas/huesos de frutas, comida grasa y qué hacer ante ingesta dudosa. Enlace contextual a guía de alimentos prohibidos para perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
