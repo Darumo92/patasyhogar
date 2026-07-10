@@ -2,7 +2,7 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-07-09 CEST
+Última actualización: 2026-07-10 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
@@ -25,6 +25,7 @@ Tracking de contenido publicado en Medium, Quora y Pinterest.
 
 | Fecha | Pregunta | URL | Link | Notas |
 |---|---|---|---|---|
+| 2026-07-10 | "¿Cómo y cada cuánto se debe bañar un perro?" | https://es.quora.com/Cómo-y-cada-cuánto-se-debe-bañar-un-perro | Sí | Vigésima cuarta respuesta cuenta. Bañar perro: frecuencia según tipo de pelo (corto 2-3 meses, doble capa 4-6 semanas, largo/rizado más), diferencia verano (agua sin champú OK, champú frecuente reseca), señales de exceso (caspa, picor), método correcto (cepillar antes, agua tibia, champú perro, aclarar y secar bien). Mención de Kira. Enlace contextual a guía completa cada cuánto bañar perro. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-07-01 | "Qué deberíamos hacer con los perros que se encuentran en la calle y abandonados" | https://es.quora.com/Qu%C3%A9-deber%C3%ADamos-hacer-con-los-perros-que-se-encuentran-en-la-calle-y-abandonados | No | Vigésima primera respuesta cuenta. Perros encontrados en la calle o abandonados: diferenciar perro perdido/abandonado/callejero, acercamiento prudente, llamada a policía local/Guardia Civil/servicio municipal si hay riesgo o lesión, comprobación de microchip en clínica/protectora, documentación básica y acogida temporal separada hasta revisión veterinaria. Sin enlace propio porque el artículo SEPRONA aún no existe y otros enlaces quedaban forzados. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-07-09 | "¿Qué cuidados básicos necesita un perro recién adoptado?" | https://es.quora.com/Qué-cuidados-básicos-necesita-un-perro-recién-adoptado | Sí | Vigésima segunda respuesta cuenta. Perro recién adoptado: veterinario antes que juguetes, regla 3-3-3, no saturar la agenda, transición de comida gradual, normas desde el día uno. Enlace contextual a guía de primeras semanas en casa. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-07-09 | "¿Cómo hacer que un gato de interior sea más feliz?" | https://es.quora.com/Cómo-podemos-hacer-que-nuestro-gato-sea-más-feliz-Tienes-algunos-consejos-para-mantener-feliz-a-tu-gato-de-interior | Sí | Vigésima tercera respuesta cuenta. Gato feliz en interior: casa en tres dimensiones (alturas), comida como juego de búsqueda, agua en movimiento con fuente, ventana con repisa, cajas de cartón. Anécdota Mango con caja de zapatos y bolas de pienso. Enlace contextual a sección de juguetes y enriquecimiento. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
