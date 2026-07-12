@@ -2,7 +2,7 @@
 
 Estrategia, reglas y actividad reciente en Reddit.
 
-Última actualización: 2026-07-10 CEST
+Última actualización: 2026-07-12 CEST
 
 > **Checklist sesión:** Verificar karma/visibilidad via `old.reddit.com/user/Pristine_Review5630/` · Escanear posts nuevos con `old.reddit.com/r/SUB/new/` y búsquedas internas · Revisar replies en hilos trackeados · Continuar plan según día actual.
 
@@ -15,6 +15,7 @@ Estrategia, reglas y actividad reciente en Reddit.
 Karma 2026-06-27: post=28, comment=122, total=150. Leído desde `old.reddit.com/user/Pristine_Review5630/`; cuenta visible públicamente. Mantener old.reddit como método preferente.
 Karma 2026-06-28: post=28, comment=122, total=150. Leído desde `old.reddit.com/user/Pristine_Review5630/` antes de publicar los comentarios del día; cuenta visible públicamente. Mantener old.reddit como método preferente.
 Karma 2026-07-01: post=28, comment=128, total=156. Leído desde `old.reddit.com/user/Pristine_Review5630/`; cuenta visible públicamente. Mantener old.reddit como método preferente.
+Karma 2026-07-12: post=28, comment=147, total=175. Leído desde `old.reddit.com/user/Pristine_Review5630/`; cuenta visible públicamente. Mantener old.reddit como método preferente.
 Karma 2026-07-10: post=28, comment=140, total=168. Leído desde `old.reddit.com/user/Pristine_Review5630/`; cuenta visible públicamente. Mantener old.reddit como método preferente.
 Karma 2026-07-08: post=28, comment=136, total=164. Leído desde `old.reddit.com/user/Pristine_Review5630/`; cuenta visible públicamente. Mantener old.reddit como método preferente.
 Karma 2026-07-02: post=28, comment=130, total=158. Leído desde `old.reddit.com/user/Pristine_Review5630/`; cuenta visible públicamente. Mantener old.reddit como método preferente.
@@ -44,7 +45,7 @@ Karma 2026-05-04: comment=12, link=3, total=15 (subió +4 desde 2026-05-03)
 ## Reglas Reddit
 
 - **Mínimo 30-45 min entre comentarios** primera semana (mejor 1h). Cuenta nueva + rapidez = shadowban.
-- **Link propio permitido con cautela:** la cuenta cumple karma >50 y >1 mes, pero debe haber 5-7 días entre enlaces a patasyhogar.com. Último enlace publicado: 2026-07-08; no enlazar antes del 2026-07-13 como mínimo, mejor 2026-07-15 si no hay un encaje muy claro.
+- **Link propio permitido con cautela:** la cuenta cumple karma >50 y >1 mes, pero debe haber 5-7 días entre enlaces a patasyhogar.com. Último enlace publicado: 2026-07-08; gap cumplido a partir del 2026-07-13. Solo enlazar si el contexto encaja de forma natural.
 - **Chequear shadowban:** copiar URL comentario → abrir en incógnito. Si no aparece → shadowban.
 - Comprobar karma via API pública: `curl https://www.reddit.com/user/Pristine_Review5630/about.json`
 - Cross-post mínimo 48h tras post original.
@@ -91,6 +92,7 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 
 ## Decisiones operativas Reddit/outreach
 
+- 2026-07-12: Cierre domingo. Usuario confirma publicados los 3 comentarios del día, todos sin enlace propio (gap hasta 13/07, cumplido mañana). r/mascotas `1uu1qxu` (Luna, socialización perra 3 años, mención Kira), r/GatosArgentinos `1url936` (duelo Bonnie, hermanito para Chloe, mención Mango) y r/mascotas `1utshvz` (nombre para cachorro recién adoptado, ligero). También confirmada Quora del día sobre juguetes para perros con enlace contextual a `/juguetes/mejor-juguete-resistente-perros-guia/`. Karma actual: 28 post + 147 comment = 175. Gap de enlace cumplido a partir de mañana 13/07. Próximo artículo S5 "juegos con perros" toca semana del 13/07.
 - 2026-07-10: Cierre viernes Reddit. Usuario confirma publicados los 4 borradores del día, todos sin enlace propio (gap hasta 13/07). r/GatosArgentinos `1url936` (duelo y hermanito para Chloe, sin enlace), r/mascotas `1urx53w` (homenaje a Rafael, sin enlace), r/mascotas `1uo1880` (arenero por gato, sin enlace, mención Mango), r/mascotas `1upq76n` (integrar gato mayor con 3 residentes, sin enlace). También confirmada Quora del día con enlace contextual a `/cuidados/cada-cuanto-banar-perro/`. Karma actual: 28 post + 140 comment = 168. Artículo S4 confirmado como publicado el 08/07. Gap de enlace hasta 13/07. Próximo artículo S5 "juegos con perros" toca semana 13/07. r/GatosArgentinos `1upeusk` (internación por lirio, con enlace contextual a guía de plantas tóxicas; gap cumplido desde 26 jun), r/mascotas `1uq6iye` (recomendación raza de gatitos, sin enlace, mención Mango y adopción), r/mascotas `1uqh6rx` (controlado por su gato, sin enlace, comentario breve con Mango). Humanizer aplicado, castellano España. Gap de enlace reiniciado hoy: no enlazar antes del 2026-07-13. Artículo S4 `cada cuanto bañar un perro` pendiente de SERP real.
 - 2026-07-02: Cierre jueves Reddit. Usuario confirma comentados los 3 borradores del día, todos sin enlace propio aunque el gap desde el link del 2026-06-26 ya estaba cumplido, porque no había encaje claro. Publicados en r/mascotas `1ul979z` (Ana Sofi, perrita rescatada en celo; comentario ajustado tras revisar foto, orejas/carita y recomendación breve de controlar puertas/ventanas y revisar esterilización), r/mascotas `1ukqm9o` (Capitán, perro adulto rescatado; comentario adaptado a fotos con lacito, cuenco en sofá y tono de "esta casa es mía") y r/GatosArgentinos `1uksl8e` (tip con comida húmeda urinary para hidratar gato; comentario breve sobre no convertirlo en única forma de beber y consultar pauta si hay tema urinario). Humanizer aplicado, castellano España. Quora del día sobre hidratación en gatos queda sin marcar como publicada salvo confirmación explícita.
 - 2026-07-01: Cierre miércoles Reddit. Usuario confirma comentados los 3 borradores del día, todos sin enlace propio pese a cumplir gap mínimo desde el link del 2026-06-26 porque no había encaje suficientemente fuerte para enlace. Publicados en r/GatosArgentinos `1ujt7sx` (actualización de dos gatitos rescatados de hospital, comentario ligero sobre Rita y Mati tras revisar fotos), r/GatosArgentinos `1uk0c7n` (gato que se cayó del escritorio mientras OP dibujaba, comentario humorístico corto) y r/mascotas `1ukam6y` (Aria prefiere cajas/cartón a juguetes, comentario natural con Mango). Humanizer aplicado, castellano España. Usuario confirma también Quora publicado sobre perros abandonados, sin enlace propio.
@@ -119,6 +121,10 @@ Patrón: experiencia detallada + conclusión técnica + pregunta específica al 
 ---
 
 ## Comentarios recientes (2026-05-16 en adelante)
+
+- 2026-07-12 r/mascotas: Luna — Debería buscarle un novio? (`1uu1qxu`) — perra de 3 años, dueña la ve triste y duda si necesita otro perro. Recomendar socialización con otros perros fuera de casa antes de añadir un segundo, presentación gradual si decide. Mención de Kira en el parque. Humanizer aplicado. Castellano España. Sin link. Hilo: https://reddit.com/r/mascotas/comments/1uu1qxu/ · URL exacta comentario pendiente de capturar.
+- 2026-07-12 r/GatosArgentinos: Cuánto tiempo esperar para darle un hermanito (`1url936`) — duelo por Bonnie, Chloe quedó sola. Recomendar 1-2 semanas de espera, presentación con habitaciones separadas y olores. Mención de Mango. Humanizer aplicado. Castellano España. Sin link. Hilo: https://reddit.com/r/GatosArgentinos/comments/1url936/ · URL exacta comentario pendiente de capturar.
+- 2026-07-12 r/mascotas: Qué nombre puedo ponerle? (`1utshvz`) — cachorro recién adoptado. Comentario ligero con sugerencias (Lucho, Bruno, Canelo, Blas) y referencia a Kira. Humanizer aplicado. Castellano España. Sin link. Hilo: https://reddit.com/r/mascotas/comments/1utshvz/ · URL exacta comentario pendiente de capturar.
 
 - 2026-07-10 r/GatosArgentinos: Cuánto tiempo tengo que esperar para darle un hermanito a mi gata? (`1url936`) — duelo por gata Bonnie, Chloe quedó sola llorando, cuánto esperar para adoptar otro. Recomendar esperar 3-4 semanas, mantener rutina, presentación lenta con habitaciones separadas y olores. Mención de Mango. Humanizer aplicado. Castellano España. Sin link. Hilo: https://reddit.com/r/GatosArgentinos/comments/1url936/ · URL exacta comentario pendiente de capturar.
 - 2026-07-10 r/mascotas: Homenaje a Rafael (`1urx53w`) — tributo a chihuahua fallecido. Comentario corto y cálido, destacando lo del rey del barrio y la amistad con el Rottweiler. Humanizer aplicado. Castellano España. Sin link. Hilo: https://reddit.com/r/mascotas/comments/1urx53w/ · URL exacta comentario pendiente de capturar.
