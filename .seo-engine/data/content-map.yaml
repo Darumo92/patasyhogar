@@ -1,4 +1,4 @@
-last_updated: '2026-06-24'
+last_updated: '2026-07-21'
 blogs:
 - slug: golpe-calor-perros
   title: "Golpe de calor en perros: síntomas y primeros auxilios"
@@ -5095,4 +5095,46 @@ blogs:
   word_count: 2135
   has_eeat_signals: true
   notes: "Plan v7.1 semana S3. SERP real aportada por usuario 2026-07-01: AI Overview sobre funciones SEPRONA, MITECO, perfil Instagram SEPRONA, Guardia Civil, protectora Kimba y Canal Extremadura. Ángulo: protocolo de actuación para primeros 10 minutos, a quién llamar según situación, microchip, denuncia, casos donde insistir y errores que evitar. Sin anécdotas ficticias Mango/Kira; autoridad basada en fuentes oficiales MITECO/Guardia Civil/BOE."
+  needs_update_reason: ''
+- slug: juegos-con-perros
+  title: "Juegos con perros: ideas para estimularle en casa y fuera"
+  file_path: src/content/articulos/juegos-con-perros.mdx
+  status: published
+  published_date: '2026-07-21'
+  last_updated: ''
+  blog_type: tutorial
+  content_type: informativo
+  cluster_id: tc_juguetes_enriquecimiento
+  is_pillar: false
+  target_keywords:
+  - keyword: "juegos con perros"
+    search_volume: 1000
+    is_primary: true
+  - keyword: "juegos de perros"
+    search_volume: 1300
+    is_primary: false
+  - keyword: "juegos inteligencia perros"
+    search_volume: 260
+    is_primary: false
+  - keyword: "juegos olfativos para perros"
+    search_volume: 140
+    is_primary: false
+  - keyword: "juegos mentales para perros caseros"
+    search_volume: 0
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - guia-completa-juguetes-enriquecimiento-mascotas
+  - mejor-juguete-mental-perros-guia
+  - alfombras-olfato-perros
+  - mejor-circuito-agilidad-perros
+  - cuanto-ejercicio-necesita-perro
+  - ansiedad-separacion-perros
+  - mejor-juguete-resistente-perros-guia
+  - mejor-juguete-cachorro
+  internal_links_from: []
+  word_count: 2113
+  has_eeat_signals: true
+  notes: "Plan v7.1 semana S5. SERP real aportada por usuario 2026-07-21: Purina, Kiwoko, Agora Canina, Tiendanimal, Arquivet. Todos informativos. PAA: juegos para perros en casa, juegos caseros, como calmar perro hiperactivo, juegos ansiedad, alfombra olfativa. Ángulo: organización por tipo de estímulo (olfato, inteligencia, físico, social), juegos con juguete vs DIY gratis. Narrativa consistente con Kira."
   needs_update_reason: ''

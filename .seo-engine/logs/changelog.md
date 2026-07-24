@@ -1,5 +1,17 @@
 # SEO Content Engine — Changelog
 
+## 2026-07-21 12:00
+**Action:** Create weekly article — juegos-con-perros (Plan v7.1 S5)
+**Files:**
+- `src/content/articulos/juegos-con-perros.mdx` (created, 2113 words, published)
+- `public/images/articulos/juegos-con-perros.webp` (Pexels, Tomás Asurmendi)
+- `.seo-engine/data/content-map.yaml` — nuevo entry slug `juegos-con-perros`
+- `.seo-engine/data/content-queue.yaml` — q_024 actualizado de `planned` a `published`
+- `docs/PLAN_EDITORIAL_v7.md` — S5 marcado [x] creado 2026-07-21, S4 corregido a publicado
+**Summary:** Artículo informativo sobre juegos con perros. SERP real: Purina, Kiwoko, Agora Canina, Tiendanimal, Arquivet (todos informativos). Ángulo: organización por tipo de estímulo (olfato, inteligencia, físico, social) con variantes con juguete y DIY gratis. Narrativa consistente con Kira. 8 internal links.
+**Triggered by:** user (weekly plan v7.1 execution)
+**Status update:** Published (human-review approved by user). S6 reprogramado a 2026-07-24.
+
 ## 2026-07-01 12:00
 **Action:** Create weekly article — animal-abandonado-seprona-espana
 **Files:**

@@ -685,14 +685,14 @@ clusters:
         slug: "como-adiestrar-gato-tecnicas"
         status: "published"
         blog_slug: "como-adiestrar-gato-tecnicas"
-      # Planned pages
-      - title: "Juegos con perros: ideas para estimulación mental y física"
+      - title: "Juegos con perros: ideas para estimularle en casa y fuera"
         target_keyword: "juegos con perros"
-        slug: "juegos-con-perros-estimulacion"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
-        notes: "Added 2026-04-09. KW Surfer: 'juegos con perros' = 1000. Related: 'juegos inteligencia perros' = 260, 'juegos olfativos para perros' = 140."
+        slug: "juegos-con-perros"
+        status: "published"
+        serp_analyzed: true
+        blog_slug: "juegos-con-perros"
+        notes: "Published 2026-07-21. KW Surfer: 'juegos con perros' = 1000. SERP real: Purina, Kiwoko, Agora Canina, Tiendanimal y Arquivet."
+      # Planned pages
       - title: "Mejores juguetes para perros grandes"
         target_keyword: "juguetes perro grande"
         slug: "mejores-juguetes-perros-grandes"

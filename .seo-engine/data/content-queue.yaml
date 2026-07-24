@@ -670,26 +670,26 @@ queue:
   # === NEW ITEMS FROM KW SURFER AUDIT 2026-04-09 ===
 
   - id: "q_024"
-    title: "Juegos con perros: ideas para estimulación mental y física"
+    title: "Juegos con perros: ideas para estimularle en casa y fuera"
     blog_type: "tutorial"
     content_type: "cluster"
     cluster_id: "tc_juguetes_enriquecimiento"
     animal: "perro"
     target_keywords: ["juegos con perros", "juegos inteligencia perros", "juegos olfativos para perros", "juegos mentales para perros"]
-    unique_angle: "Ideas prácticas organizadas por tipo (olfato, inteligencia, físicos, sociales) con nivel de dificultad. Diferencia juegos que necesitan juguetes vs juegos gratis. Experiencia real con Kira."
+    unique_angle: "Ideas prácticas organizadas por tipo (olfato, inteligencia, físicos, sociales) con nivel de dificultad. Diferencia juegos que necesitan juguetes vs juegos gratis. Narrativa consistente con Kira."
     priority: "medium"
     priority_reason: "Added from KW Surfer audit. 'juegos con perros' = 1000 vol. Fills gap between product comparativas and enrichment pillar."
-    status: "planned"
-    estimated_word_count: 2500
-    serp_analyzed: false
-    cannibalization_check: "passed — pillar covers overview, this goes deep into games specifically"
-    notes: "Tipo: informativo. KW Surfer data: 'juegos con perros' = 1000, 'juegos inteligencia perros' = 260, 'juegos olfativos para perros' = 140."
+    status: "published"
     depends_on: []
     internal_link_targets:
       - "guia-completa-juguetes-enriquecimiento-mascotas"
       - "mejor-juguete-mental-perros-guia"
       - "alfombras-olfato-perros"
       - "mejor-circuito-agilidad-perros"
+      - "cuanto-ejercicio-necesita-perro"
+      - "ansiedad-separacion-perros"
+      - "mejor-juguete-resistente-perros-guia"
+      - "mejor-juguete-cachorro"
 
   - id: "q_025"
     title: "Mejor collar antiparasitario para perros 2026"
