@@ -1,4 +1,4 @@
-last_updated: "2026-04-05"
+last_updated: "2026-08-01"
 
 queue:
   # === PILLAR PAGES (high priority) ===
@@ -711,3 +711,28 @@ queue:
       - "mejor-antiparasitario-perros-guia"
       - "garrapatas-perros-prevenir-extraer"
       - "guia-completa-higiene-grooming-perros"
+
+  - id: "q_030"
+    title: "Cuántas horas duerme un perro según su edad"
+    blog_type: "guide"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    animal: "perro"
+    target_keywords: ["cuántas horas duerme un perro", "cuánto duerme un perro", "porque mi perro duerme mucho", "cuántas horas duerme un cachorro", "cuántas horas duerme un perro mayor"]
+    unique_angle: "Orientación por edad sin falsa precisión: diferencia sueño, somnolencia y descanso; separa noche y siestas; y prioriza el cambio respecto al patrón habitual junto con señales de alerta respaldadas por fuentes veterinarias."
+    priority: "medium"
+    priority_reason: "Plan v7.1 S8. Keyword Surfer actualizada a 210 búsquedas/mes. SERP informacional con AI Overview y guías de marcas, pero sin una pieza que combine tabla por edad, evidencia, sueño nocturno y triaje veterinario."
+    status: "human-review"
+    actual_word_count: 2313
+    serp_analyzed: true
+    cannibalization_check: "passed — cachorro-primeras-semanas-casa solo contiene una sección breve para cachorros; no existe guía dedicada para todas las edades"
+    notes: "SERP investigada 2026-08-01 con Chromium y Keyword Surfer. Brief: docs/brief-s8-cuantas-horas-duerme-perro.md. Evitar anécdotas de Kira; usar fuentes verificables y revisión humana."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-salud-bienestar-perros"
+      - "cachorro-primeras-semanas-casa"
+      - "cuanto-ejercicio-necesita-perro"
+      - "juegos-con-perros"
+      - "por-que-perro-ladra-noche"
+      - "golpe-calor-perros"
+      - "mejor-cama-perro-guia"

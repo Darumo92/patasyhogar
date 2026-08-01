@@ -1,5 +1,34 @@
 # SEO Content Engine — Changelog
 
+## 2026-08-01 10:10
+**Action:** Creación del artículo S8 — cuántas horas duerme un perro
+**Files:**
+- `src/content/articulos/cuantas-horas-duerme-perro.mdx` — artículo creado, 2313 palabras, estado `human-review`
+- `public/images/articulos/cuantas-horas-duerme-perro.webp` — imagen Pexels
+- `src/content/articulos/guia-completa-salud-bienestar-perros.mdx` — enlace entrante añadido
+- `src/content/articulos/cachorro-primeras-semanas-casa.mdx` — enlace entrante añadido
+- `src/content/articulos/guia-completa-hogar-seguro-mascotas.mdx` — enlace entrante añadido
+- `src/content/articulos/mejor-cama-perro-guia.mdx` — enlace entrante añadido
+- `.seo-engine/data/content-map.yaml` — nueva entrada `cuantas-horas-duerme-perro`
+- `.seo-engine/data/content-queue.yaml` — `q_030` actualizado a `human-review` con recuento real
+- `.seo-engine/data/seo-keywords.csv` — keyword principal mapeada al artículo y estado actualizado
+- `.seo-engine/data/topic-clusters.yaml` — página S8 vinculada al nuevo artículo
+- `docs/PLAN_EDITORIAL_v7.md` — S8 marcado como creado y pendiente de revisión humana
+**Summary:** Artículo informativo de 2313 palabras con enfoque híbrido prudente: rangos divulgativos como orientación, evidencia sobre sueño y reposo, y triaje veterinario. Fuentes Kinsman, Lucas, Woods, Takeuchi, Fast, Merck y Cornell. Imagen de Pexels. Estado `human-review`.
+**Verification:** `npm run build` correcto; 161 páginas generadas; creada `dist/cuidados/cuantas-horas-duerme-perro/index.html`.
+**Triggered by:** user (Plan v7.1 S8)
+
+## 2026-08-01 09:00
+**Action:** Investigación SERP y brief editorial — S8 cuántas horas duerme un perro
+**Files:**
+- `docs/brief-s8-cuantas-horas-duerme-perro.md` — brief SERP, competidores, evidencia, outline y enlazado
+- `.seo-engine/data/seo-keywords.csv` — keyword principal añadida con volumen actual 210
+- `.seo-engine/data/content-queue.yaml` — nuevo `q_030` planificado
+- `.seo-engine/data/topic-clusters.yaml` — nueva página planificada en `tc_salud_comportamiento_perros`
+- `docs/PLAN_EDITORIAL_v7.md` — volumen S8 corregido de 1600 histórico a 210 actual
+**Summary:** SERP real obtenida con Chromium y Keyword Surfer: AI Overview, PAA, relacionadas y competidores Tiendanimal, Purina, tQel, Reddit, Kiwoko y PAJ GPS. El análisis detecta que los rangos comerciales por edad no son límites clínicos universales; el ángulo será orientación por edad, noche/siestas y cambio respecto al patrón habitual con fuentes veterinarias verificables.
+**Triggered by:** user (Plan v7.1 S8)
+
 ## 2026-07-21 12:00
 **Action:** Create weekly article — juegos-con-perros (Plan v7.1 S5)
 **Files:**

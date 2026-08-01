@@ -1,4 +1,4 @@
-last_updated: "2026-04-04"
+last_updated: "2026-08-01"
 
 clusters:
   - cluster_id: "tc_alimentacion_perros"
@@ -903,6 +903,13 @@ clusters:
         slug: "evitar-perro-coma-cosas-suelo"
         status: "published"
         blog_slug: "evitar-perro-coma-cosas-suelo"
+      - title: "Cuántas horas duerme un perro según su edad"
+        target_keyword: "cuántas horas duerme un perro"
+        slug: "cuantas-horas-duerme-perro"
+        status: "human-review"
+        serp_analyzed: true
+        blog_slug: "cuantas-horas-duerme-perro"
+        notes: "Plan v7.1 S8. Volumen actual 210 (2026-08-01). Ángulo: orientación por edad sin falsa precisión, noche/siestas, patrón individual y triaje veterinario."
       # Planned pages
       - title: "Primeros auxilios para perros: guía de emergencia"
         target_keyword: "primeros auxilios perro emergencia"

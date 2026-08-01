@@ -3,7 +3,7 @@
 > Basado en datos reales de Keyword Surfer (abril 2026)
 > Sustituye a PLAN_FINAL_v6_patasyhogar.ods
 > Fecha de creacion: 2026-04-12
-> Actualizado: 2026-06-12 — v7.1 semanal
+> Actualizado: 2026-08-01 — v7.1 semanal, SERP S8 validada
 
 ---
 
@@ -31,7 +31,7 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 | 38 | S5 | 2026-07-13 | Juegos con perros: ideas para estimularle en casa y fuera | juegos con perros | 1000 | Guia | Verano, mas tiempo al aire libre | [x] publicado 2026-07-21 |
 | 39 | S6 | 2026-07-24 | Mejor lanzador de pelotas para perros 2026 | lanzador pelotas perro | 880 | Comp | Exterior/verano; requiere productos reales | [ ] reprogramado |
 | 40 | S7 | 2026-07-27 | Arenero autolimpiable: merece la pena? Costes reales y alternativas | arenero autolimpiable barato | 480 | Guia | Vacaciones, gatos solos, soporte a comparativa | [ ] |
-| 41 | S8 | 2026-08-03 | Cuantas horas duerme un perro segun su edad | cuantas horas duerme un perro | 1600 | Guia | Evergreen; util en verano por letargo/calor | [ ] |
+| 41 | S8 | 2026-08-03 | Cuantas horas duerme un perro segun su edad | cuantas horas duerme un perro | 210 | Guia | Evergreen; util en verano por letargo/calor; SERP validada 2026-08-01 | [x] creado 2026-08-01, human-review |
 | 42 | S9 | 2026-08-10 | Como duermen los gatos: posturas, horas y que significan | gatos durmiendo | 1000 | Guia | Evergreen ligero para agosto | [ ] |
 | 43 | S10 | 2026-08-17 | Mi perro tiembla: causas normales y senales de alarma | temblor perros | 880 | Guia YMYL | Evergreen; exige enfoque veterinario prudente | [ ] |
 | 44 | S11 | 2026-08-24 | Por que mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guia | Evergreen comportamiento gato | [ ] |
@@ -52,6 +52,7 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 - Semana del 2026-06-15: actualizar el articulo existente `perro-miedo-petardos-fuegos-artificiales` con bloque especifico San Juan, en lugar de crear un articulo nuevo de petardos con keyword 0 y poco margen.
 - Revisar `mejor-collar-antiparasitario-perro` y `collar-antipulgas-natural-perro` antes de crear nada relacionado con collares antiparasitarios; no duplicar.
 - Sanear `content-queue.yaml` cuando se ejecute cada articulo: hay entradas marcadas como planned que ya estan publicadas.
+- S8: Keyword Surfer actualizado marca 210 busquedas/mes, no las 1600 del dato historico de abril. Brief SERP y evidencia guardado en `docs/brief-s8-cuantas-horas-duerme-perro.md`.
 
 ## Resumen ejecutivo historico v7 original
 
