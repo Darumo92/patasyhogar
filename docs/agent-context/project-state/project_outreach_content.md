@@ -2,7 +2,7 @@
 
 Tracking de contenido publicado en Medium, Quora y Pinterest.
 
-Última actualización: 2026-07-12 CEST
+Última actualización: 2026-07-13 CEST
 
 > **Checklist sesión:** Check Pinterest impresiones (si aún 0 tras 2-4 semanas → revisar Rich Pins manual).
 
@@ -24,7 +24,11 @@ Tracking de contenido publicado en Medium, Quora y Pinterest.
 **Regla operativa activa (2026-06-23):** en Quora poner enlace contextual a Patas y Hogar por defecto. Solo omitirlo si la pregunta es una urgencia veterinaria inmediata, si el enlace queda claramente forzado o si ya se está cortando una secuencia promocional concreta.
 
 | Fecha | Pregunta | URL | Link | Notas |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
+| 2026-07-18 | "¿Cómo puedes rescatar a un perro de la calle?" | https://es.quora.com/Cómo-puedes-rescatar-a-un-perro-de-la-calle | Sí | Vigésima novena respuesta cuenta. Rescatar perro de la calle: valorar desde lejos, llamar 112 si hay peligro, aproximación lateral sin mirar fijamente, leer microchip en veterinario/Policía Local/protectora, obligación legal de localizar dueño, separar de otros animales hasta revisión, cosas prácticas (correa de repuesto, comida húmeda), no dejarlo donde estaba. Enlace contextual a guía SEPRONA S3 `/cuidados/animal-abandonado-seprona-espana/`. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
+| 2026-07-15 | "¿Qué planta es venenosa para gatos?" | https://es.quora.com/Qué-planta-es-venenosa-para-gatos | Sí | Vigésima octava respuesta cuenta. Pendiente capturar datos. Usuario confirma publicada el 15/07. |
+| 2026-07-10 | "¿Cómo y cada cuánto se debe bañar un perro?" | https://es.quora.com/Cómo-y-cada-cuánto-se-debe-bañar-un-perro | Sí | Vigésima séptima respuesta cuenta. Pendiente capturar datos. Usuario confirma publicada el 10/07. Enlace contextual a `/cuidados/cada-cuanto-banar-perro/` (artículo S4 publicado 08/07). |
+| 2026-07-13 | "¿Cuáles son algunas de las mejores formas de cansar a un perro con mucha energía?" | https://es.quora.com/Cuáles-son-algunas-de-las-mejores-formas-de-cansar-a-un-perro-con-mucha-energía | Sí | Vigésima sexta respuesta cuenta. Cansar perro con mucha energía: diferencia agotar vs cansar bien, trabajo mental sobre físico, juegos de olfato en casa (premios escondidos, alfombra olfativa, toalla enrollada), Kong congelado (Kira), juguetes puzzle, paseo con correa larga y olfateo libre, escondite con el dueño. Enlace contextual a comparativa de juguetes de estimulación mental. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-07-12 | "¿Cuál es el tipo de juguete con el que más se entretienen los perros?" | https://es.quora.com/Cuál-es-el-tipo-de-juguete-con-el-que-más-se-entretienen-los-perros | Sí | Vigésima quinta respuesta cuenta. Juguetes para perros: masticación para destructores (Kong Extreme, Benebone), olfato/rompecabezas para aburridos (alfombra olfativa, puzzles), pelotas/lanzadores para perseguidores (Chuckit). Anécdota Kira con Kong congelado y manta enrollada. Enlace contextual a comparativa de juguetes resistentes para perros. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |
 | 2026-07-11 | "¿Cómo hacer para que el perro no llore cuando se queda solo?" | https://es.quora.com/Cómo-hacer-para-que-el-perro-no-llore-cuando-se-queda-solo | — | Pendiente capturar datos. Usuario confirma publicada el 11/06. Anotar para no repetir. |
 | 2026-07-01 | "Qué deberíamos hacer con los perros que se encuentran en la calle y abandonados" | https://es.quora.com/Qu%C3%A9-deber%C3%ADamos-hacer-con-los-perros-que-se-encuentran-en-la-calle-y-abandonados | No | Vigésima primera respuesta cuenta. Perros encontrados en la calle o abandonados: diferenciar perro perdido/abandonado/callejero, acercamiento prudente, llamada a policía local/Guardia Civil/servicio municipal si hay riesgo o lesión, comprobación de microchip en clínica/protectora, documentación básica y acogida temporal separada hasta revisión veterinaria. Sin enlace propio porque el artículo SEPRONA aún no existe y otros enlaces quedaban forzados. Humanizer aplicado. URL exacta de respuesta pendiente de capturar. |

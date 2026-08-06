@@ -1,5 +1,17 @@
 # SEO Content Engine — Changelog
 
+## 2026-08-06 10:00
+**Action:** Creación del artículo S9 — cómo duermen los gatos
+**Files:**
+- `src/content/articulos/como-duermen-gatos-posturas-horas-significado.mdx` — artículo creado, ~2200 palabras, estado `human-review`
+- `public/images/articulos/como-duermen-gatos-posturas-horas-significado.webp` — imagen Pexels (Ivett M)
+- `.seo-engine/data/content-map.yaml` — entrada añadida
+- `.seo-engine/data/topic-clusters.yaml` — añadido a tc_salud_comportamiento_gatos
+- `.seo-engine/data/seo-keywords.csv` — keyword gatos durmiendo=1000 KD 0 registrada
+- `docs/PLAN_EDITORIAL_v7.md` — S9 marcado como creado
+**Summary:** Artículo S9 del plan v7.1. SERP investigada con Playwright + KW Surfer (gatos durmiendo=1000, posturas gato enfermo=720, KD 0). AI Overview activa. Ángulo único: conectar posturas de sueño con salud felina (gap en la SERP). E-E-A-T: experiencias con Mango, veterinaria Laura, referencias veterinarias. Internal links: pillar salud gatos, enriquecimiento ambiental, cama gato, edad gato.
+**Triggered by:** user
+
 ## 2026-08-01 10:10
 **Action:** Creación del artículo S8 — cuántas horas duerme un perro
 **Files:**

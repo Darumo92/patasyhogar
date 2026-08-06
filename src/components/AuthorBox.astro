@@ -1,4 +1,9 @@
 ---
+interface Props {
+  esInformativo?: boolean;
+}
+
+const { esInformativo = false } = Astro.props;
 ---
 <aside class="author-box" aria-labelledby="author-box-heading">
   <div class="author-box-content">
@@ -14,11 +19,13 @@
       <span aria-hidden="true"> · </span>
       <a href="/contacto/">Contacto</a>
     </p>
-    <p class="author-box-disclosure">
-      <strong>Transparencia:</strong> este artículo contiene enlaces de afiliados. Si compras a través de ellos,
-      Patas y Hogar recibe una pequeña comisión sin coste adicional para ti. Las recomendaciones no dependen
-      de la comisión.
-    </p>
+    {!esInformativo && (
+      <p class="author-box-disclosure">
+        <strong>Transparencia:</strong> este artículo contiene enlaces de afiliados. Si compras a través de ellos,
+        Patas y Hogar recibe una pequeña comisión sin coste adicional para ti. Las recomendaciones no dependen
+        de la comisión.
+      </p>
+    )}
   </div>
 </aside>
 

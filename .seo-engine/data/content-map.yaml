@@ -1,5 +1,49 @@
-last_updated: '2026-08-01'
+last_updated: '2026-08-06'
 blogs:
+- slug: como-duermen-gatos-posturas-horas-significado
+  title: "Cómo duermen los gatos: posturas, horas y qué significan"
+  file_path: src/content/articulos/como-duermen-gatos-posturas-horas-significado.mdx
+  status: human-review
+  published_date: '2026-08-10'
+  last_updated: ''
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_gatos
+  is_pillar: false
+  target_keywords:
+  - keyword: "gatos durmiendo"
+    search_volume: 1000
+    is_primary: true
+  - keyword: "gato durmiendo"
+    search_volume: 1000
+    is_primary: false
+  - keyword: "posturas gato enfermo"
+    search_volume: 720
+    is_primary: false
+  - keyword: "gatos dormidos"
+    search_volume: 480
+    is_primary: false
+  - keyword: "como duerme un gato enfermo"
+    search_volume: 720
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned:
+  - Purina
+  - Rover.com
+  - FELIWAY
+  - Grupo Yagu
+  - Experto Animal
+  - Vitakraft
+  - Clarin
+  internal_links_out:
+  - guia-completa-salud-bienestar-gatos
+  - enriquecimiento-ambiental-gato-interior
+  - mejor-cama-gato-guia
+  - como-saber-edad-gato
+  word_count: 2599
+  has_eeat_signals: true
+  notes: "Plan v7.1 S9. SERP real 2026-08-06 con KW Surfer (gatos durmiendo=1000, posturas gato enfermo=720, KD 0). AI Overview activa. Ángulo: conectar posturas de sueño con salud felina, gap en SERP para 'posturas gato enfermo'. E-E-A-T: experiencias con Mango, veterinaria Laura."
+  needs_update_reason: ''
 - slug: cuantas-horas-duerme-perro
   title: "Cuántas horas duerme un perro según su edad"
   file_path: src/content/articulos/cuantas-horas-duerme-perro.mdx
