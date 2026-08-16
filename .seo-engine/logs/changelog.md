@@ -1,5 +1,16 @@
 # SEO Content Engine — Changelog
 
+## 2026-08-16 12:00
+**Action:** Aprobación humana del artículo S10
+**Files:**
+- `.seo-engine/data/content-map.yaml` — status → published
+- `.seo-engine/data/topic-clusters.yaml` — status → published
+- `.seo-engine/data/content-queue.yaml` — q_031 → published
+- `.seo-engine/data/seo-keywords.csv` — `temblor en perros` → published
+- `docs/PLAN_EDITORIAL_v7.md` — S10 → publicado
+**Summary:** Revisión humana completada y aprobada por el usuario. Estado del artículo actualizado de human-review a published.
+**Triggered by:** user
+
 ## 2026-08-16 11:30
 **Action:** Creación del artículo S10 — mi perro tiembla (YMYL)
 **Files:**

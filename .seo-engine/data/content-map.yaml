@@ -5239,7 +5239,7 @@ blogs:
 - slug: mi-perro-tiembla-causas
   title: "Mi perro tiembla: causas y cuándo preocuparse"
   file_path: src/content/articulos/mi-perro-tiembla-causas.mdx
-  status: human-review
+  status: published
   published_date: '2026-08-17'
   last_updated: ''
   blog_type: guide

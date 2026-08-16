@@ -747,7 +747,7 @@ queue:
     unique_angle: "Triaje práctico observar/cita/urgencias ligado a síntomas concretos, más los dos síndromes de temblor que la SERP demanda y nadie explica (temblor idiopático de cabeza y síndrome de shaker). YMYL con fuentes veterinarias."
     priority: "high"
     priority_reason: "Plan v7.1 S10. 'temblor en perros' = 880 KD 0.02 (verificado 2026-08-16). AI Overview activa y SERP dominada por listicles de marcas sin triaje."
-    status: "human-review"
+    status: "published"
     actual_word_count: 1713
     serp_analyzed: true
     cannibalization_check: "passed — solo menciones dispersas de temblor como síntoma (ansiedad, tóxicos, petardos, frío, hipoglucemia); no existe guía dedicada"

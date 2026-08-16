@@ -33,7 +33,7 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 | 40 | S7 | 2026-07-27 | Arenero autolimpiable: merece la pena? Costes reales y alternativas | arenero autolimpiable barato | 480 | Guia | Vacaciones, gatos solos, soporte a comparativa | [ ] |
 | 41 | S8 | 2026-08-03 | Cuantas horas duerme un perro segun su edad | cuantas horas duerme un perro | 210 | Guia | Evergreen; util en verano por letargo/calor; SERP validada 2026-08-01 | [x] creado 2026-08-01, human-review |
 | 42 | S9 | 2026-08-10 | Como duermen los gatos: posturas, horas y que significan | gatos durmiendo | 1000 | Guia | Evergreen ligero para agosto | [x] creado 2026-08-06, human-review |
-| 43 | S10 | 2026-08-17 | Mi perro tiembla: causas y cuándo preocuparse | temblor perros | 880 | Guia YMYL | Evergreen; exige enfoque veterinario prudente | [x] creado 2026-08-16, human-review |
+| 43 | S10 | 2026-08-17 | Mi perro tiembla: causas y cuándo preocuparse | temblor perros | 880 | Guia YMYL | Evergreen; exige enfoque veterinario prudente | [x] publicado 2026-08-16 |
 | 44 | S11 | 2026-08-24 | Por que mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guia | Evergreen comportamiento gato | [ ] |
 | 45 | S12 | 2026-08-31 | Lenguaje corporal de los gatos: cola, orejas, ojos y posturas | lenguaje del gato | 1000 | Guia | Vuelta a rutina, convivencia interior | [ ] |
 | 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacuna polivalente perros | 1000 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [ ] |

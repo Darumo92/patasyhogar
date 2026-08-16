@@ -913,7 +913,7 @@ clusters:
       - title: "Mi perro tiembla: causas y cuándo preocuparse"
         target_keyword: "temblor en perros"
         slug: "mi-perro-tiembla-causas"
-        status: "human-review"
+        status: "published"
         serp_analyzed: true
         blog_slug: "mi-perro-tiembla-causas"
         notes: "Plan v7.1 S10. Volumen 880 KD 0.02 (2026-08-16). SERP: AI Overview + Santévet, Purina, Kivet, Tiendanimal, WebMD, Patitas&co, Clinicanimal, tQel. Ángulo: triaje observar/cita/urgencias + temblores benignos + síndromes específicos (idiopático de cabeza, shaker). YMYL."
