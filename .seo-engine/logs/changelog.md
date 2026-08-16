@@ -1,5 +1,19 @@
 # SEO Content Engine — Changelog
 
+## 2026-08-16 11:30
+**Action:** Creación del artículo S10 — mi perro tiembla (YMYL)
+**Files:**
+- `src/content/articulos/mi-perro-tiembla-causas.mdx` — artículo creado, 1713 palabras, estado `human-review`
+- `public/images/articulos/mi-perro-tiembla-causas.webp` — imagen Pexels (susana MaRo)
+- `src/content/articulos/guia-completa-salud-bienestar-perros.mdx` — enlace entrante añadido
+- `.seo-engine/data/content-map.yaml` — entrada añadida
+- `.seo-engine/data/seo-keywords.csv` — keyword `temblor en perros` (880) registrada
+- `.seo-engine/data/topic-clusters.yaml` — añadido a tc_salud_comportamiento_perros
+- `.seo-engine/data/content-queue.yaml` — nuevo q_031 human-review
+- `docs/PLAN_EDITORIAL_v7.md` — S10 marcado como creado
+**Summary:** Guía informativa YMYL para `temblor en perros` (880 vol, KD 0.02 verificado 2026-08-16 con Keyword Surfer). SERP investigada con Playwright: AI Overview activa (Santévet, Tiendanimal) + top Santévet, Purina, Kivet, Tiendanimal, WebMD, Patitas&co, Clinicanimal, tQel. Ángulo único: triaje observar/cita/urgencias ligado a síntomas + dos síndromes poco explicados (temblor idiopático de cabeza, síndrome de shaker). E-E-A-T: Kira (frío 8°C, miedo tormentas), veterinaria Laura. 8 internal links + 7 FAQs.
+**Triggered by:** user (Plan v7.1 S10)
+
 ## 2026-08-06 10:00
 **Action:** Creación del artículo S9 — cómo duermen los gatos
 **Files:**

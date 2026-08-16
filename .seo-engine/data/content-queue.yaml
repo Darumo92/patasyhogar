@@ -736,3 +736,29 @@ queue:
       - "por-que-perro-ladra-noche"
       - "golpe-calor-perros"
       - "mejor-cama-perro-guia"
+
+  - id: "q_031"
+    title: "Mi perro tiembla: causas y cuándo preocuparse"
+    blog_type: "guide"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    animal: "perro"
+    target_keywords: ["temblor en perros", "mi perro tiembla", "mi perro tiembla como si tuviera frio", "mi perro tiembla en reposo", "mi perro tiembla y está decaído"]
+    unique_angle: "Triaje práctico observar/cita/urgencias ligado a síntomas concretos, más los dos síndromes de temblor que la SERP demanda y nadie explica (temblor idiopático de cabeza y síndrome de shaker). YMYL con fuentes veterinarias."
+    priority: "high"
+    priority_reason: "Plan v7.1 S10. 'temblor en perros' = 880 KD 0.02 (verificado 2026-08-16). AI Overview activa y SERP dominada por listicles de marcas sin triaje."
+    status: "human-review"
+    actual_word_count: 1713
+    serp_analyzed: true
+    cannibalization_check: "passed — solo menciones dispersas de temblor como síntoma (ansiedad, tóxicos, petardos, frío, hipoglucemia); no existe guía dedicada"
+    notes: "Tipo: informativo. Creado 2026-08-16. SERP real investigada con Chromium + Keyword Surfer: AI Overview (Santévet, Tiendanimal), top Santévet/Purina/Kivet/Tiendanimal/WebMD/Patitas&co/Clinicanimal/tQel. YMYL — enfoque veterinario prudente, sin diagnosticar."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-salud-bienestar-perros"
+      - "perro-miedo-petardos-fuegos-artificiales"
+      - "cuantas-horas-duerme-perro"
+      - "mejor-escalera-rampa-perros"
+      - "alimentos-prohibidos-perros"
+      - "perro-no-quiere-comer-causas"
+      - "mejor-abrigo-perro-invierno"
+      - "cuanto-ejercicio-necesita-perro"
