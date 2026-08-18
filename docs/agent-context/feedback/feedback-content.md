@@ -2,6 +2,8 @@
 
 ## Siempre pedir SERP antes de escribir
 
+> **Actualizado 2026-08-18:** esta regla queda superada por `feedback-serp-playwright-mcp.md`. El agente obtiene la SERP real con Playwright MCP; solo se pide al usuario si el MCP falla.
+
 NUNCA saltar el paso de pedir datos SERP al usuario antes de escribir cualquier artículo o pillar page. Sin excepciones.
 
 **Why:** El usuario tuvo que detectar él mismo que me salté este paso obligatorio del workflow SEO engine (paso 1d). TODOS los pilares anteriores se hicieron con SERP. No inventar excusas ni asumir que conversaciones anteriores saltaron pasos — verificar, no suponer.

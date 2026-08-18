@@ -762,3 +762,25 @@ queue:
       - "perro-no-quiere-comer-causas"
       - "mejor-abrigo-perro-invierno"
       - "cuanto-ejercicio-necesita-perro"
+
+  - id: "q_032"
+    title: "Por qué mi gato me muerde cuando le acaricio"
+    blog_type: "guide"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_gatos"
+    animal: "gato"
+    target_keywords: ["porque mi gato me muerde", "mi gato me muerde", "gato muerde al acariciar"]
+    unique_angle: "El mordisco al acariciar como acto de comunicación, no agresividad. 4 tipos diferenciados por intensidad e intención + lectura de señales corporales previas + sección de riesgo de infección del mordisco real (gap en SERP de marcas)."
+    priority: "high"
+    priority_reason: "Plan v7.1 S11. 'porque mi gato me muerde' = 880 vol, KD 0.56 verificado 2026-08-18 con Keyword Surfer."
+    status: "published"
+    actual_word_count: 1710
+    serp_analyzed: true
+    cannibalization_check: "passed — no existía artículo dedicado; complementa senales-estres-gatos, como-adiestrar-gato y el futuro gato-agresivo (S16, agresividad general)"
+    notes: "Tipo: informativo. Creado 2026-08-18. SERP investigada con Playwright MCP: AI Overview (Purina, Tiendanimal) + Purina, Tiendanimal, Ultima, Kiwoko, AniCura, Línea Directa, Patitas&co. Slug: por-que-mi-gato-me-muerde. URL: /cuidados/por-que-mi-gato-me-muerde/."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-salud-bienestar-gatos"
+      - "senales-estres-gatos"
+      - "como-adiestrar-gato-tecnicas"
+      - "enriquecimiento-ambiental-gato-interior"

@@ -1,5 +1,32 @@
 # SEO Content Engine — Changelog
 
+## 2026-08-18 16:45
+**Action:** Aprobación humana del artículo S11
+**Files:**
+- `.seo-engine/data/content-map.yaml` — status → published
+- `.seo-engine/data/topic-clusters.yaml` — status → published
+- `.seo-engine/data/content-queue.yaml` — q_032 → published
+- `.seo-engine/data/seo-keywords.csv` — `por qué mi gato me muerde` → published
+- `docs/PLAN_EDITORIAL_v7.md` — S11 → publicado
+**Summary:** Revisión humana completada y aprobada por el usuario. Estado del artículo actualizado de human-review a published.
+**Triggered by:** user
+
+## 2026-08-18 16:30
+**Action:** Creación del artículo S11 — por qué mi gato me muerde cuando le acaricio
+**Files:**
+- `src/content/articulos/por-que-mi-gato-me-muerde.mdx` — artículo creado, 1710 palabras, estado `human-review`
+- `public/images/articulos/por-que-mi-gato-me-muerde.webp` — imagen Pexels (Osman İçli)
+- `.seo-engine/data/content-map.yaml` — entrada añadida
+- `.seo-engine/data/seo-keywords.csv` — keyword `por qué mi gato me muerde` (880) actualizada a human-review
+- `.seo-engine/data/topic-clusters.yaml` — añadido a tc_salud_comportamiento_gatos
+- `.seo-engine/data/content-queue.yaml` — nuevo q_032 human-review
+- `docs/PLAN_EDITORIAL_v7.md` — S11 marcado como creado
+- `docs/brief-s11-por-que-gato-me-muerde.md` — brief SERP
+- `docs/agent-context/reference/reference_serp_playwright.md` + `docs/agent-context/feedback/feedback-serp-playwright-mcp.md` — documentado el método SERP con Playwright MCP
+**Summary:** Guía informativa para `porque mi gato me muerde` (880 vol, KD 0.56 verificado 2026-08-18 con Keyword Surfer). SERP investigada con Playwright MCP (perfil separado chromium-playwright): AI Overview (Purina, Tiendanimal) + Purina, Tiendanimal, Ultima, Kiwoko, AniCura, Línea Directa, Patitas&co. Ángulo único: mordisco al acariciar como comunicación, 4 tipos por intensidad (cariño, sobreestimulación, juego, dolor) + lectura corporal previa + sección YMYL de riesgo de infección. E-E-A-T: Mango (barriga/base cola), veterinaria Laura. 4 internal links + 6 FAQs.
+**Verification:** pendiente `npm run build`.
+**Triggered by:** user (Plan v7.1 S11)
+
 ## 2026-08-16 12:00
 **Action:** Aprobación humana del artículo S10
 **Files:**

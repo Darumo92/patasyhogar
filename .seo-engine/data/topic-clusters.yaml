@@ -1009,6 +1009,13 @@ clusters:
         serp_analyzed: true
         blog_slug: "como-duermen-gatos-posturas-horas-significado"
         notes: "Plan v7.1 S9. SERP 2026-08-06: KW Surfer gatos durmiendo=1000 KD 0, posturas gato enfermo=720. AI Overview activa."
+      - title: "Por qué mi gato me muerde cuando le acaricio"
+        target_keyword: "porque mi gato me muerde"
+        slug: "por-que-mi-gato-me-muerde"
+        status: "published"
+        serp_analyzed: true
+        blog_slug: "por-que-mi-gato-me-muerde"
+        notes: "Plan v7.1 S11. SERP 2026-08-18: KW Surfer porque mi gato me muerde=880 KD 0.56. AI Overview activa. Ángulo: mordisco al acariciar como comunicación."
       # Planned pages
       - title: "Gato agresivo: causas y cómo corregirlo"
         target_keyword: "gato agresivo causas soluciones"
