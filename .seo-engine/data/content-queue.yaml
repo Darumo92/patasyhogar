@@ -1,4 +1,4 @@
-last_updated: "2026-08-01"
+last_updated: "2026-08-28"
 
 queue:
   # === PILLAR PAGES (high priority) ===
@@ -782,5 +782,29 @@ queue:
     internal_link_targets:
       - "guia-completa-salud-bienestar-gatos"
       - "senales-estres-gatos"
+      - "como-adiestrar-gato-tecnicas"
+      - "enriquecimiento-ambiental-gato-interior"
+
+  - id: "q_033"
+    title: "Lenguaje corporal de los gatos: cómo entenderlos"
+    blog_type: "guide"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_gatos"
+    animal: "gato"
+    target_keywords: ["lenguaje del gato", "lenguaje corporal de gatos", "significado cola gatos"]
+    unique_angle: "Interpretar contexto, combinación corporal y patrón habitual en vez de asignar una traducción fija a cada gesto."
+    priority: "high"
+    priority_reason: "Plan v7.1 S12. lenguaje del gato = 1000 vol y KD 0.27, verificado 2026-08-28."
+    status: "published"
+    actual_word_count: 2404
+    serp_analyzed: true
+    cannibalization_check: "passed — guía general que deriva sueño, estrés y mordiscos a sus artículos especializados"
+    notes: "Tipo: informativo. Creado 2026-08-28. SERP investigada con Playwright MCP y Keyword Surfer. Slug: lenguaje-corporal-gatos. URL: /cuidados/lenguaje-corporal-gatos/."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-salud-bienestar-gatos"
+      - "por-que-mi-gato-me-muerde"
+      - "senales-estres-gatos"
+      - "como-duermen-gatos-posturas-horas-significado"
       - "como-adiestrar-gato-tecnicas"
       - "enriquecimiento-ambiental-gato-interior"

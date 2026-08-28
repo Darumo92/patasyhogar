@@ -1,5 +1,55 @@
-last_updated: '2026-08-18'
+last_updated: '2026-08-28'
 blogs:
+- slug: lenguaje-corporal-gatos
+  title: "Lenguaje corporal de los gatos: cómo entenderlos"
+  file_path: src/content/articulos/lenguaje-corporal-gatos.mdx
+  status: published
+  published_date: '2026-08-28'
+  last_updated: ''
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_gatos
+  is_pillar: false
+  target_keywords:
+  - keyword: "lenguaje del gato"
+    search_volume: 1000
+    is_primary: true
+  - keyword: "lenguaje corporal de gatos"
+    search_volume: 480
+    is_primary: false
+  - keyword: "lenguaje corporal gato"
+    search_volume: 390
+    is_primary: false
+  - keyword: "significado cola gatos"
+    search_volume: 260
+    is_primary: false
+  - keyword: "orejas gato significado"
+    search_volume: 140
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned:
+  - Tiendanimal
+  - Purina
+  - Medivet
+  - Feliway
+  - Patitas&co
+  - Mökai Mascotas
+  - Royal Canin
+  internal_links_out:
+  - guia-completa-salud-bienestar-gatos
+  - por-que-mi-gato-me-muerde
+  - senales-estres-gatos
+  - como-duermen-gatos-posturas-horas-significado
+  - como-adiestrar-gato-tecnicas
+  - enriquecimiento-ambiental-gato-interior
+  internal_links_from:
+  - guia-completa-salud-bienestar-gatos
+  - por-que-mi-gato-me-muerde
+  - senales-estres-gatos
+  word_count: 2404
+  has_eeat_signals: true
+  notes: "Plan v7.1 S12. SERP real 2026-08-28 con Playwright MCP + Keyword Surfer (lenguaje del gato=1000, KD 0.27). AI Overview, imágenes, PAA y vídeos. Ángulo: contexto + combinación + patrón habitual. Fuentes: International Cat Care, AAFP/ISFM, Feline Grimace Scale y Scientific Reports. E-E-A-T: Mango ante su reflejo en el cristal de la terraza."
+  needs_update_reason: ''
 - slug: por-que-mi-gato-me-muerde
   title: "Por qué mi gato me muerde cuando le acaricio"
   file_path: src/content/articulos/por-que-mi-gato-me-muerde.mdx
@@ -33,6 +83,7 @@ blogs:
   - senales-estres-gatos
   - como-adiestrar-gato-tecnicas
   - enriquecimiento-ambiental-gato-interior
+  - lenguaje-corporal-gatos
   word_count: 1710
   has_eeat_signals: true
   notes: "Plan v7.1 S11. SERP real 2026-08-18 con Playwright MCP + KW Surfer (porque mi gato me muerde=880 KD 0.56). AI Overview activa. Ángulo: mordisco al acariciar como comunicación, 4 tipos por intensidad + lectura corporal previa + sección de riesgo de infección. E-E-A-T: Mango (barriga/base cola), veterinaria Laura."
@@ -353,6 +404,7 @@ blogs:
   - como-adiestrar-gato-tecnicas
   - enriquecimiento-ambiental-gato-interior
   - como-presentar-perro-gato
+  - lenguaje-corporal-gatos
   has_eeat_signals: true
 - slug: guia-completa-juguetes-enriquecimiento-mascotas
   title: "Enriquecimiento ambiental y juguetes para perros y gatos"
@@ -4691,6 +4743,7 @@ blogs:
   internal_links_to:
   - enriquecimiento-ambiental-gato-interior
   - mejor-difusor-feromonas-gatos
+  - lenguaje-corporal-gatos
   internal_links_from:
   - alergia-primaveral-perros-gatos-sintomas-tratamiento
   - como-cortar-unas-gato

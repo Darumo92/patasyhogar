@@ -1,5 +1,34 @@
 # SEO Content Engine — Changelog
 
+## 2026-08-28 10:01
+**Action:** Aprobación humana del artículo S12
+**Files:**
+- `.seo-engine/data/content-map.yaml` — status → published
+- `.seo-engine/data/topic-clusters.yaml` — status → published
+- `.seo-engine/data/content-queue.yaml` — q_033 → published
+- `.seo-engine/data/seo-keywords.csv` — `lenguaje del gato` → published
+- `docs/PLAN_EDITORIAL_v7.md` — S12 → publicado
+**Summary:** Revisión humana completada y aprobada por el usuario. Estado del artículo actualizado de human-review a published.
+**Triggered by:** user
+
+## 2026-08-28 09:36
+**Action:** Creación del artículo S12 — lenguaje corporal de los gatos
+**Files:**
+- `src/content/articulos/lenguaje-corporal-gatos.mdx` — artículo creado, 2404 palabras, estado `human-review`
+- `public/images/articulos/lenguaje-corporal-gatos.webp` — imagen Pexels de Víctor C. (ID 19083264)
+- `src/content/articulos/guia-completa-salud-bienestar-gatos.mdx` — enlace entrante añadido
+- `src/content/articulos/por-que-mi-gato-me-muerde.mdx` — enlace entrante añadido
+- `src/content/articulos/senales-estres-gatos.mdx` — enlace entrante añadido
+- `.seo-engine/data/content-map.yaml` — entrada y relaciones de enlazado añadidas
+- `.seo-engine/data/content-queue.yaml` — nuevo q_033 human-review
+- `.seo-engine/data/topic-clusters.yaml` — añadido a tc_salud_comportamiento_gatos
+- `.seo-engine/data/seo-keywords.csv` — keyword `lenguaje del gato` (1000, KD 0.27) registrada
+- `docs/PLAN_EDITORIAL_v7.md` — S12 marcado como creado
+- `docs/brief-s12-lenguaje-corporal-gatos.md` — brief SERP, fuentes y canibalización
+**Summary:** Guía informativa basada en contexto + combinación + patrón habitual, con 7 patrones corporales, 5 FAQs, 6 enlaces salientes y 3 entrantes. Fuentes verificadas: International Cat Care, AAFP/ISFM, Feline Grimace Scale y estudios abiertos de Scientific Reports. E-E-A-T limitado a la experiencia establecida de Mango ante su reflejo.
+**Verification:** `npm run build` correcto; 165 páginas generadas; creada `dist/cuidados/lenguaje-corporal-gatos/index.html`. Título 48, meta 142, canonical exacto, schema Article+BreadcrumbList+FAQPage+Person, 5 FAQs, 2 H2 en pregunta, 6 enlaces salientes y 3 entrantes, OG/hero con alt, sin noindex/nofollow/disclaimer.
+**Triggered by:** user (Plan v7.1 S12)
+
 ## 2026-08-18 16:45
 **Action:** Aprobación humana del artículo S11
 **Files:**

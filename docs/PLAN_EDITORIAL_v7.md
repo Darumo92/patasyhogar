@@ -3,7 +3,7 @@
 > Basado en datos reales de Keyword Surfer (abril 2026)
 > Sustituye a PLAN_FINAL_v6_patasyhogar.ods
 > Fecha de creacion: 2026-04-12
-> Actualizado: 2026-08-01 — v7.1 semanal, SERP S8 validada
+> Actualizado: 2026-08-28 — v7.1 semanal, S12 creado
 
 ---
 
@@ -35,7 +35,7 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 | 42 | S9 | 2026-08-10 | Como duermen los gatos: posturas, horas y que significan | gatos durmiendo | 1000 | Guia | Evergreen ligero para agosto | [x] creado 2026-08-06, human-review |
 | 43 | S10 | 2026-08-17 | Mi perro tiembla: causas y cuándo preocuparse | temblor perros | 880 | Guia YMYL | Evergreen; exige enfoque veterinario prudente | [x] publicado 2026-08-16 |
 | 44 | S11 | 2026-08-24 | Por que mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guia | Evergreen comportamiento gato | [x] publicado 2026-08-18 |
-| 45 | S12 | 2026-08-31 | Lenguaje corporal de los gatos: cola, orejas, ojos y posturas | lenguaje del gato | 1000 | Guia | Vuelta a rutina, convivencia interior | [ ] |
+| 45 | S12 | 2026-08-31 | Lenguaje corporal de los gatos: cómo entenderlos | lenguaje del gato | 1000 | Guia | Vuelta a rutina, convivencia interior | [x] publicado 2026-08-28 |
 | 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacuna polivalente perros | 1000 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [ ] |
 | 47 | S14 | 2026-09-14 | Perros PPP en Espana: razas, normativa y nueva ley | perros ppp espana | 720 | Guia Legal | Evergreen legal; verificar BOE/CCAA | [ ] |
 | 48 | S15 | 2026-09-21 | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [ ] |
