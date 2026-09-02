@@ -340,24 +340,26 @@ queue:
       - "cachorro-primeras-semanas-casa"
 
   - id: "q_014"
-    title: "Calendario de vacunación para perros"
+    title: "Vacunas para perros: calendario, precios y obligatorias"
     blog_type: "tutorial"
     content_type: "cluster"
     cluster_id: "tc_salud_comportamiento_perros"
-    target_keywords: ["calendario vacunación perro", "vacunas perro obligatorias", "cuándo vacunar perro"]
-    unique_angle: "Calendario visual por semanas (cachorro) y años (adulto/senior) con vacunas obligatorias vs recomendadas por comunidad autónoma en España."
+    target_keywords: ["vacunas para perros", "vacuna polivalente perros", "vacunas perros precio", "calendario vacunación perro", "vacuna obligatoria perros"]
+    unique_angle: "Distinguir obligatorio por ley (rabia, solo en la mayoría de CCAA) de esencial clínico (core WSAVA: moquillo, parvovirus, hepatitis) y opcional según riesgo. Corrige el mito de que la polivalente es obligatoria."
     priority: "medium"
     priority_reason: "Evergreen informational content. High search volume, no existing coverage."
-    status: "planned"
+    status: "published"
     estimated_word_count: 2000
-    serp_analyzed: false
+    serp_analyzed: true
     cannibalization_check: "passed"
-    notes: "Tipo: informativo. No product comparison."
+    notes: "Tipo: informativo YMYL. SERP 2026-09-02 con Playwright MCP + Keyword Surfer (vacunas perros=1900, vacuna polivalente perros=1000). Fuentes: WSAVA 2024, Ley 7/2023 BOE, Santévet/Caser. Sin comparativa de productos. Publicado 2026-09-02."
     depends_on: []
     internal_link_targets:
       - "cachorro-primeras-semanas-casa"
       - "como-socializar-cachorro"
       - "mejor-antiparasitario-perros-guia"
+      - "guia-completa-salud-bienestar-perros"
+      - "seguro-mascotas-espana-guia-2026"
 
   - id: "q_015"
     title: "Gato agresivo: causas y cómo corregirlo"

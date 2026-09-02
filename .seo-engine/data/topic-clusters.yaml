@@ -936,12 +936,13 @@ clusters:
         status: "planned"
         serp_analyzed: false
         blog_slug: ""
-      - title: "Calendario de vacunación para perros"
-        target_keyword: "calendario vacunación perro"
-        slug: "calendario-vacunacion-perros"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
+      - title: "Vacunas para perros: calendario, precios y obligatorias"
+        target_keyword: "vacunas para perros"
+        slug: "vacunas-perros-calendario-precios"
+        status: "published"
+        serp_analyzed: true
+        blog_slug: "vacunas-perros-calendario-precios"
+        notes: "Plan v7.1 S13. Volumen 1900 (vacunas perros) + 1000 (vacuna polivalente perros), 2026-09-02. SERP: AI Overview + AniCura, Santévet, Veterinaria Salinero, Mapfre, Universidad Europea. Ángulo: obligatorio ≠ esencial ≠ recomendable, corrige mito de polivalente obligatoria. YMYL, fuentes WSAVA 2024 + Ley 7/2023."
     linking_rules:
       - "Every cluster page MUST link to pillar"
       - "Pillar MUST link to all published cluster pages"

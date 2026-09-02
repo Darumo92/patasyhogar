@@ -36,7 +36,7 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 | 43 | S10 | 2026-08-17 | Mi perro tiembla: causas y cuándo preocuparse | temblor perros | 880 | Guia YMYL | Evergreen; exige enfoque veterinario prudente | [x] publicado 2026-08-16 |
 | 44 | S11 | 2026-08-24 | Por que mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guia | Evergreen comportamiento gato | [x] publicado 2026-08-18 |
 | 45 | S12 | 2026-08-31 | Lenguaje corporal de los gatos: cómo entenderlos | lenguaje del gato | 1000 | Guia | Vuelta a rutina, convivencia interior | [x] publicado 2026-08-28 |
-| 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacuna polivalente perros | 1000 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [ ] |
+| 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacunas para perros | 1900 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [x] publicado 2026-09-02 |
 | 47 | S14 | 2026-09-14 | Perros PPP en Espana: razas, normativa y nueva ley | perros ppp espana | 720 | Guia Legal | Evergreen legal; verificar BOE/CCAA | [ ] |
 | 48 | S15 | 2026-09-21 | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [ ] |
 | 49 | S16 | 2026-09-28 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 390 | Guia YMYL | Evergreen; enlaza a estres y comportamiento | [ ] |

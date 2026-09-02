@@ -1,5 +1,53 @@
-last_updated: '2026-08-28'
+last_updated: '2026-09-02'
 blogs:
+- slug: vacunas-perros-calendario-precios
+  title: "Vacunas para perros: calendario, precios y obligatorias"
+  file_path: src/content/articulos/vacunas-perros-calendario-precios.mdx
+  status: published
+  published_date: '2026-09-02'
+  last_updated: ''
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: "vacunas para perros"
+    search_volume: 1900
+    is_primary: true
+  - keyword: "vacuna polivalente perros"
+    search_volume: 1000
+    is_primary: false
+  - keyword: "vacunas perros precio"
+    search_volume: 880
+    is_primary: false
+  - keyword: "vacuna pentavalente perros"
+    search_volume: 590
+    is_primary: false
+  - keyword: "calendario vacunación perro"
+    search_volume: 480
+    is_primary: false
+  - keyword: "vacuna obligatoria perros"
+    search_volume: 480
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned:
+  - AniCura
+  - Santévet
+  - Veterinaria Salinero
+  - Mapfre
+  - Universidad Europea
+  - Experto Animal
+  internal_links_out:
+  - guia-completa-salud-bienestar-perros
+  - cachorro-primeras-semanas-casa
+  - como-socializar-cachorro
+  - seguro-mascotas-espana-guia-2026
+  internal_links_from:
+  - guia-completa-salud-bienestar-perros
+  word_count: 1787
+  has_eeat_signals: true
+  notes: "Plan v7.1 S13. YMYL. SERP real 2026-09-02 con Playwright MCP + Keyword Surfer (vacunas perros=1900, vacuna polivalente perros=1000). Ángulo: obligatorio ≠ esencial ≠ recomendable; corrige el mito de que la polivalente es obligatoria. Fuentes: WSAVA 2024, Ley 7/2023 BOE, Santévet/Caser. E-E-A-T: Kira en el veterinario + veterinaria Laura."
+  needs_update_reason: ''
 - slug: lenguaje-corporal-gatos
   title: "Lenguaje corporal de los gatos: cómo entenderlos"
   file_path: src/content/articulos/lenguaje-corporal-gatos.mdx

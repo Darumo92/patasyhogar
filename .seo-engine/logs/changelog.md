@@ -1,5 +1,33 @@
 # SEO Content Engine — Changelog
 
+## 2026-09-02 16:30
+**Action:** Aprobación humana del artículo S13
+**Files:**
+- `.seo-engine/data/content-map.yaml` — status → published, published_date → 2026-09-02
+- `.seo-engine/data/content-queue.yaml` — q_014 → published
+- `.seo-engine/data/topic-clusters.yaml` — status → published
+- `.seo-engine/data/seo-keywords.csv` — `vacunas para perros` → published
+- `src/content/articulos/vacunas-perros-calendario-precios.mdx` — fecha → 2026-09-02
+- `docs/PLAN_EDITORIAL_v7.md` — S13 → publicado
+**Summary:** Revisión humana completada y aprobada por el usuario. Artículo publicado con fecha real 2026-09-02.
+**Triggered by:** user
+
+## 2026-09-02 16:10
+**Action:** Creación del artículo S13 — vacunas para perros (YMYL)
+**Files:**
+- `src/content/articulos/vacunas-perros-calendario-precios.mdx` — artículo creado, 1787 palabras, estado `human-review`
+- `public/images/articulos/vacunas-perros-calendario-precios.webp` — imagen Pexels de Tima Miroshnichenko (ID 6235648)
+- `src/content/articulos/guia-completa-salud-bienestar-perros.mdx` — enlace entrante añadido desde la sección de vacunación
+- `.seo-engine/data/content-map.yaml` — entrada nueva slug vacunas-perros-calendario-precios en tc_salud_comportamiento_perros
+- `.seo-engine/data/content-queue.yaml` — q_014 → human-review con título/keywords/ángulo actualizados
+- `.seo-engine/data/topic-clusters.yaml` — entrada planned de calendario de vacunación → human-review
+- `.seo-engine/data/seo-keywords.csv` — keyword `vacunas para perros` (1900) registrada
+- `docs/PLAN_EDITORIAL_v7.md` — S13 marcado como creado
+- `docs/brief-s13-vacunas-perros.md` — brief SERP, fuentes y canibalización
+**Summary:** Guía informativa YMYL que corrige el mito de que la polivalente es obligatoria. Keyword principal reorientada de `vacuna polivalente perros` (1000) a `vacunas para perros` (1900). Ángulo: obligatorio ≠ esencial ≠ recomendable, con calendario por edad, salvedad autonómica de la rabia y precios orientativos. Fuentes: WSAVA 2024, Ley 7/2023 BOE, Santévet/Caser. E-E-A-T: Kira en el veterinario + veterinaria Laura. 6 FAQs.
+**Verification:** `npm run build` correcto; 166 páginas generadas; creada `dist/cuidados/vacunas-perros-calendario-precios/index.html`. Título 56, meta 137, canonical exacto, schema Article+BreadcrumbList+FAQPage+Person, 6 FAQs, 4 H2 en pregunta, 4 enlaces salientes y 1 entrante, OG/hero con alt, sin noindex/disclaimer de afiliados (informativo).
+**Triggered by:** user (Plan v7.1 S13)
+
 ## 2026-08-28 10:01
 **Action:** Aprobación humana del artículo S12
 **Files:**
