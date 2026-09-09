@@ -1,4 +1,4 @@
-last_updated: "2026-08-28"
+last_updated: "2026-09-09"
 
 clusters:
   - cluster_id: "tc_alimentacion_perros"
@@ -599,12 +599,13 @@ clusters:
         status: "published"
         serp_analyzed: true
         blog_slug: "como-llevar-perro-coche"
-      - title: "Normativa sobre perros en España: bozal, correa y PPP"
-        target_keyword: "normativa perros España bozal correa"
-        slug: "normativa-perros-espana-bozal-correa"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
+      - title: "Perros PPP en España: razas, licencia y normativa 2026"
+        target_keyword: "perros ppp españa"
+        slug: "perros-ppp-espana-normativa"
+        status: "published"
+        serp_analyzed: true
+        blog_slug: "perros-ppp-espana-normativa"
+        notes: "S14 creado 2026-09-09. Reorienta la intención planned normativa-perros-espana-bozal-correa a la keyword validada de 720 búsquedas/mes. Enlace recíproco con pillar paseo."
       - title: "Mejor collar para perros: tipos y guía de compra"
         target_keyword: "mejor collar perro"
         slug: "mejor-collar-perro-guia"

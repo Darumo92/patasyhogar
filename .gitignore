@@ -15,6 +15,7 @@ oauth-client.json
 .indexnow-state.json
 .superpowers/
 medium-assets/
+.playwright-mcp/
 
 .claude/settings.local.json
 .claude/worktrees/

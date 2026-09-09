@@ -1,5 +1,5 @@
 project: "Patas y Hogar"
-last_updated: "2026-03-23"
+last_updated: "2026-09-09"
 generated_from: "src/content/articulos/"
 
 categories:
@@ -993,6 +993,17 @@ categories:
       - id: "sub_guias_paseo"
         name: "Guías de paseo y actividad (informativo)"
         features:
+          - id: "feat_perros_ppp_espana"
+            name: "Perros PPP en España: razas, licencia y normativa"
+            description: "Guía legal con listado estatal, diferencias autonómicas verificadas, licencia, seguro, paseo y sanciones"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/perros-ppp-espana-normativa.mdx"
+                section: "full article"
+            blog_refs: ["perros-ppp-espana-normativa"]
+            tags: ["PPP", "normativa", "licencia", "bozal", "perro"]
+            notes: "S14, creado y aprobado por el usuario el 2026-09-09. Fuentes primarias BOE y administraciones autonómicas/municipales."
+
           - id: "feat_como_socializar_cachorro"
             name: "Cómo socializar a un cachorro"
             description: "Guía completa sobre el periodo de socialización del cachorro"

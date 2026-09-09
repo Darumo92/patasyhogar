@@ -1,5 +1,24 @@
 # SEO Content Engine — Changelog
 
+## 2026-09-09 — Aprobación S14
+**Action:** Aprobación humana del artículo S14 y autorización de subida a main
+**Files:** content-map, content-queue, features, topic-clusters, seo-keywords, plan editorial, brief S14 y rutina diaria.
+**Summary:** El usuario aprueba el artículo de perros PPP y solicita subir todos los cambios pendientes a main. S14 pasa a published con fecha 2026-09-09; feature disponible. Se incluyen las actualizaciones pendientes de contexto Reddit/Quora y humanizer. Las capturas y logs locales de Playwright son artefactos de investigación y no forman parte del contenido versionado.
+**Triggered by:** user
+
+## 2026-09-09 07:25
+**Action:** Creación del artículo S14 de perros PPP para revisión humana
+**Files:** `src/content/articulos/perros-ppp-espana-normativa.mdx`, `public/images/articulos/perros-ppp-espana-normativa.webp`, `docs/brief-s14-perros-ppp-espana.md`, `src/content/articulos/guia-completa-paseo-viaje-perros.mdx`, `src/content/articulos/mejor-bozal-perro.mdx`, `.seo-engine/data/{content-map,content-queue,features,topic-clusters}.yaml`, `.seo-engine/data/seo-keywords.csv`, `docs/PLAN_EDITORIAL_v7.md`, `docs/agent-context/project-state/project_seo_daily_routine.md`.
+**Summary:** Guía legal de 2045 palabras de cuerpo, cinco FAQs, cuatro enlaces internos salientes y dos entrantes. SERP real Playwright + Keyword Surfer: keyword principal 720 y variante nueva ley 210 búsquedas/mes. Fuentes BOE (Ley 50/1999, RD 287/2002, Ley 7/2023), Generalitat de Catalunya, Junta de Andalucía y Ayuntamiento de València. Distingue lista estatal y variantes autonómicas, licencia, registro, seguro, paseo, traslados y sanciones. Imagen Pexels Aaron Posuniak ID 12267728. En bozal se corrige URL BOE equivocada y límite de correa; en pillar paseo se incorpora salvedad PPP. No publicado; estado human-review.
+**Verification:** `npm run build` correcto, 167 páginas. HTML validado: título 54, descripción 132, canonical exacto, Article/BreadcrumbList/FAQPage, cinco Q/A, tres H2 en pregunta, hero/OG y alt correctos, imagen única por SHA-256, sin disclaimer de afiliados ni meta noindex/nofollow. Enlaces y YAML verificados; `git diff --check` correcto. CSP actualizado por el build sin cambios de hashes en el fichero versionado.
+**Triggered by:** user
+
+## 2026-09-09
+**Action:** Adelanto permanente de una semana del calendario pendiente
+**Files:** `docs/PLAN_EDITORIAL_v7.md`, `docs/agent-context/feedback/feedback-calendario-semanal-adelantado.md`
+**Summary:** El usuario confirma continuar hoy con S14 y mantener el adelanto de una semana. Fechas S14–S22 desplazadas siete días antes, conservando identificadores y cadencia semanal. S14 pasa al 7 de septiembre y S22 al 2 de noviembre. S6/S7 permanecen pendientes sin nueva fecha.
+**Triggered by:** user
+
 ## 2026-09-02 16:30
 **Action:** Aprobación humana del artículo S13
 **Files:**

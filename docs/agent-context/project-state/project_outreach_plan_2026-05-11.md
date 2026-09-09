@@ -47,7 +47,7 @@ Pivot total tras evidencia: filtro Google = falta autoridad externa (no contenid
 - **Acción setup hoy:** crear cuenta `es.quora.com`
 - **Firma:** "Redacción Patas y Hogar" (NO David)
 - **Bio cuenta:** "Comparativas y guías honestas sobre productos para perros y gatos · patasyhogar.com"
-- **Cuota:** 3 respuestas largas/sem
+- **Cuota:** 4 respuestas largas/día (actualizado 2026-08-16)
 - **Formato respuesta:**
   - 400-800 palabras
   - Apertura: ejemplo concreto o dato

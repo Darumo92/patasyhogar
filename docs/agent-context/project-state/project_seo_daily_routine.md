@@ -34,7 +34,7 @@ Plan anterior Fase A/B/C (freeze + cooldown) **descartado**. Razón:
 |---|---|---|
 | Reddit nicho (r/mascotas, r/GatosArgentinos) | 14-21 comentarios + 1 post propio | u/Pristine_Review5630. Karma 85 el 2026-05-29; enlaces solo contextuales y con gap de 5-7 días desde el último enlace propio. Último enlace: 2026-05-29, no enlazar antes del 2026-06-03 como mínimo. |
 | Reddit subs grandes ES (r/Spain, r/AskSpain, r/Madrid, r/Barcelona, r/Valencia) | 2-3 posts/sem | Mismo usuario. Sin enlace salvo encaje excepcional, respetando gap global de dominio y con humanización estricta antes de publicar. |
-| Quora ES | 3-4 respuestas largas/sem | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
+| Quora ES | 4 respuestas largas/día (desde 2026-08-16) | Firmar "Redacción Patas y Hogar". 400-800 palabras. 1 link contextual al final si aporta. |
 
 **Medium pausado desde 2026-05-27:** tras 2 artículos publicados, GA4 no registró sesiones desde `medium.com` entre el 2026-05-13 y el 2026-05-27. Mantener piezas existentes, pero no invertir cuota semanal nueva salvo reactivación explícita.
 
@@ -70,6 +70,7 @@ El 2026-06-12 el usuario confirmó retomar artículos nuevos con cadencia baja p
 - Antes de escribir cada artículo: cannibalization check, SERP real aportada por el usuario, fuentes oficiales si aplica, humanización y `npm run build`.
 - Evitar comparativas nuevas sin verificación completa de productos.
 - Ver `docs/PLAN_EDITORIAL_v7.md` v7.1 para el calendario semanal.
+- Actualización 2026-09-09: S13 publicado el 2 de septiembre; S14 aprobado por el usuario para publicación el 9 de septiembre. El usuario confirma adelantar una semana todas las fechas S14–S22 de forma permanente, manteniendo un artículo semanal. S15 pasa al 14 de septiembre y S22 al 2 de noviembre. SERP mediante Playwright MCP según la regla del 2026-08-18.
 
 ## Mantenimiento Amazon productos
 

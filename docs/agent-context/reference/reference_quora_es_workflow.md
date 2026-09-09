@@ -83,12 +83,17 @@ Cuidado con marcas supermercado tipo "Sterilised" — muchas son las mismas que 
 Si quieres comparar varias marcas con datos concretos de análisis y precio por kg, [hicimos un análisis detallado de pienso para gato esterilizado](https://patasyhogar.com/alimentacion/mejor-pienso-gato-esterilizado/).
 ```
 
+## Entrega de borradores
+
+- **Entregar los borradores por chat**, con la URL de la pregunta + texto listo para copiar/pegar. No crear archivos `.md` tipo `SESION_X_QUORA.md` (regla heredada de `tuespaciodetrabajo`).
+- `project_outreach_content.md` se usa solo como registro persistente después de publicar, no para entregar borradores.
+
 ## Cuota y cadencia
 
-- **3 respuestas largas/semana** (lunes, jueves, sábado)
+- **4 respuestas largas/día** (actualizado 2026-08-16 por decisión del usuario)
 - Cada respuesta = 30-45 min trabajo
-- **Espaciar 24h+ entre respuestas** (evitar batch publicación → spam flag)
-- **No responder >5/sem** primer mes (cuenta nueva tiene umbrales)
+- La cuenta tiene ~3 meses y ha superado los umbrales de cuenta nueva; el límite antiguo de "no más de 5/sem" y el espaciado de 24h+ ya no aplican.
+- Repartir temas entre perro y gato para no saturar un solo espacio.
 
 ## Cómo encontrar preguntas
 
@@ -103,11 +108,13 @@ Si quieres comparar varias marcas con datos concretos de análisis y precio por 
 
 ### Búsqueda automática desde agente
 
-Validado el 2026-05-19:
+Validado el 2026-05-19, actualizado 2026-08-18 con el método rápido de `tuespaciodetrabajo`.
 
-- **Preferente:** Brave Search con operador `site:es.quora.com/` funciona desde `webfetch` y devuelve títulos, URLs y snippets suficientes para elegir pregunta.
-- **No usar como primera opción:** Quora search directo (`https://es.quora.com/search?q=...`) devuelve 403/security verification.
-- **Fallback limitado:** DuckDuckGo HTML puede funcionar 1-2 consultas, pero después puede pedir captcha. Google/Bing suelen bloquear o pedir challenge.
+- **Preferente (rápido, sin bloqueos): Exa MCP.** Usar `web_search_exa` con query `site:es.quora.com <keywords>`. Devuelve títulos, URLs reales y snippets al instante, sin 429 ni captcha. Es el método que usa el proyecto `tuespaciodetrabajo` y el único que no pierde tiempo. El MCP `exa` llega vía el plugin "everything-claude-code" de Claude Code (`https://mcp.exa.ai/mcp`); si no está disponible en el entorno, caer a Brave.
+- **Fallback: Brave Search** con operador `site:es.quora.com/` vía `webfetch`. Funciona pero **rate-limita con 429** tras 2-4 llamadas seguidas; no encadenar muchos `sleep` y reintentos, extraer 3-4 preguntas de UNA sola búsqueda en vez de buscar tema a tema.
+- **No usar:** Quora search directo (`https://es.quora.com/search?q=...`) devuelve 403/security verification. DuckDuckGo HTML pide captcha a la 1-2 consultas. Google/Bing suelen bloquear o pedir challenge.
+
+**Regla anti-lentitud:** con una sola query de Exa (o de Brave si toca) se sacan todas las preguntas del día (4). No hacer una búsqueda por tema con reintentos; elegir varias preguntas de un mismo listado de resultados.
 
 Formato recomendado:
 

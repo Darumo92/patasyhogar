@@ -3,7 +3,7 @@
 > Basado en datos reales de Keyword Surfer (abril 2026)
 > Sustituye a PLAN_FINAL_v6_patasyhogar.ods
 > Fecha de creacion: 2026-04-12
-> Actualizado: 2026-08-28 — v7.1 semanal, S12 creado
+> Actualizado: 2026-09-09 — S14 aprobado y publicado; S14–S22 adelantados una semana por decisión del usuario
 
 ---
 
@@ -22,6 +22,8 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 
 ### Calendario operativo v7.1
 
+El 2026-09-09 el usuario confirma mantener el adelanto de una semana: todas las fechas objetivo de S14 a S22 se desplazan siete días antes. Se conserva la numeración S como identificador editorial y la cadencia de un artículo semanal. S14 corresponde ahora a la semana del 7 de septiembre y se empieza el 9. S6/S7 siguen como pendientes antiguos sin reprogramación nueva.
+
 | # | Semana | Fecha objetivo | Titulo | KW principal | Vol | Tipo | Estacionalidad / motivo | Estado |
 |---|--------|----------------|--------|--------------|-----|------|--------------------------|--------|
 | 34 | S1 | 2026-06-15 | Como llevar al perro en el coche: normativa DGT y seguridad | como llevar al perro en el coche | 1300 | Guia | Vacaciones verano, viajes en coche | [x] creado 2026-06-12 |
@@ -37,15 +39,15 @@ El 2026-06-12 se reactiva la publicacion de articulos nuevos con cadencia baja: 
 | 44 | S11 | 2026-08-24 | Por que mi gato me muerde cuando le acaricio | porque mi gato me muerde | 880 | Guia | Evergreen comportamiento gato | [x] publicado 2026-08-18 |
 | 45 | S12 | 2026-08-31 | Lenguaje corporal de los gatos: cómo entenderlos | lenguaje del gato | 1000 | Guia | Vuelta a rutina, convivencia interior | [x] publicado 2026-08-28 |
 | 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacunas para perros | 1900 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [x] publicado 2026-09-02 |
-| 47 | S14 | 2026-09-14 | Perros PPP en Espana: razas, normativa y nueva ley | perros ppp espana | 720 | Guia Legal | Evergreen legal; verificar BOE/CCAA | [ ] |
-| 48 | S15 | 2026-09-21 | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [ ] |
-| 49 | S16 | 2026-09-28 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 390 | Guia YMYL | Evergreen; enlaza a estres y comportamiento | [ ] |
-| 50 | S17 | 2026-10-05 | Collares de adiestramiento para perros: opciones, riesgos y alternativas | collares adiestramiento perros | 2900 | Guia/Comp | Alto volumen; enfoque etico, no promover electricos | [ ] |
-| 51 | S18 | 2026-10-12 | Envenenamiento en perros: sintomas y que hacer | envenenamiento perros | 390 | Guia YMYL | Riesgo hogar/exterior; fuentes veterinarias | [ ] |
-| 52 | S19 | 2026-10-19 | Primeros auxilios para perros: guia de emergencia | primeros auxilios perros | 110 | Guia YMYL | Bajo volumen, alto E-E-A-T | [ ] |
-| 53 | S20 | 2026-10-26 | Mejor pienso para cachorros de raza pequena | pienso cachorro raza pequena | 260 | Comp | Gap de cluster alimentacion; requiere productos | [ ] |
-| 54 | S21 | 2026-11-02 | Como proteger tu casa para un gato: ventanas, cables, plantas y balcones | casa segura gato | 0 | Guia | Bajo volumen, pero encaja con Reddit/Quora | [ ] |
-| 55 | S22 | 2026-11-09 | Senales de dolor en perros: como detectarlas sin alarmarse | senales dolor perro | 0 | Guia YMYL | Antes de reevaluacion 2026-11-11 | [ ] |
+| 47 | S14 | 2026-09-07 | Perros PPP en España: razas, licencia y normativa 2026 | perros ppp españa | 720 | Guia Legal | BOE/CCAA y SERP verificados 2026-09-09 | [x] publicado 2026-09-09, aprobado por el usuario |
+| 48 | S15 | 2026-09-14 | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [ ] |
+| 49 | S16 | 2026-09-21 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 390 | Guia YMYL | Evergreen; enlaza a estres y comportamiento | [ ] |
+| 50 | S17 | 2026-09-28 | Collares de adiestramiento para perros: opciones, riesgos y alternativas | collares adiestramiento perros | 2900 | Guia/Comp | Alto volumen; enfoque etico, no promover electricos | [ ] |
+| 51 | S18 | 2026-10-05 | Envenenamiento en perros: sintomas y que hacer | envenenamiento perros | 390 | Guia YMYL | Riesgo hogar/exterior; fuentes veterinarias | [ ] |
+| 52 | S19 | 2026-10-12 | Primeros auxilios para perros: guia de emergencia | primeros auxilios perros | 110 | Guia YMYL | Bajo volumen, alto E-E-A-T | [ ] |
+| 53 | S20 | 2026-10-19 | Mejor pienso para cachorros de raza pequena | pienso cachorro raza pequena | 260 | Comp | Gap de cluster alimentacion; requiere productos | [ ] |
+| 54 | S21 | 2026-10-26 | Como proteger tu casa para un gato: ventanas, cables, plantas y balcones | casa segura gato | 0 | Guia | Bajo volumen, pero encaja con Reddit/Quora | [ ] |
+| 55 | S22 | 2026-11-02 | Senales de dolor en perros: como detectarlas sin alarmarse | senales dolor perro | 0 | Guia YMYL | Antes de reevaluacion 2026-11-11 | [ ] |
 
 ### Tareas no-articulo derivadas
 

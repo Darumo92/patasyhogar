@@ -1,5 +1,37 @@
-last_updated: '2026-09-02'
+last_updated: '2026-09-09'
 blogs:
+- slug: perros-ppp-espana-normativa
+  title: "Perros PPP en España: razas, licencia y normativa 2026"
+  file_path: src/content/articulos/perros-ppp-espana-normativa.mdx
+  status: published
+  published_date: '2026-09-09'
+  last_updated: '2026-09-09'
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_paseo_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: "perros ppp españa"
+    search_volume: 720
+    is_primary: true
+  - keyword: "perros potencialmente peligrosos nueva ley"
+    search_volume: 210
+    is_primary: false
+  features_mentioned:
+  - feat_perros_ppp_espana
+  competitors_mentioned: []
+  internal_links_out:
+  - guia-completa-paseo-viaje-perros
+  - mejor-bozal-perro
+  - mejor-correa-perro
+  - seguro-mascotas-espana-guia-2026
+  internal_links_from:
+  - guia-completa-paseo-viaje-perros
+  - mejor-bozal-perro
+  word_count: 2045
+  has_eeat_signals: true
+  notes: "Plan v7.1 S14 adelantado al 2026-09-07. Creado y aprobado por el usuario el 2026-09-09. SERP Playwright + Keyword Surfer: 720 y 210 búsquedas/mes. Fuentes primarias BOE, Generalitat de Catalunya, Junta de Andalucía y sede municipal de València. Clasificación estatal/autonómica, vigencia legal, licencia, seguro, paseo y sanciones. Sin experiencias jurídicas inventadas. Brief: docs/brief-s14-perros-ppp-espana.md."
+  needs_update_reason: ''
 - slug: vacunas-perros-calendario-precios
   title: "Vacunas para perros: calendario, precios y obligatorias"
   file_path: src/content/articulos/vacunas-perros-calendario-precios.mdx
@@ -342,7 +374,8 @@ blogs:
   - cuanto-cuesta-mantener-un-perro-al-mes
   - cuanto-cuesta-mantener-un-gato-al-mes
   - mejor-bozal-perro
-  internal_links_from: []
+  internal_links_from:
+  - perros-ppp-espana-normativa
   word_count: 3100
   has_eeat_signals: true
   notes: "Plan v7 artículo #11. Guía editorial independiente (no vende pólizas): tipos RC vs salud, obligatoriedad por CCAA + Ley 7/2023, PPP (RD 287/2002), rango precios 2026, comparativa aseguradoras (Santévet, Mutua, Santalucía, Sanitas, AXA, ASISA, La Caixa, Línea Directa), análisis honesto merece la pena vs fondo emergencia, exclusiones/carencias/franquicia. E-E-A-T: experiencia Daniel con Kira (RC obligatorio CV) + Mango, vet Laura referencia. No Amazon — tráfico AdSense."
@@ -569,6 +602,7 @@ blogs:
   features_mentioned: []
   competitors_mentioned: []
   internal_links_to:
+  - perros-ppp-espana-normativa
   - mejor-arnes-perro
   - mejor-arnes-antitirones-perro
   - mejor-correa-perro
@@ -589,7 +623,8 @@ blogs:
   - ansiedad-separacion-perros
   - perro-tira-correa-soluciones
   - guia-alimentacion-perros
-  internal_links_from: []
+  internal_links_from:
+  - perros-ppp-espana-normativa
   has_eeat_signals: true
   word_count: 3500
   notes: "Pillar page for tc_paseo_perros cluster. Covers paseo frequency, equipment, seasonal gear, anti-pulling training, car travel, and common mistakes. 20+ internal links to cluster articles."
@@ -2193,9 +2228,11 @@ blogs:
   - Trixie Bozal Plástico
   competitors_mentioned: []
   internal_links_to:
+  - perros-ppp-espana-normativa
   - mejor-correa-perro
   - mejor-arnes-perro
-  internal_links_from: []
+  internal_links_from:
+  - perros-ppp-espana-normativa
   word_count: 2651
   has_eeat_signals: true
   needs_update_reason: ''
@@ -2860,6 +2897,7 @@ blogs:
   - mejor-collar-luminoso-perro
   - mejor-dispensador-bolsas-caca-perro
   - mejores-bolsas-caca-perro-biodegradables
+  - perros-ppp-espana-normativa
   word_count: 1522
   has_eeat_signals: true
   needs_update_reason: ''

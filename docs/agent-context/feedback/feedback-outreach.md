@@ -1,5 +1,16 @@
 # Feedback: Outreach
 
+## Quora cadencia: 4 respuestas/día
+
+El usuario confirmó el 2026-08-16 que la cuota de Quora pasa de "3-4 respuestas/semana" a **4 respuestas largas al día**. La cuenta ya tiene ~3 meses y ha superado los umbrales de cuenta nueva, así que el límite antiguo de "no más de 5/sem" y el espaciado de 24h+ entre respuestas ya no aplican.
+
+### Cómo aplicar
+
+- Cada sesión de Quora debe producir 4 borradores humanizados, no 1.
+- Repartir temas entre perro y gato para no saturar un solo espacio.
+- Mantener el resto de reglas: 400-800 palabras, 3 puntos prácticos, 1 link contextual al final, humanizer obligatorio, castellano de España, sin firmar.
+- Seguir encontrando preguntas con Brave Search (`site:es.quora.com <tema>`).
+
 ## Outreach solo Quora y Reddit
 
 El usuario confirmó el 2026-05-16 que no tiene ni va a tener LinkedIn ni canal de comentarios en blogs para este proyecto. El 2026-05-27 decidió pausar Medium tras comprobar en GA4 que los dos artículos publicados desde el 2026-05-13 no habían generado sesiones referidas desde `medium.com`. No volver a proponer LinkedIn Articles, comentarios en blogs ni artículos Medium como parte de la rutina diaria o semanal de backlinks.
