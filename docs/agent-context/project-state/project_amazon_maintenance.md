@@ -2,13 +2,14 @@
 
 Integrado en rutina SEO diaria desde 2026-05-15.
 
-Última actualización: 2026-05-29 CEST
+Última actualización: 2026-09-16 CEST
 
 ---
 
 ## Estado actual
 
-- API Amazon elegible y operativa.
+- API Amazon: el 2026-09-16 devolvió `AssociateNotEligible` al ejecutar `node scripts/amazon-api.mjs --search "robot aspirador mascotas"`. La elegibilidad previamente confirmada ya no está vigente en esta comprobación. Revalidar antes de la próxima actualización automática.
+- S15: tres robots verificados directamente en Amazon.es con Playwright (nombre, precio, stock e imagen) y fuentes oficiales. Registro en `docs/brief-s15-robot-aspirador-mascotas.md`. Cache automático no actualizado con datos manuales.
 - Cache central: `src/data/amazon-products.json`.
 - Componentes que usan cache: `ComparisonTable` y `TopPick`.
 - Auditoría completa ejecutada: `reports/amazon-products/audit-2026-05-15.md`.

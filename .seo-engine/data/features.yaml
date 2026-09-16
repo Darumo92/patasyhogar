@@ -1,5 +1,5 @@
 project: "Patas y Hogar"
-last_updated: "2026-09-09"
+last_updated: "2026-09-16"
 generated_from: "src/content/articulos/"
 
 categories:
@@ -470,6 +470,17 @@ categories:
             blog_refs: ["mejor-secador-perros"]
             tags: ["secador", "grooming", "baño", "perro"]
             notes: ""
+
+          - id: "feat_robot_aspirador_mascotas"
+            name: "Robot aspirador para mascotas"
+            description: "Comparativa documental de tres robots con autovaciado, mantenimiento y límites de uso con perros y gatos"
+            status: "available"
+            doc_refs:
+              - path: "src/content/articulos/mejor-robot-aspirador-mascotas.mdx"
+                section: "full article"
+            blog_refs: ["mejor-robot-aspirador-mascotas"]
+            tags: ["robot aspirador", "pelo", "limpieza", "ambos"]
+            notes: "S15. Productos verificados por navegador y artículo aprobado por el usuario el 2026-09-16."
 
           - id: "feat_aspirador_pelo_mascotas"
             name: "Aspirador para pelo de mascotas"

@@ -71,6 +71,7 @@ El 2026-06-12 el usuario confirmó retomar artículos nuevos con cadencia baja p
 - Evitar comparativas nuevas sin verificación completa de productos.
 - Ver `docs/PLAN_EDITORIAL_v7.md` v7.1 para el calendario semanal.
 - Actualización 2026-09-09: S13 publicado el 2 de septiembre; S14 aprobado por el usuario para publicación el 9 de septiembre. El usuario confirma adelantar una semana todas las fechas S14–S22 de forma permanente, manteniendo un artículo semanal. S15 pasa al 14 de septiembre y S22 al 2 de noviembre. SERP mediante Playwright MCP según la regla del 2026-08-18.
+- Actualización 2026-09-16: S15 `mejor-robot-aspirador-mascotas` creado, verificado y aprobado por el usuario para publicación y subida a main; estado `published`. Tres robots, 2359 palabras y cuatro FAQs; SERP/KW Surfer 590/210. Amazon API devolvió `AssociateNotEligible`; fichas verificadas por Playwright y fabricantes. Build correcto (168 páginas). S16 mantiene fecha objetivo 2026-09-21.
 
 ## Mantenimiento Amazon productos
 

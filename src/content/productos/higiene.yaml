@@ -1,3 +1,55 @@
+# Robots S15: datos contrastados en Amazon.es mediante navegador el 2026-09-16.
+- id: dreame-l10s-ultra-gen-2
+  nombre: "Dreame L10s Ultra Gen 2"
+  marca: "Dreame"
+  imagen: "https://m.media-amazon.com/images/I/61LNBsxjsjL._AC_SL300_.jpg"
+  precio: "299,00€"
+  precioAmazon: "299,00€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DCVYS9FQ"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-robot-aspirador-mascotas
+  descripcionCorta: "Robot para suelos con autovaciado, lavado y secado de mopas. Mopa extensible. TriCut aparte; no limpia sofás."
+  filtros: {}
+  afinidad:
+    presupuesto_medio: 4
+    presupuesto_premium: 3
+
+- id: roborock-q7-l5-plus
+  nombre: "Roborock Q7 L5+"
+  marca: "Roborock"
+  imagen: "https://m.media-amazon.com/images/I/518ZZDibQUL._AC_SL300_.jpg"
+  precio: "209,99€"
+  precioAmazon: "209,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DWK8GJZX"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-robot-aspirador-mascotas
+  descripcionCorta: "Robot para suelos con autovaciado de polvo, LiDAR y sistema antienredos. Mopa plana; no limpia tapicerías."
+  filtros: {}
+  afinidad:
+    presupuesto_economico: 3
+    presupuesto_medio: 4
+
+- id: xiaomi-robot-vacuum-x20-max
+  nombre: "Xiaomi Robot Vacuum X20 Max"
+  marca: "Xiaomi"
+  imagen: "https://m.media-amazon.com/images/I/61ZI3VJ4h-L._AC_SL300_.jpg"
+  precio: "417,99€"
+  precioAmazon: "417,99€"
+  enlaceAmazon: "https://www.amazon.es/dp/B0DFHW2JTT"
+  categoria: higiene
+  subcategoria: aspirador
+  animal: ambos
+  articuloSlug: mejor-robot-aspirador-mascotas
+  descripcionCorta: "Robot para suelos con cortapelos incluido y estación de lavado caliente de mopas. No limpia sofás ni escaleras."
+  filtros: {}
+  afinidad:
+    presupuesto_premium: 4
+    presupuesto_medio: 2
+
 # =============================================
 # CEPILLOS PERRO
 # =============================================

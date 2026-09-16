@@ -1,5 +1,17 @@
 # Lista de productos para actualizar
 
+## S15 — Robots aspiradores para mascotas (2026-09-16)
+
+Verificados en Amazon.es mediante Playwright tras respuesta API `AssociateNotEligible`. Los tres en stock. Detalles y fuentes técnicas en `docs/brief-s15-robot-aspirador-mascotas.md`.
+
+| Modelo | URL Amazon | Precio verificado | Imagen |
+|---|---|---|---|
+| Dreame L10s Ultra Gen 2 | https://www.amazon.es/dp/B0DCVYS9FQ | 299,00 € | https://m.media-amazon.com/images/I/61LNBsxjsjL._AC_SL300_.jpg |
+| Roborock Q7 L5+ | https://www.amazon.es/dp/B0DWK8GJZX | 209,99 € | https://m.media-amazon.com/images/I/518ZZDibQUL._AC_SL300_.jpg |
+| Xiaomi Robot Vacuum X20 Max | https://www.amazon.es/dp/B0DFHW2JTT | 417,99 € | https://m.media-amazon.com/images/I/61ZI3VJ4h-L._AC_SL300_.jpg |
+
+Tiendanimal: sin coincidencias de los modelos en búsquedas individuales y por marca. Artículo aprobado por el usuario el 2026-09-16.
+
 Para cada producto haz lo siguiente en Amazon.es:
 1. Busca el producto por nombre
 2. Abre la página del producto específico

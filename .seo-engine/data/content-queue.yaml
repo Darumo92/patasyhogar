@@ -1,6 +1,24 @@
-last_updated: "2026-09-09"
+last_updated: "2026-09-16"
 
 queue:
+  - id: "q_035"
+    title: "Mejor robot aspirador para mascotas: 3 opciones en 2026"
+    blog_type: "comparison"
+    content_type: "cluster"
+    cluster_id: "tc_hogar_mascotas"
+    animal: "ambos"
+    target_keywords: ["robot aspirador mascotas", "mejor robot aspirador mascotas"]
+    unique_angle: "Elegir según trabajo manual restante: pelo y arena seca, autovaciado frente a lavado de mopas, límites ante alfombras y accidentes."
+    priority: "high"
+    priority_reason: "Plan v7.1 S15, semana 2026-09-14; 590 búsquedas/mes confirmadas con Keyword Surfer."
+    status: "published"
+    serp_analyzed: true
+    cannibalization_check: "passed — la comparativa existente cubre aspiradores de escoba; enlaces recíprocos"
+    notes: "Tres modelos con precio, stock e imagen verificados directamente en Amazon.es el 2026-09-16; API AssociateNotEligible. Fuentes Dreame, Roborock y Xiaomi. Brief: docs/brief-s15-robot-aspirador-mascotas.md."
+    actual_word_count: 2359
+    depends_on: []
+    internal_link_targets: ["guia-completa-hogar-seguro-mascotas", "mejor-aspirador-pelo-mascotas", "mejor-limpiador-enzimatico-mascotas", "senales-estres-gatos", "muda-pelo-perros-guia-cuidados"]
+
   - id: "q_034"
     title: "Perros PPP en España: razas, licencia y normativa 2026"
     blog_type: "guide"

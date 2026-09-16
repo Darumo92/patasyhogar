@@ -1,4 +1,4 @@
-last_updated: "2026-09-09"
+last_updated: "2026-09-16"
 
 clusters:
   - cluster_id: "tc_alimentacion_perros"
@@ -730,6 +730,13 @@ clusters:
       blog_slug: "guia-completa-hogar-seguro-mascotas"
       notes: "NO VIABLE KEYWORD (2026-04-09 audit: all variants 0 vol, 'seguro' = insurance intent). Pillar serves as INTERNAL LINKING HUB only — organic traffic comes from cluster product pages (camas 4400, gatera 2400, parque perros 9900). Do not invest SEO effort in pillar keyword."
     cluster_pages:
+      - title: "Mejor robot aspirador para mascotas: 3 opciones en 2026"
+        target_keyword: "robot aspirador mascotas"
+        slug: "mejor-robot-aspirador-mascotas"
+        status: "published"
+        serp_analyzed: true
+        blog_slug: "mejor-robot-aspirador-mascotas"
+        notes: "S15 creado 2026-09-16. Categoría higiene; cluster hogar. Tres robots verificados, enlaces recíprocos con pillar y aspiradores manuales."
       # Published pages
       - title: "Mejor cama para perros"
         target_keyword: "mejor cama perro"

@@ -3,7 +3,7 @@
 > Basado en datos reales de Keyword Surfer (abril 2026)
 > Sustituye a PLAN_FINAL_v6_patasyhogar.ods
 > Fecha de creacion: 2026-04-12
-> Actualizado: 2026-09-09 — S14 aprobado y publicado; S14–S22 adelantados una semana por decisión del usuario
+> Actualizado: 2026-09-16 — S15 aprobado para publicación; se mantiene el adelanto confirmado de S14–S22
 
 ---
 
@@ -40,7 +40,7 @@ El 2026-09-09 el usuario confirma mantener el adelanto de una semana: todas las 
 | 45 | S12 | 2026-08-31 | Lenguaje corporal de los gatos: cómo entenderlos | lenguaje del gato | 1000 | Guia | Vuelta a rutina, convivencia interior | [x] publicado 2026-08-28 |
 | 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacunas para perros | 1900 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [x] publicado 2026-09-02 |
 | 47 | S14 | 2026-09-07 | Perros PPP en España: razas, licencia y normativa 2026 | perros ppp españa | 720 | Guia Legal | BOE/CCAA y SERP verificados 2026-09-09 | [x] publicado 2026-09-09, aprobado por el usuario |
-| 48 | S15 | 2026-09-14 | Mejor robot aspirador para casas con mascotas 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [ ] |
+| 48 | S15 | 2026-09-14 | Mejor robot aspirador para mascotas: 3 opciones en 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [x] publicado 2026-09-16, aprobado por el usuario |
 | 49 | S16 | 2026-09-21 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 390 | Guia YMYL | Evergreen; enlaza a estres y comportamiento | [ ] |
 | 50 | S17 | 2026-09-28 | Collares de adiestramiento para perros: opciones, riesgos y alternativas | collares adiestramiento perros | 2900 | Guia/Comp | Alto volumen; enfoque etico, no promover electricos | [ ] |
 | 51 | S18 | 2026-10-05 | Envenenamiento en perros: sintomas y que hacer | envenenamiento perros | 390 | Guia YMYL | Riesgo hogar/exterior; fuentes veterinarias | [ ] |

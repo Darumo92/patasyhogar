@@ -1,5 +1,18 @@
 # SEO Content Engine — Changelog
 
+## 2026-09-16 — Aprobación S15
+**Action:** Aprobación humana y autorización de subida a main
+**Files:** content-map, content-queue, features, topic-clusters, seo-keywords, plan editorial, brief S15, PRODUCTOS y rutina diaria.
+**Summary:** El usuario aprueba la comparativa de robots aspiradores y autoriza subir todos los cambios pendientes a main. Estado published con fecha 2026-09-16; feature available. Confirma mantener TopPick editorial sin botón y los enlaces de Amazon en la tabla comparativa.
+**Triggered by:** user
+
+## 2026-09-16 — S15 listo para revisión humana
+**Action:** Creación de la comparativa de robots aspiradores para mascotas
+**Files:** `src/content/articulos/mejor-robot-aspirador-mascotas.mdx`, imagen Pexels correspondiente, `docs/brief-s15-robot-aspirador-mascotas.md`, artículos de aspiradores manuales y pillar hogar, registro `src/content/productos/higiene.yaml`, `PRODUCTOS.md`, datos SEO (content-map, queue, features, keywords, clusters), plan editorial y contexto de rutina/Amazon.
+**Summary:** Comparativa documental de Dreame L10s Ultra Gen 2 (299 €), Roborock Q7 L5+ (209,99 €) y Xiaomi X20 Max (417,99 €), verificados en Amazon.es con Playwright tras fallo API `AssociateNotEligible`. Prestaciones contrastadas con fabricantes, búsqueda individual y por marca en Tiendanimal sin coincidencias de estos modelos. 2359 palabras, cuatro FAQs, cinco enlaces internos salientes y dos entrantes. Hero Pexels cottonbro studio ID 4107240. KW Surfer 590/210 búsquedas al mes, sin AIO/PAA observados. Análisis editorial sin atribuir pruebas domésticas. Estado human-review, sin publicación ni commit/push.
+**Verification:** Build correcto, 168 páginas, CSP regenerado. Corregidos imports MDX omitidos detectados en el primer build. HTML: título 55, meta 145, canonical exacto, Article/BreadcrumbList/FAQPage y tres Product con precios verificados. Hero único por SHA-256. Preview Playwright escritorio/móvil 390 px: imágenes cargadas, sin overflow horizontal, tres enlaces afiliados y cero en TopPick; consola sin errores. Checks de densidad y ausencia de referencias públicas a Zooplus correctos.
+**Triggered by:** user (artículo semanal S15)
+
 ## 2026-09-09 — Aprobación S14
 **Action:** Aprobación humana del artículo S14 y autorización de subida a main
 **Files:** content-map, content-queue, features, topic-clusters, seo-keywords, plan editorial, brief S14 y rutina diaria.
