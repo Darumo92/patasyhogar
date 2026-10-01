@@ -1,5 +1,40 @@
-last_updated: '2026-09-16'
+last_updated: '2026-10-01'
 blogs:
+- slug: gato-agresivo-causas-soluciones
+  title: "Gato agresivo: tipos de agresividad felina y cómo actuar"
+  file_path: src/content/articulos/gato-agresivo-causas-soluciones.mdx
+  status: published
+  published_date: '2026-10-01'
+  draft_date: '2026-09-30'
+  scheduled_date: '2026-09-21'
+  last_updated: '2026-10-01'
+  blog_type: guide
+  content_type: informativo
+  cluster_id: tc_salud_comportamiento_gatos
+  is_pillar: false
+  target_keywords:
+  - keyword: gato agresivo
+    search_volume: 210
+    is_primary: true
+  - keyword: gato agresivo de repente
+    search_volume: 110
+    is_primary: false
+  - keyword: como calmar a un gato agresivo
+    search_volume: 90
+    is_primary: false
+  features_mentioned: []
+  word_count: 2230
+  competitors_mentioned: []
+  internal_links_out:
+  - por-que-mi-gato-me-muerde
+  - senales-estres-gatos
+  - lenguaje-corporal-gatos
+  internal_links_from:
+  - por-que-mi-gato-me-muerde
+  - senales-estres-gatos
+  has_eeat_signals: true
+  notes: "S16 documentary guide with direct clinical citations; no personal cases or veterinary review claimed. Brief: docs/brief-s16-gato-agresivo.md. Prior build/content checks passed; HTML title/meta 56/128 and FAQ 4/4. Pexels 4492140, Aleksandr Nadyojin, visually verified and added with explicit consent; final asset verification completed. Aprobado por el usuario el 2026-10-01. Word count excludes frontmatter, URLs and headings."
+  needs_update_reason: ''
 - slug: mejor-robot-aspirador-mascotas
   title: "Mejor robot aspirador para mascotas: 3 opciones en 2026"
   file_path: src/content/articulos/mejor-robot-aspirador-mascotas.mdx

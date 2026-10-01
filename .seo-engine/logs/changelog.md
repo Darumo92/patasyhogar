@@ -1,5 +1,18 @@
 # SEO Content Engine — Changelog
 
+## 2026-10-01 — Aprobación S16
+**Action:** Aprobación humana y autorización de subida a main
+**Files:** content-map, content-queue, topic-clusters, seo-keywords, plan editorial, brief S16, MDX S16, hero Pexels y registro ODD.
+**Summary:** El usuario aprueba la guía informativa de agresividad felina tras una revisión de navegador solo lectura (escritorio en tema oscuro y móvil, sin errores accionables) y autoriza subir los cambios a main ("sube los cambios a main"). Estado published con fecha 2026-10-01; hero Pexels verificado. RDD permanece deshabilitado (`rdd_disabled`) y no cuenta como revisión ni aprobación. No se verifica el despliegue remoto de Cloudflare desde aquí; el recibo de `git push` se reporta fuera de este registro.
+**Triggered by:** user
+
+## 2026-09-30 — S16 draft for human review
+**Action:** Author the informational feline aggression guide after parent read/reconciled ODD tracking and authorised T1-T3.
+**Files:** S16 brief/MDX, S16-only queue/map/clusters/keywords/plan, two contextual incoming links and ODD task record.
+**Summary:** 2230 prose words excluding headings/frontmatter/URLs; four FAQs, three internal outgoing destinations, seven overlapping contexts including maternal and petting-related, not idiopathic. Direct Cornell/iCatCare/AAFP/NHS citations; no fictional personal episode or veterinary review. Google ES principal/variants observed with Surfer 210/110/90. Draft date 2026-09-30; scheduled 2026-09-21 preserved. Status human-review, not published.
+**Verification:** Three foreground builds passed (each after source mutation: initial, H2 correction, hero integration). Each: 169 pages, 13 CSP hashes; final 189 article images/202 skipped; no tracked `_headers` delta. All content checks passed every run; final HTML/CSV assertions and three YAML parses passed. Title/meta 56/128, FAQ 4/4, two question H2, canonical/indexing/breadcrumb/author/tags and outgoing/incoming built links verified. No affiliate destinations/disclaimer; existing internal `/cuidados/` CTA reuses affiliate-button styling. Hero verified in built HTML: `loading="eager"`, `fetchpriority="high"`, 800x400, alt matches frontmatter; OG and Article schema image = article hero; public/dist byte-identical. Auxiliary checker failures (null HTML attribute, absent yaml package, overbroad CTA assertion) diagnosed and corrected using js-yaml and destination checks. Parent RDD and human approval pending. No commit/push/PR/branch or publication authorised/performed.
+**Triggered by:** user (pending last-week S16 article)
+
 ## 2026-09-16 — Aprobación S15
 **Action:** Aprobación humana y autorización de subida a main
 **Files:** content-map, content-queue, features, topic-clusters, seo-keywords, plan editorial, brief S15, PRODUCTOS y rutina diaria.

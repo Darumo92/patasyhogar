@@ -402,25 +402,24 @@ queue:
       - "seguro-mascotas-espana-guia-2026"
 
   - id: "q_015"
-    title: "Gato agresivo: causas y cómo corregirlo"
-    blog_type: "tutorial"
+    title: "Gato agresivo: tipos de agresividad felina y cómo actuar"
+    blog_type: "guide"
     content_type: "cluster"
     cluster_id: "tc_salud_comportamiento_gatos"
-    target_keywords: ["gato agresivo", "gato muerde", "gato araña causas"]
-    unique_angle: "Distingue 7 tipos de agresividad felina (territorial, por miedo, redirigida, por juego, por dolor, maternal, idiopática). Plan de acción diferenciado para cada tipo."
+    target_keywords: ["gato agresivo", "gato agresivo de repente", "como calmar a un gato agresivo"]
+    unique_angle: "Safety-first response and veterinary assessment, then seven overlapping contexts: fear, redirected, territorial/intercat conflict, pain, play, petting/handling and maternal. No home diagnosis."
     priority: "medium"
-    priority_reason: "Common behavioral concern with no coverage. Can link to feromonas and enriquecimiento."
-    status: "planned"
-    estimated_word_count: 2500
-    serp_analyzed: false
-    cannibalization_check: "passed"
-    notes: "Tipo: informativo. Links to feromonas, rascadores, enriquecimiento."
+    priority_reason: "S16 pending guide; complements existing S11 petting-bite and stress articles without duplicating them."
+    status: "published"
+    estimated_word_count: 2230
+    serp_analyzed: true
+    cannibalization_check: "passed — S16 covers aggression contexts and immediate safety; S11 retains petting-bite intent, stress guide retains general symptoms."
+    notes: "Informativo YMYL. Draft 2026-09-30; scheduled 2026-09-21, preserved as planning. Playwright ES principal/variants 210/110/90. Brief: docs/brief-s16-gato-agresivo.md. Cornell selectively, current iCatCare, AAFP landing page and NHS. No invented anecdotes/review. Prior build/content checks passed; HTML title/meta 56/128, FAQ 4/4. Pexels hero 4492140 added with explicit key/download consent and verified. Aprobado por el usuario el 2026-10-01. Publicado 2026-10-01."
     depends_on: []
     internal_link_targets:
       - "senales-estres-gatos"
-      - "mejor-difusor-feromonas-gatos"
-      - "enriquecimiento-ambiental-gato-interior"
-      - "como-presentar-perro-gato"
+      - "por-que-mi-gato-me-muerde"
+      - "lenguaje-corporal-gatos"
 
   - id: "q_016"
     title: "Cómo bañar a tu perro en casa paso a paso"

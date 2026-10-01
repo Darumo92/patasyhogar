@@ -41,7 +41,7 @@ El 2026-09-09 el usuario confirma mantener el adelanto de una semana: todas las 
 | 46 | S13 | 2026-09-07 | Vacunas para perros: calendario, precios y cuales son obligatorias | vacunas para perros | 1900 | Guia YMYL | Septiembre, adopciones/rutina; fuentes vet | [x] publicado 2026-09-02 |
 | 47 | S14 | 2026-09-07 | Perros PPP en España: razas, licencia y normativa 2026 | perros ppp españa | 720 | Guia Legal | BOE/CCAA y SERP verificados 2026-09-09 | [x] publicado 2026-09-09, aprobado por el usuario |
 | 48 | S15 | 2026-09-14 | Mejor robot aspirador para mascotas: 3 opciones en 2026 | robot aspirador mascotas | 590 | Comp | Post-verano, muda/pelo en casa | [x] publicado 2026-09-16, aprobado por el usuario |
-| 49 | S16 | 2026-09-21 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 390 | Guia YMYL | Evergreen; enlaza a estres y comportamiento | [ ] |
+| 49 | S16 | 2026-09-21 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 210 (SERP 2026-09-30; historico 390) | Guia YMYL | Evergreen; seguridad y valoracion veterinaria; enlaza a estres y mordisco | [x] publicado 2026-10-01, aprobado por el usuario |
 | 50 | S17 | 2026-09-28 | Collares de adiestramiento para perros: opciones, riesgos y alternativas | collares adiestramiento perros | 2900 | Guia/Comp | Alto volumen; enfoque etico, no promover electricos | [ ] |
 | 51 | S18 | 2026-10-05 | Envenenamiento en perros: sintomas y que hacer | envenenamiento perros | 390 | Guia YMYL | Riesgo hogar/exterior; fuentes veterinarias | [ ] |
 | 52 | S19 | 2026-10-12 | Primeros auxilios para perros: guia de emergencia | primeros auxilios perros | 110 | Guia YMYL | Bajo volumen, alto E-E-A-T | [ ] |
