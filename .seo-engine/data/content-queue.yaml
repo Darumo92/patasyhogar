@@ -1,6 +1,28 @@
-last_updated: "2026-09-16"
+last_updated: "2026-10-03"
 
 queue:
+  - id: "q_036"
+    title: "Collares de adiestramiento para perros: riesgos y opciones"
+    blog_type: "comparison"
+    content_type: "cluster"
+    cluster_id: "tc_paseo_perros"
+    animal: "perro"
+    target_keywords: ["collares adiestramiento perros", "collar adiestramiento perro", "collar perro adiestramiento"]
+    unique_angle: "Guía de elección y riesgos de martingale, ronzal y vibración, con tres productos documentados y alternativas de refuerzo positivo."
+    priority: "high"
+    priority_reason: "Plan v7.1 S17, semana 2026-09-28; 2900 búsquedas/mes del plan, sin cifra en vivo de Keyword Surfer."
+    status: "published"
+    estimated_word_count: 2600
+    serp_analyzed: true
+    cannibalization_check: "passed — límite documentado en el brief: elección de collar; antiladridos conserva su intención y arneses antitirones su comparativa"
+    notes: "Borrador 2026-10-03. Slug: collares-adiestramiento-perros. Brief: docs/brief-s17-collares-adiestramiento.md. Dazzber, HALTI y STAALGUARD verificados en §11.1-11.3. Hero Pexels 14945757 autorizado y verificado visualmente. KD/CPC no verificados. Aprobado por el usuario el 2026-10-03. Publicado 2026-10-03."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-paseo-viaje-perros"
+      - "mejor-arnes-antitirones-perro"
+      - "collar-antiladridos-perros"
+      - "como-socializar-cachorro"
+
   - id: "q_035"
     title: "Mejor robot aspirador para mascotas: 3 opciones en 2026"
     blog_type: "comparison"

@@ -1,4 +1,4 @@
-last_updated: "2026-09-16"
+last_updated: "2026-10-03"
 
 clusters:
   - cluster_id: "tc_alimentacion_perros"
@@ -562,6 +562,13 @@ clusters:
         slug: "collar-antiladridos-perros"
         status: "published"
         blog_slug: "collar-antiladridos-perros"
+      - title: "Collares de adiestramiento para perros: riesgos y opciones"
+        target_keyword: "collares adiestramiento perros"
+        slug: "collares-adiestramiento-perros"
+        status: "human-review"
+        serp_analyzed: true
+        blog_slug: "collares-adiestramiento-perros"
+        notes: "S17, borrador 2026-10-03. Volumen 2900 del plan v7.1; sin cifra en vivo de Keyword Surfer. Tres tipos y productos verificados, con límites frente a antiladridos y arneses antitirones. Hero Pexels verificado; build, enlace al pillar y aprobación humana pendientes."
       - title: "Cómo socializar a un cachorro"
         target_keyword: "socializar cachorro"
         slug: "como-socializar-cachorro"

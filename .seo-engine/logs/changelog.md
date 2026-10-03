@@ -593,3 +593,16 @@
 - `docs/PLAN_EDITORIAL_v7.md` — marcada S2 como creada
 **Summary:** Guía informativa de urgencia para golpe de calor en perros. SERP real aportada por usuario: AI Overview, PAA, related searches y competidores AniCura/Vets&Clinics, Kivet, Tiendanimal, Kiwoko/Purina. Ángulo: protocolo de primeros minutos, errores que evitar, urgencia veterinaria y prevención en verano español. E-E-A-T: experiencia Kira en Valencia + fuentes veterinarias externas RSPCA/PDSA. 5 FAQs desde PAA.
 **Triggered by:** user (plan v7.1 #35, SERP aportada por usuario)
+
+## 2026-10-03 — Registro S17 para revisión humana
+**Action:** Añadir hero y registro editorial del borrador de collares de adiestramiento
+**Files:** `src/content/articulos/collares-adiestramiento-perros.mdx` (solo imagen e imagenAlt), `public/images/articulos/collares-adiestramiento-perros.webp`, `PRODUCTOS.md`, `.seo-engine/data/{content-map,content-queue,features,topic-clusters}.yaml`, `.seo-engine/data/seo-keywords.csv`.
+**Summary:** El artículo ya redactado se registra como human-review en tc_paseo_perros. Datos y decisiones del brief `docs/brief-s17-collares-adiestramiento.md`, §11.1-11.3: Dazzber B07YHPD8Z4 (24,11€), HALTI B004XNLCPC (17,99€) y STAALGUARD B0D8414Q3X (39,99€), observados el 2026-10-03, con imágenes Amazon verificadas. Hero Pexels 14945757 de Hope Pontifex, consulta «collar de perro paseo», autorizado y verificado visualmente: perro atigrado con collar plano turquesa y correa sobre una acera. Tres keywords de 2900 del plan v7.1; sin cifra en vivo de Keyword Surfer ni KD/CPC verificados. Se conserva el cuerpo del artículo y el plan editorial sin cambios.
+**Verification:** Imagen WebP revisada visualmente (800 px, 39514 bytes); cuatro YAML válidos y CSV con 17 columnas en cabecera y sus 191 filas de datos. Dos campos de hero en frontmatter; diff sin errores de espacios. La búsqueda global de referencias a la tienda excluida detecta dos entradas preexistentes ajenas a S17 en content-map, conservadas sin cambios. Build, enlaces pendientes y revisión humana corresponden a la fase posterior. Sin commit, push ni publicación. Discrepancia preexistente del pillar paseo: human-review en reglas, published en topic-clusters; estado conservado.
+**Triggered by:** user (S17 T2b, autorización Pexels 2026-10-03)
+
+## 2026-10-03 — Aprobación S17 y badge opcional
+**Action:** Registrar la aprobación humana y ocultar el badge de ganador solo en S17
+**Files:** `src/components/ComparisonTable.astro`, `src/content/articulos/collares-adiestramiento-perros.mdx`, `docs/PLAN_EDITORIAL_v7.md`, `.seo-engine/data/content-queue.yaml`, `.seo-engine/data/seo-keywords.csv`.
+**Summary:** El usuario aprueba publicar S17 tras corregir el badge «Mejor opción», que contradice la sección «sin un ganador universal». ComparisonTable admite la prop opcional sinBadge; solo S17 la activa. El SVG, texto y comportamiento por defecto se conservan para los demás artículos. La cola q_036 y las tres keywords pasan a published con fecha 2026-10-03; el plan registra la aprobación del usuario. PRODUCTOS.md no requiere cambios. Preparación local, sin commit, push ni despliegue en esta tarea.
+**Triggered by:** user (S17 T4, aprobación de publicación 2026-10-03)

@@ -1,5 +1,15 @@
 # Lista de productos para actualizar
 
+## S17 — Collares de adiestramiento para perros (2026-10-03)
+
+Verificados en Amazon.es mediante Playwright. Precios e imágenes observados el 2026-10-03; datos y decisiones en `docs/brief-s17-collares-adiestramiento.md`, §11.1-11.3. Artículo pendiente de revisión humana.
+
+| Modelo | ASIN | URL Amazon | Precio verificado | Imagen |
+|---|---|---|---|---|
+| Dazzber — Collar martingale antitirones/antifuga, ajustable 43,2-63,5 cm, rojo | B07YHPD8Z4 | https://www.amazon.es/dp/B07YHPD8Z4 | 24,11€ | https://m.media-amazon.com/images/I/81x-4XkVkvL._AC_SL300_.jpg |
+| Collar Ronzal HALTI — antitirones, banda de nariz acolchada, talla 3 negro | B004XNLCPC | https://www.amazon.es/dp/B004XNLCPC | 17,99€ | https://m.media-amazon.com/images/I/81qCBuEmmML._AC_SL300_.jpg |
+| STAALGUARD — Collar de adiestramiento, sonido/vibración, 9 niveles, 3000 m, IP67 | B0D8414Q3X | https://www.amazon.es/dp/B0D8414Q3X | 39,99€ | https://m.media-amazon.com/images/I/81ZCf+sxcJL._AC_SL300_.jpg |
+
 ## S15 — Robots aspiradores para mascotas (2026-09-16)
 
 Verificados en Amazon.es mediante Playwright tras respuesta API `AssociateNotEligible`. Los tres en stock. Detalles y fuentes técnicas en `docs/brief-s15-robot-aspirador-mascotas.md`.

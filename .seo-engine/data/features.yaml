@@ -1,5 +1,5 @@
 project: "Patas y Hogar"
-last_updated: "2026-09-16"
+last_updated: "2026-10-03"
 generated_from: "src/content/articulos/"
 
 categories:
@@ -848,6 +848,17 @@ categories:
       - id: "sub_collares"
         name: "Collares"
         features:
+          - id: "feat_collares_adiestramiento_perros"
+            name: "Collares de adiestramiento para perros"
+            description: "Guía y comparativa de martingale, ronzal y vibración: riesgos, ajuste y alternativas de refuerzo positivo"
+            status: "human-review"
+            doc_refs:
+              - path: "src/content/articulos/collares-adiestramiento-perros.mdx"
+                section: "full article"
+            blog_refs: ["collares-adiestramiento-perros"]
+            tags: ["collar", "martingale", "ronzal", "vibración", "adiestramiento", "perro"]
+            notes: "S17, borrador 2026-10-03. Tres productos verificados en el brief §11.1-11.3; análisis documental sin pruebas propias. Pendiente de revisión humana y build."
+
           - id: "feat_collar_antiladridos"
             name: "Collar antiladridos para perros"
             description: "Comparativa de collares antiladridos y vibración"

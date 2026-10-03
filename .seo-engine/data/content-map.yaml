@@ -1,5 +1,37 @@
-last_updated: '2026-10-01'
+last_updated: '2026-10-03'
 blogs:
+- slug: collares-adiestramiento-perros
+  title: "Collares de adiestramiento para perros: riesgos y opciones"
+  file_path: src/content/articulos/collares-adiestramiento-perros.mdx
+  status: human-review
+  published_date: ''
+  draft_date: '2026-10-03'
+  scheduled_date: '2026-09-28'
+  last_updated: '2026-10-03'
+  blog_type: comparison
+  content_type: comparativa
+  cluster_id: tc_paseo_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: collares adiestramiento perros
+    search_volume: 2900
+    is_primary: true
+  - keyword: collar adiestramiento perro
+    search_volume: 2900
+    is_primary: false
+  - keyword: collar perro adiestramiento
+    search_volume: 2900
+    is_primary: false
+  features_mentioned: [feat_collares_adiestramiento_perros]
+  competitors_mentioned: []
+  internal_links_out:
+  - mejor-arnes-antitirones-perro
+  - collar-antiladridos-perros
+  - como-socializar-cachorro
+  internal_links_from: []
+  has_eeat_signals: true
+  notes: "S17, guía y comparativa documental de martingale, ronzal y vibración. Brief: docs/brief-s17-collares-adiestramiento.md, §11.1-11.3. Tres productos con precio e imagen verificados el 2026-10-03. Volúmenes del plan v7.1; Keyword Surfer no mostró cifra en vivo; KD/CPC no verificados. Pexels 14945757, Hope Pontifex, autorizado y verificado visualmente. Sin pruebas propias atribuidas. Build, revisión editorial y aprobación humana pendientes; no publicado. Enlace al pillar y enlaces entrantes pendientes, no añadidos en T2b."
+  needs_update_reason: ''
 - slug: gato-agresivo-causas-soluciones
   title: "Gato agresivo: tipos de agresividad felina y cómo actuar"
   file_path: src/content/articulos/gato-agresivo-causas-soluciones.mdx
