@@ -37,9 +37,10 @@ function optimizeImg(url?: string): string | undefined {
 interface Props {
   productos: Producto[];
   titulo?: string;
+  sinBadge?: boolean;
 }
 
-const { productos, titulo } = Astro.props;
+const { productos, titulo, sinBadge } = Astro.props;
 
 const FALLBACK_IMAGE = '/og-default.jpg';
 const PRICE_VALID_UNTIL = `${new Date().getFullYear() + 1}-12-31`;
@@ -203,7 +204,7 @@ function tiendas(p: Producto) {
     const stars = starData(p.valoracion);
     return (
       <div class={`comp-card ${i === 0 ? 'comp-card--top' : ''}`} data-product-name={p.nombre} data-product-price={displayPrice} data-price-num={parseFloat((displayPrice.match(/(\d+[.,]?\d*)/) || ['0','0'])[1].replace(',', '.'))} data-rating={p.valoracion} data-original-index={i}>
-        {i === 0 && <span class="comp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Mejor opción</span>}
+        {i === 0 && !sinBadge && <span class="comp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Mejor opción</span>}
 
         <div class="comp-header">
           {displayImage && (
