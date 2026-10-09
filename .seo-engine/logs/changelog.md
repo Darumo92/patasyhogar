@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-10-09 — S18 draft awaiting human approval
+**Action:** Register the evidence-led informational dog poisoning draft.
+**Files:** content-map, content-queue (q_037), seo-keywords, topic-clusters and S18 ODD task.
+**Summary:** Spanish draft at /cuidados/envenenamiento-perros/ with four FAQs, four existing internal destinations and 13 veterinary references. Current Surfer observation is 320 (Playwright Google ES, 2026-10-09); plan value 390 is historical only. Status human-review, not published; human approval and incoming pillar link remain pending. No invented personal experience or veterinary review; no publication, push, PR or merge authorized.
+**Triggered by:** user (weekly S18 article; local creation only)
+
 ## 2026-10-01 — Aprobación S16
 **Action:** Aprobación humana y autorización de subida a main
 **Files:** content-map, content-queue, topic-clusters, seo-keywords, plan editorial, brief S16, MDX S16, hero Pexels y registro ODD.

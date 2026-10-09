@@ -1,5 +1,34 @@
-last_updated: '2026-10-03'
+last_updated: '2026-10-09'
 blogs:
+- slug: envenenamiento-perros
+  title: "Envenenamiento en perros: síntomas y qué hacer"
+  file_path: src/content/articulos/envenenamiento-perros.mdx
+  status: human-review
+  published_date: ''
+  draft_date: '2026-10-09'
+  scheduled_date: '2026-10-05'
+  last_updated: '2026-10-09'
+  blog_type: guide
+  content_type: informativo
+  animal: perro
+  categoria: higiene
+  cluster_id: tc_salud_comportamiento_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: envenenamiento perros
+    search_volume: 320
+    is_primary: true
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - procesionaria-pino-perros-peligros-primeros-auxilios
+  - alimentos-prohibidos-perros
+  - evitar-perro-coma-cosas-suelo
+  - guia-completa-salud-bienestar-perros
+  internal_links_from: []
+  has_eeat_signals: true
+  notes: "S18. Borrador informativo en /cuidados/envenenamiento-perros/. Triaje ante sospecha y exposiciones no alimentarias; sin dosis, remedios ni experiencias inventadas. Brief: docs/brief-s18-envenenamiento-perros.md, 13 fuentes veterinarias consultadas el 2026-10-09. Keyword Surfer 320 observado con Playwright Google ES el 2026-10-09; 390 del plan de abril es histórico. KD/CPC no verificados. Hero Pexels 7468978 autorizado y verificado. Aprobación humana y enlaces entrantes pendientes; no publicado ni revisado por un veterinario."
+  needs_update_reason: ''
 - slug: collares-adiestramiento-perros
   title: "Collares de adiestramiento para perros: riesgos y opciones"
   file_path: src/content/articulos/collares-adiestramiento-perros.mdx

@@ -1,6 +1,29 @@
-last_updated: "2026-10-03"
+last_updated: "2026-10-09"
 
 queue:
+  - id: "q_037"
+    title: "Envenenamiento en perros: síntomas y qué hacer"
+    blog_type: "guide"
+    content_type: "cluster"
+    cluster_id: "tc_salud_comportamiento_perros"
+    animal: "perro"
+    categoria: "higiene"
+    target_keywords: ["envenenamiento perros", "intoxicación en perros"]
+    unique_angle: "Sospecha con o sin síntomas, llamada y traslado veterinario; exposiciones no alimentarias y errores que evitar, sin tratamientos domésticos."
+    priority: "high"
+    priority_reason: "Plan v7.1 S18, semana 2026-10-05. Keyword Surfer 320 observado el 2026-10-09; 390 del plan de abril es histórico."
+    status: "human-review"
+    estimated_word_count: 2000
+    serp_analyzed: true
+    cannibalization_check: "passed — alimentos-prohibidos-perros conserva listas alimentarias; S19 conserva primeros auxilios generales"
+    notes: "Borrador 2026-10-09. Informativo, /cuidados/envenenamiento-perros/. Brief: docs/brief-s18-envenenamiento-perros.md. SERP Google ES observada con Playwright MCP; 13 fuentes veterinarias y hero Pexels 7468978 verificados. Aprobación humana pendiente; no publicado."
+    depends_on: []
+    internal_link_targets:
+      - "guia-completa-salud-bienestar-perros"
+      - "alimentos-prohibidos-perros"
+      - "evitar-perro-coma-cosas-suelo"
+      - "procesionaria-pino-perros-peligros-primeros-auxilios"
+
   - id: "q_036"
     title: "Collares de adiestramiento para perros: riesgos y opciones"
     blog_type: "comparison"
