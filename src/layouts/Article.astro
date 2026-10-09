@@ -290,7 +290,7 @@ const breadcrumbSchema = {
       </div>
       <div class="trust-item">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M12 2v4"/><path d="m16.24 7.76-2.83 2.83"/><path d="M18 12h4"/><path d="m16.24 16.24-2.83-2.83"/><path d="M12 18v4"/><path d="m7.76 16.24 2.83-2.83"/><path d="M2 12h4"/><path d="m7.76 7.76 2.83 2.83"/></svg>
-        Precios y disponibilidad revisados
+        {esInformativo ? 'Guía informativa' : 'Precios y disponibilidad revisados'}
       </div>
       <div class="trust-item">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M21.5 2v6s-6-1-12 4c0 0-1-5-1-10 7.5 0 13 0 13 0z"/><path d="M2.5 22c2-2 8-6 9.5-9.5"/><path d="M10 15c-3 0-6 3-6 3"/></svg>
@@ -373,7 +373,7 @@ const breadcrumbSchema = {
 
     <div class="article-newsletter">
       <p class="article-newsletter-title">¿Te avisamos cuando actualicemos esta guía?</p>
-      <p class="article-newsletter-desc">Actualizamos precios y productos regularmente. Suscríbete y te avisaremos de los cambios en esta guía y otras similares.</p>
+      <p class="article-newsletter-desc">{esInformativo ? 'Suscríbete y te avisaremos cuando actualicemos esta guía y otras guías de cuidados.' : 'Actualizamos precios y productos regularmente. Suscríbete y te avisaremos de los cambios en esta guía y otras similares.'}</p>
       <form
         action="/api/subscribe"
         method="post"
