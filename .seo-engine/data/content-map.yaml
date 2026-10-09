@@ -3,8 +3,8 @@ blogs:
 - slug: envenenamiento-perros
   title: "Envenenamiento en perros: síntomas y qué hacer"
   file_path: src/content/articulos/envenenamiento-perros.mdx
-  status: human-review
-  published_date: ''
+  status: published
+  published_date: '2026-10-09'
   draft_date: '2026-10-09'
   scheduled_date: '2026-10-05'
   last_updated: '2026-10-09'
@@ -27,7 +27,7 @@ blogs:
   - guia-completa-salud-bienestar-perros
   internal_links_from: []
   has_eeat_signals: true
-  notes: "S18. Borrador informativo en /cuidados/envenenamiento-perros/. Triaje ante sospecha y exposiciones no alimentarias; sin dosis, remedios ni experiencias inventadas. Brief: docs/brief-s18-envenenamiento-perros.md, 13 fuentes veterinarias consultadas el 2026-10-09. Keyword Surfer 320 observado con Playwright Google ES el 2026-10-09; 390 del plan de abril es histórico. KD/CPC no verificados. Hero Pexels 7468978 autorizado y verificado. Aprobación humana y enlaces entrantes pendientes; no publicado ni revisado por un veterinario."
+  notes: "S18. Informativo en /cuidados/envenenamiento-perros/. Triaje ante sospecha y exposiciones no alimentarias; sin dosis, remedios ni experiencias inventadas. Brief: docs/brief-s18-envenenamiento-perros.md, 13 fuentes veterinarias consultadas el 2026-10-09. Surfer 320 observado con Playwright Google ES el 2026-10-09; 390 del plan de abril es histórico. KD/CPC no verificados. Hero Pexels 7468978 verificado. Publicación autorizada tras corrección y comprobaciones; main integrado y push HTTPS origin/main d3cfa24→cfa2600 observado por el padre el 2026-10-09. Despliegue Cloudflare no comprobado; sin revisión veterinaria. Enlaces entrantes pendientes."
   needs_update_reason: ''
 - slug: collares-adiestramiento-perros
   title: "Collares de adiestramiento para perros: riesgos y opciones"

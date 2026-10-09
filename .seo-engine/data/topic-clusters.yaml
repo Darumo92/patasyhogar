@@ -935,10 +935,11 @@ clusters:
       - title: "Envenenamiento en perros: síntomas y qué hacer"
         target_keyword: "envenenamiento perros"
         slug: "envenenamiento-perros"
-        status: "human-review"
+        status: "published"
+        published_date: "2026-10-09"
         serp_analyzed: true
         blog_slug: "envenenamiento-perros"
-        notes: "S18. Borrador 2026-10-09, /cuidados/envenenamiento-perros/. Surfer 320 observado con Playwright Google ES el 2026-10-09; 390 del plan es histórico. Sospecha y exposiciones no alimentarias; enlaza al pillar. Aprobación humana y enlace entrante pendientes; no publicado."
+        notes: "S18. /cuidados/envenenamiento-perros/. Surfer 320 observado con Playwright Google ES el 2026-10-09; 390 del plan es histórico. Sospecha y exposiciones no alimentarias; enlaza al pillar. Publicación autorizada tras corrección y verificación; push origin/main cfa2600 observado por el padre el 2026-10-09. Despliegue Cloudflare no comprobado; enlace entrante pendiente."
       # Planned pages
       - title: "Primeros auxilios para perros: guía de emergencia"
         target_keyword: "primeros auxilios perro emergencia"

@@ -1,5 +1,11 @@
 # SEO Content Engine — Changelog
 
+## 2026-10-09 — S18 publication bookkeeping
+**Action:** Record the authorized S18 main publication after scoped informative-copy correction and final verification.
+**Files:** S18-only content-map, content-queue (q_037), seo-keywords, topic-clusters, editorial-plan S18 checkbox and ODD task.
+**Summary:** Parent observed fast-forward main integration and HTTPS push origin/main d3cfa24→cfa2600 after test-first correction, six GREEN assertions, passing build/content checks and independent post-fix desktop/mobile light/dark interaction checks. S18 status published, date 2026-10-09; bookkeeping commit and subsequent push remain parent-owned. Git push is not Cloudflare deployment proof or veterinary certification. Other rows and nonblocking follow-ups remain unchanged.
+**Triggered by:** user (conditional publication explicitly authorized; parent-reported push observed)
+
 ## 2026-10-09 — S18 draft awaiting human approval
 **Action:** Register the evidence-led informational dog poisoning draft.
 **Files:** content-map, content-queue (q_037), seo-keywords, topic-clusters and S18 ODD task.

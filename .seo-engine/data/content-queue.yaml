@@ -12,11 +12,12 @@ queue:
     unique_angle: "Sospecha con o sin síntomas, llamada y traslado veterinario; exposiciones no alimentarias y errores que evitar, sin tratamientos domésticos."
     priority: "high"
     priority_reason: "Plan v7.1 S18, semana 2026-10-05. Keyword Surfer 320 observado el 2026-10-09; 390 del plan de abril es histórico."
-    status: "human-review"
+    status: "published"
+    published_date: "2026-10-09"
     estimated_word_count: 2000
     serp_analyzed: true
     cannibalization_check: "passed — alimentos-prohibidos-perros conserva listas alimentarias; S19 conserva primeros auxilios generales"
-    notes: "Borrador 2026-10-09. Informativo, /cuidados/envenenamiento-perros/. Brief: docs/brief-s18-envenenamiento-perros.md. SERP Google ES observada con Playwright MCP; 13 fuentes veterinarias y hero Pexels 7468978 verificados. Aprobación humana pendiente; no publicado."
+    notes: "Informativo, /cuidados/envenenamiento-perros/. Brief: docs/brief-s18-envenenamiento-perros.md. SERP Google ES con Playwright MCP; 13 fuentes veterinarias y hero Pexels 7468978 verificados. Publicación autorizada tras corrección y verificación final; push origin/main a cfa2600 observado por el padre el 2026-10-09. Despliegue Cloudflare no comprobado; sin revisión veterinaria."
     depends_on: []
     internal_link_targets:
       - "guia-completa-salud-bienestar-perros"
