@@ -40,11 +40,13 @@ npm run check:no-zooplus-public and git diff --check.
   Observed: fresh MCP 0.0.83 initialized, listed 25 tools, navigated example.com
   and returned its snapshot; Google ES main query and two variants returned SERP.
   Existing cached CLI help succeeded (parent repeated it, exit 0); no installation.
-- [ ] T1 — Verify SERP/clinical ledger and prepare brief/hero.
+- [x] T1 — Verify SERP/clinical ledger and prepare brief/hero.
   Route: delegated; broad editorial research and preparation trigger.
   Allowed: docs/brief-s19-primeros-auxilios-perros.md and
   public/images/articulos/primeros-auxilios-perros-guia-emergencia.webp.
   Proof: actual SERP observations, claim ledger and inspected unique image.
+  Observed: main query + kit/choking variants captured and reconciled in brief;
+  clinical ledger/image independently checked; whitespace check passes.
 - [ ] T2 — Draft coherent article and reconcile editorial tracking.
   Route: delegated; article-writer for prose, bounded mechanical tracking worker.
   Allowed: src/content/articulos/primeros-auxilios-perros-guia-emergencia.mdx,
@@ -91,7 +93,10 @@ npm run check:no-zooplus-public and git diff --check.
   owned test browsers/transports closed. Live advertised MCP reload remains untested
   until reconnection/new session. Project reference updated; CLI navigation not needed.
 - Main actual Surfer reading 110 on 2026-10-11; botiquin variant 0/N/A, choking
-  variant volume not observed. Evidence captured locally; brief reconciliation underway.
+  variant volume not observed. Evidence captured locally; brief ready to draft.
+- T0 local work-unit commit c26d3f3 (57 authored changed lines); T1 preparation
+  commit de297f2 (192 lines). Running committed authored count so far: 249.
+  RDD disabled/unmanaged; no native review transitions.
 - Initial full Engram mirror #401 saved and read back; resync after this update.
 
 ## Next step

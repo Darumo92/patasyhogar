@@ -1,8 +1,8 @@
 # S19 brief: dog first aid
 
-Prepared: 2026-10-11. Editorial slot: 2026-10-12. Status: pre-draft preparation, SERP BLOCKED, human review pending.
+Prepared: 2026-10-11. Editorial slot: 2026-10-12. Status: READY TO DRAFT, human review pending.
 No article drafted; no publication authorized. Local feature-branch-chain and Pexels use approved. No push, PR or merge. RDD off.
-Clinical evidence below was opened by the clinical-evidence worker today and supplied by the coordinator; this brief adds no external research.
+Clinical evidence below was opened by the clinical-evidence worker today and supplied by the coordinator; this update adds no clinical research.
 The coordinator independently spot-checked the PDSA heatstroke and VCA common-emergencies pages.
 
 ## Assignment and intended reader
@@ -17,17 +17,57 @@ The coordinator independently spot-checked the PDSA heatstroke and VCA common-em
 - Proposed length: approximately 1,500–2,000 words if the evidence supports it. The comparative-product minimum does not require padding this guide.
 - No affiliate components, product recommendations, prices or affiliate disclaimer.
 
-## SERP status and drafting prerequisite
+## Actual Google ES SERP and recovered browser
 
-Status: BLOCKED. Human-provided actual Google ES SERP has been requested. Do not draft the article until it arrives.
-One Playwright attempt used `https://www.google.com/search?q=primeros+auxilios+perros&hl=es&gl=es` on 2026-10-11.
-Navigation remained pending for more than five minutes and was terminated. No result, ranking, snippet, PAA, related search, AI Overview or extension metric was observed.
-No variant queries were attempted. Generic web search cannot substitute for the project's actual-SERP workflow.
-The plan's volume `110` is historical. `.seo-engine/data/seo-keywords.csv:42` records an April 2026 Keyword Surfer observation dated 2026-04-08.
-Current volume, KD and CPC are unverified. Do not describe historical values as fresh measurements.
-Request the main-query organic results, PAA and related searches; include visible Keyword Surfer readings and their capture date if available.
-The outline and FAQ intents below are evidence-led editorial proposals, not observed search-result features.
-After actual SERP arrives, reconcile intent and overlap before giving the article writer a drafting assignment.
+Observed with a fresh Playwright MCP 0.0.83 stdio server on 2026-10-11, approximately 18:09–18:10 UTC. Navigation and accessible snapshots succeeded after the coordinator corrected the dedicated-profile launch; optional Google cookies were rejected through the UI.
+The earlier navigation attempt hung and produced no observations. These later successful captures replace the drafting block, without claiming that the old live MCP process reloaded its configuration.
+All queries used `hl=es&gl=es`. Footer: Spain, Rubí, based on IP. These are observed localized results, not a depersonalized national ranking sample.
+Evidence root: `/tmp/patasyhogar-s19-browser-repair/`; each query has `google-after-consent.json`, `google-public-dom.json` and readable `public-body.txt`.
+Main-query files are in the root; variant files are in `botiquín-primeros-auxilios-perros/` and `qué-hacer-si-mi-perro-se-atraganta/`.
+Google obfuscated destination links as redirects; record observed displayed domains/titles below rather than inventing final page URLs.
+
+### Main query: primeros auxilios perros
+
+URL: https://www.google.com/search?q=primeros+auxilios+perros&hl=es&gl=es
+Organic order, excluding video and AI modules:
+
+1. Purina US (`purina.com`): `Guía de primeros auxilios para perros: Lo que el dueño ...`.
+2. Gudog (`gudog.com`): `Primeros Auxilios para perros: Maniobra de Heimlich y ...`.
+3. Escuela Clínica (`escuelaclinica.com`): `Guía básica sobre primeros auxilios en perros y gatos`.
+4. Verdecora (`verdecora.es`): `Primeros auxilios para perro: manual básico`.
+5. Escuela de Postgrado de Veterinaria (`postgradoveterinaria.com`): `Primeros auxilios para animales: ¿cómo deben ser?`.
+6. Cruz Roja (`www2.cruzroja.es`): `Cómo socorrer a tu mascota en caso de emergencia - Ahora`.
+7. Piensos Popas (`piensospopas.es`): `Guía básica de primeros auxilios para perros`.
+8. Escola d'Oficis Catalunya (`eoc.cat`): `Primeros auxilios en perros y gatos, ¿qué hacer ante una ...`.
+
+PAA, unexpanded: `¿Qué es la regla 7 7 7 para los perros?`; `¿Qué es la regla 3-3-3 para perros?`; `¿Cuáles son las 7 señales de que mi perro está muriendo?`; `¿Cuáles son los 7 comandos básicos para perros?`.
+Related searches: `Primeros auxilios perros curso`; `Primeros auxilios perros pdf`; `Mi perro hace ruidos raros como si se ahogara`; `Maniobra Heimlich perros pequeños`; `RCP perros`; `Mi perro parece que se ahoga y quiere vomitar`.
+AI Overview present: first aid while seeking care, handling, Heimlich/RCP, bleeding, poisoning, burns and kit suggestions. Visible attributions included Purina, Gudog, YouTube, Amazon, MSD and training schools. Its procedural instructions and numeric claims are SERP observations, not clinical evidence.
+Keyword Surfer header: `110`, with adjacent `0.33`. The adjacent field had no confirmed label in the capture; do not call it CPC. Visible ideas included `rcp en perros` 390, `rcp perros` 260, `primeros auxilios perro` 110 and `primeros auxilios en perros` 110.
+This is a fresh extension observation dated 2026-10-11. Keep it separate from the historical April `110` in the plan and `.seo-engine/data/seo-keywords.csv:42` (2026-04-08). Neither is an official Google measurement; current KD/CPC remain unverified.
+
+### Kit variant: botiquín primeros auxilios perros
+
+URL: https://www.google.com/search?q=botiqu%C3%ADn+primeros+auxilios+perros&hl=es&gl=es
+Organic order: Amazon (`amazon.es`), `Botiquin Veterinario`; Kivet (`kivet.com`), `Botiquín para perros: qué debe llevar y cuándo usarlo`; Guaw (`guaw.com`), `Kit de Primeros Auxilios para Perros | Emergencias y Viajes`; Botiquin Sans (`botiquinsans.com`), `¿Qué incluir para cuidar a tu mejor amigo?`; Tiendanimal (`tiendanimal.es`), `Botiquín para perros`.
+Then Pipper on Tour (`pipperontour.com`), `QUÉ LLEVAR EN EL BOTIQUÍN SI VIAJAS CON PERRO`; Decathlon (`decathlon.es`), `Kit Botiquín Solognac Primeros Auxilios Perro`; Mascota Planet (`mascotaplanet.com`), `Botiquines y primeros auxilios para perros`; Clinicanimal (`clinicanimal.vet`), `Qué incluir en un botiquín de primeros auxilios para ...`. Separate shopping/store modules were also visible; their prices are not verified product data for S19.
+PAA, unexpanded: `¿Cuáles son las 10 cosas que debe llevar un botiquín?`; `¿Cómo reanimar a un perro que se ahogó?`; `¿Cuáles son las cosas indispensables para un perro?`; `¿Qué debe llevar un botiquín veterinario?`.
+Related: `Botiquín para perros de caza`; `Botiquín primeros auxilios para mascotas`; `Botiquín veterinario`; `Botiquín veterinario para perros y gatos`; `Mejor cicatrizante para perros`; `Productos de limpieza para perros`.
+No AI Overview observed. Keyword Surfer header: `0` and `N/A`, dated 2026-10-11; this long-query reading does not demonstrate absent demand.
+
+### Airway variant: qué hacer si mi perro se atraganta
+
+URL: https://www.google.com/search?q=qu%C3%A9+hacer+si+mi+perro+se+atraganta&hl=es&gl=es
+Organic order excluding videos/images: Kiwoko (`kiwoko.com`), `¿Sabes qué hacer si tu perro se atraganta?`; Patitas&co (`patitasco.com`), `¿Sabrías qué hacer si tu perro se atraganta?`; Srperro (`srperro.com`), `¿Qué puedes hacer si tu perro se atraganta y no puede ...`; Consumer (`consumer.es`), `Ayudar al perro que se atraganta en cinco pasos | Consumer`; Protectora Huellas (`protectorahuellas.org`), `Qué hacer cuando nuestro perro se atraganta`; Poema Para Mascotas (`poemaparamascotas.com`), `Que hacer si tu perro se atraganta`.
+PAA, unexpanded: `¿Qué se le puede dar a un perro cuando se atraganta?`; `¿Qué hacer cuando mi perro hace como si tuviera algo atorado?`; `¿Cómo hacer que mi perro expulse algo de la garganta?`; `¿Qué hacer si mi perro se atraganta con la comida?`.
+Related: `Mi perro hace ruidos raros como si se ahogara`; `Mi perro se atraganta y tose como si estuviera`; `Mi perro se atraganta al comer`; `Mi perro se atraganta mucho`; `Mi perro parece que se ahoga y quiere vomitar`; `Mi perro se atraganta al beber agua`; `Que hacer si mi perro se atraganta con un hueso`; `Que pasa si mi perro se atraganta`.
+AI Overview present with extraction, gravity, back blows, Heimlich and RCP instructions, attributed partly to social/video accounts. Do not adopt these procedures as clinical proof. Keyword Surfer header volume was not observed; zeros beside organic results are not a substitute for that reading.
+
+### Intent decision for the writer
+
+Keep S19 a broad emergency guide. The main PAA's 7-7-7, 3-3-3 and training-command questions are poor matches and must not dictate the emergency FAQs.
+The kit query is strongly commercial; retain a brief evidence-supported kit section without a shopping comparison. The choking query supports a specific urgency section, professional instructions and training, within F7's restrictions.
+Search demand for Heimlich/RCP does not override the source discrepancies or authorize unsupported medical procedures. The existing source-led outline and overlap boundaries remain the drafting scope.
 
 ## Local cannibalization boundaries and existing links
 
@@ -41,7 +81,7 @@ The following MDX files were inspected locally. All five are informative content
 | `/cuidados/alimentos-prohibidos-perros/` | Owns food lists and food-specific risks; also contains an emergency section and basic kit paragraph. S19 owns the broader first-aid kit and general emergency actions; avoid toxic-food tables and doses. |
 | `/cuidados/guia-completa-salud-bienestar-perros/` | Existing general health pillar. Link for routine prevention context, away from the immediate emergency instructions. |
 
-Local overlap is manageable with these boundaries; search-intent confirmation remains pending actual SERP.
+Local overlap is manageable with these boundaries; the observed broad emergency intent supports S19 while the specialist guides keep their topic-specific detail.
 The legacy food article includes numeric toxicity windows and a human toxicology phone claim. Those are outside this brief's verified ledger and must not be imported into S19.
 The food article's syringe/liquid kit suggestion is not a source for oral administration in an emergency.
 Do not change neighboring articles in this task. Existing local content establishes linking and overlap, not medical accuracy.
@@ -111,6 +151,6 @@ Sources are international; use clinical guidance without copying their foreign s
 
 This task writes only the brief. No article, editorial tracking changes, builds, tests, staging, commits or remote Git operations.
 Test-first exception: passive editorial preparation has no meaningful runnable RED; use readback and whitespace checks.
-Remaining prerequisite: receive actual Google ES SERP and reconcile this brief before drafting. T1 is incomplete while SERP remains blocked.
-After that prerequisite, the coordinator supplies one article writer with this ledger and authorized outline; later checks include content validation, build and rendered review.
+The actual-SERP prerequisite has been met and reconciled with the safety-bound outline. This brief is READY TO DRAFT; task closure and commit records remain the coordinator's responsibility.
+The coordinator can now supply one article writer with this ledger and authorized outline; later checks include content validation, build and rendered review.
 Keep the future article and editorial records in prepared/human-review status until explicit publication authorization and completed checks.
