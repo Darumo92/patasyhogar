@@ -58,10 +58,14 @@ npm run check:no-zooplus-public and git diff --check.
   plus 89 FAQ-answer words. Independent verifier closed length/source-budget
   findings; all six source-derived allocations including FAQs remain below 200.
   Engine/plan/brief tracking integrity checks pass, all S19 status human-review.
-- [ ] T3 — Build and independently verify rendered guide; hand off locally.
+- [x] T3 — Build and independently verify rendered guide; hand off locally.
   Route: delegated; execution and independent verification trigger.
   Proof: observed build/content checks, desktop/mobile inspection, local commits,
   untouched unrelated work and no push. Human review remains pending.
+  Observed: desktop 1440x1000/mobile 390x844, light/dark, no overflow;
+  TOC/FAQ/menu Enter work, browser errors/warnings 0. Correct title/meta,
+  canonical/hero, Article/Breadcrumb/FAQ schema and dates. No affiliate copy.
+  Owned preview PID 36014 stopped; session 61234 exited 143, port check curl 7.
 
 ## Progress and evidence
 
@@ -73,7 +77,7 @@ npm run check:no-zooplus-public and git diff --check.
 - Clinical ledger returned from 7 authoritative pages; parent spot-checked PDSA
   heatstroke and VCA emergencies. Brief prepared (116 lines) and independently
   checked against the ledger, existing informative routes and hero metadata.
-- SERP blocked: one Playwright Google ES navigation stayed pending over five minutes,
+- Pre-repair SERP block: one Playwright Google ES navigation stayed pending over five minutes,
   then was terminated without content. No variants/current volume observed.
   Requested actual SERP text from user; drafting waits for this prerequisite.
   Parent browser_tabs also remained pending and was terminated. Chromium exists
@@ -82,12 +86,13 @@ npm run check:no-zooplus-public and git diff --check.
 - Checks: git diff --check exit 0. Untracked brief no-index whitespace check
   exit 1 with no output (file differs from /dev/null; no whitespace error).
 - Preparation checkpoint: de297f2 (192 authored insertions plus hero), local only.
-  T1 is still incomplete because actual SERP evidence has not been obtained.
+  At that checkpoint T1 was incomplete because actual SERP had not been obtained.
 - Cached Playwright implementation recognizes the dedicated-profile env and spawns
   the extension connect page detached with ignored stdio. Its bridge wait has no
   deadline when no extension token is supplied; this is a possible hang mechanism,
   not a confirmed runtime cause. No MCP settings/processes were changed.
-- Build, content validators and rendered article checks not run: no MDX exists yet.
+- At that initial preparation checkpoint no build/content/render checks had run;
+  these were subsequently completed on the final article.
 - 2026-10-11: user explicitly requested correcting Playwright, suggesting the CLI.
   Repair is now authorized; compare the official CLI and MCP, then verify the
   selected implementation without changing any provider, quota or approval rules.
@@ -108,11 +113,22 @@ npm run check:no-zooplus-public and git diff --check.
   optimizer 0 converted/205 skipped, no tracked public/_headers delta.
   Affiliate-density and no-Zooplus-public passed; parent repeated affiliate-density.
   Three YAML and 17-column CSV checks pass; unrelated records preserved.
-- T3 independent rendered desktop/mobile/light/dark verification underway on
-  owned preview 127.0.0.1:4321; human editorial review remains pending.
+- T2 local article/tracking commit 77bbc40 (265 authored changed lines).
+  Running committed authored count before final handoff: 593.
+  Local slice 1: de297f2, c26d3f3, f24d216 (328 lines).
+  Local slice 2: 77bbc40 (265 lines); final verification handoff follows.
+  No remote branches or PRs created.
+- T3 independent source/engine/rendered verification passed. Screenshots/logs:
+  /tmp/patasyhogar-s19-validation/. No duplicate build was needed.
+  Low pre-existing follow-up: shared Header.astro mobile menu ignores Escape;
+  Enter toggle works and header was unchanged. No automatic scope expansion.
+- All preparation complete locally; human editorial review and publication pending.
+  Corrected MCP was proven through a fresh instance; the already advertised
+  connection is not proven reloaded and should use new settings after reconnect.
+  Existing CLI help works; no CLI package install/navigation was required.
 - Initial full Engram mirror #401 saved and read back; resync after this update.
 
 ## Next step
 
-Finish independent rendered verification, record local commit boundaries and
-close owned preview. Deliver locally for human review; no publication authorized.
+Human-review the prepared article. Future publication requires explicit user
+authorization and the project's pre-push build. No push was performed.
