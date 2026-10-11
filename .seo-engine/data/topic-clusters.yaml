@@ -942,11 +942,15 @@ clusters:
         notes: "S18. /cuidados/envenenamiento-perros/. Surfer 320 observado con Playwright Google ES el 2026-10-09; 390 del plan es histórico. Sospecha y exposiciones no alimentarias; enlaza al pillar. Publicación autorizada tras corrección y verificación; push origin/main cfa2600 observado por el padre el 2026-10-09. Despliegue Cloudflare no comprobado; enlace entrante pendiente."
       # Planned pages
       - title: "Primeros auxilios para perros: guía de emergencia"
-        target_keyword: "primeros auxilios perro emergencia"
+        target_keyword: "primeros auxilios perros"
         slug: "primeros-auxilios-perros-guia-emergencia"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
+        status: "human-review"
+        draft_date: "2026-10-11"
+        scheduled_date: "2026-10-12"
+        published_date: ""
+        serp_analyzed: true
+        blog_slug: "primeros-auxilios-perros-guia-emergencia"
+        notes: "S19. Guía general informativa preparada localmente para human review; sin publicación autorizada ni revisión veterinaria. SERP Google ES principal y dos variantes 2026-10-11, Surfer 110 actual separado del 110 histórico de abril; KD/CPC no verificados. Enlaza al pilar y deriva envenenamiento, calor, procesionaria y alimentos a sus guías. Sin maniobras Heimlich/RCP ni experiencias ficticias. Enlace entrante del pilar pendiente."
       - title: "Ansiedad por separación en perros: causas y soluciones"
         target_keyword: "ansiedad separación perro"
         slug: "ansiedad-separacion-perros-causas-soluciones"

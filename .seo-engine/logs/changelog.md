@@ -1,5 +1,12 @@
 # SEO Content Engine — Changelog
 
+## 2026-10-11 — S19 local preparation for human review
+**Action:** Register the informational dog first-aid draft and reconcile S19-only editorial tracking.
+**Files:** content-map, content-queue (q_010), seo-keywords, topic-clusters and editorial-plan S19 row.
+**Summary:** Spanish draft at /cuidados/primeros-auxilios-perros-guia-emergencia/, intended date 2026-10-12, five FAQs, five existing internal destinations and six cited clinical references. Fresh Playwright MCP recovered actual Google ES main/kit/choking queries on 2026-10-11; Surfer main 110 is separate from April's historical 110, kit 0/N/A and choking volume not observed. No unsupported interpretation of adjacent 0.33 as CPC. Sources constrain heatstroke guidance and exclude home Heimlich/RCP procedures, doses and fictional experience. Hero Pexels 6234618 verified. Draft is human-review, prepared locally, not published or approved; no push/PR/merge authorized. Final visible body count 1517 excludes headings, references and FAQs; FAQ answers add 89 words. Conservative source allocations include uncited derivations and FAQs: AVMA 188, VCA first aid 78, VCA emergencies 185, Red Cross choking 183, PDSA heat 86, PDSA toxins 107, each below 200. Final functional build and content validators passed; independent rendered checks and human review remain pending.
+**Verification:** One final npm run build passed: 172 pages, 13 generated CSP hashes, zero images converted and 205 skipped; no tracked public/_headers delta. npm run check:affiliate-density and npm run check:no-zooplus-public passed. Three YAML parses/S19 uniqueness and unrelated-entry preservation passed; CSV has 17 columns and two unique S19 keywords with unrelated rows preserved; git diff --check passed. Loopback preview started for independent verification; no publication or push.
+**Triggered by:** user (local S19 preparation, no push)
+
 ## 2026-10-09 — S18 publication bookkeeping
 **Action:** Record the authorized S18 main publication after scoped informative-copy correction and final verification.
 **Files:** S18-only content-map, content-queue (q_037), seo-keywords, topic-clusters, editorial-plan S18 checkbox and ODD task.

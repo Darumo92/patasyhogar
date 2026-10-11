@@ -1,5 +1,40 @@
-last_updated: '2026-10-09'
+last_updated: '2026-10-11'
 blogs:
+- slug: primeros-auxilios-perros-guia-emergencia
+  title: "Primeros auxilios para perros: guía de emergencia"
+  description: "Primeros auxilios para perros: qué hacer ante heridas, convulsiones o dificultad para respirar mientras contactas con urgencias veterinarias."
+  file_path: src/content/articulos/primeros-auxilios-perros-guia-emergencia.mdx
+  status: human-review
+  published_date: ''
+  draft_date: '2026-10-11'
+  scheduled_date: '2026-10-12'
+  last_updated: '2026-10-11'
+  blog_type: guide
+  content_type: informativo
+  animal: perro
+  categoria: higiene
+  cluster_id: tc_salud_comportamiento_perros
+  is_pillar: false
+  target_keywords:
+  - keyword: primeros auxilios perros
+    search_volume: 110
+    is_primary: true
+  - keyword: primeros auxilios perro
+    search_volume: 110
+    is_primary: false
+  features_mentioned: []
+  competitors_mentioned: []
+  internal_links_out:
+  - golpe-calor-perros
+  - envenenamiento-perros
+  - alimentos-prohibidos-perros
+  - procesionaria-pino-perros-peligros-primeros-auxilios
+  - guia-completa-salud-bienestar-perros
+  internal_links_from: []
+  word_count: 1517
+  has_eeat_signals: true
+  notes: "S19. Informativo, /cuidados/primeros-auxilios-perros-guia-emergencia/. Preparado localmente; human review pendiente, sin publicación ni aprobación humana. Fecha MDX prevista 2026-10-12. Brief: docs/brief-s19-primeros-auxilios-perros.md. SERP Google ES y dos variantes observadas con Playwright el 2026-10-11: Surfer principal 110; 110 de abril es histórico separado. KD/CPC no verificados; campo adyacente 0.33 sin etiqueta confirmada. Seis fuentes clínicas citadas, sin revisión veterinaria ni experiencias inventadas; sin instrucciones Heimlich/RCP, dosis o tratamientos domésticos. Hero Pexels 6234618 verificado. 1517 palabras de cuerpo visible, excluyendo encabezados, fuentes y FAQ; 89 palabras adicionales en respuestas FAQ. Build final y validadores de afiliación/Zooplus correctos; comprobación independiente y human review pendientes."
+  needs_update_reason: 'Human review and independent verification pending; incoming pillar link pending.'
 - slug: envenenamiento-perros
   title: "Envenenamiento en perros: síntomas y qué hacer"
   file_path: src/content/articulos/envenenamiento-perros.mdx

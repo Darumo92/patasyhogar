@@ -44,7 +44,7 @@ El 2026-09-09 el usuario confirma mantener el adelanto de una semana: todas las 
 | 49 | S16 | 2026-09-21 | Gato agresivo: tipos de agresividad felina y como actuar | gato agresivo | 210 (SERP 2026-09-30; historico 390) | Guia YMYL | Evergreen; seguridad y valoracion veterinaria; enlaza a estres y mordisco | [x] publicado 2026-10-01, aprobado por el usuario |
 | 50 | S17 | 2026-09-28 | Collares de adiestramiento para perros: opciones, riesgos y alternativas | collares adiestramiento perros | 2900 | Guia/Comp | Alto volumen; enfoque etico, no promover electricos | [x] publicado 2026-10-03, aprobado por el usuario |
 | 51 | S18 | 2026-10-05 | Envenenamiento en perros: sintomas y que hacer | envenenamiento perros | 390 | Guia YMYL | Riesgo hogar/exterior; fuentes veterinarias | [x] |
-| 52 | S19 | 2026-10-12 | Primeros auxilios para perros: guia de emergencia | primeros auxilios perros | 110 | Guia YMYL | Bajo volumen, alto E-E-A-T | [ ] |
+| 52 | S19 | 2026-10-12 | Primeros auxilios para perros: guía de emergencia | primeros auxilios perros | 110 | Guia YMYL | Surfer 110 observado 2026-10-11; abril 110 histórico | [x] preparado 2026-10-11, human-review; sin publicación |
 | 53 | S20 | 2026-10-19 | Mejor pienso para cachorros de raza pequena | pienso cachorro raza pequena | 260 | Comp | Gap de cluster alimentacion; requiere productos | [ ] |
 | 54 | S21 | 2026-10-26 | Como proteger tu casa para un gato: ventanas, cables, plantas y balcones | casa segura gato | 0 | Guia | Bajo volumen, pero encaja con Reddit/Quora | [ ] |
 | 55 | S22 | 2026-11-02 | Senales de dolor en perros: como detectarlas sin alarmarse | senales dolor perro | 0 | Guia YMYL | Antes de reevaluacion 2026-11-11 | [ ] |

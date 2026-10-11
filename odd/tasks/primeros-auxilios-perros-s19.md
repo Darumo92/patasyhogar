@@ -47,13 +47,17 @@ npm run check:no-zooplus-public and git diff --check.
   Proof: actual SERP observations, claim ledger and inspected unique image.
   Observed: main query + kit/choking variants captured and reconciled in brief;
   clinical ledger/image independently checked; whitespace check passes.
-- [ ] T2 — Draft coherent article and reconcile editorial tracking.
+- [x] T2 — Draft coherent article and reconcile editorial tracking.
   Route: delegated; article-writer for prose, bounded mechanical tracking worker.
   Allowed: src/content/articulos/primeros-auxilios-perros-guia-emergencia.mdx,
   docs/PLAN_EDITORIAL_v7.md, .seo-engine/data/content-map.yaml,
   .seo-engine/data/content-queue.yaml, .seo-engine/data/seo-keywords.csv,
   .seo-engine/data/topic-clusters.yaml and .seo-engine/logs/changelog.md.
   Proof: verified claims, humanization, source links, human-review state.
+  Observed: final body 1,517 visible words excluding headings/references/FAQs,
+  plus 89 FAQ-answer words. Independent verifier closed length/source-budget
+  findings; all six source-derived allocations including FAQs remain below 200.
+  Engine/plan/brief tracking integrity checks pass, all S19 status human-review.
 - [ ] T3 — Build and independently verify rendered guide; hand off locally.
   Route: delegated; execution and independent verification trigger.
   Proof: observed build/content checks, desktop/mobile inspection, local commits,
@@ -97,9 +101,18 @@ npm run check:no-zooplus-public and git diff --check.
 - T0 local work-unit commit c26d3f3 (57 authored changed lines); T1 preparation
   commit de297f2 (192 lines). Running committed authored count so far: 249.
   RDD disabled/unmanaged; no native review transitions.
+- T1 completed SERP/brief commit f24d216 (79 authored changed lines).
+  Running committed authored count: 328. Feature-branch-chain approved;
+  provisional local slices: preparation de297f2..f24d216, article/tracking next.
+- T2 proportionate checks: build passed (172 pages, 13 generated CSP hashes),
+  optimizer 0 converted/205 skipped, no tracked public/_headers delta.
+  Affiliate-density and no-Zooplus-public passed; parent repeated affiliate-density.
+  Three YAML and 17-column CSV checks pass; unrelated records preserved.
+- T3 independent rendered desktop/mobile/light/dark verification underway on
+  owned preview 127.0.0.1:4321; human editorial review remains pending.
 - Initial full Engram mirror #401 saved and read back; resync after this update.
 
 ## Next step
 
-Complete brief reconciliation with actual SERP, then supply the article writer
-with its verified ledger. No publication authorized.
+Finish independent rendered verification, record local commit boundaries and
+close owned preview. Deliver locally for human review; no publication authorized.

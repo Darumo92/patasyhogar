@@ -1,4 +1,4 @@
-last_updated: "2026-10-09"
+last_updated: "2026-10-11"
 
 queue:
   - id: "q_037"
@@ -345,24 +345,30 @@ queue:
 
   - id: "q_010"
     title: "Primeros auxilios para perros: guía de emergencia"
-    blog_type: "tutorial"
+    blog_type: "guide"
     content_type: "cluster"
     cluster_id: "tc_salud_comportamiento_perros"
-    target_keywords: ["primeros auxilios perro", "emergencia perro", "botiquín perro"]
-    unique_angle: "Guía práctica con protocolos paso a paso para las 10 emergencias más comunes (envenenamiento, golpe de calor, herida, atragantamiento). Incluye contenido del botiquín casero."
+    animal: "perro"
+    categoria: "higiene"
+    target_keywords: ["primeros auxilios perros", "primeros auxilios perro", "botiquín para perros"]
+    unique_angle: "Primeras decisiones, hemorragias, convulsiones y traslado mientras contactas con urgencias; atragantamiento limitado a urgencia e instrucciones profesionales, sin recetas Heimlich/RCP. Botiquín básico sin comparativa comercial."
     priority: "medium"
-    priority_reason: "Major content gap - only procesionaria covered. High search demand for emergency content."
-    status: "planned"
-    estimated_word_count: 3000
-    serp_analyzed: false
-    cannibalization_check: "passed"
-    notes: "Tipo: informativo. No product comparison needed."
+    priority_reason: "Plan v7.1 S19, fecha prevista 2026-10-12. Surfer principal 110 observado 2026-10-11; 110 de abril se conserva como dato histórico."
+    status: "human-review"
+    draft_date: "2026-10-11"
+    scheduled_date: "2026-10-12"
+    published_date: ""
+    actual_word_count: 1517
+    serp_analyzed: true
+    cannibalization_check: "passed — guía general; intoxicaciones, calor, procesionaria y listas alimentarias conservan sus detalles en artículos existentes"
+    notes: "S19 preparado localmente en /cuidados/primeros-auxilios-perros-guia-emergencia/. Brief y SERP principal/botiquín/atragantamiento verificados el 2026-10-11. Botiquín 0/N/A; atragantamiento sin volumen observado. Seis fuentes clínicas citadas y hero Pexels 6234618; sin revisión veterinaria. 1517 palabras de cuerpo visible, excluyendo encabezados, fuentes y FAQ; respuestas FAQ 89 adicionales. Human review pendiente; no publicado ni aprobado. Build final y validadores de afiliación/Zooplus correctos; verificación independiente y human review pendientes."
     depends_on: []
     internal_link_targets:
       - "golpe-calor-perros"
+      - "envenenamiento-perros"
       - "procesionaria-pino-perros-peligros-primeros-auxilios"
       - "alimentos-prohibidos-perros"
-      - "alergia-primaveral-perros-gatos-sintomas-tratamiento"
+      - "guia-completa-salud-bienestar-perros"
 
   - id: "q_011"
     title: "Ansiedad por separación en perros: causas y soluciones"

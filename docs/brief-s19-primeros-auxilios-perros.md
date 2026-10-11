@@ -1,7 +1,7 @@
 # S19 brief: dog first aid
 
-Prepared: 2026-10-11. Editorial slot: 2026-10-12. Status: READY TO DRAFT, human review pending.
-No article drafted; no publication authorized. Local feature-branch-chain and Pexels use approved. No push, PR or merge. RDD off.
+Prepared: 2026-10-11. Editorial slot: 2026-10-12. Status: article prepared, HUMAN REVIEW pending.
+Article drafted locally; no publication authorized. Local feature-branch-chain and Pexels use approved. No push, PR or merge. RDD off.
 Clinical evidence below was opened by the clinical-evidence worker today and supplied by the coordinator; this update adds no clinical research.
 The coordinator independently spot-checked the PDSA heatstroke and VCA common-emergencies pages.
 
@@ -149,8 +149,9 @@ Sources are international; use clinical guidance without copying their foreign s
 
 ## Checks and handoff
 
-This task writes only the brief. No article, editorial tracking changes, builds, tests, staging, commits or remote Git operations.
-Test-first exception: passive editorial preparation has no meaningful runnable RED; use readback and whitespace checks.
-The actual-SERP prerequisite has been met and reconciled with the safety-bound outline. This brief is READY TO DRAFT; task closure and commit records remain the coordinator's responsibility.
-The coordinator can now supply one article writer with this ledger and authorized outline; later checks include content validation, build and rendered review.
+The actual-SERP prerequisite was met and the article writer prepared the local MDX within the source-led outline. Task closure and commit records remain the coordinator's responsibility.
+Final visible body count: 1517 words, excluding headings, references and FAQs. FAQ answer text adds 89 words; six clinical URLs are cited.
+Conservative source allocations include uncited derivations and FAQ answers: AVMA 188, VCA first aid 78, VCA emergencies 185, Red Cross choking 183, PDSA heatstroke 86, PDSA toxins 107. Each is below 200 words; allocation evidence: `/tmp/patasyhogar-s19-validation/source-budget.txt`.
+Test-first exception: editorial content has no meaningful runnable RED; functional build, content validators and independent rendered checks apply. Verification records belong in the task/changelog, with observed results only.
+Human review and independent verification remain pending; the source ledger, procedural limits and actual SERP above remain the drafting evidence.
 Keep the future article and editorial records in prepared/human-review status until explicit publication authorization and completed checks.
