@@ -123,6 +123,8 @@ npm run check:no-zooplus-public and git diff --check.
   Low pre-existing follow-up: shared Header.astro mobile menu ignores Escape;
   Enter toggle works and header was unchanged. No automatic scope expansion.
 - All preparation complete locally; human editorial review and publication pending.
+  T3 verification/handoff commit: 1da1741 (32 authored changed lines).
+  Completed work-unit total: 625 lines before this identity-only bookkeeping.
   Corrected MCP was proven through a fresh instance; the already advertised
   connection is not proven reloaded and should use new settings after reconnect.
   Existing CLI help works; no CLI package install/navigation was required.
