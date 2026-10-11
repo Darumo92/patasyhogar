@@ -16,7 +16,32 @@ El MCP `playwright-browser` usa un perfil Chromium **separado** del navegador de
 - Perfil clonado del principal (con Keyword Surfer) pero sin caches ni locks.
 - Keyword Surfer instalado en ese perfil (ID `bafijghppfhdpldihckdcadbcobikaca`).
 
-**Si el MCP da `Request timed out` en todas las llamadas**, el perfil está bloqueado por el Chromium de escritorio. Solución: reiniciar opencode (el MCP se relanza con el perfil separado) o, si se ha vuelto a apuntar al perfil principal, cerrar el navegador de escritorio.
+Un `Request timed out` no demuestra por sí solo que haya un bloqueo de perfil. Comprobar la configuración y el error antes de actuar. No cerrar navegadores ajenos ni borrar locks; un perfil ya ocupado requiere resolver quién lo usa.
+
+## Codex: conexión directa verificada el 2026-10-11
+
+El bloque OpenCode anterior describe su configuración histórica. Codex usa esta configuración propia en `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.playwright-browser]
+command = "npx"
+args = ["-y", "@playwright/mcp@latest", "--executable-path", "/usr/bin/chromium"]
+
+[mcp_servers.playwright-browser.env]
+PLAYWRIGHT_MCP_USER_DATA_DIR = "/home/darumo/.config/chromium-playwright"
+```
+
+Se retiró `--extension` y se sustituyó `PWTEST_EXTENSION_USER_DATA_DIR` por la variable anterior. La conexión directa abre el perfil dedicado sin esperar el enlace de la extensión Playwright; Keyword Surfer siguió funcionando en la prueba. [Documentación MCP oficial](https://github.com/microsoft/playwright-mcp).
+
+Prueba observada con un servidor stdio nuevo del paquete local `@playwright/mcp` 0.0.83: initialize correcto, 25 tools, navegación y snapshot de `https://example.com/`, seguido de Google ES con snapshot real. La cabecera de Keyword Surfer mostró `110` para `primeros auxilios perros`; es una lectura fechada de extensión, no un dato oficial de Google. Se rechazaron cookies opcionales desde la interfaz de Google.
+
+Para verificar dentro de la sesión que conserva el MCP antiguo, se usó el SDK MCP local `Client` + `StdioClientTransport`, lanzando `node /home/darumo/.npm/_npx/9833c18b2d85bc59/node_modules/@playwright/mcp/cli.js --executable-path /usr/bin/chromium` con la variable de perfil indicada. El helper y las capturas están en `/tmp/patasyhogar-s19-browser-repair/`; esa ruta de caché puede cambiar y no debe convertirse en configuración permanente.
+
+El helper impuso 30 s a la navegación y 45 s por operación; cerró solo su navegador y transporte. Ningún bloqueo de perfil ni fallo de sandbox fue observado. No ejecutar dos propietarios del perfil a la vez ni usar `--no-sandbox`. En esta versión `browser_click` exige `target`, no `ref`; consultar `tools/list` antes de reutilizar argumentos de una versión anterior.
+
+La configuración persistente quedó corregida, pero el MCP ya anunciado en una sesión puede conservar sus argumentos anteriores. No se probó su recarga en caliente: abrir una sesión nueva para verificar ese canal. El servidor stdio nuevo sí quedó probado.
+
+El ejecutable existente `~/.local/bin/playwright-cli` es un wrapper de `pnpm dlx --package playwright`. La versión Playwright ya cacheada respondió correctamente a `node /home/darumo/.npm/_npx/9833c18b2d85bc59/node_modules/playwright/cli.js cli --help`. No se instaló otro CLI ni se sobrescribió el wrapper. [El CLI oficial](https://github.com/microsoft/playwright-cli/blob/main/README.md) admite `playwright cli` en instalaciones locales; una ayuda correcta no verifica por sí sola su navegación. Para esta recuperación bastó el MCP y no se hizo una prueba de navegador por CLI.
 
 ## Workflow
 

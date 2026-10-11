@@ -31,6 +31,15 @@ npm run check:no-zooplus-public and git diff --check.
 
 ## Tasks
 
+- [x] T0 — Repair browser automation and verify it before resuming SERP.
+  Route: delegated; explicit user-authorized MCP repair and CLI installation evaluation.
+  Scope: only Playwright MCP config, official CLI installation if useful, and
+  its documented project usage. Preserve OAuth/model/provider and browser profiles.
+  Proof: bounded real browser smoke/navigation/snapshot, followed by Google ES.
+  No arbitrary browser/session closing, security-option weakening or remote Git.
+  Observed: fresh MCP 0.0.83 initialized, listed 25 tools, navigated example.com
+  and returned its snapshot; Google ES main query and two variants returned SERP.
+  Existing cached CLI help succeeded (parent repeated it, exit 0); no installation.
 - [ ] T1 — Verify SERP/clinical ledger and prepare brief/hero.
   Route: delegated; broad editorial research and preparation trigger.
   Allowed: docs/brief-s19-primeros-auxilios-perros.md and
@@ -66,11 +75,26 @@ npm run check:no-zooplus-public and git diff --check.
   User reports no connection popup. Exact connection failure remains unknown.
 - Checks: git diff --check exit 0. Untracked brief no-index whitespace check
   exit 1 with no output (file differs from /dev/null; no whitespace error).
+- Preparation checkpoint: de297f2 (192 authored insertions plus hero), local only.
+  T1 is still incomplete because actual SERP evidence has not been obtained.
+- Cached Playwright implementation recognizes the dedicated-profile env and spawns
+  the extension connect page detached with ignored stdio. Its bridge wait has no
+  deadline when no extension token is supplied; this is a possible hang mechanism,
+  not a confirmed runtime cause. No MCP settings/processes were changed.
 - Build, content validators and rendered article checks not run: no MDX exists yet.
+- 2026-10-11: user explicitly requested correcting Playwright, suggesting the CLI.
+  Repair is now authorized; compare the official CLI and MCP, then verify the
+  selected implementation without changing any provider, quota or approval rules.
+- T0 repair: only Codex Playwright args/env changed to direct persistent Chromium
+  launch. Parsed TOML comparison verified all other settings unchanged. Dedicated
+  profile and extensions preserved. Fresh MCP smoke and three Google queries pass;
+  owned test browsers/transports closed. Live advertised MCP reload remains untested
+  until reconnection/new session. Project reference updated; CLI navigation not needed.
+- Main actual Surfer reading 110 on 2026-10-11; botiquin variant 0/N/A, choking
+  variant volume not observed. Evidence captured locally; brief reconciliation underway.
 - Initial full Engram mirror #401 saved and read back; resync after this update.
 
 ## Next step
 
-Recover the existing Playwright connection or receive actual Google ES SERP;
-reconcile brief and then supply the article writer with its verified ledger.
-No publication authorized. T1 remains incomplete until the SERP prerequisite.
+Complete brief reconciliation with actual SERP, then supply the article writer
+with its verified ledger. No publication authorized.
