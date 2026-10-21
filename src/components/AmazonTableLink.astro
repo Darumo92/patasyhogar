@@ -1,0 +1,34 @@
+---
+interface Props {
+  asin: string;
+  nombre: string;
+}
+
+const { asin, nombre } = Astro.props;
+if (!/^[A-Z0-9]{10}$/.test(asin)) {
+  throw new Error('Invalid Amazon product ASIN');
+}
+const url = new URL(`/dp/${asin}`, 'https://www.amazon.es');
+url.searchParams.set('tag', 'patasyhogar-21');
+---
+
+<a
+  href={url.href}
+  class="affiliate-button amazon"
+  target="_blank"
+  rel="nofollow noopener noreferrer sponsored"
+  aria-label={`Ver ${nombre} en Amazon`}
+>
+  Ver en Amazon
+</a>
+
+<style>
+  .affiliate-button {
+    min-width: max-content;
+    white-space: nowrap;
+    border-radius: 8px;
+    padding: 10px 12px;
+    line-height: 1.4;
+    text-align: center;
+  }
+</style>

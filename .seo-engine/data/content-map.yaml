@@ -30,10 +30,10 @@ blogs:
   - guia-alimentacion-perros
   - cachorro-primeras-semanas-casa
   internal_links_from: []
-  word_count: 2043
+  word_count: 2124
   has_eeat_signals: true
-  notes: "S20. /alimentacion/mejor-pienso-cachorro-raza-pequena/. Revisión documental local; Aprobación del usuario para publicar en main el 2026-10-21; integración, push y despliegue pendientes de confirmación. SERP Google ES 2026-10-21: intención comercial; Surfer exacto 0/N/A, volumen actual no confirmado; 260 del plan es histórico. Cuatro productos Tiendanimal e imágenes locales verificadas; Amazon API AssociateNotEligible, sin ASINs verificados. Advance sin precio ni composición numérica por discrepancias. Sin valoraciones ni experiencias inventadas. Hero Pexels 8057550. Brief: docs/brief-s20-pienso-cachorro-raza-pequena.md."
-  needs_update_reason: 'User approved publication; parent commit, integration, push and deployment confirmation pending.'
+  notes: "S20. /alimentacion/mejor-pienso-cachorro-raza-pequena/. Revisión documental local; Aprobación del usuario para publicar en main el 2026-10-21; push original abd834b confirmado por el padre; corrección Amazon y despliegue pendientes de confirmación. SERP Google ES 2026-10-21: intención comercial; Surfer exacto 0/N/A, volumen actual no confirmado; 260 del plan es histórico. Cuatro ofertas Amazon verificadas con Playwright tras API AssociateNotEligible; Amazon primero y Tiendanimal conservado, imágenes Amazon verificadas. Purina OptiStart y Healthy Start diferenciados, sin equivalencia de fórmula. Advance Amazon3 kg19.99 EUR y2–10 meses; Tiendanimal Consultar precio, composición numérica omitida. Sin valoraciones ni experiencias inventadas. Hero Pexels 8057550. Brief: docs/brief-s20-pienso-cachorro-raza-pequena.md."
+  needs_update_reason: 'Original push confirmed; Amazon correction commit/push and deployment confirmation pending.'
 - slug: primeros-auxilios-perros-guia-emergencia
   title: "Primeros auxilios para perros: guía de emergencia"
   description: "Primeros auxilios para perros: qué hacer ante heridas, convulsiones o dificultad para respirar mientras contactas con urgencias veterinarias."

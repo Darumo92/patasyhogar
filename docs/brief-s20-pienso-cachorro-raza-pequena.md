@@ -22,11 +22,11 @@ No universal winner, fabricated pets anecdotes, veterinarians, test results, rat
 ## Verification and implementation constraints
 
 Amazon API attempted first: sandbox fetch failed; network-enabled retry returned AssociateNotEligible
-(requires 10+ qualified sales in 30 days). No Amazon fields verified; omit all guessed ASINs/links.
+(requires 10+ qualified sales in 30 days). Initial pass returned no fields; subsequent authorized Playwright verification below resolved Amazon identities. No API retry/cache write.
 Retail verification below was performed by parent/researcher; image downloads inspected by this worker.
 ComparisonTable.astro allows omitted Amazon links but requires valoracion and emits Review/ratingValue
 unconditionally. Do NOT use it for unrated products. Parent approved plain MDX/HTML table with existing
-styles and four store CTAs only inside that table; no AffiliateButton or component edits.
+styles and store CTAs only inside that table; no AffiliateButton or changes to existing components.
 TopPick.astro supports an editorial box without store links; no rating required.
 No exported Tiendanimal helper found in src/lib. Existing private helper in ComparisonTable.astro
 uses https://assets.ikhnaie.me/click.html?wgcampaignid=1746742&wgprogramid=9507&wgtarget=
@@ -85,7 +85,7 @@ Alt: Cachorro tricolor comiendo de un cuenco metálico junto a su cuidadora.
 Actual view: young-looking small tricolour hound feeding indoors; breed/exact age unconfirmed.
 800x534,42988 bytes; SHA256 2295fbdafbd57f5d68bd37e20ab6d2b62bf2c938c2f5ec5340a00d345ec13d34.
 Compared192 other article WebPs: zero identical hashes. Hero and all product files visually inspected.
-Final independently counted prose:1904 body+139 FAQ=2043 words, excluding headings/table/markup.
+Original draft prose:1904 body+139 FAQ=2043 words. Corrected Amazon draft:1985 body+139 FAQ=2124 words, excluding headings/table/markup.
 Metadata:title43/meta144; draft2026-10-21, schedule2026-10-19; publication approved2026-10-21.
 Observed checks2026-10-21: npm run build passed (173 pages); affiliate-density and no-Zooplus-public passed.
 Three changed YAML files parsed; CSV195 data rows retain17 columns; git diff --check passed.
@@ -108,3 +108,62 @@ Follow-ups only, no fixes authorized: table CTAs offscreen without swipe hint; s
 shared AuthorBox fictional pets/testing claims. Shared sources unchanged from HEAD.
 User explicitly authorized main publication and cleanup; delivery exception-ok supersedes chain question.
 Browser page/tabs closed by tool; own previews stopped. Remote Git/deployment confirmation belongs to parent.
+
+## Amazon correction — verified 2026-10-21
+
+User requires Amazon monetization; original retailer-only delivery was corrected. Researcher opened each
+actual Amazon page with authorized Playwright, confirming title, variant, photo, price and stock.
+Parent independently reopened Purina, confirming OptiStart title/photo and 7.35 EUR in-stock buy box.
+No guessed ASINs; manufacturer/retailer fallback history above remains distinct from this verification.
+
+A1 https://www.amazon.es/dp/B005ZS7OUG
+Royal Canin Puppy Mini; 800 g; 11,54 €; in stock on2026-10-21.
+Photo: https://m.media-amazon.com/images/I/61EENt55NSL._AC_SX425_.jpg
+Rendered optimized photo uses the same image identifier with ._AC_SL300_.jpg.
+
+A2 https://www.amazon.es/dp/B00388OF7A
+Advance Mini Puppy Pollo; 3 kg; 19,99 €; in stock on2026-10-21.
+Photo: https://m.media-amazon.com/images/I/71FdRZO2b+L._AC_SX425_.jpg
+Rendered optimized photo uses the same image identifier with ._AC_SL300_.jpg.
+
+A3 https://www.amazon.es/dp/B0117E8PNQ
+Purina Pro Plan Small & Mini Puppy OptiStart Pollo; 700 g; 7,35 €; in stock on2026-10-21.
+Photo: https://m.media-amazon.com/images/I/61FaLMzk1kL._AC_SX425_.jpg
+Rendered optimized photo uses the same image identifier with ._AC_SL300_.jpg.
+
+A4 https://www.amazon.es/dp/B09Q8DVJRK
+Hill’s Science Plan Puppy Small & Mini Pollo; 6 kg; 55,90 €; in stock on2026-10-21.
+Photo: https://m.media-amazon.com/images/I/61H2wp-k9gL._AC_SX425_.jpg
+Rendered optimized photo uses the same image identifier with ._AC_SL300_.jpg.
+
+Advance Amazon variant age2–10 months is shown by its CTA; manufacturer general1–10 interval is
+not transferred to that variant. Tiendanimal still says Consultar precio due conflicting prices.
+Purina Amazon OptiStart and Tiendanimal Healthy Start are separately labelled; no formula equivalence
+verified. Removed Healthy Start composition numbers from this cross-version comparison.
+All A sources: max200 derived words each across article/table/FAQs; new facts limited to product title,
+format, dated price, label/version and age. Conservative allocation per A source remains below100 words.
+Existing manufacturer nutrition allocations unchanged except removing Purina formula numbers;
+Royal Canin manufacturer conservative allocation remains below190, other sources below200.
+AmazonTableLink validates10-character ASIN and constructs URL/tag internally; MDX has no literal tag.
+Four Amazon CTAs first, four retained Tiendanimal second in one table; no ratings or new review schema.
+Tiendanimal columns explicitly labelled, Amazon formats/prices separate, mobile horizontal-scroll hint.
+Own source count:1985 body +139 FAQ =2124 useful prose words, excluding headings/table/markup.
+Original main push94d44a0..abd834b confirmed by parent; Amazon correction commit/push and deployment
+confirmation pending. Existing publication approval and same-destination authorization remain active.
+
+### Final Amazon correction verification
+
+Observed RED before edits: temporary assertion found0 Amazon CTAs. Same exact
+`python /tmp/s20-amazon-check.py` passed after implementation and final scoped CTA fix:
+four exact ASIN/host/tag/sponsored/noopener Amazon-first links, four retained Tiendanimal
+links, store-specific packs/prices, version distinction, no literal MDX tag or fabricated Review.
+Final `npm run build` passed:173 pages,13 CSP hashes; tracked headers unchanged.
+Affiliate-density, no-Zooplus-public and git diff --check passed; changed YAML parsed;
+CSV195 data rows retain17 columns. Four optimized AmazonCDN images returnedHTTP200,
+nonblank; parent browser confirmed actual loading. Final prose:1985body+139FAQ=2124 useful words.
+Parent inspected final desktop1440/mobile390 table with all four rows and right-side CTAs:
+Ver en Amazon buttons122x44, nowrap and legible, full product in aria-label; table358px
+client/557px scroll, no page overflow. All images loaded; four tagged hrefs exact.
+Independent final component readback and identical assertion passed with no findings.
+Own preview20003 stopped by Ctrl-C, observed exit130; localhost4321 connection refused
+(curl exit7, HTTP000). No unrelated process touched; parent owns browser tab/session cleanup.

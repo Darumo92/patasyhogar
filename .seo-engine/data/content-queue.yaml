@@ -429,7 +429,7 @@ queue:
     draft_date: "2026-10-21"
     scheduled_date: "2026-10-19"
     cannibalization_check: "passed"
-    notes: "S20. Comparativa documental local, 2043 palabras útiles (1904 cuerpo y 139 FAQ); publicación en main aprobada por el usuario el 2026-10-21, integración/push/despliegue pendientes. SERP Google ES 2026-10-21; Surfer exacto 0/N/A, no confirma volumen cero; 260 histórico del plan. Cuatro productos Tiendanimal, imágenes locales; Amazon API AssociateNotEligible, sin ASINs verificados. Advance: Consultar precio y composición numérica omitida por discrepancias. Sin pruebas ni valoraciones inventadas. Brief: docs/brief-s20-pienso-cachorro-raza-pequena.md."
+    notes: "S20. Comparativa documental local, 2124 palabras útiles (1985 cuerpo y139 FAQ); publicación en main aprobada por el usuario el 2026-10-21, push original abd834b confirmado; corrección Amazon/despliegue pendientes. SERP Google ES 2026-10-21; Surfer exacto 0/N/A, no confirma volumen cero; 260 histórico del plan. Cuatro ofertas Amazon verificadas con Playwright tras API AssociateNotEligible, CTAs Amazon primero e imágenes Amazon; Tiendanimal conservado. Purina OptiStart distinto de Healthy Start; sin equivalencia de fórmula. Advance: Amazon3 kg19.99 EUR,2–10 meses; Tiendanimal Consultar precio, sin composición numérica. Sin pruebas ni valoraciones inventadas. Brief: docs/brief-s20-pienso-cachorro-raza-pequena.md."
     depends_on: []
     internal_link_targets:
       - "mejor-pienso-cachorro-raza-grande"

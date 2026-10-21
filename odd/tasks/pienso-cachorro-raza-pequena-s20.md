@@ -8,12 +8,20 @@ User explicitly authorized main integration/push and browser/local-server cleanu
 Branch: feat/pienso-cachorro-raza-pequena-s20, based on main 94d44a0.
 Preserve existing odd/tasks/collares-adiestramiento-s17.md edits and untracked .atl/.
 
+Correction authorized2026-10-21: user requires Amazon affiliate links because Amazon
+generates the revenue. Use Playwright when the API is unavailable. Existing GitHub
+main/HTTPS publication authorization persists for this same S20 correction.
+Correction branch: fix/s20-amazon-affiliate-links, based on main abd834b.
+
 ## Requirements
 
 - Distinguish puppy small/toy breed nutrition from adult mini and large-breed puppies.
 - Verify every product identity, pack, price, image and link; never invent missing data.
 - Amazon API first; fallback permitted public sources only when API unavailable.
 - Verify final products individually in Tiendanimal; no Zooplus.
+- Amazon purchase links are a core acceptance requirement; a retailer-only fallback
+  does not satisfy the commercial objective. Ask only for genuinely blocked fields.
+- Store clean ASIN/product URLs in MDX; append patasyhogar-21 through rendering code.
 - Primary source-backed feeding guidance; no fictional experience, tests or ratings.
 - Spain Spanish, humanizer, author/tone guidance, approximately 2000–3000 useful words.
 - Unique relevant hero, valid metadata, FAQs, internal links, low affiliate density.
@@ -31,6 +39,40 @@ node scripts/check-no-zooplus-public.mjs; git diff --check; rendered article ins
 Rollback boundary: only S20 brief, article, hero, and matching editorial records.
 
 ## Tasks
+
+- [x] T4 — Verify all four Amazon listings with Playwright and add primary Amazon CTAs.
+  Route: delegated read-only product researcher, then one bounded implementation worker.
+  Trigger: public product research plus cross-file affiliate link rendering change.
+  Allowed: S20 MDX, existing narrow affiliate helper or new link component if required,
+  S20 brief and only S20 editorial record notes that describe retailer coverage.
+  Acceptance: actual Amazon product pages verified, exact formula/pack identified,
+  four real tagged Amazon CTAs inside the table, retained Tiendanimal options,
+  no guessed prices/ASINs, no invented ratings, no literal tag parameter in MDX.
+  RED/GREEN: rendered-table assertion for four verified tagged Amazon product links;
+  existing published table is expected to fail before the change.
+  Observed: all four Amazon product pages opened with Playwright2026-10-21.
+  ASINs: B005ZS7OUG (RoyalCanin800g), B00388OF7A (Advance3kg), B0117E8PNQ
+  (PurinaOptiStart700g), B09Q8DVJRK (Hills6kg). PurinaHealthyStart remains a
+  distinct Tiendanimal listing; no formula equivalence is asserted. Advance Amazon
+  age2–10 is qualified separately from the manufacturer age1–10.
+  RED: zero Amazon CTAs; GREEN: python /tmp/s20-amazon-check.py verifies four exact
+  ASIN/tag/host/rel links, Amazon first, four retained Tiendanimal links and no raw
+  MDX tag or fabricated ratings. New component appends the affiliate tag internally.
+  Independent source/URL verification passed; original manufacturer budgets preserved.
+- [ ] T5 — Build, inspect the complete corrected table in local Playwright and deliver.
+  Route: delegated functional checks; parent browser spot check and Git delivery.
+  Acceptance: build, density/no-Zooplus, rendered affiliate assertion, desktop/mobile
+  table including both scroll ends, tagged hrefs, matching pack labels, closed owned
+  browser/preview, scoped commits and authorized main push with observed evidence.
+  Forecast for this correction: 130–200 authored changed lines; no unrelated UI fixes.
+  Observed final build:173 pages,13 CSP hashes, headers unchanged. Density,
+  no-Zooplus, whitespace, YAML and CSV195x17 checks passed. Prose2124 words.
+  Parent repeated the rendered affiliate assertion (GREEN) and inspected desktop1440
+  and mobile390 table captures, including both scroll ends and all four rows.
+  Compact122x44 Amazon buttons are legible; no page overflow; all images load.
+  Independent final component recheck passed. Parent browser closed gracefully;
+  own preview20003 stopped with exit130 and localhost4321 refused connection (curl7).
+  Functional and visual verification complete; commit/main push evidence pending.
 
 - [x] T1 — Prepare verified source/SERP/product ledger and unique hero.
   Route: delegated; broad editorial research and execution require bounded workers.
@@ -92,7 +134,8 @@ Rollback boundary: only S20 brief, article, hero, and matching editorial records
 - User authorized Pexels with configured project key, this article only.
 - Engram initial mirror saved as observation 554 and read back successfully.
 - Four manufacturer/retailer candidates verified; public Amazon listings remain
-  inaccessible. Tiendanimal-only comparison is acceptable; use local product images.
+  inaccessible in the initial research. The retailer-only fallback was rejected by
+  the user; Amazon monetization is required and T4/T5 reopen this feature.
 - Advance composition/price sources conflict; omit exact composition and prices
   until reconciled, never combine older retailer formula with current manufacturer.
 - ComparisonTable requires ratings and always emits Review. Use a plain comparison
@@ -101,12 +144,10 @@ Rollback boundary: only S20 brief, article, hero, and matching editorial records
 
 ## Next step
 
-All three tasks are complete locally. Preparation commit3ac52b3 and article/proof
-commit90dd80c are integrated in main. Cumulative authored work-unit count478 lines
-before this bookkeeping. Await explicit remote destination/credential confirmation,
-then push main to origin without force. Do not infer remote deployment success.
-
-Remote limitation: automatic approval review rejected parent git fetch before execution;
-no remote ref changed. Publication remains user-approved, but remote Git requires explicit
-destination and HTTPS credential/session confirmation. Parent may finish local commit/main
-integration before requesting that confirmation; do not infer completed push or deployment.
+Original S20 push succeeded94d44a0..abd834b after explicit GitHub destination/HTTPS
+credential confirmation. Browser and own preview were closed. T1/T2/T3 remain valid;
+T4/T5 now correct missing Amazon monetization. Verify products through the authorized
+Playwright fallback: complete. Scoped links, source checks, final build and local
+visual verification are complete. Commit and deliver this correction to main.
+The prior automatic remote-operation rejection was resolved by user confirmation;
+no new remote authorization question is needed for this same approved destination.

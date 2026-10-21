@@ -1,5 +1,16 @@
 # Lista de productos para actualizar
 
+## S20 — Pienso para cachorros de raza pequeña (2026-10-21)
+
+Verificados en páginas reales de Amazon.es con Playwright tras `AssociateNotEligible` en API. Los cuatro en stock durante la consulta; precios observados, sujetos a cambios. Purina OptiStart es una versión distinta de Healthy Start en Tiendanimal: no se ha verificado equivalencia de fórmula. Advance en Amazon indica 2–10 meses; el fabricante general indica 1–10. Detalles en `docs/brief-s20-pienso-cachorro-raza-pequena.md`.
+
+| Modelo | ASIN | Formato | URL Amazon | Precio observado | Imagen |
+|---|---|---|---|---|---|
+| Royal Canin Puppy Mini | B005ZS7OUG | 800 g | https://www.amazon.es/dp/B005ZS7OUG | 11,54 € | https://m.media-amazon.com/images/I/61EENt55NSL._AC_SL300_.jpg |
+| Advance Mini Puppy Pollo | B00388OF7A | 3 kg | https://www.amazon.es/dp/B00388OF7A | 19,99 € | https://m.media-amazon.com/images/I/71FdRZO2b+L._AC_SL300_.jpg |
+| Purina Pro Plan Small & Mini Puppy OptiStart Pollo | B0117E8PNQ | 700 g | https://www.amazon.es/dp/B0117E8PNQ | 7,35 € | https://m.media-amazon.com/images/I/61FaLMzk1kL._AC_SL300_.jpg |
+| Hill’s Science Plan Puppy Small & Mini Pollo | B09Q8DVJRK | 6 kg | https://www.amazon.es/dp/B09Q8DVJRK | 55,90 € | https://m.media-amazon.com/images/I/61H2wp-k9gL._AC_SL300_.jpg |
+
 ## S17 — Collares de adiestramiento para perros (2026-10-03)
 
 Verificados en Amazon.es mediante Playwright. Precios e imágenes observados el 2026-10-03; datos y decisiones en `docs/brief-s17-collares-adiestramiento.md`, §11.1-11.3. Artículo pendiente de revisión humana.
