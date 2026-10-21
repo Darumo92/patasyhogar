@@ -1,0 +1,89 @@
+# S20 — Small-breed puppy kibble comparison
+
+Status: evidence handoff for local human review; checked 2026-10-21. No publication authorization.
+Target: 2100–2500 useful Spanish prose words; Spain Spanish; documentary comparison, no hands-on testing.
+Primary query: pienso cachorro raza pequeña. Secondary: mejor pienso cachorro raza pequeña.
+
+## Search evidence and angle
+
+Parent observed real Google ES results on 2026-10-21: commercial comparison and retail intent.
+Main query: Amazon category, TodoMascota mini, Kiwoko adults, Virbac Puppy Small & Toy,
+Tiendanimal small-breed guide and Guaw puppy category. Mejor query: Tiendanimal guide,
+Kiwoko, DonCanino junior, TodoMascota, Qanimals, Barakaldo, Patitas&co and ElConfidencial.
+PAA: best small-breed puppy food and brands. No AI Overview observed.
+Related queries include small-breed food, adult mini, OCU and 20 kg puppy packs.
+Exact Surfer readings: 0/N/A; historical plan volume 260 is NOT current observed volume.
+Existing large-breed puppy, adult mini and general puppy guides are distinct; link rather than repeat.
+Explain expected adult weight, age windows and manageable pack sizes before ranking brands.
+A toy puppy under 4 kg adult weight must not receive the Royal Canin Mini recommendation by default.
+Editorial pick: Royal Canin Mini Puppy only for the verified 4–10 kg adult/2–10 month bracket.
+No universal winner, fabricated pets anecdotes, veterinarians, test results, ratings or review counts.
+
+## Verification and implementation constraints
+
+Amazon API attempted first: sandbox fetch failed; network-enabled retry returned AssociateNotEligible
+(requires 10+ qualified sales in 30 days). No Amazon fields verified; omit all guessed ASINs/links.
+Retail verification below was performed by parent/researcher; image downloads inspected by this worker.
+ComparisonTable.astro allows omitted Amazon links but requires valoracion and emits Review/ratingValue
+unconditionally. Do NOT use it for unrated products. Parent approved plain MDX/HTML table with existing
+styles and four store CTAs only inside that table; no AffiliateButton or component edits.
+TopPick.astro supports an editorial box without store links; no rating required.
+No exported Tiendanimal helper found in src/lib. Existing private helper in ComparisonTable.astro
+uses https://assets.ikhnaie.me/click.html?wgcampaignid=1746742&wgprogramid=9507&wgtarget=
+plus encodeURIComponent(retailerURL). Match this established URL format; do not change components.
+Use target="_blank" and rel="nofollow noopener noreferrer sponsored" on store links.
+Avoid speculative stock/returns/shipping/Product schema; no fabricated numeric ratings.
+Prices are dated observations, exclude conditional coupons, may change; no price guarantee.
+
+## Compact source ledger
+
+All sources below: verified by parent/researcher 2026-10-21; primary manufacturer or retailer evidence.
+F1 https://www.royalcanin.com/es/dogs/products/retail-products/puppy---mini-3000
+Complete dry food, 2–10 months, expected adult 4–10 kg; DHA, small kibble, FOS/MOS.
+F2 https://www.advance-affinity.com/es/es/perro/comida-perro/mini-puppy-1000409.html
+Complete Puppy Mini, 1–10 months, adult <=10 kg. Official chicken20/rice10/protein30/fat19;
+retailer says rice17/fat21. Formula conflict unresolved: omit numerical composition for Advance,
+do not merge formulas. Retail naming ActiveDefense/BabyProtect differs from current official name.
+F3 https://www.vetcenter.purina.es/products/purina-pro-plan-cachorro-small-mini-healthy-start-rico-en-pollo
+Complete small/mini puppy food; chicken20%, colostrum0.1%, protein32%, fat21%; 700 g/3 kg.
+Use this exact Healthy Start source, never the unrelated Sensitive Skin URL.
+F4 https://www.hillspet.es/dog-food/science-plan-puppy-small-mini-chicken-dry
+Complete small/mini puppy food, 4 weeks–12 months; chicken17%, total poultry27%, DHA, small kibble.
+F5 https://wsava.org/wp-content/uploads/2020/01/Frequently-Asked-Questions-and-Myths.pdf
+EU complete/complementary label distinction; gradual transition at least three days.
+F6 https://vcahospitals.com/pets-first/know-your-pet/feeding-times-and-frequency-for-your-dog
+Divide daily puppy food into 3–4 meals; no general hypoglycaemia prevention/treatment claim.
+Budget: each F source max200 derived words TOTAL across article and FAQs; allocate F1–F4 <=180 each,
+F5 <=150, F6 <=100. Paraphrase; never quote >25 words from any individual source.
+Rest of article: clearly reasoned purchase examples, trade-offs and navigation, not new factual claims.
+
+## Retail products and local image ledger
+
+P1 https://www.tiendanimal.es/royal-canin-mini-puppy-pienso-para-perros/ROY150318_M.html
+Observed 8 kg 45.99 EUR; alternatives 2 kg20.49/4 kg31.99. Local s20-royal-canin-mini-puppy.webp.
+P2 https://www.tiendanimal.es/advance-active-defense-mini-puppy-pienso-para-perros/ADV501110_M.html
+7 kg page34.59 EUR vs JSON-LD36.59; 3 kg21.59 observed. Publish Consultar precio, not exact quote.
+SINIVA coupon minimum59 EUR and base unreconciled: omit. Local s20-advance-puppy-mini.webp.
+P3 https://www.tiendanimal.es/pro-plan-puppy-small-y-mini-pollo-pienso-para-perros/PRO12272382_M.html
+700 g7.59 EUR in stock; 3 kg19.99 OUT OF STOCK, do not recommend that pack. Local s20-purina-small-mini-puppy.webp.
+P4 https://www.tiendanimal.es/hills-science-plan-pienso-pollo-para-cachorros-de-razas-mini/HIL2817V_M.html
+6 kg52.49 EUR; alternatives 1.5 kg17.09/3 kg26.49. Extra coupon requires69 EUR: exclude.
+Local s20-hills-puppy-small-mini.webp. All four local files under /images/productos/.
+Each P source max200 derived words total; allocate <=110 each across table, descriptions and FAQs.
+Actual inspected images: correct Mini Puppy/Small & Mini Puppy bags; Advance visibly marked7 kg.
+RC/Purina/Hill images have no readable package weight, so illustrative product images cannot certify
+selected pack weight. No contradictory visible weight found; describe weight as retailer selection,
+not as photographed pack. Purina image label Healthy Start despite retailer URL containing Optistart.
+All downloaded public Tiendanimal originals; resized within400x400 WebP, no labels altered.
+Observed output: RC15230 bytes, Advance12520, Purina15462, Hill11820; each400x400 and nonblank.
+
+## Hero and checks
+
+/images/articulos/pienso-cachorro-raza-pequena.webp: Pexels8057550, Kampus Production.
+Source: https://www.pexels.com/es-es/foto/mujer-perro-mascota-sentado-8057550/
+Alt: Cachorro tricolor comiendo de un cuenco metálico junto a su cuidadora.
+Actual view: young-looking small tricolour hound feeding indoors; breed/exact age unconfirmed.
+800x534,42988 bytes; SHA256 2295fbdafbd57f5d68bd37e20ab6d2b62bf2c938c2f5ec5340a00d345ec13d34.
+Compared192 other article WebPs: zero identical hashes. Hero and all product files visually inspected.
+Pending parent/article checks: build, affiliate density, no-Zooplus-public, rendered review, human review.
+No deterministic RED test for passive editorial work. This handoff changes only brief and four images.
