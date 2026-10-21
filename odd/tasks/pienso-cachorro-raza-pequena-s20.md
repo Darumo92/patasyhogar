@@ -55,8 +55,8 @@ Rollback boundary: only S20 brief, article, hero, and matching editorial records
   Independent count: 1904 body + 139 FAQ = 2043 useful prose words, excluding
   headings/table/markup; title 43 and description 144 characters. Four verified
   Tiendanimal products, no Amazon identifiers or invented ratings.
-  Implementation and checks complete; included in the scoped article work-unit commit.
-- [ ] T3 — Verify build, content constraints and rendered page; local handoff.
+  Local article/tracking work-unit commit: 90dd80c (288 additions, 23 deletions).
+- [x] T3 — Verify build, content constraints and rendered page; local handoff.
   Route: delegated; command execution and independent verification as applicable.
   Acceptance: observed checks, honest gaps, scoped work-unit commit and authorized delivery only.
   Observed final build: 173 pages, 13 CSP hashes; public/_headers unchanged.
@@ -73,7 +73,10 @@ Rollback boundary: only S20 brief, article, hero, and matching editorial records
   Two console errors originate from autofill extension. Follow-ups only: no table
   swipe hint, shared Header Escape and shared AuthorBox fictional experience claims;
   shared sources unchanged, fixes outside authorized scope. Browser page/tabs and own preview closed.
-  Verification observed; checkbox remains open pending work-unit commit closure.
+  Verification evidence included in work-unit commit 90dd80c. Main integrated by
+  fast-forward from 94d44a0 to 90dd80c; remote push remains pending confirmation.
+  Parent closed Playwright page/tabs; local port4321 connection refused (curl7).
+  Native review remains disabled/unmanaged. No shared follow-up fixes were added.
 
 ## Evidence and progress
 
@@ -98,10 +101,10 @@ Rollback boundary: only S20 brief, article, hero, and matching editorial records
 
 ## Next step
 
-Parent closes T2/T3 with scoped work-unit commit evidence, integrates into main and
-pushes to the existing authorized origin HTTPS. Record actual identities/results;
-never infer remote deployment. No chain decision remains pending. T2/T3 boxes stay
-open until parent records commit closure. Parent Engram mirror requires this final document.
+All three tasks are complete locally. Preparation commit3ac52b3 and article/proof
+commit90dd80c are integrated in main. Cumulative authored work-unit count478 lines
+before this bookkeeping. Await explicit remote destination/credential confirmation,
+then push main to origin without force. Do not infer remote deployment success.
 
 Remote limitation: automatic approval review rejected parent git fetch before execution;
 no remote ref changed. Publication remains user-approved, but remote Git requires explicit
