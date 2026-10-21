@@ -417,14 +417,19 @@ queue:
     content_type: "cluster"
     cluster_id: "tc_alimentacion_perros"
     target_keywords: ["mejor pienso cachorro raza pequeña", "pienso cachorro mini"]
-    unique_angle: "Croqueta pequeña, alta densidad calórica, control de hipoglucemia. Diferencia necesidades de raza toy vs raza pequeña estándar."
+    unique_angle: "Distinguir peso adulto esperado y edad; comparar formatos, desembolso inicial y coste por kilo. Royal Canin solo para 4–10 kg de adulto; separar toy."
     priority: "medium"
     priority_reason: "Direct gap - cachorro raza grande exists but not raza pequeña. Symmetric coverage needed."
-    status: "planned"
+    status: "published"
+    published_date: "2026-10-21"
     estimated_word_count: 2500
-    serp_analyzed: false
+    serp_analyzed: true
+    serp_checked_date: "2026-10-21"
+    blog_slug: "mejor-pienso-cachorro-raza-pequena"
+    draft_date: "2026-10-21"
+    scheduled_date: "2026-10-19"
     cannibalization_check: "passed"
-    notes: "Tipo: comparativa. Requires real Amazon product research."
+    notes: "S20. Comparativa documental local, 2043 palabras útiles (1904 cuerpo y 139 FAQ); publicación en main aprobada por el usuario el 2026-10-21, integración/push/despliegue pendientes. SERP Google ES 2026-10-21; Surfer exacto 0/N/A, no confirma volumen cero; 260 histórico del plan. Cuatro productos Tiendanimal, imágenes locales; Amazon API AssociateNotEligible, sin ASINs verificados. Advance: Consultar precio y composición numérica omitida por discrepancias. Sin pruebas ni valoraciones inventadas. Brief: docs/brief-s20-pienso-cachorro-raza-pequena.md."
     depends_on: []
     internal_link_targets:
       - "mejor-pienso-cachorro-raza-grande"

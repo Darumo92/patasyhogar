@@ -113,9 +113,11 @@ clusters:
       - title: "Mejor pienso para cachorros de raza pequeña"
         target_keyword: "mejor pienso cachorro raza pequeña"
         slug: "mejor-pienso-cachorro-raza-pequena"
-        status: "planned"
-        serp_analyzed: false
-        blog_slug: ""
+        status: "published"
+        published_date: "2026-10-21"
+        serp_analyzed: true
+        serp_checked_date: "2026-10-21"
+        blog_slug: "mejor-pienso-cachorro-raza-pequena"
       - title: "Cómo elegir el mejor pienso para tu perro"
         target_keyword: "cómo elegir pienso perro"
         slug: "como-elegir-pienso-perro"

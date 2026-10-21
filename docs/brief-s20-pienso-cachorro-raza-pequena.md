@@ -1,6 +1,6 @@
 # S20 — Small-breed puppy kibble comparison
 
-Status: evidence handoff for local human review; checked 2026-10-21. No publication authorization.
+Status: user approved main publication2026-10-21; parent integration/push and deployment confirmation pending.
 Target: 2100–2500 useful Spanish prose words; Spain Spanish; documentary comparison, no hands-on testing.
 Primary query: pienso cachorro raza pequeña. Secondary: mejor pienso cachorro raza pequeña.
 
@@ -85,5 +85,26 @@ Alt: Cachorro tricolor comiendo de un cuenco metálico junto a su cuidadora.
 Actual view: young-looking small tricolour hound feeding indoors; breed/exact age unconfirmed.
 800x534,42988 bytes; SHA256 2295fbdafbd57f5d68bd37e20ab6d2b62bf2c938c2f5ec5340a00d345ec13d34.
 Compared192 other article WebPs: zero identical hashes. Hero and all product files visually inspected.
-Pending parent/article checks: build, affiliate density, no-Zooplus-public, rendered review, human review.
-No deterministic RED test for passive editorial work. This handoff changes only brief and four images.
+Final independently counted prose:1904 body+139 FAQ=2043 words, excluding headings/table/markup.
+Metadata:title43/meta144; draft2026-10-21, schedule2026-10-19; publication approved2026-10-21.
+Observed checks2026-10-21: npm run build passed (173 pages); affiliate-density and no-Zooplus-public passed.
+Three changed YAML files parsed; CSV195 data rows retain17 columns; git diff --check passed.
+Built page: correct trailing-slash canonical, natural title/meta, five local image paths, four sponsored
+encoded Tiendanimal links; four JSON-LD blocks parse, Article/FAQPage with4 questions, no Review/ratingValue.
+CSP native script found13 hashes; public/_headers byte-identical to HEAD.
+Independent source-budget review: Royal Canin conservative allocation<190 words; all other sources<200.
+Final built example corrected to30 kg. Parent browser checked desktop1440/mobile390: no page overflow;
+mobile table scrolls358px client/499px content; four400px product images loaded, four CTAs accessible, FAQ opens.
+Parent repeated affiliate-density check:exit0. User approved publication2026-10-21; parent commit/integration/push and deployment confirmation pending.
+No deterministic RED test for passive editorial work. No further build required after this bookkeeping.
+
+## Final visual review and delivery authorization
+
+Parent inspected13 desktop1440x1000 screenshots across11517px and24 mobile390x844 across17947px,
+plus both mobile table ends and settled dark hero/table. Eight images loaded, no page overflow/cut/overlap;
+four FAQ Enter toggles, seven TOC anchors below header, back-to-top and24 same-origin links200 verified.
+Newsletter required/type validation without submission. Two console errors from autofill extension.
+Follow-ups only, no fixes authorized: table CTAs offscreen without swipe hint; shared Header Escape;
+shared AuthorBox fictional pets/testing claims. Shared sources unchanged from HEAD.
+User explicitly authorized main publication and cleanup; delivery exception-ok supersedes chain question.
+Browser page/tabs closed by tool; own previews stopped. Remote Git/deployment confirmation belongs to parent.
