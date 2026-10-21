@@ -59,7 +59,8 @@ Rollback boundary: only S20 brief, article, hero, and matching editorial records
   ASIN/tag/host/rel links, Amazon first, four retained Tiendanimal links and no raw
   MDX tag or fabricated ratings. New component appends the affiliate tag internally.
   Independent source/URL verification passed; original manufacturer budgets preserved.
-- [ ] T5 — Build, inspect the complete corrected table in local Playwright and deliver.
+  Work-unit commit:ff7fe50 (195 additions,38 deletions); integrated into main.
+- [x] T5 — Build, inspect the complete corrected table in local Playwright and deliver.
   Route: delegated functional checks; parent browser spot check and Git delivery.
   Acceptance: build, density/no-Zooplus, rendered affiliate assertion, desktop/mobile
   table including both scroll ends, tagged hrefs, matching pack labels, closed owned
@@ -72,7 +73,9 @@ Rollback boundary: only S20 brief, article, hero, and matching editorial records
   Compact122x44 Amazon buttons are legible; no page overflow; all images load.
   Independent final component recheck passed. Parent browser closed gracefully;
   own preview20003 stopped with exit130 and localhost4321 refused connection (curl7).
-  Functional and visual verification complete; commit/main push evidence pending.
+  Functional and visual verification complete. Git push origin main succeeded
+  abd834b..ff7fe50; local HEAD and origin/main both ff7fe50a1981cfcbc0b36d64c2877a3ff14c08e6.
+  This work-unit closes T4/T5. Remote application deployment has not been verified.
 
 - [x] T1 — Prepare verified source/SERP/product ledger and unique hero.
   Route: delegated; broad editorial research and execution require bounded workers.
@@ -148,6 +151,7 @@ Original S20 push succeeded94d44a0..abd834b after explicit GitHub destination/HT
 credential confirmation. Browser and own preview were closed. T1/T2/T3 remain valid;
 T4/T5 now correct missing Amazon monetization. Verify products through the authorized
 Playwright fallback: complete. Scoped links, source checks, final build and local
-visual verification are complete. Commit and deliver this correction to main.
+visual verification are complete. Correction ff7fe50 is pushed to origin/main.
+No implementation or Git delivery work remains; application deployment is unverified.
 The prior automatic remote-operation rejection was resolved by user confirmation;
 no new remote authorization question is needed for this same approved destination.

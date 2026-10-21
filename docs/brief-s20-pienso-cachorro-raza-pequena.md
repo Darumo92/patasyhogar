@@ -1,6 +1,6 @@
 # S20 — Small-breed puppy kibble comparison
 
-Status: user approved main publication2026-10-21; parent integration/push and deployment confirmation pending.
+Status: user approved main publication2026-10-21; original and Amazon correction pushes confirmed, application deployment unverified.
 Target: 2100–2500 useful Spanish prose words; Spain Spanish; documentary comparison, no hands-on testing.
 Primary query: pienso cachorro raza pequeña. Secondary: mejor pienso cachorro raza pequeña.
 
@@ -95,7 +95,7 @@ CSP native script found13 hashes; public/_headers byte-identical to HEAD.
 Independent source-budget review: Royal Canin conservative allocation<190 words; all other sources<200.
 Final built example corrected to30 kg. Parent browser checked desktop1440/mobile390: no page overflow;
 mobile table scrolls358px client/499px content; four400px product images loaded, four CTAs accessible, FAQ opens.
-Parent repeated affiliate-density check:exit0. User approved publication2026-10-21; parent commit/integration/push and deployment confirmation pending.
+Parent repeated affiliate-density check:exit0. User approved publication2026-10-21; integration and pushes confirmed, application deployment unverified.
 No deterministic RED test for passive editorial work. No further build required after this bookkeeping.
 
 ## Final visual review and delivery authorization
@@ -148,8 +148,8 @@ AmazonTableLink validates10-character ASIN and constructs URL/tag internally; MD
 Four Amazon CTAs first, four retained Tiendanimal second in one table; no ratings or new review schema.
 Tiendanimal columns explicitly labelled, Amazon formats/prices separate, mobile horizontal-scroll hint.
 Own source count:1985 body +139 FAQ =2124 useful prose words, excluding headings/table/markup.
-Original main push94d44a0..abd834b confirmed by parent; Amazon correction commit/push and deployment
-confirmation pending. Existing publication approval and same-destination authorization remain active.
+Original main push94d44a0..abd834b and Amazon correction pushabd834b..ff7fe50 confirmed by parent.
+Local HEAD and origin/main matched ff7fe50 after push; application deployment has not been verified.
 
 ### Final Amazon correction verification
 
